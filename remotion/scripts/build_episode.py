@@ -72,7 +72,8 @@ def main(spec_path: str, out_path: str) -> None:
         f"// 전체 길이 {total:.1f}초\n"
         f'export const {spec["id"]}: Episode = {{\n'
         f'  title: {json.dumps(spec["title"], ensure_ascii=False)},\n'
-        '  bgm: "audio/bgm_3min.wav",\n'
+        + (f'  series: {json.dumps(spec["series"], ensure_ascii=False)},\n' if "series" in spec else "")
+        + '  bgm: "audio/bgm_3min.wav",\n'
         "  scenes: [\n" + "\n".join(body) + "\n  ],\n};\n"
     )
     Path(out_path).write_text(ts, encoding="utf-8")

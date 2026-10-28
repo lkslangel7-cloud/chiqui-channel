@@ -1,0 +1,387 @@
+{
+ "id": "ep01En3min",
+ "title": "Chiqui's Three Hellos",
+ "series": "Baby Dino Chiqui",
+ "target": 180,
+ "scenes": [
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s01.png",
+   "min": 5,
+   "lines": []
+  },
+  {
+   "kind": "video",
+   "src": "clips/ep01_c01.mp4",
+   "lines": [
+    [
+     "en/k01",
+     "Narrator",
+     "Beyond the volcano lies a little island: Rainbow Valley."
+    ],
+    [
+     "en/k02",
+     "Narrator",
+     "There are forests, a lake, and fluffy cloud hills."
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s02.png",
+   "lines": [
+    [
+     "en/l01_narr",
+     "Narrator",
+     "A baby dinosaur named Chiqui just moved to Rainbow Valley."
+    ],
+    [
+     "en/k03",
+     "Chiqui",
+     "Wow! This is my new neighborhood!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s11.png",
+   "lines": [
+    [
+     "en/k04",
+     "Chiqui",
+     "All unpacked! Now what should I play?"
+    ],
+    [
+     "en/k05",
+     "Chiqui",
+     "I know! Let's go find some friends!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s03.png",
+   "lines": [
+    [
+     "en/k06",
+     "Narrator",
+     "Happy sounds are coming from the lake."
+    ],
+    [
+     "en/k07",
+     "Chiqui",
+     "Wow, look! Friends!"
+    ]
+   ]
+  },
+  {
+   "kind": "video",
+   "src": "clips/ep01_c06.mp4",
+   "lines": [
+    [
+     "en/k08",
+     "Pico",
+     "Who can throw the farthest? One, two, three!"
+    ],
+    [
+     "en/k09",
+     "Tino",
+     "Wow, Pico, you're the best!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s04.png",
+   "lines": [
+    [
+     "en/l02_narr",
+     "Narrator",
+     "Chiqui wanted to make friends, but felt too shy."
+    ],
+    [
+     "en/k10",
+     "Chiqui",
+     "What do I say? Why am I so nervous?"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s13.png",
+   "lines": [
+    [
+     "en/k11",
+     "Narrator",
+     "So Chiqui turned around and walked away alone."
+    ],
+    [
+     "en/k12",
+     "Chiqui",
+     "Maybe... I can't make any friends."
+    ]
+   ]
+  },
+  {
+   "kind": "video",
+   "src": "clips/ep01_c02.mp4",
+   "lines": [
+    [
+     "en/l03_narr",
+     "Narrator",
+     "Just then, Chiqui's three horns began to sparkle!"
+    ],
+    [
+     "en/l04_chiqui",
+     "Chiqui",
+     "Annyeong! Hello! Hola!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s05.png",
+   "lines": [
+    [
+     "en/k13",
+     "Narrator",
+     "Each horn knows a hello from a different country."
+    ],
+    [
+     "en/k14",
+     "Chiqui",
+     "There are three ways to say hello!"
+    ],
+    [
+     "en/k15",
+     "Chiqui",
+     "Okay, I'll be brave!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s14.png",
+   "lines": [
+    [
+     "en/k16",
+     "Narrator",
+     "First, Chiqui walked up to tall Bronti."
+    ],
+    [
+     "en/k17",
+     "Chiqui",
+     "Thump, thump... I can do it!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s06.png",
+   "lines": [
+    [
+     "en/l05_chiqui",
+     "Chiqui",
+     "Annyeong! I'm Chiqui!"
+    ],
+    [
+     "en/l06_bronti",
+     "Bronti",
+     "Annyeong, Chiqui! Nice to meet you."
+    ],
+    [
+     "en/k18",
+     "Bronti",
+     "Take your time, it's okay. Want to play with us?"
+    ],
+    [
+     "en/k19",
+     "Chiqui",
+     "Yes, I'd love to!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s15.png",
+   "lines": [
+    [
+     "en/k20",
+     "Narrator",
+     "Just then, someone came swooshing down from the sky."
+    ],
+    [
+     "en/k21",
+     "Pico",
+     "I'll go check it out first!"
+    ]
+   ]
+  },
+  {
+   "kind": "video",
+   "src": "clips/ep01_c03.mp4",
+   "lines": [
+    [
+     "en/l07_chiqui",
+     "Chiqui",
+     "Hello!"
+    ],
+    [
+     "en/l08_pico",
+     "Pico",
+     "Hello! I'm Pico!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s07.png",
+   "lines": [
+    [
+     "en/k22",
+     "Pico",
+     "You're new here, right? I saw everything from the sky!"
+    ],
+    [
+     "en/k23",
+     "Chiqui",
+     "Pico, flying is so cool!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s16.png",
+   "lines": [
+    [
+     "en/k24",
+     "Narrator",
+     "But someone was peeking from behind a tree."
+    ],
+    [
+     "en/k25",
+     "Chiqui",
+     "Huh? Who's that over there?"
+    ],
+    [
+     "en/k26",
+     "Pico",
+     "Oh, that's Tino! Tino gets shy!"
+    ]
+   ]
+  },
+  {
+   "kind": "video",
+   "src": "clips/ep01_c04.mp4",
+   "lines": [
+    [
+     "en/l09_chiqui",
+     "Chiqui",
+     "Hola!"
+    ],
+    [
+     "en/l10_tino",
+     "Tino",
+     "Can I... play with you too?"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s08.png",
+   "lines": [
+    [
+     "en/k27",
+     "Chiqui",
+     "Of course! Let's play together!"
+    ],
+    [
+     "en/k28",
+     "Tino",
+     "Thank you. I wanted to say hi, but I was shy."
+    ],
+    [
+     "en/k29",
+     "Chiqui",
+     "Me too! We're just the same!"
+    ]
+   ]
+  },
+  {
+   "kind": "video",
+   "src": "clips/ep01_c07.mp4",
+   "lines": [
+    [
+     "en/k30",
+     "Bronti",
+     "Let's play hide-and-seek! I'll be it!"
+    ],
+    [
+     "en/k31",
+     "Bronti",
+     "One, two, three, four, five!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s18.png",
+   "lines": [
+    [
+     "en/k32",
+     "Bronti",
+     "Found you! I can see your horns, Chiqui!"
+    ],
+    [
+     "en/k33",
+     "Chiqui",
+     "Hee hee! Three horns are hard to hide!"
+    ],
+    [
+     "en/k34",
+     "Narrator",
+     "The four friends played until the sun went down."
+    ]
+   ]
+  },
+  {
+   "kind": "video",
+   "src": "clips/ep01_c05.mp4",
+   "lines": [
+    [
+     "en/k35_all",
+     "All",
+     "Now we're all friends!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s09.png",
+   "lines": [
+    [
+     "en/l12_narr",
+     "Narrator",
+     "When you say hello first, you make new friends!"
+    ],
+    [
+     "en/k39",
+     "Narrator",
+     "Will you say hello to a friend first today?"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s10.png",
+   "tail": 8,
+   "lines": [
+    [
+     "en/k40",
+     "Chiqui",
+     "Bye-bye! Annyeong! Adiós! See you next time!"
+    ]
+   ]
+  }
+ ]
+}

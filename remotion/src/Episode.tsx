@@ -20,12 +20,19 @@ const fontFace = `
   src: url("${staticFile("fonts/Jua.ttf")}") format("truetype");
 }`;
 
+// 자막의 말하는 사람 이름(세 언어)별 테두리 색
 const speakerColor: Record<string, string> = {
   치키: "#7cc242",
   브론티: "#5aa9e6",
   피코: "#f2b705",
   티노: "#f28c28",
+  Chiqui: "#7cc242",
+  Bronti: "#5aa9e6",
+  Pico: "#f2b705",
+  Tino: "#f28c28",
 };
+
+const narrationLabels = ["나레이션", "Narrator", "Narrador"];
 
 const Caption: React.FC<{ line: Line; frames: number }> = ({ line, frames }) => {
   const frame = useCurrentFrame();
@@ -33,7 +40,7 @@ const Caption: React.FC<{ line: Line; frames: number }> = ({ line, frames }) => 
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
-  const isNarration = line.speaker === "나레이션";
+  const isNarration = narrationLabels.includes(line.speaker);
   return (
     <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: 56, opacity }}>
       <div
@@ -126,7 +133,7 @@ const SceneView: React.FC<{ scene: Scene; frames: number; index: number }> = ({ 
   );
 };
 
-const Title: React.FC<{ title: string }> = ({ title }) => {
+const Title: React.FC<{ title: string; series: string }> = ({ title, series }) => {
   const frame = useCurrentFrame();
   const opacity = interpolate(frame, [0, 8, 70, 85], [0, 1, 1, 0], {
     extrapolateLeft: "clamp",
@@ -144,7 +151,7 @@ const Title: React.FC<{ title: string }> = ({ title }) => {
           textShadow: "0 5px 0 rgba(0,0,0,0.2)",
         }}
       >
-        아기공룡 치키 · {title}
+        {series} · {title}
       </div>
     </AbsoluteFill>
   );
@@ -172,7 +179,7 @@ export const EpisodeVideo: React.FC<{ episode: Episode }> = ({ episode }) => {
           );
         })}
         <Sequence from={0} durationInFrames={90}>
-          <Title title={episode.title} />
+          <Title title={episode.title} series={episode.series ?? "아기공룡 치키"} />
         </Sequence>
       </AbsoluteFill>
       {episode.bgm && (

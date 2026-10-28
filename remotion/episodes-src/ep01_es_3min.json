@@ -1,0 +1,387 @@
+{
+ "id": "ep01Es3min",
+ "title": "Los tres saludos de Chiqui",
+ "series": "Chiqui, el dinosaurito",
+ "target": 180,
+ "scenes": [
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s01.png",
+   "min": 5,
+   "lines": []
+  },
+  {
+   "kind": "video",
+   "src": "clips/ep01_c01.mp4",
+   "lines": [
+    [
+     "es/k01",
+     "Narrador",
+     "Más allá del volcán hay una islita: el Valle Arcoíris."
+    ],
+    [
+     "es/k02",
+     "Narrador",
+     "Hay bosques, un lago y colinas de nubes."
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s02.png",
+   "lines": [
+    [
+     "es/l01_narr",
+     "Narrador",
+     "Chiqui, un bebé dinosaurio, llegó a vivir al Valle Arcoíris."
+    ],
+    [
+     "es/k03",
+     "Chiqui",
+     "¡Guau! ¡Este es mi nuevo vecindario!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s11.png",
+   "lines": [
+    [
+     "es/k04",
+     "Chiqui",
+     "¡Ya acomodé todo! ¿Y ahora a qué juego?"
+    ],
+    [
+     "es/k05",
+     "Chiqui",
+     "¡Ya sé! ¡Voy a buscar amigos!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s03.png",
+   "lines": [
+    [
+     "es/k06",
+     "Narrador",
+     "Del lago llegan sonidos muy alegres."
+    ],
+    [
+     "es/k07",
+     "Chiqui",
+     "¡Mira! ¡Amigos!"
+    ]
+   ]
+  },
+  {
+   "kind": "video",
+   "src": "clips/ep01_c06.mp4",
+   "lines": [
+    [
+     "es/k08",
+     "Pico",
+     "¿Quién la lanza más lejos? ¡Uno, dos, tres!"
+    ],
+    [
+     "es/k09",
+     "Tino",
+     "¡Guau, Pico, eres el mejor!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s04.png",
+   "lines": [
+    [
+     "es/l02_narr",
+     "Narrador",
+     "Chiqui quería hacer amigos, pero le daba mucha vergüenza."
+    ],
+    [
+     "es/k10",
+     "Chiqui",
+     "¿Qué les digo? ¡Me tiemblan las patitas!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s13.png",
+   "lines": [
+    [
+     "es/k11",
+     "Narrador",
+     "Y Chiqui se alejó sin decir nada."
+    ],
+    [
+     "es/k12",
+     "Chiqui",
+     "Tal vez... no pueda hacer amigos."
+    ]
+   ]
+  },
+  {
+   "kind": "video",
+   "src": "clips/ep01_c02.mp4",
+   "lines": [
+    [
+     "es/l03_narr",
+     "Narrador",
+     "¡De pronto, los tres cuernos de Chiqui brillaron!"
+    ],
+    [
+     "es/l04_chiqui",
+     "Chiqui",
+     "¡Annyeong! ¡Hello! ¡Hola!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s05.png",
+   "lines": [
+    [
+     "es/k13",
+     "Narrador",
+     "Cada cuerno sabe saludar en un idioma diferente."
+    ],
+    [
+     "es/k14",
+     "Chiqui",
+     "¡Hay tres maneras de saludar!"
+    ],
+    [
+     "es/k15",
+     "Chiqui",
+     "¡Bien, voy a ser valiente!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s14.png",
+   "lines": [
+    [
+     "es/k16",
+     "Narrador",
+     "Primero, Chiqui se acercó a Bronti, la más alta."
+    ],
+    [
+     "es/k17",
+     "Chiqui",
+     "Pum, pum... ¡yo puedo!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s06.png",
+   "lines": [
+    [
+     "es/l05_chiqui",
+     "Chiqui",
+     "¡Annyeong! ¡Soy Chiqui!"
+    ],
+    [
+     "es/l06_bronti",
+     "Bronti",
+     "¡Annyeong, Chiqui! Mucho gusto."
+    ],
+    [
+     "es/k18",
+     "Bronti",
+     "Sin prisa, está bien. ¿Quieres jugar con nosotros?"
+    ],
+    [
+     "es/k19",
+     "Chiqui",
+     "¡Sí, me encantaría!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s15.png",
+   "lines": [
+    [
+     "es/k20",
+     "Narrador",
+     "Entonces, alguien bajó volando del cielo. ¡Fiuuu!"
+    ],
+    [
+     "es/k21",
+     "Pico",
+     "¡Yo voy a ver primero!"
+    ]
+   ]
+  },
+  {
+   "kind": "video",
+   "src": "clips/ep01_c03.mp4",
+   "lines": [
+    [
+     "es/l07_chiqui",
+     "Chiqui",
+     "¡Hello!"
+    ],
+    [
+     "es/l08_pico",
+     "Pico",
+     "¡Hello! ¡Soy Pico!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s07.png",
+   "lines": [
+    [
+     "es/k22",
+     "Pico",
+     "Acabas de llegar, ¿verdad? ¡Lo vi todo desde el cielo!"
+    ],
+    [
+     "es/k23",
+     "Chiqui",
+     "¡Pico, volar es genial!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s16.png",
+   "lines": [
+    [
+     "es/k24",
+     "Narrador",
+     "Pero alguien espiaba detrás de un árbol."
+    ],
+    [
+     "es/k25",
+     "Chiqui",
+     "¿Eh? ¿Quién está ahí?"
+    ],
+    [
+     "es/k26",
+     "Pico",
+     "¡Ah, es Tino! ¡A Tino le da vergüenza todo!"
+    ]
+   ]
+  },
+  {
+   "kind": "video",
+   "src": "clips/ep01_c04.mp4",
+   "lines": [
+    [
+     "es/l09_chiqui",
+     "Chiqui",
+     "¡Hola!"
+    ],
+    [
+     "es/l10_tino",
+     "Tino",
+     "¿Puedo... jugar con ustedes?"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s08.png",
+   "lines": [
+    [
+     "es/k27",
+     "Chiqui",
+     "¡Claro! ¡Vamos a jugar!"
+    ],
+    [
+     "es/k28",
+     "Tino",
+     "Gracias. Quería saludar, pero me daba vergüenza."
+    ],
+    [
+     "es/k29",
+     "Chiqui",
+     "¡A mí también! ¡Somos iguales!"
+    ]
+   ]
+  },
+  {
+   "kind": "video",
+   "src": "clips/ep01_c07.mp4",
+   "lines": [
+    [
+     "es/k30",
+     "Bronti",
+     "¿Jugamos a las escondidas? ¡Yo cuento!"
+    ],
+    [
+     "es/k31",
+     "Bronti",
+     "¡Uno, dos, tres, cuatro, cinco!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s18.png",
+   "lines": [
+    [
+     "es/k32",
+     "Bronti",
+     "¡Te encontré! ¡Se ven tus cuernos, Chiqui!"
+    ],
+    [
+     "es/k33",
+     "Chiqui",
+     "¡Ji, ji! ¡Tres cuernos son difíciles de esconder!"
+    ],
+    [
+     "es/k34",
+     "Narrador",
+     "Los cuatro jugaron hasta que se puso el sol."
+    ]
+   ]
+  },
+  {
+   "kind": "video",
+   "src": "clips/ep01_c05.mp4",
+   "lines": [
+    [
+     "es/k35_all",
+     "Todos",
+     "¡Ahora somos amigos!"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s09.png",
+   "lines": [
+    [
+     "es/l12_narr",
+     "Narrador",
+     "¡Si saludas primero, haces nuevos amigos!"
+    ],
+    [
+     "es/k39",
+     "Narrador",
+     "¿Hoy le dirás hola primero a alguien?"
+    ]
+   ]
+  },
+  {
+   "kind": "image",
+   "src": "scenes/ep01_s10.png",
+   "tail": 8,
+   "lines": [
+    [
+     "es/k40",
+     "Chiqui",
+     "¡Adiós! ¡Annyeong! ¡Bye-bye! ¡Hasta pronto!"
+    ]
+   ]
+  }
+ ]
+}

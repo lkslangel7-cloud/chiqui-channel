@@ -14,6 +14,7 @@ export type Scene = {
 
 export type Episode = {
   title: string;
+  series?: string; // 제목 앞에 붙는 시리즈 이름 (기본값: 아기공룡 치키)
   bgm?: string;
   scenes: Scene[];
 };
