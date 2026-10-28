@@ -1,0 +1,6 @@
+remotion/node_modules/
+# 완성 영상은 용량이 커서 저장소에 넣지 않는다 (다운로드해서 보관)
+output/*.mp4
+# remotion/public의 그림·영상은 assets/에서 복사해 쓴다 (scripts/sync_assets.sh)
+remotion/public/scenes/
+remotion/public/clips/
