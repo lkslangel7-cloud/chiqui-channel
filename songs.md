@@ -66,8 +66,11 @@
 - 크앙: 두 손을 공룡 발톱처럼 들고 외치기
 - 쭈욱 / 훨훨 / 살랑살랑: 목 길게 빼기 / 팔 날개처럼 흔들기 / 엉덩이 흔들기
 
-Suno 스타일 문구:
-`very simple bouncy toddler song, Korean lyrics, call-and-response echo, ukulele, glockenspiel, handclaps, stomping drum, kids choir, major key, 108 bpm, short repetitive catchy phrases, nursery rhyme style`
+Suno 스타일 문구 (따라 부르기 쉬운 느린 템포):
+`toddler sing-along nursery song, slow easy tempo 90 bpm, Korean lyrics, clear slow pronunciation, simple melody with small note range, call-and-response with pauses for kids to echo, warm female lead with kids choir, ukulele, glockenspiel, soft handclaps, gentle stomp beat, major key, cheerful and cozy`
+
+- 90 bpm: 걷는 속도. 아이가 가사를 한 박자씩 따라 하고 율동할 수 있는 빠르기다. 너무 처지면 85~95 bpm 안에서 조절한다.
+- 메아리 부분이 묻히면 문구 끝에 `leave a short gap after each line for echo`를 붙인다.
 
 ## 1화 삽입곡: 안녕 헬로 올라 (한국어)
 
