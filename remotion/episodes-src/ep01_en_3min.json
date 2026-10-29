@@ -190,9 +190,9 @@
      "Annyeong, Chiqui! Nice to meet you."
     ],
     [
-     "en/k18",
+     "en/k18b",
      "Bronti",
-     "Take your time, it's okay. Want to play with us?"
+     "Want to play with us?"
     ],
     [
      "en/k19",
@@ -209,6 +209,11 @@
      "en/k20",
      "Narrator",
      "Just then, someone came swooshing down from the sky."
+    ],
+    [
+     "en/k41",
+     "Pico",
+     "Huh? Is that a new friend?"
     ],
     [
      "en/k21",
@@ -280,7 +285,7 @@
      "Hola!"
     ],
     [
-     "en/l10_tino",
+     "en/l10b_tino",
      "Tino",
      "Can I... play with you too?"
     ]
@@ -377,9 +382,9 @@
    "tail": 8,
    "lines": [
     [
-     "en/k40",
+     "en/k40b",
      "Chiqui",
-     "Bye-bye! Annyeong! Adiós! See you next time!"
+     "Bye! Annyeong! Adiós!"
     ]
    ]
   }

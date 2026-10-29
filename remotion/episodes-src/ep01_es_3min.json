@@ -190,9 +190,9 @@
      "¡Annyeong, Chiqui! Mucho gusto."
     ],
     [
-     "es/k18",
+     "es/k18b",
      "Bronti",
-     "Sin prisa, está bien. ¿Quieres jugar con nosotros?"
+     "¿Quieres jugar con nosotros?"
     ],
     [
      "es/k19",
@@ -209,6 +209,11 @@
      "es/k20",
      "Narrador",
      "Entonces, alguien bajó volando del cielo. ¡Fiuuu!"
+    ],
+    [
+     "es/k41",
+     "Pico",
+     "¿Eh? ¿Llegó un nuevo amigo?"
     ],
     [
      "es/k21",
@@ -280,7 +285,7 @@
      "¡Hola!"
     ],
     [
-     "es/l10_tino",
+     "es/l10b_tino",
      "Tino",
      "¿Puedo... jugar con ustedes?"
     ]
@@ -377,9 +382,9 @@
    "tail": 8,
    "lines": [
     [
-     "es/k40",
+     "es/k40b",
      "Chiqui",
-     "¡Adiós! ¡Annyeong! ¡Bye-bye! ¡Hasta pronto!"
+     "¡Adiós! ¡Annyeong! ¡Bye!"
     ]
    ]
   }

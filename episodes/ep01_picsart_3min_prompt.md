@@ -67,10 +67,11 @@ Scenes in order (about 3 minutes total):
 12. (11s) Chiqui waves up at Bronti; Bronti lowers her long neck kindly and smiles. Chiqui's pink horn glows.
    Chiqui: "안녕! 나는 치키야!"
    Bronti: "안녕, 치키! 반가워."
-   Bronti: "천천히 해도 괜찮아. 우리 같이 놀래?"
+   Bronti: "우리 같이 놀래?"
    Chiqui: "응, 좋아!"
 13. (7s) Pico flies high in the blue sky with wings spread; Chiqui and Bronti look up in surprise.
    Narrator: "그때, 하늘에서 누군가 슝 내려왔어요."
+   Pico: "어? 새로운 친구가 왔나?"
    Pico: "내가 먼저 보고 올게!"
 14. (4s) Pico swoops down in a playful loop and lands in front of Chiqui, flapping. Chiqui's blue horn glows.
    Chiqui: "헬로!"
@@ -84,7 +85,7 @@ Scenes in order (about 3 minutes total):
    Pico: "아, 티노야! 부끄럼쟁이 티노!"
 17. (5s) Tino slowly steps out from behind the tree and gives a small shy wave. Chiqui's yellow horn glows.
    Chiqui: "올라!"
-   Tino: "나도… 같이 해도 돼?"
+   Tino: "나도… 같이 놀아도 돼?"
 18. (11s) Chiqui smiles warmly at Tino at the forest edge; Tino's nervous smile becomes a happy smile.
    Chiqui: "그럼! 우리 같이 놀자!"
    Tino: "고마워. 사실 나도 인사하고 싶었는데, 부끄러웠어."
@@ -102,7 +103,7 @@ Scenes in order (about 3 minutes total):
    Narrator: "먼저 인사하면, 친구가 생겨요!"
    Narrator: "여러분도 오늘, 친구에게 먼저 인사해 볼까요?"
 23. (12s) Sunset over Rainbow Valley; Chiqui in front waving goodbye at the viewer, friends behind waving, first stars appear. Music swells for the ending.
-   Chiqui: "안녕! 헬로! 올라! 또 만나!"
+   Chiqui: "안녕! 바이! 아디오스!"
 ```
 
 ## [B] 장면별 프롬프트

@@ -1,7 +1,7 @@
 import type { Episode } from "../types";
 
 // scripts/build_episode.py가 ep01_ko_3min.json에서 생성한 파일. 직접 고치지 말고 스펙을 고친 뒤 다시 생성한다.
-// 전체 길이 187.4초
+// 전체 길이 187.8초
 export const ep01Ko3min: Episode = {
   title: "치키의 세 가지 인사",
   bgm: "audio/bgm_3min.wav",
@@ -108,21 +108,22 @@ export const ep01Ko3min: Episode = {
     {
       kind: "image",
       src: "scenes/ep01_s06.png",
-      duration: 11.35,
+      duration: 9.61,
       lines: [
         { at: 0.5, audio: "audio/l05_chiqui.wav", speaker: "치키", text: "안녕! 나는 치키야!" },
         { at: 2.98, audio: "audio/l06_bronti.wav", speaker: "브론티", text: "안녕, 치키! 반가워." },
-        { at: 5.74, audio: "audio/k18.wav", speaker: "브론티", text: "천천히 해도 괜찮아. 우리 같이 놀래?" },
-        { at: 9.34, audio: "audio/k19.wav", speaker: "치키", text: "응, 좋아!" }
+        { at: 5.74, audio: "audio/k18b.wav", speaker: "브론티", text: "우리 같이 놀래?" },
+        { at: 7.59, audio: "audio/k19.wav", speaker: "치키", text: "응, 좋아!" }
       ],
     },
     {
       kind: "image",
       src: "scenes/ep01_s15.png",
-      duration: 7.47,
+      duration: 10.17,
       lines: [
         { at: 0.5, audio: "audio/k20.wav", speaker: "나레이션", text: "그때, 하늘에서 누군가 슝 내려왔어요." },
-        { at: 4.84, audio: "audio/k21.wav", speaker: "피코", text: "내가 먼저 보고 올게!" }
+        { at: 4.84, audio: "audio/k41.wav", speaker: "피코", text: "어? 새로운 친구가 왔나?" },
+        { at: 7.53, audio: "audio/k21.wav", speaker: "피코", text: "내가 먼저 보고 올게!" }
       ],
     },
     {
@@ -156,10 +157,10 @@ export const ep01Ko3min: Episode = {
     {
       kind: "video",
       src: "clips/ep01_c04.mp4",
-      duration: 4.83,
+      duration: 4.88,
       lines: [
         { at: 0.5, audio: "audio/l09_chiqui.wav", speaker: "치키", text: "Hola!" },
-        { at: 1.7, audio: "audio/l10_tino.wav", speaker: "티노", text: "나도… 같이 해도 돼?" }
+        { at: 1.7, audio: "audio/l10b_tino.wav", speaker: "티노", text: "나도… 같이 놀아도 돼?" }
       ],
     },
     {
@@ -211,9 +212,9 @@ export const ep01Ko3min: Episode = {
     {
       kind: "image",
       src: "scenes/ep01_s10.png",
-      duration: 11.69,
+      duration: 11.05,
       lines: [
-        { at: 0.5, audio: "audio/k40.wav", speaker: "치키", text: "안녕! Hello! Hola! 또 만나!" }
+        { at: 0.5, audio: "audio/k40b.wav", speaker: "치키", text: "안녕! Bye! Adiós!" }
       ],
     },
   ],
