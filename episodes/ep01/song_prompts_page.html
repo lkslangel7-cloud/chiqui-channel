@@ -1,0 +1,129 @@
+<title>치키 노래 프롬프트</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: 한 열 작업 목록. 위에 고정 문구, 장면 번호 바로가기, 장면마다 그림·영상 프롬프트 카드 */
+:root {
+  --bg: #fbf7f0; --surface: #ffffff; --ink: #2b2620; --muted: #76695a;
+  --line: #eadfce; --accent: #e8711c; --accent-ink: #ffffff; --code: #f6efe3;
+  --display: "Jua", "Noto Sans KR", system-ui, sans-serif;
+  --body: "Noto Sans KR", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #1d1a16; --surface: #27231e; --ink: #f2ebe0; --muted: #b3a593;
+  --line: #3a342c; --accent: #f08a3c; --accent-ink: #1d1a16; --code: #2f2a24; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #1d1a16; --surface: #27231e; --ink: #f2ebe0; --muted: #b3a593;
+  --line: #3a342c; --accent: #f08a3c; --accent-ink: #1d1a16; --code: #2f2a24; color-scheme: dark; }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 20px; }
+h1 { font-family: var(--display); font-weight: 400; font-size: 2rem; margin: 0; text-wrap: balance; }
+.lead { margin: 0; color: var(--muted); }
+.steps { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; }
+.fixed { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 14px; }
+.fixed h2, .scene h2 { font-family: var(--display); font-weight: 400; margin: 0; font-size: 1.25rem; }
+nav.jump { display: flex; flex-wrap: wrap; gap: 6px; position: sticky; top: env(safe-area-inset-top, 0px); background: var(--bg); padding-block: 8px; z-index: 5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+nav.jump a { min-width: 2.4em; text-align: center; padding: 4px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); text-decoration: none; font-variant-numeric: tabular-nums; font-size: .9rem; }
+nav.jump a:hover, nav.jump a:focus-visible { border-color: var(--accent); outline: none; }
+.scene { display: grid; gap: 10px; padding-block: 16px; border-top: 1px solid var(--line); scroll-margin-top: 56px; }
+.scene-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; }
+.sid { font-family: var(--mono); color: var(--accent); font-size: .95rem; }
+.time { margin-left: auto; color: var(--muted); font-size: .9rem; font-variant-numeric: tabular-nums; }
+.ref { margin: 0; font-size: .95rem; }
+.label, .kind { font-size: .78rem; letter-spacing: .04em; color: var(--muted); margin-right: 6px; }
+.prompt { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; min-width: 0; }
+.prompt-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 10px 8px 12px; border-bottom: 1px solid var(--line); }
+pre { margin: 0; padding: 12px; white-space: pre-wrap; word-break: break-word; font-family: var(--mono); font-size: .82rem; line-height: 1.55; background: var(--code); color: var(--ink); }
+button.copy { font: inherit; font-size: .85rem; font-weight: 600; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+button.copy:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+button.copy.done { background: transparent; color: var(--accent); }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+.note { margin: 0; font-size: .95rem; color: var(--muted); }
+.steps b { color: var(--ink); }
+</style>
+<div class="wrap">
+  <header style="display:grid;gap:8px">
+    <h1>1화 · 노래 만들기 (Suno)</h1>
+    <p class="lead">노래 3곡과 배경음악 1곡이에요. 칸마다 <b>복사</b>를 눌러 Suno에 그대로 붙여 넣으세요.</p>
+  </header>
+  <section class="fixed">
+    <h2>쓰는 순서</h2>
+    <ol class="steps">
+      <li>Suno에서 <b>Create</b> → <b>Custom</b> 모드를 켠다.</li>
+      <li>Lyrics 칸에 가사, Styles 칸에 스타일, Title 칸에 제목을 붙여 넣는다.</li>
+      <li><b>More Options → Exclude styles</b>에 아래 문구를 넣는다 (4곡 모두 같음).</li>
+      <li>한 번에 2곡씩 나와요. 발음이 또렷하고 밝은 쪽을 고른다.</li>
+      <li>15초보다 길게 나와도 괜찮아요. 받은 파일을 여기 채팅에 올려 주면 길이는 제가 맞춰 자를게요.</li>
+      <li>유튜브 수익 창출을 하려면 Suno <b>유료 플랜(Pro 이상)</b>으로 만든 곡이어야 해요. 무료 플랜 곡은 상업적으로 쓸 수 없어요.</li>
+    </ol>
+    <div class="prompt"><div class="prompt-head"><span class="kind">Exclude styles (4곡 공통)</span><button type="button" class="copy" data-target="ex">복사</button></div><pre id="ex">rap, rock, electric guitar, heavy drums, autotune, male lead vocal, minor key, dark, scary, sad</pre></div>
+  </section>
+  <nav class="jump" aria-label="곡 바로가기"><a href="#op">오프닝</a><a href="#egg">알 찾기</a><a href="#ed">엔딩</a><a href="#bgm">배경음악</a></nav>
+  <article class="scene" id="op"><header class="scene-head"><h2>치키의 공룡 마을 (오프닝)</h2><span class="time">0:00–0:15 · 매회 같음</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="op-t">복사</button></div><pre id="op-t">치키의 공룡 마을 (오프닝)</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="op-l">복사</button></div><pre id="op-l">[Intro]
+쿵쿵 쾅! 쿵쿵 쾅!
+
+[Verse]
+뿔이 셋 치키 (치키!)
+크앙 크앙 로로 (로로!)
+목이 쭈욱 토롱 (토롱!)
+하늘 슝슝 피오 (피오!)
+공룡 마을 친구들
+치키치키 출발!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="op-s">복사</button></div><pre id="op-s">short 15-second kids TV show theme jingle, bright and bouncy, 100 bpm, kids choir shouting the names back, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy</pre></div></article><article class="scene" id="egg"><header class="scene-head"><h2>공룡알 어디 있니?</h2><span class="time">1:15–2:10 · 1화 노래 (후렴은 매회 같은 틀)</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="egg-t">복사</button></div><pre id="egg-t">공룡알 어디 있니?</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="egg-l">복사</button></div><pre id="egg-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+공룡알 어디 있니? (어디 있니?)
+친구들아 같이 가자
+치키치키 출발!
+
+[Verse 1]
+바위 뒤에 동글동글
+크앙! 로로가 찾았다
+알이 하나, 알이 둘 (둘!)
+
+[Verse 2]
+나무 위에 동글동글
+쭈욱~ 토롱이 찾았다
+알이 둘, 알이 셋 (셋!)
+
+[Verse 3]
+언덕 위에 동글동글
+슝~ 피오가 찾았다
+알이 셋, 알이 넷 (넷!)
+
+[Verse 4]
+나뭇잎 밑 동글동글
+짠! 치키가 찾았다
+알이 넷, 알이 다섯 (다섯!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+공룡알 다 찾았다 (찾았다!)
+친구들아 고마워
+치키치키 출발!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="egg-s">복사</button></div><pre id="egg-s">call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy</pre></div></article><article class="scene" id="ed"><header class="scene-head"><h2>내일 또 만나요 (엔딩)</h2><span class="time">2:45–3:00 · 매회 같음</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="ed-t">복사</button></div><pre id="ed-t">내일 또 만나요 (엔딩)</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="ed-l">복사</button></div><pre id="ed-l">[Verse]
+오늘도 재밌었지? (응!)
+바우 할아버지도 (허허!)
+안녕! 바이바이! 아디오스!
+내일 또 만나요, 크앙!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="ed-s">복사</button></div><pre id="ed-s">short 15-second goodbye jingle, gentle and warm, 92 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy</pre></div></article><article class="scene" id="bgm"><header class="scene-head"><h2>공룡 마을 배경음악</h2><span class="time">노래 사이 이야기 부분 · 가사 없음</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="bgm-t">복사</button></div><pre id="bgm-t">공룡 마을 배경음악</pre></div><p class="note">가사 칸은 비워 두고 <b>Instrumental</b>을 켠다.</p><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="bgm-s">복사</button></div><pre id="bgm-s">gentle playful background music for a toddler cartoon, instrumental, no vocals, 92 bpm, ukulele, marimba, glockenspiel, soft pizzicato strings, light handclaps, major key, calm and cozy, steady and loopable</pre></div></article>
+</div>
+<script>
+document.addEventListener('click', function (ev) {
+  var btn = ev.target.closest('button.copy');
+  if (!btn) return;
+  var el = document.getElementById(btn.dataset.target);
+  var text = el.textContent;
+  function done() { btn.textContent = '복사됨'; btn.classList.add('done');
+    setTimeout(function () { btn.textContent = '복사'; btn.classList.remove('done'); }, 1600); }
+  function fallback() { var r = document.createRange(); r.selectNodeContents(el);
+    var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = '선택됨 · 길게 눌러 복사'; }
+  try { navigator.clipboard.writeText(text).then(done, fallback); } catch (e) { fallback(); }
+});
+</script>

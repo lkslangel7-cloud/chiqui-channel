@@ -1,0 +1,135 @@
+"""1화 노래 4곡의 Suno 프롬프트 복사 페이지와 md를 만든다.
+사용법: python3 -I prompts/build_song_page.py episodes/ep01
+"""
+import html, re, sys
+from pathlib import Path
+
+ep = Path(sys.argv[1])
+BASE = ("toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, "
+        "warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, "
+        "major key, cheerful and cozy")
+EXCLUDE = "rap, rock, electric guitar, heavy drums, autotune, male lead vocal, minor key, dark, scary, sad"
+
+SONGS = [
+    dict(id="op", title="치키의 공룡 마을 (오프닝)", where="0:00–0:15 · 매회 같음", inst=False,
+         style="short 15-second kids TV show theme jingle, bright and bouncy, 100 bpm, kids choir shouting the names back, " + BASE,
+         lyrics="""[Intro]
+쿵쿵 쾅! 쿵쿵 쾅!
+
+[Verse]
+뿔이 셋 치키 (치키!)
+크앙 크앙 로로 (로로!)
+목이 쭈욱 토롱 (토롱!)
+하늘 슝슝 피오 (피오!)
+공룡 마을 친구들
+치키치키 출발!
+
+[End]"""),
+    dict(id="egg", title="공룡알 어디 있니?", where="1:15–2:10 · 1화 노래 (후렴은 매회 같은 틀)", inst=False,
+         style="call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, " + BASE,
+         lyrics="""[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+공룡알 어디 있니? (어디 있니?)
+친구들아 같이 가자
+치키치키 출발!
+
+[Verse 1]
+바위 뒤에 동글동글
+크앙! 로로가 찾았다
+알이 하나, 알이 둘 (둘!)
+
+[Verse 2]
+나무 위에 동글동글
+쭈욱~ 토롱이 찾았다
+알이 둘, 알이 셋 (셋!)
+
+[Verse 3]
+언덕 위에 동글동글
+슝~ 피오가 찾았다
+알이 셋, 알이 넷 (넷!)
+
+[Verse 4]
+나뭇잎 밑 동글동글
+짠! 치키가 찾았다
+알이 넷, 알이 다섯 (다섯!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+공룡알 다 찾았다 (찾았다!)
+친구들아 고마워
+치키치키 출발!
+
+[End]"""),
+    dict(id="ed", title="내일 또 만나요 (엔딩)", where="2:45–3:00 · 매회 같음", inst=False,
+         style="short 15-second goodbye jingle, gentle and warm, 92 bpm, " + BASE,
+         lyrics="""[Verse]
+오늘도 재밌었지? (응!)
+바우 할아버지도 (허허!)
+안녕! 바이바이! 아디오스!
+내일 또 만나요, 크앙!
+
+[End]"""),
+    dict(id="bgm", title="공룡 마을 배경음악", where="노래 사이 이야기 부분 · 가사 없음", inst=True,
+         style=("gentle playful background music for a toddler cartoon, instrumental, no vocals, 92 bpm, ukulele, marimba, "
+                "glockenspiel, soft pizzicato strings, light handclaps, major key, calm and cozy, steady and loopable"),
+         lyrics=""),
+]
+
+e = html.escape
+def box(kind, bid, text):
+    return (f'<div class="prompt"><div class="prompt-head"><span class="kind">{e(kind)}</span>'
+            f'<button type="button" class="copy" data-target="{bid}">복사</button></div><pre id="{bid}">{e(text)}</pre></div>')
+
+cards = []
+md = ["# 1화 노래 Suno 프롬프트", "", "Suno → Create → Custom. 칸마다 그대로 붙여 넣는다.", "",
+      f"- 모든 곡 공통 Exclude styles: `{EXCLUDE}`", ""]
+for s in SONGS:
+    parts = [box("Title (제목)", s["id"] + "-t", s["title"])]
+    if s["inst"]:
+        parts.append('<p class="note">가사 칸은 비워 두고 <b>Instrumental</b>을 켠다.</p>')
+    else:
+        parts.append(box("Lyrics (가사)", s["id"] + "-l", s["lyrics"]))
+    parts.append(box("Styles (스타일)", s["id"] + "-s", s["style"]))
+    cards.append(f'<article class="scene" id="{s["id"]}"><header class="scene-head"><h2>{e(s["title"])}</h2>'
+                 f'<span class="time">{e(s["where"])}</span></header>{"".join(parts)}</article>')
+    md += [f"## {s['title']}", "", f"- 자리: {s['where']}", f"- Title: {s['title']}",
+           "- Instrumental 켜기, 가사 없음" if s["inst"] else "", "", "Styles:", "```", s["style"], "```", ""]
+    if not s["inst"]:
+        md += ["Lyrics:", "```", s["lyrics"], "```", ""]
+
+src = (Path(__file__).parent / "build_prompt_page.py").read_text(encoding="utf-8")
+css = re.search(r"<style>\n(.*?)</style>", src, re.S).group(1).replace("{{", "{").replace("}}", "}")
+css += ".note { margin: 0; font-size: .95rem; color: var(--muted); }\n.steps b { color: var(--ink); }\n"
+js = re.search(r"<script>\n(.*?)</script>", src, re.S).group(1).replace("{{", "{").replace("}}", "}")
+
+page = f'''<title>치키 노래 프롬프트</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+{css}</style>
+<div class="wrap">
+  <header style="display:grid;gap:8px">
+    <h1>1화 · 노래 만들기 (Suno)</h1>
+    <p class="lead">노래 3곡과 배경음악 1곡이에요. 칸마다 <b>복사</b>를 눌러 Suno에 그대로 붙여 넣으세요.</p>
+  </header>
+  <section class="fixed">
+    <h2>쓰는 순서</h2>
+    <ol class="steps">
+      <li>Suno에서 <b>Create</b> → <b>Custom</b> 모드를 켠다.</li>
+      <li>Lyrics 칸에 가사, Styles 칸에 스타일, Title 칸에 제목을 붙여 넣는다.</li>
+      <li><b>More Options → Exclude styles</b>에 아래 문구를 넣는다 (4곡 모두 같음).</li>
+      <li>한 번에 2곡씩 나와요. 발음이 또렷하고 밝은 쪽을 고른다.</li>
+      <li>15초보다 길게 나와도 괜찮아요. 받은 파일을 여기 채팅에 올려 주면 길이는 제가 맞춰 자를게요.</li>
+      <li>유튜브 수익 창출을 하려면 Suno <b>유료 플랜(Pro 이상)</b>으로 만든 곡이어야 해요. 무료 플랜 곡은 상업적으로 쓸 수 없어요.</li>
+    </ol>
+    {box("Exclude styles (4곡 공통)", "ex", EXCLUDE)}
+  </section>
+  <nav class="jump" aria-label="곡 바로가기"><a href="#op">오프닝</a><a href="#egg">알 찾기</a><a href="#ed">엔딩</a><a href="#bgm">배경음악</a></nav>
+  {"".join(cards)}
+</div>
+<script>
+{js}</script>
+'''
+(ep / "song_prompts_page.html").write_text(page, encoding="utf-8")
+(ep / "song_prompts.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+print("ok")
