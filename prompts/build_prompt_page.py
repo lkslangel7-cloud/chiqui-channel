@@ -16,7 +16,7 @@ style_line = "Soft 3D toy-like clay style, smooth rounded shapes, soft studio li
 egg = "round cream-colored dinosaur eggs with soft pastel polka dots"
 baby = "five tiny round chubby baby dinosaurs, each a different pastel color (pink, mint, lilac, peach, sky blue), with tiny horn nubs and big sparkling eyes"
 
-IMAGE_STEPS = '    <ol class="steps">\n      <li>Image에서 Unlimited 표시가 있는 모델을 고르고, 비율은 16:9.</li>\n      <li>장면의 <b>레퍼런스</b>에 적힌 캐릭터 시트를 함께 넣는다 (생성 기록에 있음).</li>\n      <li>그림 프롬프트 붙여 넣기 → 시트와 모습이 같은 그림만 고르기.</li>\n      <li>고른 그림을 Video의 시작 이미지로 넣고 영상 프롬프트 붙여 넣기. 소리는 끈다.</li>\n      <li>10초 장면은 10초로 만들거나, 5초 영상 2개를 이어 붙인다.</li>\n      <li>파일 이름은 ep01_s01.png, ep01_c01.mp4처럼 장면 번호와 같게.</li>\n    </ol>'
+IMAGE_STEPS = '    <ol class="steps">\n      <li>Image에서 Unlimited 표시가 있는 모델을 고르고, 비율은 16:9.</li>\n      <li>캐릭터 시트 5장을 레퍼런스로 <b>한 번만</b> 넣고, 장면이 바뀌어도 그대로 둔다. S17~S19만 S16 그림을 하나 더 넣는다.</li>\n      <li>그림 프롬프트 붙여 넣기 → 시트와 모습이 같은 그림만 고르기.</li>\n      <li>고른 그림을 Video의 시작 이미지로 넣고 영상 프롬프트 붙여 넣기. 소리는 끈다.</li>\n      <li>10초 장면은 10초로 만들거나, 5초 영상 2개를 이어 붙인다.</li>\n      <li>파일 이름은 ep01_s01.png, ep01_c01.mp4처럼 장면 번호와 같게.</li>\n    </ol>'
 VIDEO_STEPS = '    <ol class="steps">\n      <li>Video 메뉴에서 Unlimited 표시가 있는 영상 모델(예: Kling 3.0)을 고른다.</li>\n      <li>시작 이미지(Start image)에 그 장면 그림을 넣는다.</li>\n      <li>아래 영상 프롬프트를 복사해 붙여 넣는다. 소리(Sound/Audio)는 끈다.</li>\n      <li>길이가 10초인 장면은 10초로 만들거나, 5초 영상 2개를 만들어 이어 붙인다.</li>\n      <li>캐릭터 모습이 녹아내리거나 바뀌면 다시 만든다.</li>\n      <li>파일 이름은 ep01_c01.mp4처럼 장면 번호와 같게.</li>\n    </ol>'
 
 def card(s):
