@@ -4,31 +4,66 @@
   "video": [
     {
       "start": 0,
-      "file": "clips/web_s01.mp4",
+      "file": "clips/ep01_v01.mp4",
       "from": 0,
-      "dur": 15,
+      "dur": 10,
       "note": "S01 마을 전경 (오프닝 노래 자리)"
     },
     {
-      "start": 15,
-      "file": "clips/web_s02a.mp4",
+      "start": 10,
+      "file": "clips/ep01_v02.mp4",
       "from": 0,
-      "dur": 15,
-      "note": "S02 다섯 친구"
+      "dur": 5,
+      "note": "S01 치키네 동굴 집"
+    },
+    {
+      "start": 15,
+      "file": "clips/ep01_v03.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S02 다섯 친구 인사"
+    },
+    {
+      "start": 25,
+      "file": "clips/ep01_v04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S02 다섯 친구 점프"
     },
     {
       "start": 30,
-      "file": "clips/web_s03.mp4",
+      "file": "clips/ep01_v05.mp4",
       "from": 0,
-      "dur": 15,
+      "dur": 10,
       "note": "S03 치키치키 출발"
     },
     {
-      "start": 45,
-      "file": "clips/ep01_b01.mp4",
+      "start": 40,
+      "file": "clips/ep01_v06.mp4",
       "from": 0,
-      "dur": 15,
-      "note": "S04-S06 알 발견, 바람"
+      "dur": 5,
+      "note": "S03 치키 달려가기"
+    },
+    {
+      "start": 45,
+      "file": "clips/ep01_v11.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S04 어? 이게 뭐지?"
+    },
+    {
+      "start": 50,
+      "file": "clips/ep01_v12.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S05 알이 하나"
+    },
+    {
+      "start": 55,
+      "file": "clips/ep01_v13.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S06 바람 휘잉"
     },
     {
       "start": 60,
@@ -53,24 +88,45 @@
     },
     {
       "start": 75,
-      "file": "clips/ep01_b03.mp4",
+      "file": "clips/ep01_v31.mp4",
       "from": 0,
-      "dur": 15,
-      "note": "S08 로로 바위"
+      "dur": 5,
+      "note": "S08 로로 바위 뒤"
+    },
+    {
+      "start": 80,
+      "file": "clips/ep01_v32.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S08 로로 크앙 찾았다"
     },
     {
       "start": 90,
-      "file": "clips/ep01_b04.mp4",
+      "file": "clips/ep01_v41.mp4",
       "from": 0,
-      "dur": 15,
-      "note": "S09 토롱 나무"
+      "dur": 10,
+      "note": "S09 토롱 나무 위 알"
+    },
+    {
+      "start": 100,
+      "file": "clips/ep01_v42.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S09 토롱 여기 있다"
     },
     {
       "start": 105,
-      "file": "clips/ep01_b05.mp4",
+      "file": "clips/ep01_v51.mp4",
       "from": 0,
-      "dur": 15,
-      "note": "S10 피오 언덕"
+      "dur": 10,
+      "note": "S10 피오 언덕 착지"
+    },
+    {
+      "start": 115,
+      "file": "clips/ep01_v52.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S10 피오 알 안고 날기"
     },
     {
       "start": 120,
@@ -200,7 +256,7 @@
       "text": "크앙! 찾았다!"
     },
     {
-      "at": 99.0,
+      "at": 100.5,
       "audio": "audio/ko/09_torong.wav",
       "who": "토롱",
       "text": "쭈욱~ 여기 있다!"
