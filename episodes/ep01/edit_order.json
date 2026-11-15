@@ -269,6 +269,18 @@
       "text": "하나! 둘! 셋! 넷! 다섯!"
     },
     {
+      "at": 141.0,
+      "audio": "audio/ko/19_all.wav",
+      "who": "모두",
+      "text": "바우 할아버지!"
+    },
+    {
+      "at": 143.0,
+      "audio": "audio/ko/20_bau.wav",
+      "who": "바우 할아버지",
+      "text": "허허, 안녕!"
+    },
+    {
       "at": 145.5,
       "audio": "audio/ko/14_bau.wav",
       "who": "바우 할아버지",

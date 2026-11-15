@@ -12,7 +12,7 @@ More Options: Vocal Gender Female / Duration Custom(오프닝·엔딩 20초, 알
 
 Styles:
 ```
-short 15-second kids TV show theme jingle, bright and bouncy, 100 bpm, kids choir shouting the names back, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy
+short 20-second kids TV show theme jingle, bright and bouncy, 100 bpm, kids choir shouting the names back, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy
 ```
 
 Lyrics:
@@ -25,6 +25,7 @@ Lyrics:
 크앙 크앙 로로 (로로!)
 목이 쭈욱 토롱 (토롱!)
 하늘 슝슝 피오 (피오!)
+안경 쓴 바우 할아버지 (허허!)
 공룡 마을 친구들
 치키치키 출발!
 
