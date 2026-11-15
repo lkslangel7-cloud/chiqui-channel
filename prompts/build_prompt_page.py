@@ -1,6 +1,7 @@
 import re, html, sys, json
 src = open(sys.argv[1], encoding="utf-8").read()
 out = sys.argv[2]
+video_only = len(sys.argv) > 3 and sys.argv[3] == "--video"
 blocks = re.split(r"\n### ", src)[1:]
 scenes = []
 for b in blocks:
@@ -15,6 +16,9 @@ style_line = "Soft 3D toy-like clay style, smooth rounded shapes, soft studio li
 egg = "round cream-colored dinosaur eggs with soft pastel polka dots"
 baby = "five tiny round chubby baby dinosaurs, each a different pastel color (pink, mint, lilac, peach, sky blue), with tiny horn nubs and big sparkling eyes"
 
+IMAGE_STEPS = '    <ol class="steps">\n      <li>Image에서 Unlimited 표시가 있는 모델을 고르고, 비율은 16:9.</li>\n      <li>장면의 <b>레퍼런스</b>에 적힌 캐릭터 시트를 함께 넣는다 (생성 기록에 있음).</li>\n      <li>그림 프롬프트 붙여 넣기 → 시트와 모습이 같은 그림만 고르기.</li>\n      <li>고른 그림을 Video의 시작 이미지로 넣고 영상 프롬프트 붙여 넣기. 소리는 끈다.</li>\n      <li>10초 장면은 10초로 만들거나, 5초 영상 2개를 이어 붙인다.</li>\n      <li>파일 이름은 ep01_s01.png, ep01_c01.mp4처럼 장면 번호와 같게.</li>\n    </ol>'
+VIDEO_STEPS = '    <ol class="steps">\n      <li>Video 메뉴에서 Unlimited 표시가 있는 영상 모델(예: Kling 3.0)을 고른다.</li>\n      <li>시작 이미지(Start image)에 그 장면 그림을 넣는다.</li>\n      <li>아래 영상 프롬프트를 복사해 붙여 넣는다. 소리(Sound/Audio)는 끈다.</li>\n      <li>길이가 10초인 장면은 10초로 만들거나, 5초 영상 2개를 만들어 이어 붙인다.</li>\n      <li>캐릭터 모습이 녹아내리거나 바뀌면 다시 만든다.</li>\n      <li>파일 이름은 ep01_c01.mp4처럼 장면 번호와 같게.</li>\n    </ol>'
+
 def card(s):
     e = html.escape
     return f'''
@@ -24,12 +28,12 @@ def card(s):
     <h2>{e(s['name'])}</h2>
     <span class="time">{e(s['time'])}</span>
   </header>
-  <p class="ref"><span class="label">레퍼런스</span> {e(s['ref'])}</p>
-  <div class="prompt">
+  <p class="ref"><span class="label">{"시작 이미지" if video_only else "레퍼런스"}</span> {e(("ep01_" + s['id'].lower() + ".png (이 장면 그림)") if video_only else s['ref'])}</p>
+{"" if video_only else f"""  <div class="prompt">
     <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="{s['id']}-img">복사</button></div>
     <pre id="{s['id']}-img">{e(s['img'])}</pre>
   </div>
-  <div class="prompt">
+"""}  <div class="prompt">
     <div class="prompt-head"><span class="kind">영상 · {e(s['vlen'])} · 소리 끔</span><button type="button" class="copy" data-target="{s['id']}-vid">복사</button></div>
     <pre id="{s['id']}-vid">{e(s['vid'])}</pre>
   </div>
@@ -37,7 +41,23 @@ def card(s):
 
 nav = "".join(f'<a href="#{s["id"].lower()}">{s["id"][1:]}</a>' for s in scenes)
 cards = "".join(card(s) for s in scenes)
-page = f'''<title>공룡알 하나 둘 셋 프롬프트</title>
+FIXED = f'''    <div class="prompt">
+      <div class="prompt-head"><span class="kind">고정 문구 · 알</span><button type="button" class="copy" data-target="fx-egg">복사</button></div>
+      <pre id="fx-egg">{html.escape(egg)}</pre>
+    </div>
+    <div class="prompt">
+      <div class="prompt-head"><span class="kind">고정 문구 · 아기 공룡 (S16 그림을 S17~S19 레퍼런스로)</span><button type="button" class="copy" data-target="fx-baby">복사</button></div>
+      <pre id="fx-baby">{html.escape(baby)}</pre>
+    </div>
+    <div class="prompt">
+      <div class="prompt-head"><span class="kind">고정 문구 · 화풍 (모든 그림 끝에 이미 들어 있음)</span><button type="button" class="copy" data-target="fx-style">복사</button></div>
+      <pre id="fx-style">{html.escape(style_line)}</pre>
+    </div>
+'''
+TITLE = '공룡알 하나 둘 셋 영상' if video_only else '공룡알 하나 둘 셋 프롬프트'
+STEPS = VIDEO_STEPS if video_only else IMAGE_STEPS
+H1 = '1화 · 영상 프롬프트' if video_only else '1화 · 공룡알 하나 둘 셋'
+page = f'''<title>{TITLE}</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap">
 <style>
@@ -84,32 +104,13 @@ button.copy.done {{ background: transparent; color: var(--accent); }}
 </style>
 <div class="wrap">
   <header style="display:grid;gap:8px">
-    <h1>1화 · 공룡알 하나 둘 셋</h1>
-    <p class="lead">장면마다 <b>복사</b>를 눌러 Higgsfield에 그대로 붙여 넣으세요. 장면 19개, 약 3분.</p>
+    <h1>{H1}</h1>
+    <p class="lead">장면마다 <b>복사</b>를 눌러 Higgsfield에 그대로 붙여 넣으세요. 장면 {len(scenes)}개, 약 3분.</p>
   </header>
   <section class="fixed">
     <h2>쓰는 순서</h2>
-    <ol class="steps">
-      <li>Image에서 Unlimited 표시가 있는 모델을 고르고, 비율은 16:9.</li>
-      <li>장면의 <b>레퍼런스</b>에 적힌 캐릭터 시트를 함께 넣는다 (생성 기록에 있음).</li>
-      <li>그림 프롬프트 붙여 넣기 → 시트와 모습이 같은 그림만 고르기.</li>
-      <li>고른 그림을 Video의 시작 이미지로 넣고 영상 프롬프트 붙여 넣기. 소리는 끈다.</li>
-      <li>10초 장면은 10초로 만들거나, 5초 영상 2개를 이어 붙인다.</li>
-      <li>파일 이름은 ep01_s01.png, ep01_c01.mp4처럼 장면 번호와 같게.</li>
-    </ol>
-    <div class="prompt">
-      <div class="prompt-head"><span class="kind">고정 문구 · 알</span><button type="button" class="copy" data-target="fx-egg">복사</button></div>
-      <pre id="fx-egg">{html.escape(egg)}</pre>
-    </div>
-    <div class="prompt">
-      <div class="prompt-head"><span class="kind">고정 문구 · 아기 공룡 (S16 그림을 S17~S19 레퍼런스로)</span><button type="button" class="copy" data-target="fx-baby">복사</button></div>
-      <pre id="fx-baby">{html.escape(baby)}</pre>
-    </div>
-    <div class="prompt">
-      <div class="prompt-head"><span class="kind">고정 문구 · 화풍 (모든 그림 끝에 이미 들어 있음)</span><button type="button" class="copy" data-target="fx-style">복사</button></div>
-      <pre id="fx-style">{html.escape(style_line)}</pre>
-    </div>
-  </section>
+{STEPS}
+{"" if video_only else FIXED}  </section>
   <nav class="jump" aria-label="장면 바로가기">{nav}</nav>
   {cards}
 </div>

@@ -229,5 +229,6 @@ Everyone waves goodbye to the viewer, Roro gives a tiny cute roar, the sun slowl
 
 ## 복사 버튼 페이지
 
-- claude.ai 페이지: https://claude.ai/artifact/EymzYb9brjCK6LebJhJ2zc (장면마다 복사 버튼)
+- claude.ai 페이지 (그림+영상): https://claude.ai/artifact/EymzYb9brjCK6LebJhJ2zc
+- claude.ai 페이지 (영상만): https://claude.ai/artifact/XYS3wFF2Q74yudbCvh2TEc — `--video` 옵션으로 생성
 - 다시 만들기: `python3 prompts/build_prompt_page.py episodes/ep01/prompts.md episodes/ep01/prompts_page.html`
