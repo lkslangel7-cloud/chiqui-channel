@@ -13,17 +13,19 @@
 
 ## 2. 캐릭터 (반드시 레퍼런스 시트 기준으로 일관성 유지)
 
-| 캐릭터 | 종 | 색 | 성격 / 특징 | 기준 시안 |
+| 캐릭터 | 종 | 색 | 성격 / 특징 | 레퍼런스 시트 (Higgsfield Job ID) |
 |---|---|---|---|---|
-| 치키 (Chiqui) | 아기 트리케라톱스 | 주황 | 주인공. 호기심 많고 덤벙댐. 캐치프레이즈 "치키치키 출발!" | `characters/candidates/A_chiqui.png` |
-| 옥이 (Okki) | 아기 문어 | 분홍 (기분에 따라 몸 색이 바뀜) | 다정한 장난꾸러기. "옥이옥이 짠!" 색깔·숫자(다리 8개)·감정 담당 | `characters/candidates/B_okki.png` |
-| 주주 (Zuzu) | 꼬마 꿀벌 | 노랑·갈색 줄무늬, 꽃 가방 | 부지런한 도우미. "붕붕 도와줄게!" 돕기·나누기, 춤 동요 담당 | `characters/candidates/D_zuzu.png` |
-| 포실이 (Posil) | 아기 알파카 | 하양 털, 분홍 머리털, 무지개 목도리 | 수줍고 다정함. 겁이 많지만 친구를 잘 챙김 | `characters/candidates/K_alpaca.png` |
-| 부리 박사님 (Dr. Buri / Doctor Buri) | 아기 부엉이 | 청록·크림, 머리 위 안경, 책 | 아는 게 많은 박사님, 상식 코너 담당 | `characters/candidates/J_owl.png` |
+| 치키 (Chiqui) | 아기 트리케라톱스 | 주황 | 주인공. 호기심 많고 덤벙댐. 캐치프레이즈 "치키치키 출발!" | `characters/chiqui_sheet.png` (ceb7a2db-fff5-41fe-9294-c6a1473f0356) |
+| 옥이 (Okki) | 아기 문어 | 분홍 (기분에 따라 몸 색이 바뀜) | 다정한 장난꾸러기. "옥이옥이 짠!" 색깔·숫자(다리 8개)·감정 담당 | `characters/okki_sheet.png` (e18e4899-b1f7-4cb7-ac71-7a12950a4663) |
+| 주주 (Zuzu) | 꼬마 꿀벌 | 노랑·갈색 줄무늬, 꽃 가방 | 부지런한 도우미. "붕붕 도와줄게!" 돕기·나누기, 춤 동요 담당 | `characters/zuzu_sheet.png` (51ff83ef-df88-41cb-89ed-5041e355f57a) |
+| 리비 (Ribbi) | 아기 개구리 | 초록, 노란 배, 연잎 | 장난꾸러기 웃음 담당. 폴짝폴짝 점프, 춤·율동 동요 담당 | `characters/ribbi_sheet.png` (a0c53a67-0521-4ce9-beb3-60aacac897d9) |
+| 부리 박사님 (Dr. Buri / Doctor Buri) | 아기 부엉이 | 청록·크림, 머리 위 안경, 책 | 아는 게 많은 박사님, 상식 코너 담당 | `characters/buri_sheet.png` (ff6dc1d4-b1e6-49f7-8da3-423516296b02) |
 
 - 출연진 확정: 2026-11-15. 이름은 세 언어 공통. 앞서 정했던 토롱·피오·바우 할아버지는 쓰지 않는다.
-- 각 캐릭터 시안의 Higgsfield Job ID는 `characters/candidates/README.md`에 있다. 레퍼런스 시트가 완성되면 `characters/`에 저장하고 이 표의 기준 시안을 교체한다.
-- 배경: 알록달록한 화산섬 마을 (옥이가 사는 바닷가 석호, 주주의 꽃밭, 포실이의 풀밭 언덕, 부리 박사님의 나무 위 도서관)
+- 손님 캐릭터: 포실이 (Posil, 아기 알파카, `characters/candidates/K_alpaca.png`) — 잠자리·겨울 에피소드 등에 가끔 등장.
+- 레퍼런스 시트(2026-11-15, GPT Image 2.5 high): 위쪽 줄 정면·옆면·뒷면, 아래쪽 줄 표정 3개. 장면 생성 때 Job ID를 `image_references`로 넣는다. 처음 시안은 `characters/candidates/`에 있다.
+- 옥이 표정별 몸 색: 기쁨 분홍, 놀람 노랑, 슬픔 하늘색.
+- 배경: 알록달록한 화산섬 마을 (옥이가 사는 바닷가 석호, 리비의 연못, 주주의 꽃밭, 부리 박사님의 나무 위 도서관)
 - 화풍: 부드러운 3D 장난감(클레이)풍. 후보 시안 프롬프트의 문구를 모든 생성에 그대로 붙인다:
   `Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers`
 
