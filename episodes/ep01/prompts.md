@@ -226,3 +226,8 @@ Use the reference images as the exact character designs. Sunset over the dinosau
 ```
 Everyone waves goodbye to the viewer, Roro gives a tiny cute roar, the sun slowly sets and the first stars twinkle. Calm happy motion. Keep the characters and soft 3D clay style unchanged.
 ```
+
+## 복사 버튼 페이지
+
+- claude.ai 페이지: https://claude.ai/artifact/EymzYb9brjCK6LebJhJ2zc (장면마다 복사 버튼)
+- 다시 만들기: `python3 prompts/build_prompt_page.py episodes/ep01/prompts.md episodes/ep01/prompts_page.html`

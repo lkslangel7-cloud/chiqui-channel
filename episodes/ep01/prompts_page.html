@@ -1,0 +1,393 @@
+<title>공룡알 하나 둘 셋 프롬프트</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: 한 열 작업 목록. 위에 고정 문구, 장면 번호 바로가기, 장면마다 그림·영상 프롬프트 카드 */
+:root {
+  --bg: #fbf7f0; --surface: #ffffff; --ink: #2b2620; --muted: #76695a;
+  --line: #eadfce; --accent: #e8711c; --accent-ink: #ffffff; --code: #f6efe3;
+  --display: "Jua", "Noto Sans KR", system-ui, sans-serif;
+  --body: "Noto Sans KR", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #1d1a16; --surface: #27231e; --ink: #f2ebe0; --muted: #b3a593;
+  --line: #3a342c; --accent: #f08a3c; --accent-ink: #1d1a16; --code: #2f2a24; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #1d1a16; --surface: #27231e; --ink: #f2ebe0; --muted: #b3a593;
+  --line: #3a342c; --accent: #f08a3c; --accent-ink: #1d1a16; --code: #2f2a24; color-scheme: dark; }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 20px; }
+h1 { font-family: var(--display); font-weight: 400; font-size: 2rem; margin: 0; text-wrap: balance; }
+.lead { margin: 0; color: var(--muted); }
+.steps { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; }
+.fixed { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 14px; }
+.fixed h2, .scene h2 { font-family: var(--display); font-weight: 400; margin: 0; font-size: 1.25rem; }
+nav.jump { display: flex; flex-wrap: wrap; gap: 6px; position: sticky; top: env(safe-area-inset-top, 0px); background: var(--bg); padding-block: 8px; z-index: 5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+nav.jump a { min-width: 2.4em; text-align: center; padding: 4px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); text-decoration: none; font-variant-numeric: tabular-nums; font-size: .9rem; }
+nav.jump a:hover, nav.jump a:focus-visible { border-color: var(--accent); outline: none; }
+.scene { display: grid; gap: 10px; padding-block: 16px; border-top: 1px solid var(--line); scroll-margin-top: 56px; }
+.scene-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; }
+.sid { font-family: var(--mono); color: var(--accent); font-size: .95rem; }
+.time { margin-left: auto; color: var(--muted); font-size: .9rem; font-variant-numeric: tabular-nums; }
+.ref { margin: 0; font-size: .95rem; }
+.label, .kind { font-size: .78rem; letter-spacing: .04em; color: var(--muted); margin-right: 6px; }
+.prompt { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; min-width: 0; }
+.prompt-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 10px 8px 12px; border-bottom: 1px solid var(--line); }
+pre { margin: 0; padding: 12px; white-space: pre-wrap; word-break: break-word; font-family: var(--mono); font-size: .82rem; line-height: 1.55; background: var(--code); color: var(--ink); }
+button.copy { font: inherit; font-size: .85rem; font-weight: 600; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+button.copy:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+button.copy.done { background: transparent; color: var(--accent); }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+</style>
+<div class="wrap">
+  <header style="display:grid;gap:8px">
+    <h1>1화 · 공룡알 하나 둘 셋</h1>
+    <p class="lead">장면마다 <b>복사</b>를 눌러 Higgsfield에 그대로 붙여 넣으세요. 장면 19개, 약 3분.</p>
+  </header>
+  <section class="fixed">
+    <h2>쓰는 순서</h2>
+    <ol class="steps">
+      <li>Image에서 Unlimited 표시가 있는 모델을 고르고, 비율은 16:9.</li>
+      <li>장면의 <b>레퍼런스</b>에 적힌 캐릭터 시트를 함께 넣는다 (생성 기록에 있음).</li>
+      <li>그림 프롬프트 붙여 넣기 → 시트와 모습이 같은 그림만 고르기.</li>
+      <li>고른 그림을 Video의 시작 이미지로 넣고 영상 프롬프트 붙여 넣기. 소리는 끈다.</li>
+      <li>10초 장면은 10초로 만들거나, 5초 영상 2개를 이어 붙인다.</li>
+      <li>파일 이름은 ep01_s01.png, ep01_c01.mp4처럼 장면 번호와 같게.</li>
+    </ol>
+    <div class="prompt">
+      <div class="prompt-head"><span class="kind">고정 문구 · 알</span><button type="button" class="copy" data-target="fx-egg">복사</button></div>
+      <pre id="fx-egg">round cream-colored dinosaur eggs with soft pastel polka dots</pre>
+    </div>
+    <div class="prompt">
+      <div class="prompt-head"><span class="kind">고정 문구 · 아기 공룡 (S16 그림을 S17~S19 레퍼런스로)</span><button type="button" class="copy" data-target="fx-baby">복사</button></div>
+      <pre id="fx-baby">five tiny round chubby baby dinosaurs, each a different pastel color (pink, mint, lilac, peach, sky blue), with tiny horn nubs and big sparkling eyes</pre>
+    </div>
+    <div class="prompt">
+      <div class="prompt-head"><span class="kind">고정 문구 · 화풍 (모든 그림 끝에 이미 들어 있음)</span><button type="button" class="copy" data-target="fx-style">복사</button></div>
+      <pre id="fx-style">Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+    </div>
+  </section>
+  <nav class="jump" aria-label="장면 바로가기"><a href="#s01">01</a><a href="#s02">02</a><a href="#s03">03</a><a href="#s04">04</a><a href="#s05">05</a><a href="#s06">06</a><a href="#s07">07</a><a href="#s08">08</a><a href="#s09">09</a><a href="#s10">10</a><a href="#s11">11</a><a href="#s12">12</a><a href="#s13">13</a><a href="#s14">14</a><a href="#s15">15</a><a href="#s16">16</a><a href="#s17">17</a><a href="#s18">18</a><a href="#s19">19</a></nav>
+  
+<article class="scene" id="s01">
+  <header class="scene-head">
+    <span class="sid">S01</span>
+    <h2>공룡 마을 전경</h2>
+    <span class="time">0:00–0:08</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 없음</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S01-img">복사</button></div>
+    <pre id="S01-img">Wide establishing shot of a colorful volcanic island dinosaur village in the morning: a friendly smiling volcano puffing a small cloud, rolling green hills, round cave houses with leaf doors, a sparkling lake, giant ferns and palm trees, fluffy clouds and a rainbow. No characters. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 10초 · 소리 끔</span><button type="button" class="copy" data-target="S01-vid">복사</button></div>
+    <pre id="S01-vid">Slow gentle camera push-in over the dinosaur village; clouds drift, the smiling volcano puffs a little cloud, the lake sparkles, palm leaves sway. Calm smooth motion. Keep the soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s02">
+  <header class="scene-head">
+    <span class="sid">S02</span>
+    <h2>다섯 친구 점프</h2>
+    <span class="time">0:08–0:15</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 치키·로로·토롱·피오·바우 시트</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S02-img">복사</button></div>
+    <pre id="S02-img">Use the reference sheets as the exact character designs. Chiqui the orange baby triceratops, Roro the yellow baby tyrannosaurus, Torong the green brachiosaurus, Pio the sky-blue baby pteranodon flying just above, and Grandpa Bau the purple ankylosaurus with glasses, standing together on a grassy hilltop in the dinosaur village, all smiling at the viewer, ready to jump. Bright sunny morning, rainbow in the sky. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 5초 · 소리 끔</span><button type="button" class="copy" data-target="S02-vid">복사</button></div>
+    <pre id="S02-vid">The friends jump up together with joy and land with a happy bounce, Pio does a little loop above, Grandpa Bau claps. Bouncy cheerful motion, camera stays still. Keep the characters and soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s03">
+  <header class="scene-head">
+    <span class="sid">S03</span>
+    <h2>치키치키 출발!</h2>
+    <span class="time">0:15–0:23</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 치키 시트</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S03-img">복사</button></div>
+    <pre id="S03-img">Use the reference sheet as the exact character design. Chiqui the orange baby triceratops running forward excitedly along a dirt path toward the viewer, one foot raised, big happy open-mouth smile, little dust puffs behind, ferns and flowers on both sides. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 5초 ×2 · 소리 끔</span><button type="button" class="copy" data-target="S03-vid">복사</button></div>
+    <pre id="S03-vid">Chiqui runs happily toward the camera with bouncy steps, tail wagging, little dust puffs behind. Smooth cheerful motion. Keep the character and soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s04">
+  <header class="scene-head">
+    <span class="sid">S04</span>
+    <h2>어? 이게 뭐지?</h2>
+    <span class="time">0:23–0:31</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 치키 시트</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S04-img">복사</button></div>
+    <pre id="S04-img">Use the reference sheet as the exact character design. Chiqui the orange baby triceratops stopped in tall soft grass, head tilted to one side with a curious surprised face, looking down at something hidden in the grass in front. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 5초 ×2 · 소리 끔</span><button type="button" class="copy" data-target="S04-vid">복사</button></div>
+    <pre id="S04-vid">Chiqui slows down, stops, tilts the head left and right curiously, then leans in closer to look. Gentle slow motion, grass sways. Keep the character and soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s05">
+  <header class="scene-head">
+    <span class="sid">S05</span>
+    <h2>알이 하나!</h2>
+    <span class="time">0:31–0:39</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 치키 시트</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S05-img">복사</button></div>
+    <pre id="S05-img">Use the reference sheet as the exact character design. Close-up of a soft round straw nest in the grass holding one single round cream-colored dinosaur egg with soft pastel polka dots; Chiqui the orange baby triceratops peeking in from the side with wide delighted eyes. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 5초 ×2 · 소리 끔</span><button type="button" class="copy" data-target="S05-vid">복사</button></div>
+    <pre id="S05-vid">Chiqui&#x27;s eyes go wide with delight, Chiqui gently touches the egg with one foot and the egg wobbles a tiny bit. Slow gentle motion, camera slowly pushes in on the egg. Keep the character and soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s06">
+  <header class="scene-head">
+    <span class="sid">S06</span>
+    <h2>다른 알들은 어디 있을까?</h2>
+    <span class="time">0:39–0:47</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 치키 시트</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S06-img">복사</button></div>
+    <pre id="S06-img">Use the reference sheet as the exact character design. A gust of wind blowing leaves across a meadow; Chiqui the orange baby triceratops standing next to the nest with one egg, looking around left and right with a puzzled face. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 5초 ×2 · 소리 끔</span><button type="button" class="copy" data-target="S06-vid">복사</button></div>
+    <pre id="S06-vid">Leaves swirl past in the wind, Chiqui turns the head left, then right, looking around with a puzzled face. Gentle motion. Keep the character and soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s07">
+  <header class="scene-head">
+    <span class="sid">S07</span>
+    <h2>친구들아, 같이 찾자!</h2>
+    <span class="time">0:47–0:55</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 치키·로로·토롱·피오 시트</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S07-img">복사</button></div>
+    <pre id="S07-img">Use the reference sheets as the exact character designs. Chiqui the orange baby triceratops waving and calling out in the foreground; behind, Roro the yellow baby tyrannosaurus and Torong the green brachiosaurus running toward Chiqui across the meadow, and Pio the sky-blue baby pteranodon flying in from the sky, all smiling. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 5초 ×2 · 소리 끔</span><button type="button" class="copy" data-target="S07-vid">복사</button></div>
+    <pre id="S07-vid">Chiqui waves, the friends run and fly closer and gather around Chiqui, nodding happily. Cheerful motion. Keep the characters and soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s08">
+  <header class="scene-head">
+    <span class="sid">S08</span>
+    <h2>로로: 크앙! 찾았다!</h2>
+    <span class="time">0:55–1:07</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 로로 시트</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S08-img">복사</button></div>
+    <pre id="S08-img">Use the reference sheet as the exact character design. Roro the yellow baby tyrannosaurus popping out from behind a big round rock, holding up one round cream-colored dinosaur egg with soft pastel polka dots in tiny arms, cute playful roar with mouth open. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 10초 · 소리 끔</span><button type="button" class="copy" data-target="S08-vid">복사</button></div>
+    <pre id="S08-vid">Roro peeks out from behind the rock, pops up holding the egg high, gives a cute playful roar, then dances a little happy dance. Bouncy motion, camera stays still. Keep the character and soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s09">
+  <header class="scene-head">
+    <span class="sid">S09</span>
+    <h2>토롱: 쭈욱~ 여기 있다!</h2>
+    <span class="time">1:07–1:19</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 토롱 시트</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S09-img">복사</button></div>
+    <pre id="S09-img">Use the reference sheet as the exact character design. Torong the green brachiosaurus stretching the long neck up to a small nest in a tall tree, gently picking up one round cream-colored dinosaur egg with soft pastel polka dots with the mouth, happy proud face. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 10초 · 소리 끔</span><button type="button" class="copy" data-target="S09-vid">복사</button></div>
+    <pre id="S09-vid">Torong slowly stretches the long neck up to the nest, carefully picks up the egg, lowers the neck gently and smiles. Slow gentle motion. Keep the character and soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s10">
+  <header class="scene-head">
+    <span class="sid">S10</span>
+    <h2>피오: 슝~ 나도!</h2>
+    <span class="time">1:19–1:31</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 피오 시트</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S10-img">복사</button></div>
+    <pre id="S10-img">Use the reference sheet as the exact character design. Pio the sky-blue baby pteranodon flying low over a grassy hilltop, holding one round cream-colored dinosaur egg with soft pastel polka dots carefully in the feet, shy happy smile, fluffy clouds behind. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 10초 · 소리 끔</span><button type="button" class="copy" data-target="S10-vid">복사</button></div>
+    <pre id="S10-vid">Pio swoops down to the hilltop, gently picks up the egg, and flies off in a smooth arc, wings flapping softly. Smooth flying motion. Keep the character and soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s11">
+  <header class="scene-head">
+    <span class="sid">S11</span>
+    <h2>치키: 짠! 여기도!</h2>
+    <span class="time">1:31–1:43</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 치키 시트</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S11-img">복사</button></div>
+    <pre id="S11-img">Use the reference sheet as the exact character design. Chiqui the orange baby triceratops lifting a giant green leaf with the horns, revealing one round cream-colored dinosaur egg with soft pastel polka dots hidden underneath, big surprised happy face. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 10초 · 소리 끔</span><button type="button" class="copy" data-target="S11-vid">복사</button></div>
+    <pre id="S11-vid">Chiqui pushes the big leaf up with the horns, discovers the egg, jumps with joy and hugs the egg. Bouncy cheerful motion. Keep the character and soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s12">
+  <header class="scene-head">
+    <span class="sid">S12</span>
+    <h2>둥지에 모으기</h2>
+    <span class="time">1:43–1:50</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 치키·로로·토롱·피오 시트</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S12-img">복사</button></div>
+    <pre id="S12-img">Use the reference sheets as the exact character designs. Chiqui, Roro, Torong and Pio gathered around a soft round straw nest, each gently placing a round cream-colored dinosaur egg with soft pastel polka dots into it; Pio hovering just above. Warm afternoon light. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 5초 · 소리 끔</span><button type="button" class="copy" data-target="S12-vid">복사</button></div>
+    <pre id="S12-vid">The friends place the eggs into the nest one after another and smile at each other. Gentle motion, camera stays still. Keep the characters and soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s13">
+  <header class="scene-head">
+    <span class="sid">S13</span>
+    <h2>모두 몇 개일까?</h2>
+    <span class="time">1:50–2:00</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 없음 (알만 나옴)</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S13-img">복사</button></div>
+    <pre id="S13-img">Top-down view of a soft round straw nest holding exactly five round cream-colored dinosaur eggs with soft pastel polka dots, neatly arranged, on green grass with tiny flowers. No characters. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 10초 · 소리 끔</span><button type="button" class="copy" data-target="S13-vid">복사</button></div>
+    <pre id="S13-vid">Very slow gentle camera push-in on the nest; each of the five eggs wiggles once, one after another from left to right, as if being counted. Calm motion. Keep the soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s14">
+  <header class="scene-head">
+    <span class="sid">S14</span>
+    <h2>바우 할아버지의 한마디</h2>
+    <span class="time">2:00–2:12</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 바우 시트</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S14-img">복사</button></div>
+    <pre id="S14-img">Use the reference sheet as the exact character design. Grandpa Bau the purple ankylosaurus with small round glasses and fluffy white eyebrows standing next to a straw nest of five pastel-dotted eggs, lifting one foot as if explaining, warm wise smile. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 10초 · 소리 끔</span><button type="button" class="copy" data-target="S14-vid">복사</button></div>
+    <pre id="S14-vid">Grandpa Bau walks slowly up to the nest, pushes the glasses up, looks at the eggs and nods with a warm smile. Slow gentle motion. Keep the character and soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s15">
+  <header class="scene-head">
+    <span class="sid">S15</span>
+    <h2>톡, 톡, 톡!</h2>
+    <span class="time">2:12–2:20</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 없음 (알만 나옴)</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S15-img">복사</button></div>
+    <pre id="S15-img">Close-up of a soft round straw nest with five round cream-colored dinosaur eggs with soft pastel polka dots, small cracks appearing on the shells, tiny sparkles around. No characters. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 5초 ×2 · 소리 끔</span><button type="button" class="copy" data-target="S15-vid">복사</button></div>
+    <pre id="S15-vid">The eggs wobble and rock gently, small cracks spread across the shells with tiny sparkles. Playful gentle motion. Keep the soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s16">
+  <header class="scene-head">
+    <span class="sid">S16</span>
+    <h2>아기 공룡이다!</h2>
+    <span class="time">2:20–2:30</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 없음 — 이 그림이 아기 공룡의 기준이 된다</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S16-img">복사</button></div>
+    <pre id="S16-img">Five tiny round chubby baby dinosaurs, each a different pastel color (pink, mint, lilac, peach, sky blue), with tiny horn nubs and big sparkling eyes, popping out of cracked cream eggshells with soft pastel polka dots in a straw nest, wearing little eggshell pieces on their heads, all smiling and blinking. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 10초 · 소리 끔</span><button type="button" class="copy" data-target="S16-vid">복사</button></div>
+    <pre id="S16-vid">The eggshells pop open one by one and the five baby dinosaurs peek out, blink, shake off the shells and smile. Cute bouncy motion. Keep the characters and soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s17">
+  <header class="scene-head">
+    <span class="sid">S17</span>
+    <h2>안녕!</h2>
+    <span class="time">2:30–2:40</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 치키 시트 + S16 그림</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S17-img">복사</button></div>
+    <pre id="S17-img">Use the reference images as the exact character designs. Chiqui the orange baby triceratops waving hello to the five tiny pastel baby dinosaurs (pink, mint, lilac, peach, sky blue) in the straw nest; the babies wave back with tiny arms. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 10초 · 소리 끔</span><button type="button" class="copy" data-target="S17-vid">복사</button></div>
+    <pre id="S17-vid">Chiqui waves gently, the baby dinosaurs copy the wave one by one and wiggle happily. Gentle cute motion. Keep the characters and soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s18">
+  <header class="scene-head">
+    <span class="sid">S18</span>
+    <h2>다 같이 춤</h2>
+    <span class="time">2:40–2:48</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 치키·로로·토롱·피오·바우 시트 + S16 그림</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S18-img">복사</button></div>
+    <pre id="S18-img">Use the reference images as the exact character designs. Chiqui, Roro, Torong, Pio and Grandpa Bau dancing in a circle in a flower meadow with the five tiny pastel baby dinosaurs hopping in the middle, music notes floating, golden afternoon light. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 5초 ×2 · 소리 끔</span><button type="button" class="copy" data-target="S18-vid">복사</button></div>
+    <pre id="S18-vid">Everyone dances around in a circle, hopping and swaying to a happy rhythm, the babies bounce in the middle. Joyful rhythmic motion, camera slowly circles. Keep the characters and soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+<article class="scene" id="s19">
+  <header class="scene-head">
+    <span class="sid">S19</span>
+    <h2>또 만나요, 크앙!</h2>
+    <span class="time">2:48–3:00</span>
+  </header>
+  <p class="ref"><span class="label">레퍼런스</span> 치키·로로·토롱·피오·바우 시트 + S16 그림</p>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">그림 · 16:9</span><button type="button" class="copy" data-target="S19-img">복사</button></div>
+    <pre id="S19-img">Use the reference images as the exact character designs. Sunset over the dinosaur village; Chiqui, Roro, Torong, Pio, Grandpa Bau and the five tiny pastel baby dinosaurs together on a grassy hill, all waving goodbye to the viewer, warm orange and pink sky, first stars appearing. Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.</pre>
+  </div>
+  <div class="prompt">
+    <div class="prompt-head"><span class="kind">영상 · 10초 · 소리 끔</span><button type="button" class="copy" data-target="S19-vid">복사</button></div>
+    <pre id="S19-vid">Everyone waves goodbye to the viewer, Roro gives a tiny cute roar, the sun slowly sets and the first stars twinkle. Calm happy motion. Keep the characters and soft 3D clay style unchanged.</pre>
+  </div>
+</article>
+</div>
+<script>
+document.addEventListener('click', function (ev) {
+  var btn = ev.target.closest('button.copy');
+  if (!btn) return;
+  var el = document.getElementById(btn.dataset.target);
+  var text = el.textContent;
+  function done() { btn.textContent = '복사됨'; btn.classList.add('done');
+    setTimeout(function () { btn.textContent = '복사'; btn.classList.remove('done'); }, 1600); }
+  function fallback() { var r = document.createRange(); r.selectNodeContents(el);
+    var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = '선택됨 · 길게 눌러 복사'; }
+  try { navigator.clipboard.writeText(text).then(done, fallback); } catch (e) { fallback(); }
+});
+</script>
