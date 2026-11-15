@@ -2,44 +2,285 @@
   "title": "1화 공룡알 하나 둘 셋",
   "length": 180,
   "video": [
-    {"start": 0,   "file": "clips/web_s01.mp4", "from": 0, "dur": 15, "note": "S01 마을 전경 (오프닝 노래 자리)"},
-    {"start": 15,  "file": "clips/web_s02a.mp4", "from": 0, "dur": 15, "note": "S02 다섯 친구"},
-    {"start": 30,  "file": "clips/web_s03.mp4", "from": 0, "dur": 15, "note": "S03 치키치키 출발"},
-    {"start": 45,  "file": "clips/ep01_b01.mp4", "from": 0, "dur": 15, "note": "S04-S06 알 발견, 바람"},
-    {"start": 60,  "file": "clips/ep01_b02.mp4", "from": 0, "dur": 15, "note": "S07 친구 부르기"},
-    {"start": 75,  "file": "clips/ep01_b03.mp4", "from": 0, "dur": 15, "note": "S08 로로 바위"},
-    {"start": 90,  "file": "clips/ep01_b04.mp4", "from": 0, "dur": 15, "note": "S09 토롱 나무"},
-    {"start": 105, "file": "clips/ep01_b05.mp4", "from": 0, "dur": 15, "note": "S10 피오 언덕"},
-    {"start": 120, "file": "clips/ep01_b06.mp4", "from": 0, "dur": 15, "note": "S11-S13 나뭇잎, 둥지, 알 세기"},
-    {"start": 135, "file": "clips/ep01_b07.mp4", "from": 0, "dur": 15, "note": "S13-S14 환호, 바우 할아버지"},
-    {"start": 150, "file": "clips/ep01_b08.mp4", "from": 0, "dur": 15, "note": "S15-S17 톡톡, 아기 공룡, 안녕"},
-    {"start": 165, "file": "clips/ep01_b09.mp4", "from": 0, "dur": 15, "note": "S18-S19 춤, 노을 인사 (엔딩 노래 자리)"}
+    {
+      "start": 0,
+      "file": "clips/web_s01.mp4",
+      "from": 0,
+      "dur": 15,
+      "note": "S01 마을 전경 (오프닝 노래 자리)"
+    },
+    {
+      "start": 15,
+      "file": "clips/web_s02a.mp4",
+      "from": 0,
+      "dur": 15,
+      "note": "S02 다섯 친구"
+    },
+    {
+      "start": 30,
+      "file": "clips/web_s03.mp4",
+      "from": 0,
+      "dur": 15,
+      "note": "S03 치키치키 출발"
+    },
+    {
+      "start": 45,
+      "file": "clips/ep01_b01.mp4",
+      "from": 0,
+      "dur": 15,
+      "note": "S04-S06 알 발견, 바람"
+    },
+    {
+      "start": 60,
+      "file": "clips/ep01_c21.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S07 치키가 친구를 부름"
+    },
+    {
+      "start": 65,
+      "file": "clips/ep01_c22.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S07 친구들이 달려옴"
+    },
+    {
+      "start": 70,
+      "file": "clips/ep01_c23.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S07 네 친구 모임"
+    },
+    {
+      "start": 75,
+      "file": "clips/ep01_b03.mp4",
+      "from": 0,
+      "dur": 15,
+      "note": "S08 로로 바위"
+    },
+    {
+      "start": 90,
+      "file": "clips/ep01_b04.mp4",
+      "from": 0,
+      "dur": 15,
+      "note": "S09 토롱 나무"
+    },
+    {
+      "start": 105,
+      "file": "clips/ep01_b05.mp4",
+      "from": 0,
+      "dur": 15,
+      "note": "S10 피오 언덕"
+    },
+    {
+      "start": 120,
+      "file": "clips/ep01_c61.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S11 치키 나뭇잎 밑 알"
+    },
+    {
+      "start": 125,
+      "file": "clips/ep01_c62.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S12 둥지에 알 모으기"
+    },
+    {
+      "start": 130,
+      "file": "clips/ep01_c63.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S13 알 다섯 개 세기"
+    },
+    {
+      "start": 135,
+      "file": "clips/ep01_c71.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S13 다 같이 환호"
+    },
+    {
+      "start": 140,
+      "file": "clips/ep01_c72.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S14 바우 할아버지 등장"
+    },
+    {
+      "start": 145,
+      "file": "clips/ep01_c73.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S14 바우 할아버지 설명"
+    },
+    {
+      "start": 150,
+      "file": "clips/ep01_c81.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S15 알이 톡톡"
+    },
+    {
+      "start": 155,
+      "file": "clips/ep01_c82.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S16 아기 공룡 탄생"
+    },
+    {
+      "start": 160,
+      "file": "clips/ep01_c83.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S17 치키와 아기 공룡 인사"
+    },
+    {
+      "start": 165,
+      "file": "clips/ep01_c91.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S18 다 같이 춤"
+    },
+    {
+      "start": 170,
+      "file": "clips/ep01_c92.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S19 노을 작별 인사 (엔딩 노래 자리)"
+    }
   ],
   "lines": [
-    {"at": 33.0,  "audio": "audio/ko/01_chiqui.wav", "who": "치키", "text": "치키치키 출발!"},
-    {"at": 47.0,  "audio": "audio/ko/02_chiqui.wav", "who": "치키", "text": "어? 이게 뭐지?"},
-    {"at": 50.5,  "audio": "audio/ko/03_narr.wav",   "who": "내레이션", "text": "동글동글 공룡알!"},
-    {"at": 53.0,  "audio": "audio/ko/04_chiqui.wav", "who": "치키", "text": "알이 하나!"},
-    {"at": 56.0,  "audio": "audio/ko/05_narr.wav",   "who": "내레이션", "text": "다른 알들은 어디 있을까?"},
-    {"at": 61.0,  "audio": "audio/ko/06_chiqui.wav", "who": "치키", "text": "친구들아, 같이 찾자!"},
-    {"at": 70.5,  "audio": "audio/ko/07_all.wav",    "who": "모두", "text": "좋아!"},
-    {"at": 81.0,  "audio": "audio/ko/08_roro.wav",   "who": "로로", "text": "크앙! 찾았다!"},
-    {"at": 99.0,  "audio": "audio/ko/09_torong.wav", "who": "토롱", "text": "쭈욱~ 여기 있다!"},
-    {"at": 111.0, "audio": "audio/ko/10_pio.wav",    "who": "피오", "text": "슝~ 나도!"},
-    {"at": 121.0, "audio": "audio/ko/11_chiqui.wav", "who": "치키", "text": "짠! 여기도!"},
-    {"at": 129.0, "audio": "audio/ko/12_narr.wav",   "who": "내레이션", "text": "모두 몇 개일까?"},
-    {"at": 132.5, "audio": "audio/ko/13_all.wav",    "who": "모두", "text": "하나! 둘! 셋! 넷! 다섯!"},
-    {"at": 145.5, "audio": "audio/ko/14_bau.wav",    "who": "바우 할아버지", "text": "공룡은 알에서 태어난단다."},
-    {"at": 148.5, "audio": "audio/ko/15_all.wav",    "who": "모두", "text": "와아~"},
-    {"at": 151.0, "audio": "audio/ko/16_narr.wav",   "who": "내레이션", "text": "톡, 톡, 톡!"},
-    {"at": 156.0, "audio": "audio/ko/17_all.wav",    "who": "모두", "text": "와아! 아기 공룡이다!"},
-    {"at": 161.0, "audio": "audio/ko/18_chiqui.wav", "who": "치키", "text": "안녕!"}
+    {
+      "at": 33.0,
+      "audio": "audio/ko/01_chiqui.wav",
+      "who": "치키",
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 47.0,
+      "audio": "audio/ko/02_chiqui.wav",
+      "who": "치키",
+      "text": "어? 이게 뭐지?"
+    },
+    {
+      "at": 50.5,
+      "audio": "audio/ko/03_narr.wav",
+      "who": "내레이션",
+      "text": "동글동글 공룡알!"
+    },
+    {
+      "at": 53.0,
+      "audio": "audio/ko/04_chiqui.wav",
+      "who": "치키",
+      "text": "알이 하나!"
+    },
+    {
+      "at": 56.0,
+      "audio": "audio/ko/05_narr.wav",
+      "who": "내레이션",
+      "text": "다른 알들은 어디 있을까?"
+    },
+    {
+      "at": 61.0,
+      "audio": "audio/ko/06_chiqui.wav",
+      "who": "치키",
+      "text": "친구들아, 같이 찾자!"
+    },
+    {
+      "at": 70.5,
+      "audio": "audio/ko/07_all.wav",
+      "who": "모두",
+      "text": "좋아!"
+    },
+    {
+      "at": 81.0,
+      "audio": "audio/ko/08_roro.wav",
+      "who": "로로",
+      "text": "크앙! 찾았다!"
+    },
+    {
+      "at": 99.0,
+      "audio": "audio/ko/09_torong.wav",
+      "who": "토롱",
+      "text": "쭈욱~ 여기 있다!"
+    },
+    {
+      "at": 111.0,
+      "audio": "audio/ko/10_pio.wav",
+      "who": "피오",
+      "text": "슝~ 나도!"
+    },
+    {
+      "at": 121.0,
+      "audio": "audio/ko/11_chiqui.wav",
+      "who": "치키",
+      "text": "짠! 여기도!"
+    },
+    {
+      "at": 130.2,
+      "audio": "audio/ko/12_narr.wav",
+      "who": "내레이션",
+      "text": "모두 몇 개일까?"
+    },
+    {
+      "at": 133.3,
+      "audio": "audio/ko/13_all.wav",
+      "who": "모두",
+      "text": "하나! 둘! 셋! 넷! 다섯!"
+    },
+    {
+      "at": 145.5,
+      "audio": "audio/ko/14_bau.wav",
+      "who": "바우 할아버지",
+      "text": "공룡은 알에서 태어난단다."
+    },
+    {
+      "at": 148.5,
+      "audio": "audio/ko/15_all.wav",
+      "who": "모두",
+      "text": "와아~"
+    },
+    {
+      "at": 151.0,
+      "audio": "audio/ko/16_narr.wav",
+      "who": "내레이션",
+      "text": "톡, 톡, 톡!"
+    },
+    {
+      "at": 156.0,
+      "audio": "audio/ko/17_all.wav",
+      "who": "모두",
+      "text": "와아! 아기 공룡이다!"
+    },
+    {
+      "at": 161.0,
+      "audio": "audio/ko/18_chiqui.wav",
+      "who": "치키",
+      "text": "안녕!"
+    }
   ],
-  "music": {"file": "audio/bgm.wav", "volume": 0.22, "note": "임시 배경음악. Suno 노래가 오면 0:00-0:15 오프닝, 0:55-1:50 알 찾기 노래, 2:45-3:00 엔딩으로 교체"},
+  "music": {
+    "file": "audio/bgm.wav",
+    "volume": 0.22,
+    "note": "임시 배경음악. Suno 노래가 오면 0:00-0:15 오프닝, 0:55-1:50 알 찾기 노래, 2:45-3:00 엔딩으로 교체"
+  },
   "sfx_suggestions": [
-    {"at": 55.0, "what": "바람 휘잉"},
-    {"at": 81.0, "what": "뿅 / 반짝"},
-    {"at": 150.0, "what": "알 깨지는 톡톡"},
-    {"at": 155.0, "what": "아기 공룡 꾸잉꾸잉"}
+    {
+      "at": 55.0,
+      "what": "바람 휘잉"
+    },
+    {
+      "at": 81.0,
+      "what": "뿅 / 반짝"
+    },
+    {
+      "at": 150.0,
+      "what": "알 깨지는 톡톡"
+    },
+    {
+      "at": 155.0,
+      "what": "아기 공룡 꾸잉꾸잉"
+    }
   ]
 }
