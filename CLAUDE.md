@@ -15,24 +15,23 @@
 
 | 캐릭터 | 종 | 색 | 성격 / 특징 | 레퍼런스 시트 (Higgsfield Job ID) |
 |---|---|---|---|---|
-| 치키 (Chiqui) | 아기 트리케라톱스 | 주황 | 주인공. 호기심 많고 덤벙댐. 캐치프레이즈 "치키치키 출발!" | `characters/chiqui_sheet.png` (ceb7a2db-fff5-41fe-9294-c6a1473f0356) |
-| 옥이 (Okki) | 아기 문어 | 분홍 (기분에 따라 몸 색이 바뀜) | 다정한 장난꾸러기. "옥이옥이 짠!" 색깔·숫자(다리 8개)·감정 담당 | `characters/okki_sheet.png` (e18e4899-b1f7-4cb7-ac71-7a12950a4663) |
-| 주주 (Zuzu) | 꼬마 꿀벌 | 노랑·갈색 줄무늬, 꽃 가방 | 부지런한 도우미. "붕붕 도와줄게!" 돕기·나누기, 춤 동요 담당 | `characters/zuzu_sheet.png` (51ff83ef-df88-41cb-89ed-5041e355f57a) |
-| 리비 (Ribbi) | 아기 개구리 | 초록, 노란 배, 연잎 | 장난꾸러기 웃음 담당. 폴짝폴짝 점프, 춤·율동 동요 담당 | `characters/ribbi_sheet.png` (a0c53a67-0521-4ce9-beb3-60aacac897d9) |
-| 부리 박사님 (Dr. Buri / Doctor Buri) | 아기 부엉이 | 청록·크림, 머리 위 안경, 책 | 아는 게 많은 박사님, 상식 코너 담당 | `characters/buri_sheet.png` (ff6dc1d4-b1e6-49f7-8da3-423516296b02) |
+| 치키 (Chiqui) | 아기 트리케라톱스 | 주황, 노란 점무늬 프릴 | 주인공. 호기심 많고 덤벙댐. 캐치프레이즈 "치키치키 출발!" | `characters/chiqui_sheet.png` (ceb7a2db-fff5-41fe-9294-c6a1473f0356) |
+| 로로 (Roro) | 아기 티라노사우루스 | 노랑, 등에 주황 점 | 웃음·율동 담당 장난꾸러기. 크앙! 소리는 크지만 하나도 안 무서움 | `characters/roro_sheet.png` (9b948cec-cb3e-43d1-b945-e6406532e9ed) |
+| 토롱 (Torong) | 아기 브라키오사우루스 | 초록, 연두 점무늬 | 키 크고 겁 많지만 다정함. 높은 곳에 손(목)이 닿는 큰 친구 | `characters/torong_sheet.png` (17e63f10-cf4e-48db-804a-b1d978617ee3) |
+| 피오 (Pio) | 꼬마 프테라노돈 | 하늘색, 노란 부리 | 수줍음 많음. 하늘을 날며 소식을 전함 | `characters/pio_sheet.png` (a190d94d-5c60-4741-8dd7-95a2a204d0d2) |
+| 바우 할아버지 (Grandpa Bau / Abuelo Bau) | 안킬로사우루스 | 보라, 동그란 안경, 흰 눈썹 | 아는 게 많은 박사님, 공룡 상식 코너 담당 | `characters/bau_sheet.png` (541f9c91-1c92-4fd5-ab6c-8c19c9f97390) |
 
-- 출연진 확정: 2026-11-15. 이름은 세 언어 공통. 앞서 정했던 토롱·피오·바우 할아버지는 쓰지 않는다.
-- 손님 캐릭터: 포실이 (Posil, 아기 알파카, `characters/candidates/K_alpaca.png`) — 잠자리·겨울 에피소드 등에 가끔 등장.
-- 레퍼런스 시트(2026-11-15, GPT Image 2.5 high): 위쪽 줄 정면·옆면·뒷면, 아래쪽 줄 표정 3개. 장면 생성 때 Job ID를 `image_references`로 넣는다. 처음 시안은 `characters/candidates/`에 있다.
-- 옥이 표정별 몸 색: 기쁨 분홍, 놀람 노랑, 슬픔 하늘색.
-- 배경: 알록달록한 화산섬 마을 (옥이가 사는 바닷가 석호, 리비의 연못, 주주의 꽃밭, 부리 박사님의 나무 위 도서관)
+- 출연진 확정: 2026-11-15, 공룡 5마리. 이름은 세 언어 공통이고 할아버지만 Grandpa / Abuelo를 붙인다.
+- 레퍼런스 시트(GPT Image 2.5 high): 위쪽 줄 정면·옆면·뒷면, 아래쪽 줄 표정 3개. 장면 생성 때 Job ID를 `image_references`로 넣는다. 공룡 4마리 시트는 치키 시트를 화풍 기준으로 넣어 만들었다.
+- 손님 캐릭터(가끔 등장): 옥이(문어) `okki_sheet.png`, 주주(꿀벌) `zuzu_sheet.png`, 리비(개구리) `ribbi_sheet.png`, 부리(부엉이) `buri_sheet.png`, 포실이(알파카) `candidates/K_alpaca.png`. 후보 시안은 `characters/candidates/`.
+- 배경: 알록달록한 화산섬 공룡 마을 (치키네 동굴 집, 토롱의 큰 나무 숲, 피오가 나는 구름 언덕, 로로의 놀이터 바위, 바우 할아버지의 화석 도서관)
 - 화풍: 부드러운 3D 장난감(클레이)풍. 후보 시안 프롬프트의 문구를 모든 생성에 그대로 붙인다:
   `Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers`
 
 ## 3. 에피소드 구성 원칙
 
 - 같은 후렴 틀에 가사만 바꾸는 "시리즈형 후렴"을 기본으로 한다.
-- 주제 예시: 양치·손 씻기 생활습관, 1~10 숫자 세기, 색깔 숨바꼭질(옥이), 감정 이름 붙이기(옥이의 몸 색), 부리 박사님의 상식 코너
+- 주제 예시: 양치·손 씻기 생활습관, 1~10 공룡알 세기, 색깔 숨바꼭질, 감정 이름 붙이기, 크기 비교(토롱과 피오), 바우 할아버지의 공룡 상식 코너
 - 더빙 친화적으로 구성: 캐릭터 입이 크게 움직이는 클로즈업 대사보다 춤·걷기·놀이 장면과 내레이션 위주로 간다.
 
 ## 4. 제작 파이프라인 (에피소드 1편 기준)
