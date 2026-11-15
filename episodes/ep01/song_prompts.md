@@ -2,7 +2,7 @@
 
 Suno → Create → Custom. 칸마다 그대로 붙여 넣는다.
 
-- 모든 곡 공통 Exclude styles: `rap, rock, electric guitar, heavy drums, autotune, male lead vocal, minor key, dark, scary, sad`
+More Options: Vocal Gender Female / Duration Custom(오프닝·엔딩 20초, 알 찾기·배경음악 60초) / Max Mode Off / Weirdness 20% / Style Influence 80% / Variety Normal / Personalize Off
 
 ## 치키의 공룡 마을 (오프닝)
 

@@ -8,7 +8,6 @@ ep = Path(sys.argv[1])
 BASE = ("toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, "
         "warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, "
         "major key, cheerful and cozy")
-EXCLUDE = "rap, rock, electric guitar, heavy drums, autotune, male lead vocal, minor key, dark, scary, sad"
 
 SONGS = [
     dict(id="op", title="치키의 공룡 마을 (오프닝)", where="0:00–0:15 · 매회 같음", inst=False,
@@ -82,7 +81,7 @@ def box(kind, bid, text):
 
 cards = []
 md = ["# 1화 노래 Suno 프롬프트", "", "Suno → Create → Custom. 칸마다 그대로 붙여 넣는다.", "",
-      f"- 모든 곡 공통 Exclude styles: `{EXCLUDE}`", ""]
+      "More Options: Vocal Gender Female / Duration Custom(오프닝·엔딩 20초, 알 찾기·배경음악 60초) / Max Mode Off / Weirdness 20% / Style Influence 80% / Variety Normal / Personalize Off", ""]
 for s in SONGS:
     parts = [box("Title (제목)", s["id"] + "-t", s["title"])]
     if s["inst"]:
@@ -100,6 +99,7 @@ for s in SONGS:
 src = (Path(__file__).parent / "build_prompt_page.py").read_text(encoding="utf-8")
 css = re.search(r"<style>\n(.*?)</style>", src, re.S).group(1).replace("{{", "{").replace("}}", "}")
 css += ".note { margin: 0; font-size: .95rem; color: var(--muted); }\n.steps b { color: var(--ink); }\n"
+css += ".opts { width: 100%; border-collapse: collapse; font-size: .92rem; }\n.opts th, .opts td { text-align: left; padding: 8px 6px; border-top: 1px solid var(--line); vertical-align: top; }\n.opts th { color: var(--muted); font-weight: 600; font-size: .8rem; }\n.opts td:first-child { white-space: nowrap; font-family: var(--mono); font-size: .85rem; }\n"
 js = re.search(r"<script>\n(.*?)</script>", src, re.S).group(1).replace("{{", "{").replace("}}", "}")
 
 page = f'''<title>치키 노래 프롬프트</title>
@@ -117,12 +117,20 @@ page = f'''<title>치키 노래 프롬프트</title>
     <ol class="steps">
       <li>Suno에서 <b>Create</b> → <b>Custom</b> 모드를 켠다.</li>
       <li>Lyrics 칸에 가사, Styles 칸에 스타일, Title 칸에 제목을 붙여 넣는다.</li>
-      <li><b>More Options → Exclude styles</b>에 아래 문구를 넣는다 (4곡 모두 같음).</li>
+      <li><b>More Options</b>는 아래 표처럼 맞춘다.</li>
       <li>한 번에 2곡씩 나와요. 발음이 또렷하고 밝은 쪽을 고른다.</li>
       <li>15초보다 길게 나와도 괜찮아요. 받은 파일을 여기 채팅에 올려 주면 길이는 제가 맞춰 자를게요.</li>
       <li>유튜브 수익 창출을 하려면 Suno <b>유료 플랜(Pro 이상)</b>으로 만든 곡이어야 해요. 무료 플랜 곡은 상업적으로 쓸 수 없어요.</li>
     </ol>
-    {box("Exclude styles (4곡 공통)", "ex", EXCLUDE)}
+    <table class="opts"><thead><tr><th>설정</th><th>값</th></tr></thead><tbody>
+      <tr><td>Vocal Gender</td><td><b>Female</b> (배경음악은 상관없음)</td></tr>
+      <tr><td>Duration</td><td><b>Custom</b> — 오프닝·엔딩 20초, 알 찾기 노래 60초, 배경음악 60초. 길이를 못 고르면 Auto로 두세요.</td></tr>
+      <tr><td>Max Mode</td><td><b>Off</b></td></tr>
+      <tr><td>Weirdness</td><td><b>20%</b> (낮을수록 무난하고 동요다운 곡)</td></tr>
+      <tr><td>Style Influence</td><td><b>80%</b> (스타일 문구를 잘 따르게)</td></tr>
+      <tr><td>Variety</td><td><b>Normal</b> 그대로</td></tr>
+      <tr><td>Personalize</td><td><b>Off</b> (4곡 소리를 똑같이 맞추려고)</td></tr>
+    </tbody></table>
   </section>
   <nav class="jump" aria-label="곡 바로가기"><a href="#op">오프닝</a><a href="#egg">알 찾기</a><a href="#ed">엔딩</a><a href="#bgm">배경음악</a></nav>
   {"".join(cards)}
