@@ -4,3 +4,6 @@ output/*.mp4
 # remotion/public의 그림·영상은 assets/에서 복사해 쓴다 (scripts/sync_assets.sh)
 remotion/public/scenes/
 remotion/public/clips/
+
+# 웹에서 만든 큰 원본 영상(1080p, 50~130MB)은 GitHub 용량 한도 때문에 넣지 않는다. Job ID로 언제든 다시 받을 수 있다 (episodes/*/clips/README.md)
+episodes/*/clips/web_*.mp4
