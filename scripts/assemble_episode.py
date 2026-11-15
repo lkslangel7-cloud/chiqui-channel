@@ -47,19 +47,36 @@ def main(ep_dir: str, out: str) -> None:
             f"drawtext=fontfile={FONT}:text='{esc(ln['text'])}':fontsize=64:fontcolor=white:borderw=6:bordercolor=0x5a3d1e"
             f":x=(w-text_w)/2:y=h-150:enable='between(t,{ln['at']:.2f},{end:.2f})'"
         )
+    for c in spec.get("captions", []):  # 노래 가사 자막 (소리 파일 없이 시간만)
+        subs.append(
+            f"drawtext=fontfile={FONT}:text='{esc(c['text'])}':fontsize=60:fontcolor=0xfff3c4:borderw=6:bordercolor=0x5a3d1e"
+            f":x=(w-text_w)/2:y=h-150:enable='between(t,{c['at']:.2f},{c['end']:.2f})'"
+        )
     fc.append("[vcat]" + ",".join(subs) + "[vout]")
 
     # 소리: 배경음악 + 대사
-    ai = n
-    mus = spec["music"]
-    args += ["-i", str(ep / mus["file"])]
-    fc.append(f"[{ai}:a]atrim=0:{spec['length']},volume={mus['volume']},afade=t=out:st={spec['length'] - 3}:d=3[bgm]")
-    mix = ["[bgm]"]
+    # 바닥 무음 트랙 (전체 길이 고정용)
+    fc.append(f"anullsrc=r=44100:cl=stereo,atrim=0:{spec['length']}[base]")
+    mix = ["[base]"]
+    musics = spec["music"] if isinstance(spec["music"], list) else [
+        dict(spec["music"], at=0, **{"from": 0}, dur=spec["length"], fade_in=0, fade_out=3)]
+    k = n
+    for m_i, m in enumerate(musics):
+        args += ["-i", str(ep / m["file"])]
+        d, fi, fo = m["dur"], m.get("fade_in", 0), m.get("fade_out", 0)
+        ms = int(m["at"] * 1000)
+        chain = f"[{k}:a]atrim={m.get('from', 0)}:{m.get('from', 0) + d},asetpts=PTS-STARTPTS,aresample=44100,aformat=channel_layouts=stereo,volume={m['volume']}"
+        if fi: chain += f",afade=t=in:st=0:d={fi}"
+        if fo: chain += f",afade=t=out:st={max(0, d - fo)}:d={fo}"
+        fc.append(chain + f",adelay={ms}|{ms}[m{m_i}]")
+        mix.append(f"[m{m_i}]")
+        k += 1
     for j, ln in enumerate(spec["lines"]):
         args += ["-i", str(ep / ln["audio"])]
         ms = int(ln["at"] * 1000)
-        fc.append(f"[{ai + 1 + j}:a]aresample=44100,aformat=channel_layouts=stereo,adelay={ms}|{ms}[l{j}]")
+        fc.append(f"[{k}:a]aresample=44100,aformat=channel_layouts=stereo,adelay={ms}|{ms}[l{j}]")
         mix.append(f"[l{j}]")
+        k += 1
     fc.append("".join(mix) + f"amix=inputs={len(mix)}:normalize=0:duration=first,alimiter=limit=0.95[aout]")
 
     cmd = ["ffmpeg", "-loglevel", "error", "-y", *args, "-filter_complex", ";".join(fc),
@@ -73,7 +90,9 @@ def main(ep_dir: str, out: str) -> None:
     md += [f"| {mmss(v['start'])} | `{v['file']}` ({v['from']}초부터) | {v['dur']}초 | {v['note']} |" for v in spec["video"]]
     md += ["", "## 대사 트랙", "", "| 시작 | 파일 | 누가 | 대사 |", "| --- | --- | --- | --- |"]
     md += [f"| {mmss(l['at'])} | `{l['audio']}` | {l['who']} | {l['text']} |" for l in spec["lines"]]
-    md += ["", "## 음악", "", f"- `{mus['file']}` 볼륨 {mus['volume']} — {mus['note']}", "", "## 효과음 (캡컷 무료 효과음에서 검색)", ""]
+    md += ["", "## 음악", ""]
+    md += [f"- {mmss(m['at'])} `{m['file']}` ({m.get('from', 0)}초부터 {m['dur']}초, 볼륨 {m['volume']}) — {m.get('note', '')}" for m in musics]
+    md += ["", "## 효과음 (캡컷 무료 효과음에서 검색)", ""]
     md += [f"- {mmss(s['at'])} {s['what']}" for s in spec.get("sfx_suggestions", [])]
     (ep / "edit_order.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print("done", out)
