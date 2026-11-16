@@ -14,13 +14,16 @@ D = {
 BAL = "shiny round toy balloon with a curly white string"
 def bal(c): return f"one bright {c} {BAL}"
 
+AT = {"C": "@chiqui", "R": "@roro", "T": "@torong", "P": "@pio", "B": "@bau"}
+
 def img(chars, scene, extra=""):
+    # 웹사이트 Elements(@이름)로 캐릭터·화풍을 넣는다. 시트를 따로 올리지 않아도 된다.
     if chars:
-        head = "Use the attached character sheet" + ("s" if len(chars) > 1 else "") + " for the exact look of " + ", ".join(D[c] for c in chars) + ". "
+        head = "Characters: " + "; ".join(f"{AT[c]} is {D[c]}" for c in chars) + ". Draw them exactly like their element images. "
         count = f" Draw exactly one of each character, never duplicated ({len(chars)} character{'s' if len(chars) > 1 else ''} in total)."
     else:
         head, count = "", " No characters in this scene."
-    return f"{head}{scene}{count}{(' ' + extra) if extra else ''} Match the art style, colors, textures and lighting of the attached village picture (style only, do not copy its layout). 16:9 wide shot. {STYLE}"
+    return f"{head}{scene}{count}{(' ' + extra) if extra else ''} Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). 16:9 wide shot. {STYLE}"
 
 S = [
  ("S02", "바우 할아버지의 풍선", "0:20–0:30", "B", 10,

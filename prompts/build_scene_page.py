@@ -13,10 +13,10 @@ CH = {"C": ("치키", "chiqui", "#f08a2c"), "R": ("로로", "roro", "#f2c230"), 
       "P": ("피오", "pio", "#5aa7e6"), "B": ("바우 할아버지", "bau", "#9a7ad1")}
 
 def chips(refs):
-    village = '<span class="chip">🏝 마을 그림</span>'
+    village = '<span class="chip">🏝 @village</span>'
     if not refs:
-        return village + '<span class="none">+ 시트는 넣지 않기 (캐릭터가 안 나와요)</span>'
-    return village + "".join(f'<span class="chip"><i style="background:{CH[r][2]}"></i>{CH[r][0]}</span>' for r in refs)
+        return village + '<span class="none">(친구는 안 나와요)</span>'
+    return village + "".join(f'<span class="chip"><i style="background:{CH[r][2]}"></i>@{CH[r][1]} {CH[r][0]}</span>' for r in refs)
 
 def box(kind, bid, text):
     return (f'<div class="prompt"><div class="prompt-head"><span class="kind">{e(kind)}</span>'
@@ -26,14 +26,14 @@ cards = []
 for i, s in enumerate(scenes, 1):
     cards.append(f'''<article class="scene" id="{s['id'].lower()}">
   <header class="scene-head"><span class="sid">{i}/{len(scenes)} · {e(s['id'])}</span><h2>{e(s['name'])}</h2><span class="time">{e(s['time'])}</span></header>
-  <div class="step"><b>① 넣을 시트</b> <span class="chips">{chips(s['refs'])}</span></div>
+  <div class="step"><b>① 나오는 친구</b> <span class="chips">{chips(s['refs'])}</span></div>
   <div class="step"><b>② 그림 만들기</b> · 16:9</div>
   {box("그림 프롬프트", s['id'] + "-i", s['img'])}
   <div class="step"><b>③ 영상 만들기</b> · 방금 그림을 시작 이미지로 · <b class="sec">{s['sec']}초</b> · 소리 끔</div>
   {box("영상 프롬프트", s['id'] + "-v", s['vid'])}
 </article>''')
 
-sheets = "".join(f'<a class="sheet" href="sheets/{CH[k][1]}_sheet.png" target="_blank" rel="noopener"><img src="sheets/{CH[k][1]}_sheet.png" alt="{CH[k][0]} 시트" loading="lazy"><span><i style="background:{CH[k][2]}"></i>{CH[k][0]}</span></a>' for k in "CRTPB")
+sheets = "".join(f'<a class="sheet" href="sheets/{CH[k][1]}_sheet.png" target="_blank" rel="noopener"><img src="sheets/{CH[k][1]}_sheet.png" alt="{CH[k][0]} 시트" loading="lazy"><span><i style="background:{CH[k][2]}"></i>@{CH[k][1]} {CH[k][0]}</span></a>' for k in "CRTPB")
 nav = "".join(f'<a href="#{s["id"].lower()}">{e(s["id"][1:])}</a>' for s in scenes)
 src = (Path(__file__).parent / "build_prompt_page.py").read_text(encoding="utf-8")
 css = re.search(r"<style>\n(.*?)</style>", src, re.S).group(1).replace("{{", "{").replace("}}", "}")
@@ -66,17 +66,18 @@ page = f'''<title>{e(title)} 장면</title>
     <p class="lead">Higgsfield 웹사이트에서 장면 {len(scenes)}개를 하나씩 만들어요. 장면마다 ①→②→③ 순서만 지키면 돼요.</p>\n    <p class="warn">🧪 <b>먼저 S02, S03 두 장면만</b> 그림과 영상까지 만들고 "두 개 만들었어"라고 알려 주세요. 1화와 그림체가 같은지 제가 확인한 뒤에 나머지를 만들어요.</p>
   </header>
   <section class="fixed">
-    <h2>준비: 캐릭터 시트 저장하기</h2>
-    <p class="lead">시트 파일은 채팅으로 따로 보내 드렸어요. Higgsfield에서 레퍼런스를 넣을 때 <b>내 생성 기록(History)</b>에서 골라도 돼요. 아래 그림으로 어떤 시트인지 확인하세요.</p>
-    <div class="sheets">{sheets}<a class="sheet" href="sheets/style_village.png" target="_blank" rel="noopener"><img src="sheets/style_village.png" alt="마을 그림" loading="lazy"><span>🏝 마을 그림 (화풍 기준)</span></a></div>
+    <h2>저장해 둔 친구들 (Elements)</h2>
+    <p class="lead">Higgsfield에 이미 저장해 두었어요. 웹사이트 프롬프트 칸에 <b>@</b>를 치면 목록에 나와요.</p>
+    <div class="sheets">{sheets}<a class="sheet" href="sheets/style_village.png" target="_blank" rel="noopener"><img src="sheets/style_village.png" alt="마을 그림" loading="lazy"><span>🏝 @village 마을 (화풍 기준)</span></a></div>
   </section>
   <section class="fixed">
     <h2>② 그림 만드는 법</h2>
     <ol class="big">
       <li>Higgsfield에서 <b>Image</b>를 누르고, 모델은 <b>GPT Image 2.6 Sunburst</b>(무제한)를 골라요.</li>
       <li>크기(비율)는 <b>16:9</b>로 해요.</li>
-      <li><b>🏝 마을 그림</b>은 장면마다 항상 넣어요 (1화와 그림체를 맞추는 기준이에요). 그리고 그 장면의 <b>① 넣을 시트</b>에 적힌 친구 시트만 올려요. <b>적혀 있지 않은 친구 시트는 빼요!</b> (같이 넣으면 친구가 두 번 나와요)</li>
-      <li>그림 프롬프트 옆 <b>복사</b>를 누르고 붙여 넣은 다음 <b>Generate</b>를 눌러요.</li>
+      <li><b>시트는 올리지 않아요!</b> 친구들과 마을 그림은 Higgsfield에 <b>Elements</b>로 저장해 두었어요. 프롬프트 안에 <b>@chiqui</b>, <b>@village</b> 같은 이름이 들어 있어서 자동으로 들어가요.</li>
+      <li>그림 프롬프트 옆 <b>복사</b>를 누르고 붙여 넣어요.</li>
+      <li>붙여 넣은 뒤 <b>@이름</b>이 색깔 있는 칸(이름표)으로 바뀌었는지 봐요. 그냥 글자로 남아 있으면, 그 글자를 지우고 <b>@</b>를 직접 쳐서 목록에서 친구를 골라요. 그다음 <b>Generate</b>를 눌러요.</li>
       <li>그림을 확인해요. 친구 모습이 시트와 같고, 똑같은 친구가 두 번 나오지 않고, 풍선 개수와 색이 맞으면 성공이에요. 이상하면 한 번 더 만들어요.</li>
     </ol>
   </section>
@@ -102,7 +103,7 @@ page = f'''<title>{e(title)} 장면</title>
 {js}</script>
 '''
 (ep / "scene_prompts_page.html").write_text(page, encoding="utf-8")
-md = [f"# {title} — 장면 프롬프트 (웹사이트용)", "", "그림: GPT Image 2.6 Sunburst(웹 무제한), 16:9, 적힌 시트만 레퍼런스. 영상: Seedance 2.5(웹 무제한), 그림 한 장만 시작 프레임으로, 끊김 없는 한 컷, 소리 끔.", ""]
+md = [f"# {title} — 장면 프롬프트 (웹사이트용)", "", "그림: GPT Image 2.6 Sunburst(웹 무제한), 16:9, 캐릭터·화풍은 Elements(@chiqui @roro @torong @pio @bau @village). 영상: Seedance 2.5(웹 무제한), 그림 한 장만 시작 프레임으로, 끊김 없는 한 컷, 소리 끔.", ""]
 for s in scenes:
     refs = ", ".join(CH[r][0] for r in s["refs"]) or "없음"
     md += [f"### {s['id']} {s['name']} ({s['time']})", f"[레퍼런스] {refs}", "[그림]", "```", s["img"], "```", f"[영상] {s['sec']}초", "```", s["vid"], "```", ""]

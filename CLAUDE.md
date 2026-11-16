@@ -23,6 +23,8 @@
 
 - 출연진 확정: 2026-11-15, 공룡 5마리. 이름은 세 언어 공통이고 할아버지만 Grandpa / Abuelo를 붙인다.
 - 레퍼런스 시트(GPT Image 2.5 high): 위쪽 줄 정면·옆면·뒷면, 아래쪽 줄 표정 3개. 장면 생성 때 Job ID를 `image_references`로 넣는다. 공룡 4마리 시트는 치키 시트를 화풍 기준으로 넣어 만들었다.
+- Higgsfield Elements (2026-11-16 저장, 웹사이트 프롬프트에서 `@이름`, MCP에서는 `<<<element_id>>>`): `@chiqui` 352229c0-64e6-49c3-9630-dc2a5357e9c0, `@roro` 48ba8915-9e86-415f-a5ac-0bd01fc761eb, `@torong` 34450327-3e3e-4859-957d-aaef2ce2822a, `@pio` d4210d80-11ad-400d-b8ff-5aefcc5d72ff, `@bau` c0b41693-55d3-430f-b3e8-56ef39e99c7c, `@village`(화풍 기준, 1화 마을 그림) c1502b78-8fed-4f7b-a610-973938f18073.
+- 웹 무제한(2026-11-16 기준, 웹사이트에서만): 그림 GPT Image 2.6 Sunburst, 영상 Seedance 2.5. MCP·Claude Code에서는 무제한이 안 되고 크레딧이 든다. 2화부터 웹에서 만들고, 결과물은 생성 기록에서 가져온다.
 - 손님 캐릭터(가끔 등장): 옥이(문어) `okki_sheet.png`, 주주(꿀벌) `zuzu_sheet.png`, 리비(개구리) `ribbi_sheet.png`, 부리(부엉이) `buri_sheet.png`, 포실이(알파카) `candidates/K_alpaca.png`. 후보 시안은 `characters/candidates/`.
 - 배경: 알록달록한 화산섬 공룡 마을 (치키네 동굴 집, 토롱의 큰 나무 숲, 피오가 나는 구름 언덕, 로로의 놀이터 바위, 바우 할아버지의 화석 도서관)
 - 화풍: 부드러운 3D 장난감(클레이)풍. 후보 시안 프롬프트의 문구를 모든 생성에 그대로 붙인다:
