@@ -178,15 +178,15 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 Chiqui takes the red balloon, jumps with joy and gives Grandpa Bau a big hug. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
-### S18a 노랑이랑 파랑을 섞으면? (2:20–2:25)
+### S18a 어? 초록 물감이 없네 (2:20–2:25)
 [레퍼런스] 바우 할아버지, 치키, 로로, 토롱, 피오
 [그림]
 ```
-Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back; @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows sits in front of a big flat white stone with two small clay bowls of paint, one bright yellow and one bright blue. Chiqui, the orange baby triceratops with a yellow-spotted frill, Roro, the yellow baby T-rex with orange spots on the back, Torong, the green baby brachiosaurus with light-green spots and Pio, the little sky-blue pteranodon with a yellow beak sit around watching with curious faces. Draw exactly one of each character, never duplicated (5 characters in total). No balloons in this scene. Show every character's full body from head to feet and every balloon completely, with empty space around them; nothing is cut off at the edges. Keep characters and balloons in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back; @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows sits in front of a big flat white stone. On the stone lies a sheet of paper with a simple crayon-like drawing of four balloons: one colored red, one colored yellow, one colored blue, and one balloon left white and empty with only an outline. Next to the paper are two small clay bowls of paint, one bright yellow and one bright blue, and a paintbrush. Grandpa Bau looks at the empty balloon with a puzzled face. Chiqui, the orange baby triceratops with a yellow-spotted frill, Roro, the yellow baby T-rex with orange spots on the back, Torong, the green baby brachiosaurus with light-green spots and Pio, the little sky-blue pteranodon with a yellow beak sit around watching with curious faces. Draw exactly one of each character, never duplicated (5 characters in total). No real balloons in this scene. Show every character's full body from head to feet and every balloon completely, with empty space around them; nothing is cut off at the edges. Keep characters and balloons in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
 ```
 [영상] 5초
 ```
-Grandpa Bau picks up the two paint bowls; the friends lean in curiously. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Grandpa Bau looks at the drawing, tilts the head and scratches it, then picks up the yellow and blue paint bowls; the friends lean in curiously. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S18b 짠! 초록이 됐네! (2:25–2:30)
@@ -197,7 +197,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-One continuous shot with no cuts. The yellow and blue paint swirl together and turn into bright green, with a little sparkle. Keep the soft 3D clay style unchanged.
+One continuous shot with no cuts. The yellow and blue paint swirl together and slowly turn into bright green, with a little sparkle at the end. Keep the soft 3D clay style unchanged.
 ```
 
 ### S19 무슨 색일까? (2:30–2:40)

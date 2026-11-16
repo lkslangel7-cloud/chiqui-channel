@@ -171,7 +171,7 @@
       "file": "clips/ep02_s18a.mp4",
       "from": 0,
       "dur": 5,
-      "note": "S18a 노랑이랑 파랑을 섞으면?",
+      "note": "S18a 어? 초록 물감이 없네",
       "fallback": "images/ep02_s18a.png"
     },
     {
@@ -275,25 +275,31 @@
       "text": "고마워요, 할아버지!"
     },
     {
-      "at": 140.5,
+      "at": 139.8,
+      "audio": "audio/ko/12b_bau.wav",
+      "who": "바우 할아버지",
+      "text": "어? 초록 물감이 없네."
+    },
+    {
+      "at": 142.4,
       "audio": "audio/ko/13_bau.wav",
       "who": "바우 할아버지",
       "text": "노랑이랑 파랑을 섞으면?"
     },
     {
-      "at": 145.0,
+      "at": 146.0,
       "audio": "audio/ko/14_bau.wav",
       "who": "바우 할아버지",
       "text": "짠! 초록이 됐네!"
     },
     {
-      "at": 147.4,
+      "at": 148.1,
       "audio": "audio/ko/14b_all.wav",
       "who": "모두",
       "text": "와아~ 토롱이 색이다!"
     },
     {
-      "at": 150.5,
+      "at": 150.8,
       "audio": "audio/ko/15_narr.wav",
       "who": "내레이션",
       "text": "무슨 색일까?"
