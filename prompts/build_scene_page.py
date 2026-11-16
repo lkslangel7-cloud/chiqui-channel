@@ -32,7 +32,7 @@ for i, s in enumerate(scenes, 1):
   {box("영상 프롬프트", s['id'] + "-v", s['vid'])}
 </article>''')
 
-sheets = "".join(f'<a class="sheet" href="sheets/{CH[k][1]}_sheet.png" download><img src="sheets/{CH[k][1]}_sheet.png" alt="{CH[k][0]} 시트" loading="lazy"><span><i style="background:{CH[k][2]}"></i>{CH[k][0]}</span></a>' for k in "CRTPB")
+sheets = "".join(f'<a class="sheet" href="sheets/{CH[k][1]}_sheet.png" target="_blank" rel="noopener"><img src="sheets/{CH[k][1]}_sheet.png" alt="{CH[k][0]} 시트" loading="lazy"><span><i style="background:{CH[k][2]}"></i>{CH[k][0]}</span></a>' for k in "CRTPB")
 nav = "".join(f'<a href="#{s["id"].lower()}">{e(s["id"][1:])}</a>' for s in scenes)
 src = (Path(__file__).parent / "build_prompt_page.py").read_text(encoding="utf-8")
 css = re.search(r"<style>\n(.*?)</style>", src, re.S).group(1).replace("{{", "{").replace("}}", "}")
@@ -66,7 +66,7 @@ page = f'''<title>{e(title)} 장면</title>
   </header>
   <section class="fixed">
     <h2>준비: 캐릭터 시트 저장하기</h2>
-    <p class="lead">그림을 누르면 저장돼요. 처음 한 번만 하면 돼요.</p>
+    <p class="lead">시트 파일은 채팅으로 따로 보내 드렸어요. Higgsfield에서 레퍼런스를 넣을 때 <b>내 생성 기록(History)</b>에서 골라도 돼요. 아래 그림으로 어떤 시트인지 확인하세요.</p>
     <div class="sheets">{sheets}</div>
   </section>
   <section class="fixed">
