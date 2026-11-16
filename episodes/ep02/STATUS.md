@@ -5,7 +5,7 @@
 | 대본·가사 | 완료 (`script.md`, `lyrics_ko.md`) |
 | 장면 그림 21장 | 사용자가 웹(GPT Image 2.6 Sunburst)에서 완료 → **파일을 채팅에 올려 받아야 함** (웹 결과물은 MCP 기록에 안 보임) |
 | 영상 21컷 | 아직 (웹 Seedance 2.5 무제한, 그림을 시작 프레임으로) → 받으면 `clips/ep02_s02.mp4` … `ep02_s21.mp4`로 저장 |
-| 풍선 찾기 노래 | 아직 (Suno) → `audio/songs/balloon_song.wav` |
+| 풍선 찾기 노래 | **완료** `audio/songs/balloon_song.wav` (60초, 노래 시작 0:54.4에 맞춰 장면 배치) |
 | 대사 음성 21개 | **완료** `audio/ko/` (06·07·08·20은 1화 음성 재사용) |
 | 편집 순서표 | 초안 `edit_order.json` (오프닝·엔딩·배경음악은 1화 곡, 오프닝 영상·치키 달리기는 1화 클립) |
 
@@ -19,3 +19,4 @@
 - 2차(2026-11-16) S12–S21 11장: 내용·캐릭터·풍선 모두 맞음. 역시 정사각형.
   코드: S12 DR6zQ5WQB6s, S13 TRk30E_gb6I, S14 j1WbbEoXkiI, S15 IjvgsIuyTp0, S16 HR4Il3kY1JE, S17 JyNjI8QUlso, S18a ZlTBSU2yCv8, S18b VC0DwDlQpq8, S19 qx_W4bEG4RU, S20 bOMKABeq-ks, S21 guhFDEAQMis
 - 21장 모두 합격(그림체·캐릭터·복제 없음·풍선 개수). 남은 문제는 비율(1:1 → 16:9)뿐. 옆을 늘리기(outpaint)는 장당 2크레딧(MCP에서 웹 그림 Job ID로 가능).
+- 미리보기: `output/ep02_ko_preview.mp4` — 영상 S02·S03 + 나머지 19장면은 그림으로 대신. 영상이 오면 `clips/ep02_sXX.mp4`로 넣고 다시 조립하면 자동으로 영상으로 바뀐다.

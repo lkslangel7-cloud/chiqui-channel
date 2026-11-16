@@ -34,9 +34,20 @@ def main(ep_dir: str, out: str, no_subs: bool = False) -> None:
     ep = Path(ep_dir)
     spec = json.loads((ep / "edit_order.json").read_text(encoding="utf-8"))
     args, fc = [], []
+    missing = []
     for i, v in enumerate(spec["video"]):
-        args += ["-ss", str(v["from"]), "-t", str(v["dur"]), "-i", str(ep / v["file"])]
+        src = ep / v["file"]
+        if not src.exists() and v.get("fallback") and (ep / v["fallback"]).exists():
+            # 영상이 아직 없으면 같은 장면 그림을 천천히 확대해 미리보기로 쓴다
+            missing.append(v["file"])
+            args += ["-loop", "1", "-framerate", str(FPS), "-t", str(v["dur"]), "-i", str(ep / v["fallback"])]
+            z = f"(1+0.06*t/{v['dur']})"
+            fc.append(f"[{i}:v]scale=w='trunc({W}*{z}/2)*2':h='trunc({H}*{z}/2)*2':eval=frame,crop={W}:{H},fps={FPS},setsar=1,format=yuv420p[v{i}]")
+            continue
+        args += ["-ss", str(v["from"]), "-t", str(v["dur"]), "-i", str(src)]
         fc.append(f"[{i}:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1,format=yuv420p[v{i}]")
+    if missing:
+        print("그림으로 대신한 장면:", len(missing), "개")
     n = len(spec["video"])
     fc.append("".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[vcat]")
 

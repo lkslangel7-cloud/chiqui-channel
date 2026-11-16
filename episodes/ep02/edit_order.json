@@ -1,7 +1,7 @@
 {
   "title": "2화 알록달록 풍선 어디 있니?",
   "length": 180,
-  "draft": "초안: 영상 클립(clips/ep02_sXX.mp4)과 풍선 찾기 노래가 오면 시간을 맞춘다. 노래 가사 자막은 노래가 온 뒤 추가.",
+  "draft": "노래 박자에 맞춤. 아직 없는 영상 클립은 같은 장면 그림(images/ep02_sXX.png)으로 미리보기를 만든다.",
   "video": [
     {
       "start": 0,
@@ -36,42 +36,48 @@
       "file": "clips/ep02_s02.mp4",
       "from": 0,
       "dur": 10,
-      "note": "S02 바우 할아버지의 풍선"
+      "note": "S02 바우 할아버지의 풍선",
+      "fallback": "images/ep02_s02.png"
     },
     {
       "start": 30.0,
       "file": "clips/ep02_s03.mp4",
       "from": 0,
       "dur": 5,
-      "note": "S03 친구들이 폴짝폴짝"
+      "note": "S03 친구들이 폴짝폴짝",
+      "fallback": "images/ep02_s03.png"
     },
     {
       "start": 35.0,
       "file": "clips/ep02_s04.mp4",
       "from": 0,
       "dur": 5,
-      "note": "S04 풍선 네 개 클로즈업"
+      "note": "S04 풍선 네 개 클로즈업",
+      "fallback": "images/ep02_s04.png"
     },
     {
       "start": 40.0,
       "file": "clips/ep02_s05.mp4",
       "from": 0,
       "dur": 5,
-      "note": "S05 바람이 휘잉!"
+      "note": "S05 바람이 휘잉!",
+      "fallback": "images/ep02_s05.png"
     },
     {
       "start": 45.0,
       "file": "clips/ep02_s06.mp4",
       "from": 0,
       "dur": 5,
-      "note": "S06 풍선이 날아가요"
+      "note": "S06 풍선이 날아가요",
+      "fallback": "images/ep02_s06.png"
     },
     {
       "start": 50.0,
       "file": "clips/ep02_s07.mp4",
       "from": 0,
       "dur": 5,
-      "note": "S07 친구들아, 같이 찾자!"
+      "note": "S07 친구들아, 같이 찾자!",
+      "fallback": "images/ep02_s07.png"
     },
     {
       "start": 55.0,
@@ -85,105 +91,120 @@
       "file": "clips/ep02_s08.mp4",
       "from": 0,
       "dur": 5,
-      "note": "S08 다 같이 출발"
+      "note": "S08 다 같이 출발",
+      "fallback": "images/ep02_s08.png"
     },
     {
       "start": 65.0,
       "file": "clips/ep02_s09.mp4",
       "from": 0,
       "dur": 10,
-      "note": "S09 로로 · 노란 풍선"
+      "note": "S09 로로 · 노란 풍선",
+      "fallback": "images/ep02_s09.png"
     },
     {
       "start": 75.0,
       "file": "clips/ep02_s10.mp4",
       "from": 0,
       "dur": 10,
-      "note": "S10 토롱 · 초록 풍선"
+      "note": "S10 토롱 · 초록 풍선",
+      "fallback": "images/ep02_s10.png"
     },
     {
       "start": 85.0,
       "file": "clips/ep02_s11.mp4",
       "from": 0,
       "dur": 10,
-      "note": "S11 피오 · 파란 풍선"
+      "note": "S11 피오 · 파란 풍선",
+      "fallback": "images/ep02_s11.png"
     },
     {
       "start": 95.0,
       "file": "clips/ep02_s12.mp4",
       "from": 0,
       "dur": 10,
-      "note": "S12 치키 풍선은?"
+      "note": "S12 치키 풍선은?",
+      "fallback": "images/ep02_s12.png"
     },
     {
       "start": 105.0,
       "file": "clips/ep02_s13.mp4",
       "from": 0,
       "dur": 10,
-      "note": "S13 같이 찾아 줄게"
+      "note": "S13 같이 찾아 줄게",
+      "fallback": "images/ep02_s13.png"
     },
     {
       "start": 115.0,
       "file": "clips/ep02_s14.mp4",
       "from": 0,
       "dur": 5,
-      "note": "S14 빨간 풍선은 어디?"
+      "note": "S14 빨간 풍선은 어디?",
+      "fallback": "images/ep02_s14.png"
     },
     {
       "start": 120.0,
       "file": "clips/ep02_s15.mp4",
       "from": 0,
       "dur": 5,
-      "note": "S15 저기 있다!"
+      "note": "S15 저기 있다!",
+      "fallback": "images/ep02_s15.png"
     },
     {
       "start": 125.0,
       "file": "clips/ep02_s16.mp4",
       "from": 0,
       "dur": 5,
-      "note": "S16 허허, 여기 있단다"
+      "note": "S16 허허, 여기 있단다",
+      "fallback": "images/ep02_s16.png"
     },
     {
       "start": 130.0,
       "file": "clips/ep02_s17.mp4",
       "from": 0,
       "dur": 10,
-      "note": "S17 고마워요, 할아버지!"
+      "note": "S17 고마워요, 할아버지!",
+      "fallback": "images/ep02_s17.png"
     },
     {
       "start": 140.0,
       "file": "clips/ep02_s18a.mp4",
       "from": 0,
       "dur": 5,
-      "note": "S18a 노랑이랑 파랑을 섞으면?"
+      "note": "S18a 노랑이랑 파랑을 섞으면?",
+      "fallback": "images/ep02_s18a.png"
     },
     {
       "start": 145.0,
       "file": "clips/ep02_s18b.mp4",
       "from": 0,
       "dur": 5,
-      "note": "S18b 짠! 초록이 됐네!"
+      "note": "S18b 짠! 초록이 됐네!",
+      "fallback": "images/ep02_s18b.png"
     },
     {
       "start": 150.0,
       "file": "clips/ep02_s19.mp4",
       "from": 0,
       "dur": 10,
-      "note": "S19 무슨 색일까?"
+      "note": "S19 무슨 색일까?",
+      "fallback": "images/ep02_s19.png"
     },
     {
       "start": 160.0,
       "file": "clips/ep02_s20.mp4",
       "from": 0,
       "dur": 10,
-      "note": "S20 풍선 들고 춤"
+      "note": "S20 풍선 들고 춤",
+      "fallback": "images/ep02_s20.png"
     },
     {
       "start": 170.0,
       "file": "clips/ep02_s21.mp4",
       "from": 0,
       "dur": 10,
-      "note": "S21 내일 또 만나요"
+      "note": "S21 내일 또 만나요",
+      "fallback": "images/ep02_s21.png"
     }
   ],
   "lines": [
@@ -228,12 +249,6 @@
       "audio": "audio/ko/07_all.wav",
       "who": "모두",
       "text": "좋아!"
-    },
-    {
-      "at": 54.6,
-      "audio": "audio/ko/08_chiqui.wav",
-      "who": "치키",
-      "text": "치키치키 출발!"
     },
     {
       "at": 115.5,
@@ -328,7 +343,7 @@
       "file": "../ep01/audio/songs/bgm.wav",
       "at": 20,
       "from": 0,
-      "dur": 36.5,
+      "dur": 34.9,
       "volume": 0.3,
       "fade_in": 1,
       "fade_out": 1.5,
@@ -336,18 +351,18 @@
     },
     {
       "file": "audio/songs/balloon_song.wav",
-      "at": 56.3,
+      "at": 54.4,
       "from": 0,
-      "dur": 59,
+      "dur": 59.96,
       "volume": 0.9,
       "fade_out": 1,
-      "note": "풍선 찾기 노래 (Suno 곡 오면 시간 맞추기)"
+      "note": "풍선 찾기 노래 (1절 로로 65.0, 2절 토롱 74.6, 3절 피오 84.4, 4절 치키 94.4, 후렴 104.2)"
     },
     {
       "file": "../ep01/audio/songs/bgm.wav",
-      "at": 115,
+      "at": 114.4,
       "from": 0,
-      "dur": 46,
+      "dur": 46.6,
       "volume": 0.3,
       "fade_in": 1.5,
       "fade_out": 1.5,
@@ -401,6 +416,106 @@
     {
       "at": 17.9,
       "end": 20.3,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 54.4,
+      "end": 58.0,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 58.0,
+      "end": 60.7,
+      "text": "풍선아 어디 있니? (어디 있니?)"
+    },
+    {
+      "at": 60.7,
+      "end": 63.0,
+      "text": "친구들아 같이 가자"
+    },
+    {
+      "at": 63.0,
+      "end": 65.0,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 65.0,
+      "end": 67.9,
+      "text": "바위 위에 둥실둥실"
+    },
+    {
+      "at": 67.9,
+      "end": 70.2,
+      "text": "크앙! 로로가 찾았다"
+    },
+    {
+      "at": 70.2,
+      "end": 74.4,
+      "text": "노랑 노랑 노란 풍선 (노랑!)"
+    },
+    {
+      "at": 74.6,
+      "end": 77.6,
+      "text": "나무 위에 둥실둥실"
+    },
+    {
+      "at": 77.6,
+      "end": 79.8,
+      "text": "쭈욱~ 토롱이 찾았다"
+    },
+    {
+      "at": 79.8,
+      "end": 84.3,
+      "text": "초록 초록 초록 풍선 (초록!)"
+    },
+    {
+      "at": 84.4,
+      "end": 87.0,
+      "text": "구름 위에 둥실둥실"
+    },
+    {
+      "at": 87.0,
+      "end": 89.5,
+      "text": "슝~ 피오가 찾았다"
+    },
+    {
+      "at": 89.5,
+      "end": 94.0,
+      "text": "파랑 파랑 파란 풍선 (파랑!)"
+    },
+    {
+      "at": 94.4,
+      "end": 96.9,
+      "text": "치키 풍선 어디 있니?"
+    },
+    {
+      "at": 96.9,
+      "end": 99.2,
+      "text": "두리번 두리번 (어디 있지?)"
+    },
+    {
+      "at": 99.4,
+      "end": 103.4,
+      "text": "빨강 빨강 빨간 풍선 (어디?)"
+    },
+    {
+      "at": 104.2,
+      "end": 106.1,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 106.1,
+      "end": 109.0,
+      "text": "풍선아 어디 있니? (어디 있니?)"
+    },
+    {
+      "at": 109.0,
+      "end": 111.2,
+      "text": "친구들아 같이 가자"
+    },
+    {
+      "at": 111.2,
+      "end": 113.9,
       "text": "치키치키 출발!"
     },
     {
