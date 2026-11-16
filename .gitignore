@@ -7,3 +7,4 @@ remotion/public/clips/
 
 # 웹에서 만든 큰 원본 영상(1080p, 50~130MB)은 GitHub 용량 한도 때문에 넣지 않는다. Job ID로 언제든 다시 받을 수 있다 (episodes/*/clips/README.md)
 episodes/*/clips/web_*.mp4
+episodes/*/images/web/
