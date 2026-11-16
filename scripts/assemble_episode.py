@@ -44,8 +44,10 @@ def main(ep_dir: str, out: str, no_subs: bool = False) -> None:
             z = f"(1+0.06*t/{v['dur']})"
             fc.append(f"[{i}:v]scale=w='trunc({W}*{z}/2)*2':h='trunc({H}*{z}/2)*2':eval=frame,crop={W}:{H},fps={FPS},setsar=1,format=yuv420p[v{i}]")
             continue
-        args += ["-ss", str(v["from"]), "-t", str(v["dur"]), "-i", str(src)]
-        fc.append(f"[{i}:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1,format=yuv420p[v{i}]")
+        sp = v.get("speed", 1)  # 0.5면 반 속도로 늘려 쓴다 (짧게 나온 클립)
+        args += ["-ss", str(v["from"]), "-t", str(round(v["dur"] * sp, 3)), "-i", str(src)]
+        slow = f"setpts=PTS/{sp}," if sp != 1 else ""
+        fc.append(f"[{i}:v]{slow}scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1,format=yuv420p[v{i}]")
     if missing:
         print("그림으로 대신한 장면:", len(missing), "개")
     n = len(spec["video"])

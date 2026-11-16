@@ -99,8 +99,9 @@
       "file": "clips/ep02_s09.mp4",
       "from": 0,
       "dur": 10,
-      "note": "S09 로로 · 노란 풍선",
-      "fallback": "images/ep02_s09.png"
+      "note": "S09 로로 · 노란 풍선 (웹 영상 5초 → 반 속도로 10초)",
+      "fallback": "images/ep02_s09.png",
+      "speed": 0.5
     },
     {
       "start": 75.0,

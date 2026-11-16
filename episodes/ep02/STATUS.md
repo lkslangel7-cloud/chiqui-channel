@@ -20,3 +20,4 @@
   코드: S12 DR6zQ5WQB6s, S13 TRk30E_gb6I, S14 j1WbbEoXkiI, S15 IjvgsIuyTp0, S16 HR4Il3kY1JE, S17 JyNjI8QUlso, S18a ZlTBSU2yCv8, S18b VC0DwDlQpq8, S19 qx_W4bEG4RU, S20 bOMKABeq-ks, S21 guhFDEAQMis
 - 21장 모두 합격(그림체·캐릭터·복제 없음·풍선 개수). 남은 문제는 비율(1:1 → 16:9)뿐. 옆을 늘리기(outpaint)는 장당 2크레딧(MCP에서 웹 그림 Job ID로 가능).
 - 미리보기: `output/ep02_ko_preview.mp4` — 영상 S02·S03 + 나머지 19장면은 그림으로 대신. 영상이 오면 `clips/ep02_sXX.mp4`로 넣고 다시 조립하면 자동으로 영상으로 바뀐다.
+- 영상 받음(2026-11-16): S02·S03(파일), S04–S13(공유 링크 3iqYcLa_DfU CFXMBElMnGo Tt7eLq9CVzY x8_3HPyXKL0 EBa-jKgr_tw WIr-ALeY7yg ayGXRZjZ2ag CsFLSN5oEgM U78KdvPGD-s STO1jkBb9zg). 모두 합격. S09는 5초라 반 속도로 10초. 남은 영상: S14–S21 (S18a·S18b 포함 9개).
