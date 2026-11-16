@@ -1,4 +1,4 @@
-# 1화 노래 Suno 프롬프트
+# 1화 · 노래 만들기 (Suno)
 
 Suno → Create → Custom. 칸마다 그대로 붙여 넣는다.
 
