@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 STYLE = "Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text."
-KEEP = "Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion."
+KEEP = "One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion."
 D = {
     "C": "Chiqui, the orange baby triceratops with a yellow-spotted frill",
     "R": "Roro, the yellow baby T-rex with orange spots on the back",
@@ -31,13 +31,13 @@ S = [
   "The four young friends hop up and down with excitement around Grandpa Bau; Pio flaps a happy little loop. The balloons bob. " + KEEP),
  ("S04", "풍선 네 개 클로즈업", "0:35–0:40", "", 5,
   img("", f"Close-up of four balloons in a row against a bright blue sky with soft clouds, from left to right: {bal('red')}, {bal('yellow')}, {bal('green')}, {bal('blue')}.", "Exactly four balloons."),
-  "The four balloons bob gently; a soft sparkle shines on each balloon one after another, left to right: red, yellow, green, blue. Keep the soft 3D clay style unchanged."),
+  "One continuous shot with no cuts. The four balloons bob gently; a soft sparkle shines on each balloon one after another, left to right: red, yellow, green, blue. Keep the soft 3D clay style unchanged."),
  ("S05", "바람이 휘잉!", "0:40–0:45", "BC", 5,
   img("BC", f"A gust of wind with swirling leaves. The four balloon strings (red, yellow, green, blue balloons) slip out of the paw of {D['B']}, who looks surprised. {D['C']} stands next to him with mouth open, pointing up.", "Exactly four balloons."),
   "A gust of wind blows leaves past; the balloon strings slip out of Grandpa Bau's paw and the four balloons rise up. Chiqui points up in surprise. " + KEEP),
  ("S06", "풍선이 날아가요", "0:45–0:50", "", 5,
   img("", f"Four small balloons (red, yellow, green, blue) drifting apart high in the sky above a colorful volcanic-island dinosaur village with a gentle smiling volcano, palm trees and round clay houses.", "Exactly four balloons."),
-  "The four balloons float away slowly in four different directions: one toward a big rock, one toward a tall tree, one toward fluffy cloud hills, and the red one out of sight. Clouds drift. Keep the soft 3D clay style unchanged."),
+  "One continuous shot with no cuts. The four balloons float away slowly in four different directions: one toward a big rock, one toward a tall tree, one toward fluffy cloud hills, and the red one out of sight. Clouds drift. Keep the soft 3D clay style unchanged."),
  ("S07", "친구들아, 같이 찾자!", "0:50–0:55", "CRTP", 5,
   img("CRTP", f"{D['C']} waves both arms to call friends. {D['R']}, {D['T']} and {D['P']} gather around and nod eagerly. Grassy meadow, sunny.", "No balloons in this scene."),
   "Chiqui waves to the friends, and they all nod and cheer together. " + KEEP),
@@ -76,7 +76,7 @@ S = [
   "Grandpa Bau picks up the two paint bowls; the friends lean in curiously. " + KEEP),
  ("S18b", "짠! 초록이 됐네!", "2:25–2:30", "", 5,
   img("", "Close-up from above of a big flat white stone: a blob of bright yellow paint and a blob of bright blue paint swirling together in the middle, starting to turn green.", ""),
-  "The yellow and blue paint swirl together and turn into bright green, with a little sparkle. Keep the soft 3D clay style unchanged."),
+  "One continuous shot with no cuts. The yellow and blue paint swirl together and turn into bright green, with a little sparkle. Keep the soft 3D clay style unchanged."),
  ("S19", "무슨 색일까?", "2:30–2:40", "CRTP", 10,
   img("CRTP", f"The four friends stand in a row, each holding their own balloon, from left to right: {D['C']} with {bal('red')}, {D['R']} with {bal('yellow')}, {D['T']} with {bal('green')}, {D['P']} with {bal('blue')}.", "Exactly four balloons."),
   "One by one from left to right, each friend lifts the balloon up high: red, yellow, green, blue. " + KEEP),

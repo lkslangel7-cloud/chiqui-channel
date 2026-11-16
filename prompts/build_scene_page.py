@@ -62,7 +62,7 @@ page = f'''<title>{e(title)} 장면</title>
 <div class="wrap">
   <header style="display:grid;gap:8px">
     <h1>{e(title)}</h1>
-    <p class="lead">Higgsfield 웹사이트에서 장면 {len(scenes)}개를 하나씩 만들어요. 장면마다 ①→②→③ 순서만 지키면 돼요.</p>
+    <p class="lead">Higgsfield 웹사이트에서 장면 {len(scenes)}개를 하나씩 만들어요. 장면마다 ①→②→③ 순서만 지키면 돼요.</p>\n    <p class="warn">🧪 <b>먼저 S02, S03 두 장면만</b> 그림과 영상까지 만들고 "두 개 만들었어"라고 알려 주세요. 1화와 그림체가 같은지 제가 확인한 뒤에 나머지를 만들어요.</p>
   </header>
   <section class="fixed">
     <h2>준비: 캐릭터 시트 저장하기</h2>
@@ -72,7 +72,7 @@ page = f'''<title>{e(title)} 장면</title>
   <section class="fixed">
     <h2>② 그림 만드는 법</h2>
     <ol class="big">
-      <li>Higgsfield에서 <b>Image</b>를 누르고, 모델은 <b>GPT Image 2.5</b>를 골라요.</li>
+      <li>Higgsfield에서 <b>Image</b>를 누르고, 모델은 <b>GPT Image 2.6 Sunburst</b>(무제한)를 골라요.</li>
       <li>크기(비율)는 <b>16:9</b>로 해요.</li>
       <li>그 장면의 <b>① 넣을 시트</b>에 적힌 친구 시트만 올려요. <b>적혀 있지 않은 친구 시트는 빼요!</b> (같이 넣으면 친구가 두 번 나와요)</li>
       <li>그림 프롬프트 옆 <b>복사</b>를 누르고 붙여 넣은 다음 <b>Generate</b>를 눌러요.</li>
@@ -82,10 +82,10 @@ page = f'''<title>{e(title)} 장면</title>
   <section class="fixed">
     <h2>③ 영상 만드는 법</h2>
     <ol class="big">
-      <li><b>Video</b>를 누르고, 모델은 <b>Kling 3.0</b>을 골라요.</li>
+      <li><b>Video</b>를 누르고, 모델은 <b>Seedance 2.5</b>(무제한)를 골라요.</li>
       <li><b>Unlimited(무제한)</b> 스위치를 켜요.</li>
-      <li>방금 만든 그림을 <b>시작 이미지(Start image)</b>에 넣어요.</li>
-      <li>영상 프롬프트를 복사해서 붙여 넣고, 길이(<b>5초</b> 또는 <b>10초</b>)를 장면에 적힌 대로 맞춰요. <b>소리(Sound)는 꺼요.</b></li>
+      <li>방금 만든 그림을 <b>시작 이미지(Start frame / 첫 프레임)</b>에 넣어요. <b>캐릭터 시트는 넣지 않아요!</b> 그림 한 장만 넣어요.</li>
+      <li>영상 프롬프트를 복사해서 붙여 넣고, 길이(<b>5초</b> 또는 <b>10초</b>)를 장면에 적힌 대로 맞춰요. 소리(Audio) 스위치가 있으면 <b>꺼요.</b> 화질은 <b>1080p</b>.</li>
       <li><b>Generate</b> 버튼을 눌러요.</li>
     </ol>
     <p class="warn">⚠️ Generate 버튼에 <b>크레딧 숫자</b>가 보이면 누르지 말고 멈춰요. 무제한이 안 켜진 거예요. 스위치를 다시 확인하거나 저한테 알려 주세요.</p>
@@ -101,7 +101,7 @@ page = f'''<title>{e(title)} 장면</title>
 {js}</script>
 '''
 (ep / "scene_prompts_page.html").write_text(page, encoding="utf-8")
-md = [f"# {title} — 장면 프롬프트 (웹사이트용)", "", "그림: GPT Image 2.5, 16:9, 적힌 시트만 레퍼런스. 영상: Kling 3.0, 그림을 시작 이미지로, 소리 끔.", ""]
+md = [f"# {title} — 장면 프롬프트 (웹사이트용)", "", "그림: GPT Image 2.6 Sunburst(웹 무제한), 16:9, 적힌 시트만 레퍼런스. 영상: Seedance 2.5(웹 무제한), 그림 한 장만 시작 프레임으로, 끊김 없는 한 컷, 소리 끔.", ""]
 for s in scenes:
     refs = ", ".join(CH[r][0] for r in s["refs"]) or "없음"
     md += [f"### {s['id']} {s['name']} ({s['time']})", f"[레퍼런스] {refs}", "[그림]", "```", s["img"], "```", f"[영상] {s['sec']}초", "```", s["vid"], "```", ""]

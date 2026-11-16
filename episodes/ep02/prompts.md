@@ -1,6 +1,6 @@
 # 2화 · 알록달록 풍선 어디 있니? — 장면 프롬프트 (웹사이트용)
 
-그림: GPT Image 2.5, 16:9, 적힌 시트만 레퍼런스. 영상: Kling 3.0, 그림을 시작 이미지로, 소리 끔.
+그림: GPT Image 2.6 Sunburst(웹 무제한), 16:9, 적힌 시트만 레퍼런스. 영상: Seedance 2.5(웹 무제한), 그림 한 장만 시작 프레임으로, 끊김 없는 한 컷, 소리 끔.
 
 ### S02 바우 할아버지의 풍선 (0:20–0:30)
 [레퍼런스] 바우 할아버지
@@ -10,7 +10,7 @@ Use the attached character sheet for the exact look of Grandpa Bau, the purple a
 ```
 [영상] 10초
 ```
-Grandpa Bau walks slowly toward the camera with a warm smile; the four balloons bob gently above. Camera slowly follows. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Grandpa Bau walks slowly toward the camera with a warm smile; the four balloons bob gently above. Camera slowly follows. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S03 친구들이 폴짝폴짝 (0:30–0:35)
@@ -21,7 +21,7 @@ Use the attached character sheets for the exact look of Grandpa Bau, the purple 
 ```
 [영상] 5초
 ```
-The four young friends hop up and down with excitement around Grandpa Bau; Pio flaps a happy little loop. The balloons bob. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+The four young friends hop up and down with excitement around Grandpa Bau; Pio flaps a happy little loop. The balloons bob. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S04 풍선 네 개 클로즈업 (0:35–0:40)
@@ -32,7 +32,7 @@ Close-up of four balloons in a row against a bright blue sky with soft clouds, f
 ```
 [영상] 5초
 ```
-The four balloons bob gently; a soft sparkle shines on each balloon one after another, left to right: red, yellow, green, blue. Keep the soft 3D clay style unchanged.
+One continuous shot with no cuts. The four balloons bob gently; a soft sparkle shines on each balloon one after another, left to right: red, yellow, green, blue. Keep the soft 3D clay style unchanged.
 ```
 
 ### S05 바람이 휘잉! (0:40–0:45)
@@ -43,7 +43,7 @@ Use the attached character sheets for the exact look of Grandpa Bau, the purple 
 ```
 [영상] 5초
 ```
-A gust of wind blows leaves past; the balloon strings slip out of Grandpa Bau's paw and the four balloons rise up. Chiqui points up in surprise. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+A gust of wind blows leaves past; the balloon strings slip out of Grandpa Bau's paw and the four balloons rise up. Chiqui points up in surprise. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S06 풍선이 날아가요 (0:45–0:50)
@@ -54,7 +54,7 @@ Four small balloons (red, yellow, green, blue) drifting apart high in the sky ab
 ```
 [영상] 5초
 ```
-The four balloons float away slowly in four different directions: one toward a big rock, one toward a tall tree, one toward fluffy cloud hills, and the red one out of sight. Clouds drift. Keep the soft 3D clay style unchanged.
+One continuous shot with no cuts. The four balloons float away slowly in four different directions: one toward a big rock, one toward a tall tree, one toward fluffy cloud hills, and the red one out of sight. Clouds drift. Keep the soft 3D clay style unchanged.
 ```
 
 ### S07 친구들아, 같이 찾자! (0:50–0:55)
@@ -65,7 +65,7 @@ Use the attached character sheets for the exact look of Chiqui, the orange baby 
 ```
 [영상] 5초
 ```
-Chiqui waves to the friends, and they all nod and cheer together. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui waves to the friends, and they all nod and cheer together. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S08 다 같이 출발 (1:00–1:05)
@@ -76,7 +76,7 @@ Use the attached character sheets for the exact look of Chiqui, the orange baby 
 ```
 [영상] 5초
 ```
-The friends march forward together with bouncy steps; Pio glides along above them. Camera tracks sideways. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+The friends march forward together with bouncy steps; Pio glides along above them. Camera tracks sideways. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S09 로로 · 노란 풍선 (1:05–1:15)
@@ -87,7 +87,7 @@ Use the attached character sheet for the exact look of Roro, the yellow baby T-r
 ```
 [영상] 10초
 ```
-Roro grabs the yellow balloon's string, holds the balloon up high and does a cute little roar of joy, wiggling happily. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Roro grabs the yellow balloon's string, holds the balloon up high and does a cute little roar of joy, wiggling happily. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S10 토롱 · 초록 풍선 (1:15–1:25)
@@ -98,7 +98,7 @@ Use the attached character sheet for the exact look of Torong, the green baby br
 ```
 [영상] 10초
 ```
-Torong stretches the neck up slowly, gently takes the green balloon's string in the mouth, brings it down and smiles proudly. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Torong stretches the neck up slowly, gently takes the green balloon's string in the mouth, brings it down and smiles proudly. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S11 피오 · 파란 풍선 (1:25–1:35)
@@ -109,7 +109,7 @@ Use the attached character sheet for the exact look of Pio, the little sky-blue 
 ```
 [영상] 10초
 ```
-Pio flies happily across the cloud hills with the blue balloon trailing behind, doing a gentle swoop. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Pio flies happily across the cloud hills with the blue balloon trailing behind, doing a gentle swoop. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S12 치키 풍선은? (1:35–1:45)
@@ -120,7 +120,7 @@ Use the attached character sheet for the exact look of Chiqui, the orange baby t
 ```
 [영상] 10초
 ```
-Chiqui looks left, then right, then up, searching; the shoulders droop a little. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui looks left, then right, then up, searching; the shoulders droop a little. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S13 같이 찾아 줄게 (1:45–1:55)
@@ -131,7 +131,7 @@ Use the attached character sheets for the exact look of Chiqui, the orange baby 
 ```
 [영상] 10초
 ```
-The friends gather around Chiqui, give a gentle pat, and all look around together, turning their heads. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+The friends gather around Chiqui, give a gentle pat, and all look around together, turning their heads. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S14 빨간 풍선은 어디? (1:55–2:00)
@@ -142,7 +142,7 @@ Use the attached character sheet for the exact look of Chiqui, the orange baby t
 ```
 [영상] 5초
 ```
-Chiqui tilts the head, blinks and looks at the viewer as if asking 'Where is it?'. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui tilts the head, blinks and looks at the viewer as if asking 'Where is it?'. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S15 저기 있다! (2:00–2:05)
@@ -153,7 +153,7 @@ Use the attached character sheet for the exact look of Grandpa Bau, the purple a
 ```
 [영상] 5초
 ```
-Grandpa Bau walks slowly; the red balloon bobs above the tail club with each step. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Grandpa Bau walks slowly; the red balloon bobs above the tail club with each step. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S16 허허, 여기 있단다 (2:05–2:10)
@@ -164,7 +164,7 @@ Use the attached character sheet for the exact look of Grandpa Bau, the purple a
 ```
 [영상] 5초
 ```
-Grandpa Bau turns around with a warm chuckle and wiggles the tail so the red balloon bobs. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Grandpa Bau turns around with a warm chuckle and wiggles the tail so the red balloon bobs. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S17 고마워요, 할아버지! (2:10–2:20)
@@ -175,7 +175,7 @@ Use the attached character sheets for the exact look of Grandpa Bau, the purple 
 ```
 [영상] 10초
 ```
-Chiqui takes the red balloon, jumps with joy and gives Grandpa Bau a big hug. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui takes the red balloon, jumps with joy and gives Grandpa Bau a big hug. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S18a 노랑이랑 파랑을 섞으면? (2:20–2:25)
@@ -186,7 +186,7 @@ Use the attached character sheets for the exact look of Grandpa Bau, the purple 
 ```
 [영상] 5초
 ```
-Grandpa Bau picks up the two paint bowls; the friends lean in curiously. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Grandpa Bau picks up the two paint bowls; the friends lean in curiously. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S18b 짠! 초록이 됐네! (2:25–2:30)
@@ -197,7 +197,7 @@ Close-up from above of a big flat white stone: a blob of bright yellow paint and
 ```
 [영상] 5초
 ```
-The yellow and blue paint swirl together and turn into bright green, with a little sparkle. Keep the soft 3D clay style unchanged.
+One continuous shot with no cuts. The yellow and blue paint swirl together and turn into bright green, with a little sparkle. Keep the soft 3D clay style unchanged.
 ```
 
 ### S19 무슨 색일까? (2:30–2:40)
@@ -208,7 +208,7 @@ Use the attached character sheets for the exact look of Chiqui, the orange baby 
 ```
 [영상] 10초
 ```
-One by one from left to right, each friend lifts the balloon up high: red, yellow, green, blue. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+One by one from left to right, each friend lifts the balloon up high: red, yellow, green, blue. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S20 풍선 들고 춤 (2:40–2:50)
@@ -219,7 +219,7 @@ Use the attached character sheets for the exact look of Grandpa Bau, the purple 
 ```
 [영상] 10초
 ```
-Everyone dances in a happy circle, balloons bobbing; Grandpa Bau claps along. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Everyone dances in a happy circle, balloons bobbing; Grandpa Bau claps along. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S21 내일 또 만나요 (2:50–3:00)
@@ -230,5 +230,5 @@ Use the attached character sheets for the exact look of Grandpa Bau, the purple 
 ```
 [영상] 10초
 ```
-Everyone waves goodbye to the viewer; the balloons sway softly in the evening breeze. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Everyone waves goodbye to the viewer; the balloons sway softly in the evening breeze. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
