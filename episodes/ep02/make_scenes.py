@@ -20,7 +20,7 @@ def img(chars, scene, extra=""):
         count = f" Draw exactly one of each character, never duplicated ({len(chars)} character{'s' if len(chars) > 1 else ''} in total)."
     else:
         head, count = "", " No characters in this scene."
-    return f"{head}{scene}{count}{(' ' + extra) if extra else ''} 16:9 wide shot. {STYLE}"
+    return f"{head}{scene}{count}{(' ' + extra) if extra else ''} Match the art style, colors, textures and lighting of the attached village picture (style only, do not copy its layout). 16:9 wide shot. {STYLE}"
 
 S = [
  ("S02", "바우 할아버지의 풍선", "0:20–0:30", "B", 10,
