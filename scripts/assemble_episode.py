@@ -1,6 +1,7 @@
 """edit_order.json으로 에피소드 영상을 자동 편집한다 (영상 + 대사 + 배경음악 + 자막).
 
-사용법: python3 scripts/assemble_episode.py episodes/ep01 output/ep01_ko.mp4
+사용법: python3 scripts/assemble_episode.py episodes/ep01 output/ep01_ko.mp4 [--no-subs]
+- --no-subs: 화면에 자막을 넣지 않는다 (유튜브 자막 파일 ep01_ko.srt를 따로 만든다).
 - 영상 클립은 소리를 빼고 1920x1080, 30fps로 맞춘다.
 - 자막은 Jua 글꼴로 화면 아래에 띄운다.
 - 함께 캡컷용 순서표 edit_order.md를 만든다.
@@ -29,7 +30,7 @@ def mmss(t: float) -> str:
     return f"{int(t // 60)}:{t % 60:04.1f}"
 
 
-def main(ep_dir: str, out: str) -> None:
+def main(ep_dir: str, out: str, no_subs: bool = False) -> None:
     ep = Path(ep_dir)
     spec = json.loads((ep / "edit_order.json").read_text(encoding="utf-8"))
     args, fc = [], []
@@ -52,7 +53,20 @@ def main(ep_dir: str, out: str) -> None:
             f"drawtext=fontfile={FONT}:text='{esc(c['text'])}':fontsize=60:fontcolor=0xfff3c4:borderw=6:bordercolor=0x5a3d1e"
             f":x=(w-text_w)/2:y=h-150:enable='between(t,{c['at']:.2f},{c['end']:.2f})'"
         )
-    fc.append("[vcat]" + ",".join(subs) + "[vout]")
+    if no_subs:
+        fc.append("[vcat]null[vout]")
+    else:
+        fc.append("[vcat]" + ",".join(subs) + "[vout]")
+
+    # 유튜브용 자막 파일 (대사 + 노래 가사)
+    def ts(t):
+        ms = int(round(t * 1000)); h, ms = divmod(ms, 3600000); m, ms = divmod(ms, 60000); sec, ms = divmod(ms, 1000)
+        return f"{h:02}:{m:02}:{sec:02},{ms:03}"
+    cues = [(ln["at"], ln["at"] + dur(ep / ln["audio"]) + 0.6, ln["text"]) for ln in spec["lines"]]
+    cues += [(c["at"], c["end"], c["text"]) for c in spec.get("captions", [])]
+    cues.sort()
+    srt = [f"{i}\n{ts(a)} --> {ts(min(b, cues[i][0] - 0.05) if i < len(cues) else b)}\n{t}\n" for i, (a, b, t) in enumerate(cues, 1)]
+    (Path(out).with_suffix(".srt")).write_text("\n".join(srt), encoding="utf-8")
 
     # 소리: 배경음악 + 대사
     # 바닥 무음 트랙 (전체 길이 고정용)
@@ -99,4 +113,4 @@ def main(ep_dir: str, out: str) -> None:
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:3])
+    main(sys.argv[1], sys.argv[2], "--no-subs" in sys.argv[3:])
