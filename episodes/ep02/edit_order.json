@@ -1,0 +1,441 @@
+{
+  "title": "2화 알록달록 풍선 어디 있니?",
+  "length": 180,
+  "draft": "초안: 영상 클립(clips/ep02_sXX.mp4)과 풍선 찾기 노래가 오면 시간을 맞춘다. 노래 가사 자막은 노래가 온 뒤 추가.",
+  "video": [
+    {
+      "start": 0,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 0,
+      "dur": 3.5,
+      "note": "S01 오프닝 (1화 재사용)"
+    },
+    {
+      "start": 3.5,
+      "file": "../ep01/clips/ep01_v03.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S01 오프닝 다섯 친구 (1화)"
+    },
+    {
+      "start": 13.5,
+      "file": "../ep01/clips/ep01_v04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S01 오프닝 점프 (1화)"
+    },
+    {
+      "start": 18.5,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 3.5,
+      "dur": 1.5,
+      "note": "S01 오프닝 마을 (1화)"
+    },
+    {
+      "start": 20.0,
+      "file": "clips/ep02_s02.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S02 바우 할아버지의 풍선"
+    },
+    {
+      "start": 30.0,
+      "file": "clips/ep02_s03.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S03 친구들이 폴짝폴짝"
+    },
+    {
+      "start": 35.0,
+      "file": "clips/ep02_s04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S04 풍선 네 개 클로즈업"
+    },
+    {
+      "start": 40.0,
+      "file": "clips/ep02_s05.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S05 바람이 휘잉!"
+    },
+    {
+      "start": 45.0,
+      "file": "clips/ep02_s06.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S06 풍선이 날아가요"
+    },
+    {
+      "start": 50.0,
+      "file": "clips/ep02_s07.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S07 친구들아, 같이 찾자!"
+    },
+    {
+      "start": 55.0,
+      "file": "../ep01/clips/ep01_v05.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S08 치키 달리기 (1화 재사용)"
+    },
+    {
+      "start": 60.0,
+      "file": "clips/ep02_s08.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S08 다 같이 출발"
+    },
+    {
+      "start": 65.0,
+      "file": "clips/ep02_s09.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S09 로로 · 노란 풍선"
+    },
+    {
+      "start": 75.0,
+      "file": "clips/ep02_s10.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S10 토롱 · 초록 풍선"
+    },
+    {
+      "start": 85.0,
+      "file": "clips/ep02_s11.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S11 피오 · 파란 풍선"
+    },
+    {
+      "start": 95.0,
+      "file": "clips/ep02_s12.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S12 치키 풍선은?"
+    },
+    {
+      "start": 105.0,
+      "file": "clips/ep02_s13.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S13 같이 찾아 줄게"
+    },
+    {
+      "start": 115.0,
+      "file": "clips/ep02_s14.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S14 빨간 풍선은 어디?"
+    },
+    {
+      "start": 120.0,
+      "file": "clips/ep02_s15.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S15 저기 있다!"
+    },
+    {
+      "start": 125.0,
+      "file": "clips/ep02_s16.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S16 허허, 여기 있단다"
+    },
+    {
+      "start": 130.0,
+      "file": "clips/ep02_s17.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S17 고마워요, 할아버지!"
+    },
+    {
+      "start": 140.0,
+      "file": "clips/ep02_s18a.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S18a 노랑이랑 파랑을 섞으면?"
+    },
+    {
+      "start": 145.0,
+      "file": "clips/ep02_s18b.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S18b 짠! 초록이 됐네!"
+    },
+    {
+      "start": 150.0,
+      "file": "clips/ep02_s19.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S19 무슨 색일까?"
+    },
+    {
+      "start": 160.0,
+      "file": "clips/ep02_s20.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S20 풍선 들고 춤"
+    },
+    {
+      "start": 170.0,
+      "file": "clips/ep02_s21.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S21 내일 또 만나요"
+    }
+  ],
+  "lines": [
+    {
+      "at": 21.5,
+      "audio": "audio/ko/01_bau.wav",
+      "who": "바우 할아버지",
+      "text": "허허, 풍선 왔다!"
+    },
+    {
+      "at": 31.0,
+      "audio": "audio/ko/02_all.wav",
+      "who": "모두",
+      "text": "와아, 풍선이다!"
+    },
+    {
+      "at": 35.5,
+      "audio": "audio/ko/03_narr.wav",
+      "who": "내레이션",
+      "text": "빨강, 노랑, 초록, 파랑!"
+    },
+    {
+      "at": 41.0,
+      "audio": "audio/ko/04_chiqui.wav",
+      "who": "치키",
+      "text": "어? 풍선이!"
+    },
+    {
+      "at": 46.0,
+      "audio": "audio/ko/05_narr.wav",
+      "who": "내레이션",
+      "text": "풍선이 날아갔어요!"
+    },
+    {
+      "at": 50.5,
+      "audio": "audio/ko/06_chiqui.wav",
+      "who": "치키",
+      "text": "친구들아, 같이 찾자!"
+    },
+    {
+      "at": 52.8,
+      "audio": "audio/ko/07_all.wav",
+      "who": "모두",
+      "text": "좋아!"
+    },
+    {
+      "at": 54.6,
+      "audio": "audio/ko/08_chiqui.wav",
+      "who": "치키",
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 115.5,
+      "audio": "audio/ko/09_narr.wav",
+      "who": "내레이션",
+      "text": "빨간 풍선은 어디 있을까?"
+    },
+    {
+      "at": 120.5,
+      "audio": "audio/ko/10_all.wav",
+      "who": "모두",
+      "text": "저기 있다!"
+    },
+    {
+      "at": 125.5,
+      "audio": "audio/ko/11_bau.wav",
+      "who": "바우 할아버지",
+      "text": "허허, 여기 있단다."
+    },
+    {
+      "at": 131.0,
+      "audio": "audio/ko/12_chiqui.wav",
+      "who": "치키",
+      "text": "고마워요, 할아버지!"
+    },
+    {
+      "at": 140.5,
+      "audio": "audio/ko/13_bau.wav",
+      "who": "바우 할아버지",
+      "text": "노랑이랑 파랑을 섞으면?"
+    },
+    {
+      "at": 145.0,
+      "audio": "audio/ko/14_bau.wav",
+      "who": "바우 할아버지",
+      "text": "짠! 초록이 됐네!"
+    },
+    {
+      "at": 147.4,
+      "audio": "audio/ko/14b_all.wav",
+      "who": "모두",
+      "text": "와아~ 토롱이 색이다!"
+    },
+    {
+      "at": 150.5,
+      "audio": "audio/ko/15_narr.wav",
+      "who": "내레이션",
+      "text": "무슨 색일까?"
+    },
+    {
+      "at": 153.5,
+      "audio": "audio/ko/16_all.wav",
+      "who": "모두",
+      "text": "빨강!"
+    },
+    {
+      "at": 155.5,
+      "audio": "audio/ko/17_all.wav",
+      "who": "모두",
+      "text": "노랑!"
+    },
+    {
+      "at": 157.5,
+      "audio": "audio/ko/18_all.wav",
+      "who": "모두",
+      "text": "초록!"
+    },
+    {
+      "at": 159.4,
+      "audio": "audio/ko/19_all.wav",
+      "who": "모두",
+      "text": "파랑!"
+    },
+    {
+      "at": 177.6,
+      "audio": "audio/ko/20_chiqui.wav",
+      "who": "치키",
+      "text": "안녕!"
+    }
+  ],
+  "music": [
+    {
+      "file": "../ep01/audio/songs/opening.wav",
+      "at": 0,
+      "from": 0,
+      "dur": 20.36,
+      "volume": 0.9,
+      "fade_out": 0.5,
+      "note": "오프닝 주제가 (1화와 같음)"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 20,
+      "from": 0,
+      "dur": 36.5,
+      "volume": 0.3,
+      "fade_in": 1,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "audio/songs/balloon_song.wav",
+      "at": 56.3,
+      "from": 0,
+      "dur": 59,
+      "volume": 0.9,
+      "fade_out": 1,
+      "note": "풍선 찾기 노래 (Suno 곡 오면 시간 맞추기)"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 115,
+      "from": 0,
+      "dur": 46,
+      "volume": 0.3,
+      "fade_in": 1.5,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "../ep01/audio/songs/ending.wav",
+      "at": 160.4,
+      "from": 0,
+      "dur": 19.56,
+      "volume": 0.9,
+      "note": "엔딩 주제가 (1화와 같음)"
+    }
+  ],
+  "captions": [
+    {
+      "at": 0,
+      "end": 3.6,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 3.6,
+      "end": 6.0,
+      "text": "뿔이 셋 치키 (치키!)"
+    },
+    {
+      "at": 6.0,
+      "end": 8.3,
+      "text": "크앙 크앙 로로 (로로!)"
+    },
+    {
+      "at": 8.3,
+      "end": 10.8,
+      "text": "목이 쭈욱 토롱 (토롱!)"
+    },
+    {
+      "at": 10.8,
+      "end": 13.2,
+      "text": "하늘 슝슝 피오 (피오!)"
+    },
+    {
+      "at": 13.2,
+      "end": 15.3,
+      "text": "안경 쓴 바우 할아버지 (허허!)"
+    },
+    {
+      "at": 15.3,
+      "end": 17.9,
+      "text": "공룡 마을 친구들"
+    },
+    {
+      "at": 17.9,
+      "end": 20.3,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 160.4,
+      "end": 163.8,
+      "text": "오늘도 재밌었지? (응!)"
+    },
+    {
+      "at": 163.8,
+      "end": 166.8,
+      "text": "바우 할아버지도 (허허!)"
+    },
+    {
+      "at": 166.8,
+      "end": 171.8,
+      "text": "안녕! 바이바이! 아디오스!"
+    },
+    {
+      "at": 171.8,
+      "end": 175.9,
+      "text": "내일 또 만나요, 크앙!"
+    }
+  ],
+  "sfx_suggestions": [
+    {
+      "at": 40.0,
+      "what": "바람 휘잉"
+    },
+    {
+      "at": 120.0,
+      "what": "반짝 (빨간 풍선 발견)"
+    },
+    {
+      "at": 145.0,
+      "what": "뿅 (초록으로 변신)"
+    }
+  ]
+}
