@@ -23,7 +23,7 @@ def img(chars, scene, extra=""):
         count = f" Draw exactly one of each character, never duplicated ({len(chars)} character{'s' if len(chars) > 1 else ''} in total)."
     else:
         head, count = "", " No characters in this scene."
-    return f"{head}{scene}{count}{(' ' + extra) if extra else ''} Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). 16:9 wide shot. {STYLE}"
+    return f"Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. {head}{scene}{count}{(' ' + extra) if extra else ''} Show every character's full body from head to feet and every balloon completely, with empty space around them; nothing is cut off at the edges. Keep characters and balloons in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). {STYLE}"
 
 S = [
  ("S02", "바우 할아버지의 풍선", "0:20–0:30", "B", 10,
