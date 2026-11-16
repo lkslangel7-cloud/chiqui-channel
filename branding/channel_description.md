@@ -38,7 +38,7 @@ Subscribe so you never miss a new song 🔔
 
 ```
 ¡Chiqui Chiqui, vamos! 🦕
-Bienvenidos a Chiqui Town, donde la pequeña triceratops Chiqui y sus amigos cantan y bailan en un colorido pueblo de dinosaurios.
+Bienvenidos a Chiqui Town, donde Chiqui, un bebé triceratops, y sus amigos cantan y bailan en un colorido pueblo de dinosaurios.
 
 🥚 Canciones para contar, aprender colores y emociones
 🪥 Canciones de buenos hábitos: lavarse los dientes y las manos
