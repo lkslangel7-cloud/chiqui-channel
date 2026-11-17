@@ -1,0 +1,524 @@
+{
+  "title": "3화 칫솔아 어디 있니?",
+  "length": 180,
+  "draft": "음성(01–05, 08–17)은 크레딧 충전 후 녹음. S19·S20은 칫솔 색 다시 만드는 중.",
+  "video": [
+    {
+      "start": 0,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 0,
+      "dur": 3.5,
+      "note": "오프닝 (1화)"
+    },
+    {
+      "start": 3.5,
+      "file": "../ep01/clips/ep01_v03.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "오프닝 다섯 친구 (1화)"
+    },
+    {
+      "start": 13.5,
+      "file": "../ep01/clips/ep01_v04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "오프닝 점프 (1화)"
+    },
+    {
+      "start": 18.5,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 3.5,
+      "dur": 1.5,
+      "note": "오프닝 마을 (1화)"
+    },
+    {
+      "start": 20.0,
+      "file": "clips/ep03_s02.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S02 아침이에요 (5초 → 반 속도)",
+      "speed": 0.5
+    },
+    {
+      "start": 30.0,
+      "file": "clips/ep03_s03.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S03 치키야, 이 닦자"
+    },
+    {
+      "start": 35.0,
+      "file": "clips/ep03_s04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S04 칫솔이 없다"
+    },
+    {
+      "start": 40.0,
+      "file": "clips/ep03_s05.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S05 칫솔이 사라졌어요"
+    },
+    {
+      "start": 45.0,
+      "file": "clips/ep03_s06.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S06 친구들아, 같이 찾자"
+    },
+    {
+      "start": 50.0,
+      "file": "clips/ep03_s07.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S07 좋아"
+    },
+    {
+      "start": 55.0,
+      "file": "../ep01/clips/ep01_v05.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "치키 달리기 (1화 재사용)"
+    },
+    {
+      "start": 60.0,
+      "file": "../ep02/clips/ep02_s08.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "다 같이 출발 (2화 재사용)"
+    },
+    {
+      "start": 65.0,
+      "file": "clips/ep03_s09.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S09 로로 노란 컵 (1절)"
+    },
+    {
+      "start": 75.0,
+      "file": "clips/ep03_s10.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S10 토롱 초록 치약 (2절)"
+    },
+    {
+      "start": 85.0,
+      "file": "clips/ep03_s11.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S11 피오 파란 수건 (3절)"
+    },
+    {
+      "start": 95.0,
+      "file": "clips/ep03_s12.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S12 치키 칫솔은? (4절)"
+    },
+    {
+      "start": 105.0,
+      "file": "clips/ep03_s13.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S13 같이 찾아 줄게 (후렴)"
+    },
+    {
+      "start": 115.0,
+      "file": "clips/ep03_s14.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S14 칫솔은 어디 있을까"
+    },
+    {
+      "start": 120.0,
+      "file": "clips/ep03_s15.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S15 치키 머리에 있다"
+    },
+    {
+      "start": 125.0,
+      "file": "clips/ep03_s16.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S16 여기 있었네"
+    },
+    {
+      "start": 130.0,
+      "file": "clips/ep03_s17.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S17 이제 치카치카"
+    },
+    {
+      "start": 140.0,
+      "file": "clips/ep03_s18a.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S18a 위아래로"
+    },
+    {
+      "start": 145.0,
+      "file": "clips/ep03_s18b.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S18b 동글동글"
+    },
+    {
+      "start": 150.0,
+      "file": "clips/ep03_s19.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S19 반짝반짝 (칫솔 색 다시 만드는 중)"
+    },
+    {
+      "start": 160.0,
+      "file": "clips/ep03_s20.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S20 칫솔 들고 춤 (다시 만드는 중)"
+    },
+    {
+      "start": 170.0,
+      "file": "clips/ep03_s21.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S21 내일 또 만나요"
+    }
+  ],
+  "lines": [
+    {
+      "at": 21.0,
+      "audio": "audio/ko/01_narr.wav",
+      "who": "내레이션",
+      "text": "아침이에요!"
+    },
+    {
+      "at": 24.5,
+      "audio": "audio/ko/02_chiqui.wav",
+      "who": "치키",
+      "text": "하아암~"
+    },
+    {
+      "at": 31.0,
+      "audio": "audio/ko/03_bau.wav",
+      "who": "바우 할아버지",
+      "text": "치키야, 이 닦자!"
+    },
+    {
+      "at": 36.0,
+      "audio": "audio/ko/04_chiqui.wav",
+      "who": "치키",
+      "text": "어? 칫솔이 없다!"
+    },
+    {
+      "at": 41.0,
+      "audio": "audio/ko/05_narr.wav",
+      "who": "내레이션",
+      "text": "칫솔이 사라졌어요!"
+    },
+    {
+      "at": 45.8,
+      "audio": "audio/ko/06_chiqui.wav",
+      "who": "치키",
+      "text": "친구들아, 같이 찾자!"
+    },
+    {
+      "at": 51.0,
+      "audio": "audio/ko/07_all.wav",
+      "who": "모두",
+      "text": "좋아!"
+    },
+    {
+      "at": 116.3,
+      "audio": "audio/ko/08_narr.wav",
+      "who": "내레이션",
+      "text": "칫솔은 어디 있을까?"
+    },
+    {
+      "at": 121.0,
+      "audio": "audio/ko/09_all.wav",
+      "who": "모두",
+      "text": "치키 머리에 있다!"
+    },
+    {
+      "at": 125.5,
+      "audio": "audio/ko/10_chiqui.wav",
+      "who": "치키",
+      "text": "어? 여기 있었네!"
+    },
+    {
+      "at": 127.8,
+      "audio": "audio/ko/11_all.wav",
+      "who": "모두",
+      "text": "하하하!"
+    },
+    {
+      "at": 131.0,
+      "audio": "audio/ko/12_bau.wav",
+      "who": "바우 할아버지",
+      "text": "허허, 이제 치카치카 해 볼까?"
+    },
+    {
+      "at": 140.5,
+      "audio": "audio/ko/13_bau.wav",
+      "who": "바우 할아버지",
+      "text": "위아래로 치카치카!"
+    },
+    {
+      "at": 145.5,
+      "audio": "audio/ko/14_bau.wav",
+      "who": "바우 할아버지",
+      "text": "동글동글 치카치카!"
+    },
+    {
+      "at": 150.8,
+      "audio": "audio/ko/15_all.wav",
+      "who": "모두",
+      "text": "치카치카!"
+    },
+    {
+      "at": 153.5,
+      "audio": "audio/ko/16_narr.wav",
+      "who": "내레이션",
+      "text": "이가 어떻게 됐을까?"
+    },
+    {
+      "at": 157.5,
+      "audio": "audio/ko/17_all.wav",
+      "who": "모두",
+      "text": "반짝반짝!"
+    },
+    {
+      "at": 177.6,
+      "audio": "audio/ko/18_chiqui.wav",
+      "who": "치키",
+      "text": "안녕!"
+    }
+  ],
+  "music": [
+    {
+      "file": "../ep01/audio/songs/opening.wav",
+      "at": 0,
+      "from": 0,
+      "dur": 20.36,
+      "volume": 0.9,
+      "fade_out": 0.5,
+      "note": "오프닝 주제가"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 20,
+      "from": 0,
+      "dur": 34.8,
+      "volume": 0.3,
+      "fade_in": 1,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "audio/songs/brush_song.wav",
+      "at": 54.3,
+      "from": 0,
+      "dur": 61.6,
+      "volume": 0.9,
+      "fade_out": 1,
+      "note": "칫솔 찾기 노래 (1절 65.0, 2절 75.6, 3절 85.6, 4절 95.2, 후렴 105.2)"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 115.9,
+      "from": 0,
+      "dur": 45,
+      "volume": 0.3,
+      "fade_in": 1.5,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "../ep01/audio/songs/ending.wav",
+      "at": 160.4,
+      "from": 0,
+      "dur": 19.56,
+      "volume": 0.9,
+      "note": "엔딩 주제가"
+    }
+  ],
+  "captions": [
+    {
+      "at": 0,
+      "end": 3.6,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 3.6,
+      "end": 6.0,
+      "text": "뿔이 셋 치키 (치키!)"
+    },
+    {
+      "at": 6.0,
+      "end": 8.3,
+      "text": "크앙 크앙 로로 (로로!)"
+    },
+    {
+      "at": 8.3,
+      "end": 10.8,
+      "text": "목이 쭈욱 토롱 (토롱!)"
+    },
+    {
+      "at": 10.8,
+      "end": 13.2,
+      "text": "하늘 슝슝 피오 (피오!)"
+    },
+    {
+      "at": 13.2,
+      "end": 15.3,
+      "text": "안경 쓴 바우 할아버지 (허허!)"
+    },
+    {
+      "at": 15.3,
+      "end": 17.9,
+      "text": "공룡 마을 친구들"
+    },
+    {
+      "at": 17.9,
+      "end": 20.3,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 54.3,
+      "end": 58.3,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 58.3,
+      "end": 60.9,
+      "text": "칫솔아 어디 있니? (어디 있니?)"
+    },
+    {
+      "at": 61.0,
+      "end": 63.3,
+      "text": "친구들아 같이 가자"
+    },
+    {
+      "at": 63.3,
+      "end": 65.0,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 65.0,
+      "end": 68.3,
+      "text": "바위 뒤에 반짝반짝"
+    },
+    {
+      "at": 68.3,
+      "end": 70.6,
+      "text": "크앙! 로로가 찾았다"
+    },
+    {
+      "at": 70.6,
+      "end": 75.1,
+      "text": "노란 컵을 찾았다 (컵!)"
+    },
+    {
+      "at": 75.6,
+      "end": 78.2,
+      "text": "나무 위에 반짝반짝"
+    },
+    {
+      "at": 78.2,
+      "end": 80.6,
+      "text": "쭈욱~ 토롱이 찾았다"
+    },
+    {
+      "at": 80.6,
+      "end": 85.0,
+      "text": "초록 치약 찾았다 (치약!)"
+    },
+    {
+      "at": 85.6,
+      "end": 88.0,
+      "text": "구름 위에 반짝반짝"
+    },
+    {
+      "at": 88.0,
+      "end": 90.5,
+      "text": "슝~ 피오가 찾았다"
+    },
+    {
+      "at": 90.5,
+      "end": 94.9,
+      "text": "파란 수건 찾았다 (수건!)"
+    },
+    {
+      "at": 95.2,
+      "end": 97.9,
+      "text": "치키 칫솔 어디 있니?"
+    },
+    {
+      "at": 98.1,
+      "end": 100.3,
+      "text": "두리번 두리번 (어디 있지?)"
+    },
+    {
+      "at": 100.5,
+      "end": 104.3,
+      "text": "칫솔 칫솔 내 칫솔 (어디?)"
+    },
+    {
+      "at": 105.2,
+      "end": 107.7,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 107.7,
+      "end": 109.4,
+      "text": "칫솔아 어디 있니?"
+    },
+    {
+      "at": 109.4,
+      "end": 112.6,
+      "text": "친구들아 같이 가자"
+    },
+    {
+      "at": 112.6,
+      "end": 114.9,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 160.4,
+      "end": 163.8,
+      "text": "오늘도 재밌었지? (응!)"
+    },
+    {
+      "at": 163.8,
+      "end": 166.8,
+      "text": "바우 할아버지도 (허허!)"
+    },
+    {
+      "at": 166.8,
+      "end": 171.8,
+      "text": "안녕! 바이바이! 아디오스!"
+    },
+    {
+      "at": 171.8,
+      "end": 175.9,
+      "text": "내일 또 만나요, 크앙!"
+    }
+  ],
+  "sfx_suggestions": [
+    {
+      "at": 24.5,
+      "what": "하품 소리"
+    },
+    {
+      "at": 120.0,
+      "what": "띠링 (칫솔 발견)"
+    },
+    {
+      "at": 140.0,
+      "what": "치카치카 양치 소리"
+    }
+  ]
+}
