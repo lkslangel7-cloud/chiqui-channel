@@ -10,5 +10,6 @@
 | 다시 쓰는 영상 | 1화 오프닝(0:00–0:20), 1화 `ep01_v05` 치키 달리기(0:55–1:00), 2화 `ep02_s08` 다 같이 출발(1:00–1:05) |
 - 2차 영상(2026-11-17): S05 B12yGghsP_M, S06 TTEORc4aNoI, S07 EfVMgple_tY, S09 f-mBy8JJfkM, S10 Lgat8X4M1ao, S11 SJF-0pMXQCE — 모두 합격. 남은 영상: S12–S17, S18a, S18b, S19–S21 (11개).
 - S12(fTEaPTTPBNc) 받음: 시무룩한 치키, 앞모습만, 칫솔 안 보임. 합격. 남은 영상: S13–S17, S18a, S18b, S19–S21 (10개).
-- 3차 영상(2026-11-17): S13 tOkQUt_G5m0, S14 uioEPbiAv00, S15 zmbZBt-W3OY(프릴에 주황 칫솔 잘 보임), S17 COb3OTaOLfM(칫솔 색 다섯 친구 모두 규칙대로), S18a uSl95JahhQE, S18b E60q8XHiSDc, S19 dk2s8cgJHzk, S21 gZVLl-hZlBk — 모두 합격. **남은 영상: S16, S20 (2개)**.
+- 3차 영상(2026-11-17): S13 tOkQUt_G5m0, S14 uioEPbiAv00, S15 zmbZBt-W3OY(프릴에 주황 칫솔 잘 보임), S17 COb3OTaOLfM(칫솔 색 다섯 친구 모두 규칙대로), S18a uSl95JahhQE, S18b E60q8XHiSDc, S19 dk2s8cgJHzk(→ 칫솔 색이 틀려 다시 만들기), S21 gZVLl-hZlBk — 모두 합격. **남은 영상: S16, S20 (2개)**.
 - S16(SuvJDaebbp0) 합격. S20(Hq34r3gptWA)은 칫솔 색이 규칙과 다름(치키 분홍, 로로 파랑, 할아버지 노랑, 토롱 보라, 피오 청록) → 사용자에게 다시 만들지 물어봄. 일단 clips/web에만 보관.
+- S19·S20 다시 만들기 (2026-11-17): 칫솔 색을 친구별로 못박은 새 프롬프트. 그림에서 색부터 확인 후 영상.
