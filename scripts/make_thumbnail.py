@@ -9,10 +9,12 @@ from pathlib import Path
 R = Path(__file__).resolve().parent.parent
 F = str(R / "remotion/public/fonts/Jua.ttf")
 src, out, text = sys.argv[1], sys.argv[2], sys.argv[3]
+TOP = len(sys.argv) > 4 and sys.argv[4] == "top"  # 글자를 위쪽에
 im = Image.open(src).convert("RGBA").resize((1280, 720), Image.LANCZOS)
 g = Image.new("RGBA", im.size, (0, 0, 0, 0)); d = ImageDraw.Draw(g)
 for y in range(470, 720):
-    d.line((0, y, 1280, y), fill=(70, 40, 10, int(150 * (y - 470) / 250)))
+    yy = 719 - y if TOP else y
+    d.line((0, yy, 1280, yy), fill=(70, 40, 10, int(150 * (y - 470) / 250)))
 im.alpha_composite(g)
 
 def draw(t, size, xy, fill, stroke, sw):
@@ -27,7 +29,8 @@ if text:
     while ImageFont.truetype(F, size).getlength(text) > 1000:
         size -= 4
     w = ImageFont.truetype(F, size).getlength(text)
-    draw(text, size, ((1280 - w) / 2 - 40, 560 + (124 - size) // 2), (255, 138, 36), (255, 255, 255), 12)
+    y = 30 if TOP else 560 + (124 - size) // 2
+    draw(text, size, ((1280 - w) / 2 - (0 if TOP else 40), y), (255, 138, 36), (255, 255, 255), 12)
 else:  # 숫자 공 1~5 (알 색)
     cols = [(255, 170, 190), (140, 215, 175), (255, 205, 90), (175, 160, 235), (120, 190, 245)]
     r, gap = 62, 28

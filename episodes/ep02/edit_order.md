@@ -53,10 +53,10 @@
 | 2:26.0 | `audio/ko/14_bau.wav` | 바우 할아버지 | 짠! 초록이 됐네! |
 | 2:28.1 | `audio/ko/14b_all.wav` | 모두 | 와아~ 토롱이 색이다! |
 | 2:30.8 | `audio/ko/15_narr.wav` | 내레이션 | 무슨 색일까? |
-| 2:33.5 | `audio/ko/16_all.wav` | 모두 | 빨강! |
-| 2:35.5 | `audio/ko/17_all.wav` | 모두 | 노랑! |
-| 2:37.5 | `audio/ko/18_all.wav` | 모두 | 초록! |
-| 2:39.4 | `audio/ko/19_all.wav` | 모두 | 파랑! |
+| 2:32.8 | `audio/ko/16_all.wav` | 모두 | 빨강! |
+| 2:34.9 | `audio/ko/17_all.wav` | 모두 | 노랑! |
+| 2:37.0 | `audio/ko/18_all.wav` | 모두 | 초록! |
+| 2:39.0 | `audio/ko/19_all.wav` | 모두 | 파랑! |
 | 2:57.6 | `audio/ko/20_chiqui.wav` | 치키 | 안녕! |
 
 ## 음악
