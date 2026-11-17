@@ -196,8 +196,9 @@
       "file": "clips/ep02_s20.mp4",
       "from": 0,
       "dur": 10,
-      "note": "S20 풍선 들고 춤",
-      "fallback": "images/ep02_s20.png"
+      "note": "S20 풍선 들고 춤 (웹 영상 5초 → 반 속도로 10초)",
+      "fallback": "images/ep02_s20.png",
+      "speed": 0.5
     },
     {
       "start": 170.0,
