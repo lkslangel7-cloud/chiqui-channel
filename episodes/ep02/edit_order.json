@@ -1,7 +1,7 @@
 {
   "title": "2화 알록달록 풍선 어디 있니?",
   "length": 180,
-  "draft": "노래 박자에 맞춤. 아직 없는 영상 클립은 같은 장면 그림(images/ep02_sXX.png)으로 미리보기를 만든다.",
+  "draft": "완성 (모든 장면 영상)",
   "video": [
     {
       "start": 0,
@@ -205,8 +205,9 @@
       "file": "clips/ep02_s21.mp4",
       "from": 0,
       "dur": 10,
-      "note": "S21 내일 또 만나요",
-      "fallback": "images/ep02_s21.png"
+      "note": "S21 노을 인사 (웹 영상 5초 → 다가갔다 돌아오기로 10초)",
+      "fallback": "images/ep02_s21.png",
+      "pingpong": true
     }
   ],
   "lines": [

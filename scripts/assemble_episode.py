@@ -47,6 +47,11 @@ def main(ep_dir: str, out: str, no_subs: bool = False) -> None:
         sp = v.get("speed", 1)  # 0.5면 반 속도로 늘려 쓴다 (짧게 나온 클립)
         args += ["-ss", str(v["from"]), "-t", str(round(v["dur"] * sp, 3)), "-i", str(src)]
         slow = f"setpts=PTS/{sp}," if sp != 1 else ""
+        if v.get("pingpong"):  # 앞으로 갔다가 거꾸로 돌아와 길이를 두 배로 (끝이 처음 장면으로 돌아옴)
+            half = round(v["dur"] / 2, 3)
+            args[-3] = str(half)  # 입력 길이를 절반만
+            fc.append(f"[{i}:v]{slow}scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1,format=yuv420p,split[pa{i}][pb{i}];[pb{i}]reverse[pr{i}];[pa{i}][pr{i}]concat=n=2:v=1:a=0[v{i}]")
+            continue
         fc.append(f"[{i}:v]{slow}scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1,format=yuv420p[v{i}]")
     if missing:
         print("그림으로 대신한 장면:", len(missing), "개")
