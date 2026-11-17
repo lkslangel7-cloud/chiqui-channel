@@ -13,3 +13,4 @@
 - 3차 영상(2026-11-17): S13 tOkQUt_G5m0, S14 uioEPbiAv00, S15 zmbZBt-W3OY(프릴에 주황 칫솔 잘 보임), S17 COb3OTaOLfM(칫솔 색 다섯 친구 모두 규칙대로), S18a uSl95JahhQE, S18b E60q8XHiSDc, S19 dk2s8cgJHzk(→ 칫솔 색이 틀려 다시 만들기), S21 gZVLl-hZlBk — 모두 합격. **남은 영상: S16, S20 (2개)**.
 - S16(SuvJDaebbp0) 합격. S20(Hq34r3gptWA)은 칫솔 색이 규칙과 다름(치키 분홍, 로로 파랑, 할아버지 노랑, 토롱 보라, 피오 청록) → 사용자에게 다시 만들지 물어봄. 일단 clips/web에만 보관.
 - S19·S20 다시 만들기 (2026-11-17): 칫솔 색을 친구별로 못박은 새 프롬프트. 그림에서 색부터 확인 후 영상.
+- 노래 1차(54.8초)는 마지막 후렴이 "쿵쿵 쾅"에서 끊김 → 사용자가 다시 만들어 올리기로 함. 1차 파일은 `audio/songs/brush_song_v1_short.wav`.
