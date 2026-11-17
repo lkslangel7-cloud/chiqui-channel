@@ -1,0 +1,18 @@
+{
+  "title": "치키 4화 노래",
+  "h1": "4화 · 숨바꼭질 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요. 칸마다 <b>복사</b>를 눌러 Suno에 붙여 넣으세요.",
+  "note": "1~3화 찾기 노래와 같은 박자예요. 마음에 드는 곡을 WAV로 받아 여기 채팅에 올려 주세요. 길이는 제가 맞춰요.",
+  "duration": "<b>Custom</b> — 60초. 길이를 못 고르면 Auto로 두세요.",
+  "songs": [
+    {
+      "id": "hide",
+      "title": "친구야 어디 있니?",
+      "short": "숨바꼭질",
+      "where": "0:55–1:55 · 4화 노래 (1~3화와 같은 후렴 틀)",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, playful tiptoe hide-and-seek feeling, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n친구야 어디 있니? (어디 있니?)\n하나 둘 셋 넷 다섯\n치키치키 출발!\n\n[Verse 1]\n바위 뒤에 살금살금\n크앙! 로로 꼬리 보여\n로로 찾았다 (찾았다!)\n\n[Verse 2]\n나무 뒤에 살금살금\n쭈욱~ 토롱 목이 보여\n토롱 찾았다 (찾았다!)\n\n[Verse 3]\n꽃잎 속에 살금살금\n쉿~ 피오는 작아요\n피오 찾았다 (찾았다!)\n\n[Verse 4]\n할아버지 어디 있니?\n덤불 뒤에 (허허!)\n다 보여요 할아버지 (찾았다!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n친구야 어디 있니? (다 찾았다!)\n하나 둘 셋 넷 다섯\n치키치키 출발!\n\n[End]"
+    }
+  ]
+}
