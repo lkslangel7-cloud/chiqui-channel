@@ -13,7 +13,7 @@ D = {
 }
 BRUSH = "a small toothbrush with a round orange handle and white bristles"
 CUP = "a little round yellow clay cup"
-PASTE = "a small round tube of toothpaste with a mint-green cap"
+PASTE = "a small toothpaste tube that is BRIGHT GREEN all over (green tube body and green cap, the same green as Torong, not mint, not teal, not blue)"
 TOWEL = "a small soft sky-blue towel"
 
 AT = {"C": "@chiqui", "R": "@roro", "T": "@torong", "P": "@pio", "B": "@bau"}
@@ -53,7 +53,7 @@ S = [
   "Roro picks up the yellow cup, holds it up high and does a cute little happy roar, wiggling with joy. " + KEEP),
  ("S10", "토롱 · 초록 치약", "1:15–1:25", "T", 10,
   img("T", f"{D['T']} stretches the long neck up toward a high branch of a big leafy tree where {PASTE} is resting.", "Exactly one toothpaste tube."),
-  "Torong stretches the neck up slowly, gently takes the toothpaste tube in the mouth, brings it down and smiles proudly. " + KEEP),
+  "Torong stretches the neck up slowly, gently takes the bright green toothpaste tube in the mouth, brings it down and smiles proudly. The toothpaste tube stays bright green the whole time. " + KEEP),
  ("S11", "피오 · 파란 수건", "1:25–1:35", "P", 10,
   img("P", f"{D['P']} flies above soft fluffy cloud hills holding {TOWEL} in the beak, the towel fluttering in the breeze.", "Exactly one towel."),
   "Pio flies happily across the cloud hills with the blue towel fluttering, doing a gentle swoop. " + KEEP),
@@ -62,7 +62,7 @@ S = [
   "Chiqui looks left, then right, then down, searching; the shoulders droop a little. Chiqui keeps facing the camera. " + KEEP),
  ("S13", "같이 찾아 줄게", "1:45–1:55", "CRTP", 10,
   img("CRTP", f"{D['R']} holding {CUP}, {D['T']} holding {PASTE} in the mouth and {D['P']} holding {TOWEL} come to {D['C']}, who has nothing. They all look around together kindly. Chiqui faces the camera.", "Exactly one cup, one toothpaste tube and one towel. No toothbrush."),
-  "The friends gather around Chiqui, give a gentle pat, and all look around together, turning their heads. " + KEEP),
+  "The friends gather around Chiqui, give a gentle pat, and all look around together, turning their heads. The cup stays yellow, the toothpaste tube stays bright green and the towel stays sky-blue the whole time. " + KEEP),
  ("S14", "칫솔은 어디 있을까?", "1:55–2:00", "C", 5,
   img("C", f"Close-up of {D['C']} facing the viewer with a curious face, head tilted, as if asking a question. Only the front of the face and frill is visible.", "No toothbrush visible."),
   "Chiqui tilts the head, blinks and looks at the viewer as if asking 'Where is it?'. " + KEEP),

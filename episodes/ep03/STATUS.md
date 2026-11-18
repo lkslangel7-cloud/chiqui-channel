@@ -21,3 +21,4 @@
 ## 완성 (2026-11-18)
 
 - `output/ep03_ko_v1.mp4` / `ep03_ko_v1_nosubs.mp4` + `subtitles_ko.srt`, 썸네일 3종(S15 프릴에 칫솔), `upload_info.md`.
+- 치약이 청록색으로 나옴(프롬프트의 mint-green 탓) → S10·S13 "통도 뚜껑도 진한 초록" 프롬프트로 다시 만들기 (2026-11-18).
