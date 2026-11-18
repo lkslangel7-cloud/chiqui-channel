@@ -6,11 +6,11 @@
 [레퍼런스] 바우 할아버지, 치키, 로로, 토롱, 피오
 [그림]
 ```
-Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back; @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. In a sunny flower meadow, Chiqui, the orange baby triceratops with a yellow-spotted frill jumps happily and waves both arms, suggesting a game to Roro, the yellow baby T-rex with orange spots on the back, Torong, the green baby brachiosaurus with light-green spots, Pio, the little sky-blue pteranodon with a yellow beak (flying low) and Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows, who all smile and lean in. Draw exactly one of each character, never duplicated (5 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back; @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. In a sunny flower meadow, Chiqui, the orange baby triceratops with a yellow-spotted frill jumps happily and waves both arms, suggesting a game to Roro, the yellow baby T-rex with orange spots on the back, Torong, the green baby brachiosaurus with light-green spots, Pio, the little sky-blue pteranodon with a yellow beak (flying low) and Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows, who all smile and lean in. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Draw exactly one of each character, never duplicated (5 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
 ```
 [영상] 10초
 ```
-Chiqui bounces with excitement and waves; the friends nod and cheer together. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui bounces with excitement and waves; the friends nod and cheer together. Torong stays much taller than everyone with a long neck the whole time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S03 하나, 둘, 셋, 넷, 다섯! (0:30–0:40)
@@ -28,7 +28,7 @@ Chiqui keeps both eyes covered and nods the head gently as if counting slowly, t
 [레퍼런스] 바우 할아버지, 로로, 토롱, 피오
 [그림]
 ```
-Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @roro is Roro, the yellow baby T-rex with orange spots on the back; @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. Roro, the yellow baby T-rex with orange spots on the back, Torong, the green baby brachiosaurus with light-green spots, Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows tiptoe away in different directions across a flower meadow with sneaky happy faces, and Pio, the little sky-blue pteranodon with a yellow beak glides away low and quiet. They put a finger to their mouths saying shh. Draw exactly one of each character, never duplicated (4 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @roro is Roro, the yellow baby T-rex with orange spots on the back; @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. Roro, the yellow baby T-rex with orange spots on the back, Torong, the green baby brachiosaurus with light-green spots, Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows tiptoe away in different directions across a flower meadow with sneaky happy faces, and Pio, the little sky-blue pteranodon with a yellow beak glides away low and quiet. They put a finger to their mouths saying shh. Torong is much taller than the others with a long neck; Pio is the smallest. Draw exactly one of each character, never duplicated (4 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
 ```
 [영상] 5초
 ```
@@ -76,7 +76,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Chiqui sneaks up and taps the tail; Roro pops up from behind the rock with a cute little roar and they both laugh. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui sneaks up and taps the tail; Roro pops up from behind the rock with a cute little roar and they both laugh. Only one Roro appears, and the tail belongs to that same Roro; Roro comes out from behind the rock in one piece. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S10 토롱 목이 보여 (1:15–1:25)
@@ -87,7 +87,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Chiqui points up and laughs; Torong peeks down shyly, then smiles and steps out from behind the tree. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui points up and laughs; Torong peeks down shyly, then smiles and steps out from behind the tree. Only one Torong appears; Torong steps out from behind the tree and stays tall with a long neck. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S11 피오는 작아요 (1:25–1:35)
@@ -98,7 +98,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-The flower petals wiggle; Pio pops out with a shy giggle and flutters up; Chiqui claps happily. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+The flower petals wiggle; Pio pops out with a shy giggle and flutters up; Chiqui claps happily. Only one Pio appears; Pio stays tiny, about the size of the flower, and never grows bigger. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S12 다 보여요 할아버지 (1:35–1:45)
@@ -109,18 +109,18 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Grandpa Bau peeks over the little bush and chuckles warmly; Chiqui laughs and points. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Grandpa Bau peeks over the little bush and chuckles warmly; Chiqui laughs and points. Only one Grandpa Bau appears; the bush stays small. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S13 다 찾았다! (1:45–1:55)
 [레퍼런스] 바우 할아버지, 치키, 로로, 토롱, 피오
 [그림]
 ```
-Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back; @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. All five friends gather together in the flower meadow laughing happily: Chiqui, the orange baby triceratops with a yellow-spotted frill, Roro, the yellow baby T-rex with orange spots on the back, Torong, the green baby brachiosaurus with light-green spots, Pio, the little sky-blue pteranodon with a yellow beak and Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows. Draw exactly one of each character, never duplicated (5 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back; @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. All five friends gather together in the flower meadow laughing happily: Chiqui, the orange baby triceratops with a yellow-spotted frill, Roro, the yellow baby T-rex with orange spots on the back, Torong, the green baby brachiosaurus with light-green spots, Pio, the little sky-blue pteranodon with a yellow beak and Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Draw exactly one of each character, never duplicated (5 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
 ```
 [영상] 10초
 ```
-Everyone laughs and bounces together in a happy little huddle. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Everyone laughs and bounces together in a happy little huddle. Torong stays much taller than everyone with a long neck the whole time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S14 누가 클까? (1:55–2:00)
@@ -131,7 +131,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-Torong and Pio stand side by side and look at each other, then at the viewer, smiling. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Torong and Pio stand side by side and look at each other, then at the viewer, smiling. Torong stays much taller and Pio stays much smaller the whole time; no one changes size. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S15 토롱! (2:00–2:05)
@@ -164,7 +164,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Pio flutters up and lands on Torong's head; they both laugh and wiggle happily. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Pio flutters up and lands on Torong's head; they both laugh and wiggle happily. Torong stays tall with a long neck and Pio stays small the whole time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S18 커도 작아도, 다 좋은 친구! (2:20–2:30)
