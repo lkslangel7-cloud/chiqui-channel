@@ -10,7 +10,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Chiqui bounces with excitement and waves; the friends nod and cheer together. Torong stays much taller than everyone with a long neck the whole time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui bounces with excitement and waves; the friends nod and cheer together. Torong stays much taller than everyone with a long neck the whole time. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S03 하나, 둘, 셋, 넷, 다섯! (0:30–0:40)
@@ -21,7 +21,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Chiqui keeps both eyes covered and nods the head gently as if counting slowly, the tail wagging. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui keeps both eyes covered and nods the head gently as if counting slowly, the tail wagging. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S04 쉿! 살금살금~ (0:40–0:45)
@@ -32,7 +32,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-The friends tiptoe away in different directions, sneaky and giggling quietly; Pio glides off softly. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+The friends tiptoe away in different directions, sneaky and giggling quietly; Pio glides off softly. ONLY these 4 characters are in this scene: Grandpa Bau, Roro, Torong, Pio; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S05 다 숨었니? (0:45–0:50)
@@ -43,7 +43,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-Chiqui uncovers the eyes, turns around and looks across the meadow with a big curious smile. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui uncovers the eyes, turns around and looks across the meadow with a big curious smile. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S06 친구들은 어디 있을까? (0:50–0:55)
@@ -54,7 +54,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-Chiqui looks left and right across the quiet meadow, puzzled and excited. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui looks left and right across the quiet meadow, puzzled and excited. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S08 살금살금 찾기 (1:00–1:05)
@@ -65,7 +65,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-Chiqui tiptoes forward in big funny careful steps, peeking left and right. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui tiptoes forward in big funny careful steps, peeking left and right. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S09 로로 꼬리 보여 (1:05–1:15)
@@ -76,7 +76,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Chiqui sneaks up and taps the yellow tail; then Roro pops up from behind the rock with a cute little roar and they both laugh. Roro is a yellow baby T-rex with a round head, small arms and orange spots on the back: Roro has NO frill, NO horns and does NOT look like Chiqui. Roro and Chiqui look completely different. Only one Roro appears, and the tail belongs to that same Roro; Roro comes out from behind the rock in one piece. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui sneaks up and taps the yellow tail; then Roro pops up from behind the rock with a cute little roar and they both laugh. Roro is a yellow baby T-rex with a round head, small arms and orange spots on the back: Roro has NO frill, NO horns and does NOT look like Chiqui. Roro and Chiqui look completely different. Only one Roro appears, and the tail belongs to that same Roro; Roro comes out from behind the rock in one piece. ONLY these 2 characters are in this scene: Chiqui, Roro; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S10 토롱 목이 보여 (1:15–1:25)
@@ -87,7 +87,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Chiqui points up and laughs; Torong peeks down shyly, then smiles and steps out from behind the tree. Only one Torong appears; Torong steps out from behind the tree and stays tall with a long neck. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui points up and laughs; Torong peeks down shyly, then smiles and steps out from behind the tree. Only one Torong appears; Torong steps out from behind the tree and stays tall with a long neck. ONLY these 2 characters are in this scene: Chiqui, Torong; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S11 피오는 작아요 (1:25–1:35)
@@ -98,7 +98,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-The flower petals wiggle; Pio pops out with a shy giggle and flutters up; Chiqui claps happily. Only one Pio appears; Pio stays tiny, about the size of the flower, and never grows bigger. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+The flower petals wiggle; Pio pops out with a shy giggle and flutters up; Chiqui claps happily. Only one Pio appears; Pio stays tiny, about the size of the flower, and never grows bigger. ONLY these 2 characters are in this scene: Chiqui, Pio; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S12 다 보여요 할아버지 (1:35–1:45)
@@ -109,7 +109,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Grandpa Bau peeks over the little bush and chuckles warmly; Chiqui laughs and points. Only one Grandpa Bau appears; the bush stays small. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Grandpa Bau peeks over the little bush and chuckles warmly; Chiqui laughs and points. Only one Grandpa Bau appears; the bush stays small. ONLY these 2 characters are in this scene: Grandpa Bau, Chiqui; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S13 다 찾았다! (1:45–1:55)
@@ -120,7 +120,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Everyone laughs and bounces together in a happy little huddle. Torong stays much taller than everyone with a long neck the whole time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Everyone laughs and bounces together in a happy little huddle. Torong stays much taller than everyone with a long neck the whole time. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S14 누가 클까? (1:55–2:00)
@@ -131,7 +131,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-Torong and Pio stand side by side and look at each other, then at the viewer, smiling. Torong stays much taller and Pio stays much smaller the whole time; no one changes size. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Torong and Pio stand side by side and look at each other, then at the viewer, smiling. Torong stays much taller and Pio stays much smaller the whole time; no one changes size. ONLY these 2 characters are in this scene: Torong, Pio; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S15 토롱! (2:00–2:05)
@@ -142,7 +142,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-Torong stretches the neck up tall and proud, then gives a happy little nod. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Torong stretches the neck up tall and proud, then gives a happy little nod. ONLY Torong is in this scene from start to end; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S16 누가 작을까? (2:05–2:10)
@@ -153,7 +153,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-Pio smiles shyly and flutters the little wings. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Pio smiles shyly and flutters the little wings. ONLY Pio is in this scene from start to end; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S17 피오! (2:10–2:20)
@@ -164,7 +164,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Pio flutters up and lands on Torong's head; they both laugh and wiggle happily. Torong stays tall with a long neck and Pio stays small the whole time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Pio flutters up and lands on Torong's head; they both laugh and wiggle happily. Torong stays tall with a long neck and Pio stays small the whole time. ONLY these 2 characters are in this scene: Torong, Pio; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S18 커도 작아도, 다 좋은 친구! (2:20–2:30)
@@ -175,7 +175,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Grandpa Bau hugs Torong and Pio warmly; Chiqui and Roro join the hug, everyone smiling. Torong stays much taller than everyone with a long neck the whole time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Grandpa Bau hugs Torong and Pio warmly; Chiqui and Roro join the hug, everyone smiling. Torong stays much taller than everyone with a long neck the whole time. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S19 까꿍! (2:30–2:40)
@@ -186,7 +186,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-The four friends keep their eyes covered and Torong keeps the eyes squeezed shut for a moment, then at the same time everyone opens up with big happy surprised faces, peekaboo! The four friends open their hands wide; Torong pops the eyes open wide and wiggles the long neck. Torong's front legs stay on the ground the whole time and Torong stays much taller than everyone. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+The four friends keep their eyes covered and Torong keeps the eyes squeezed shut for a moment, then at the same time everyone opens up with big happy surprised faces, peekaboo! The four friends open their hands wide; Torong pops the eyes open wide and wiggles the long neck. Torong's front legs stay on the ground the whole time and Torong stays much taller than everyone. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S20 다 같이 춤 (2:40–2:50)
@@ -197,7 +197,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Everyone dances in a happy circle; Grandpa Bau claps along. Torong stays much taller than everyone with a long neck the whole time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Everyone dances in a happy circle; Grandpa Bau claps along. Torong stays much taller than everyone with a long neck the whole time. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S21 내일 또 만나요 (2:50–3:00)
@@ -208,5 +208,5 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Everyone waves goodbye to the viewer, swaying softly in the evening light. Torong stays much taller than everyone with a long neck the whole time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Everyone waves goodbye to the viewer, swaying softly in the evening light. Torong stays much taller than everyone with a long neck the whole time. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
