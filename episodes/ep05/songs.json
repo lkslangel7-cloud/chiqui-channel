@@ -1,0 +1,18 @@
+{
+  "title": "치키 5화 노래",
+  "h1": "5화 · 무지개 찾기 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요. 칸마다 <b>복사</b>를 눌러 Suno에 붙여 넣으세요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 여기 채팅에 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초 (60초로 하면 마지막 후렴이 잘릴 수 있어요).",
+  "songs": [
+    {
+      "id": "rainbow",
+      "title": "무지개야 어디 있니?",
+      "short": "무지개 찾기",
+      "where": "0:55–1:55 · 5화 노래 (1~4화와 같은 후렴 틀)",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, hopeful and bright after-the-rain feeling, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n무지개야 어디 있니? (어디 있니?)\n친구들아 같이 가자\n치키치키 출발!\n\n[Verse 1]\n웅덩이에 첨벙첨벙\n크앙! 로로가 웃어요\n기분이 좋아 (하하!)\n\n[Verse 2]\n나무 위로 쭈욱쭈욱\n토롱이 살펴봐요\n아직 없네 (어디?)\n\n[Verse 3]\n구름 위로 슝슝슝\n피오가 찾았다\n저기 무지개 (와아!)\n\n[Verse 4]\n치키도 보고 싶어\n폴짝폴짝 (안 보여)\n조금 속상해 (힝!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n무지개야 어디 있니? (어디 있니?)\n친구들아 같이 가자\n치키치키 출발!\n\n[End]"
+    }
+  ]
+}
