@@ -175,7 +175,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Grandpa Bau hugs Torong and Pio warmly; Chiqui and Roro join the hug, everyone smiling.  Torong stays much taller than everyone with a long neck the whole time.One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Grandpa Bau hugs Torong and Pio warmly; Chiqui and Roro join the hug, everyone smiling. Torong stays much taller than everyone with a long neck the whole time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S19 까꿍! (2:30–2:40)
@@ -186,7 +186,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Everyone keeps their eyes covered for a moment, then opens their hands wide at the same time with big happy surprised faces, peekaboo!  Torong stays much taller than everyone with a long neck the whole time.One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Everyone keeps their eyes covered for a moment, then opens their hands wide at the same time with big happy surprised faces, peekaboo! Torong stays much taller than everyone with a long neck the whole time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S20 다 같이 춤 (2:40–2:50)
@@ -197,7 +197,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Everyone dances in a happy circle; Grandpa Bau claps along.  Torong stays much taller than everyone with a long neck the whole time.One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Everyone dances in a happy circle; Grandpa Bau claps along. Torong stays much taller than everyone with a long neck the whole time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S21 내일 또 만나요 (2:50–3:00)
@@ -208,5 +208,5 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Everyone waves goodbye to the viewer, swaying softly in the evening light.  Torong stays much taller than everyone with a long neck the whole time.One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Everyone waves goodbye to the viewer, swaying softly in the evening light. Torong stays much taller than everyone with a long neck the whole time. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
