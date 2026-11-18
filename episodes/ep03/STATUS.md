@@ -22,3 +22,4 @@
 
 - `output/ep03_ko_v1.mp4` / `ep03_ko_v1_nosubs.mp4` + `subtitles_ko.srt`, 썸네일 3종(S15 프릴에 칫솔), `upload_info.md`.
 - 치약이 청록색으로 나옴(프롬프트의 mint-green 탓) → S10·S13 "통도 뚜껑도 진한 초록" 프롬프트로 다시 만들기 (2026-11-18).
+- v2 (2026-11-18): S10·S13을 크레딧으로 다시 만듦 (GPT Image 2.6 + Elements 그림 27a533a1·3a487866 → Kling 3.0 10초 8f8254e2·eb36db7a, 약 31 크레딧). 치약 진한 초록. S13은 끝에 뒤돌아서는 부분을 빼고 앞 5초를 반 속도. `output/ep03_ko_v2.mp4` / `_nosubs` 완성. 옛 청록 치약 클립은 clips/web/S10_old_teal.mp4, S13_old_teal.mp4.

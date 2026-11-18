@@ -1,6 +1,6 @@
 # 3화 업로드 정보 (치키 타운)
 
-파일: `output/ep03_ko_v1.mp4` (3:00, 화면 자막) · 자막 없는 판 `output/ep03_ko_v1_nosubs.mp4` + `subtitles_ko.srt`
+파일: `output/ep03_ko_v2.mp4` (초록 치약으로 고친 판) (3:00, 화면 자막) · 자막 없는 판 `output/ep03_ko_v2_nosubs.mp4` + `subtitles_ko.srt`
 
 ## 제목
 
