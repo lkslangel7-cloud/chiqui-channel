@@ -13,3 +13,4 @@
 
 - 1차(2026-11-18) 10장 모두 합격 (16:9, 2688x1520): S02 Odd2kIfFEWQ, S03 wRAU9ZDt6Ko, S04 _y8iboLTruM, S05 CDJ4spZPLbo, S06 ZAdjqDyt1T8, S10 Ex0Ob1j3-Gg, S11 dwXfa046wKQ, S12 68P9Fok9Ii0, S13 kPFjNjStqCM, S14 yfVDA4lH-RY. 파일은 images/web/(git 제외).
 - 남은 그림: S08, S09, S15–S21.
+- 영상 1차(2026-11-18): S02 RRFazgrpUKQ(1~2초에 치키 공중제비, 모습 유지), S03 DvI8f01G10w, S04 MNsLaOPc9m4(치키 안 나옴, 4마리) — 합격.
