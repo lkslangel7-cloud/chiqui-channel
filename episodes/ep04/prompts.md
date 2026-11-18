@@ -76,7 +76,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Chiqui sneaks up and taps the tail; Roro pops up from behind the rock with a cute little roar and they both laugh. Only one Roro appears, and the tail belongs to that same Roro; Roro comes out from behind the rock in one piece. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui sneaks up and taps the yellow tail; then Roro pops up from behind the rock with a cute little roar and they both laugh. Roro is a yellow baby T-rex with a round head, small arms and orange spots on the back: Roro has NO frill, NO horns and does NOT look like Chiqui. Roro and Chiqui look completely different. Only one Roro appears, and the tail belongs to that same Roro; Roro comes out from behind the rock in one piece. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S10 토롱 목이 보여 (1:15–1:25)

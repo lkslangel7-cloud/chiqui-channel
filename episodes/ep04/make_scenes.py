@@ -49,7 +49,7 @@ S = [
   "Chiqui tiptoes forward in big funny careful steps, peeking left and right. " + KEEP),
  ("S09", "로로 꼬리 보여", "1:05–1:15", "CR", 10,
   img("CR", f"{D['R']} hides behind a big round rock, but the yellow tail with orange spots sticks out from the side of the rock. {D['C']} tiptoes toward the rock, pointing at the tail with a delighted face.", ""),
-  "Chiqui sneaks up and taps the tail; Roro pops up from behind the rock with a cute little roar and they both laugh. Only one Roro appears, and the tail belongs to that same Roro; Roro comes out from behind the rock in one piece. " + KEEP),
+  "Chiqui sneaks up and taps the yellow tail; then Roro pops up from behind the rock with a cute little roar and they both laugh. Roro is a yellow baby T-rex with a round head, small arms and orange spots on the back: Roro has NO frill, NO horns and does NOT look like Chiqui. Roro and Chiqui look completely different. Only one Roro appears, and the tail belongs to that same Roro; Roro comes out from behind the rock in one piece. " + KEEP),
  ("S10", "토롱 목이 보여", "1:15–1:25", "CT", 10,
   img("CT", f"{D['T']} hides behind a big leafy tree, but the long neck and head stick up above the leaves, clearly visible. {D['C']} looks up at Torong's head and giggles.", ""),
   "Chiqui points up and laughs; Torong peeks down shyly, then smiles and steps out from behind the tree. Only one Torong appears; Torong steps out from behind the tree and stays tall with a long neck. " + KEEP),
