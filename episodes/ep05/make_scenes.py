@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 STYLE = "Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text."
-KEEP = "One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion."
+KEEP = "Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion."
 D = {
     "C": "Chiqui, the orange baby triceratops with a yellow-spotted frill",
     "R": "Roro, the yellow baby T-rex with orange spots on the back",

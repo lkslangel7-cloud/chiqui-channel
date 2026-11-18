@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 STYLE = "Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text."
-KEEP = "One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion."
+KEEP = "Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion."
 D = {
     "C": "Chiqui, the orange baby triceratops with a yellow-spotted frill",
     "R": "Roro, the yellow baby T-rex with orange spots on the back",
@@ -67,10 +67,10 @@ S = [
   "Torong and Pio stand side by side and look at each other, then at the viewer, smiling. Torong stays much taller and Pio stays much smaller the whole time; no one changes size. ONLY these 2 characters are in this scene: Torong, Pio; no other character, animal or creature appears at any time. " + KEEP),
  ("S15", "토롱!", "2:00–2:05", "T", 5,
   img("T", f"{D['T']} stretches the long neck up high proudly, smiling, in the flower meadow.", ""),
-  "Torong stretches the neck up tall and proud, then gives a happy little nod. ONLY Torong is in this scene from start to end; no other character, animal or creature appears at any time. " + KEEP),
+  "The camera stays still and does not zoom. Torong, the only creature in the frame, slowly lifts the long neck even higher, then nods twice with a big proud smile. Torong's four legs stay on the ground. ONLY Torong is in this scene from start to end; no other character, animal or creature appears at any time. " + KEEP),
  ("S16", "누가 작을까?", "2:05–2:10", "P", 5,
   img("P", f"{D['P']} stands small on the grass with a shy smile, little wings slightly open, among tall flowers.", ""),
-  "Pio smiles shyly and flutters the little wings. ONLY Pio is in this scene from start to end; no other character, animal or creature appears at any time. " + KEEP),
+  "The camera stays still and does not zoom. Pio, the only creature in the frame, smiles, flaps both wings twice and does one happy hop in place among the flowers. ONLY Pio is in this scene from start to end; no other character, animal or creature appears at any time. " + KEEP),
  ("S17", "피오!", "2:10–2:20", "TP", 10,
   img("TP", f"{D['P']} sits on top of the head of {D['T']}, and both smile happily at the viewer.", ""),
   "Pio flutters up and lands on Torong's head; they both laugh and wiggle happily. Torong stays tall with a long neck and Pio stays small the whole time. ONLY these 2 characters are in this scene: Torong, Pio; no other character, animal or creature appears at any time. " + KEEP),
