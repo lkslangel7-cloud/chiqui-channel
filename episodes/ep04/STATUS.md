@@ -8,3 +8,8 @@
 | 숨바꼭질 노래 | 아직 (Suno) → `audio/songs/hide_song.wav` |
 | 대사 음성 | 아직 — 새로 12줄(요청 약 15개, 약 3.5 크레딧). 크레딧 충전 필요 |
 | 다시 쓰는 영상 | 1화 오프닝(0:00–0:20), 1화 `ep01_v05` 치키 달리기(0:55–1:00) |
+
+## 그림 받기 기록
+
+- 1차(2026-11-18) 10장 모두 합격 (16:9, 2688x1520): S02 Odd2kIfFEWQ, S03 wRAU9ZDt6Ko, S04 _y8iboLTruM, S05 CDJ4spZPLbo, S06 ZAdjqDyt1T8, S10 Ex0Ob1j3-Gg, S11 dwXfa046wKQ, S12 68P9Fok9Ii0, S13 kPFjNjStqCM, S14 yfVDA4lH-RY. 파일은 images/web/(git 제외).
+- 남은 그림: S08, S09, S15–S21.
