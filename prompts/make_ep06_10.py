@@ -102,7 +102,7 @@ EPS["ep07"] = dict(
   ("S13","할아버지에게","1:45–1:55","BCRTP",10,img("BCRTP","Chiqui, Roro, Torong and Pio bring their baskets, each with two red apples, to Grandpa Bau, who holds a big empty PURPLE basket. "+items("basket",list("CRTP")),"Exactly eight apples in the four small baskets."),vid("BCRTP","The friends pour their apples into Grandpa Bau's big purple basket one by one; everyone smiles.")),
   ("S14","몇 개 남았을까?","1:55–2:00","C",5,img("C",f"Close-up of {D['C']} facing the viewer with a curious face, head tilted, holding up two paws as if counting.","",True),vid("C","Chiqui tilts the head and looks at the viewer, thinking.")),
   ("S15","아홉, 열!","2:00–2:10","B",10,img("B",f"{D['B']} gently bumps the apple tree trunk with the round tail club; two {AP}s are falling toward a big PURPLE basket on the grass.","Exactly two falling apples and one purple basket."),vid("B","The tree shakes gently; two red apples fall one after another into the purple basket; Grandpa Bau chuckles.")),
-  ("S16","다 같이 세어 볼까?","2:10–2:20","BCRTP",10,img("BCRTP","All five friends sit around a big PURPLE basket full of exactly ten round shiny red apples, pointing at the apples and smiling.","Exactly ten apples."),vid("BCRTP","The friends point at the apples one by one, nodding as if counting together.")),
+  ("S16","다 같이 세어 볼까?","2:10–2:20","BCRTP",10,img("BCRTP","All five friends sit around a big PURPLE basket full of exactly ten round shiny red apples, pointing at the apples and smiling.","Exactly ten apples, set in two neat rows of five on top of the basket, every apple fully visible and none hidden behind another, so a child can count all ten."),vid("BCRTP","The friends point at the apples one by one, nodding as if counting together. The ten apples stay still in two rows of five; no apple appears or disappears.")),
   ("S17","다 같이 모으니 열 개!","2:20–2:30","BCRTP",10,img("BCRTP","Grandpa Bau smiles warmly beside the big purple basket of red apples; Chiqui, Roro, Torong and Pio cheer around him.",""),vid("BCRTP","Grandpa Bau nods proudly; the friends cheer and clap.")),
   ("S18","냠냠, 맛있다!","2:30–2:40","BCRTP",10,img("BCRTP","All five friends sit together on a picnic blanket under the apple tree, each happily holding one red apple, smiling.","Exactly five apples, one per friend."),vid("BCRTP","Everyone takes a little bite of the apple and smiles happily, rocking side to side.")),
  ])
@@ -234,7 +234,8 @@ def write(ep, e):
               open(d / "songs.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     out = [dict(id=a, name=b, time=c, refs=list(r), sec=s, img=i, vid=vv) for a, b, c, r, s, i, vv in sc]
     (d / "scenes.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    (d / "STATUS.md").write_text(f"# {e['title']} 진행 상태\n\n| 항목 | 상태 |\n| --- | --- |\n| 대본·가사·프롬프트 | 완료 (2026-11-18) |\n| 그림 {len(sc)}장 | 아직 |\n| 영상 {len(sc)}컷 | 아직 |\n| 노래 | 아직 (Suno 65~70초) |\n| 음성 | 아직 |\n", encoding="utf-8")
+    if not (d / "STATUS.md").exists():  # 진행 기록은 덮어쓰지 않는다
+     (d / "STATUS.md").write_text(f"# {e['title']} 진행 상태\n\n| 항목 | 상태 |\n| --- | --- |\n| 대본·가사·프롬프트 | 완료 (2026-11-18) |\n| 그림 {len(sc)}장 | 아직 |\n| 영상 {len(sc)}컷 | 아직 |\n| 노래 | 아직 (Suno 65~70초) |\n| 음성 | 아직 |\n", encoding="utf-8")
     print(ep, len(sc), "scenes", newsec, "sec,", len(new), "new lines")
 
 for ep, e in EPS.items():
