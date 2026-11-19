@@ -1,0 +1,18 @@
+{
+  "title": "치키 8화 노래",
+  "h1": "8화 · 발자국 찾기 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "foot",
+      "title": "발자국 누구 거니?",
+      "short": "발자국 찾기",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n발자국 누구 거니? (어디 있니?)\n친구들아 같이 가자\n치키치키 출발!\n\n[Verse 1]\n콩콩 콩콩 세 발가락\n크앙! 로로 발자국\n딱 맞았다 (맞았다!)\n\n[Verse 2]\n쿵쿵 쿵쿵 커다란 발\n쭈욱~ 토롱 발자국\n딱 맞았다 (맞았다!)\n\n[Verse 3]\n총총 총총 조그만 발\n슝~ 피오 발자국\n딱 맞았다 (맞았다!)\n\n[Verse 4]\n치키 발자국 어디 있니?\n두리번 두리번 (어디 있지?)\n내 발자국 (어디?)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n발자국 누구 거니? (어디 있니?)\n친구들아 같이 가자\n치키치키 출발!\n\n[End]"
+    }
+  ]
+}

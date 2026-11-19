@@ -1,0 +1,18 @@
+{
+  "title": "치키 7화 노래",
+  "h1": "7화 · 사과 따기 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "apple",
+      "title": "사과야 어디 있니?",
+      "short": "사과 따기",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n사과야 어디 있니? (어디 있니?)\n친구들아 같이 가자\n치키치키 출발!\n\n[Verse 1]\n낮은 가지 동글동글\n크앙! 로로가 땄어요\n하나, 둘 (둘!)\n\n[Verse 2]\n높은 가지 동글동글\n쭈욱~ 토롱이 땄어요\n셋, 넷 (넷!)\n\n[Verse 3]\n꼭대기에 동글동글\n슝~ 피오가 땄어요\n다섯, 여섯 (여섯!)\n\n[Verse 4]\n폴짝 뛰어 동글동글\n짠! 치키가 땄어요\n일곱, 여덟 (여덟!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n사과야 어디 있니? (어디 있니?)\n친구들아 같이 가자\n치키치키 출발!\n\n[End]"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+<title>치키 6~10화 노래</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: 한 열 작업 목록. 위에 고정 문구, 장면 번호 바로가기, 장면마다 그림·영상 프롬프트 카드 */
+:root {
+  --bg: #fbf7f0; --surface: #ffffff; --ink: #2b2620; --muted: #76695a;
+  --line: #eadfce; --accent: #e8711c; --accent-ink: #ffffff; --code: #f6efe3;
+  --display: "Jua", "Noto Sans KR", system-ui, sans-serif;
+  --body: "Noto Sans KR", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #1d1a16; --surface: #27231e; --ink: #f2ebe0; --muted: #b3a593;
+  --line: #3a342c; --accent: #f08a3c; --accent-ink: #1d1a16; --code: #2f2a24; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #1d1a16; --surface: #27231e; --ink: #f2ebe0; --muted: #b3a593;
+  --line: #3a342c; --accent: #f08a3c; --accent-ink: #1d1a16; --code: #2f2a24; color-scheme: dark; }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 20px; }
+h1 { font-family: var(--display); font-weight: 400; font-size: 2rem; margin: 0; text-wrap: balance; }
+.lead { margin: 0; color: var(--muted); }
+.steps { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; }
+.fixed { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 14px; }
+.fixed h2, .scene h2 { font-family: var(--display); font-weight: 400; margin: 0; font-size: 1.25rem; }
+nav.jump { display: flex; flex-wrap: wrap; gap: 6px; position: sticky; top: env(safe-area-inset-top, 0px); background: var(--bg); padding-block: 8px; z-index: 5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+nav.jump a { min-width: 2.4em; text-align: center; padding: 4px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); text-decoration: none; font-variant-numeric: tabular-nums; font-size: .9rem; }
+nav.jump a:hover, nav.jump a:focus-visible { border-color: var(--accent); outline: none; }
+.scene { display: grid; gap: 10px; padding-block: 16px; border-top: 1px solid var(--line); scroll-margin-top: 56px; }
+.scene-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; }
+.sid { font-family: var(--mono); color: var(--accent); font-size: .95rem; }
+.time { margin-left: auto; color: var(--muted); font-size: .9rem; font-variant-numeric: tabular-nums; }
+.ref { margin: 0; font-size: .95rem; }
+.label, .kind { font-size: .78rem; letter-spacing: .04em; color: var(--muted); margin-right: 6px; }
+.prompt { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; min-width: 0; }
+.prompt-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 10px 8px 12px; border-bottom: 1px solid var(--line); }
+pre { margin: 0; padding: 12px; white-space: pre-wrap; word-break: break-word; font-family: var(--mono); font-size: .82rem; line-height: 1.55; background: var(--code); color: var(--ink); }
+button.copy { font: inherit; font-size: .85rem; font-weight: 600; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+button.copy:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+button.copy.done { background: transparent; color: var(--accent); }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+h1 { word-break: keep-all; }
+.note { margin: 0; font-size: .95rem; color: var(--muted); }
+.steps b { color: var(--ink); }
+.opts { width: 100%; border-collapse: collapse; font-size: .92rem; }
+.opts th, .opts td { text-align: left; padding: 8px 6px; border-top: 1px solid var(--line); vertical-align: top; }
+.opts th { color: var(--muted); font-weight: 600; font-size: .8rem; }
+.opts td:first-child { white-space: nowrap; font-family: var(--mono); font-size: .85rem; }
+</style>
+<div class="wrap">
+  <header style="display:grid;gap:8px">
+    <h1>6~10화 · 노래 5곡 (Suno)</h1>
+    <p class="lead">6~10화 노래 5곡이에요. 화마다 1곡씩 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.</p>
+  </header>
+  <section class="fixed">
+    <h2>쓰는 순서</h2>
+    <ol class="steps">
+      <li>Suno에서 <b>Create</b> → <b>Custom</b> 모드를 켠다.</li>
+      <li>Lyrics 칸에 가사, Styles 칸에 스타일, Title 칸에 제목을 붙여 넣는다.</li>
+      <li><b>More Options</b>는 아래 표처럼 맞춘다.</li>
+      <li>한 번에 2곡씩 나와요. 발음이 또렷하고 밝은 쪽을 고른다.</li>
+      <li>마지막 후렴 "치키치키 출발!"까지 나오는지 들어 보고, WAV로 받아 올려 주세요. 몇 화 노래인지 알려 주세요.</li>
+      <li>유튜브 수익 창출을 하려면 Suno <b>유료 플랜(Pro 이상)</b>으로 만든 곡이어야 해요. 무료 플랜 곡은 상업적으로 쓸 수 없어요.</li>
+    </ol>
+    <table class="opts"><thead><tr><th>설정</th><th>값</th></tr></thead><tbody>
+      <tr><td>Vocal Gender</td><td><b>Female</b> (배경음악은 상관없음)</td></tr>
+      <tr><td>Duration</td><td><b>Custom</b> — 65~70초.</td></tr>
+      <tr><td>Max Mode</td><td><b>Off</b></td></tr>
+      <tr><td>Weirdness</td><td><b>20%</b> (낮을수록 무난하고 동요다운 곡)</td></tr>
+      <tr><td>Style Influence</td><td><b>80%</b> (스타일 문구를 잘 따르게)</td></tr>
+      <tr><td>Variety</td><td><b>Normal</b> 그대로</td></tr>
+      <tr><td>Personalize</td><td><b>Off</b> (4곡 소리를 똑같이 맞추려고)</td></tr>
+    </tbody></table>
+  </section>
+  <nav class="jump" aria-label="곡 바로가기"><a href="#e06">6화</a><a href="#e07">7화</a><a href="#e08">8화</a><a href="#e09">9화</a><a href="#e10">10화</a></nav>
+  <article class="scene" id="e06"><header class="scene-head"><h2>비누야 어디 있니?</h2><span class="time">6화 노래 · 0:55–1:55</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e06-t">복사</button></div><pre id="e06-t">비누야 어디 있니?</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e06-l">복사</button></div><pre id="e06-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+비누야 어디 있니? (어디 있니?)
+친구들아 같이 가자
+치키치키 출발!
+
+[Verse 1]
+바위 뒤에 몽글몽글
+크앙! 로로가 찾았다
+노란 비누 찾았다 (비누!)
+
+[Verse 2]
+나무 위에 몽글몽글
+쭈욱~ 토롱이 찾았다
+초록 비누 찾았다 (비누!)
+
+[Verse 3]
+구름 위에 몽글몽글
+슝~ 피오가 찾았다
+파란 비누 찾았다 (비누!)
+
+[Verse 4]
+치키 비누 어디 있니?
+두리번 두리번 (어디 있지?)
+주황 주황 내 비누 (어디?)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+비누야 어디 있니? (어디 있니?)
+친구들아 같이 가자
+치키치키 출발!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e06-s">복사</button></div><pre id="e06-s">call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy</pre></div></article><article class="scene" id="e07"><header class="scene-head"><h2>사과야 어디 있니?</h2><span class="time">7화 노래 · 0:55–1:55</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e07-t">복사</button></div><pre id="e07-t">사과야 어디 있니?</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e07-l">복사</button></div><pre id="e07-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+사과야 어디 있니? (어디 있니?)
+친구들아 같이 가자
+치키치키 출발!
+
+[Verse 1]
+낮은 가지 동글동글
+크앙! 로로가 땄어요
+하나, 둘 (둘!)
+
+[Verse 2]
+높은 가지 동글동글
+쭈욱~ 토롱이 땄어요
+셋, 넷 (넷!)
+
+[Verse 3]
+꼭대기에 동글동글
+슝~ 피오가 땄어요
+다섯, 여섯 (여섯!)
+
+[Verse 4]
+폴짝 뛰어 동글동글
+짠! 치키가 땄어요
+일곱, 여덟 (여덟!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+사과야 어디 있니? (어디 있니?)
+친구들아 같이 가자
+치키치키 출발!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e07-s">복사</button></div><pre id="e07-s">call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy</pre></div></article><article class="scene" id="e08"><header class="scene-head"><h2>발자국 누구 거니?</h2><span class="time">8화 노래 · 0:55–1:55</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e08-t">복사</button></div><pre id="e08-t">발자국 누구 거니?</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e08-l">복사</button></div><pre id="e08-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+발자국 누구 거니? (어디 있니?)
+친구들아 같이 가자
+치키치키 출발!
+
+[Verse 1]
+콩콩 콩콩 세 발가락
+크앙! 로로 발자국
+딱 맞았다 (맞았다!)
+
+[Verse 2]
+쿵쿵 쿵쿵 커다란 발
+쭈욱~ 토롱 발자국
+딱 맞았다 (맞았다!)
+
+[Verse 3]
+총총 총총 조그만 발
+슝~ 피오 발자국
+딱 맞았다 (맞았다!)
+
+[Verse 4]
+치키 발자국 어디 있니?
+두리번 두리번 (어디 있지?)
+내 발자국 (어디?)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+발자국 누구 거니? (어디 있니?)
+친구들아 같이 가자
+치키치키 출발!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e08-s">복사</button></div><pre id="e08-s">call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy</pre></div></article><article class="scene" id="e09"><header class="scene-head"><h2>달님 어디 있니?</h2><span class="time">9화 노래 · 0:55–1:55</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e09-t">복사</button></div><pre id="e09-t">달님 어디 있니?</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e09-l">복사</button></div><pre id="e09-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+달님 어디 있니? (어디 있니?)
+친구들아 같이 가자
+치키치키 출발!
+
+[Verse 1]
+바위 뒤에 반짝반짝
+크앙! 로로가 찾았다
+반딧불이 (반짝!)
+
+[Verse 2]
+나무 위에 반짝반짝
+쭈욱~ 토롱이 찾았다
+작은 별님 (반짝!)
+
+[Verse 3]
+구름 위에 반짝반짝
+슝~ 피오가 찾았다
+별님 하나 더 (반짝!)
+
+[Verse 4]
+달님 달님 어디 있니?
+두리번 두리번 (어디 있지?)
+동글동글 달님 (어디?)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+달님 어디 있니? (어디 있니?)
+친구들아 같이 가자
+치키치키 출발!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e09-s">복사</button></div><pre id="e09-s">call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy</pre></div></article><article class="scene" id="e10"><header class="scene-head"><h2>상자야 어디 있니?</h2><span class="time">10화 노래 · 0:55–1:55</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e10-t">복사</button></div><pre id="e10-t">상자야 어디 있니?</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e10-l">복사</button></div><pre id="e10-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+상자야 어디 있니? (어디 있니?)
+친구들아 같이 가자
+치키치키 출발!
+
+[Verse 1]
+공을 굴려 데굴데굴
+크앙! 로로가 쏙
+노란 상자 쏙 (쏙!)
+
+[Verse 2]
+블록 높이 차곡차곡
+쭈욱~ 토롱이 쏙
+초록 상자 쏙 (쏙!)
+
+[Verse 3]
+비행기가 슝슝슝
+슝~ 피오가 쏙
+파란 상자 쏙 (쏙!)
+
+[Verse 4]
+치키 상자 어디 있니?
+두리번 두리번 (어디 있지?)
+주황 주황 내 상자 (어디?)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+상자야 어디 있니? (어디 있니?)
+친구들아 같이 가자
+치키치키 출발!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e10-s">복사</button></div><pre id="e10-s">call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy</pre></div></article>
+</div>
+<script>
+document.addEventListener('click', function (ev) {
+  var btn = ev.target.closest('button.copy');
+  if (!btn) return;
+  var el = document.getElementById(btn.dataset.target);
+  var text = el.textContent;
+  function done() { btn.textContent = '복사됨'; btn.classList.add('done');
+    setTimeout(function () { btn.textContent = '복사'; btn.classList.remove('done'); }, 1600); }
+  function fallback() { var r = document.createRange(); r.selectNodeContents(el);
+    var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = '선택됨 · 길게 눌러 복사'; }
+  try { navigator.clipboard.writeText(text).then(done, fallback); } catch (e) { fallback(); }
+});
+</script>

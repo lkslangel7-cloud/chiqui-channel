@@ -1,0 +1,18 @@
+{
+  "title": "치키 9화 노래",
+  "h1": "9화 · 달님 찾기 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "moon",
+      "title": "달님 어디 있니?",
+      "short": "달님 찾기",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n달님 어디 있니? (어디 있니?)\n친구들아 같이 가자\n치키치키 출발!\n\n[Verse 1]\n바위 뒤에 반짝반짝\n크앙! 로로가 찾았다\n반딧불이 (반짝!)\n\n[Verse 2]\n나무 위에 반짝반짝\n쭈욱~ 토롱이 찾았다\n작은 별님 (반짝!)\n\n[Verse 3]\n구름 위에 반짝반짝\n슝~ 피오가 찾았다\n별님 하나 더 (반짝!)\n\n[Verse 4]\n달님 달님 어디 있니?\n두리번 두리번 (어디 있지?)\n동글동글 달님 (어디?)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n달님 어디 있니? (어디 있니?)\n친구들아 같이 가자\n치키치키 출발!\n\n[End]"
+    }
+  ]
+}
