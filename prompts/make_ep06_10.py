@@ -18,6 +18,7 @@ END = "One continuous shot with no cuts and no scene changes. Keep every charact
 FULL = "Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. "
 
 def img(refs, scene, extra="", close=False):
+    if "night" in scene.lower() or "dusk" in scene.lower() or "sunset" in scene.lower(): scene += " NO rainbow anywhere."
     head = ("Characters: " + "; ".join(f"{AT[c]} is {D[c]}" for c in refs) + ". Draw them exactly like their element images. ") if refs else ""
     cnt = (f" Draw exactly one of each character, never duplicated ({len(refs)} character{'s' if len(refs) > 1 else ''} in total).") if refs else " No characters in this scene."
     size = TALL if ("T" in refs and len(refs) > 1) else ""
