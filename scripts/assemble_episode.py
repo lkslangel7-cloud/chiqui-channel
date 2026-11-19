@@ -48,7 +48,7 @@ def main(ep_dir: str, out: str, no_subs: bool = False) -> None:
         args += ["-ss", str(v["from"]), "-t", str(round(v["dur"] * sp, 3)), "-i", str(src)]
         slow = f"setpts=PTS/{sp}," if sp != 1 else ""
         if v.get("pingpong"):  # 앞으로 갔다가 거꾸로 돌아와 길이를 두 배로 (끝이 처음 장면으로 돌아옴)
-            half = round(v["dur"] / 2, 3)
+            half = round(v["dur"] / 2 * sp, 3)  # speed와 같이 쓰면 앞부분만 느리게
             args[-3] = str(half)  # 입력 길이를 절반만
             fc.append(f"[{i}:v]{slow}scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1,format=yuv420p,split[pa{i}][pb{i}];[pb{i}]reverse[pr{i}];[pa{i}][pr{i}]concat=n=2:v=1:a=0[v{i}]")
             continue

@@ -1,0 +1,496 @@
+{
+  "title": "4화 친구야 어디 있니?",
+  "length": 180,
+  "draft": "완성",
+  "video": [
+    {
+      "start": 0,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 0,
+      "dur": 3.5,
+      "note": "오프닝 (1화)"
+    },
+    {
+      "start": 3.5,
+      "file": "../ep01/clips/ep01_v03.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "오프닝 다섯 친구 (1화)"
+    },
+    {
+      "start": 13.5,
+      "file": "../ep01/clips/ep01_v04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "오프닝 점프 (1화)"
+    },
+    {
+      "start": 18.5,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 3.5,
+      "dur": 1.5,
+      "note": "오프닝 마을 (1화)"
+    },
+    {
+      "start": 20,
+      "file": "clips/ep04_s02.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S02 숨바꼭질 하자"
+    },
+    {
+      "start": 30,
+      "file": "clips/ep04_s03.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S03 하나~다섯"
+    },
+    {
+      "start": 40,
+      "file": "clips/ep04_s04.mp4",
+      "from": 1,
+      "dur": 5,
+      "note": "S04 살금살금 (1초부터)"
+    },
+    {
+      "start": 45,
+      "file": "clips/ep04_s05.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S05 다 숨었니?"
+    },
+    {
+      "start": 50,
+      "file": "clips/ep04_s06.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S06 친구들은 어디?"
+    },
+    {
+      "start": 55,
+      "file": "../ep01/clips/ep01_v05.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S07 치키 달리기 (1화 재사용)"
+    },
+    {
+      "start": 60,
+      "file": "clips/ep04_s08.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S08 살금살금 찾기"
+    },
+    {
+      "start": 65,
+      "file": "clips/ep04_s09.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S09 로로 꼬리 (앞 5초 반 속도)",
+      "speed": 0.5
+    },
+    {
+      "start": 75,
+      "file": "clips/ep04_s10.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S10 토롱 목"
+    },
+    {
+      "start": 85,
+      "file": "clips/ep04_s11.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S11 피오 꽃 속"
+    },
+    {
+      "start": 95,
+      "file": "clips/ep04_s12.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S12 할아버지 덤불"
+    },
+    {
+      "start": 105,
+      "file": "clips/ep04_s13.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S13 다 찾았다"
+    },
+    {
+      "start": 115,
+      "file": "clips/ep04_s14.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S14 누가 클까 (Kling)"
+    },
+    {
+      "start": 120,
+      "file": "clips/ep04_s15.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S15 토롱! (Kling)"
+    },
+    {
+      "start": 125,
+      "file": "clips/ep04_s16.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S16 누가 작을까 (Kling)"
+    },
+    {
+      "start": 130,
+      "file": "clips/ep04_s17.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S17 피오가 토롱 머리 위"
+    },
+    {
+      "start": 140,
+      "file": "clips/ep04_s18.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S18 커도 작아도"
+    },
+    {
+      "start": 150,
+      "file": "clips/ep04_s19.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S19 까꿍 (6.4초에 손 뗌)"
+    },
+    {
+      "start": 160,
+      "file": "clips/ep04_s20.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S20 춤"
+    },
+    {
+      "start": 170,
+      "file": "clips/ep04_s21.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S21 인사 (앞 4.5초를 조금 느리게 왕복 — 4.5초 뒤 화면이 다가가 치키가 잘림)",
+      "speed": 0.9,
+      "pingpong": true
+    }
+  ],
+  "lines": [
+    {
+      "at": 21.0,
+      "audio": "audio/ko/01_chiqui.wav",
+      "who": "치키",
+      "text": "숨바꼭질 하자!"
+    },
+    {
+      "at": 23.8,
+      "audio": "audio/ko/02_all.wav",
+      "who": "모두",
+      "text": "좋아!"
+    },
+    {
+      "at": 31.0,
+      "audio": "audio/ko/03_chiqui.wav",
+      "who": "치키",
+      "text": "하나, 둘, 셋, 넷, 다섯!"
+    },
+    {
+      "at": 41.0,
+      "audio": "audio/ko/04_narr.wav",
+      "who": "내레이션",
+      "text": "쉿! 살금살금~"
+    },
+    {
+      "at": 46.5,
+      "audio": "audio/ko/05_chiqui.wav",
+      "who": "치키",
+      "text": "다 숨었니?"
+    },
+    {
+      "at": 50.4,
+      "audio": "audio/ko/06_narr.wav",
+      "who": "내레이션",
+      "text": "친구들은 어디 있을까?"
+    },
+    {
+      "at": 108.6,
+      "audio": "audio/ko/07_chiqui.wav",
+      "who": "치키",
+      "text": "다 찾았다!"
+    },
+    {
+      "at": 115.6,
+      "audio": "audio/ko/08_narr.wav",
+      "who": "내레이션",
+      "text": "누가 클까?"
+    },
+    {
+      "at": 120.3,
+      "audio": "audio/ko/09_all.wav",
+      "who": "모두",
+      "text": "토롱!"
+    },
+    {
+      "at": 125.6,
+      "audio": "audio/ko/10_narr.wav",
+      "who": "내레이션",
+      "text": "누가 작을까?"
+    },
+    {
+      "at": 130.8,
+      "audio": "audio/ko/11_all.wav",
+      "who": "모두",
+      "text": "피오!"
+    },
+    {
+      "at": 140.8,
+      "audio": "audio/ko/12_bau.wav",
+      "who": "바우 할아버지",
+      "text": "커도 작아도, 다 좋은 친구!"
+    },
+    {
+      "at": 144.6,
+      "audio": "audio/ko/13_all.wav",
+      "who": "모두",
+      "text": "와아~"
+    },
+    {
+      "at": 150.6,
+      "audio": "audio/ko/14_narr.wav",
+      "who": "내레이션",
+      "text": "우리도 해 볼까?"
+    },
+    {
+      "at": 156.4,
+      "audio": "audio/ko/15_all.wav",
+      "who": "모두",
+      "text": "까꿍!"
+    },
+    {
+      "at": 177.6,
+      "audio": "audio/ko/16_chiqui.wav",
+      "who": "치키",
+      "text": "안녕!"
+    }
+  ],
+  "music": [
+    {
+      "file": "../ep01/audio/songs/opening.wav",
+      "at": 0,
+      "from": 0,
+      "dur": 20.36,
+      "volume": 0.9,
+      "fade_out": 0.5,
+      "note": "오프닝 주제가"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 20,
+      "from": 0,
+      "dur": 33.2,
+      "volume": 0.3,
+      "fade_in": 1,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "audio/songs/hide_song.wav",
+      "at": 52.6,
+      "from": 0,
+      "dur": 62.4,
+      "volume": 0.9,
+      "fade_out": 1,
+      "note": "숨바꼭질 노래 (1절 65.0, 2절 75.2, 3절 84.6, 4절 94.6, 후렴 104.6)"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 115.0,
+      "from": 0,
+      "dur": 45.4,
+      "volume": 0.3,
+      "fade_in": 1.5,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "../ep01/audio/songs/ending.wav",
+      "at": 160.4,
+      "from": 0,
+      "dur": 19.56,
+      "volume": 0.9,
+      "note": "엔딩 주제가"
+    }
+  ],
+  "captions": [
+    {
+      "at": 0,
+      "end": 3.6,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 3.6,
+      "end": 6.0,
+      "text": "뿔이 셋 치키 (치키!)"
+    },
+    {
+      "at": 6.0,
+      "end": 8.3,
+      "text": "크앙 크앙 로로 (로로!)"
+    },
+    {
+      "at": 8.3,
+      "end": 10.8,
+      "text": "목이 쭈욱 토롱 (토롱!)"
+    },
+    {
+      "at": 10.8,
+      "end": 13.2,
+      "text": "하늘 슝슝 피오 (피오!)"
+    },
+    {
+      "at": 13.2,
+      "end": 15.3,
+      "text": "안경 쓴 바우 할아버지 (허허!)"
+    },
+    {
+      "at": 15.3,
+      "end": 17.9,
+      "text": "공룡 마을 친구들"
+    },
+    {
+      "at": 17.9,
+      "end": 20.3,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 54.7,
+      "end": 58.1,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 58.1,
+      "end": 60.2,
+      "text": "친구야 어디 있니? (어디 있니?)"
+    },
+    {
+      "at": 60.2,
+      "end": 62.5,
+      "text": "하나 둘 셋 넷 다섯"
+    },
+    {
+      "at": 62.5,
+      "end": 64.8,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 65.0,
+      "end": 67.5,
+      "text": "바위 뒤에 살금살금"
+    },
+    {
+      "at": 67.5,
+      "end": 69.7,
+      "text": "크앙! 로로 꼬리 보여"
+    },
+    {
+      "at": 69.7,
+      "end": 74.2,
+      "text": "로로 찾았다 (찾았다!)"
+    },
+    {
+      "at": 75.2,
+      "end": 77.4,
+      "text": "나무 뒤에 살금살금"
+    },
+    {
+      "at": 77.4,
+      "end": 79.6,
+      "text": "쭈욱~ 토롱 목이 보여"
+    },
+    {
+      "at": 79.6,
+      "end": 84.0,
+      "text": "토롱 찾았다 (찾았다!)"
+    },
+    {
+      "at": 84.6,
+      "end": 87.1,
+      "text": "꽃잎 속에 살금살금"
+    },
+    {
+      "at": 87.1,
+      "end": 89.6,
+      "text": "쉿~ 피오는 작아요"
+    },
+    {
+      "at": 89.6,
+      "end": 94.0,
+      "text": "피오 찾았다 (찾았다!)"
+    },
+    {
+      "at": 94.6,
+      "end": 97.1,
+      "text": "할아버지 어디 있니?"
+    },
+    {
+      "at": 97.1,
+      "end": 99.6,
+      "text": "덤불 뒤에 (허허!)"
+    },
+    {
+      "at": 99.6,
+      "end": 104.2,
+      "text": "다 보여요 할아버지 (찾았다!)"
+    },
+    {
+      "at": 104.6,
+      "end": 106.6,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 106.6,
+      "end": 108.6,
+      "text": "친구야 어디 있니?"
+    },
+    {
+      "at": 110.3,
+      "end": 111.6,
+      "text": "하나 둘 셋 넷 다섯"
+    },
+    {
+      "at": 111.6,
+      "end": 114.6,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 160.4,
+      "end": 163.8,
+      "text": "오늘도 재밌었지? (응!)"
+    },
+    {
+      "at": 163.8,
+      "end": 166.8,
+      "text": "바우 할아버지도 (허허!)"
+    },
+    {
+      "at": 166.8,
+      "end": 171.8,
+      "text": "안녕! 바이바이! 아디오스!"
+    },
+    {
+      "at": 171.8,
+      "end": 175.9,
+      "text": "내일 또 만나요, 크앙!"
+    }
+  ],
+  "sfx_suggestions": [
+    {
+      "at": 41.0,
+      "what": "살금살금 발소리"
+    },
+    {
+      "at": 156.4,
+      "what": "뿅 (까꿍)"
+    }
+  ]
+}
