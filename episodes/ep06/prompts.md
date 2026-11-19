@@ -10,7 +10,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-The friends stomp and splash in the mud puddle, laughing; Grandpa Bau chuckles. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+The friends stomp and splash in the mud puddle, laughing; Grandpa Bau chuckles. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S03 손이 지저분해! (0:30–0:35)
@@ -65,7 +65,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-The friends nod together and cheer, bouncing a little with excitement. ONLY these 4 characters are in this scene: Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+The friends nod together and cheer, bouncing a little with excitement. ONLY these 4 characters are in this scene: Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S09 로로 · 노란 비누 (1:05–1:15)
@@ -76,7 +76,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Roro picks up the yellow soap, holds it up high and does a cute happy roar, wiggling with joy; a few bubbles float up. The camera stays still. Roro is the only creature in the frame. ONLY Roro is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Roro picks up the yellow soap, holds it up high and does a cute happy roar, wiggling with joy; a few bubbles float up. The camera stays still. Roro is the only creature in the frame. ONLY Roro is in this scene from start to end; no other character, animal or creature appears at any time. Roro always keeps a round head with no frill and no horns. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S10 토롱 · 초록 비누 (1:15–1:25)
@@ -98,7 +98,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Pio flies across the cloud hills with the sky-blue soap, doing one gentle swoop; a few bubbles trail behind. The camera stays still. Pio is the only creature in the frame. ONLY Pio is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Pio flies across the cloud hills with the sky-blue soap, doing one gentle swoop; a few bubbles trail behind. The camera stays still. Pio is the only creature in the frame. ONLY Pio is in this scene from start to end; no other character, animal or creature appears at any time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S12 치키 비누는? (1:35–1:45)
@@ -120,7 +120,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-The friends gather around Chiqui, give a gentle pat, and all look around together. The soaps keep their colors: yellow, green, sky-blue. ONLY these 4 characters are in this scene: Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+The friends gather around Chiqui, give a gentle pat, and all look around together. The soaps keep their colors: yellow, green, sky-blue. ONLY these 4 characters are in this scene: Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S14 치키 비누는 어디 있을까? (1:55–2:00)
@@ -164,7 +164,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Everyone rubs the paws with bubbles and rinses in the water, giggling; each soap keeps its color: Chiqui orange, Roro yellow, Torong green, Pio sky-blue, Grandpa Bau purple. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Everyone rubs the paws with bubbles and rinses in the water, giggling; each soap keeps its color: Chiqui orange, Roro yellow, Torong green, Pio sky-blue, Grandpa Bau purple. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S18 깨끗해! (2:30–2:40)
@@ -175,5 +175,5 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Everyone shows their clean paws to the viewer, then cheers and bounces happily together. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Everyone shows their clean paws to the viewer, then cheers and bounces happily together. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```

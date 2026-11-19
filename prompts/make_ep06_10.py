@@ -34,7 +34,11 @@ def vid(refs, action):
     else:
         only = "No characters, animals or creatures appear at any time. "
     size = "Torong stays much taller than everyone with a long neck the whole time. " if ("T" in refs and len(refs) > 1) else ""
-    return f"{action} {only}{size}{NOCOPY}{END}"
+    look = ""  # 4화에서 배운 것: 피오가 동그란 새로, 로로가 트리케라톱스로 바뀜
+    if "P" in refs: look += "Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. "
+    if "R" in refs: look += "Roro always keeps a round head with no frill and no horns. "
+    cam = "" if len(refs) == 1 else ("The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. " if len(refs) > 1 else "")
+    return f"{action} {only}{size}{look}{cam}{NOCOPY}{END}"
 
 def items(word, refs):  # 친구 몸 색 물건 못박기
     return " ".join(f"{NM[r]} holds a {COL[r]} {word};" for r in refs) + f" Each {word} matches its owner's body color; no other colors."
