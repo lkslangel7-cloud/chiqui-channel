@@ -4,10 +4,10 @@ Suno → Create → Custom. 칸마다 그대로 붙여 넣는다.
 
 More Options: Vocal Gender Female / Duration Custom(오프닝·엔딩 20초, 알 찾기·배경음악 60초) / Max Mode Off / Weirdness 20% / Style Influence 80% / Variety Normal / Personalize Off
 
-## 장난감아 제자리!
+## 장난감을 제자리!
 
 - 자리: 0:55–1:55 · 시리즈 후렴 틀
-- Title: 장난감아 제자리!
+- Title: 장난감을 제자리!
 
 
 Styles:
@@ -19,7 +19,7 @@ Lyrics:
 ```
 [Chorus]
 쿵쿵 쾅! 쿵쿵 쾅!
-장난감아 제자리! (제자리!)
+장난감을 제자리! (제자리!)
 친구들아 같이 하자
 치키치키 정리!
 
@@ -45,7 +45,7 @@ Lyrics:
 
 [Chorus]
 쿵쿵 쾅! 쿵쿵 쾅!
-장난감아 제자리! (제자리!)
+장난감을 제자리! (제자리!)
 친구들아 같이 하자
 치키치키 정리!
 
