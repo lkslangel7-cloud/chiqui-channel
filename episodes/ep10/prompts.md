@@ -1,4 +1,4 @@
-# 10화 · 상자야 어디 있니? — 장면 프롬프트 (웹사이트용)
+# 10화 · 장난감아 제자리! — 장면 프롬프트 (웹사이트용)
 
 그림: GPT Image 2.6 Sunburst(웹 무제한), 16:9, 캐릭터·화풍은 Elements(@chiqui @roro @torong @pio @bau @village). 영상: Seedance 2.5(웹 무제한), 그림 한 장만 시작 프레임으로, 끊김 없는 한 컷, 소리 끔.
 
@@ -46,7 +46,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 Chiqui looks at the boxes, looks left and right, and makes a surprised face. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
-### S06 친구들아, 같이 찾자! (0:45–0:50)
+### S06 친구들아, 같이 정리하자! (0:45–0:50)
 [레퍼런스] 치키
 [그림]
 ```
@@ -156,7 +156,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 Grandpa Bau nods proudly and gives a gentle thumbs-up with a front paw. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
-### S17 영차, 영차! (2:20–2:30)
+### S17 영차, 영차! 제자리! (2:20–2:30)
 [레퍼런스] 치키, 로로, 토롱, 피오
 [그림]
 ```

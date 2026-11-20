@@ -22,6 +22,16 @@ def box(kind, bid, text):
     return (f'<div class="prompt"><div class="prompt-head"><span class="kind">{e(kind)}</span>'
             f'<button type="button" class="copy" data-target="{bid}">복사</button></div><pre id="{bid}">{e(text)}</pre></div>')
 
+import base64, glob, io
+def thumb(sid):  # 합격 그림이 있으면 작은 사진으로 넣는다 (어떤 그림으로 몇 번 영상을 만드는지)
+    fs = sorted(glob.glob(str(ep / "images/web" / f"{sid}_*.png")))
+    if not fs: return ""
+    from PIL import Image
+    f = fs[-1]; code = Path(f).stem[len(sid) + 1:]
+    im = Image.open(f).convert("RGB"); im.thumbnail((640, 360)); buf = io.BytesIO(); im.save(buf, "JPEG", quality=72)
+    return (f'<figure class="ok"><img src="data:image/jpeg;base64,{base64.b64encode(buf.getvalue()).decode()}" alt="{e(sid)} 합격 그림">'
+            f'<figcaption>✅ 합격 그림 <code>{e(code)}</code> — 이 그림을 시작 이미지로</figcaption></figure>')
+
 cards = []
 for i, s in enumerate(scenes, 1):
     cards.append(f'''<article class="scene" id="{s['id'].lower()}">
@@ -29,6 +39,7 @@ for i, s in enumerate(scenes, 1):
   <div class="step"><b>① 나오는 친구</b> <span class="chips">{chips(s['refs'])}</span></div>
   <div class="step"><b>② 그림 만들기</b> · 16:9</div>
   {box("그림 프롬프트", s['id'] + "-i", s['img'])}
+  {thumb(s['id'])}
   <div class="step"><b>③ 영상 만들기</b> · 방금 그림을 시작 이미지로 · <b class="sec">{s['sec']}초</b> · 소리 끔</div>
   {box("영상 프롬프트", s['id'] + "-v", s['vid'])}
 </article>''')
@@ -54,6 +65,9 @@ nav.jump a { flex: none; }
 .sheet { display: grid; gap: 4px; text-decoration: none; color: var(--ink); font-size: .9rem; }
 .sheet img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; border: 1px solid var(--line); background: var(--code); }
 .sheet span { display: inline-flex; align-items: center; gap: 6px; }
+.ok { margin: 0; display: grid; gap: 6px; }
+.ok img { width: 100%; max-width: 480px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 10px; border: 2px solid var(--accent); }
+.ok figcaption { font-size: .9rem; }
 """
 page = f'''<title>{e(title)} 장면</title>
 <meta name="claude:viewport-fit-sides" content="cover">
