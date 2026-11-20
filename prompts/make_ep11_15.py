@@ -52,7 +52,7 @@ EPS["ep11"] = dict(
    "Only orange carrots on Chiqui's plate.", False, "Chiqui munches the carrot stick happily, then hugs the plate of carrots."),
   ("으~ 초록색은 싫어", "C", f"Close view of {D['C']} looking at a small bowl of GREEN broccoli with a funny 'yuck' face, tongue sticking out a little, turning the head away.",
    "", True, "Chiqui scrunches the face, sticks the tongue out a little and turns the head away from the broccoli, in a funny way."),
-  ("한 입만 먹어 볼까?", "B", f"{D['B']} sits on the picnic blanket holding up one small GREEN broccoli floret, smiling kindly with a gentle wink.",
+  ("한 입만 먹어 볼까?", "B", f"{D['B']} sits on a soft YELLOW-and-white checkered picnic blanket on the sunny meadow, holding up one small GREEN broccoli floret, smiling kindly with a gentle wink.",
    "Exactly one broccoli floret.", False, "Grandpa Bau holds up the broccoli, winks once and nods gently."),
   ("우리가 보여 줄게!", "RTP", "On the picnic blanket, Roro, Torong and Pio raise their own food with big smiles: Roro holds one YELLOW corn cob; Torong holds one GREEN broccoli floret in the mouth; Pio holds one dark BLUE blueberry in the beak.",
    "", False, "Roro, Torong and Pio raise their food and nod together, cheering."),
