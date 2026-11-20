@@ -1,0 +1,53 @@
+{
+ "segments": [
+  {
+   "file": "output/ep01_ko_v5.mp4",
+   "srt": "output/ep01_ko_nosubs.srt",
+   "from": 0,
+   "to": 20.4,
+   "label": ""
+  },
+  {
+   "file": "output/ep01_ko_v5.mp4",
+   "srt": "output/ep01_ko_nosubs.srt",
+   "from": 68.0,
+   "to": 130.0,
+   "label": "1화  공룡알 하나 둘 셋"
+  },
+  {
+   "file": "output/ep02_ko_v2.mp4",
+   "srt": "output/ep02_ko_v2.srt",
+   "from": 54.4,
+   "to": 114.4,
+   "label": "2화  알록달록 풍선 어디 있니?"
+  },
+  {
+   "file": "output/ep03_ko_v2.mp4",
+   "srt": "output/ep03_ko_v2.srt",
+   "from": 54.3,
+   "to": 115.9,
+   "label": "3화  칫솔아 어디 있니?"
+  },
+  {
+   "file": "output/ep04_ko_v2.mp4",
+   "srt": "output/ep04_ko_v2.srt",
+   "from": 52.6,
+   "to": 115.0,
+   "label": "4화  친구야 어디 있니?"
+  },
+  {
+   "file": "output/ep05_ko_v3.mp4",
+   "srt": "output/ep05_ko_v3.srt",
+   "from": 50.0,
+   "to": 110.0,
+   "label": "5화  무지개야 어디 있니?"
+  },
+  {
+   "file": "output/ep05_ko_v3.mp4",
+   "srt": "output/ep05_ko_v3.srt",
+   "from": 150.4,
+   "to": 170,
+   "label": ""
+  }
+ ]
+}
