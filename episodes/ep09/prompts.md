@@ -134,7 +134,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 Chiqui tilts the head and looks at the viewer as if asking 'Where is it?'. The sky has only stars and clouds; no moon appears at any time. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
-### S15 달님이다! (2:00–2:10)
+### S15 구름 뒤에 숨어 있었네! (2:00–2:10)
 [레퍼런스] 치키
 [그림]
 ```
@@ -145,7 +145,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 The cloud slides away and the smiling moon glows; Chiqui throws both arms up with joy. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
-### S16 달님도 잘 자래 (2:10–2:20)
+### S16 달님은 늘 있단다 (2:10–2:20)
 [레퍼런스] 바우 할아버지, 치키, 로로, 토롱, 피오
 [그림]
 ```
@@ -156,7 +156,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 Everyone yawns slowly and rubs their eyes sleepily; Grandpa Bau nods with a warm smile. Torong only yawns and does not rub the eyes. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
-### S17 잘 자! (2:20–2:30)
+### S17 달님, 잘 자! (2:20–2:30)
 [레퍼런스] 바우 할아버지, 치키, 로로, 토롱, 피오
 [그림]
 ```
