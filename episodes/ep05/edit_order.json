@@ -1,0 +1,501 @@
+{
+  "title": "5화 무지개야 어디 있니?",
+  "length": 170,
+  "draft": "완성",
+  "video": [
+    {
+      "start": 0,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 0,
+      "dur": 3.5,
+      "note": "오프닝 (1화)"
+    },
+    {
+      "start": 3.5,
+      "file": "../ep01/clips/ep01_v03.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "오프닝 다섯 친구 (1화)"
+    },
+    {
+      "start": 13.5,
+      "file": "../ep01/clips/ep01_v04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "오프닝 점프 (1화)"
+    },
+    {
+      "start": 18.5,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 3.5,
+      "dur": 1.5,
+      "note": "오프닝 마을 (1화)"
+    },
+    {
+      "start": 20,
+      "file": "clips/ep05_s02.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S02 소풍 가자 (앞 5초 반 속도 — 6초부터 토롱 머리 잘림)",
+      "speed": 0.5
+    },
+    {
+      "start": 30,
+      "file": "clips/ep05_s03.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S03 비가 와요"
+    },
+    {
+      "start": 35,
+      "file": "clips/ep05_s04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S04 무서워 (3초 번개)"
+    },
+    {
+      "start": 40,
+      "file": "clips/ep05_s05.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S05 이리 오렴"
+    },
+    {
+      "start": 45,
+      "file": "clips/ep05_s06.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S06 괜찮아"
+    },
+    {
+      "start": 50,
+      "file": "clips/ep05_s07.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S07 비가 그쳤다 (앞 5초)"
+    },
+    {
+      "start": 55,
+      "file": "../ep01/clips/ep01_v05.mp4",
+      "from": 0,
+      "dur": 10.6,
+      "note": "치키 달리기 (1화 재사용, 느리게 — 2화 출발 장면은 뒤에 무지개가 보여서 뺌)",
+      "speed": 0.94
+    },
+    {
+      "start": 65.6,
+      "file": "clips/ep05_s09.mp4",
+      "from": 0,
+      "dur": 7.4,
+      "note": "S09 로로 첨벙 (1절)"
+    },
+    {
+      "start": 73,
+      "file": "clips/ep05_s10.mp4",
+      "from": 0,
+      "dur": 7.8,
+      "note": "S10 토롱 살펴봄 (2절)"
+    },
+    {
+      "start": 80.8,
+      "file": "clips/ep05_s11.mp4",
+      "from": 0,
+      "dur": 7.2,
+      "note": "S11 피오 무지개 발견 (3절, 앞 6.5초만)",
+      "speed": 0.9
+    },
+    {
+      "start": 88,
+      "file": "clips/ep05_s12.mp4",
+      "from": 0,
+      "dur": 7.5,
+      "note": "S12 치키 폴짝 시무룩 (4절)"
+    },
+    {
+      "start": 95.5,
+      "file": "clips/ep05_s13.mp4",
+      "from": 0,
+      "dur": 9.5,
+      "note": "S13 토닥토닥 (후렴, 앞 6초만)",
+      "speed": 0.63
+    },
+    {
+      "start": 105,
+      "file": "clips/ep05_s14.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S14 치키 얼굴 (어떻게 볼 수 있을까 + 3초 쉼)"
+    },
+    {
+      "start": 110,
+      "file": "clips/ep05_s15.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S15 토롱 머리 위로"
+    },
+    {
+      "start": 120,
+      "file": "clips/ep05_s16.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S16 와! 무지개다"
+    },
+    {
+      "start": 130,
+      "file": "clips/ep05_s17.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S17 할아버지 (앞 5초 반 속도)",
+      "speed": 0.5
+    },
+    {
+      "start": 140,
+      "file": "clips/ep05_s18.mp4",
+      "from": 2,
+      "dur": 10,
+      "note": "S18 기뻐! (2초부터 — 처음 피오 동그래 보임)",
+      "speed": 0.8
+    },
+    {
+      "start": 150,
+      "file": "../ep04/clips/ep04_s20.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "엔딩 춤 (4화 재사용)"
+    },
+    {
+      "start": 160,
+      "file": "../ep04/clips/ep04_s21.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "엔딩 노을 인사 (4화 재사용)",
+      "speed": 0.9,
+      "pingpong": true
+    }
+  ],
+  "lines": [
+    {
+      "at": 21.0,
+      "audio": "audio/ko/01_chiqui.wav",
+      "who": "치키",
+      "text": "소풍 가자!"
+    },
+    {
+      "at": 23.6,
+      "audio": "audio/ko/02_all.wav",
+      "who": "모두",
+      "text": "좋아!"
+    },
+    {
+      "at": 30.5,
+      "audio": "audio/ko/03_narr.wav",
+      "who": "내레이션",
+      "text": "어? 비가 와요."
+    },
+    {
+      "at": 32.7,
+      "audio": "audio/ko/04_chiqui.wav",
+      "who": "치키",
+      "text": "힝, 슬퍼."
+    },
+    {
+      "at": 38.2,
+      "audio": "audio/ko/05_torong.wav",
+      "who": "토롱",
+      "text": "무서워..."
+    },
+    {
+      "at": 41.0,
+      "audio": "audio/ko/06_bau.wav",
+      "who": "바우 할아버지",
+      "text": "이리 오렴, 괜찮아."
+    },
+    {
+      "at": 46.5,
+      "audio": "audio/ko/07_all.wav",
+      "who": "모두",
+      "text": "괜찮아!"
+    },
+    {
+      "at": 50.4,
+      "audio": "audio/ko/08_chiqui.wav",
+      "who": "치키",
+      "text": "비가 그쳤다!"
+    },
+    {
+      "at": 52.1,
+      "audio": "audio/ko/09_chiqui.wav",
+      "who": "치키",
+      "text": "무지개 찾으러 가자!"
+    },
+    {
+      "at": 105.6,
+      "audio": "audio/ko/10_narr.wav",
+      "who": "내레이션",
+      "text": "치키는 어떻게 볼 수 있을까?"
+    },
+    {
+      "at": 111.3,
+      "audio": "audio/ko/11_torong.wav",
+      "who": "토롱",
+      "text": "내가 도와줄게!"
+    },
+    {
+      "at": 121.5,
+      "audio": "audio/ko/12_chiqui.wav",
+      "who": "치키",
+      "text": "와! 무지개다!"
+    },
+    {
+      "at": 124.4,
+      "audio": "audio/ko/13_all.wav",
+      "who": "모두",
+      "text": "와아~"
+    },
+    {
+      "at": 131.0,
+      "audio": "audio/ko/14_bau.wav",
+      "who": "바우 할아버지",
+      "text": "슬퍼도 괜찮아, 친구가 있으니까."
+    },
+    {
+      "at": 140.8,
+      "audio": "audio/ko/15_narr.wav",
+      "who": "내레이션",
+      "text": "지금 기분은 어때?"
+    },
+    {
+      "at": 145.0,
+      "audio": "audio/ko/16_all.wav",
+      "who": "모두",
+      "text": "기뻐!"
+    },
+    {
+      "at": 167.6,
+      "audio": "audio/ko/17_chiqui.wav",
+      "who": "치키",
+      "text": "안녕!"
+    }
+  ],
+  "music": [
+    {
+      "file": "../ep01/audio/songs/opening.wav",
+      "at": 0,
+      "from": 0,
+      "dur": 20.36,
+      "volume": 0.9,
+      "fade_out": 0.5,
+      "note": "오프닝 주제가"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 20,
+      "from": 0,
+      "dur": 31,
+      "volume": 0.3,
+      "fade_in": 1,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "audio/songs/rainbow_song.wav",
+      "at": 50,
+      "from": 0,
+      "dur": 60,
+      "volume": 0.9,
+      "fade_in": 0.5,
+      "fade_out": 1.5,
+      "note": "무지개 찾기 노래 (1절 65.6, 2절 72.9, 3절 80.8, 4절 88.0, 후렴 95.5)"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 109,
+      "from": 0,
+      "dur": 41.4,
+      "volume": 0.3,
+      "fade_in": 1.5,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "../ep01/audio/songs/ending.wav",
+      "at": 150.4,
+      "from": 0,
+      "dur": 19.56,
+      "volume": 0.9,
+      "note": "엔딩 주제가"
+    }
+  ],
+  "captions": [
+    {
+      "at": 0,
+      "end": 3.6,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 3.6,
+      "end": 6.0,
+      "text": "뿔이 셋 치키 (치키!)"
+    },
+    {
+      "at": 6.0,
+      "end": 8.3,
+      "text": "크앙 크앙 로로 (로로!)"
+    },
+    {
+      "at": 8.3,
+      "end": 10.8,
+      "text": "목이 쭈욱 토롱 (토롱!)"
+    },
+    {
+      "at": 10.8,
+      "end": 13.2,
+      "text": "하늘 슝슝 피오 (피오!)"
+    },
+    {
+      "at": 13.2,
+      "end": 15.3,
+      "text": "안경 쓴 바우 할아버지 (허허!)"
+    },
+    {
+      "at": 15.3,
+      "end": 17.9,
+      "text": "공룡 마을 친구들"
+    },
+    {
+      "at": 17.9,
+      "end": 20.3,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 55.3,
+      "end": 58.0,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 58.0,
+      "end": 60.9,
+      "text": "무지개야 어디 있니? (어디 있니?)"
+    },
+    {
+      "at": 60.9,
+      "end": 62.9,
+      "text": "친구들아 같이 가자"
+    },
+    {
+      "at": 62.9,
+      "end": 65.2,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 65.6,
+      "end": 68.2,
+      "text": "웅덩이에 첨벙첨벙"
+    },
+    {
+      "at": 68.2,
+      "end": 70.4,
+      "text": "크앙! 로로가 웃어요"
+    },
+    {
+      "at": 70.4,
+      "end": 72.7,
+      "text": "기분이 좋아 (하하!)"
+    },
+    {
+      "at": 72.9,
+      "end": 75.0,
+      "text": "나무 위로 쭈욱쭈욱"
+    },
+    {
+      "at": 75.0,
+      "end": 78.0,
+      "text": "토롱이 살펴봐요"
+    },
+    {
+      "at": 78.0,
+      "end": 80.5,
+      "text": "아직 없네 (어디?)"
+    },
+    {
+      "at": 80.8,
+      "end": 82.4,
+      "text": "구름 위로 슝슝슝"
+    },
+    {
+      "at": 82.4,
+      "end": 85.4,
+      "text": "피오가 찾았다"
+    },
+    {
+      "at": 85.4,
+      "end": 87.9,
+      "text": "저기 무지개 (와아!)"
+    },
+    {
+      "at": 88.0,
+      "end": 90.1,
+      "text": "치키도 보고 싶어"
+    },
+    {
+      "at": 90.1,
+      "end": 92.7,
+      "text": "폴짝폴짝 (안 보여)"
+    },
+    {
+      "at": 92.7,
+      "end": 95.4,
+      "text": "조금 속상해 (힝!)"
+    },
+    {
+      "at": 95.5,
+      "end": 98.0,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 98.0,
+      "end": 100.9,
+      "text": "무지개야 어디 있니? (어디 있니?)"
+    },
+    {
+      "at": 100.9,
+      "end": 102.9,
+      "text": "친구들아 같이 가자"
+    },
+    {
+      "at": 102.9,
+      "end": 105.4,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 150.4,
+      "end": 153.8,
+      "text": "오늘도 재밌었지? (응!)"
+    },
+    {
+      "at": 153.8,
+      "end": 156.8,
+      "text": "바우 할아버지도 (허허!)"
+    },
+    {
+      "at": 156.8,
+      "end": 161.8,
+      "text": "안녕! 바이바이! 아디오스!"
+    },
+    {
+      "at": 161.8,
+      "end": 165.9,
+      "text": "내일 또 만나요, 크앙!"
+    }
+  ],
+  "sfx_suggestions": [
+    {
+      "at": 30.0,
+      "what": "빗소리"
+    },
+    {
+      "at": 38.0,
+      "what": "쿠르릉 (작고 귀엽게)"
+    }
+  ]
+}
