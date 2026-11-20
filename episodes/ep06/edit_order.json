@@ -1,0 +1,474 @@
+{
+  "title": "6화 비누야 어디 있니?",
+  "length": 177.1,
+  "draft": "완성",
+  "video": [
+    {
+      "start": 0,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 0,
+      "dur": 3.5,
+      "note": "오프닝 (1화)"
+    },
+    {
+      "start": 3.5,
+      "file": "../ep01/clips/ep01_v03.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "오프닝 다섯 친구 (1화)"
+    },
+    {
+      "start": 13.5,
+      "file": "../ep01/clips/ep01_v04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "오프닝 점프 (1화)"
+    },
+    {
+      "start": 18.5,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 3.5,
+      "dur": 1.5,
+      "note": "오프닝 마을 (1화)"
+    },
+    {
+      "start": 20,
+      "file": "clips/ep06_s02.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S02 흙놀이"
+    },
+    {
+      "start": 30,
+      "file": "clips/ep06_s03.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S03 손이 지저분해"
+    },
+    {
+      "start": 35,
+      "file": "clips/ep06_s04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S04 손 씻자"
+    },
+    {
+      "start": 40,
+      "file": "clips/ep06_s05.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S05 비누가 없다"
+    },
+    {
+      "start": 45,
+      "file": "clips/ep06_s06.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S06 같이 찾자"
+    },
+    {
+      "start": 50,
+      "file": "clips/ep06_s07.mp4",
+      "from": 0,
+      "dur": 4.1,
+      "note": "S07 좋아"
+    },
+    {
+      "start": 54.1,
+      "file": "../ep01/clips/ep01_v05.mp4",
+      "from": 0,
+      "dur": 10.8,
+      "note": "치키 달리기 (1화, 노래 후렴)",
+      "speed": 0.94
+    },
+    {
+      "start": 65.0,
+      "file": "clips/ep06_s09.mp4",
+      "from": 0,
+      "dur": 9.5,
+      "note": "S09 로로 노란 비누 (1절)"
+    },
+    {
+      "start": 74.5,
+      "file": "clips/ep06_s10.mp4",
+      "from": 0,
+      "dur": 9.2,
+      "note": "S10 토롱 초록 비누 (2절)"
+    },
+    {
+      "start": 83.7,
+      "file": "clips/ep06_s11.mp4",
+      "from": 0,
+      "dur": 9.1,
+      "note": "S11 피오 파란 비누 (3절)"
+    },
+    {
+      "start": 92.8,
+      "file": "clips/ep06_s12.mp4",
+      "from": 0,
+      "dur": 9.3,
+      "note": "S12 치키 비누는? (4절)"
+    },
+    {
+      "start": 102.1,
+      "file": "clips/ep06_s13.mp4",
+      "from": 0,
+      "dur": 10.0,
+      "note": "S13 같이 찾아 줄게 (후렴)"
+    },
+    {
+      "start": 112.1,
+      "file": "clips/ep06_s14.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S14 치키 비누는 어디 있을까 (3초 쉼)"
+    },
+    {
+      "start": 117.1,
+      "file": "clips/ep06_s15.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S15 진흙 속에 있었네"
+    },
+    {
+      "start": 127.1,
+      "file": "clips/ep06_s16.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S16 거품 뽀글뽀글 손을 싹싹"
+    },
+    {
+      "start": 137.1,
+      "file": "clips/ep06_s17.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S17 싹싹싹 (새 프롬프트)"
+    },
+    {
+      "start": 147.1,
+      "file": "clips/ep06_s18.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S18 깨끗해"
+    },
+    {
+      "start": 157.1,
+      "file": "../ep04/clips/ep04_s20.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "엔딩 춤 (4화)"
+    },
+    {
+      "start": 167.1,
+      "file": "../ep04/clips/ep04_s21.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "엔딩 노을 인사 (4화)",
+      "speed": 0.9,
+      "pingpong": true
+    }
+  ],
+  "lines": [
+    {
+      "at": 21,
+      "audio": "audio/ko/01_chiqui.wav",
+      "who": "치키",
+      "text": "흙놀이 하자!"
+    },
+    {
+      "at": 31,
+      "audio": "audio/ko/02_chiqui.wav",
+      "who": "치키",
+      "text": "손이 지저분해!"
+    },
+    {
+      "at": 36,
+      "audio": "audio/ko/03_bau.wav",
+      "who": "바우 할아버지",
+      "text": "이리 와서 손 씻자!"
+    },
+    {
+      "at": 41,
+      "audio": "audio/ko/04_chiqui.wav",
+      "who": "치키",
+      "text": "어? 비누가 없다!"
+    },
+    {
+      "at": 46,
+      "audio": "audio/ko/05_chiqui.wav",
+      "who": "치키",
+      "text": "친구들아, 같이 찾자!"
+    },
+    {
+      "at": 51,
+      "audio": "audio/ko/06_all.wav",
+      "who": "모두",
+      "text": "좋아!"
+    },
+    {
+      "at": 112.6,
+      "audio": "audio/ko/07_narr.wav",
+      "who": "내레이션",
+      "text": "치키 비누는 어디 있을까?"
+    },
+    {
+      "at": 118.4,
+      "audio": "audio/ko/08_chiqui.wav",
+      "who": "치키",
+      "text": "진흙 속에 있었네!"
+    },
+    {
+      "at": 121.6,
+      "audio": "audio/ko/09_all.wav",
+      "who": "모두",
+      "text": "하하하!"
+    },
+    {
+      "at": 128.1,
+      "audio": "audio/ko/10_bau.wav",
+      "who": "바우 할아버지",
+      "text": "거품 뽀글뽀글!"
+    },
+    {
+      "at": 131.6,
+      "audio": "audio/ko/11_bau.wav",
+      "who": "바우 할아버지",
+      "text": "손을 싹싹!"
+    },
+    {
+      "at": 139.1,
+      "audio": "audio/ko/12_all.wav",
+      "who": "모두",
+      "text": "싹싹싹!"
+    },
+    {
+      "at": 144.8,
+      "audio": "audio/ko/13_narr.wav",
+      "who": "내레이션",
+      "text": "손이 어떻게 됐을까?"
+    },
+    {
+      "at": 148.7,
+      "audio": "audio/ko/14_all.wav",
+      "who": "모두",
+      "text": "깨끗해!"
+    },
+    {
+      "at": 174.7,
+      "audio": "audio/ko/15_chiqui.wav",
+      "who": "치키",
+      "text": "안녕!"
+    }
+  ],
+  "music": [
+    {
+      "file": "../ep01/audio/songs/opening.wav",
+      "at": 0,
+      "from": 0,
+      "dur": 20.36,
+      "volume": 0.9,
+      "fade_out": 0.5,
+      "note": "오프닝 주제가"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 20,
+      "from": 0,
+      "dur": 34.6,
+      "volume": 0.3,
+      "fade_in": 1,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "audio/songs/soap_song.wav",
+      "at": 54.1,
+      "from": 0,
+      "dur": 58,
+      "volume": 0.9,
+      "fade_out": 1,
+      "note": "비누 찾기 노래"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 112.1,
+      "from": 0,
+      "dur": 45.4,
+      "volume": 0.3,
+      "fade_in": 1.5,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "../ep01/audio/songs/ending.wav",
+      "at": 157.5,
+      "from": 0,
+      "dur": 19.56,
+      "volume": 0.9,
+      "note": "엔딩 주제가"
+    }
+  ],
+  "captions": [
+    {
+      "at": 0,
+      "end": 3.6,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 3.6,
+      "end": 6.0,
+      "text": "뿔이 셋 치키 (치키!)"
+    },
+    {
+      "at": 6.0,
+      "end": 8.3,
+      "text": "크앙 크앙 로로 (로로!)"
+    },
+    {
+      "at": 8.3,
+      "end": 10.8,
+      "text": "목이 쭈욱 토롱 (토롱!)"
+    },
+    {
+      "at": 10.8,
+      "end": 13.2,
+      "text": "하늘 슝슝 피오 (피오!)"
+    },
+    {
+      "at": 13.2,
+      "end": 15.3,
+      "text": "안경 쓴 바우 할아버지 (허허!)"
+    },
+    {
+      "at": 15.3,
+      "end": 17.9,
+      "text": "공룡 마을 친구들"
+    },
+    {
+      "at": 17.9,
+      "end": 20.3,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 56.6,
+      "end": 58.5,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 58.5,
+      "end": 61.0,
+      "text": "비누야 어디 있니? (어디 있니?)"
+    },
+    {
+      "at": 61.0,
+      "end": 63.1,
+      "text": "친구들아 같이 가자"
+    },
+    {
+      "at": 63.1,
+      "end": 64.9,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 65.0,
+      "end": 67.8,
+      "text": "바위 뒤에 몽글몽글"
+    },
+    {
+      "at": 67.8,
+      "end": 69.9,
+      "text": "크앙! 로로가 찾았다"
+    },
+    {
+      "at": 69.9,
+      "end": 74.3,
+      "text": "노란 비누 찾았다 (비누!)"
+    },
+    {
+      "at": 74.5,
+      "end": 77.0,
+      "text": "나무 위에 몽글몽글"
+    },
+    {
+      "at": 77.0,
+      "end": 79.2,
+      "text": "쭈욱~ 토롱이 찾았다"
+    },
+    {
+      "at": 79.2,
+      "end": 83.5,
+      "text": "초록 비누 찾았다 (비누!)"
+    },
+    {
+      "at": 83.7,
+      "end": 86.1,
+      "text": "구름 위에 몽글몽글"
+    },
+    {
+      "at": 86.1,
+      "end": 88.2,
+      "text": "슝~ 피오가 찾았다"
+    },
+    {
+      "at": 88.2,
+      "end": 92.6,
+      "text": "파란 비누 찾았다 (비누!)"
+    },
+    {
+      "at": 92.8,
+      "end": 95.5,
+      "text": "치키 비누 어디 있니?"
+    },
+    {
+      "at": 95.5,
+      "end": 97.7,
+      "text": "두리번 두리번 (어디 있지?)"
+    },
+    {
+      "at": 97.7,
+      "end": 101.7,
+      "text": "주황 주황 내 비누 (어디?)"
+    },
+    {
+      "at": 102.1,
+      "end": 104.3,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 104.3,
+      "end": 106.9,
+      "text": "비누야 어디 있니? (어디 있니?)"
+    },
+    {
+      "at": 106.9,
+      "end": 108.9,
+      "text": "친구들아 같이 가자"
+    },
+    {
+      "at": 108.9,
+      "end": 111.5,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 157.5,
+      "end": 160.9,
+      "text": "오늘도 재밌었지? (응!)"
+    },
+    {
+      "at": 160.9,
+      "end": 163.9,
+      "text": "바우 할아버지도 (허허!)"
+    },
+    {
+      "at": 163.9,
+      "end": 168.9,
+      "text": "안녕! 바이바이! 아디오스!"
+    },
+    {
+      "at": 168.9,
+      "end": 173.0,
+      "text": "내일 또 만나요, 크앙!"
+    }
+  ],
+  "sfx_suggestions": []
+}
