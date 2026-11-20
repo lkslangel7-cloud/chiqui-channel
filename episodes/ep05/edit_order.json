@@ -199,7 +199,7 @@
       "text": "힝, 슬퍼."
     },
     {
-      "at": 38.2,
+      "at": 39.0,
       "audio": "audio/ko/05_torong.wav",
       "who": "토롱",
       "text": "무서워..."
@@ -324,6 +324,23 @@
       "dur": 19.56,
       "volume": 0.9,
       "note": "엔딩 주제가"
+    },
+    {
+      "file": "../../assets_sfx/rain_soft.wav",
+      "at": 29.5,
+      "from": 0,
+      "dur": 21,
+      "volume": 2.2,
+      "fade_out": 2,
+      "note": "빗소리 (S03~S06, 비 그치는 S07에서 사라짐)"
+    },
+    {
+      "file": "../../assets_sfx/thunder_soft.wav",
+      "at": 37.7,
+      "from": 0,
+      "dur": 3.2,
+      "volume": 1.0,
+      "note": "천둥 쿠르릉 (S04 번개 번쩍 37.75초)"
     }
   ],
   "captions": [

@@ -1,6 +1,6 @@
 # 5화 업로드 정보 (치키 타운)
 
-파일: `output/ep05_ko_v2.mp4` (2:50, 화면 자막) · 자막 없는 판 `output/ep05_ko_v2_nosubs.mp4` + `subtitles_ko.srt`
+파일: `output/ep05_ko_v3.mp4` (2:50, 화면 자막, 천둥·빗소리 넣은 판) · 자막 없는 판 `output/ep05_ko_v3_nosubs.mp4` + `subtitles_ko.srt`
 
 ## 제목
 
