@@ -1,0 +1,18 @@
+{
+  "title": "치키 11화 노래",
+  "h1": "11화 · 골고루 냠냠 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "yum",
+      "title": "골고루 냠냠!",
+      "short": "골고루 냠냠",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n골고루 냠냠! (냠냠!)\n한 입 두 입 맛있게\n치키치키 냠냠!\n\n[Verse 1]\n노란 옥수수 톡톡톡\n크앙! 로로가 와앙\n옥수수 냠냠 (냠냠!)\n\n[Verse 2]\n초록 브로콜리 작은 나무\n쭈욱~ 토롱이 냠\n브로콜리 냠냠 (냠냠!)\n\n[Verse 3]\n파란 블루베리 콩콩콩\n슝~ 피오가 콕\n블루베리 냠냠 (냠냠!)\n\n[Verse 4]\n치키도 한 입 해 볼까?\n망설망설 (할 수 있어!)\n한 입만 냠 (냠!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n골고루 냠냠! (냠냠!)\n한 입 두 입 맛있게\n치키치키 냠냠!\n\n[End]"
+    }
+  ]
+}

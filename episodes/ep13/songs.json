@@ -1,0 +1,18 @@
+{
+  "title": "치키 13화 노래",
+  "h1": "13화 · 건강 검진 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "doc",
+      "title": "아~ 해 보세요!",
+      "short": "건강 검진",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n아~ 해 보세요! (아~!)\n하나도 안 무서워\n치키치키 튼튼!\n\n[Verse 1]\n키 재기 쭈욱쭈욱\n토롱이 제일 커\n쭉쭉 컸네 (와!)\n\n[Verse 2]\n콩닥콩닥 청진기\n치키 마음 소리\n콩닥콩닥 (콩닥!)\n\n[Verse 3]\n입을 크게 아~\n피오도 아~\n아~ 잘했어요 (아~!)\n\n[Verse 4]\n로로 차례 두근두근\n눈을 꼭 감고 (할 수 있어!)\n하나도 안 아파 (짝짝!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n아~ 해 보세요! (아~!)\n하나도 안 무서워\n치키치키 튼튼!\n\n[End]"
+    }
+  ]
+}

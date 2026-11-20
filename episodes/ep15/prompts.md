@@ -1,0 +1,179 @@
+# 15화 · 칙칙폭폭 공룡 기차! — 장면 프롬프트 (웹사이트용)
+
+그림: GPT Image 2.6 Sunburst(웹 무제한), 16:9, 캐릭터·화풍은 Elements(@chiqui @roro @torong @pio @bau @village). 영상: Seedance 2.5(웹 무제한), 그림 한 장만 시작 프레임으로, 끊김 없는 한 컷, 소리 끔.
+
+### S02 심심해~ (0:20–0:30)
+[레퍼런스] 치키
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill. Draw them exactly like their element images. Chiqui, the orange baby triceratops with a yellow-spotted frill sits on a grassy hill in the village with the chin on both paws, looking bored. Draw exactly one of each character, never duplicated (1 character in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Chiqui sighs, rolls onto the back in the grass and looks at the sky. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S03 기차 출발! (0:30–0:35)
+[레퍼런스] 바우 할아버지
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows. Draw them exactly like their element images. Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows sits in the PURPLE engine of a small toy-like train on a wooden track: one PURPLE engine in front, then four open little cars in this order: ORANGE car, YELLOW car, long GREEN car (open top), SKY-BLUE car, all cars empty, waving happily. Draw exactly one of each character, never duplicated (1 character in total). All four cars are empty. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+Grandpa Bau waves and a little puff of white steam rises from the engine. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S04 첫 번째 손님! (0:35–0:40)
+[레퍼런스] 바우 할아버지, 치키
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill. Draw them exactly like their element images. Chiqui, the orange baby triceratops with a yellow-spotted frill climbs happily into the ORANGE car of a small toy-like train on a wooden track: one PURPLE engine in front, then four open little cars in this order: ORANGE car, YELLOW car, long GREEN car (open top), SKY-BLUE car; Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows sits in the PURPLE engine smiling back. Draw exactly one of each character, never duplicated (2 characters in total). Yellow, green and sky-blue cars are empty. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+Chiqui sits down in the orange car and claps; Grandpa Bau nods. ONLY these 2 characters are in this scene: Grandpa Bau, Chiqui; no other character, animal or creature appears at any time. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S05 칙칙폭폭 출발 (0:40–0:45)
+[레퍼런스] 바우 할아버지, 치키
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill. Draw them exactly like their element images. a small toy-like train on a wooden track: one PURPLE engine in front, then four open little cars in this order: ORANGE car, YELLOW car, long GREEN car (open top), SKY-BLUE car rolls along the wooden track through a flower meadow; Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows drives the PURPLE engine and Chiqui, the orange baby triceratops with a yellow-spotted frill rides in the ORANGE car. Draw exactly one of each character, never duplicated (2 characters in total). Yellow, green and sky-blue cars are empty. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+The train rolls slowly forward along the track; Chiqui waves; small puffs of steam rise. ONLY these 2 characters are in this scene: Grandpa Bau, Chiqui; no other character, animal or creature appears at any time. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S06 다음 역은 어디일까? (0:45–0:50)
+[레퍼런스] 치키
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill. Draw them exactly like their element images. Close view of Chiqui, the orange baby triceratops with a yellow-spotted frill sitting in the ORANGE train car, leaning out and looking ahead curiously with one paw above the eyes. Draw exactly one of each character, never duplicated (1 character in total). Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+Chiqui leans out, looks ahead and smiles excitedly. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S07 친구들 태우러 가자! (0:50–0:55)
+[레퍼런스] 바우 할아버지, 치키
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill. Draw them exactly like their element images. a small toy-like train on a wooden track: one PURPLE engine in front, then four open little cars in this order: ORANGE car, YELLOW car, long GREEN car (open top), SKY-BLUE car waits on the track; Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows in the PURPLE engine, Chiqui, the orange baby triceratops with a yellow-spotted frill in the ORANGE car raising one paw high. Draw exactly one of each character, never duplicated (2 characters in total). Yellow, green and sky-blue cars are empty. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+Chiqui raises the paw and cheers; Grandpa Bau rings a little bell on the engine. ONLY these 2 characters are in this scene: Grandpa Bau, Chiqui; no other character, animal or creature appears at any time. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S09 놀이터 바위 역 · 로로 (1:05–1:15)
+[레퍼런스] 바우 할아버지, 치키, 로로
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns). Draw them exactly like their element images. a small toy-like train on a wooden track: one PURPLE engine in front, then four open little cars in this order: ORANGE car, YELLOW car, long GREEN car (open top), SKY-BLUE car stops next to a big play rock; Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns) hops into the YELLOW car. Grandpa Bau drives the PURPLE engine and Chiqui rides in the ORANGE car. Draw exactly one of each character, never duplicated (3 characters in total). Green and sky-blue cars are empty. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Roro hops into the yellow car and does a cute happy roar; Chiqui claps. ONLY these 3 characters are in this scene: Grandpa Bau, Chiqui, Roro; no other character, animal or creature appears at any time. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S10 큰 나무 역 · 토롱 (1:15–1:25)
+[레퍼런스] 바우 할아버지, 치키, 로로, 토롱
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots. Draw them exactly like their element images. a small toy-like train on a wooden track: one PURPLE engine in front, then four open little cars in this order: ORANGE car, YELLOW car, long GREEN car (open top), SKY-BLUE car stops next to a big leafy tree; Torong, the green baby brachiosaurus with light-green spots steps into the long open GREEN car, the long neck sticking up high. Grandpa Bau in the PURPLE engine, Chiqui in the ORANGE car, Roro in the YELLOW car. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Draw exactly one of each character, never duplicated (4 characters in total). The sky-blue car is empty. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Torong steps into the green car and settles down, smiling; the friends cheer. ONLY these 4 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S11 구름 언덕 역 · 피오 (1:25–1:35)
+[레퍼런스] 바우 할아버지, 치키, 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. a small toy-like train on a wooden track: one PURPLE engine in front, then four open little cars in this order: ORANGE car, YELLOW car, long GREEN car (open top), SKY-BLUE car stops on a soft cloud hill; Pio, the little sky-blue pteranodon with a yellow beak glides down into the SKY-BLUE car. Grandpa Bau in the PURPLE engine, Chiqui ORANGE car, Roro YELLOW car, Torong GREEN car. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Draw exactly one of each character, never duplicated (5 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Pio lands in the sky-blue car and flaps once; everyone cheers. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S12 앗! 터널이다 (1:35–1:45)
+[레퍼런스] 바우 할아버지, 치키, 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. a small toy-like train on a wooden track: one PURPLE engine in front, then four open little cars in this order: ORANGE car, YELLOW car, long GREEN car (open top), SKY-BLUE car with all five friends riding rolls toward a round low stone tunnel in a green hill; Torong's long neck is much taller than the tunnel. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Draw exactly one of each character, never duplicated (5 characters in total). Exactly one tunnel. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+The train rolls slowly toward the tunnel; the friends point at it with worried faces. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S13 다 같이 칙칙폭폭 (1:45–1:55)
+[레퍼런스] 바우 할아버지, 치키, 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. a small toy-like train on a wooden track: one PURPLE engine in front, then four open little cars in this order: ORANGE car, YELLOW car, long GREEN car (open top), SKY-BLUE car with all five friends riding in their own colored cars rolls happily along a sunny meadow. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Draw exactly one of each character, never duplicated (5 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+The train rolls forward; everyone sways side to side and waves. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S14 토롱아, 고개 숙여! (1:55–2:00)
+[레퍼런스] 토롱
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @torong is Torong, the green baby brachiosaurus with light-green spots. Draw them exactly like their element images. Close view of Torong, the green baby brachiosaurus with light-green spots sitting in the long GREEN train car, looking at the viewer with a worried face, the long neck up high. Torong never touches the face with front legs. Draw exactly one of each character, never duplicated (1 character in total). Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+Torong looks at the viewer, then slowly bends the long neck down low. The camera stays still. Torong is the only creature in the frame. ONLY Torong is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S15 휴~ 통과! (2:00–2:10)
+[레퍼런스] 바우 할아버지, 치키, 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. a small toy-like train on a wooden track: one PURPLE engine in front, then four open little cars in this order: ORANGE car, YELLOW car, long GREEN car (open top), SKY-BLUE car comes out of the round stone tunnel; Torong lifts the long neck back up with a relieved smile; everyone cheers. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Draw exactly one of each character, never duplicated (5 characters in total). Exactly one tunnel. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+The train rolls out of the tunnel; Torong raises the neck and everyone cheers. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S16 브라키오사우루스는 집보다 컸단다 (2:10–2:20)
+[레퍼런스] 바우 할아버지
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows. Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round fossil library (soft cream walls, a round window, wooden shelves with old books and fossil stones); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows stands next to a big fossil bone, smiling wisely. Draw exactly one of each character, never duplicated (1 character in total). Exactly one big fossil bone. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Grandpa Bau pats the fossil bone gently and smiles. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S17 도착! (2:20–2:30)
+[레퍼런스] 바우 할아버지, 치키, 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. a small toy-like train on a wooden track: one PURPLE engine in front, then four open little cars in this order: ORANGE car, YELLOW car, long GREEN car (open top), SKY-BLUE car stops in front of the round entrance of a cozy fossil library; all five friends climb out happily. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Draw exactly one of each character, never duplicated (5 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Everyone hops out of the cars and cheers. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S18 또 타자! (2:30–2:40)
+[레퍼런스] 바우 할아버지, 치키, 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. All five friends stand in front of a small toy-like train on a wooden track: one PURPLE engine in front, then four open little cars in this order: ORANGE car, YELLOW car, long GREEN car (open top), SKY-BLUE car, facing the viewer, waving goodbye with big smiles. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Draw exactly one of each character, never duplicated (5 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Everyone waves at the viewer; a small puff of steam rises from the engine. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```

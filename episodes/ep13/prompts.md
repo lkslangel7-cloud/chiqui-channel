@@ -1,0 +1,179 @@
+# 13화 · 아~ 해 보세요! — 장면 프롬프트 (웹사이트용)
+
+그림: GPT Image 2.6 Sunburst(웹 무제한), 16:9, 캐릭터·화풍은 Elements(@chiqui @roro @torong @pio @bau @village). 영상: Seedance 2.5(웹 무제한), 그림 한 장만 시작 프레임으로, 끊김 없는 한 컷, 소리 끔.
+
+### S02 건강 검진 날! (0:20–0:30)
+[레퍼런스] 바우 할아버지, 치키, 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round check-up room in the cave house (soft cream walls, a round window, a tall wooden height chart painted on the wall, a low wooden bench); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Grandpa Bau wears a small white doctor coat and a simple stethoscope around the neck, smiling kindly; Chiqui, Roro, Torong and Pio stand in a line on the floor waiting their turn. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Draw exactly one of each character, never duplicated (5 characters in total). No needles or syringes anywhere. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Grandpa Bau waves kindly; the friends wave back, Roro looks a little nervous. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S03 무서워… (0:30–0:35)
+[레퍼런스] 로로
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns). Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round check-up room in the cave house (soft cream walls, a round window, a tall wooden height chart painted on the wall, a low wooden bench); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns) peeks out from behind the low wooden bench, looking a little scared. Draw exactly one of each character, never duplicated (1 character in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+Roro hides behind the bench, peeks out slowly, then hides again. Only one Roro appears. The camera stays still. Roro is the only creature in the frame. ONLY Roro is in this scene from start to end; no other character, animal or creature appears at any time. Roro always keeps a round head with no frill and no horns. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S04 하나도 안 아파 (0:35–0:40)
+[레퍼런스] 바우 할아버지
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows. Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round check-up room in the cave house (soft cream walls, a round window, a tall wooden height chart painted on the wall, a low wooden bench); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; Grandpa Bau wears a small white doctor coat and a simple stethoscope around the neck. Bau kneels down low and smiles gently, holding the stethoscope. Draw exactly one of each character, never duplicated (1 character in total). No needles or syringes anywhere. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+Grandpa Bau nods gently and smiles softly. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S05 내가 먼저 할래! (0:40–0:45)
+[레퍼런스] 치키
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill. Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round check-up room in the cave house (soft cream walls, a round window, a tall wooden height chart painted on the wall, a low wooden bench); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Chiqui, the orange baby triceratops with a yellow-spotted frill raises one paw high, excited and brave, ready to go first. Draw exactly one of each character, never duplicated (1 character in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+Chiqui raises the paw and hops once with excitement. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S06 나는… 나중에 (0:45–0:50)
+[레퍼런스] 로로
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns). Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round check-up room in the cave house (soft cream walls, a round window, a tall wooden height chart painted on the wall, a low wooden bench); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns) stands next to the bench, fiddling the tiny hands shyly, looking down. Draw exactly one of each character, never duplicated (1 character in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+Roro looks down, wiggles the tiny hands and peeks up once. The camera stays still. Roro is the only creature in the frame. ONLY Roro is in this scene from start to end; no other character, animal or creature appears at any time. Roro always keeps a round head with no frill and no horns. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S07 같이 하자! (0:50–0:55)
+[레퍼런스] 치키, 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round check-up room in the cave house (soft cream walls, a round window, a tall wooden height chart painted on the wall, a low wooden bench); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Chiqui, Torong and Pio gather around Roro, smiling and cheering Roro on kindly. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Draw exactly one of each character, never duplicated (4 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+The friends nod at Roro and smile; Roro smiles back a little. ONLY these 4 characters are in this scene: Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S09 토롱 · 키 재기 (1:05–1:15)
+[레퍼런스] 바우 할아버지, 토롱
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @torong is Torong, the green baby brachiosaurus with light-green spots. Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round check-up room in the cave house (soft cream walls, a round window, a tall wooden height chart painted on the wall, a low wooden bench); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Torong, the green baby brachiosaurus with light-green spots stands next to the tall height chart on the wall; the head is near the very top. Grandpa Bau wears a small white doctor coat and a simple stethoscope around the neck, looking up at Torong amazed. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Draw exactly one of each character, never duplicated (2 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Torong stretches the neck up proudly next to the height chart; Grandpa Bau looks up and claps. ONLY these 2 characters are in this scene: Grandpa Bau, Torong; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S10 치키 · 청진기 콩닥 (1:15–1:25)
+[레퍼런스] 바우 할아버지, 치키
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill. Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round check-up room in the cave house (soft cream walls, a round window, a tall wooden height chart painted on the wall, a low wooden bench); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Grandpa Bau wears a small white doctor coat and a simple stethoscope around the neck. Bau gently holds the stethoscope to the chest of Chiqui, the orange baby triceratops with a yellow-spotted frill, who sits on the low bench smiling. Draw exactly one of each character, never duplicated (2 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Grandpa Bau listens with the stethoscope; Chiqui giggles and nods. ONLY these 2 characters are in this scene: Grandpa Bau, Chiqui; no other character, animal or creature appears at any time. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S11 피오 · 아~ (1:25–1:35)
+[레퍼런스] 바우 할아버지, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round check-up room in the cave house (soft cream walls, a round window, a tall wooden height chart painted on the wall, a low wooden bench); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Pio, the little sky-blue pteranodon with a yellow beak sits on the low bench with the beak wide open saying 'ahh'; Grandpa Bau wears a small white doctor coat and a simple stethoscope around the neck, looking with a small flashlight. Draw exactly one of each character, never duplicated (2 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Pio opens the beak wide, then closes it and smiles; Grandpa Bau nods. ONLY these 2 characters are in this scene: Grandpa Bau, Pio; no other character, animal or creature appears at any time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S12 로로 차례 두근두근 (1:35–1:45)
+[레퍼런스] 바우 할아버지, 로로
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns). Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round check-up room in the cave house (soft cream walls, a round window, a tall wooden height chart painted on the wall, a low wooden bench); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns) sits on the low bench with eyes squeezed shut bravely; Grandpa Bau wears a small white doctor coat and a simple stethoscope around the neck, holding the stethoscope gently near Roro's chest. Draw exactly one of each character, never duplicated (2 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Roro keeps the eyes shut, then opens one eye, then both, and smiles in surprise. ONLY these 2 characters are in this scene: Grandpa Bau, Roro; no other character, animal or creature appears at any time. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S13 하나도 안 무서워! (1:45–1:55)
+[레퍼런스] 치키, 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round check-up room in the cave house (soft cream walls, a round window, a tall wooden height chart painted on the wall, a low wooden bench); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Chiqui, Roro, Torong and Pio jump and cheer together; Roro looks proud and happy. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Draw exactly one of each character, never duplicated (4 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Everyone cheers and claps for Roro, bouncing a little. ONLY these 4 characters are in this scene: Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S14 로로는 무엇을 받았을까? (1:55–2:00)
+[레퍼런스] 로로
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns). Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round check-up room in the cave house (soft cream walls, a round window, a tall wooden height chart painted on the wall, a low wooden bench); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Close-up of Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns) facing the viewer with a happy, curious face, hiding something behind the back. Draw exactly one of each character, never duplicated (1 character in total). Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+Roro smiles at the viewer and wiggles a little, keeping the hands behind the back. The camera stays still. Roro is the only creature in the frame. ONLY Roro is in this scene from start to end; no other character, animal or creature appears at any time. Roro always keeps a round head with no frill and no horns. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S15 용감한 별이다! (2:00–2:10)
+[레퍼런스] 로로
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns). Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round check-up room in the cave house (soft cream walls, a round window, a tall wooden height chart painted on the wall, a low wooden bench); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns) proudly shows one YELLOW small star sticker on the chest, pointing at it with a big smile. Draw exactly one of each character, never duplicated (1 character in total). Exactly one yellow star sticker. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Roro points at the yellow star sticker and does a cute happy roar. The camera stays still. Roro is the only creature in the frame. ONLY Roro is in this scene from start to end; no other character, animal or creature appears at any time. Roro always keeps a round head with no frill and no horns. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S16 아프면 꼭 말해 주렴 (2:10–2:20)
+[레퍼런스] 바우 할아버지
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows. Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round check-up room in the cave house (soft cream walls, a round window, a tall wooden height chart painted on the wall, a low wooden bench); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; Grandpa Bau wears a small white doctor coat and a simple stethoscope around the neck. Bau smiles warmly, one front paw on the chest. Draw exactly one of each character, never duplicated (1 character in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Grandpa Bau nods warmly and pats the own chest gently. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S17 우리 모두 용감한 별! (2:20–2:30)
+[레퍼런스] 바우 할아버지, 치키, 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round check-up room in the cave house (soft cream walls, a round window, a tall wooden height chart painted on the wall, a low wooden bench); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. All five friends stand in a row facing the viewer, each with one small star sticker on the chest in their own body color: Chiqui ORANGE star, Roro YELLOW star, Torong GREEN star, Pio SKY-BLUE star, Grandpa Bau PURPLE star. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Draw exactly one of each character, never duplicated (5 characters in total). Exactly five star stickers, one each. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Everyone points proudly at their own star sticker and smiles. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S18 건강해! (2:30–2:40)
+[레퍼런스] 바우 할아버지, 치키, 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. INDOORS inside Grandpa Bau's cozy round check-up room in the cave house (soft cream walls, a round window, a tall wooden height chart painted on the wall, a low wooden bench); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. All five friends jump happily together facing the viewer, smiling big. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Draw exactly one of each character, never duplicated (5 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Everyone jumps once together and waves at the viewer. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```

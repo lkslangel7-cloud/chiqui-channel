@@ -1,0 +1,54 @@
+{
+  "title": "치키 11~15화 노래",
+  "h1": "11~15화 · 노래 5곡 (Suno)",
+  "lead": "11~15화 노래 5곡이에요. 이번엔 찾기 노래가 아니라 화마다 새 노래예요(냠냠·체조·검진·생일·기차). 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 끝(치키치키 ○○!)까지 나오는지 들어 보고, WAV로 받아 올려 주세요. 몇 화 노래인지 알려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "e11",
+      "title": "골고루 냠냠!",
+      "short": "11화",
+      "where": "11화 노래 · 0:55–1:55",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n골고루 냠냠! (냠냠!)\n한 입 두 입 맛있게\n치키치키 냠냠!\n\n[Verse 1]\n노란 옥수수 톡톡톡\n크앙! 로로가 와앙\n옥수수 냠냠 (냠냠!)\n\n[Verse 2]\n초록 브로콜리 작은 나무\n쭈욱~ 토롱이 냠\n브로콜리 냠냠 (냠냠!)\n\n[Verse 3]\n파란 블루베리 콩콩콩\n슝~ 피오가 콕\n블루베리 냠냠 (냠냠!)\n\n[Verse 4]\n치키도 한 입 해 볼까?\n망설망설 (할 수 있어!)\n한 입만 냠 (냠!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n골고루 냠냠! (냠냠!)\n한 입 두 입 맛있게\n치키치키 냠냠!\n\n[End]"
+    },
+    {
+      "id": "e12",
+      "title": "공룡 체조!",
+      "short": "12화",
+      "where": "12화 노래 · 0:55–1:55",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n공룡 체조 시작! (시작!)\n하나 둘 셋 넷\n치키치키 체조!\n\n[Verse 1]\n머리를 끄덕끄덕\n뿔이 셋 치키처럼\n끄덕끄덕 (끄덕!)\n\n[Verse 2]\n꼬리를 흔들흔들\n크앙! 로로처럼\n흔들흔들 (흔들!)\n\n[Verse 3]\n목을 쭈욱 쭈욱\n길쭉 토롱처럼\n쭈욱쭈욱 (쭈욱!)\n\n[Verse 4]\n팔을 팔랑팔랑\n슝~ 피오처럼\n팔랑팔랑 (팔랑!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n공룡 체조 시작! (시작!)\n하나 둘 셋 넷\n치키치키 체조!\n\n[End]"
+    },
+    {
+      "id": "e13",
+      "title": "아~ 해 보세요!",
+      "short": "13화",
+      "where": "13화 노래 · 0:55–1:55",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n아~ 해 보세요! (아~!)\n하나도 안 무서워\n치키치키 튼튼!\n\n[Verse 1]\n키 재기 쭈욱쭈욱\n토롱이 제일 커\n쭉쭉 컸네 (와!)\n\n[Verse 2]\n콩닥콩닥 청진기\n치키 마음 소리\n콩닥콩닥 (콩닥!)\n\n[Verse 3]\n입을 크게 아~\n피오도 아~\n아~ 잘했어요 (아~!)\n\n[Verse 4]\n로로 차례 두근두근\n눈을 꼭 감고 (할 수 있어!)\n하나도 안 아파 (짝짝!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n아~ 해 보세요! (아~!)\n하나도 안 무서워\n치키치키 튼튼!\n\n[End]"
+    },
+    {
+      "id": "e14",
+      "title": "치키의 깜짝 생일!",
+      "short": "14화",
+      "where": "14화 노래 · 0:55–1:55",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n쉿! 깜짝 준비 (쉿!)\n치키 몰래 살금살금\n치키치키 생일!\n\n[Verse 1]\n노란 풍선 후우후\n크앙! 로로가 빵빵\n풍선 완성 (빵빵!)\n\n[Verse 2]\n초록 깃발 높이높이\n쭈욱~ 토롱이 척\n깃발 완성 (척!)\n\n[Verse 3]\n하늘색 꽃 한 아름\n슝~ 피오가 쏙\n꽃도 완성 (쏙!)\n\n[Verse 4]\n주황 케이크 촛불 넷\n하나 둘 셋 넷 (넷!)\n케이크 완성 (짠!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n쉿! 깜짝 준비 (쉿!)\n치키 몰래 살금살금\n치키치키 생일!\n\n[End]"
+    },
+    {
+      "id": "e15",
+      "title": "칙칙폭폭 공룡 기차!",
+      "short": "15화",
+      "where": "15화 노래 · 0:55–1:55",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n칙칙폭폭 공룡 기차 (칙칙폭폭!)\n친구들아 어서 타\n치키치키 출발!\n\n[Verse 1]\n놀이터 바위 역\n크앙! 로로가 타요\n노란 칸에 쏙 (쏙!)\n\n[Verse 2]\n큰 나무 역\n쭈욱~ 토롱이 타요\n초록 칸에 쏙 (쏙!)\n\n[Verse 3]\n구름 언덕 역\n슝~ 피오가 타요\n파란 칸에 쏙 (쏙!)\n\n[Verse 4]\n앗! 터널이다\n토롱 목이 길어 (어떡하지?)\n고개 숙여! (숙여!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n칙칙폭폭 공룡 기차 (칙칙폭폭!)\n친구들아 어서 타\n치키치키 출발!\n\n[End]"
+    }
+  ]
+}

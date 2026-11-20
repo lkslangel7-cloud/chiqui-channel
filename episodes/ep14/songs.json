@@ -1,0 +1,18 @@
+{
+  "title": "치키 14화 노래",
+  "h1": "14화 · 깜짝 생일 준비 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "bday",
+      "title": "치키의 깜짝 생일!",
+      "short": "깜짝 생일 준비",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n쉿! 깜짝 준비 (쉿!)\n치키 몰래 살금살금\n치키치키 생일!\n\n[Verse 1]\n노란 풍선 후우후\n크앙! 로로가 빵빵\n풍선 완성 (빵빵!)\n\n[Verse 2]\n초록 깃발 높이높이\n쭈욱~ 토롱이 척\n깃발 완성 (척!)\n\n[Verse 3]\n하늘색 꽃 한 아름\n슝~ 피오가 쏙\n꽃도 완성 (쏙!)\n\n[Verse 4]\n주황 케이크 촛불 넷\n하나 둘 셋 넷 (넷!)\n케이크 완성 (짠!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n쉿! 깜짝 준비 (쉿!)\n치키 몰래 살금살금\n치키치키 생일!\n\n[End]"
+    }
+  ]
+}
