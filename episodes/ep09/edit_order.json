@@ -1,0 +1,451 @@
+{
+  "title": "9화 달님 어디 있니?",
+  "length": 181.2,
+  "draft": "완성",
+  "video": [
+    {
+      "start": 0,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 0,
+      "dur": 3.5,
+      "note": "오프닝 (1화)"
+    },
+    {
+      "start": 3.5,
+      "file": "../ep01/clips/ep01_v03.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "오프닝 다섯 친구 (1화)"
+    },
+    {
+      "start": 13.5,
+      "file": "../ep01/clips/ep01_v04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "오프닝 점프 (1화)"
+    },
+    {
+      "start": 18.5,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 3.5,
+      "dur": 1.5,
+      "note": "오프닝 마을 (1화)"
+    },
+    {
+      "start": 20,
+      "file": "clips/ep09_s02.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S02"
+    },
+    {
+      "start": 30,
+      "file": "clips/ep09_s03.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S03"
+    },
+    {
+      "start": 35,
+      "file": "clips/ep09_s04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S04"
+    },
+    {
+      "start": 40,
+      "file": "clips/ep09_s05.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S05"
+    },
+    {
+      "start": 45,
+      "file": "clips/ep09_s06.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S06"
+    },
+    {
+      "start": 50,
+      "file": "clips/ep09_s07.mp4",
+      "from": 0,
+      "dur": 4,
+      "note": "S07"
+    },
+    {
+      "start": 54.0,
+      "file": "../ep01/clips/ep01_v05.mp4",
+      "from": 0,
+      "dur": 12.4,
+      "note": "치키 달리기 (1화, 노래 후렴)",
+      "speed": 0.81
+    },
+    {
+      "start": 66.4,
+      "file": "clips/ep09_s09.mp4",
+      "from": 0,
+      "dur": 9.8,
+      "note": "S09 (노래 1절)"
+    },
+    {
+      "start": 76.2,
+      "file": "clips/ep09_s10.mp4",
+      "from": 0,
+      "dur": 10.0,
+      "note": "S10 (노래 2절)",
+      "speed": 0.5
+    },
+    {
+      "start": 86.2,
+      "file": "clips/ep09_s11.mp4",
+      "from": 0,
+      "dur": 9.9,
+      "note": "S11 (노래 3절)",
+      "speed": 0.56
+    },
+    {
+      "start": 96.1,
+      "file": "clips/ep09_s12.mp4",
+      "from": 0,
+      "dur": 9.9,
+      "note": "S12 (노래 4절)"
+    },
+    {
+      "start": 106.0,
+      "file": "clips/ep09_s13.mp4",
+      "from": 0,
+      "dur": 10.2,
+      "note": "S13 (노래 후렴)",
+      "speed": 0.98
+    },
+    {
+      "start": 116.2,
+      "file": "clips/ep09_s14.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S14"
+    },
+    {
+      "start": 121.2,
+      "file": "clips/ep09_s15.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S15"
+    },
+    {
+      "start": 131.2,
+      "file": "clips/ep09_s16.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S16"
+    },
+    {
+      "start": 141.2,
+      "file": "clips/ep09_s17.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S17"
+    },
+    {
+      "start": 151.2,
+      "file": "clips/ep09_s18.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S18"
+    },
+    {
+      "start": 161.2,
+      "file": "clips/ep09_s19.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S19 엔딩"
+    },
+    {
+      "start": 171.2,
+      "file": "clips/ep09_s20.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S20 엔딩"
+    }
+  ],
+  "lines": [
+    {
+      "at": 21.0,
+      "audio": "audio/ko/01_chiqui.wav",
+      "who": "치키",
+      "text": "더 놀고 싶어!"
+    },
+    {
+      "at": 31.0,
+      "audio": "audio/ko/02_bau.wav",
+      "who": "바우 할아버지",
+      "text": "해님도 코~ 자러 가네."
+    },
+    {
+      "at": 36.0,
+      "audio": "audio/ko/03_chiqui.wav",
+      "who": "치키",
+      "text": "어? 달님이 없다!"
+    },
+    {
+      "at": 41.0,
+      "audio": "audio/ko/04_chiqui.wav",
+      "who": "치키",
+      "text": "친구들아, 같이 찾자!"
+    },
+    {
+      "at": 46.0,
+      "audio": "audio/ko/05_all.wav",
+      "who": "모두",
+      "text": "좋아!"
+    },
+    {
+      "at": 116.7,
+      "audio": "audio/ko/06_narr.wav",
+      "who": "내레이션",
+      "text": "달님은 어디 있을까?"
+    },
+    {
+      "at": 125.5,
+      "audio": "audio/ko/07_chiqui.wav",
+      "who": "치키",
+      "text": "달님이다! 구름 뒤에 숨어 있었네!"
+    },
+    {
+      "at": 128.8,
+      "audio": "audio/ko/08_all.wav",
+      "who": "모두",
+      "text": "와아~"
+    },
+    {
+      "at": 132.2,
+      "audio": "audio/ko/09_bau.wav",
+      "who": "바우 할아버지",
+      "text": "구름에 가려도, 달님은 늘 있단다."
+    },
+    {
+      "at": 142.2,
+      "audio": "audio/ko/10_all.wav",
+      "who": "모두",
+      "text": "달님, 잘 자!"
+    },
+    {
+      "at": 152.7,
+      "audio": "audio/ko/11_narr.wav",
+      "who": "내레이션",
+      "text": "쉿, 잘 자요."
+    }
+  ],
+  "music": [
+    {
+      "file": "../ep01/audio/songs/opening.wav",
+      "at": 0,
+      "from": 0,
+      "dur": 20.36,
+      "volume": 0.9,
+      "fade_out": 0.5,
+      "note": "오프닝 주제가"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 20,
+      "from": 0,
+      "dur": 34.6,
+      "volume": 0.3,
+      "fade_in": 1,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "audio/songs/moon_song.wav",
+      "at": 54.0,
+      "from": 0,
+      "dur": 62.2,
+      "volume": 0.9,
+      "fade_out": 1,
+      "note": "노래"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 116.2,
+      "from": 0,
+      "dur": 45.4,
+      "volume": 0.25,
+      "fade_in": 1.5,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "../ep01/audio/songs/ending.wav",
+      "at": 161.6,
+      "from": 0,
+      "dur": 19.56,
+      "volume": 0.6,
+      "note": "엔딩 주제가"
+    }
+  ],
+  "captions": [
+    {
+      "at": 0,
+      "end": 3.6,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 3.6,
+      "end": 6.0,
+      "text": "뿔이 셋 치키 (치키!)"
+    },
+    {
+      "at": 6.0,
+      "end": 8.3,
+      "text": "크앙 크앙 로로 (로로!)"
+    },
+    {
+      "at": 8.3,
+      "end": 10.8,
+      "text": "목이 쭈욱 토롱 (토롱!)"
+    },
+    {
+      "at": 10.8,
+      "end": 13.2,
+      "text": "하늘 슝슝 피오 (피오!)"
+    },
+    {
+      "at": 13.2,
+      "end": 15.3,
+      "text": "안경 쓴 바우 할아버지 (허허!)"
+    },
+    {
+      "at": 15.3,
+      "end": 17.9,
+      "text": "공룡 마을 친구들"
+    },
+    {
+      "at": 17.9,
+      "end": 20.3,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 56.1,
+      "end": 58.8,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 58.8,
+      "end": 61.9,
+      "text": "달님 어디 있니? (어디 있니?)"
+    },
+    {
+      "at": 61.9,
+      "end": 63.8,
+      "text": "친구들아 같이 가자"
+    },
+    {
+      "at": 63.8,
+      "end": 66.4,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 66.4,
+      "end": 68.8,
+      "text": "바위 뒤에 반짝반짝"
+    },
+    {
+      "at": 68.8,
+      "end": 71.2,
+      "text": "크앙! 로로가 찾았다"
+    },
+    {
+      "at": 71.2,
+      "end": 75.9,
+      "text": "반딧불이 (반짝!)"
+    },
+    {
+      "at": 76.2,
+      "end": 78.8,
+      "text": "나무 위에 반짝반짝"
+    },
+    {
+      "at": 78.8,
+      "end": 81.1,
+      "text": "쭈욱~ 토롱이 찾았다"
+    },
+    {
+      "at": 81.1,
+      "end": 85.9,
+      "text": "작은 별님 (반짝!)"
+    },
+    {
+      "at": 86.2,
+      "end": 88.6,
+      "text": "구름 위에 반짝반짝"
+    },
+    {
+      "at": 88.6,
+      "end": 91.0,
+      "text": "슝~ 피오가 찾았다"
+    },
+    {
+      "at": 91.0,
+      "end": 95.8,
+      "text": "별님 하나 더 (반짝!)"
+    },
+    {
+      "at": 96.1,
+      "end": 98.7,
+      "text": "달님 달님 어디 있니?"
+    },
+    {
+      "at": 98.7,
+      "end": 101.2,
+      "text": "두리번 두리번 (어디 있지?)"
+    },
+    {
+      "at": 101.2,
+      "end": 105.7,
+      "text": "구름 뒤에 숨었나? (어디?)"
+    },
+    {
+      "at": 106.0,
+      "end": 108.3,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 108.3,
+      "end": 110.6,
+      "text": "달님 어디 있니? (어디 있니?)"
+    },
+    {
+      "at": 110.6,
+      "end": 113.3,
+      "text": "친구들아 같이 가자"
+    },
+    {
+      "at": 113.3,
+      "end": 115.9,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 161.6,
+      "end": 165.0,
+      "text": "오늘도 재밌었지? (응!)"
+    },
+    {
+      "at": 165.0,
+      "end": 168.0,
+      "text": "바우 할아버지도 (허허!)"
+    },
+    {
+      "at": 168.0,
+      "end": 173.0,
+      "text": "안녕! 바이바이! 아디오스!"
+    },
+    {
+      "at": 173.0,
+      "end": 177.1,
+      "text": "내일 또 만나요, 크앙!"
+    }
+  ],
+  "sfx_suggestions": []
+}

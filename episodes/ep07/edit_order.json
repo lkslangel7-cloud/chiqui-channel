@@ -1,0 +1,452 @@
+{
+  "title": "7화 사과야 어디 있니?",
+  "length": 172.6,
+  "draft": "완성",
+  "video": [
+    {
+      "start": 0,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 0,
+      "dur": 3.5,
+      "note": "오프닝 (1화)"
+    },
+    {
+      "start": 3.5,
+      "file": "../ep01/clips/ep01_v03.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "오프닝 다섯 친구 (1화)"
+    },
+    {
+      "start": 13.5,
+      "file": "../ep01/clips/ep01_v04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "오프닝 점프 (1화)"
+    },
+    {
+      "start": 18.5,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 3.5,
+      "dur": 1.5,
+      "note": "오프닝 마을 (1화)"
+    },
+    {
+      "start": 20,
+      "file": "clips/ep07_s02.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S02"
+    },
+    {
+      "start": 30,
+      "file": "clips/ep07_s03.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S03"
+    },
+    {
+      "start": 40,
+      "file": "clips/ep07_s04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S04"
+    },
+    {
+      "start": 45,
+      "file": "clips/ep07_s05.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S05"
+    },
+    {
+      "start": 50,
+      "file": "clips/ep07_s06.mp4",
+      "from": 0,
+      "dur": 4,
+      "note": "S06"
+    },
+    {
+      "start": 54.0,
+      "file": "../ep01/clips/ep01_v05.mp4",
+      "from": 0,
+      "dur": 12.6,
+      "note": "치키 달리기 (1화, 노래 후렴)",
+      "speed": 0.79
+    },
+    {
+      "start": 66.6,
+      "file": "clips/ep07_s09.mp4",
+      "from": 0,
+      "dur": 7.5,
+      "note": "S09 (노래 1절)"
+    },
+    {
+      "start": 74.1,
+      "file": "clips/ep07_s10.mp4",
+      "from": 0,
+      "dur": 7.7,
+      "note": "S10 (노래 2절)"
+    },
+    {
+      "start": 81.8,
+      "file": "clips/ep07_s11.mp4",
+      "from": 0,
+      "dur": 7.5,
+      "note": "S11 (노래 3절)",
+      "speed": 0.87
+    },
+    {
+      "start": 89.3,
+      "file": "clips/ep07_s12.mp4",
+      "from": 0,
+      "dur": 7.3,
+      "note": "S12 (노래 4절)"
+    },
+    {
+      "start": 96.6,
+      "file": "clips/ep07_s13.mp4",
+      "from": 0,
+      "dur": 11.0,
+      "note": "S13 (노래 후렴)",
+      "speed": 0.91
+    },
+    {
+      "start": 107.6,
+      "file": "clips/ep07_s14.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S14"
+    },
+    {
+      "start": 112.6,
+      "file": "clips/ep07_s15.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S15"
+    },
+    {
+      "start": 122.6,
+      "file": "clips/ep07_s16.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S16"
+    },
+    {
+      "start": 132.6,
+      "file": "clips/ep07_s17.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S17",
+      "speed": 0.6
+    },
+    {
+      "start": 142.6,
+      "file": "clips/ep07_s18.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S18"
+    },
+    {
+      "start": 152.6,
+      "file": "../ep04/clips/ep04_s20.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "엔딩 춤 (4화)"
+    },
+    {
+      "start": 162.6,
+      "file": "../ep04/clips/ep04_s21.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "엔딩 노을 인사 (4화)",
+      "speed": 0.9,
+      "pingpong": true
+    }
+  ],
+  "lines": [
+    {
+      "at": 21,
+      "audio": "audio/ko/01_bau.wav",
+      "who": "바우 할아버지",
+      "text": "사과 열 개 따러 가자!"
+    },
+    {
+      "at": 31.5,
+      "audio": "audio/ko/02_chiqui.wav",
+      "who": "치키",
+      "text": "와, 사과 나무다!"
+    },
+    {
+      "at": 45.8,
+      "audio": "audio/ko/03_chiqui.wav",
+      "who": "치키",
+      "text": "친구들아, 같이 따자!"
+    },
+    {
+      "at": 50.8,
+      "audio": "audio/ko/04_all.wav",
+      "who": "모두",
+      "text": "좋아!"
+    },
+    {
+      "at": 108.1,
+      "audio": "audio/ko/05_narr.wav",
+      "who": "내레이션",
+      "text": "몇 개 남았을까?"
+    },
+    {
+      "at": 115.1,
+      "audio": "audio/ko/06_bau.wav",
+      "who": "바우 할아버지",
+      "text": "아홉, 열!"
+    },
+    {
+      "at": 122.9,
+      "audio": "audio/ko/07_narr.wav",
+      "who": "내레이션",
+      "text": "다 같이 세어 볼까?"
+    },
+    {
+      "at": 124.6,
+      "audio": "audio/ko/08_all.wav",
+      "who": "모두",
+      "text": "하나, 둘, 셋, 넷, 다섯, 여섯, 일곱, 여덟, 아홉, 열!"
+    },
+    {
+      "at": 134.6,
+      "audio": "audio/ko/09_bau.wav",
+      "who": "바우 할아버지",
+      "text": "다 같이 모으니 열 개!"
+    },
+    {
+      "at": 137.9,
+      "audio": "audio/ko/10_all.wav",
+      "who": "모두",
+      "text": "와아~"
+    },
+    {
+      "at": 143.6,
+      "audio": "audio/ko/11_all.wav",
+      "who": "모두",
+      "text": "냠냠, 맛있다!"
+    },
+    {
+      "at": 170.2,
+      "audio": "audio/ko/12_chiqui.wav",
+      "who": "치키",
+      "text": "안녕!"
+    }
+  ],
+  "music": [
+    {
+      "file": "../ep01/audio/songs/opening.wav",
+      "at": 0,
+      "from": 0,
+      "dur": 20.36,
+      "volume": 0.9,
+      "fade_out": 0.5,
+      "note": "오프닝 주제가"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 20,
+      "from": 0,
+      "dur": 34.6,
+      "volume": 0.3,
+      "fade_in": 1,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "audio/songs/apple_song.wav",
+      "at": 54.0,
+      "from": 0,
+      "dur": 53.6,
+      "volume": 0.9,
+      "fade_out": 1,
+      "note": "노래"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 107.6,
+      "from": 0,
+      "dur": 45.4,
+      "volume": 0.3,
+      "fade_in": 1.5,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "../ep01/audio/songs/ending.wav",
+      "at": 153.0,
+      "from": 0,
+      "dur": 19.56,
+      "volume": 0.9,
+      "note": "엔딩 주제가"
+    }
+  ],
+  "captions": [
+    {
+      "at": 0,
+      "end": 3.6,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 3.6,
+      "end": 6.0,
+      "text": "뿔이 셋 치키 (치키!)"
+    },
+    {
+      "at": 6.0,
+      "end": 8.3,
+      "text": "크앙 크앙 로로 (로로!)"
+    },
+    {
+      "at": 8.3,
+      "end": 10.8,
+      "text": "목이 쭈욱 토롱 (토롱!)"
+    },
+    {
+      "at": 10.8,
+      "end": 13.2,
+      "text": "하늘 슝슝 피오 (피오!)"
+    },
+    {
+      "at": 13.2,
+      "end": 15.3,
+      "text": "안경 쓴 바우 할아버지 (허허!)"
+    },
+    {
+      "at": 15.3,
+      "end": 17.9,
+      "text": "공룡 마을 친구들"
+    },
+    {
+      "at": 17.9,
+      "end": 20.3,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 56.5,
+      "end": 59.1,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 59.1,
+      "end": 61.9,
+      "text": "사과야 어디 있니? (어디 있니?)"
+    },
+    {
+      "at": 61.9,
+      "end": 64.1,
+      "text": "친구들아 같이 가자"
+    },
+    {
+      "at": 64.1,
+      "end": 66.6,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 66.6,
+      "end": 69.3,
+      "text": "낮은 가지 동글동글"
+    },
+    {
+      "at": 69.3,
+      "end": 71.4,
+      "text": "크앙! 로로가 땄어요"
+    },
+    {
+      "at": 71.4,
+      "end": 73.8,
+      "text": "하나, 둘 (둘!)"
+    },
+    {
+      "at": 74.1,
+      "end": 76.8,
+      "text": "높은 가지 동글동글"
+    },
+    {
+      "at": 76.8,
+      "end": 79.2,
+      "text": "쭈욱~ 토롱이 땄어요"
+    },
+    {
+      "at": 79.2,
+      "end": 81.5,
+      "text": "셋, 넷 (넷!)"
+    },
+    {
+      "at": 81.8,
+      "end": 84.3,
+      "text": "꼭대기에 동글동글"
+    },
+    {
+      "at": 84.3,
+      "end": 86.4,
+      "text": "슝~ 피오가 땄어요"
+    },
+    {
+      "at": 86.4,
+      "end": 89.0,
+      "text": "다섯, 여섯 (여섯!)"
+    },
+    {
+      "at": 89.3,
+      "end": 91.8,
+      "text": "폴짝 뛰어 동글동글"
+    },
+    {
+      "at": 91.8,
+      "end": 94.0,
+      "text": "짠! 치키가 땄어요"
+    },
+    {
+      "at": 94.0,
+      "end": 96.3,
+      "text": "일곱, 여덟 (여덟!)"
+    },
+    {
+      "at": 96.6,
+      "end": 99.3,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 99.3,
+      "end": 101.8,
+      "text": "사과야 어디 있니? (어디 있니?)"
+    },
+    {
+      "at": 101.8,
+      "end": 104.2,
+      "text": "친구들아 같이 가자"
+    },
+    {
+      "at": 104.2,
+      "end": 107.3,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 153.0,
+      "end": 156.4,
+      "text": "오늘도 재밌었지? (응!)"
+    },
+    {
+      "at": 156.4,
+      "end": 159.4,
+      "text": "바우 할아버지도 (허허!)"
+    },
+    {
+      "at": 159.4,
+      "end": 164.4,
+      "text": "안녕! 바이바이! 아디오스!"
+    },
+    {
+      "at": 164.4,
+      "end": 168.5,
+      "text": "내일 또 만나요, 크앙!"
+    }
+  ],
+  "sfx_suggestions": []
+}

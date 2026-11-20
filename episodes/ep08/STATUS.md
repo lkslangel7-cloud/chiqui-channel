@@ -5,8 +5,8 @@
 | 대본·가사·프롬프트 | 완료 (2026-11-18) |
 | 그림 16장 | **모두 합격** (S17은 고친 그림) |
 | 영상 16컷 | **모두 합격** (2026-11-20) |
-| 노래 | 아직 (Suno 65~70초) |
-| 음성 | 아직 |
+| 노래 | 받음 (2026-11-20) |
+| 음성 | 완료 (2026-11-20) |
 
 ## 그림 받기 기록
 
@@ -18,3 +18,4 @@
 - 영상(2026-11-20, 1초 간격 확인) 13개 합격: S02 ajl8e7Ynvkw, S03 UpbQ6f3oh5k(**앞 5초만** — 5초부터 모래가 뿌옇게 흐려짐), S04 q2A5ZXXIoG8, S06 l6zsTKalRrs, S07 6mNcposnFn4(앞 5초), S09 zpT79vCV_50, S10 vkJuGtCqyQU, S12 4eveg-LQhgg, S13 Nnyq0d6iHfQ, S14 e4n0nNh2nKM(앞 5초), S15 GReg2H6fT10, S16 Lqh6eXJSkko, S18 UkfgnHn9LCE. 엉뚱한 친구 없음. 남은 영상: S05, S11, S17(고친 그림 S17_footprints_fixed.png로).
 - S05 M1vbavyt5EQ(앞 5초), S11 VnoVImDfdtE(**앞 7초** — 8초에 피오 자세가 어색) 합격(2026-11-20). 남은 영상: S17.
 - S17 OUpWdXpecuk 합격(2026-11-20): 고친 그림으로 만듦, 발자국 다섯 모양·방향 10초 내내 그대로, 토롱이 큰 발을 들어 보임. **8화 영상 16개 모두 완료.** 남은 것: 노래, 음성, 조립.
+- **완성(2026-11-20)**: `output/ep08_ko_v1.mp4` + `_nosubs` + `subtitles_ko.srt`, 썸네일, `upload_info.md`. 노래 받아쓰기 시간에 맞춰 장면 길이 조정 (`scripts/build_ep07_09.py`).
