@@ -113,7 +113,7 @@ EPS["ep12"] = dict(
    "Pio flaps both wings up and down four times to a steady beat, hopping a little."),
   ("할아버지 쿵쿵", "BCRTP", "All five friends dance together on the meadow; Grandpa Bau in the middle stomps one front foot, everyone smiling.", "", False,
    "Everyone stomps one foot, then the other, four times, and claps."),
-  ("목이 안 늘어나!", "C", f"Close view of {D['C']} trying hard to stretch the short neck up high like a giraffe, with a funny straining face.", "", True,
+  ("목이 안 늘어나!", "C", f"Close view of {D['C']} standing on tiptoe on the meadow, chin lifted up, cheeks puffed and eyes squeezed with a funny straining face, trying to look tall. Chiqui's neck stays SHORT and round exactly like the element image: the frill sits right on the shoulders, no long neck at all. Chiqui's body shape is unchanged.", "The neck must NOT look longer than normal.", True,
    "Chiqui stretches the neck up as far as possible, it stays short, and Chiqui laughs at it."),
   ("내 팔은 짧아!", "R", f"{D['R']} stands on the meadow trying to flap the two tiny short arms like wings, with a funny proud face.", "", False,
    "Roro flaps the tiny arms quickly, nothing happens, and Roro bursts out laughing."),
