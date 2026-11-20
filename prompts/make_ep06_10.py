@@ -143,7 +143,7 @@ EPS["ep09"] = dict(
  theme="잠자기 습관(놀다가도 잘 시간), 밤하늘. 친구마다 자기 몸 색 이불. 엔딩은 이 화만 잠자는 장면으로 따로 만든다(춤 재사용 안 함).",
  twist="달님은 구름 뒤에 숨어 있다가 치키 머리 위로 쏙!",
  bau="달님도 잘 자래.",
- lines=[("치키","더 놀고 싶어!",""),("바우","이제 잘 시간이란다.",""),("치키","어? 달님이 없다!",""),("치키","친구들아, 같이 찾자!","♻ 1화 06"),("모두","좋아!","♻ 1화 07"),
+ lines=[("치키","더 놀고 싶어!",""),("바우","해님도 코~ 자러 가네.","해 지는 하늘을 가리키며"),("치키","어? 달님이 없다!",""),("치키","친구들아, 같이 찾자!","♻ 1화 06"),("모두","좋아!","♻ 1화 07"),
         ("내레이션","달님은 어디 있을까?","뒤에 3초 쉼"),("치키","달님이다!",""),("모두","와아~","♻ 1화 15"),("바우","달님도 잘 자래.",""),
         ("모두","잘 자!",""),("내레이션","쉿, 잘 자요.","속삭이듯")],
  verses=[("바위 뒤에 반짝반짝","크앙! 로로가 찾았다","반딧불이 (반짝!)"),("나무 위에 반짝반짝","쭈욱~ 토롱이 찾았다","작은 별님 (반짝!)"),
@@ -151,7 +151,7 @@ EPS["ep09"] = dict(
  chorus="달님 어디 있니?",
  scenes=[
   ("S02","더 놀고 싶어!","0:20–0:30","C",10,img("C",f"At soft pink sunset in the dinosaur village, {D['C']} hops around playfully with a little yawn, not wanting to stop playing.",""),vid("C","Chiqui hops and plays, gives a small yawn, then shakes the head and keeps playing.")),
-  ("S03","이제 잘 시간이란다","0:30–0:35","B",5,img("B",f"At dusk, {D['B']} stands by the round cave house with a warm glowing lantern, smiling gently.",""),vid("B","Grandpa Bau nods gently with a warm smile; the lantern glows softly.")),
+  ("S03","해님도 코~ 자러 가네","0:30–0:35","B",5,img("B",f"At dusk, {D['B']} stands by the round cave house with a warm glowing lantern, smiling gently.",""),vid("B","Grandpa Bau nods gently with a warm smile; the lantern glows softly.")),
   ("S04","어? 달님이 없다!","0:35–0:40","C",5,img("C",f"Night sky with soft clouds and no moon. {D['C']} looks up at the dark blue sky with a surprised face.","No moon anywhere in the sky."),vid("C","Chiqui looks up at the sky, searching, and makes a surprised face.")),
   ("S05","친구들아, 같이 찾자!","0:40–0:45","C",5,img("C",f"At night under soft blue sky, {D['C']} waves both arms, calling out to friends.","No moon visible."),vid("C","Chiqui waves both arms and calls out softly.")),
   ("S06","좋아!","0:45–0:50","CRTP",5,img("CRTP","At night, Roro, Torong and Pio (flying low) gather around Chiqui and nod eagerly, lit softly by a few glowing fireflies.","No moon visible."),vid("CRTP","The friends nod together and smile; fireflies twinkle around them.")),

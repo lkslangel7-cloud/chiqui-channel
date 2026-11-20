@@ -13,7 +13,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 Chiqui hops and plays, gives a small yawn, then shakes the head and keeps playing. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
-### S03 이제 잘 시간이란다 (0:30–0:35)
+### S03 해님도 코~ 자러 가네 (0:30–0:35)
 [레퍼런스] 바우 할아버지
 [그림]
 ```
