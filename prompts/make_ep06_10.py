@@ -171,7 +171,7 @@ EPS["ep09"] = dict(
  ])
 # ---------------- 10화 정리정돈 ----------------
 EPS["ep10"] = dict(
- title="10화. 장난감을 제자리! — 정리 정돈", short="장난감을 제자리!", song_id="box", song_short="장난감 정리",
+ title="10화. 장난감은 제자리! — 정리 정돈", short="장난감은 제자리!", song_id="box", song_short="장난감 정리",
  theme="놀고 나면 제자리, 정리 정돈. 친구마다 자기 몸 색 장난감과 상자.",
  twist="다 같이 각자 자기 상자에 정리한다. 마지막에 치키 주황 상자는… 치키가 깔고 앉아 있었다!",
  bau="다 놀면 제자리!",
@@ -180,8 +180,8 @@ EPS["ep10"] = dict(
         ("치키","내가 앉아 있었네!",""),("모두","하하하!","♻ 3화 11"),("모두","영차, 영차! 제자리!",""),("내레이션","방이 어떻게 됐을까?","뒤에 2초 쉼"),("모두","깨끗해!","♻ 6화"),("치키","안녕!","♻ 1화 18")],
  verses=[("공을 굴려 데굴데굴","크앙! 로로가 쏙","노란 상자 쏙 (쏙!)"),("블록 높이 차곡차곡","쭈욱~ 토롱이 쏙","초록 상자 쏙 (쏙!)"),
          ("비행기가 슝슝슝","슝~ 피오가 쏙","파란 상자 쏙 (쏙!)"),("치키 자동차 부릉부릉","내 상자는 어디? (어디 있지?)","주황 주황 내 상자 (어디?)")],
- chorus="장난감을 제자리!",
- chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!","장난감을 제자리! (제자리!)","친구들아 같이 하자","치키치키 정리!"],
+ chorus="장난감은 제자리!",
+ chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!","장난감은 제자리! (제자리!)","친구들아 같이 하자","치키치키 정리!"],
  scenes=[
   ("S02","실컷 놀았다!","0:20–0:30","CRTP",10,img("CRTP","INDOORS inside the cozy round play room of the cave house (soft cream walls, a round window, wooden shelves, a round rug on the floor); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere in the room. In a cozy round play room inside a cave house, Chiqui, Roro, Torong and Pio sit happily among scattered toys: an ORANGE toy car, a YELLOW ball, GREEN building blocks and a SKY-BLUE toy airplane.","Each toy matches its owner's body color."),vid("CRTP","The friends stretch and smile happily among the toys after playing.")),
   ("S03","장난감이 가득하네","0:30–0:35","B",5,img("B",f"INDOORS inside the cozy round play room of the cave house (soft cream walls, a round window, wooden shelves, a round rug on the floor); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere in the room. {D['B']} stands at the door of the messy play room full of scattered toys, raising the white eyebrows with a funny surprised face.",""),vid("B","Grandpa Bau looks around the messy room, chuckles and shakes the head gently.")),
