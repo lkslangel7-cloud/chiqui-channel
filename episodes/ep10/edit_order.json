@@ -1,0 +1,470 @@
+{
+  "title": "10화 장난감은 제자리!",
+  "length": 181.0,
+  "draft": "완성",
+  "video": [
+    {
+      "start": 0,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 0,
+      "dur": 3.5,
+      "note": "오프닝 (1화)"
+    },
+    {
+      "start": 3.5,
+      "file": "../ep01/clips/ep01_v03.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "오프닝 다섯 친구 (1화)"
+    },
+    {
+      "start": 13.5,
+      "file": "../ep01/clips/ep01_v04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "오프닝 점프 (1화)"
+    },
+    {
+      "start": 18.5,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 3.5,
+      "dur": 1.5,
+      "note": "오프닝 마을 (1화)"
+    },
+    {
+      "start": 20,
+      "file": "clips/ep10_s02.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S02"
+    },
+    {
+      "start": 30,
+      "file": "clips/ep10_s03.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S03"
+    },
+    {
+      "start": 35,
+      "file": "clips/ep10_s04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S04"
+    },
+    {
+      "start": 40,
+      "file": "clips/ep10_s05.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S05"
+    },
+    {
+      "start": 45,
+      "file": "clips/ep10_s06.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S06"
+    },
+    {
+      "start": 50,
+      "file": "clips/ep10_s07.mp4",
+      "from": 0,
+      "dur": 4,
+      "note": "S07"
+    },
+    {
+      "start": 54.0,
+      "file": "../ep01/clips/ep01_v05.mp4",
+      "from": 0,
+      "dur": 12.4,
+      "note": "치키 달리기 (1화, 노래 후렴)",
+      "speed": 0.81
+    },
+    {
+      "start": 66.4,
+      "file": "clips/ep10_s09.mp4",
+      "from": 0,
+      "dur": 9.2,
+      "note": "S09 (노래 1절)"
+    },
+    {
+      "start": 75.6,
+      "file": "clips/ep10_s10.mp4",
+      "from": 0,
+      "dur": 10.0,
+      "note": "S10 (노래 2절)"
+    },
+    {
+      "start": 85.6,
+      "file": "clips/ep10_s11.mp4",
+      "from": 5,
+      "dur": 10.2,
+      "note": "S11 (노래 3절)",
+      "speed": 0.49
+    },
+    {
+      "start": 95.8,
+      "file": "clips/ep10_s12.mp4",
+      "from": 0,
+      "dur": 9.9,
+      "note": "S12 (노래 4절)"
+    },
+    {
+      "start": 105.7,
+      "file": "clips/ep10_s13.mp4",
+      "from": 0,
+      "dur": 10.3,
+      "note": "S13 (노래 후렴)",
+      "speed": 0.97
+    },
+    {
+      "start": 116.0,
+      "file": "clips/ep10_s14.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S14"
+    },
+    {
+      "start": 121.0,
+      "file": "clips/ep10_s15.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S15"
+    },
+    {
+      "start": 131.0,
+      "file": "clips/ep10_s16.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S16"
+    },
+    {
+      "start": 141.0,
+      "file": "clips/ep10_s17.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S17"
+    },
+    {
+      "start": 151.0,
+      "file": "clips/ep10_s18.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S18"
+    },
+    {
+      "start": 161.0,
+      "file": "../ep04/clips/ep04_s20.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "엔딩 춤 (4화)"
+    },
+    {
+      "start": 171.0,
+      "file": "../ep04/clips/ep04_s21.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "엔딩 노을 인사 (4화)",
+      "speed": 0.9,
+      "pingpong": true
+    }
+  ],
+  "lines": [
+    {
+      "at": 21.0,
+      "audio": "audio/ko/01_chiqui.wav",
+      "who": "치키",
+      "text": "실컷 놀았다!"
+    },
+    {
+      "at": 30.6,
+      "audio": "audio/ko/02_bau.wav",
+      "who": "바우 할아버지",
+      "text": "어이쿠, 장난감이 가득하네."
+    },
+    {
+      "at": 35.4,
+      "audio": "audio/ko/03_bau.wav",
+      "who": "바우 할아버지",
+      "text": "다 놀면 제자리! 각자 자기 상자에 쏙!"
+    },
+    {
+      "at": 40.8,
+      "audio": "audio/ko/04_chiqui.wav",
+      "who": "치키",
+      "text": "어? 내 상자는?"
+    },
+    {
+      "at": 45.5,
+      "audio": "audio/ko/05_chiqui.wav",
+      "who": "치키",
+      "text": "친구들아, 같이 정리하자!"
+    },
+    {
+      "at": 50.6,
+      "audio": "audio/ko/06_all.wav",
+      "who": "모두",
+      "text": "좋아!"
+    },
+    {
+      "at": 116.5,
+      "audio": "audio/ko/07_narr.wav",
+      "who": "내레이션",
+      "text": "치키 상자는 어디 있을까?"
+    },
+    {
+      "at": 123.0,
+      "audio": "audio/ko/08_chiqui.wav",
+      "who": "치키",
+      "text": "내가 앉아 있었네!"
+    },
+    {
+      "at": 125.6,
+      "audio": "audio/ko/09_all.wav",
+      "who": "모두",
+      "text": "하하하!"
+    },
+    {
+      "at": 132.5,
+      "audio": "audio/ko/03_bau.wav",
+      "who": "바우 할아버지",
+      "text": "다 놀면 제자리! 각자 자기 상자에 쏙!"
+    },
+    {
+      "at": 142.0,
+      "audio": "audio/ko/10_all.wav",
+      "who": "모두",
+      "text": "영차, 영차! 제자리!"
+    },
+    {
+      "at": 151.3,
+      "audio": "audio/ko/11_narr.wav",
+      "who": "내레이션",
+      "text": "방이 어떻게 됐을까?"
+    },
+    {
+      "at": 154.4,
+      "audio": "audio/ko/12_all.wav",
+      "who": "모두",
+      "text": "깨끗해!"
+    },
+    {
+      "at": 178.6,
+      "audio": "audio/ko/13_chiqui.wav",
+      "who": "치키",
+      "text": "안녕!"
+    }
+  ],
+  "music": [
+    {
+      "file": "../ep01/audio/songs/opening.wav",
+      "at": 0,
+      "from": 0,
+      "dur": 20.36,
+      "volume": 0.9,
+      "fade_out": 0.5,
+      "note": "오프닝 주제가"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 20,
+      "from": 0,
+      "dur": 34.6,
+      "volume": 0.3,
+      "fade_in": 1,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "audio/songs/box_song.wav",
+      "at": 54.0,
+      "from": 0,
+      "dur": 62.0,
+      "volume": 0.9,
+      "fade_out": 1,
+      "note": "노래"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 116.0,
+      "from": 0,
+      "dur": 45.4,
+      "volume": 0.3,
+      "fade_in": 1.5,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "../ep01/audio/songs/ending.wav",
+      "at": 161.4,
+      "from": 0,
+      "dur": 19.56,
+      "volume": 0.9,
+      "note": "엔딩 주제가"
+    }
+  ],
+  "captions": [
+    {
+      "at": 0,
+      "end": 3.6,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 3.6,
+      "end": 6.0,
+      "text": "뿔이 셋 치키 (치키!)"
+    },
+    {
+      "at": 6.0,
+      "end": 8.3,
+      "text": "크앙 크앙 로로 (로로!)"
+    },
+    {
+      "at": 8.3,
+      "end": 10.8,
+      "text": "목이 쭈욱 토롱 (토롱!)"
+    },
+    {
+      "at": 10.8,
+      "end": 13.2,
+      "text": "하늘 슝슝 피오 (피오!)"
+    },
+    {
+      "at": 13.2,
+      "end": 15.3,
+      "text": "안경 쓴 바우 할아버지 (허허!)"
+    },
+    {
+      "at": 15.3,
+      "end": 17.9,
+      "text": "공룡 마을 친구들"
+    },
+    {
+      "at": 17.9,
+      "end": 20.3,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 56.0,
+      "end": 59.1,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 59.1,
+      "end": 61.8,
+      "text": "장난감은 제자리! (제자리!)"
+    },
+    {
+      "at": 61.8,
+      "end": 63.8,
+      "text": "친구들아 같이 하자"
+    },
+    {
+      "at": 63.8,
+      "end": 66.4,
+      "text": "치키치키 정리!"
+    },
+    {
+      "at": 66.4,
+      "end": 68.9,
+      "text": "공을 굴려 데굴데굴"
+    },
+    {
+      "at": 68.9,
+      "end": 70.4,
+      "text": "크앙! 로로가 쏙"
+    },
+    {
+      "at": 70.4,
+      "end": 75.3,
+      "text": "노란 상자에 쏙 (쏙!)"
+    },
+    {
+      "at": 75.6,
+      "end": 78.6,
+      "text": "블록 높이 차곡차곡"
+    },
+    {
+      "at": 78.6,
+      "end": 80.5,
+      "text": "쭈욱~ 토롱이 쏙"
+    },
+    {
+      "at": 80.5,
+      "end": 85.3,
+      "text": "초록 상자에 쏙 (쏙!)"
+    },
+    {
+      "at": 85.6,
+      "end": 89.2,
+      "text": "비행기가 슝슝슝"
+    },
+    {
+      "at": 89.2,
+      "end": 91.0,
+      "text": "슝~ 피오가 쏙"
+    },
+    {
+      "at": 91.0,
+      "end": 95.5,
+      "text": "파란 상자에 쏙 (쏙!)"
+    },
+    {
+      "at": 95.8,
+      "end": 98.3,
+      "text": "치키 자동차 부릉부릉"
+    },
+    {
+      "at": 98.3,
+      "end": 101.1,
+      "text": "내 상자는 어디? (어디 있지?)"
+    },
+    {
+      "at": 101.1,
+      "end": 105.4,
+      "text": "주황 주황 내 상자 (어디?)"
+    },
+    {
+      "at": 105.7,
+      "end": 108.2,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 108.2,
+      "end": 110.6,
+      "text": "장난감은 제자리! (제자리!)"
+    },
+    {
+      "at": 110.6,
+      "end": 113.0,
+      "text": "친구들아 같이 하자"
+    },
+    {
+      "at": 113.0,
+      "end": 115.7,
+      "text": "치키치키 정리!"
+    },
+    {
+      "at": 161.4,
+      "end": 164.8,
+      "text": "오늘도 재밌었지? (응!)"
+    },
+    {
+      "at": 164.8,
+      "end": 167.8,
+      "text": "바우 할아버지도 (허허!)"
+    },
+    {
+      "at": 167.8,
+      "end": 172.8,
+      "text": "안녕! 바이바이! 아디오스!"
+    },
+    {
+      "at": 172.8,
+      "end": 176.9,
+      "text": "내일 또 만나요, 크앙!"
+    }
+  ],
+  "sfx_suggestions": []
+}
