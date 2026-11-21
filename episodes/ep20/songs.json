@@ -1,0 +1,18 @@
+{
+  "title": "치키 20화 노래",
+  "h1": "20화 · 빵집 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "bakery",
+      "title": "공룡 빵집 놀이!",
+      "short": "빵집 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n빵 사세요 빵집 (빵집!)\n주세요 고맙습니다\n치키치키 빵집!\n\n[Verse 1]\n노란 옥수수빵\n크앙! 로로가\n하나 주세요 (주세요!)\n\n[Verse 2]\n초록 빵 동글동글\n쭈욱~ 토롱이\n하나 주세요 (주세요!)\n\n[Verse 3]\n파란 블루베리빵\n슝~ 피오가\n하나 주세요 (주세요!)\n\n[Verse 4]\n보라 포도빵 하나\n할아버지 빵인데 (어디 갔지?)\n냠냠 소리 (냠!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n빵 사세요 빵집 (빵집!)\n주세요 고맙습니다\n치키치키 빵집!\n\n[End]"
+    }
+  ]
+}

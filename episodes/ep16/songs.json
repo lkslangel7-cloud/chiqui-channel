@@ -1,0 +1,18 @@
+{
+  "title": "치키 16화 노래",
+  "h1": "16화 · 목욕 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "bath",
+      "title": "목욕하자 뽀글뽀글!",
+      "short": "목욕 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n목욕하자 뽀글뽀글 (뽀글뽀글!)\n머리부터 발끝까지\n치키치키 깨끗!\n\n[Verse 1]\n머리를 쓱쓱쓱\n치키 뿔도 반짝\n뽀글뽀글 (뽀글!)\n\n[Verse 2]\n꼬리를 쓱쓱쓱\n크앙! 로로 꼬리\n뽀글뽀글 (뽀글!)\n\n[Verse 3]\n목을 쭈욱 쓱쓱\n토롱 긴 목도\n뽀글뽀글 (뽀글!)\n\n[Verse 4]\n날개를 팔랑 쓱쓱\n슝~ 피오 날개\n뽀글뽀글 (뽀글!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n목욕하자 뽀글뽀글 (뽀글뽀글!)\n머리부터 발끝까지\n치키치키 깨끗!\n\n[End]"
+    }
+  ]
+}

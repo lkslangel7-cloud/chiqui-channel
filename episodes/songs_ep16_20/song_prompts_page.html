@@ -1,0 +1,253 @@
+<title>치키 16~20화 노래</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: 한 열 작업 목록. 위에 고정 문구, 장면 번호 바로가기, 장면마다 그림·영상 프롬프트 카드 */
+:root {
+  --bg: #fbf7f0; --surface: #ffffff; --ink: #2b2620; --muted: #76695a;
+  --line: #eadfce; --accent: #e8711c; --accent-ink: #ffffff; --code: #f6efe3;
+  --display: "Jua", "Noto Sans KR", system-ui, sans-serif;
+  --body: "Noto Sans KR", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #1d1a16; --surface: #27231e; --ink: #f2ebe0; --muted: #b3a593;
+  --line: #3a342c; --accent: #f08a3c; --accent-ink: #1d1a16; --code: #2f2a24; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #1d1a16; --surface: #27231e; --ink: #f2ebe0; --muted: #b3a593;
+  --line: #3a342c; --accent: #f08a3c; --accent-ink: #1d1a16; --code: #2f2a24; color-scheme: dark; }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 20px; }
+h1 { font-family: var(--display); font-weight: 400; font-size: 2rem; margin: 0; text-wrap: balance; }
+.lead { margin: 0; color: var(--muted); }
+.steps { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; }
+.fixed { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 14px; }
+.fixed h2, .scene h2 { font-family: var(--display); font-weight: 400; margin: 0; font-size: 1.25rem; }
+nav.jump { display: flex; flex-wrap: wrap; gap: 6px; position: sticky; top: env(safe-area-inset-top, 0px); background: var(--bg); padding-block: 8px; z-index: 5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+nav.jump a { min-width: 2.4em; text-align: center; padding: 4px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); text-decoration: none; font-variant-numeric: tabular-nums; font-size: .9rem; }
+nav.jump a:hover, nav.jump a:focus-visible { border-color: var(--accent); outline: none; }
+.scene { display: grid; gap: 10px; padding-block: 16px; border-top: 1px solid var(--line); scroll-margin-top: 56px; }
+.scene-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; }
+.sid { font-family: var(--mono); color: var(--accent); font-size: .95rem; }
+.time { margin-left: auto; color: var(--muted); font-size: .9rem; font-variant-numeric: tabular-nums; }
+.ref { margin: 0; font-size: .95rem; }
+.label, .kind { font-size: .78rem; letter-spacing: .04em; color: var(--muted); margin-right: 6px; }
+.prompt { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; min-width: 0; }
+.prompt-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 10px 8px 12px; border-bottom: 1px solid var(--line); }
+pre { margin: 0; padding: 12px; white-space: pre-wrap; word-break: break-word; font-family: var(--mono); font-size: .82rem; line-height: 1.55; background: var(--code); color: var(--ink); }
+button.copy { font: inherit; font-size: .85rem; font-weight: 600; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+button.copy:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+button.copy.done { background: transparent; color: var(--accent); }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+h1 { word-break: keep-all; }
+.note { margin: 0; font-size: .95rem; color: var(--muted); }
+.steps b { color: var(--ink); }
+.opts { width: 100%; border-collapse: collapse; font-size: .92rem; }
+.opts th, .opts td { text-align: left; padding: 8px 6px; border-top: 1px solid var(--line); vertical-align: top; }
+.opts th { color: var(--muted); font-weight: 600; font-size: .8rem; }
+.opts td:first-child { white-space: nowrap; font-family: var(--mono); font-size: .85rem; }
+</style>
+<div class="wrap">
+  <header style="display:grid;gap:8px">
+    <h1>16~20화 · 노래 5곡 (Suno)</h1>
+    <p class="lead">16~20화 노래 5곡이에요(목욕·아야·차례·첫눈·빵집). 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.</p>
+  </header>
+  <section class="fixed">
+    <h2>쓰는 순서</h2>
+    <ol class="steps">
+      <li>Suno에서 <b>Create</b> → <b>Custom</b> 모드를 켠다.</li>
+      <li>Lyrics 칸에 가사, Styles 칸에 스타일, Title 칸에 제목을 붙여 넣는다.</li>
+      <li><b>More Options</b>는 아래 표처럼 맞춘다.</li>
+      <li>한 번에 2곡씩 나와요. 발음이 또렷하고 밝은 쪽을 고른다.</li>
+      <li>마지막 후렴 끝(치키치키 ○○!)까지 나오는지 들어 보고, WAV로 받아 올려 주세요. 몇 화 노래인지 알려 주세요.</li>
+      <li>유튜브 수익 창출을 하려면 Suno <b>유료 플랜(Pro 이상)</b>으로 만든 곡이어야 해요. 무료 플랜 곡은 상업적으로 쓸 수 없어요.</li>
+    </ol>
+    <table class="opts"><thead><tr><th>설정</th><th>값</th></tr></thead><tbody>
+      <tr><td>Vocal Gender</td><td><b>Female</b> (배경음악은 상관없음)</td></tr>
+      <tr><td>Duration</td><td><b>Custom</b> — 65~70초.</td></tr>
+      <tr><td>Max Mode</td><td><b>Off</b></td></tr>
+      <tr><td>Weirdness</td><td><b>20%</b> (낮을수록 무난하고 동요다운 곡)</td></tr>
+      <tr><td>Style Influence</td><td><b>80%</b> (스타일 문구를 잘 따르게)</td></tr>
+      <tr><td>Variety</td><td><b>Normal</b> 그대로</td></tr>
+      <tr><td>Personalize</td><td><b>Off</b> (4곡 소리를 똑같이 맞추려고)</td></tr>
+    </tbody></table>
+  </section>
+  <nav class="jump" aria-label="곡 바로가기"><a href="#e16">16화</a><a href="#e17">17화</a><a href="#e18">18화</a><a href="#e19">19화</a><a href="#e20">20화</a></nav>
+  <article class="scene" id="e16"><header class="scene-head"><h2>목욕하자 뽀글뽀글!</h2><span class="time">16화 노래 · 0:55–1:55</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e16-t">복사</button></div><pre id="e16-t">목욕하자 뽀글뽀글!</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e16-l">복사</button></div><pre id="e16-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+목욕하자 뽀글뽀글 (뽀글뽀글!)
+머리부터 발끝까지
+치키치키 깨끗!
+
+[Verse 1]
+머리를 쓱쓱쓱
+치키 뿔도 반짝
+뽀글뽀글 (뽀글!)
+
+[Verse 2]
+꼬리를 쓱쓱쓱
+크앙! 로로 꼬리
+뽀글뽀글 (뽀글!)
+
+[Verse 3]
+목을 쭈욱 쓱쓱
+토롱 긴 목도
+뽀글뽀글 (뽀글!)
+
+[Verse 4]
+날개를 팔랑 쓱쓱
+슝~ 피오 날개
+뽀글뽀글 (뽀글!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+목욕하자 뽀글뽀글 (뽀글뽀글!)
+머리부터 발끝까지
+치키치키 깨끗!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e16-s">복사</button></div><pre id="e16-s">call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy</pre></div></article><article class="scene" id="e17"><header class="scene-head"><h2>아야! 괜찮아?</h2><span class="time">17화 노래 · 0:55–1:55</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e17-t">복사</button></div><pre id="e17-t">아야! 괜찮아?</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e17-l">복사</button></div><pre id="e17-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+아야! 괜찮아? (괜찮아?)
+친구가 곁에 있어
+치키치키 힘내!
+
+[Verse 1]
+아야 아야 무릎이
+크앙! 로로가 와서
+토닥토닥 (토닥!)
+
+[Verse 2]
+아야 아야 눈물이
+쭈욱~ 토롱이 와서
+괜찮아 괜찮아 (괜찮아!)
+
+[Verse 3]
+아야 아야 아파요
+슝~ 피오가 와서
+호~ 불어 줘 (호~!)
+
+[Verse 4]
+주황 반창고 붙이고
+이제 괜찮아 (괜찮아!)
+웃음이 쏙 (하하!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+아야! 괜찮아? (괜찮아?)
+친구가 곁에 있어
+치키치키 힘내!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e17-s">복사</button></div><pre id="e17-s">call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy</pre></div></article><article class="scene" id="e18"><header class="scene-head"><h2>내 차례 네 차례!</h2><span class="time">18화 노래 · 0:55–1:55</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e18-t">복사</button></div><pre id="e18-t">내 차례 네 차례!</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e18-l">복사</button></div><pre id="e18-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+내 차례 네 차례 (차례 차례!)
+한 줄로 서서
+치키치키 슝!
+
+[Verse 1]
+하나 치키 슝~
+미끄럼틀 쭈욱
+내 차례 끝 (끝!)
+
+[Verse 2]
+둘 로로 슝~
+크앙! 신나게
+네 차례야 (네 차례!)
+
+[Verse 3]
+셋 토롱 슝~
+쭈욱~ 긴 목도
+네 차례야 (네 차례!)
+
+[Verse 4]
+넷 피오 슝~
+작은 날개 펴고
+네 차례야 (네 차례!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+내 차례 네 차례 (차례 차례!)
+한 줄로 서서
+치키치키 슝!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e18-s">복사</button></div><pre id="e18-s">call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy</pre></div></article><article class="scene" id="e19"><header class="scene-head"><h2>첫눈이 와요!</h2><span class="time">19화 노래 · 0:55–1:55</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e19-t">복사</button></div><pre id="e19-t">첫눈이 와요!</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e19-l">복사</button></div><pre id="e19-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+하얀 눈이 펄펄 (펄펄!)
+친구들아 같이 놀자
+치키치키 눈 놀이!
+
+[Verse 1]
+하얀 눈이 펄펄
+크앙! 로로가
+눈을 데굴데굴 (데굴!)
+
+[Verse 2]
+눈덩이 하나 둘
+쭈욱~ 토롱이
+높이 올려 (영차!)
+
+[Verse 3]
+동글동글 까만 눈
+슝~ 피오가
+콕콕 붙여 (콕!)
+
+[Verse 4]
+무엇이 필요할까?
+두리번 두리번 (어디 있지?)
+동글동글 코 (코!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+하얀 눈이 펄펄 (펄펄!)
+친구들아 같이 놀자
+치키치키 눈 놀이!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e19-s">복사</button></div><pre id="e19-s">call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy</pre></div></article><article class="scene" id="e20"><header class="scene-head"><h2>공룡 빵집 놀이!</h2><span class="time">20화 노래 · 0:55–1:55</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e20-t">복사</button></div><pre id="e20-t">공룡 빵집 놀이!</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e20-l">복사</button></div><pre id="e20-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+빵 사세요 빵집 (빵집!)
+주세요 고맙습니다
+치키치키 빵집!
+
+[Verse 1]
+노란 옥수수빵
+크앙! 로로가
+하나 주세요 (주세요!)
+
+[Verse 2]
+초록 빵 동글동글
+쭈욱~ 토롱이
+하나 주세요 (주세요!)
+
+[Verse 3]
+파란 블루베리빵
+슝~ 피오가
+하나 주세요 (주세요!)
+
+[Verse 4]
+보라 포도빵 하나
+할아버지 빵인데 (어디 갔지?)
+냠냠 소리 (냠!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+빵 사세요 빵집 (빵집!)
+주세요 고맙습니다
+치키치키 빵집!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e20-s">복사</button></div><pre id="e20-s">call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy</pre></div></article>
+</div>
+<script>
+document.addEventListener('click', function (ev) {
+  var btn = ev.target.closest('button.copy');
+  if (!btn) return;
+  var el = document.getElementById(btn.dataset.target);
+  var text = el.textContent;
+  function done() { btn.textContent = '복사됨'; btn.classList.add('done');
+    setTimeout(function () { btn.textContent = '복사'; btn.classList.remove('done'); }, 1600); }
+  function fallback() { var r = document.createRange(); r.selectNodeContents(el);
+    var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = '선택됨 · 길게 눌러 복사'; }
+  try { navigator.clipboard.writeText(text).then(done, fallback); } catch (e) { fallback(); }
+});
+</script>

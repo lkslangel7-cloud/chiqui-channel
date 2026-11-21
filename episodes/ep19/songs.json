@@ -1,0 +1,18 @@
+{
+  "title": "치키 19화 노래",
+  "h1": "19화 · 첫눈 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "snow",
+      "title": "첫눈이 와요!",
+      "short": "첫눈 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n하얀 눈이 펄펄 (펄펄!)\n친구들아 같이 놀자\n치키치키 눈 놀이!\n\n[Verse 1]\n하얀 눈이 펄펄\n크앙! 로로가\n눈을 데굴데굴 (데굴!)\n\n[Verse 2]\n눈덩이 하나 둘\n쭈욱~ 토롱이\n높이 올려 (영차!)\n\n[Verse 3]\n동글동글 까만 눈\n슝~ 피오가\n콕콕 붙여 (콕!)\n\n[Verse 4]\n무엇이 필요할까?\n두리번 두리번 (어디 있지?)\n동글동글 코 (코!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n하얀 눈이 펄펄 (펄펄!)\n친구들아 같이 놀자\n치키치키 눈 놀이!\n\n[End]"
+    }
+  ]
+}

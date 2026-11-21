@@ -1,0 +1,18 @@
+{
+  "title": "치키 17화 노래",
+  "h1": "17화 · 아야 괜찮아 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "ouch",
+      "title": "아야! 괜찮아?",
+      "short": "아야 괜찮아",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n아야! 괜찮아? (괜찮아?)\n친구가 곁에 있어\n치키치키 힘내!\n\n[Verse 1]\n아야 아야 무릎이\n크앙! 로로가 와서\n토닥토닥 (토닥!)\n\n[Verse 2]\n아야 아야 눈물이\n쭈욱~ 토롱이 와서\n괜찮아 괜찮아 (괜찮아!)\n\n[Verse 3]\n아야 아야 아파요\n슝~ 피오가 와서\n호~ 불어 줘 (호~!)\n\n[Verse 4]\n주황 반창고 붙이고\n이제 괜찮아 (괜찮아!)\n웃음이 쏙 (하하!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n아야! 괜찮아? (괜찮아?)\n친구가 곁에 있어\n치키치키 힘내!\n\n[End]"
+    }
+  ]
+}
