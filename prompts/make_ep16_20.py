@@ -192,7 +192,11 @@ EPS["ep19"] = dict(
    "Everyone sips from the mugs and smiles warmly."),
  ]))
 # ---------------- 20화 공룡 빵집 놀이 ----------------
-SHOP = "a small wooden toy bakery stall with a striped orange awning set up on a sunny meadow, with a wooden counter. "
+SHOP = ("THE SAME bakery stall in every scene: one small toy-like wooden bakery stall standing alone on a sunny flower meadow, seen from the front. "
+        "It has exactly this shape: a light-wood front counter box at waist height, two thin wooden posts at the back corners, and on top a flat awning with "
+        "wide ORANGE and cream-white vertical stripes and a wavy scalloped front edge; a small round cream-white sign with one simple bread-loaf picture (no letters) hangs in the middle of the awning. "
+        "Behind the stall there is only open meadow, a few palm trees and the far volcano; NO other shops, houses, shelves, walls, windows or roofs behind it. "
+        "The stall never changes shape, color or size. ")
 BREADS = "five small round breads on the counter: one YELLOW corn bread, one GREEN bread, one dark BLUE blueberry bread, one PURPLE grape bread and one ORANGE bread"
 EPS["ep20"] = dict(
  title="20화. 공룡 빵집 놀이! — 역할놀이", short="공룡 빵집 놀이!", song_id="bakery", song_short="빵집 노래",
