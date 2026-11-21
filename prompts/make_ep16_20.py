@@ -126,7 +126,7 @@ EPS["ep18"] = dict(
   ("한꺼번에 타면 안 돼요", "CRTP", f"At {SLIDE}Chiqui, Roro, Torong and Pio sit in a funny tangled little pile at the bottom of the steps, laughing.", "", False,
    "The friends untangle themselves slowly and laugh."),
   ("한 줄로 서 볼까?", "B", f"At {SLIDE}{D['B']} smiles and points at the ground in front of the steps with one front paw.", "", False,
-   "Grandpa Bau points and nods kindly."),
+   "Grandpa Bau stays standing next to the play-rock slide, points one front paw at the stone steps of the slide and nods kindly. The whole rock, the stone steps and the ORANGE slide stay fully visible the whole time, exactly as in the start image; no zoom in, no camera move."),
   ("한 줄로", "CRTP", f"At {SLIDE}Chiqui, Roro, Torong and Pio stand in one neat line in front of the steps, in this order: Chiqui first, then Roro, then Torong, then Pio.", "", False,
    "The friends wait in line and nod happily."),
   ("치키 슝~", "C", f"At {SLIDE}{D['C']} slides down the wide slide with both arms up, laughing.", "", False, "Chiqui slides down happily and lands softly at the bottom."),

@@ -54,7 +54,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-Grandpa Bau points and nods kindly. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Grandpa Bau stays standing next to the play-rock slide, points one front paw at the stone steps of the slide and nods kindly. The whole rock, the stone steps and the ORANGE slide stay fully visible the whole time, exactly as in the start image; no zoom in, no camera move. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S07 한 줄로 (0:50–0:55)
