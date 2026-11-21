@@ -262,7 +262,7 @@ EPS["ep15"] = dict(
    "Exactly one tunnel.", False, "The train rolls slowly toward the tunnel; the friends point at it with worried faces."),
   ("다 같이 칙칙폭폭", "BCRTP", f"{TRAIN} with all five friends riding in their own colored cars rolls happily along a sunny meadow.", "", False,
    "The train rolls forward; everyone sways side to side and waves."),
-  ("토롱아, 고개 숙여!", "T", f"Close view of {D['T']} sitting in the long GREEN train car, looking at the viewer with a worried face, the long neck up high.", "", True,
+  ("토롱아, 고개 숙여!", "T", f"Close view of {D['T']} sitting in the long open GREEN train car, looking at the viewer with a worried face, the long neck up high. Only two train parts are visible: the long GREEN car Torong sits in, and part of the open SKY-BLUE car right behind it. No red, no yellow and no other colored train parts in this picture.", "", True,
    "Torong looks at the viewer, then slowly bends the long neck down low."),
   ("휴~ 통과!", "BCRTP", f"{TRAIN} comes out of the round stone tunnel; Torong lifts the long neck back up with a relieved smile; everyone cheers.", "Exactly one tunnel.", False,
    "The train rolls out of the tunnel; Torong raises the neck and everyone cheers."),
