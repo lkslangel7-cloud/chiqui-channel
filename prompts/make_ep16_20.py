@@ -147,7 +147,7 @@ EPS["ep18"] = dict(
 SNOW = ("Snowy winter day in the dinosaur village: soft white snow covers the ground, the palm trees and the round cave houses, and gentle snowflakes fall from a pale blue-gray sky. "
         "NO rainbow anywhere, no sun. ")
 SCARF = "Chiqui wears an ORANGE scarf, Roro a YELLOW scarf, Torong a GREEN scarf, Pio a SKY-BLUE scarf"
-MAN = "a simple round snowman made of two snowballs (a big one below, a smaller one on top) with two small dark pebble eyes; the snowman is an object, it never moves and has no arms or legs of its own"
+MAN = "a plain simple snowman made of two white snowballs (a big one below, a smaller one on top) with ONLY two small dark pebble eyes: NO mouth, NO hat, NO scarf, NO buttons, NO stick arms; the snowman is a still object and never moves"
 EPS["ep19"] = dict(
  title="19화. 첫눈이 와요! — 눈 놀이", short="첫눈이 와요!", song_id="snow", song_short="첫눈 노래",
  theme="계절(겨울), 눈 놀이, 따뜻하게 입기. 목도리는 친구 몸 색. 눈사람 만들기.",
@@ -176,9 +176,9 @@ EPS["ep19"] = dict(
    "Torong lifts the small snowball with the mouth and places it on top carefully."),
   ("피오 · 콕콕", "P", SNOW + f"{D['P']} wearing a SKY-BLUE scarf flies next to {MAN}, pressing a small dark pebble eye onto the top snowball with the beak.", "", False,
    "Pio presses the second pebble eye on and flaps happily."),
-  ("무엇이 필요할까?", "CRTP", SNOW + f"Chiqui, Roro, Torong and Pio in their scarves look at {MAN}; the snowman has NO nose yet.", "No nose on the snowman.", False,
+  ("무엇이 필요할까?", "CRTP", SNOW + f"Chiqui, Roro, Torong and Pio look at {MAN}; the snowman has NO nose yet. {SCARF}; each scarf matches its owner's body color exactly (no red, no purple, no swapped colors).", "No nose on the snowman.", False,
    "The friends tilt their heads, looking at the snowman."),
-  ("다 같이 생각해요", "CRTP", SNOW + f"Chiqui, Roro, Torong and Pio in their scarves stand around {MAN}, thinking with paws on their chins.", "No nose on the snowman.", False,
+  ("다 같이 생각해요", "CRTP", SNOW + f"Chiqui, Roro, Torong and Pio stand around {MAN}, thinking with paws on their chins. {SCARF}; each scarf matches its owner's body color exactly (no red, no purple, no swapped colors).", "No nose on the snowman.", False,
    "The friends look at each other, thinking."),
   ("코가 없네?", "C", SNOW + f"Close view of {D['C']} in an ORANGE scarf looking at the viewer with a curious face.", "", True,
    "Chiqui looks at the viewer and tilts the head, as if asking."),
@@ -186,7 +186,7 @@ EPS["ep19"] = dict(
    "Chiqui pushes the carrot nose in and jumps with joy."),
   ("눈은 작은 얼음 꽃", "B", SNOW + f"{D['B']} looks at one big sparkly snowflake resting on the front paw, smiling wisely.", "", True,
    "Grandpa Bau looks at the snowflake and smiles."),
-  ("아이 추워!", "BCRTP", SNOW + f"All five friends stand next to the finished snowman with the carrot nose, hugging themselves and shivering with funny faces. {SCARF}.", "", False,
+  ("아이 추워!", "BCRTP", SNOW + f"All five friends stand next to the finished snowman: the same plain snowman made of two white snowballs with two pebble eyes and one ORANGE carrot nose (no mouth, no hat, no scarf, no buttons, no stick arms). They hug themselves and shiver with funny faces. {SCARF}.", "", False,
    "Everyone shivers and laughs together."),
   ("따뜻한 집", "BCRTP", HOME + f"All five friends sit by a warm glowing fireplace inside the cave house holding warm mugs; snow falls outside the round window. {SCARF}.", "", False,
    "Everyone sips from the mugs and smiles warmly."),
