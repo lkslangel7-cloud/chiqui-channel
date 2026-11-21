@@ -237,7 +237,7 @@ EPS["ep20"] = dict(
    "Everyone pats the dough together and smiles."),
   ("같이 만든 빵", "B", f"{D['B']} holds one warm round PURPLE grape bread, smiling warmly.", "Exactly one purple bread.", False, "Grandpa Bau sniffs the warm bread and smiles."),
   ("다 같이 냠냠", "BCRTP", "On a sunny meadow, all five friends sit together on a picnic blanket, happily eating small round breads in their own body colors: Grandpa Bau holds one PURPLE bread, Chiqui one ORANGE bread, Roro one YELLOW bread, Pio one SKY-BLUE bread; Torong takes a bite of one GREEN bread that lies on the blanket in front of Torong's mouth (Torong does NOT hold it with the front legs). Exactly five breads, one for each friend.", "", False,
-   "Everyone takes a bite and smiles at the viewer."),
+   "Grandpa Bau, Chiqui, Roro and Pio each take a bite of their own bread and smile at the viewer; Torong slowly bends the long neck down, takes a bite of the GREEN bread on the blanket with the mouth (front legs stay on the ground), then lifts the head and smiles."),
  ]))
 
 for ep, e in EPS.items():
