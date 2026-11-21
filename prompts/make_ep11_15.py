@@ -224,7 +224,7 @@ EPS["ep14"] = dict(
    "Everyone dances and spins once, then waves at the viewer."),
  ]))
 # ---------------- 15화 칙칙폭폭 공룡 기차 ----------------
-TRAIN = ("a small toy-like train on a wooden track: one PURPLE engine in front, then four open little cars in this order: ORANGE car, YELLOW car, "
+TRAIN = ("a small toy-like train on a wooden track: one PURPLE engine in front (the engine always has a small closed cab with a rounded PURPLE ROOF on top, a round window on each side, a short chimney in front and a little yellow headlight; the driver sits inside the cab under the roof), then four open little cars in this order: ORANGE car, YELLOW car, "
          "long GREEN car (open top), SKY-BLUE car")
 EPS["ep15"] = dict(
  title="15화. 칙칙폭폭 공룡 기차! — 기차 놀이", short="칙칙폭폭 공룡 기차!", song_id="train", song_short="공룡 기차",
