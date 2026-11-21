@@ -12,7 +12,7 @@ AT = {"C": "@chiqui", "R": "@roro", "T": "@torong", "P": "@pio", "B": "@bau"}
 NM = {"C": "Chiqui", "R": "Roro", "T": "Torong", "P": "Pio", "B": "Grandpa Bau"}
 COL = {"C": "ORANGE", "R": "YELLOW", "T": "GREEN", "P": "SKY-BLUE", "B": "PURPLE"}
 TALL = " SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest."
-NOHANDS = " Torong never touches the face with front legs."
+NOHANDS = " Torong never touches the face with front legs. Torong has exactly FOUR legs (two front legs, two back legs) and all four feet always stay on the ground; Torong NEVER lifts or waves a front leg. When others wave, Torong says hi or goodbye by tilting the long neck and head to one side with a smile."
 NOCOPY = "Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. "
 END = "One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion."
 FULL = "Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. "
@@ -37,6 +37,7 @@ def vid(refs, action):
     look = ""  # 4화에서 배운 것: 피오가 동그란 새로, 로로가 트리케라톱스로 바뀜
     if "P" in refs: look += "Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. "
     if "R" in refs: look += "Roro always keeps a round head with no frill and no horns. "
+    if "T" in refs: look += "Torong keeps exactly four legs with all four feet on the ground the whole time; Torong never lifts or waves a front leg and never grows an extra leg; to wave, Torong sways the long neck and head gently. "
     cam = "" if len(refs) == 1 else ("The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. " if len(refs) > 1 else "")
     return f"{action} {only}{size}{look}{cam}{NOCOPY}{END}"
 

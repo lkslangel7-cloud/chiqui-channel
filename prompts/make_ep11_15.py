@@ -270,8 +270,8 @@ EPS["ep15"] = dict(
    + f"{D['B']} stands next to a big fossil bone, smiling wisely.", "Exactly one big fossil bone.", False, "Grandpa Bau pats the fossil bone gently and smiles."),
   ("도착!", "BCRTP", f"{TRAIN} stops in front of the round entrance of a cozy fossil library; all five friends climb out happily.", "", False,
    "Everyone hops out of the cars and cheers."),
-  ("또 타자!", "BCRTP", f"All five friends stand in front of {TRAIN}, facing the viewer, waving goodbye with big smiles.", "", False,
-   "Everyone waves at the viewer; a small puff of steam rises from the engine."),
+  ("또 타자!", "BCRTP", f"All five friends stand in a row in front of {TRAIN}, facing the viewer with big smiles. Grandpa Bau, Chiqui and Roro each wave ONE front paw, Pio waves one wing. Torong does NOT wave a leg: Torong stands on all four feet on the grass and tilts the long neck and head to one side to say goodbye.", "Torong has exactly four legs, all on the ground.", False,
+   "Grandpa Bau, Chiqui, Roro and Pio wave at the viewer; Torong sways the long neck side to side with all four feet on the ground; a small puff of steam rises from the engine."),
  ]))
 
 for ep, e in EPS.items():
