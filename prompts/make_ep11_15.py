@@ -174,7 +174,7 @@ EPS["ep13"] = dict(
    "Everyone jumps once together and waves at the viewer."),
  ]))
 # ---------------- 14화 치키의 깜짝 생일 ----------------
-CAKE = "round ORANGE birthday cake with exactly FOUR small candles"
+CAKE = "round ORANGE birthday cake with exactly FOUR tall candles standing in one straight row on top (count them: one, two, three, four; NOT three, NOT five, no extra short or broken candle)"
 EPS["ep14"] = dict(
  title="14화. 치키의 깜짝 생일! — 생일 파티", short="치키의 깜짝 생일!", song_id="bday", song_short="깜짝 생일 준비",
  theme="친구 생일 축하, 깜짝 준비, 촛불 세기(1~4). 친구마다 자기 몸 색 장식 (로로 노란 풍선, 토롱 초록 깃발, 피오 하늘색 꽃, 바우 주황 케이크).",
@@ -220,7 +220,7 @@ EPS["ep14"] = dict(
    "Grandpa Bau shows the egg shell and smiles warmly."),
   ("촛불 하나 둘 셋 넷, 후~", "C", f"{D['C']} leans toward the {CAKE} with the four candles lit, cheeks puffed, ready to blow.", "Exactly four lit candles.", False,
    "Chiqui blows 'whoo' once; the four little flames go out one by one; Chiqui cheers."),
-  ("와아~ 파티!", "BCRTP", f"All five friends dance happily around the party table with the {CAKE}, balloons and flags, facing the viewer.", "", False,
+  ("와아~ 파티!", "BCRTP", f"All five friends dance happily around the party table with the {CAKE}, YELLOW balloons, GREEN triangle flags and SKY-BLUE flowers, facing the viewer.", "Exactly four candles. Balloons only yellow, flags only green.", False,
    "Everyone dances and spins once, then waves at the viewer."),
  ]))
 # ---------------- 15화 칙칙폭폭 공룡 기차 ----------------
