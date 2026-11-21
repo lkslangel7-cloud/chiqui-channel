@@ -247,7 +247,7 @@ EPS["ep15"] = dict(
    "Chiqui sits down in the orange car and claps; Grandpa Bau nods."),
   ("칙칙폭폭 출발", "BC", f"{TRAIN} rolls along the wooden track through a flower meadow; {D['B']} drives the PURPLE engine and {D['C']} rides in the ORANGE car.",
    "Yellow, green and sky-blue cars are empty.", False, "The train rolls slowly forward along the track; Chiqui waves; small puffs of steam rise."),
-  ("다음 역은 어디일까?", "C", f"Close view of {D['C']} sitting in the ORANGE train car, leaning out and looking ahead curiously with one paw above the eyes.", "", True,
+  ("다음 역은 어디일까?", "C", f"Close view of {D['C']} sitting in the open ORANGE train car, leaning out and looking ahead curiously with one paw above the eyes. Only two train parts are visible: the back of the PURPLE engine right in front of the orange car, and the orange car itself. No red, no yellow and no other colored train parts in this picture.", "", True,
    "Chiqui leans out, looks ahead and smiles excitedly."),
   ("친구들 태우러 가자!", "BC", f"{TRAIN} waits on the track; {D['B']} in the PURPLE engine, {D['C']} in the ORANGE car raising one paw high.", "Yellow, green and sky-blue cars are empty.", False,
    "Chiqui raises the paw and cheers; Grandpa Bau rings a little bell on the engine."),

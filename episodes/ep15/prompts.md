@@ -50,7 +50,7 @@ The train rolls slowly forward along the track; Chiqui waves; small puffs of ste
 [레퍼런스] 치키
 [그림]
 ```
-Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill. Draw them exactly like their element images. Close view of Chiqui, the orange baby triceratops with a yellow-spotted frill sitting in the ORANGE train car, leaning out and looking ahead curiously with one paw above the eyes. Draw exactly one of each character, never duplicated (1 character in total). Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill. Draw them exactly like their element images. Close view of Chiqui, the orange baby triceratops with a yellow-spotted frill sitting in the open ORANGE train car, leaning out and looking ahead curiously with one paw above the eyes. Only two train parts are visible: the back of the PURPLE engine right in front of the orange car, and the orange car itself. No red, no yellow and no other colored train parts in this picture. Draw exactly one of each character, never duplicated (1 character in total). Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
 ```
 [영상] 5초
 ```
