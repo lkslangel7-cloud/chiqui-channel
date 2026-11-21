@@ -229,14 +229,14 @@ EPS["ep20"] = dict(
    "Grandpa Bau looks at the empty plate; Chiqui keeps the cheeks puffed and looks away."),
   ("보라 빵이 없네?", "BRTP", f"At {SHOP}Grandpa Bau, Roro, Torong and Pio look at the empty plate on the counter, puzzled.", "", False,
    "Everyone looks at the empty plate and tilts their heads."),
-  ("할아버지 빵은 어디?", "C", f"Close view of {D['C']} in a baker hat facing the viewer with big puffed-out cheeks and a few purple crumbs on the mouth, eyes looking sideways.", "", True,
+  ("할아버지 빵은 어디?", "C", f"Close view of {D['C']} in a small plain all-white baker hat (no colored band) facing the viewer with big puffed-out cheeks and a few purple crumbs on the mouth, eyes looking sideways.", "", True,
    "Chiqui chews slowly with puffed cheeks and looks sideways, trying not to laugh."),
-  ("치키가 먹었다!", "BCRTP", f"At {SHOP}Grandpa Bau, Roro, Torong and Pio point at Chiqui and laugh; Chiqui laughs shyly, purple crumbs on the mouth.", "", False,
+  ("치키가 먹었다!", "BCRTP", f"At {SHOP}Grandpa Bau, Roro, Torong and Pio point at Chiqui and laugh; Chiqui, still wearing the same small plain all-white baker hat (no colored band) and ORANGE apron, laughs shyly with purple crumbs on the mouth.", "", False,
    "Everyone points and laughs; Chiqui laughs too."),
   ("같이 만들어요!", "BCRTP", "On a sunny meadow, all five friends stand around a low wooden table, pressing soft round dough together, smiling.", "", False,
    "Everyone pats the dough together and smiles."),
   ("같이 만든 빵", "B", f"{D['B']} holds one warm round PURPLE grape bread, smiling warmly.", "Exactly one purple bread.", False, "Grandpa Bau sniffs the warm bread and smiles."),
-  ("다 같이 냠냠", "BCRTP", "On a sunny meadow, all five friends sit together on a picnic blanket, each holding a small round bread in their own body color, happily eating.", "", False,
+  ("다 같이 냠냠", "BCRTP", "On a sunny meadow, all five friends sit together on a picnic blanket, happily eating small round breads in their own body colors: Grandpa Bau holds one PURPLE bread, Chiqui one ORANGE bread, Roro one YELLOW bread, Pio one SKY-BLUE bread; Torong takes a bite of one GREEN bread that lies on the blanket in front of Torong's mouth (Torong does NOT hold it with the front legs). Exactly five breads, one for each friend.", "", False,
    "Everyone takes a bite and smiles at the viewer."),
  ]))
 
