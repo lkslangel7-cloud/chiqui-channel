@@ -104,7 +104,7 @@ EPS["ep17"] = dict(
    "Everyone laughs together and cheers."),
  ]))
 # ---------------- 18화 내 차례 네 차례 (미끄럼틀) ----------------
-SLIDE = "Roro's play rock: a big rounded rock with a wide smooth clay slide and little stone steps on the side. "
+SLIDE = ("THE SAME play-rock slide in every scene (Roro's play rock): one big rounded grey rock with green grass and leaves on top and one round cave-arch opening near the top; a wide smooth PALE YELLOW clay slide comes down the LEFT side of the rock; little grey stone steps go up the RIGHT side of the rock; NO wooden railing, NO flag, NO lantern, NO bunting, NO roof, nothing else on the rock. The slide never changes shape, color, side or size. ")
 EPS["ep18"] = dict(
  title="18화. 내 차례 네 차례! — 차례 지키기", short="내 차례 네 차례!", song_id="turn", song_short="차례 노래",
  theme="차례 지키기, 한 줄로 서기, 기다리기. 놀이터 바위 미끄럼틀. 마지막 차례는 할아버지!",
