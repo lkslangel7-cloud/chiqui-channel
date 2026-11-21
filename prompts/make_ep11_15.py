@@ -224,6 +224,9 @@ EPS["ep14"] = dict(
    "Everyone dances and spins once, then waves at the viewer."),
  ]))
 # ---------------- 15화 칙칙폭폭 공룡 기차 ----------------
+# 15화 영상에서 배운 것(2026-11-21): 기차가 뒤로(오른쪽으로) 감. 기관차가 왼쪽 맨 앞이므로 앞으로 = 왼쪽.
+FWD = "The engine is at the front on the LEFT, so the train only ever moves to the LEFT, engine first; it never rolls backward to the right. "
+STILL = "The train is stopped and does not move at all; the background does not move or slide; the camera stays still. "
 TRAIN = ("a small toy-like train on a wooden track: one PURPLE engine in front (the engine always has a small closed cab with a rounded PURPLE ROOF on top, a round window on each side, a short chimney in front and a little yellow headlight; the driver sits inside the cab under the roof), then four open little cars in this order: ORANGE car, YELLOW car, "
          "long GREEN car (open top), SKY-BLUE car")
 EPS["ep15"] = dict(
@@ -246,9 +249,9 @@ EPS["ep15"] = dict(
   ("첫 번째 손님!", "BC", f"{D['C']} climbs happily into the ORANGE car of {TRAIN}; {D['B']} sits in the PURPLE engine smiling back.", "Yellow, green and sky-blue cars are empty.", False,
    "Chiqui sits down in the orange car and claps; Grandpa Bau nods."),
   ("칙칙폭폭 출발", "BC", f"{TRAIN} rolls along the wooden track through a flower meadow; {D['B']} drives the PURPLE engine and {D['C']} rides in the ORANGE car.",
-   "Yellow, green and sky-blue cars are empty.", False, "The train rolls slowly forward along the track; Chiqui waves; small puffs of steam rise."),
+   "Yellow, green and sky-blue cars are empty.", False, FWD + "The train rolls slowly to the LEFT along the track, engine first; Chiqui waves; small puffs of steam rise."),
   ("다음 역은 어디일까?", "C", f"Close view of {D['C']} sitting in the open ORANGE train car, leaning out and looking ahead curiously with one paw above the eyes. Three train parts are visible, left to right: on the LEFT the back of the PURPLE engine (with its rounded purple roof), in the MIDDLE the open ORANGE car Chiqui sits in, on the RIGHT the front of the empty open YELLOW car joined right behind it, and a little of the GREEN car behind that. The cars are joined in that order (purple engine, orange, yellow, green). No red car and no other colors. Every car is the same small smooth rounded clay box with chunky round wheels, no wood planks, no bolts.", "", True,
-   "Chiqui leans out, looks ahead and smiles excitedly."),
+   STILL + "Chiqui leans out, looks ahead to the LEFT toward the engine and smiles excitedly."),
   ("친구들 태우러 가자!", "BC", f"{TRAIN} waits on the track; {D['B']} in the PURPLE engine, {D['C']} in the ORANGE car raising one paw high.", "Yellow, green and sky-blue cars are empty.", False,
    "Chiqui raises the paw and cheers; Grandpa Bau rings a little bell on the engine."),
   ("놀이터 바위 역 · 로로", "BCR", f"{TRAIN} stops next to a big play rock; {D['R']} hops into the YELLOW car. Grandpa Bau drives the PURPLE engine and Chiqui rides in the ORANGE car.",
@@ -259,13 +262,13 @@ EPS["ep15"] = dict(
   ("구름 언덕 역 · 피오", "BCRTP", f"{TRAIN} stops on a soft cloud hill; {D['P']} glides down into the SKY-BLUE car. Grandpa Bau in the PURPLE engine, Chiqui ORANGE car, "
    "Roro YELLOW car, Torong GREEN car.", "", False, "Pio lands in the sky-blue car and flaps once; everyone cheers."),
   ("앗! 터널이다", "BCRTP", f"{TRAIN} with all five friends riding rolls toward a round low stone tunnel in a green hill; Torong's long neck is much taller than the tunnel.",
-   "Exactly one tunnel.", False, "The train rolls slowly toward the tunnel; the friends point at it with worried faces."),
+   "Exactly one tunnel.", False, STILL + "The friends turn and point at the tunnel with worried faces; Torong looks up at the low tunnel."),
   ("다 같이 칙칙폭폭", "BCRTP", f"{TRAIN} with all five friends riding in their own colored cars rolls happily along a sunny meadow.", "", False,
-   "The train rolls forward; everyone sways side to side and waves."),
+   FWD + "The train rolls slowly to the LEFT, engine first; everyone sways side to side and waves."),
   ("토롱아, 고개 숙여!", "T", f"Close view of {D['T']} sitting in the long open GREEN train car, looking at the viewer with a worried face, the long neck up high. Three train cars are visible, left to right: on the LEFT edge the back end of the open YELLOW car, in the MIDDLE the long open GREEN car Torong sits in, on the RIGHT edge the front end of the open SKY-BLUE car. The cars are joined in that order (yellow, green, sky-blue). Only the back wall of the yellow car and the front wall of the sky-blue car show; no friend's body is visible in them. No red car and no other colors. Every train car is the SAME simple toy shape used in the whole episode: a small smooth rounded clay box with soft rounded corners and thick smooth walls, solid single color, NO wood planks, NO wood grain, NO bolts or rivets, NO railings; chunky round dark wheels with cream centers. Torong sits low inside the green car with the long neck stretched high above it.", "", True,
    "Torong looks at the viewer, then slowly bends the long neck down low."),
   ("휴~ 통과!", "BCRTP", f"{TRAIN} comes out of the round stone tunnel; Torong lifts the long neck back up with a relieved smile; everyone cheers.", "Exactly one tunnel.", False,
-   "The train rolls out of the tunnel; Torong raises the neck and everyone cheers."),
+   FWD + "The train rolls out of the tunnel to the LEFT, engine first; Torong raises the neck and everyone cheers."),
   ("브라키오사우루스는 집보다 컸단다", "B", HOME.replace("a cozy round room of the cave house", "Grandpa Bau's cozy round fossil library").replace("wooden shelves", "wooden shelves with old books and fossil stones")
    + f"{D['B']} stands next to a big fossil bone, smiling wisely.", "Exactly one big fossil bone.", False, "Grandpa Bau pats the fossil bone gently and smiles."),
   ("도착!", "BCRTP", f"{TRAIN} stops in front of the round entrance of a cozy fossil library; all five friends climb out happily.", "", False,
