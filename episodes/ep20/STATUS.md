@@ -18,3 +18,4 @@
 ## 영상 받기 기록
 - 1차(2026-11-22, 1초 간격·첫 장면 비교·가판대 비교·움직임 측정) 14개 합격: S02 NwEEYA1bAQ8, S04 xH01PzCtRoc, S05 oC5nlpMMwBE, S06 8WeHH8b0ubw, S07 5cSaoX6CgXw, S09 02PD4jaZIyM, S10 zf2GKy1SWnc, S11 ZiTgiX5iK1Q, S12 0mg5WNZsMUw, S13 YTuLZUYT5i4, S14 kXBh2ozmIpo, S15 0mihYViBnxI, S17 pFbHwUFx-IM, S18 luL6HQ0IoTs. 가판대 모두 같은 모양. S10·S12·S17은 그림보다 가까이서 시작(빵 색·소품은 맞음). S17 보라 포도빵 끝까지 보라. S18 토롱 고개 숙여 담요 위 초록 빵. 받은 링크 15개 중 NwEEYA1bAQ8 두 번. 남은 영상: S03 좋아!(로로·토롱·피오), S16 같이 만들어요(다섯 친구 반죽).
 - S03 ZoFPD8McTi0 합격(2026-11-22): 합격 그림으로 시작, 로로·토롱·피오 끄덕·환호, 토롱 다리 4, 카메라 고정. 남은 영상: S16.
+- S16 zqR-4ZVgXu8 불합격(2026-11-22): S16 프롬프트지만 S18 그림(담요 위 빵 먹기, hdSApSv02DY)으로 시작 — 반죽·탁자 없음, S18과 같은 장면. 합격 그림 yLvvdPVNTsM로 다시.
