@@ -54,6 +54,8 @@
 
 - (2026-11-20) 그림을 합격시키면 `images/web/S##_코드.png`로 저장하고 `prompts/build_scene_page.py`로 장면 페이지를 다시 만들어 올린다. 페이지에 장면마다 합격 그림 사진이 들어가 사용자가 "어떤 그림으로 몇 번 영상"인지 바로 본다 (사용자가 아주 편하다고 함, 항상 이렇게).
 
+- (2026-11-22) 완성 영상 보기 페이지: https://claude.ai/artifact/VrXoeRAAETxzuRQbFUxKJ6 (화마다 탭). 한 화를 완성하면 `episodes/videos.json`에 "file"(output 파일 이름)을 넣고 `python3 prompts/build_video_page.py <스크래치패드>/videopage` → index.html과 새 `v/epXX.mp4`·`t/epXX.jpg`만 files로 같은 URL에 올린다 (한 번에 64MB, 영상 5개까지).
+
 1. `episodes/epXX/script.md`에서 대본과 장면 목록을 읽는다.
 2. **컷마다 시작 그림을 먼저 만든다**: `gpt_image_2_5` (medium, 16:9), 그 컷에 나오는 캐릭터의 시트만 `image_references`로 넣고 "Draw exactly one of each, never duplicated"처럼 캐릭터 수를 못박는다. 그림을 보고 시트와 같은지·복제가 없는지 확인한다.
 3. **확인한 그림으로만 영상을 만든다**: `kling3_0` (std, 소리 끔, 5초 또는 10초), 그림을 `start_image`로. 3분 본편은 5~10초 컷 25개 안팎.
