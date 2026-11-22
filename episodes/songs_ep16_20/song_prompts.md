@@ -12,7 +12,7 @@ More Options: Vocal Gender Female / Duration Custom(오프닝·엔딩 20초, 알
 
 Styles:
 ```
-call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy
+bubbly bossa-nova bath song, 100 bpm, steel drum, nylon guitar, shakers, soft bubble pop sounds, splashy and relaxed, light airy female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
 ```
 
 Lyrics:
@@ -60,7 +60,7 @@ Lyrics:
 
 Styles:
 ```
-call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy
+tender comforting ballad, 80 bpm, soft piano and warm strings, gentle humming, slow and caring, soft female lead, ends hopeful and bright, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
 ```
 
 Lyrics:
@@ -108,7 +108,7 @@ Lyrics:
 
 Styles:
 ```
-call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy
+playful clap-and-chant song, 104 bpm, finger snaps, handclaps, funky bass, slide whistle 'whee' on every slide, kids choir chanting, cheeky female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
 ```
 
 Lyrics:
@@ -156,7 +156,7 @@ Lyrics:
 
 Styles:
 ```
-call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy
+twinkly winter waltz in 3/4 time, 92 bpm, sleigh bells, celesta, glockenspiel, soft strings, snowy and magical, sweet female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
 ```
 
 Lyrics:
@@ -204,7 +204,7 @@ Lyrics:
 
 Styles:
 ```
-call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy
+light jazzy swing shuffle, 112 bpm, upright bass, brushed drums, toy piano, clarinet, finger snaps, cheerful baker shop feeling, friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
 ```
 
 Lyrics:

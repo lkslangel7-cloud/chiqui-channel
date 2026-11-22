@@ -97,6 +97,8 @@ for s in SONGS:
     else:
         parts.append(box("Lyrics (가사)", s["id"] + "-l", s["lyrics"]))
     parts.append(box("Styles (스타일)", s["id"] + "-s", s["style"]))
+    if s.get("vocal"):
+        parts.append(f'<p class="note">More Options → <b>Vocal Gender: {e(s["vocal"])}</b></p>')
     cards.append(f'<article class="scene" id="{s["id"]}"><header class="scene-head"><h2>{e(s["title"])}</h2>'
                  f'<span class="time">{e(s["where"])}</span></header>{"".join(parts)}</article>')
     md += [f"## {s['title']}", "", f"- 자리: {s['where']}", f"- Title: {s['title']}",
@@ -131,7 +133,7 @@ page = f'''<title>{PAGE["title"]}</title>
       <li>유튜브 수익 창출을 하려면 Suno <b>유료 플랜(Pro 이상)</b>으로 만든 곡이어야 해요. 무료 플랜 곡은 상업적으로 쓸 수 없어요.</li>
     </ol>
     <table class="opts"><thead><tr><th>설정</th><th>값</th></tr></thead><tbody>
-      <tr><td>Vocal Gender</td><td><b>Female</b> (배경음악은 상관없음)</td></tr>
+      <tr><td>Vocal Gender</td><td>{"노래마다 아래에 적어 둠 (곡마다 다름)" if any(x.get("vocal") for x in SONGS) else "<b>Female</b> (배경음악은 상관없음)"}</td></tr>
       <tr><td>Duration</td><td>{PAGE["duration"]}</td></tr>
       <tr><td>Max Mode</td><td><b>Off</b></td></tr>
       <tr><td>Weirdness</td><td><b>20%</b> (낮을수록 무난하고 동요다운 곡)</td></tr>

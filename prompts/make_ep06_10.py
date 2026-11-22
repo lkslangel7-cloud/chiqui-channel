@@ -26,6 +26,10 @@ def img(refs, scene, extra="", close=False):
     return (f"Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. {head}{scene}{size}{nh}{cnt}"
             f"{(' ' + extra) if extra else ''} {'' if close else FULL}Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). {STYLE}")
 
+# 2026-11-22: 노래가 다 비슷해서 11화부터 화마다 장르·빠르기·악기·목소리를 다르게 (prompts/song_styles.json)
+import json as _j, pathlib as _pl
+_SS = _j.loads((_pl.Path(__file__).resolve().parent / "song_styles.json").read_text(encoding="utf-8")) if (_pl.Path(__file__).resolve().parent / "song_styles.json").exists() else {}
+
 def vid(refs, action):
     if len(refs) == 1:
         only = f"The camera stays still. {NM[refs]} is the only creature in the frame. ONLY {NM[refs]} is in this scene from start to end; no other character, animal or creature appears at any time. "
@@ -231,7 +235,7 @@ def write(ep, e):
                    note="마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
                    duration="<b>Custom</b> — 65~70초.",
                    songs=[dict(id=e["song_id"], title=e["short"], short=e["song_short"], where="0:55–1:55 · 시리즈 후렴 틀", inst=False,
-                               style="call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}", lyrics=lyr)]),
+                               style=_SS.get(ep, {}).get("style", "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}"), vocal=_SS.get(ep, {}).get("vocal", "Female"), lyrics=lyr)]),
               open(d / "songs.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     out = [dict(id=a, name=b, time=c, refs=list(r), sec=s, img=i, vid=vv) for a, b, c, r, s, i, vv in sc]
     (d / "scenes.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")

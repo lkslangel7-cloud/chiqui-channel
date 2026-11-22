@@ -1,7 +1,7 @@
 {
   "title": "치키 16~20화 노래",
   "h1": "16~20화 · 노래 5곡 (Suno)",
-  "lead": "16~20화 노래 5곡이에요(목욕·아야·차례·첫눈·빵집). 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "lead": "16~20화 노래 5곡이에요(목욕·아야·차례·첫눈·빵집). 이번엔 화마다 장르·빠르기·악기·목소리를 다르게 했어요(후렴 첫 줄 \"쿵쿵 쾅!\"과 끝 \"치키치키 ○○!\"만 시리즈 표시로 같아요). 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
   "note": "마지막 후렴 끝(치키치키 ○○!)까지 나오는지 들어 보고, WAV로 받아 올려 주세요. 몇 화 노래인지 알려 주세요.",
   "duration": "<b>Custom</b> — 65~70초.",
   "songs": [
@@ -11,8 +11,9 @@
       "short": "16화",
       "where": "16화 노래 · 0:55–1:55",
       "inst": false,
-      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
-      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n목욕하자 뽀글뽀글 (뽀글뽀글!)\n머리부터 발끝까지\n치키치키 깨끗!\n\n[Verse 1]\n머리를 쓱쓱쓱\n치키 뿔도 반짝\n뽀글뽀글 (뽀글!)\n\n[Verse 2]\n꼬리를 쓱쓱쓱\n크앙! 로로 꼬리\n뽀글뽀글 (뽀글!)\n\n[Verse 3]\n목을 쭈욱 쓱쓱\n토롱 긴 목도\n뽀글뽀글 (뽀글!)\n\n[Verse 4]\n날개를 팔랑 쓱쓱\n슝~ 피오 날개\n뽀글뽀글 (뽀글!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n목욕하자 뽀글뽀글 (뽀글뽀글!)\n머리부터 발끝까지\n치키치키 깨끗!\n\n[End]"
+      "style": "bubbly bossa-nova bath song, 100 bpm, steel drum, nylon guitar, shakers, soft bubble pop sounds, splashy and relaxed, light airy female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n목욕하자 뽀글뽀글 (뽀글뽀글!)\n머리부터 발끝까지\n치키치키 깨끗!\n\n[Verse 1]\n머리를 쓱쓱쓱\n치키 뿔도 반짝\n뽀글뽀글 (뽀글!)\n\n[Verse 2]\n꼬리를 쓱쓱쓱\n크앙! 로로 꼬리\n뽀글뽀글 (뽀글!)\n\n[Verse 3]\n목을 쭈욱 쓱쓱\n토롱 긴 목도\n뽀글뽀글 (뽀글!)\n\n[Verse 4]\n날개를 팔랑 쓱쓱\n슝~ 피오 날개\n뽀글뽀글 (뽀글!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n목욕하자 뽀글뽀글 (뽀글뽀글!)\n머리부터 발끝까지\n치키치키 깨끗!\n\n[End]",
+      "vocal": "Female"
     },
     {
       "id": "e17",
@@ -20,8 +21,9 @@
       "short": "17화",
       "where": "17화 노래 · 0:55–1:55",
       "inst": false,
-      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
-      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n아야! 괜찮아? (괜찮아?)\n친구가 곁에 있어\n치키치키 힘내!\n\n[Verse 1]\n아야 아야 무릎이\n크앙! 로로가 와서\n토닥토닥 (토닥!)\n\n[Verse 2]\n아야 아야 눈물이\n쭈욱~ 토롱이 와서\n괜찮아 괜찮아 (괜찮아!)\n\n[Verse 3]\n아야 아야 아파요\n슝~ 피오가 와서\n호~ 불어 줘 (호~!)\n\n[Verse 4]\n주황 반창고 붙이고\n이제 괜찮아 (괜찮아!)\n웃음이 쏙 (하하!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n아야! 괜찮아? (괜찮아?)\n친구가 곁에 있어\n치키치키 힘내!\n\n[End]"
+      "style": "tender comforting ballad, 80 bpm, soft piano and warm strings, gentle humming, slow and caring, soft female lead, ends hopeful and bright, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n아야! 괜찮아? (괜찮아?)\n친구가 곁에 있어\n치키치키 힘내!\n\n[Verse 1]\n아야 아야 무릎이\n크앙! 로로가 와서\n토닥토닥 (토닥!)\n\n[Verse 2]\n아야 아야 눈물이\n쭈욱~ 토롱이 와서\n괜찮아 괜찮아 (괜찮아!)\n\n[Verse 3]\n아야 아야 아파요\n슝~ 피오가 와서\n호~ 불어 줘 (호~!)\n\n[Verse 4]\n주황 반창고 붙이고\n이제 괜찮아 (괜찮아!)\n웃음이 쏙 (하하!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n아야! 괜찮아? (괜찮아?)\n친구가 곁에 있어\n치키치키 힘내!\n\n[End]",
+      "vocal": "Female"
     },
     {
       "id": "e18",
@@ -29,8 +31,9 @@
       "short": "18화",
       "where": "18화 노래 · 0:55–1:55",
       "inst": false,
-      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
-      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n내 차례 네 차례 (차례 차례!)\n한 줄로 서서\n치키치키 슝!\n\n[Verse 1]\n하나 치키 슝~\n미끄럼틀 쭈욱\n내 차례 끝 (끝!)\n\n[Verse 2]\n둘 로로 슝~\n크앙! 신나게\n네 차례야 (네 차례!)\n\n[Verse 3]\n셋 토롱 슝~\n쭈욱~ 긴 목도\n네 차례야 (네 차례!)\n\n[Verse 4]\n넷 피오 슝~\n작은 날개 펴고\n네 차례야 (네 차례!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n내 차례 네 차례 (차례 차례!)\n한 줄로 서서\n치키치키 슝!\n\n[End]"
+      "style": "playful clap-and-chant song, 104 bpm, finger snaps, handclaps, funky bass, slide whistle 'whee' on every slide, kids choir chanting, cheeky female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n내 차례 네 차례 (차례 차례!)\n한 줄로 서서\n치키치키 슝!\n\n[Verse 1]\n하나 치키 슝~\n미끄럼틀 쭈욱\n내 차례 끝 (끝!)\n\n[Verse 2]\n둘 로로 슝~\n크앙! 신나게\n네 차례야 (네 차례!)\n\n[Verse 3]\n셋 토롱 슝~\n쭈욱~ 긴 목도\n네 차례야 (네 차례!)\n\n[Verse 4]\n넷 피오 슝~\n작은 날개 펴고\n네 차례야 (네 차례!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n내 차례 네 차례 (차례 차례!)\n한 줄로 서서\n치키치키 슝!\n\n[End]",
+      "vocal": "Female"
     },
     {
       "id": "e19",
@@ -38,8 +41,9 @@
       "short": "19화",
       "where": "19화 노래 · 0:55–1:55",
       "inst": false,
-      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
-      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n하얀 눈이 펄펄 (펄펄!)\n친구들아 같이 놀자\n치키치키 눈 놀이!\n\n[Verse 1]\n하얀 눈이 펄펄\n크앙! 로로가\n눈을 데굴데굴 (데굴!)\n\n[Verse 2]\n눈덩이 하나 둘\n쭈욱~ 토롱이\n높이 올려 (영차!)\n\n[Verse 3]\n동글동글 까만 눈\n슝~ 피오가\n콕콕 붙여 (콕!)\n\n[Verse 4]\n무엇이 필요할까?\n두리번 두리번 (어디 있지?)\n동글동글 코 (코!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n하얀 눈이 펄펄 (펄펄!)\n친구들아 같이 놀자\n치키치키 눈 놀이!\n\n[End]"
+      "style": "twinkly winter waltz in 3/4 time, 92 bpm, sleigh bells, celesta, glockenspiel, soft strings, snowy and magical, sweet female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n하얀 눈이 펄펄 (펄펄!)\n친구들아 같이 놀자\n치키치키 눈 놀이!\n\n[Verse 1]\n하얀 눈이 펄펄\n크앙! 로로가\n눈을 데굴데굴 (데굴!)\n\n[Verse 2]\n눈덩이 하나 둘\n쭈욱~ 토롱이\n높이 올려 (영차!)\n\n[Verse 3]\n동글동글 까만 눈\n슝~ 피오가\n콕콕 붙여 (콕!)\n\n[Verse 4]\n무엇이 필요할까?\n두리번 두리번 (어디 있지?)\n동글동글 코 (코!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n하얀 눈이 펄펄 (펄펄!)\n친구들아 같이 놀자\n치키치키 눈 놀이!\n\n[End]",
+      "vocal": "Female"
     },
     {
       "id": "e20",
@@ -47,8 +51,9 @@
       "short": "20화",
       "where": "20화 노래 · 0:55–1:55",
       "inst": false,
-      "style": "call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, {BASE}",
-      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n빵 사세요 빵집 (빵집!)\n주세요 고맙습니다\n치키치키 빵집!\n\n[Verse 1]\n노란 옥수수빵\n크앙! 로로가\n하나 주세요 (주세요!)\n\n[Verse 2]\n초록 빵 동글동글\n쭈욱~ 토롱이\n하나 주세요 (주세요!)\n\n[Verse 3]\n파란 블루베리빵\n슝~ 피오가\n하나 주세요 (주세요!)\n\n[Verse 4]\n보라 포도빵 하나\n할아버지 빵인데 (어디 갔지?)\n냠냠 소리 (냠!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n빵 사세요 빵집 (빵집!)\n주세요 고맙습니다\n치키치키 빵집!\n\n[End]"
+      "style": "light jazzy swing shuffle, 112 bpm, upright bass, brushed drums, toy piano, clarinet, finger snaps, cheerful baker shop feeling, friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n빵 사세요 빵집 (빵집!)\n주세요 고맙습니다\n치키치키 빵집!\n\n[Verse 1]\n노란 옥수수빵\n크앙! 로로가\n하나 주세요 (주세요!)\n\n[Verse 2]\n초록 빵 동글동글\n쭈욱~ 토롱이\n하나 주세요 (주세요!)\n\n[Verse 3]\n파란 블루베리빵\n슝~ 피오가\n하나 주세요 (주세요!)\n\n[Verse 4]\n보라 포도빵 하나\n할아버지 빵인데 (어디 갔지?)\n냠냠 소리 (냠!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n빵 사세요 빵집 (빵집!)\n주세요 고맙습니다\n치키치키 빵집!\n\n[End]",
+      "vocal": "Male"
     }
   ]
 }
