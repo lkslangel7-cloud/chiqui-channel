@@ -13,3 +13,4 @@
 - 1차(2026-11-21) 16장 받음, 14장 합격: S02 rQyHqPQhVjQ, S03 2g8Ccw4rSwg, S04 i6OzXs6OHdg, S05 XkmT0hHdUso(빵 5개 노랑·초록·파랑·보라·주황), S06 a3DgGEE5Uf8, S07 xYjljXWdVGk, S09 1moWgSIk_po, S10 j8b4F_dG00k(토롱 입으로 받음), S11 buXR_ityi_8, S12 78xshCUDW8Y(빈 접시), S13 kYEVQMS1DOI, S14 f6nGLVyS7nY(모자에 보라 띠 — 작은 차이, 합격), S16 yLvvdPVNTsM, S17 lVPCnn6X2Zk. 가판대 모양 모두 같음.
 - 불합격: S15 DTaswAfcqaM — 치키 제빵사 모자·앞치마가 없어짐(S14와 이어지지 않음, 프롬프트에 모자 빠졌던 탓). S18 7ao0gwHR56A — 토롱만 빵이 없음. 둘 다 프롬프트 고침(S15 흰 모자·주황 앞치마, S18 친구마다 빵 색·토롱은 담요 위 초록 빵을 입으로).
 - 2차(2026-11-21) 합격: S14 uFXzjBR-VUM(흰 모자 띠 없음, 보라 부스러기 — 1차 f6nGLVyS7nY 대신), S15 acl5UxqwFWs(치키 흰 모자·주황 앞치마, 보라 부스러기), S18 hdSApSv02DY(빵 5개, 토롱 초록 빵은 담요 위 — 영상에서 토롱이 고개 숙여 한 입). **20화 그림 16장 모두 완료.** 다음: 영상.
+- S17 영상 E5GmCLy5tgQ 불합격(2026-11-22, 사용자 지적): 빵이 보라 포도빵이 아니라 노릇한 갈색 빵, 가까이서 시작(합격 그림 lVPCnn6X2Zk로 시작 안 한 듯). 영상 프롬프트에 "시작 그림과 같은 보라 포도빵, 끝까지 보라, 줌 없음" 고정.
