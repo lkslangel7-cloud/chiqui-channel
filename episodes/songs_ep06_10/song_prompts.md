@@ -1,4 +1,4 @@
-# 6~10화 · 노래 5곡 (Suno)
+# 6~10화 · 노래 다시 만들기 (Suno)
 
 Suno → Create → Custom. 칸마다 그대로 붙여 넣는다.
 
@@ -12,7 +12,7 @@ More Options: Vocal Gender Female / Duration Custom(오프닝·엔딩 20초, 알
 
 Styles:
 ```
-call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy
+bouncy ska-pop hand-washing song, 112 bpm, offbeat guitar skank, trumpet stabs, bubbly synth pops, scrubbing shaker, splashy fun, bright female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
 ```
 
 Lyrics:
@@ -60,7 +60,7 @@ Lyrics:
 
 Styles:
 ```
-call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy
+groovy disco-pop, 110 bpm, funky bass line, wah guitar, four-on-the-floor kick, handclaps, sparkly strings, friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
 ```
 
 Lyrics:
@@ -108,7 +108,7 @@ Lyrics:
 
 Styles:
 ```
-call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy
+sneaky detective tiptoe song, 96 bpm, walking pizzicato double bass, muted trumpet, vibraphone, finger snaps, curious and playful, whispery-then-bright male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
 ```
 
 Lyrics:
@@ -156,7 +156,7 @@ Lyrics:
 
 Styles:
 ```
-call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy
+soft dreamy lullaby, 72 bpm, music box, harp, warm pad, gentle humming, sleepy and peaceful, very soft female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
 ```
 
 Lyrics:
@@ -204,7 +204,7 @@ Lyrics:
 
 Styles:
 ```
-call-and-response with short pauses for kids to echo, slow easy tempo 96 bpm, toddler sing-along nursery song, Korean lyrics, clear slow pronunciation, simple melody with small note range, warm female lead with kids choir, ukulele, marimba, glockenspiel, soft handclaps, gentle dinosaur stomp drum, major key, cheerful and cozy
+upbeat toy-robot electro-pop cleanup song, 118 bpm, bouncy synth bass, toy robot bleeps, claps, kids chanting, energetic female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
 ```
 
 Lyrics:
@@ -218,17 +218,17 @@ Lyrics:
 [Verse 1]
 공을 굴려 데굴데굴
 크앙! 로로가 쏙
-노란 상자 쏙 (쏙!)
+노란 상자에 쏙 (쏙!)
 
 [Verse 2]
 블록 높이 차곡차곡
 쭈욱~ 토롱이 쏙
-초록 상자 쏙 (쏙!)
+초록 상자에 쏙 (쏙!)
 
 [Verse 3]
 비행기가 슝슝슝
 슝~ 피오가 쏙
-파란 상자 쏙 (쏙!)
+파란 상자에 쏙 (쏙!)
 
 [Verse 4]
 치키 자동차 부릉부릉
