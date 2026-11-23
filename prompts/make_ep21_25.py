@@ -173,9 +173,13 @@ EPS["ep23"] = dict(
  ]))
 
 # ---------------- 24화 동글 네모 세모 (모양 블록) ----------------
-MAT = "On a soft cream play mat on the sunny meadow. "
+MAT = ("On THE SAME play mat in every scene: one ROUND plain soft cream play mat with a thin pale-yellow rim and NO dots or patterns, on the sunny meadow. "
+       "The ONLY toy blocks in the whole episode are these four, always exactly this shape and color: one YELLOW square block (a chunky flat-faced cube), "
+       "one tall GREEN rectangle block (a plain smooth upright box twice as tall as the yellow square, with NO door lines, NO knob and NO rounded top), "
+       "one SKY-BLUE circle block (a flat round disc, solid, not a ring), and one ORANGE triangle block (a flat triangle prism). "
+       "NO other blocks anywhere: no blue cube, no yellow cylinder, no green arch, no red ball, no other toys. ")
 BLK = "smooth chunky clay toy blocks with no letters, no numbers and no pictures"
-HOUSE = ("a little block house on the mat: one YELLOW square block as the wall, one tall GREEN rectangle block as the door standing next to it, "
+HOUSE = ("a little block house on the mat: the YELLOW square block as the wall, the tall plain GREEN rectangle block (no knob, no door lines) standing right next to it as the door, "
          "and one SKY-BLUE circle block as a round window on the yellow wall")
 HAT = "Chiqui wears one ORANGE triangle block on top of the head like a little hat"
 EPS["ep24"] = dict(
