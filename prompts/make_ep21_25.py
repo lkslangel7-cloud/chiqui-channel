@@ -126,9 +126,8 @@ EPS["ep22"] = dict(
  ]))
 
 # ---------------- 23화 공룡 마을 운동회 ----------------
-FIELD = ("On THE SAME sunny flat grass field in every scene, with palm trees and the far volcano. The track is marked by ONLY ONE thin straight white chalk line "
-         "that runs from right to left across the LOWER part of the picture, IN FRONT of everyone (closer to the viewer than any character). Everyone stands, runs, walks or sits on the green grass BEHIND that line, "
-         "a little farther from the viewer; no feet, body or tail ever touches or stands on the line, and no second line crosses behind them. ")
+FIELD = ("On THE SAME sunny flat plain green grass field in every scene, with palm trees and the far volcano. "
+         "There are NO lines, NO chalk marks, NO painted stripes and NO lanes on the grass anywhere: the grass is plain green everywhere. ")
 FINISH = "one finish line on the LEFT side of the track: two short light-wood posts with ONE cream-white ribbon stretched between them"
 MEDALS = "Chiqui wears an ORANGE ribbon medal, Roro a YELLOW ribbon medal, Torong a GREEN ribbon medal, Pio a SKY-BLUE ribbon medal (each a simple round medal on a ribbon around the neck)"
 EPS["ep23"] = dict(
@@ -145,25 +144,25 @@ EPS["ep23"] = dict(
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "공룡 마을 운동회 (운동회!)", "하나 둘 하나 둘", "치키치키 달려!"],
  scenes=scenes([
   ("오늘은 운동회!", "CRTP", FIELD + "Chiqui, Roro, Torong and Pio stand on the grass next to the track and cheer.", "", False, "The friends cheer and bounce on the spot."),
-  ("준비~", "B", FIELD + f"{D['B']} stands next to the track holding up one small PURPLE flag, smiling.", "Exactly one purple flag.", False,
+  ("준비~", "B", FIELD + f"{D['B']} stands on the grass holding up one small PURPLE flag, smiling.", "Exactly one purple flag.", False,
    "Grandpa Bau raises the purple flag high once and smiles. The camera stays still."),
-  ("출발선", "CRTP", FIELD + "Chiqui, Roro, Torong and Pio stand side by side on the grass behind the white line, on the RIGHT side of the picture, all facing LEFT, ready to go.", "", False,
+  ("출발선", "CRTP", FIELD + "Chiqui, Roro, Torong and Pio stand side by side on the grass on the RIGHT side of the picture, all facing LEFT, ready to go.", "", False,
    "The friends crouch a little, ready, and wiggle with excitement. They do not run yet."),
-  ("출발!", "CRTP", FIELD + "Chiqui, Roro, Torong and Pio run along the track toward the LEFT, happy.", "", False,
+  ("출발!", "CRTP", FIELD + "Chiqui, Roro, Torong and Pio run across the grass toward the LEFT, happy.", "", False,
    "Everyone runs a few steps to the LEFT and stays inside the frame. The camera stays still."),
-  ("응원해요", "B", FIELD + f"{D['B']} cheers next to the track, waving the small PURPLE flag.", "", False,
+  ("응원해요", "B", FIELD + f"{D['B']} cheers on the grass, waving the small PURPLE flag.", "", False,
    "Grandpa Bau waves the purple flag left and right and cheers."),
-  ("열심히!", "C", FIELD + f"Side view of {D['C']} running along the track toward the LEFT with a determined smile.", "", True,
+  ("열심히!", "C", FIELD + f"Side view of {D['C']} running across the grass toward the LEFT with a determined smile.", "", True,
    "Chiqui runs in place toward the LEFT with quick little steps; the camera stays still."),
-  ("로로 달리기", "R", FIELD + f"{D['R']} runs fast along the track toward the LEFT, smiling.", "", False,
+  ("로로 달리기", "R", FIELD + f"{D['R']} runs fast across the grass toward the LEFT, smiling.", "", False,
    "Roro runs quickly toward the LEFT, hops once and roars happily; stays inside the frame."),
-  ("토롱 큰 공 굴리기", "T", FIELD + f"{D['T']} walks along the track toward the LEFT, gently pushing one big GREEN ball with the nose; the ball is right in front of Torong's nose on the grass.", "Exactly one green ball.", False,
+  ("토롱 큰 공 굴리기", "T", FIELD + f"{D['T']} walks across the grass toward the LEFT, gently pushing one big GREEN ball with the nose; the ball is right in front of Torong's nose on the grass.", "Exactly one green ball.", False,
    NEAR + "Torong nudges the green ball with the nose; the ball rolls slowly to the LEFT and Torong follows with two slow steps."),
-  ("피오 하늘 달리기", "P", FIELD + f"{D['P']} flies low above the track toward the LEFT with wings wide open.", "", False,
+  ("피오 하늘 달리기", "P", FIELD + f"{D['P']} flies low above the grass toward the LEFT with wings wide open.", "", False,
    "Pio flaps and glides to the LEFT, staying inside the frame. The camera stays still."),
-  ("어이쿠!", "C", FIELD + f"{D['C']} has just tripped and sits softly on the grass of the track, surprised but not hurt, no tears.", "", False,
+  ("어이쿠!", "C", FIELD + f"{D['C']} has just tripped and sits softly on the grass, surprised but not hurt, no tears.", "", False,
    "Chiqui wobbles and sits down softly on the grass, then blinks, surprised. Chiqui is not hurt."),
-  ("기다려 줄게", "RTP", FIELD + "Roro, Torong and Pio have stopped on the track and turned back toward the RIGHT, smiling kindly and waiting.", "", False,
+  ("기다려 줄게", "RTP", FIELD + "Roro, Torong and Pio have stopped on the grass and turned back toward the RIGHT, smiling kindly and waiting.", "", False,
    "The friends turn around and wave gently to come along. Torong sways the neck; all four feet stay on the ground."),
   ("친구들은 어떻게 할까?", "C", FIELD + f"Close view of {D['C']} sitting on the grass, looking at the viewer hopefully.", "", True,
    "Chiqui looks at the viewer and tilts the head. The camera stays still."),
