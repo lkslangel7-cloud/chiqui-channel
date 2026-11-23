@@ -266,7 +266,7 @@ EPS["ep25"] = dict(
    "Chiqui hangs the orange ball on the branch; it stays there and swings a little. Chiqui cheers."),
   ("노란 방울", "R", SNOWV + f"{D['R']} wearing a YELLOW scarf hangs one shiny YELLOW ball on {XTREE}; one ORANGE ball already hangs on the tree. The very top of the tree is EMPTY (just a bare green tip): NO star on the tree and NO star anywhere in the picture.", "Exactly two balls and NO star on the tree.", False,
    "Roro hangs the yellow ball on the branch; it stays there and swings a little. Roro claps."),
-  ("하얀 별은 맨 위에", "T", SNOWV + f"{D['T']} wearing a GREEN scarf stands right next to {XTREE} and gently sets one small white star on the very top with the mouth; an ORANGE and a YELLOW ball hang on the tree.", "Exactly one star.", False,
+  ("하얀 별은 맨 위에", "T", SNOWV + f"{D['T']} wearing a GREEN scarf stands right next to {XTREE} and gently sets one small white star on the very top with the mouth; only TWO balls hang on the tree: the ORANGE ball (right side of the middle tier) and the YELLOW ball (left side of the bottom tier). There is NO sky-blue ball yet: the left side of the top tier is empty.", "Exactly two balls and one star on the tree; no sky-blue ball.", False,
    NEAR + "Torong sets the white star on the treetop and lifts the head; the star stays on the top."),
   ("하늘색 방울", "P", SNOWV + f"{D['P']} wearing a SKY-BLUE scarf flies next to {XTREE} and hangs one shiny SKY-BLUE ball on a branch with the beak; now the tree has an ORANGE ball, a YELLOW ball, a SKY-BLUE ball and a white star on top.", "Exactly three balls and one star.", False,
    "Pio hangs the sky-blue ball; it stays there. Pio flaps happily."),
