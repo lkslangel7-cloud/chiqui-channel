@@ -8,7 +8,7 @@ import html, json, subprocess, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-out = Path(sys.argv[1]); (out / "v").mkdir(parents=True, exist_ok=True); (out / "t").mkdir(exist_ok=True)
+out = Path(sys.argv[1]); (out / "v").mkdir(parents=True, exist_ok=True); (out / "t").mkdir(exist_ok=True); (out / "th").mkdir(exist_ok=True); out_dir = out
 eps = json.loads((ROOT / "episodes/videos.json").read_text(encoding="utf-8"))
 
 def dur(p):
@@ -41,6 +41,13 @@ def upload(ep):
         elif name == "설정":
             txt = re.sub(r"`([^`]*)`", r"\1", rest.strip())
             out.append(f'<div class="setting"><span>설정</span><p>{e(txt).replace(chr(10), "<br>")}</p></div>')
+    th = out_dir / f"th/ep{ep}.jpg"
+    if (ROOT / f"episodes/ep{ep}/thumbnail.png").exists():
+        if not th.exists():
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(ROOT / f"episodes/ep{ep}/thumbnail.png"), "-q:v", "2", str(th)], check=True)
+        out.insert(0, f'<figure class="thumb"><figcaption><span>썸네일 (1280×720)</span><span>원본 <code>episodes/ep{ep}/thumbnail.png</code></span></figcaption>'
+                      f'<img src="th/ep{ep}.jpg" alt="{int(ep)}화 썸네일" loading="lazy" width="1280" height="720">'
+                      f'<p class="hint">사진을 길게 누르거나 오른쪽 클릭해서 저장할 수 있어요. 영어·스페인어 채널용은 같은 폴더의 thumbnail_en.png, thumbnail_es.png예요.</p></figure>')
     return f'<section class="yt"><h3>유튜브 올릴 정보</h3>{"".join(out)}</section>' if out else ""
 
 tabs, panels = [], []
@@ -119,6 +126,7 @@ code {{ font-size: 0.85rem; background: var(--surface); border: 1px solid var(--
 .copy.done {{ background: var(--accent); color: var(--accent-ink); }}
 .copy:focus-visible {{ outline: 3px solid var(--accent); outline-offset: 2px; }}
 .setting {{ font-size: 0.88rem; color: var(--muted); }} .setting span {{ font-size: 0.78rem; letter-spacing: 0.04em; }} .setting p {{ margin: 2px 0 0; color: var(--ink); overflow-wrap: anywhere; }}
+.thumb {{ margin: 0; display: grid; gap: 6px; min-width: 0; }} .thumb img {{ width: 100%; max-width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); display: block; }} .thumb figcaption {{ display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; font-size: 0.85rem; color: var(--muted); }}
 </style>
 <div class="wrap">
   <header><h1>치키 타운 완성 영상</h1><p class="sub">완성 {ndone}편 · 탭을 눌러 화마다 볼 수 있어요</p></header>
