@@ -231,7 +231,8 @@ EPS["ep24"] = dict(
  ]))
 
 # ---------------- 25화 반짝반짝 크리스마스 ----------------
-SNOWV = "In the snowy volcano-island village with soft white snow on the ground and palm trees, gently falling snowflakes. "
+SNOWV = ("In the snowy volcano-island village with soft white snow on the ground and palm trees, gently falling snowflakes. "
+         "The palm trees are plain with only snow on them: NO string lights, NO hanging stars, NO ornaments on any palm tree or house; the only Christmas decorations are the ones named in this scene. ")
 XTREE = ("THE SAME Christmas tree in every scene: one small smooth cone-shaped green clay pine tree standing alone on the snow, "
          "a little shorter than Torong's head" + ". It is always a green PINE (fir) tree, NEVER a palm tree. The tree has three rounded tiers and NO snow on its branches. The ornament spots NEVER change (as seen by the viewer): the ORANGE ball always hangs on the RIGHT side of the MIDDLE tier, the YELLOW ball always hangs on the LEFT side of the BOTTOM tier, the SKY-BLUE ball always hangs on the LEFT side of the TOP tier, and the white star goes on the very top only after Torong puts it there. Only the ornaments named in this scene are on the tree: a ball or star that is not named is NOT on the tree")
 DECO = ("THE SAME small green PINE Christmas tree (never a palm tree, no palm tree has lights), decorated with EXACTLY three round balls (one ORANGE, one YELLOW, one SKY-BLUE), "
