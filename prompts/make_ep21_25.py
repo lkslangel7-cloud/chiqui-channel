@@ -179,11 +179,12 @@ MAT = ("On THE SAME play mat in every scene: one ROUND plain soft cream play mat
        "one SKY-BLUE circle block (a flat round disc, solid, not a ring), and one ORANGE triangle block (a flat triangle prism). "
        "NO other blocks anywhere: no blue cube, no yellow cylinder, no green arch, no red ball, no other toys. ")
 BLK = "smooth chunky clay toy blocks with no letters, no numbers and no pictures"
-HOUSE = ("a little block house on the mat: the YELLOW square block as the wall, the tall plain GREEN rectangle block (no knob, no door lines) standing right next to it as the door, "
+HOUSE = ("a little block house on the mat: the YELLOW square block as the wall, the tall plain GREEN rectangle block (no knob, no door lines, twice as tall as the yellow square) standing right next to it SIDE BY SIDE on the same line (not behind it) as the door, "
          "and one SKY-BLUE circle block as a round window on the yellow wall")
 DONE = ("the finished block house exactly like this: the YELLOW square block stands on the mat with the SKY-BLUE circle pressed flat onto its FRONT face as a round window (the circle is NOT on top), "
         "the tall GREEN rectangle stands on the mat right next to it as the door, and the ORANGE triangle lies on top across both as the roof")
-HAT = "Chiqui wears one ORANGE triangle block on top of the head like a little hat"
+HAT = ("Chiqui wears the ORANGE triangle block on top of the head like a little hat: a small FLAT triangle toy block with straight sharp edges, "
+       "about as wide as the yellow square block, sitting ABOVE the frill on top of the head; it is clearly a separate toy block, not part of the frill or a horn, and it is not tall or cone-shaped")
 EPS["ep24"] = dict(
  title="24화. 동글 네모 세모! — 모양 블록 집 짓기", short="동글 네모 세모!", song_id="shape", song_short="모양 노래",
  theme="모양(동그라미·네모·세모) 이름, 블록 쌓기. 블록은 친구 몸 색.",
