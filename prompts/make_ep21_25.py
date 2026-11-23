@@ -73,6 +73,8 @@ EPS["ep21"] = dict(
 # ---------------- 22화 토닥토닥 모래성 (바닷가) ----------------
 BEACH = "On a sunny sandy beach of the volcano island with soft turquoise waves, a few palm trees and the far volcano. "
 SHELLS = "Chiqui's ORANGE shell, Roro's YELLOW shell, Torong's GREEN shell, Pio's SKY-BLUE shell"
+BIG = ("one big sandcastle (THE SAME in S17 and S18): a wide sand wall with little square bumps on top, two round towers each with ONE small flag (left flag ORANGE, right flag YELLOW), "
+       "a round arch door in the middle, and EXACTLY four shells in one row on the front: ORANGE, YELLOW, GREEN, SKY-BLUE (no pink, no purple, no white shells, no other shells)")
 CASTLE = "one small round sandcastle (a big round sand mound with one round tower on top, smooth clay-like sand, no flags)"
 EPS["ep22"] = dict(
  title="22화. 토닥토닥 모래성! — 바닷가 모래 놀이", short="토닥토닥 모래성!", song_id="sand", song_short="모래성 노래",
@@ -106,7 +108,7 @@ EPS["ep22"] = dict(
    "Pio presses the sky-blue shell onto the castle; it stays there. Pio flaps once happily."),
   ("주황 조개 창문", "C", BEACH + f"{D['C']} presses one ORANGE shell onto {CASTLE}; now the castle has four shell windows: {SHELLS}.", "Exactly four shells on the castle.", False,
    "Chiqui presses the orange shell on; all four shells stay on the castle. Chiqui cheers."),
-  ("앗! 파도다!", "CRTP", BEACH + f"Chiqui, Roro, Torong and Pio stand next to {CASTLE} with four shell windows and look surprised at one big gentle wave rolling toward it.", "", False,
+  ("앗! 파도다!", "CRTP", BEACH + f"Chiqui, Roro, Torong and Pio stand next to {CASTLE} with four shell windows and look surprised at one big gentle wave rolling toward it. The castle has EXACTLY four shells, the same as before: " + SHELLS + "; no pink, purple or white shells.", "Exactly four shells on the castle.", False,
    "One big gentle wave rolls in toward the sandcastle; the friends step back, surprised."),
   ("모래성은 어떻게 됐을까?", "C", BEACH + f"Close view of {D['C']} looking at the viewer with a worried face, wet sand behind.", "", True,
    "Chiqui looks at the viewer and tilts the head. The camera stays still."),
@@ -114,9 +116,9 @@ EPS["ep22"] = dict(
    "The friends sigh, then smile and nod to each other. The flat wet sand stays flat."),
   ("공룡 시대에도", "B", BEACH + f"{D['B']} holds one big PURPLE spiral shell and smiles wisely.", "Exactly one shell.", False,
    "Grandpa Bau holds up the purple shell and nods. The camera stays still."),
-  ("다시 더 크게!", "CRTP", BEACH + f"Further up the beach, away from the waves, Chiqui, Roro, Torong and Pio build a BIGGER round sandcastle with two towers together; the four shells ({SHELLS}) are on it.", "Exactly one sandcastle and four shells.", False,
+  ("다시 더 크게!", "CRTP", BEACH + f"Further up the beach, away from the waves, Chiqui, Roro, Torong and Pio build {BIG} together.", "Exactly one sandcastle and four shells.", False,
    "The friends pat the big sandcastle together; it stays standing with all four shells."),
-  ("모래성 최고!", "BCRTP", BEACH + "All five friends stand behind the big round sandcastle with two towers and four shell windows, facing the viewer and cheering. Grandpa Bau, Chiqui and Roro each wave ONE front paw, Pio waves one wing, Torong tilts the long neck and head to one side.", "Exactly one sandcastle.", False,
+  ("모래성 최고!", "BCRTP", BEACH + "All five friends stand behind " + BIG + ", facing the viewer and cheering. Grandpa Bau, Chiqui and Roro each wave ONE front paw, Pio waves one wing, Torong tilts the long neck and head to one side.", "Exactly one sandcastle.", False,
    "Grandpa Bau, Chiqui, Roro and Pio wave at the viewer; Torong sways the long neck side to side with all four feet on the sand; the sandcastle stays."),
  ]))
 
