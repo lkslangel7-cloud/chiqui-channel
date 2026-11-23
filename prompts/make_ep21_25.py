@@ -167,7 +167,7 @@ EPS["ep23"] = dict(
   ("친구들은 어떻게 할까?", "C", FIELD + f"Close view of {D['C']} sitting on the grass, looking at the viewer hopefully.", "", True,
    "Chiqui looks at the viewer and tilts the head. The camera stays still."),
   ("다 같이 결승선", "CRTP", FIELD + f"Chiqui and Roro walk side by side holding paws, Pio flies next to them and Torong walks beside them, all toward {FINISH}, which is right in front of them.", "Exactly one ribbon.", False,
-   "The friends walk together to the LEFT through the finish line; the cream-white ribbon breaks and falls down softly. Everyone cheers."),
+   "Start exactly from the start image: the same two short wooden posts with ONE short ribbon between them stand on the LEFT, right in front of Chiqui and Roro; NO other posts, NO long fence and NO second ribbon ever appear. Chiqui and Roro, holding paws, take two steps to the LEFT into the ribbon; the ribbon snaps in the middle and its two halves fall softly to the grass; Pio flies and Torong walks right beside them. Everyone cheers. The camera stays still."),
   ("공룡도 친구랑", "B", FIELD + f"{D['B']} stands on all four feet on the grass, smiling warmly; in front of Grandpa Bau on the grass lie four medals in a row, each a plain round shiny GOLD disc on a ribbon: ORANGE ribbon, YELLOW ribbon, GREEN ribbon, SKY-BLUE ribbon (no rosettes, no petals). Grandpa Bau does not hold them.", "Exactly four medals. Grandpa Bau has exactly four legs.", False,
    "Grandpa Bau looks at the medals on the grass and nods warmly; all four feet stay on the grass. The medals keep their colors and do not move."),
   ("모두 1등!", "CRTP", FIELD + f"Chiqui, Roro, Torong and Pio stand together at the finish line, cheering; {MEDALS}.", "Exactly four medals.", False,
