@@ -128,7 +128,7 @@ EPS["ep22"] = dict(
 # ---------------- 23화 공룡 마을 운동회 ----------------
 FIELD = ("On THE SAME sunny flat plain green grass field in every scene, with palm trees and the far volcano. "
          "There are NO lines, NO chalk marks, NO painted stripes and NO lanes on the grass anywhere: the grass is plain green everywhere. ")
-FINISH = "one finish line on the LEFT side of the track: two short light-wood posts with ONE cream-white ribbon stretched between them"
+FINISH = "a finish on the LEFT side of the grass: two short light-wood posts (no line on the ground) with ONE cream-white ribbon stretched between them"
 MEDALS = "Chiqui wears an ORANGE ribbon medal, Roro a YELLOW ribbon medal, Torong a GREEN ribbon medal, Pio a SKY-BLUE ribbon medal (each a simple round medal on a ribbon around the neck)"
 EPS["ep23"] = dict(
  title="23화. 공룡 마을 운동회! — 같이 달려요", short="공룡 마을 운동회!", song_id="sports", song_short="운동회 노래",
@@ -143,7 +143,7 @@ EPS["ep23"] = dict(
  chorus="공룡 마을 운동회",
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "공룡 마을 운동회 (운동회!)", "하나 둘 하나 둘", "치키치키 달려!"],
  scenes=scenes([
-  ("오늘은 운동회!", "CRTP", FIELD + "Chiqui, Roro, Torong and Pio stand on the grass next to the track and cheer.", "", False, "The friends cheer and bounce on the spot."),
+  ("오늘은 운동회!", "CRTP", FIELD + "Chiqui, Roro, Torong and Pio stand on the grass and cheer.", "", False, "The friends cheer and bounce on the spot."),
   ("준비~", "B", FIELD + f"{D['B']} stands on the grass holding up one small PURPLE flag, smiling.", "Exactly one purple flag.", False,
    "Grandpa Bau raises the purple flag high once and smiles. The camera stays still."),
   ("출발선", "CRTP", FIELD + "Chiqui, Roro, Torong and Pio stand side by side on the grass on the RIGHT side of the picture, all facing LEFT, ready to go.", "", False,
