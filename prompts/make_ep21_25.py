@@ -103,7 +103,7 @@ EPS["ep22"] = dict(
    "Roro tips the yellow bucket; sand pours onto the mound and the mound gets a little taller and stays."),
   ("모래성 완성!", "CRTP", BEACH + f"Chiqui, Roro, Torong and Pio stand behind {CASTLE} on the sand, cheering. The castle is plain sand with no shells yet.", "Exactly one sandcastle.", False,
    "The friends cheer behind the sandcastle; the sandcastle stays the same."),
-  ("노란 조개 창문", "R", BEACH + CALM + f"{D['R']} presses one YELLOW shell onto {CASTLE} like a little window. " + ROW + "Only the 1st spot (far left) has the YELLOW shell.", "Exactly one shell on the castle.", False,
+  ("노란 조개 창문", "R", BEACH + CALM + f"{D['R']} presses one YELLOW shell onto {CASTLE} like a little window. " + ROW + "Roro stands on the LEFT side of the sandcastle and presses the YELLOW shell with one paw into the 1st spot on the far LEFT of the front face; the other three spots are plain sand. Only the 1st spot (far left) has the YELLOW shell.", "Exactly one shell on the castle.", False,
    "Roro presses the yellow shell onto the castle; the shell stays stuck there. Roro claps."),
   ("초록 조개 창문", "T", BEACH + CALM + f"{D['T']} stands right next to {CASTLE} and bends the neck down to press one GREEN shell onto it with the mouth. " + ROW + "The 1st spot has the YELLOW shell and Torong is pressing the GREEN shell into the 2nd spot right next to it with the mouth; Torong holds nothing else (no leaf, no second shell).", "Exactly two shells on the castle.", False,
    NEAR + "Torong gently presses the green shell onto the castle with the mouth and lifts the head; the green shell stays there."),
