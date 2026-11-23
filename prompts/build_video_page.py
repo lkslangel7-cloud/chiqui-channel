@@ -22,6 +22,27 @@ def status(ep):
     return [(a, b.replace("**", "")) for a, b in (r[:2] for r in rows if len(r) >= 2)]
 
 e = html.escape
+
+def upload(ep):
+    """upload_info.md에서 제목·설명·태그(복사 칸)와 설정(글)을 꺼낸다."""
+    f = ROOT / f"episodes/ep{ep}/upload_info.md"
+    if not f.exists(): return ""
+    import re
+    secs = re.split(r"^## ", f.read_text(encoding="utf-8"), flags=re.M)[1:]
+    out = []
+    for sec in secs:
+        name, _, rest = sec.partition("\n")
+        name = name.strip()
+        m = re.search(r"```\n(.*?)\n```", rest, re.S)
+        if m and name in ("제목", "설명", "태그"):
+            bid = f"u{ep}-{len(out)}"
+            out.append(f'<div class="copybox"><div class="cb-head"><span>{e(name)}</span>'
+                       f'<button type="button" class="copy" data-target="{bid}">복사</button></div><pre id="{bid}">{e(m.group(1))}</pre></div>')
+        elif name == "설정":
+            txt = re.sub(r"`([^`]*)`", r"\1", rest.strip())
+            out.append(f'<div class="setting"><span>설정</span><p>{e(txt).replace(chr(10), "<br>")}</p></div>')
+    return f'<section class="yt"><h3>유튜브 올릴 정보</h3>{"".join(out)}</section>' if out else ""
+
 tabs, panels = [], []
 for x in eps:
     ep = x["ep"]; n = int(ep); done = "file" in x
@@ -37,7 +58,7 @@ for x in eps:
         body = (f'<video controls preload="none" playsinline poster="t/ep{ep}.jpg" src="v/ep{ep}.mp4"></video>'
                 f'<dl class="facts"><div><dt>길이</dt><dd>{dur(src)}</dd></div><div><dt>주제</dt><dd>{e(x["theme"])}</dd></div>'
                 f'<div class="wide"><dt>원본 파일</dt><dd><code>output/{e(x["file"])}.mp4</code> · 자막 없는 판 <code>output/{e(x["file"])}_nosubs.mp4</code></dd></div></dl>'
-                f'<p class="hint">여기 영상은 미리보기용(작은 화질)이에요. 유튜브에는 원본 파일을 올려요.</p>')
+                f'<p class="hint">여기 영상은 미리보기용(작은 화질)이에요. 유튜브에는 원본 파일을 올려요.</p>' + upload(ep))
     else:
         rows = "".join(f"<li><span>{e(a)}</span><b>{e(b)}</b></li>" for a, b in status(ep))
         body = (f'<div class="wait"><p class="wait-h">아직 만드는 중이에요</p><p>노래·음성까지 받아 완성되면 이 탭에 영상이 들어가요.</p>'
@@ -89,6 +110,15 @@ code {{ font-size: 0.85rem; background: var(--surface); border: 1px solid var(--
 .prog {{ list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 4px; }}
 .prog li {{ display: flex; justify-content: space-between; gap: 12px; border-top: 1px solid var(--line); padding-top: 4px; }}
 .prog b {{ font-weight: 600; text-align: right; }}
+.yt {{ display: grid; gap: 10px; border-top: 1.5px solid var(--line); padding-top: 14px; }}
+.yt h3 {{ font-family: var(--display); font-weight: 400; font-size: 1.25rem; margin: 0; }}
+.copybox {{ background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; min-width: 0; }}
+.cb-head {{ display: flex; justify-content: space-between; align-items: center; padding: 6px 10px; border-bottom: 1px solid var(--line); font-size: 0.85rem; color: var(--muted); }}
+.copybox pre {{ margin: 0; padding: 10px 12px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: var(--body); font-size: 0.9rem; line-height: 1.55; max-height: 320px; overflow-y: auto; }}
+.copy {{ font: inherit; font-size: 0.85rem; border: 1.5px solid var(--accent); background: transparent; color: var(--ink); border-radius: 999px; padding: 2px 12px; cursor: pointer; }}
+.copy.done {{ background: var(--accent); color: var(--accent-ink); }}
+.copy:focus-visible {{ outline: 3px solid var(--accent); outline-offset: 2px; }}
+.setting {{ font-size: 0.88rem; color: var(--muted); }} .setting span {{ font-size: 0.78rem; letter-spacing: 0.04em; }} .setting p {{ margin: 2px 0 0; color: var(--ink); overflow-wrap: anywhere; }}
 </style>
 <div class="wrap">
   <header><h1>치키 타운 완성 영상</h1><p class="sub">완성 {ndone}편 · 탭을 눌러 화마다 볼 수 있어요</p></header>
@@ -102,6 +132,13 @@ function show(id) {{
   panels.forEach(p => {{ if (p.id !== id) {{ const v = p.querySelector('video'); if (v) v.pause(); }} p.hidden = p.id !== id; }});
   tabs.forEach(t => {{ const on = t.dataset.ep === id; t.setAttribute('aria-selected', on); if (on) t.scrollIntoView({{block: 'nearest', inline: 'center'}}); }});
 }}
+document.addEventListener('click', ev => {{
+  const b = ev.target.closest('.copy'); if (!b) return;
+  const pre = document.getElementById(b.dataset.target);
+  const ok = () => {{ b.textContent = '복사됨'; b.classList.add('done'); setTimeout(() => {{ b.textContent = '복사'; b.classList.remove('done'); }}, 1500); }};
+  const sel = () => {{ const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = '선택됨 · 복사하세요'; }};
+  try {{ navigator.clipboard.writeText(pre.textContent).then(ok, sel); }} catch (_) {{ sel(); }}
+}});
 addEventListener('hashchange', () => show(location.hash.slice(1)));
 show(location.hash.slice(1));
 </script>
