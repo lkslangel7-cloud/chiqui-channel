@@ -233,7 +233,9 @@ EPS["ep24"] = dict(
 # ---------------- 25화 반짝반짝 크리스마스 ----------------
 SNOWV = "In the snowy volcano-island village with soft white snow on the ground and palm trees, gently falling snowflakes. "
 XTREE = ("THE SAME Christmas tree in every scene: one small smooth cone-shaped green clay pine tree standing alone on the snow, "
-         "a little shorter than Torong's head")
+         "a little shorter than Torong's head" + ". It is always a green PINE (fir) tree, NEVER a palm tree")
+DECO = ("THE SAME small green PINE Christmas tree (never a palm tree, no palm tree has lights), decorated with EXACTLY three round balls (one ORANGE, one YELLOW, one SKY-BLUE), "
+        "one small WHITE star on the very top (white, not yellow) and tiny warm little lights; no other balls, ornaments, ribbons or garlands")
 SCARF = "Chiqui wears an ORANGE scarf, Roro a YELLOW scarf, Torong a GREEN scarf, Pio a SKY-BLUE scarf"
 GIFTS = "five small wrapped gift boxes under the tree: ORANGE, YELLOW, GREEN, SKY-BLUE and PURPLE, each with a white ribbon"
 EPS["ep25"] = dict(
@@ -252,7 +254,7 @@ EPS["ep25"] = dict(
  scenes=scenes([
   ("와, 트리다!", "C", SNOWV + f"{D['C']} wearing an ORANGE scarf looks at {XTREE}, with no decorations yet, amazed.", "", False,
    "Chiqui looks up at the tree and claps; snowflakes fall gently."),
-  ("다 같이 꾸미자!", "B", SNOWV + f"{D['B']} wearing a PURPLE scarf holds one small PURPLE basket with round ornament balls (ORANGE, YELLOW, SKY-BLUE) and one small white star.", "", False,
+  ("다 같이 꾸미자!", "B", SNOWV + f"{D['B']} (no scarf yet: Grandpa Bau's purple scarf is the gift later) holds one small PURPLE basket with round ornament balls (ORANGE, YELLOW, SKY-BLUE) and one small white star.", "", False,
    "Grandpa Bau lifts the basket a little and smiles. The camera stays still."),
   ("좋아!", "CRTP", SNOWV + f"Chiqui, Roro, Torong and Pio cheer in the snow; {SCARF}.", "", False, "The friends cheer and bounce in the snow."),
   ("반짝반짝 방울", "", SNOWV + "Close view of a small PURPLE basket on the snow holding three shiny round ornament balls (ORANGE, YELLOW, SKY-BLUE) and one small white star.", "Exactly three balls and one star.", True,
@@ -267,19 +269,19 @@ EPS["ep25"] = dict(
    NEAR + "Torong sets the white star on the treetop and lifts the head; the star stays on the top."),
   ("하늘색 방울", "P", SNOWV + f"{D['P']} wearing a SKY-BLUE scarf flies next to {XTREE} and hangs one shiny SKY-BLUE ball on a branch with the beak; now the tree has an ORANGE ball, a YELLOW ball, a SKY-BLUE ball and a white star on top.", "Exactly three balls and one star.", False,
    "Pio hangs the sky-blue ball; it stays there. Pio flaps happily."),
-  ("불을 켜요!", "CRTP", SNOWV + f"Chiqui, Roro, Torong and Pio stand around the decorated tree (ORANGE, YELLOW and SKY-BLUE balls, white star on top); tiny warm little lights glow all over the tree; {SCARF}.", "", False,
+  ("불을 켜요!", "CRTP", SNOWV + f"Chiqui, Roro, Torong and Pio stand around {DECO}; the tiny lights glow; {SCARF}.", "", False,
    "The tiny lights on the tree turn on and twinkle; the friends cheer."),
-  ("선물이다!", "CRTP", SNOWV + f"Chiqui, Roro, Torong and Pio look at {GIFTS} of the decorated glowing tree, surprised and happy.", "Exactly five gift boxes.", False,
+  ("선물이다!", "CRTP", SNOWV + f"Chiqui, Roro, Torong and Pio look at {GIFTS} of {DECO}, surprised and happy.", "Exactly five gift boxes.", False,
    "The friends gasp happily and point at the gifts. The boxes stay closed."),
   ("보라 선물은 누구 거지?", "C", SNOWV + f"Close view of {D['C']} wearing an ORANGE scarf, holding one small wrapped PURPLE gift box with a white ribbon, looking at the viewer curiously.", "Exactly one purple box.", True,
    "Chiqui looks at the box, then at the viewer, and tilts the head."),
-  ("할아버지 거예요!", "BCRTP", SNOWV + f"Chiqui gives the PURPLE gift box to {D['B']}; Roro, Torong and Pio cheer next to them; the decorated glowing tree is behind.", "Exactly one purple box.", False,
+  ("할아버지 거예요!", "BCRTP", SNOWV + f"Chiqui gives the PURPLE gift box to {D['B']}; Roro, Torong and Pio cheer next to them; {DECO} is behind.", "Exactly one purple box.", False,
    "Grandpa Bau takes the purple box, smiles warmly and hugs it; the friends clap."),
-  ("공룡 시대에도", "B", SNOWV + f"{D['B']} stands next to the decorated glowing tree with a soft new PURPLE knitted scarf from the gift around the neck, smiling wisely.", "", False,
+  ("공룡 시대에도", "B", SNOWV + f"{D['B']} stands next to {DECO}, with a soft new PURPLE knitted scarf from the gift around the neck, smiling wisely.", "", False,
    "Grandpa Bau touches the new purple scarf and nods. The camera stays still."),
   ("우리 선물도!", "CRTP", SNOWV + f"Chiqui, Roro, Torong and Pio each open their own small gift box (ORANGE, YELLOW, GREEN, SKY-BLUE); inside each is one small jingle bell of the same color. Torong's GREEN box lies open on the snow right in front of Torong's mouth.", "Exactly four open boxes and four bells.", False,
    "Chiqui, Roro and Pio lift their bells and ring them; Torong nudges the green bell gently with the nose so it rings (front legs on the ground). Everyone smiles."),
-  ("메리 크리스마스!", "BCRTP", SNOWV + f"All five friends stand around the decorated glowing tree facing the viewer with big smiles; {SCARF}, Grandpa Bau a PURPLE scarf. Grandpa Bau, Chiqui and Roro each wave ONE front paw, Pio waves one wing, Torong tilts the long neck and head to one side.", "", False,
+  ("메리 크리스마스!", "BCRTP", SNOWV + f"All five friends stand around {DECO}, facing the viewer with big smiles; {SCARF}, Grandpa Bau a PURPLE scarf. Grandpa Bau, Chiqui and Roro each wave ONE front paw, Pio waves one wing, Torong tilts the long neck and head to one side.", "", False,
    "Grandpa Bau, Chiqui, Roro and Pio wave at the viewer; Torong sways the long neck side to side with all four feet on the snow; the tree lights twinkle."),
  ]))
 
