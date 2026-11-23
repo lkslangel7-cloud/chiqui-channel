@@ -126,9 +126,9 @@ EPS["ep22"] = dict(
  ]))
 
 # ---------------- 23화 공룡 마을 운동회 ----------------
-FIELD = ("On THE SAME sunny flat grass field in every scene, with palm trees and the far volcano. A wide straight running lane goes from right to left across the field: it is marked by TWO thin parallel white chalk lines, "
-         "one near line low in the picture and one far line further back, with a wide strip of plain green grass between them. Anyone running, walking, standing or sitting on the track is on the green grass BETWEEN the two lines; "
-         "their feet, bodies and tails NEVER touch or stand on a white line. Grandpa Bau stands on the grass OUTSIDE the lane, in front of the near line. ")
+FIELD = ("On THE SAME sunny flat grass field in every scene, with palm trees and the far volcano. The track is marked by ONLY ONE thin straight white chalk line "
+         "that runs from right to left across the LOWER part of the picture, IN FRONT of everyone (closer to the viewer than any character). Everyone stands, runs, walks or sits on the green grass BEHIND that line, "
+         "a little farther from the viewer; no feet, body or tail ever touches or stands on the line, and no second line crosses behind them. ")
 FINISH = "one finish line on the LEFT side of the track: two short light-wood posts with ONE cream-white ribbon stretched between them"
 MEDALS = "Chiqui wears an ORANGE ribbon medal, Roro a YELLOW ribbon medal, Torong a GREEN ribbon medal, Pio a SKY-BLUE ribbon medal (each a simple round medal on a ribbon around the neck)"
 EPS["ep23"] = dict(
@@ -147,7 +147,7 @@ EPS["ep23"] = dict(
   ("오늘은 운동회!", "CRTP", FIELD + "Chiqui, Roro, Torong and Pio stand on the grass next to the track and cheer.", "", False, "The friends cheer and bounce on the spot."),
   ("준비~", "B", FIELD + f"{D['B']} stands next to the track holding up one small PURPLE flag, smiling.", "Exactly one purple flag.", False,
    "Grandpa Bau raises the purple flag high once and smiles. The camera stays still."),
-  ("출발선", "CRTP", FIELD + "Chiqui, Roro, Torong and Pio stand one behind another inside the lane on the RIGHT side, just behind a short white start line that crosses the lane (their feet are behind the start line, not on it), all facing LEFT, ready to go.", "", False,
+  ("출발선", "CRTP", FIELD + "Chiqui, Roro, Torong and Pio stand side by side on the grass behind the white line, on the RIGHT side of the picture, all facing LEFT, ready to go.", "", False,
    "The friends crouch a little, ready, and wiggle with excitement. They do not run yet."),
   ("출발!", "CRTP", FIELD + "Chiqui, Roro, Torong and Pio run along the track toward the LEFT, happy.", "", False,
    "Everyone runs a few steps to the LEFT and stays inside the frame. The camera stays still."),
