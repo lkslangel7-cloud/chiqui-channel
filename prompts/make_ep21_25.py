@@ -233,9 +233,9 @@ EPS["ep24"] = dict(
 # ---------------- 25화 반짝반짝 크리스마스 ----------------
 SNOWV = "In the snowy volcano-island village with soft white snow on the ground and palm trees, gently falling snowflakes. "
 XTREE = ("THE SAME Christmas tree in every scene: one small smooth cone-shaped green clay pine tree standing alone on the snow, "
-         "a little shorter than Torong's head" + ". It is always a green PINE (fir) tree, NEVER a palm tree")
+         "a little shorter than Torong's head" + ". It is always a green PINE (fir) tree, NEVER a palm tree. The tree has three rounded tiers and NO snow on its branches. The ornament spots NEVER change (as seen by the viewer): the ORANGE ball always hangs on the RIGHT side of the MIDDLE tier, the YELLOW ball always hangs on the LEFT side of the BOTTOM tier, the SKY-BLUE ball always hangs on the LEFT side of the TOP tier, and the white star sits on the very top. A ball is on the tree only after a friend has hung it")
 DECO = ("THE SAME small green PINE Christmas tree (never a palm tree, no palm tree has lights), decorated with EXACTLY three round balls (one ORANGE, one YELLOW, one SKY-BLUE), "
-        "one small WHITE star on the very top (white, not yellow) and tiny warm little lights; no other balls, ornaments, ribbons or garlands")
+        "one small WHITE star on the very top (white, not yellow) and tiny warm little lights; no other balls, ornaments, ribbons or garlands. The tree has three rounded tiers and NO snow on its branches. The ornament spots NEVER change (as seen by the viewer): the ORANGE ball always hangs on the RIGHT side of the MIDDLE tier, the YELLOW ball always hangs on the LEFT side of the BOTTOM tier, the SKY-BLUE ball always hangs on the LEFT side of the TOP tier, and the white star sits on the very top. The three balls are big and clearly visible.")
 SCARF = "Chiqui wears an ORANGE scarf, Roro a YELLOW scarf, Torong a GREEN scarf, Pio a SKY-BLUE scarf"
 GIFTS = "five small wrapped gift boxes under the tree: ORANGE, YELLOW, GREEN, SKY-BLUE and PURPLE, each with a white ribbon"
 EPS["ep25"] = dict(
@@ -261,7 +261,7 @@ EPS["ep25"] = dict(
    "The ornaments shine softly; snowflakes fall; nothing else moves."),
   ("트리 앞에 모여요", "CRTP", SNOWV + f"Chiqui, Roro, Torong and Pio stand around {XTREE}, which has no decorations yet; {SCARF}.", "", False,
    "The friends look at the tree and smile at each other."),
-  ("주황 방울 먼저", "C", SNOWV + f"{D['C']} wearing an ORANGE scarf hangs one shiny ORANGE ball on a low branch of {XTREE}; it is the first ornament on the tree.", "Exactly one ball on the tree.", False,
+  ("주황 방울 먼저", "C", SNOWV + f"{D['C']} wearing an ORANGE scarf stands on the RIGHT side of {XTREE} and hangs one shiny ORANGE ball on the RIGHT side of the middle tier; it is the first ornament on the tree.", "Exactly one ball on the tree.", False,
    "Chiqui hangs the orange ball on the branch; it stays there and swings a little. Chiqui cheers."),
   ("노란 방울", "R", SNOWV + f"{D['R']} wearing a YELLOW scarf hangs one shiny YELLOW ball on {XTREE}; one ORANGE ball already hangs on the tree.", "Exactly two balls on the tree.", False,
    "Roro hangs the yellow ball on the branch; it stays there and swings a little. Roro claps."),
