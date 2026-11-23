@@ -98,7 +98,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Pio flaps and glides to the LEFT, staying inside the frame. The camera stays still. The camera stays still. Pio is the only creature in the frame. ONLY Pio is in this scene from start to end; no other character, animal or creature appears at any time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Pio keeps the same side pose as in the start image, body level and facing LEFT, and flaps both wide wings up and down slowly while gliding a short way to the LEFT; Pio never moves backward to the right, never turns the body upright or upside down, never dives or falls, and stays inside the frame. The camera stays still. The camera stays still. Pio is the only creature in the frame. ONLY Pio is in this scene from start to end; no other character, animal or creature appears at any time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S12 어이쿠! (1:35–1:45)

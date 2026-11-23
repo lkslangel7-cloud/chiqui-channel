@@ -159,7 +159,7 @@ EPS["ep23"] = dict(
   ("토롱 큰 공 굴리기", "T", FIELD + f"{D['T']} walks across the grass toward the LEFT, gently pushing one big GREEN ball with the nose; the ball is right in front of Torong's nose on the grass.", "Exactly one green ball.", False,
    NEAR + "Torong nudges the green ball with the nose; the ball rolls slowly to the LEFT and Torong follows with two slow steps."),
   ("피오 하늘 달리기", "P", FIELD + f"{D['P']} flies low above the grass toward the LEFT with wings wide open.", "", False,
-   "Pio flaps and glides to the LEFT, staying inside the frame. The camera stays still."),
+   "Pio keeps the same side pose as in the start image, body level and facing LEFT, and flaps both wide wings up and down slowly while gliding a short way to the LEFT; Pio never moves backward to the right, never turns the body upright or upside down, never dives or falls, and stays inside the frame. The camera stays still."),
   ("어이쿠!", "C", FIELD + f"{D['C']} has just tripped and sits softly on the grass, surprised but not hurt, no tears.", "", False,
    "Chiqui wobbles and sits down softly on the grass, then blinks, surprised. Chiqui is not hurt."),
   ("기다려 줄게", "RTP", FIELD + "Roro, Torong and Pio have stopped on the grass and turned back toward the RIGHT, smiling kindly and waiting.", "", False,
