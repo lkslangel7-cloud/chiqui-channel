@@ -1,6 +1,6 @@
 # 7화 업로드 정보 (치키 타운)
 
-파일: `output/ep07_ko_v1.mp4` (2:53, 화면 자막) · 자막 없는 판 `output/ep07_ko_v1_nosubs.mp4` + `subtitles_ko.srt`
+파일: `output/ep07_ko_v2.mp4` (2:53, 화면 자막) · 자막 없는 판 `output/ep07_ko_v2_nosubs.mp4` + `subtitles_ko.srt`
 
 ## 제목
 

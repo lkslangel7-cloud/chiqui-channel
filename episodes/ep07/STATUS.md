@@ -17,3 +17,4 @@
 - 영상(2026-11-19, 1초 간격 확인) 14개 합격: S02 lsadTdUAeAs, S03 1pMVwRQPfTY, S04 4n11gURXJrs, S05 JY2K2VjK4po(5초), S06 JqZ5EKCjwRI(5초), S09 4WblVypIXNc(로로 사과 2개), S10 d-qlq_9h45I(토롱 입으로 사과 2개), S11 PJbOw9n10OM(**앞 6.5초만** — 7초부터 피오가 거꾸로 뒤집혀 날며 바구니가 흔들림), S12 yxcaV-F-1hI(치키 사과 2개), S13 jJVXyLGpoC8, S14 K-7fAjB6KqQ, S15 oM5BhTV8Qvk(사과 2개 차례로 바구니에), S16 AxydNgeTn8Y(사과 다섯씩 두 줄 그대로), S17 pH_SG8LXIE8(**앞 6초** — 뒤에서 피오가 날개를 접어 작고 동그래 보임). 엉뚱한 친구 없음. 남은 영상: S18.
 - S18 8H4yMy59fe0 합격(2026-11-19): 돗자리에서 다섯 친구가 사과 한 입씩, 몸을 살랑살랑. **7화 영상 15개 모두 완료.** 남은 것: 노래, 음성, 조립.
 - **완성(2026-11-20)**: `output/ep07_ko_v1.mp4` + `_nosubs` + `subtitles_ko.srt`, 썸네일, `upload_info.md`. 노래 받아쓰기 시간에 맞춰 장면 길이 조정 (`scripts/build_ep07_09.py`).
+- (2026-11-23, 사용자 지적) 2:04 "하나~열" 모두 대사에서 두 목소리 속도가 달라 숫자가 겹쳐 들림(열에서 1.3초 차이). 두 번째 목소리를 숫자마다 늘이고 줄여 첫 목소리에 맞춤(08_all.wav, 예전 것 08_all_v1_overlap.wav) → output/ep07_ko_v2.mp4(+_nosubs). 크레딧 0.
