@@ -18,9 +18,9 @@ NEAR = "The thing Torong touches is right in front of Torong's mouth, so Torong'
 
 EPS = {}
 # ---------------- 21화 삐뽀삐뽀 공룡 구조대 (탈것) ----------------
-FIRE = "Chiqui's small ORANGE ride-on toy fire truck (just big enough for one friend sitting inside, a short white ladder on top, one round light on top, chunky round wheels, no letters or logos)"
-AMBU = "Roro's small YELLOW ride-on toy ambulance (just big enough for one friend sitting inside, a white heart sign on the side, one round light on top, chunky round wheels, no letters, no cross sign)"
-KITE = "one SKY-BLUE diamond-shaped kite with a short tail of little sky-blue bows"
+FIRE = "Chiqui's small ORANGE ride-on toy fire truck (just big enough for one friend sitting inside, a short white ladder on top, one round warm-YELLOW light on top (never red), chunky round wheels, no letters or logos)"
+AMBU = "Roro's small YELLOW ride-on toy ambulance (just big enough for one friend sitting inside, a white heart sign on the side, one round warm-YELLOW light on top (never red), chunky round wheels, no letters, no cross sign)"
+KITE = "one SKY-BLUE diamond-shaped kite with a short tail of exactly three little SKY-BLUE bows (no streamers, no other colors)"
 KTREE = ("THE SAME kite tree in every scene: one big round leafy green tree on the sunny meadow, only a little taller than Torong's head, "
          "with " + KITE + " stuck in its top branches. ")
 EPS["ep21"] = dict(
@@ -58,7 +58,7 @@ EPS["ep21"] = dict(
    "The friends look up, then at each other, thinking. The kite stays stuck."),
   ("토롱이 왔다!", "CRTP", f"{KTREE}{D['T']} walks up to the tree; Torong's head is right next to the stuck kite. Chiqui, Roro and Pio look up at Torong, hopeful.", "", False,
    "Torong walks two slow steps closer to the tree and stops, looking at the kite next to the head; the friends look hopeful."),
-  ("어떻게 할까?", "T", f"Close view of {D['T']} next to the leafy tree top, looking at the viewer with a gentle smile; the sky-blue kite is right next to Torong's head.", "", True,
+  ("어떻게 할까?", "T", f"Close view of {D['T']} next to the leafy tree top, looking at the viewer with a gentle smile; the sky-blue kite is still STUCK in the leafy branches of the tree right next to Torong's head (it is not flying in the sky).", "", True,
    "Torong looks at the viewer and tilts the head once, smiling. The kite stays in the branches."),
   ("연을 쏙!", "TP", f"{KTREE}{D['T']} holds the kite gently in the mouth, taken from the branch right next to the head, and lowers the head toward {D['P']} hovering below.", "Exactly one kite.", False,
    NEAR + "Torong lowers the head slowly with the kite in the mouth; Pio takes the kite string with the beak and flaps happily. Now the kite is with Pio."),
@@ -66,7 +66,7 @@ EPS["ep21"] = dict(
    "Grandpa Bau points up at the leaves and nods. The camera stays still."),
   ("다시 연 날리기", "CRTP", f"On a sunny meadow, {D['P']} flies with the sky-blue kite again; Chiqui, Roro and Torong cheer below.", "Exactly one kite.", False,
    "Pio flies holding the kite string; the friends clap and cheer."),
-  ("구조대 최고!", "BCRTP", f"All five friends stand in a row on the sunny meadow in front of {FIRE} and {AMBU}, facing the viewer with big smiles. Grandpa Bau, Chiqui and Roro each wave ONE front paw, Pio waves one wing, Torong tilts the long neck and head to one side.", "Exactly two cars.", False,
+  ("구조대 최고!", "BCRTP", f"All five friends stand in a row on the sunny meadow in front of {FIRE} and {AMBU} (both cars the same size as before, big enough for a friend to sit inside, both facing LEFT), facing the viewer with big smiles. Grandpa Bau, Chiqui and Roro each wave ONE front paw, Pio waves one wing, Torong tilts the long neck and head to one side.", "Exactly two cars.", False,
    "Grandpa Bau, Chiqui, Roro and Pio wave at the viewer; Torong sways the long neck side to side with all four feet on the ground; the round lights on the cars blink."),
  ]))
 
