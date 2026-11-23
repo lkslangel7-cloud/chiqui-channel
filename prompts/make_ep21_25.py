@@ -51,7 +51,7 @@ EPS["ep21"] = dict(
   ("소방차 사다리 쭈욱", "C", f"{KTREE}{D['C']} sits in {FIRE} parked under the tree; the short white ladder is raised up but its tip is still far below the kite.", "", False,
    "The ladder rises a little more but still does not reach the kite; Chiqui looks up and shakes the head. The kite stays stuck the whole time."),
   ("로로 폴짝", "R", f"{KTREE}{D['R']} stands next to {AMBU} under the tree and jumps up with both arms up; the kite is far above.", "", False,
-   "Roro hops three times reaching up; the kite stays far above and does not move. The camera stays still."),
+   "Keep the whole start image exactly: the big leafy tree with the sky-blue kite STUCK in its top branches, and the yellow ambulance parked under the tree, stay visible in the same place for the whole video; the kite never floats free in the sky and has no long string. Roro stands next to the tree and hops three times reaching up toward the kite, but cannot reach it. The camera stays still: no zoom, no pan, no new background."),
   ("피오가 당겨도", "P", f"{KTREE}{D['P']} flies next to the stuck kite and holds its tail in the beak, pulling.", "", False,
    "Pio pulls the kite tail two times; the kite stays stuck in the branches and does not move."),
   ("누가 닿을까?", "CRP", f"{KTREE}Chiqui, Roro and Pio stand under the tree, looking up at the stuck kite, thinking with paws on their chins.", "", False,

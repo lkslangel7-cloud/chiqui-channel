@@ -18,3 +18,4 @@
 ## 영상 받기 기록
 - 1차(2026-11-23, 1초 간격·첫 장면 비교·움직임 측정) 15개 합격: S02 PkRADexqL-s, S03 fa-ZHLh_idg, S04 svtro5_8OYw, S05 v4W0sERpnac, S06 3u01FhD0LFo, S07 vJg0mvdeqqs, S09 IJGc4fqjp0s, S11 EptD_IzChoo, S12 MEUgqp2FMME, S13 PgArauM7Ds4, S14 mN-VQX1decg, S15 3jNMt-6vol0, S16 6gOcIW9yfFQ, S17 cza7nMqm1fo, S18 Af3J6rGUUh0. S07 두 차가 왼쪽(앞)으로 감(카메라가 따라감). S05·S06·S09·S16은 그림보다 가까이서 시작(모양·색 맞음).
 - 불합격: S10 19SvMlY7dgw — 합격 그림이 아닌 다른 그림으로 시작: 나무·구급차가 없고 연이 막대 끈에 매달려 하늘에 떠 있음(나무에 걸린 이야기와 안 맞음). 합격 그림 xUKBp2z-S3k로 다시.
+- S10 Lji7-8weJbo 불합격(2026-11-23): 또 나무·구급차 없이 연이 하늘에 떠 있음(합격 그림 xUKBp2z-S3k와 다른 배경). 영상 프롬프트를 "시작 그림 그대로: 나무 꼭대기에 걸린 연·나무 아래 구급차가 끝까지 같은 자리, 연은 하늘에 안 뜸, 카메라·배경 고정"으로 강하게 고침.

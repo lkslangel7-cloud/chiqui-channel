@@ -87,7 +87,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Roro hops three times reaching up; the kite stays far above and does not move. The camera stays still. The camera stays still. Roro is the only creature in the frame. ONLY Roro is in this scene from start to end; no other character, animal or creature appears at any time. Roro always keeps a round head with no frill and no horns. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Keep the whole start image exactly: the big leafy tree with the sky-blue kite STUCK in its top branches, and the yellow ambulance parked under the tree, stay visible in the same place for the whole video; the kite never floats free in the sky and has no long string. Roro stands next to the tree and hops three times reaching up toward the kite, but cannot reach it. The camera stays still: no zoom, no pan, no new background. The camera stays still. Roro is the only creature in the frame. ONLY Roro is in this scene from start to end; no other character, animal or creature appears at any time. Roro always keeps a round head with no frill and no horns. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S11 피오가 당겨도 (1:25–1:35)
