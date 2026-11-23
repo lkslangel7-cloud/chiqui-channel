@@ -77,7 +77,7 @@ BIG = ("one big sandcastle (THE SAME in S17 and S18): a wide sand wall with litt
        "a round arch door in the middle, and EXACTLY four shells in one row on the front: ORANGE, YELLOW, GREEN, SKY-BLUE (no pink, no purple, no white shells, no other shells)")
 CASTLE = "one small round sandcastle (a big round sand mound with one round tower on top, smooth clay-like sand, no flags)"
 ROW = ("The shell windows sit in ONE straight horizontal row across the middle of the mound's FRONT face (the side facing the viewer), evenly spaced, never on the tower and never on the back or sides. "
-       "The row order is fixed, left to right as seen by the viewer: 1st spot YELLOW, 2nd spot GREEN, 3rd spot SKY-BLUE, 4th spot ORANGE. Spots without a shell yet are plain sand. ")
+       "The row order is fixed, left to right as seen by the viewer: 1st spot YELLOW, 2nd spot GREEN, 3rd spot SKY-BLUE, 4th spot ORANGE. Spots without a shell yet are plain smooth sand (no holes, no dents). Each shell is small (about the size of a friend\'s paw) with a little sand between shells. There is only ONE shell of each color in the whole picture. ")
 EPS["ep22"] = dict(
  title="22화. 토닥토닥 모래성! — 바닷가 모래 놀이", short="토닥토닥 모래성!", song_id="sand", song_short="모래성 노래",
  theme="바닷가 모래 놀이, 하나~넷 세기, 무너져도 다시 하기. 조개는 친구 몸 색.",
@@ -104,11 +104,11 @@ EPS["ep22"] = dict(
    "The friends cheer behind the sandcastle; the sandcastle stays the same."),
   ("노란 조개 창문", "R", BEACH + f"{D['R']} presses one YELLOW shell onto {CASTLE} like a little window. " + ROW + "Only the 1st spot (far left) has the YELLOW shell.", "Exactly one shell on the castle.", False,
    "Roro presses the yellow shell onto the castle; the shell stays stuck there. Roro claps."),
-  ("초록 조개 창문", "T", BEACH + f"{D['T']} stands right next to {CASTLE} and bends the neck down to press one GREEN shell onto it with the mouth. " + ROW + "The 1st spot has the YELLOW shell and the GREEN shell goes into the 2nd spot right next to it.", "Exactly two shells on the castle.", False,
+  ("초록 조개 창문", "T", BEACH + f"{D['T']} stands right next to {CASTLE} and bends the neck down to press one GREEN shell onto it with the mouth. " + ROW + "The 1st spot has the YELLOW shell and Torong is pressing the GREEN shell into the 2nd spot right next to it with the mouth; Torong holds nothing else (no leaf, no second shell).", "Exactly two shells on the castle.", False,
    NEAR + "Torong gently presses the green shell onto the castle with the mouth and lifts the head; the green shell stays there."),
-  ("하늘색 조개 창문", "P", BEACH + f"{D['P']} presses one SKY-BLUE shell onto {CASTLE} with the beak. " + ROW + "YELLOW (1st) and GREEN (2nd) are already there; the SKY-BLUE shell goes into the 3rd spot.", "Exactly three shells on the castle.", False,
+  ("하늘색 조개 창문", "P", BEACH + f"{D['P']} presses one SKY-BLUE shell onto {CASTLE} with the beak. " + ROW + "YELLOW (1st) and GREEN (2nd) are already there. Pio stands on the RIGHT side of the sandcastle and presses the SKY-BLUE shell into the 3rd spot with the tip of the beak; the 4th spot (far right) is still plain sand.", "Exactly three shells on the castle.", False,
    "Pio presses the sky-blue shell onto the castle; it stays there. Pio flaps once happily."),
-  ("주황 조개 창문", "C", BEACH + f"{D['C']} presses one ORANGE shell onto {CASTLE}. " + ROW + "YELLOW, GREEN and SKY-BLUE are already there; the ORANGE shell goes into the 4th spot on the far right, so the row is complete.", "Exactly four shells on the castle.", False,
+  ("주황 조개 창문", "C", BEACH + f"{D['C']} presses one ORANGE shell onto {CASTLE}. " + ROW + "YELLOW, GREEN and SKY-BLUE are already there; Chiqui stands on the RIGHT side of the sandcastle and presses the ORANGE shell with one front paw into the 4th spot on the far right, right next to Chiqui's paw, so the row is complete.", "Exactly four shells on the castle.", False,
    "Chiqui presses the orange shell on; all four shells stay on the castle. Chiqui cheers."),
   ("앗! 파도다!", "CRTP", BEACH + f"Chiqui, Roro, Torong and Pio stand next to {CASTLE} with four shell windows and look surprised at one big gentle wave rolling toward it. " + ROW + "All four spots are filled: YELLOW, GREEN, SKY-BLUE, ORANGE; no pink, purple or white shells.", "Exactly four shells on the castle.", False,
    "One big gentle wave rolls in toward the sandcastle; the friends step back, surprised."),
