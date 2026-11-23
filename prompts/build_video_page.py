@@ -52,7 +52,7 @@ def upload(ep):
 
 tabs, panels = [], []
 for x in eps:
-    ep = x["ep"]; n = int(ep); done = "file" in x
+    ep = x["ep"]; n = x.get("no", int(ep)); done = "file" in x
     tabs.append(f'<a class="tab{" soon" if not done else ""}" href="#ep{ep}" data-ep="ep{ep}" role="tab"><span class="no">{n}화</span></a>')
     if done:
         src = ROOT / f"output/{x['file']}.mp4"

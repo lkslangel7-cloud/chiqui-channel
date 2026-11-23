@@ -24,7 +24,7 @@ KITE = "one SKY-BLUE diamond-shaped kite with a short tail of exactly three litt
 KTREE = ("THE SAME kite tree in every scene: one big round leafy green tree on the sunny meadow, only a little taller than Torong's head, "
          "with " + KITE + " stuck in its top branches. ")
 EPS["ep21"] = dict(
- title="21화. 삐뽀삐뽀 공룡 구조대! — 구조대 자동차", short="삐뽀삐뽀 공룡 구조대!", song_id="rescue", song_short="공룡 구조대",
+ title="22화. 삐뽀삐뽀 공룡 구조대! — 구조대 자동차", short="삐뽀삐뽀 공룡 구조대!", song_id="rescue", song_short="공룡 구조대",
  theme="탈것(소방차·구급차)과 돕는 마음. 피오 연이 나무에 걸려 구조대가 출동하지만 안 닿는다 → 키 큰 토롱이 입으로 쏙. 자동차는 친구 몸 색.",
  twist="사다리도, 점프도, 날갯짓도 안 닿았는데… 목이 긴 토롱이 살금살금 다가가 연을 쏙!",
  bau="목이 긴 공룡은 높은 잎도 냠냠!",
@@ -80,7 +80,7 @@ CALM = "The sea is calm with only small low ripples at the shore; there is NO bi
 ROW = ("The shell windows sit in ONE straight horizontal row across the middle of the mound's FRONT face (the side facing the viewer), evenly spaced, never on the tower and never on the back or sides. "
        "The row order is fixed, left to right as seen by the viewer: 1st spot YELLOW, 2nd spot GREEN, 3rd spot SKY-BLUE, 4th spot ORANGE. Spots without a shell yet are plain smooth sand (no holes, no dents). Each shell is small (about the size of a friend\'s paw) with a little sand between shells. There is only ONE shell of each color in the whole picture. ")
 EPS["ep22"] = dict(
- title="22화. 토닥토닥 모래성! — 바닷가 모래 놀이", short="토닥토닥 모래성!", song_id="sand", song_short="모래성 노래",
+ title="23화. 토닥토닥 모래성! — 바닷가 모래 놀이", short="토닥토닥 모래성!", song_id="sand", song_short="모래성 노래",
  theme="바닷가 모래 놀이, 하나~넷 세기, 무너져도 다시 하기. 조개는 친구 몸 색.",
  twist="조개 창문 넷까지 다 붙였는데 파도가 쏴아~ 모래성이 무너졌다! 괜찮아, 다시 더 크게!",
  bau="공룡 시대에도 조개가 살았단다!",
@@ -131,7 +131,7 @@ FIELD = ("On THE SAME sunny flat plain green grass field in every scene, with pa
 FINISH = "a finish on the LEFT side of the grass: two short light-wood posts (no line on the ground) with ONE cream-white ribbon stretched between them"
 MEDALS = "Chiqui wears an ORANGE ribbon medal, Roro a YELLOW ribbon medal, Torong a GREEN ribbon medal, Pio a SKY-BLUE ribbon medal (each a simple round medal on a ribbon around the neck)"
 EPS["ep23"] = dict(
- title="23화. 공룡 마을 운동회! — 같이 달려요", short="공룡 마을 운동회!", song_id="sports", song_short="운동회 노래",
+ title="24화. 공룡 마을 운동회! — 같이 달려요", short="공룡 마을 운동회!", song_id="sports", song_short="운동회 노래",
  theme="운동회(달리기·공 굴리기·응원), 넘어진 친구 기다려 주기, 다 같이 결승선. 메달은 친구 몸 색.",
  twist="치키가 넘어질 뻔! 친구들이 멈춰서 기다려 주고 다 같이 결승선 통과 — 모두 1등!",
  bau="공룡도 친구랑 같이 다녔단다!",
@@ -190,7 +190,7 @@ DONE = ("the finished block house exactly like this: the YELLOW square block sta
 HAT = ("Chiqui wears the ORANGE triangle block on top of the head like a little hat: a small FLAT triangle toy block with straight sharp edges, "
        "about as wide as the yellow square block, sitting ABOVE the frill on top of the head; it is clearly a separate toy block, not part of the frill or a horn, and it is not tall or cone-shaped")
 EPS["ep24"] = dict(
- title="24화. 동글 네모 세모! — 모양 블록 집 짓기", short="동글 네모 세모!", song_id="shape", song_short="모양 노래",
+ title="25화. 동글 네모 세모! — 모양 블록 집 짓기", short="동글 네모 세모!", song_id="shape", song_short="모양 노래",
  theme="모양(동그라미·네모·세모) 이름, 블록 쌓기. 블록은 친구 몸 색.",
  twist="지붕이 될 세모가 없다! 어디 있을까? …치키 머리 위에 모자처럼 쏙 (처음부터 쓰고 있었어요).",
  bau="치키 뿔은 세 개! 하나 둘 셋!",
@@ -244,7 +244,7 @@ DECO = ("THE SAME small green PINE Christmas tree (never a palm tree, no palm tr
 SCARF = "Chiqui wears an ORANGE scarf, Roro a YELLOW scarf, Torong a GREEN scarf, Pio a SKY-BLUE scarf"
 GIFTS = "five small wrapped gift boxes under the tree: ORANGE, YELLOW, GREEN, SKY-BLUE and PURPLE, each with a white ribbon"
 EPS["ep25"] = dict(
- title="25화. 반짝반짝 크리스마스! — 트리 꾸미기", short="반짝반짝 크리스마스!", song_id="xmas", song_short="크리스마스 노래",
+ title="20화. 반짝반짝 크리스마스! — 트리 꾸미기", short="반짝반짝 크리스마스!", song_id="xmas", song_short="크리스마스 노래",
  theme="크리스마스 트리 꾸미기, 고마운 마음 나누기. 방울·선물은 친구 몸 색, 별은 하얀 별.",
  twist="트리 밑 선물 다섯 개, 그런데 보라 선물은 누구 거지? …친구들이 준비한 할아버지 선물!",
  bau="공룡 시대에도 소나무가 있었단다!",

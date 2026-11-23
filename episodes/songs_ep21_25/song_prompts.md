@@ -4,9 +4,57 @@ Suno → Create → Custom. 칸마다 그대로 붙여 넣는다.
 
 More Options: Vocal Gender Female / Duration Custom(오프닝·엔딩 20초, 알 찾기·배경음악 60초) / Max Mode Off / Weirdness 20% / Style Influence 80% / Variety Normal / Personalize Off
 
+## 공룡 빵집 놀이!
+
+- 자리: 21화 (폴더 ep20)
+- Title: 공룡 빵집 놀이!
+
+
+Styles:
+```
+light jazzy swing shuffle, 112 bpm, upright bass, brushed drums, toy piano, clarinet, finger snaps, cheerful baker shop feeling, friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
+```
+
+Lyrics:
+```
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+빵 사세요 빵집 (빵집!)
+주세요 고맙습니다
+치키치키 빵집!
+
+[Verse 1]
+노란 옥수수빵
+크앙! 로로가
+하나 주세요 (주세요!)
+
+[Verse 2]
+초록 빵 동글동글
+쭈욱~ 토롱이
+하나 주세요 (주세요!)
+
+[Verse 3]
+파란 블루베리빵
+슝~ 피오가
+하나 주세요 (주세요!)
+
+[Verse 4]
+보라 포도빵 하나
+할아버지 빵인데 (어디 갔지?)
+냠냠 소리 (냠!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+빵 사세요 빵집 (빵집!)
+주세요 고맙습니다
+치키치키 빵집!
+
+[End]
+```
+
 ## 삐뽀삐뽀 공룡 구조대!
 
-- 자리: 21화 · 0:55–1:55 · 시리즈 후렴 틀
+- 자리: 22화 (폴더 ep21)
 - Title: 삐뽀삐뽀 공룡 구조대!
 
 
@@ -54,7 +102,7 @@ Lyrics:
 
 ## 토닥토닥 모래성!
 
-- 자리: 22화 · 0:55–1:55 · 시리즈 후렴 틀
+- 자리: 23화 (폴더 ep22)
 - Title: 토닥토닥 모래성!
 
 
@@ -102,7 +150,7 @@ Lyrics:
 
 ## 공룡 마을 운동회!
 
-- 자리: 23화 · 0:55–1:55 · 시리즈 후렴 틀
+- 자리: 24화 (폴더 ep23)
 - Title: 공룡 마을 운동회!
 
 
@@ -150,7 +198,7 @@ Lyrics:
 
 ## 동글 네모 세모!
 
-- 자리: 24화 · 0:55–1:55 · 시리즈 후렴 틀
+- 자리: 25화 (폴더 ep24)
 - Title: 동글 네모 세모!
 
 
@@ -192,54 +240,6 @@ Lyrics:
 동글 네모 세모 (모양!)
 모양 블록 쌓아요
 치키치키 뚝딱!
-
-[End]
-```
-
-## 반짝반짝 크리스마스!
-
-- 자리: 25화 · 0:55–1:55 · 시리즈 후렴 틀
-- Title: 반짝반짝 크리스마스!
-
-
-Styles:
-```
-cozy Motown-style Christmas pop, 110 bpm, tambourine, sleigh bells, glockenspiel, warm piano, soulful horns, kids choir, joyful female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
-```
-
-Lyrics:
-```
-[Chorus]
-쿵쿵 쾅! 쿵쿵 쾅!
-반짝반짝 크리스마스 (반짝!)
-다 같이 트리 꾸며요
-치키치키 메리!
-
-[Verse 1]
-노란 방울 달랑
-크앙! 로로가 달랑
-반짝반짝 (반짝!)
-
-[Verse 2]
-하얀 별은 맨 위에
-쭈욱~ 토롱이 쏙
-반짝반짝 (반짝!)
-
-[Verse 3]
-하늘색 방울 대롱
-슝~ 피오가 대롱
-반짝반짝 (반짝!)
-
-[Verse 4]
-다 같이 불을 켜요
-하나 둘 셋! (셋!)
-반짝반짝 (반짝!)
-
-[Chorus]
-쿵쿵 쾅! 쿵쿵 쾅!
-반짝반짝 크리스마스 (반짝!)
-다 같이 트리 꾸며요
-치키치키 메리!
 
 [End]
 ```

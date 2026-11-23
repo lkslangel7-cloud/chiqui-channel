@@ -6,7 +6,7 @@ More Options: Vocal Gender Female / Duration Custom(오프닝·엔딩 20초, 알
 
 ## 목욕하자 뽀글뽀글!
 
-- 자리: 16화 노래 · 0:55–1:55
+- 자리: 16화 (폴더 ep16)
 - Title: 목욕하자 뽀글뽀글!
 
 
@@ -54,7 +54,7 @@ Lyrics:
 
 ## 아야! 괜찮아?
 
-- 자리: 17화 노래 · 0:55–1:55
+- 자리: 17화 (폴더 ep17)
 - Title: 아야! 괜찮아?
 
 
@@ -102,7 +102,7 @@ Lyrics:
 
 ## 내 차례 네 차례!
 
-- 자리: 18화 노래 · 0:55–1:55
+- 자리: 18화 (폴더 ep18)
 - Title: 내 차례 네 차례!
 
 
@@ -150,7 +150,7 @@ Lyrics:
 
 ## 첫눈이 와요!
 
-- 자리: 19화 노래 · 0:55–1:55
+- 자리: 19화 (폴더 ep19)
 - Title: 첫눈이 와요!
 
 
@@ -196,50 +196,50 @@ Lyrics:
 [End]
 ```
 
-## 공룡 빵집 놀이!
+## 반짝반짝 크리스마스!
 
-- 자리: 20화 노래 · 0:55–1:55
-- Title: 공룡 빵집 놀이!
+- 자리: 20화 (폴더 ep25)
+- Title: 반짝반짝 크리스마스!
 
 
 Styles:
 ```
-light jazzy swing shuffle, 112 bpm, upright bass, brushed drums, toy piano, clarinet, finger snaps, cheerful baker shop feeling, friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
+cozy Motown-style Christmas pop, 110 bpm, tambourine, sleigh bells, glockenspiel, warm piano, soulful horns, kids choir, joyful female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
 ```
 
 Lyrics:
 ```
 [Chorus]
 쿵쿵 쾅! 쿵쿵 쾅!
-빵 사세요 빵집 (빵집!)
-주세요 고맙습니다
-치키치키 빵집!
+반짝반짝 크리스마스 (반짝!)
+다 같이 트리 꾸며요
+치키치키 메리!
 
 [Verse 1]
-노란 옥수수빵
-크앙! 로로가
-하나 주세요 (주세요!)
+노란 방울 달랑
+크앙! 로로가 달랑
+반짝반짝 (반짝!)
 
 [Verse 2]
-초록 빵 동글동글
-쭈욱~ 토롱이
-하나 주세요 (주세요!)
+하얀 별은 맨 위에
+쭈욱~ 토롱이 쏙
+반짝반짝 (반짝!)
 
 [Verse 3]
-파란 블루베리빵
-슝~ 피오가
-하나 주세요 (주세요!)
+하늘색 방울 대롱
+슝~ 피오가 대롱
+반짝반짝 (반짝!)
 
 [Verse 4]
-보라 포도빵 하나
-할아버지 빵인데 (어디 갔지?)
-냠냠 소리 (냠!)
+다 같이 불을 켜요
+하나 둘 셋! (셋!)
+반짝반짝 (반짝!)
 
 [Chorus]
 쿵쿵 쾅! 쿵쿵 쾅!
-빵 사세요 빵집 (빵집!)
-주세요 고맙습니다
-치키치키 빵집!
+반짝반짝 크리스마스 (반짝!)
+다 같이 트리 꾸며요
+치키치키 메리!
 
 [End]
 ```

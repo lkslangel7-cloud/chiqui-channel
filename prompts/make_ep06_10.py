@@ -230,7 +230,8 @@ def write(ep, e):
     ch = e.get("chorus_lines") or ["쿵쿵 쾅! 쿵쿵 쾅!", f"{e['chorus']} (어디 있니?)", "친구들아 같이 가자", "치키치키 출발!"]
     lyr = "\n".join(["[Chorus]", *ch, ""] + sum(([f"[Verse {i}]", *v[i - 1], ""] for i in range(1, 5)), []) + ["[Chorus]", *ch, "", "[End]"])
     (d / "lyrics_ko.md").write_text(f"# {e['title']} 가사 (한국어)\n\n오프닝·엔딩·배경음악은 1화 곡. 새 노래 1곡, 1~5화와 같은 후렴 틀·박자.\n\n```\n{lyr}\n```\n\n- Suno Duration은 Custom 65~70초.\n", encoding="utf-8")
-    json.dump(dict(title=f"치키 {ep[2:].lstrip('0')}화 노래", h1=f"{ep[2:].lstrip('0')}화 · {e['song_short']} 노래 (Suno)",
+    _no = e['title'].split('화')[0]  # 방송 순서 번호(폴더 번호와 다를 수 있음)
+    json.dump(dict(title=f"치키 {_no}화 노래", h1=f"{_no}화 · {e['song_short']} 노래 (Suno)",
                    lead="이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
                    note="마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
                    duration="<b>Custom</b> — 65~70초.",

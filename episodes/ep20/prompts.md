@@ -1,4 +1,4 @@
-# 20화. 공룡 빵집 놀이! — 장면 프롬프트 (웹사이트용)
+# 21화. 공룡 빵집 놀이! — 장면 프롬프트 (웹사이트용)
 
 그림: GPT Image 2.6 Sunburst(웹 무제한), 16:9, 캐릭터·화풍은 Elements(@chiqui @roro @torong @pio @bau @village). 영상: Seedance 2.5(웹 무제한), 그림 한 장만 시작 프레임으로, 끊김 없는 한 컷, 소리 끔.
 

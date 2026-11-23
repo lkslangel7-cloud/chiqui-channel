@@ -199,7 +199,7 @@ SHOP = ("THE SAME bakery stall in every scene: one small toy-like wooden bakery 
         "The stall never changes shape, color or size. ")
 BREADS = "five small round breads on the counter: one YELLOW corn bread, one GREEN bread, one dark BLUE blueberry bread, one PURPLE grape bread and one ORANGE bread"
 EPS["ep20"] = dict(
- title="20화. 공룡 빵집 놀이! — 역할놀이", short="공룡 빵집 놀이!", song_id="bakery", song_short="빵집 노래",
+ title="21화. 공룡 빵집 놀이! — 역할놀이", short="공룡 빵집 놀이!", song_id="bakery", song_short="빵집 노래",
  theme="가게 역할놀이, 인사말(어서 오세요·주세요·고맙습니다), 하나씩 세기. 빵은 친구 몸 색.",
  twist="할아버지 보라 빵이 없다! 치키 볼이 빵빵… 치키가 먹었다! 그래서 다 같이 새 빵을 만든다.",
  bau="같이 만든 빵이 제일 맛있지!",
