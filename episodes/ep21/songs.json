@@ -1,0 +1,19 @@
+{
+  "title": "치키 21화 노래",
+  "h1": "21화 · 공룡 구조대 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "rescue",
+      "title": "삐뽀삐뽀 공룡 구조대!",
+      "short": "공룡 구조대",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "bright kids rock-pop, 124 bpm, crunchy electric guitar, punchy drum kit, playful siren-like synth 'wee-woo' sounds, horn hits, brave and fun, energetic male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n삐뽀삐뽀 공룡 구조대 (출동!)\n친구가 부르면 달려가요\n치키치키 출동!\n\n[Verse 1]\n소방차 사다리 쭈욱\n치키가 올려 봐도\n안 닿아요 (어떡해!)\n\n[Verse 2]\n구급차 삐뽀삐뽀\n크앙! 로로 폴짝\n안 닿아요 (어떡해!)\n\n[Verse 3]\n하늘 높이 슝슝\n슝~ 피오가 당겨도\n꼼짝 않아요 (어떡해!)\n\n[Verse 4]\n목이 쭈욱 토롱이\n살금살금 다가가\n연을 쏙! (쏙!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n삐뽀삐뽀 공룡 구조대 (출동!)\n친구가 부르면 달려가요\n치키치키 출동!\n\n[End]"
+    }
+  ]
+}

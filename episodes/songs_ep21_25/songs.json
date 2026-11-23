@@ -1,0 +1,59 @@
+{
+  "title": "치키 21~25화 노래",
+  "h1": "21~25화 · 노래 5곡 (Suno)",
+  "lead": "21~25화 노래 5곡이에요(구조대·모래성·운동회·모양·크리스마스). 화마다 장르·빠르기·악기·목소리가 달라요(후렴 첫 줄 \"쿵쿵 쾅!\"과 끝 \"치키치키 ○○!\"만 시리즈 표시로 같아요). 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 끝(치키치키 ○○!)까지 나오는지 들어 보고, WAV로 받아 올려 주세요. 몇 화 노래인지 알려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "e21",
+      "title": "삐뽀삐뽀 공룡 구조대!",
+      "short": "공룡 구조대",
+      "where": "21화 · 0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "bright kids rock-pop, 124 bpm, crunchy electric guitar, punchy drum kit, playful siren-like synth 'wee-woo' sounds, horn hits, brave and fun, energetic male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n삐뽀삐뽀 공룡 구조대 (출동!)\n친구가 부르면 달려가요\n치키치키 출동!\n\n[Verse 1]\n소방차 사다리 쭈욱\n치키가 올려 봐도\n안 닿아요 (어떡해!)\n\n[Verse 2]\n구급차 삐뽀삐뽀\n크앙! 로로 폴짝\n안 닿아요 (어떡해!)\n\n[Verse 3]\n하늘 높이 슝슝\n슝~ 피오가 당겨도\n꼼짝 않아요 (어떡해!)\n\n[Verse 4]\n목이 쭈욱 토롱이\n살금살금 다가가\n연을 쏙! (쏙!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n삐뽀삐뽀 공룡 구조대 (출동!)\n친구가 부르면 달려가요\n치키치키 출동!\n\n[End]"
+    },
+    {
+      "id": "e22",
+      "title": "토닥토닥 모래성!",
+      "short": "모래성 노래",
+      "where": "22화 · 0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "laid-back sunny reggae, 90 bpm, offbeat guitar skank, round bass, melodica, gentle ocean wave sounds, relaxed beach feeling, warm female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n토닥토닥 모래성 (토닥토닥!)\n조개 콕콕 붙이고\n치키치키 완성!\n\n[Verse 1]\n노란 조개 콕\n크앙! 로로가 콕\n창문 하나 (하나!)\n\n[Verse 2]\n초록 조개 콕\n쭈욱~ 토롱이 콕\n창문 둘 (둘!)\n\n[Verse 3]\n하늘색 조개 콕\n슝~ 피오가 콕\n창문 셋 (셋!)\n\n[Verse 4]\n주황 조개 콕\n치키도 콕\n창문 넷 (넷!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n토닥토닥 모래성 (토닥토닥!)\n조개 콕콕 붙이고\n치키치키 완성!\n\n[End]"
+    },
+    {
+      "id": "e23",
+      "title": "공룡 마을 운동회!",
+      "short": "운동회 노래",
+      "where": "23화 · 0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "stomping cheer-pop, 128 bpm, big stomp-stomp-clap beat, cheerleader chants, whistle, brass stabs, kids shouting, energetic female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n공룡 마을 운동회 (운동회!)\n하나 둘 하나 둘\n치키치키 달려!\n\n[Verse 1]\n깡총깡총 달리기\n크앙! 로로가 쌩\n영차 영차 (영차!)\n\n[Verse 2]\n데굴데굴 큰 공\n쭈욱~ 토롱이 콩\n영차 영차 (영차!)\n\n[Verse 3]\n하늘 위로 휘익\n슝~ 피오가 쌩\n영차 영차 (영차!)\n\n[Verse 4]\n치키도 달려요\n어이쿠 넘어질라 (괜찮아?)\n같이 가자 (같이!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n공룡 마을 운동회 (운동회!)\n하나 둘 하나 둘\n치키치키 달려!\n\n[End]"
+    },
+    {
+      "id": "e24",
+      "title": "동글 네모 세모!",
+      "short": "모양 노래",
+      "where": "24화 · 0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "bouncy kids hip-hop, 95 bpm, boom-bap drums, wood block 'tok' sounds, toy piano, rhythmic chant-rap verses with a sung chorus, friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n동글 네모 세모 (모양!)\n모양 블록 쌓아요\n치키치키 뚝딱!\n\n[Verse 1]\n네모 네모 벽\n크앙! 로로가 쿵\n노란 네모 (네모!)\n\n[Verse 2]\n길쭉 네모 문\n쭈욱~ 토롱이 쏙\n초록 네모 (네모!)\n\n[Verse 3]\n동글동글 창문\n슝~ 피오가 콕\n하늘색 동그라미 (동그라미!)\n\n[Verse 4]\n뾰족 세모 지붕\n어디 있을까? (어디 있지?)\n세모 세모 (세모!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n동글 네모 세모 (모양!)\n모양 블록 쌓아요\n치키치키 뚝딱!\n\n[End]"
+    },
+    {
+      "id": "e25",
+      "title": "반짝반짝 크리스마스!",
+      "short": "크리스마스 노래",
+      "where": "25화 · 0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "cozy Motown-style Christmas pop, 110 bpm, tambourine, sleigh bells, glockenspiel, warm piano, soulful horns, kids choir, joyful female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n반짝반짝 크리스마스 (반짝!)\n다 같이 트리 꾸며요\n치키치키 메리!\n\n[Verse 1]\n노란 방울 달랑\n크앙! 로로가 달랑\n반짝반짝 (반짝!)\n\n[Verse 2]\n하얀 별은 맨 위에\n쭈욱~ 토롱이 쏙\n반짝반짝 (반짝!)\n\n[Verse 3]\n하늘색 방울 대롱\n슝~ 피오가 대롱\n반짝반짝 (반짝!)\n\n[Verse 4]\n다 같이 불을 켜요\n하나 둘 셋! (셋!)\n반짝반짝 (반짝!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n반짝반짝 크리스마스 (반짝!)\n다 같이 트리 꾸며요\n치키치키 메리!\n\n[End]"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "치키 22화 노래",
+  "h1": "22화 · 모래성 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "sand",
+      "title": "토닥토닥 모래성!",
+      "short": "모래성 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "laid-back sunny reggae, 90 bpm, offbeat guitar skank, round bass, melodica, gentle ocean wave sounds, relaxed beach feeling, warm female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n토닥토닥 모래성 (토닥토닥!)\n조개 콕콕 붙이고\n치키치키 완성!\n\n[Verse 1]\n노란 조개 콕\n크앙! 로로가 콕\n창문 하나 (하나!)\n\n[Verse 2]\n초록 조개 콕\n쭈욱~ 토롱이 콕\n창문 둘 (둘!)\n\n[Verse 3]\n하늘색 조개 콕\n슝~ 피오가 콕\n창문 셋 (셋!)\n\n[Verse 4]\n주황 조개 콕\n치키도 콕\n창문 넷 (넷!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n토닥토닥 모래성 (토닥토닥!)\n조개 콕콕 붙이고\n치키치키 완성!\n\n[End]"
+    }
+  ]
+}

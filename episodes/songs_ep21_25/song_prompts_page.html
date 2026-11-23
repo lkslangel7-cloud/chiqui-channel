@@ -1,0 +1,253 @@
+<title>치키 21~25화 노래</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: 한 열 작업 목록. 위에 고정 문구, 장면 번호 바로가기, 장면마다 그림·영상 프롬프트 카드 */
+:root {
+  --bg: #fbf7f0; --surface: #ffffff; --ink: #2b2620; --muted: #76695a;
+  --line: #eadfce; --accent: #e8711c; --accent-ink: #ffffff; --code: #f6efe3;
+  --display: "Jua", "Noto Sans KR", system-ui, sans-serif;
+  --body: "Noto Sans KR", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #1d1a16; --surface: #27231e; --ink: #f2ebe0; --muted: #b3a593;
+  --line: #3a342c; --accent: #f08a3c; --accent-ink: #1d1a16; --code: #2f2a24; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #1d1a16; --surface: #27231e; --ink: #f2ebe0; --muted: #b3a593;
+  --line: #3a342c; --accent: #f08a3c; --accent-ink: #1d1a16; --code: #2f2a24; color-scheme: dark; }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 20px; }
+h1 { font-family: var(--display); font-weight: 400; font-size: 2rem; margin: 0; text-wrap: balance; }
+.lead { margin: 0; color: var(--muted); }
+.steps { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; }
+.fixed { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 14px; }
+.fixed h2, .scene h2 { font-family: var(--display); font-weight: 400; margin: 0; font-size: 1.25rem; }
+nav.jump { display: flex; flex-wrap: wrap; gap: 6px; position: sticky; top: env(safe-area-inset-top, 0px); background: var(--bg); padding-block: 8px; z-index: 5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+nav.jump a { min-width: 2.4em; text-align: center; padding: 4px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); text-decoration: none; font-variant-numeric: tabular-nums; font-size: .9rem; }
+nav.jump a:hover, nav.jump a:focus-visible { border-color: var(--accent); outline: none; }
+.scene { display: grid; gap: 10px; padding-block: 16px; border-top: 1px solid var(--line); scroll-margin-top: 56px; }
+.scene-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; }
+.sid { font-family: var(--mono); color: var(--accent); font-size: .95rem; }
+.time { margin-left: auto; color: var(--muted); font-size: .9rem; font-variant-numeric: tabular-nums; }
+.ref { margin: 0; font-size: .95rem; }
+.label, .kind { font-size: .78rem; letter-spacing: .04em; color: var(--muted); margin-right: 6px; }
+.prompt { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; min-width: 0; }
+.prompt-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 10px 8px 12px; border-bottom: 1px solid var(--line); }
+pre { margin: 0; padding: 12px; white-space: pre-wrap; word-break: break-word; font-family: var(--mono); font-size: .82rem; line-height: 1.55; background: var(--code); color: var(--ink); }
+button.copy { font: inherit; font-size: .85rem; font-weight: 600; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+button.copy:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+button.copy.done { background: transparent; color: var(--accent); }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+h1 { word-break: keep-all; }
+.note { margin: 0; font-size: .95rem; color: var(--muted); }
+.steps b { color: var(--ink); }
+.opts { width: 100%; border-collapse: collapse; font-size: .92rem; }
+.opts th, .opts td { text-align: left; padding: 8px 6px; border-top: 1px solid var(--line); vertical-align: top; }
+.opts th { color: var(--muted); font-weight: 600; font-size: .8rem; }
+.opts td:first-child { white-space: nowrap; font-family: var(--mono); font-size: .85rem; }
+</style>
+<div class="wrap">
+  <header style="display:grid;gap:8px">
+    <h1>21~25화 · 노래 5곡 (Suno)</h1>
+    <p class="lead">21~25화 노래 5곡이에요(구조대·모래성·운동회·모양·크리스마스). 화마다 장르·빠르기·악기·목소리가 달라요(후렴 첫 줄 "쿵쿵 쾅!"과 끝 "치키치키 ○○!"만 시리즈 표시로 같아요). 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.</p>
+  </header>
+  <section class="fixed">
+    <h2>쓰는 순서</h2>
+    <ol class="steps">
+      <li>Suno에서 <b>Create</b> → <b>Custom</b> 모드를 켠다.</li>
+      <li>Lyrics 칸에 가사, Styles 칸에 스타일, Title 칸에 제목을 붙여 넣는다.</li>
+      <li><b>More Options</b>는 아래 표처럼 맞춘다.</li>
+      <li>한 번에 2곡씩 나와요. 발음이 또렷하고 밝은 쪽을 고른다.</li>
+      <li>마지막 후렴 끝(치키치키 ○○!)까지 나오는지 들어 보고, WAV로 받아 올려 주세요. 몇 화 노래인지 알려 주세요.</li>
+      <li>유튜브 수익 창출을 하려면 Suno <b>유료 플랜(Pro 이상)</b>으로 만든 곡이어야 해요. 무료 플랜 곡은 상업적으로 쓸 수 없어요.</li>
+    </ol>
+    <table class="opts"><thead><tr><th>설정</th><th>값</th></tr></thead><tbody>
+      <tr><td>Vocal Gender</td><td>노래마다 아래에 적어 둠 (곡마다 다름)</td></tr>
+      <tr><td>Duration</td><td><b>Custom</b> — 65~70초.</td></tr>
+      <tr><td>Max Mode</td><td><b>Off</b></td></tr>
+      <tr><td>Weirdness</td><td><b>20%</b> (낮을수록 무난하고 동요다운 곡)</td></tr>
+      <tr><td>Style Influence</td><td><b>80%</b> (스타일 문구를 잘 따르게)</td></tr>
+      <tr><td>Variety</td><td><b>Normal</b> 그대로</td></tr>
+      <tr><td>Personalize</td><td><b>Off</b> (4곡 소리를 똑같이 맞추려고)</td></tr>
+    </tbody></table>
+  </section>
+  <nav class="jump" aria-label="곡 바로가기"><a href="#e21">공룡 구조대</a><a href="#e22">모래성 노래</a><a href="#e23">운동회 노래</a><a href="#e24">모양 노래</a><a href="#e25">크리스마스 노래</a></nav>
+  <article class="scene" id="e21"><header class="scene-head"><h2>삐뽀삐뽀 공룡 구조대!</h2><span class="time">21화 · 0:55–1:55 · 시리즈 후렴 틀</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e21-t">복사</button></div><pre id="e21-t">삐뽀삐뽀 공룡 구조대!</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e21-l">복사</button></div><pre id="e21-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+삐뽀삐뽀 공룡 구조대 (출동!)
+친구가 부르면 달려가요
+치키치키 출동!
+
+[Verse 1]
+소방차 사다리 쭈욱
+치키가 올려 봐도
+안 닿아요 (어떡해!)
+
+[Verse 2]
+구급차 삐뽀삐뽀
+크앙! 로로 폴짝
+안 닿아요 (어떡해!)
+
+[Verse 3]
+하늘 높이 슝슝
+슝~ 피오가 당겨도
+꼼짝 않아요 (어떡해!)
+
+[Verse 4]
+목이 쭈욱 토롱이
+살금살금 다가가
+연을 쏙! (쏙!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+삐뽀삐뽀 공룡 구조대 (출동!)
+친구가 부르면 달려가요
+치키치키 출동!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e21-s">복사</button></div><pre id="e21-s">bright kids rock-pop, 124 bpm, crunchy electric guitar, punchy drum kit, playful siren-like synth &#x27;wee-woo&#x27; sounds, horn hits, brave and fun, energetic male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key</pre></div><p class="note">More Options → <b>Vocal Gender: Male</b></p></article><article class="scene" id="e22"><header class="scene-head"><h2>토닥토닥 모래성!</h2><span class="time">22화 · 0:55–1:55 · 시리즈 후렴 틀</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e22-t">복사</button></div><pre id="e22-t">토닥토닥 모래성!</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e22-l">복사</button></div><pre id="e22-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+토닥토닥 모래성 (토닥토닥!)
+조개 콕콕 붙이고
+치키치키 완성!
+
+[Verse 1]
+노란 조개 콕
+크앙! 로로가 콕
+창문 하나 (하나!)
+
+[Verse 2]
+초록 조개 콕
+쭈욱~ 토롱이 콕
+창문 둘 (둘!)
+
+[Verse 3]
+하늘색 조개 콕
+슝~ 피오가 콕
+창문 셋 (셋!)
+
+[Verse 4]
+주황 조개 콕
+치키도 콕
+창문 넷 (넷!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+토닥토닥 모래성 (토닥토닥!)
+조개 콕콕 붙이고
+치키치키 완성!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e22-s">복사</button></div><pre id="e22-s">laid-back sunny reggae, 90 bpm, offbeat guitar skank, round bass, melodica, gentle ocean wave sounds, relaxed beach feeling, warm female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key</pre></div><p class="note">More Options → <b>Vocal Gender: Female</b></p></article><article class="scene" id="e23"><header class="scene-head"><h2>공룡 마을 운동회!</h2><span class="time">23화 · 0:55–1:55 · 시리즈 후렴 틀</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e23-t">복사</button></div><pre id="e23-t">공룡 마을 운동회!</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e23-l">복사</button></div><pre id="e23-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+공룡 마을 운동회 (운동회!)
+하나 둘 하나 둘
+치키치키 달려!
+
+[Verse 1]
+깡총깡총 달리기
+크앙! 로로가 쌩
+영차 영차 (영차!)
+
+[Verse 2]
+데굴데굴 큰 공
+쭈욱~ 토롱이 콩
+영차 영차 (영차!)
+
+[Verse 3]
+하늘 위로 휘익
+슝~ 피오가 쌩
+영차 영차 (영차!)
+
+[Verse 4]
+치키도 달려요
+어이쿠 넘어질라 (괜찮아?)
+같이 가자 (같이!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+공룡 마을 운동회 (운동회!)
+하나 둘 하나 둘
+치키치키 달려!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e23-s">복사</button></div><pre id="e23-s">stomping cheer-pop, 128 bpm, big stomp-stomp-clap beat, cheerleader chants, whistle, brass stabs, kids shouting, energetic female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key</pre></div><p class="note">More Options → <b>Vocal Gender: Female</b></p></article><article class="scene" id="e24"><header class="scene-head"><h2>동글 네모 세모!</h2><span class="time">24화 · 0:55–1:55 · 시리즈 후렴 틀</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e24-t">복사</button></div><pre id="e24-t">동글 네모 세모!</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e24-l">복사</button></div><pre id="e24-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+동글 네모 세모 (모양!)
+모양 블록 쌓아요
+치키치키 뚝딱!
+
+[Verse 1]
+네모 네모 벽
+크앙! 로로가 쿵
+노란 네모 (네모!)
+
+[Verse 2]
+길쭉 네모 문
+쭈욱~ 토롱이 쏙
+초록 네모 (네모!)
+
+[Verse 3]
+동글동글 창문
+슝~ 피오가 콕
+하늘색 동그라미 (동그라미!)
+
+[Verse 4]
+뾰족 세모 지붕
+어디 있을까? (어디 있지?)
+세모 세모 (세모!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+동글 네모 세모 (모양!)
+모양 블록 쌓아요
+치키치키 뚝딱!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e24-s">복사</button></div><pre id="e24-s">bouncy kids hip-hop, 95 bpm, boom-bap drums, wood block &#x27;tok&#x27; sounds, toy piano, rhythmic chant-rap verses with a sung chorus, friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key</pre></div><p class="note">More Options → <b>Vocal Gender: Male</b></p></article><article class="scene" id="e25"><header class="scene-head"><h2>반짝반짝 크리스마스!</h2><span class="time">25화 · 0:55–1:55 · 시리즈 후렴 틀</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e25-t">복사</button></div><pre id="e25-t">반짝반짝 크리스마스!</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e25-l">복사</button></div><pre id="e25-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+반짝반짝 크리스마스 (반짝!)
+다 같이 트리 꾸며요
+치키치키 메리!
+
+[Verse 1]
+노란 방울 달랑
+크앙! 로로가 달랑
+반짝반짝 (반짝!)
+
+[Verse 2]
+하얀 별은 맨 위에
+쭈욱~ 토롱이 쏙
+반짝반짝 (반짝!)
+
+[Verse 3]
+하늘색 방울 대롱
+슝~ 피오가 대롱
+반짝반짝 (반짝!)
+
+[Verse 4]
+다 같이 불을 켜요
+하나 둘 셋! (셋!)
+반짝반짝 (반짝!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+반짝반짝 크리스마스 (반짝!)
+다 같이 트리 꾸며요
+치키치키 메리!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e25-s">복사</button></div><pre id="e25-s">cozy Motown-style Christmas pop, 110 bpm, tambourine, sleigh bells, glockenspiel, warm piano, soulful horns, kids choir, joyful female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key</pre></div><p class="note">More Options → <b>Vocal Gender: Female</b></p></article>
+</div>
+<script>
+document.addEventListener('click', function (ev) {
+  var btn = ev.target.closest('button.copy');
+  if (!btn) return;
+  var el = document.getElementById(btn.dataset.target);
+  var text = el.textContent;
+  function done() { btn.textContent = '복사됨'; btn.classList.add('done');
+    setTimeout(function () { btn.textContent = '복사'; btn.classList.remove('done'); }, 1600); }
+  function fallback() { var r = document.createRange(); r.selectNodeContents(el);
+    var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = '선택됨 · 길게 눌러 복사'; }
+  try { navigator.clipboard.writeText(text).then(done, fallback); } catch (e) { fallback(); }
+});
+</script>

@@ -1,0 +1,19 @@
+{
+  "title": "치키 24화 노래",
+  "h1": "24화 · 모양 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "shape",
+      "title": "동글 네모 세모!",
+      "short": "모양 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "bouncy kids hip-hop, 95 bpm, boom-bap drums, wood block 'tok' sounds, toy piano, rhythmic chant-rap verses with a sung chorus, friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n동글 네모 세모 (모양!)\n모양 블록 쌓아요\n치키치키 뚝딱!\n\n[Verse 1]\n네모 네모 벽\n크앙! 로로가 쿵\n노란 네모 (네모!)\n\n[Verse 2]\n길쭉 네모 문\n쭈욱~ 토롱이 쏙\n초록 네모 (네모!)\n\n[Verse 3]\n동글동글 창문\n슝~ 피오가 콕\n하늘색 동그라미 (동그라미!)\n\n[Verse 4]\n뾰족 세모 지붕\n어디 있을까? (어디 있지?)\n세모 세모 (세모!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n동글 네모 세모 (모양!)\n모양 블록 쌓아요\n치키치키 뚝딱!\n\n[End]"
+    }
+  ]
+}
