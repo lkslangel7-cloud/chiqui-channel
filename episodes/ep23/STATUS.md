@@ -3,7 +3,10 @@
 | 항목 | 상태 |
 | --- | --- |
 | 대본·가사·프롬프트 | 완료 (2026-11-20) |
-| 그림 16장 | 아직 |
+| 그림 16장 | **모두 합격** (2026-11-23, 파일 16개) |
 | 영상 16컷 | 아직 |
 | 노래 | 아직 (Suno 65~70초) |
 | 음성 | 아직 |
+
+## 그림 받기 기록
+- 1차(2026-11-23, 달리는 방향·결승선·메달 색을 장면끼리 비교) 16장 모두 합격: S02 tT1t2_gTahc, S03 PeSJQYp01p0, S04 a4EfIjYm8YU, S05 wThTL8FQ7fQ(모두 왼쪽으로 달림), S06 5XyLkaczmCk, S07 jstv6k1pvow, S09 OAE_jI7-g8E, S10 0nlLfVFy8Ug(코로 초록 공), S11 siswXnUBp3A, S12 pRheioECyvw(넘어졌지만 안 다침), S13 Ujm1hXvn8vE(셋이 오른쪽 치키 쪽으로 돌아봄), S14 4xTyxqwna9A, S15 mBwjxlLn9Vc(왼쪽 결승선 기둥 2개·흰 리본), S16 OFTffNWDwb4(메달 끈 주황·노랑·초록·하늘색), S17 ppHpQAeFenI(결승선 기둥에 색깔 깃발 줄이 생김 — 작은 차이), S18 crQwJkTxc7U. **23화 그림 16장 모두 완료.** 다음: 영상.
