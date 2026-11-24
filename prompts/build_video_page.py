@@ -50,7 +50,51 @@ def upload(ep):
                       f'<p class="hint">사진을 길게 누르거나 오른쪽 클릭해서 저장할 수 있어요. 영어·스페인어 채널용은 같은 폴더의 thumbnail_en.png, thumbnail_es.png예요.</p></figure>')
     return f'<section class="yt"><h3>유튜브 올릴 정보</h3>{"".join(out)}</section>' if out else ""
 
-tabs, panels = [], []
+
+# ---------- 진행 현황 탭 (파일 수를 세어 자동으로 만든다) ----------
+import re as _re
+PAGES = json.loads((ROOT / "episodes/pages.json").read_text(encoding="utf-8")) if (ROOT / "episodes/pages.json").exists() else {}
+def _ids(d, ext):
+    return sorted({m.group(1) for f in d.glob(f"*.{ext}") if (m := _re.match(r"(S\d\d)_", f.name))}) if d.exists() else []
+def progress(x):
+    ep = x["ep"]; d = ROOT / f"episodes/ep{ep}"; n = x.get("no", int(ep))
+    sc = d / "scenes.json"
+    ids = [s["id"] for s in json.loads(sc.read_text(encoding="utf-8"))] if sc.exists() else []
+    img, vid = _ids(d / "images/web", "png"), _ids(d / "clips/web", "mp4")
+    song = any((d / "audio/songs").glob("*.wav")) or any((d / "audio/songs").glob("*.mp3"))
+    voice = any((d / "audio/ko").glob("*.wav")) if (d / "audio/ko").exists() else False
+    done = "file" in x
+    T = len(ids) or 16
+    ni = T if done else len([i for i in ids if i in img]); nv = T if done else len([i for i in ids if i in vid])
+    mi = [i for i in ids if i not in img]; mv = [i for i in ids if i not in vid]
+    if done: nxt, stage = "완성 · 올리기만 하면 돼요", 5
+    elif ni < T: nxt, stage = ("그림 " + " ".join(mi) if ni else "그림 만들기 시작 전"), 1
+    elif nv < T: nxt, stage = ("영상 " + " ".join(mv) if nv else "영상 만들기 시작 전"), 2
+    elif not song: nxt, stage = "노래(Suno) 만들기", 3
+    else: nxt, stage = "음성·조립", 4
+    return dict(ep=ep, n=n, short=x["short"], T=T, ni=ni, nv=nv, song=song or done, voice=voice or done, done=done, nxt=nxt, stage=stage, page=PAGES.get(str(n), {}))
+PR = sorted((progress(x) for x in eps), key=lambda r: r["n"])
+def _bar(a, T): 
+    pct = round(100 * a / T) if T else 0
+    return f'<span class="bar" role="img" aria-label="{a}/{T}"><i style="width:{pct}%"></i></span><span class="num">{a}/{T}</span>'
+def _ok(b): return '<span class="ok">✓</span>' if b else '<span class="no">–</span>'
+_rows = "".join(
+    f'<li class="pr s{r["stage"]}"><div class="pr-h"><span class="pn">{r["n"]}화</span><span class="pt">{e(r["short"])}</span>'
+    f'{"<a href=" + chr(34) + r["page"]["scene"] + chr(34) + " target=_blank rel=noopener>장면</a>" if r["page"].get("scene") else ""}'
+    f'{"<a href=" + chr(34) + r["page"]["song"] + chr(34) + " target=_blank rel=noopener>노래</a>" if r["page"].get("song") else ""}</div>'
+
+    + ('<p class="nx done">✓ 완성 · 완성 영상은 이 화 탭에 있어요</p></li>' if r["done"] else
+    f'<div class="pr-g"><span class="lb">그림</span>{_bar(r["ni"], r["T"])}<span class="lb">영상</span>{_bar(r["nv"], r["T"])}</div>'
+    f'<div class="pr-c"><span>노래 {_ok(r["song"])}</span><span>음성 {_ok(r["voice"])}</span><span>완성 {_ok(r["done"])}</span></div>'
+    f'<p class="nx">다음: {e(r["nxt"])}</p></li>') for r in PR)
+_c = lambda k: sum(1 for r in PR if r["stage"] >= k)
+import datetime as _dt
+_now = _dt.datetime.now(_dt.timezone(_dt.timedelta(hours=9))).strftime("%m월 %d일 %H:%M")
+PROG = (f'<section class="panel" id="prog" role="tabpanel" hidden><header class="ph"><h2>진행 현황</h2><span class="hint">{_now} 기준 · 파일 수를 세어 자동으로 만들어요</span></header>'
+        f'<div class="sum"><div><b>{_c(5)}</b><span>완성</span></div><div><b>{_c(2)}</b><span>그림 끝</span></div><div><b>{_c(3)}</b><span>영상 끝</span></div><div><b>{len(PR)}</b><span>전체</span></div></div>'
+        f'<ul class="prl">{_rows}</ul></section>')
+
+tabs, panels = ['<a class="tab prog" href="#prog" data-ep="prog" role="tab"><span class="no">진행 현황</span></a>'], [PROG]
 for x in eps:
     ep = x["ep"]; n = x.get("no", int(ep)); done = "file" in x
     tabs.append(f'<a class="tab{" soon" if not done else ""}" href="#ep{ep}" data-ep="ep{ep}" role="tab"><span class="no">{n}화</span></a>')
@@ -96,7 +140,7 @@ body {{ background: var(--bg); color: var(--ink); font-family: var(--body); font
 h1 {{ font-family: var(--display); font-weight: 400; font-size: 1.9rem; margin: 0; text-wrap: balance; }}
 .sub {{ margin: 2px 0 0; color: var(--muted); }}
 .tabs {{ display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; scrollbar-width: thin; }}
-.tab {{ flex: none; text-decoration: none; color: var(--ink); background: var(--surface); border: 1.5px solid var(--line);
+.tab {{ flex: none; white-space: nowrap; text-decoration: none; color: var(--ink); background: var(--surface); border: 1.5px solid var(--line);
   border-radius: 999px; padding: 6px 14px; font-family: var(--display); font-size: 1.05rem; }}
 .tab.soon {{ color: var(--muted); border-style: dashed; }}
 .tab[aria-selected="true"] {{ background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }}
@@ -127,6 +171,21 @@ code {{ font-size: 0.85rem; background: var(--surface); border: 1px solid var(--
 .copy:focus-visible {{ outline: 3px solid var(--accent); outline-offset: 2px; }}
 .setting {{ font-size: 0.88rem; color: var(--muted); }} .setting span {{ font-size: 0.78rem; letter-spacing: 0.04em; }} .setting p {{ margin: 2px 0 0; color: var(--ink); overflow-wrap: anywhere; }}
 .thumb {{ margin: 0; display: grid; gap: 6px; min-width: 0; }} .thumb img {{ width: 100%; max-width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); display: block; }} .thumb figcaption {{ display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; font-size: 0.85rem; color: var(--muted); }}
+.sum {{ display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }}
+.sum div {{ background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 8px 10px; display: grid; }}
+.sum b {{ font-family: var(--display); font-weight: 400; font-size: 1.6rem; font-variant-numeric: tabular-nums; }} .sum span {{ color: var(--muted); font-size: 0.82rem; }}
+.prl {{ list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }}
+.pr {{ background: var(--surface); border: 1px solid var(--line); border-left: 5px solid var(--soon); border-radius: 12px; padding: 8px 12px; display: grid; gap: 4px; min-width: 0; }}
+.pr.s2 {{ border-left-color: #e9b949; }} .pr.s3, .pr.s4 {{ border-left-color: #6fb4e6; }} .pr.s5 {{ border-left-color: #5bb06a; }}
+.pr-h {{ display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }} .pn {{ font-family: var(--display); color: var(--accent); }} .pt {{ font-weight: 600; flex: 1; min-width: 0; }}
+.pr-h a {{ font-size: 0.8rem; color: var(--ink); border: 1px solid var(--line); border-radius: 999px; padding: 0 9px; text-decoration: none; }}
+.pr-g {{ display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 2px 8px; font-size: 0.85rem; }}
+.pr-c {{ display: flex; gap: 14px; flex-wrap: wrap; font-size: 0.85rem; color: var(--muted); }} .nx.done {{ color: #3f9a52; }}
+.pr-g .lb {{ color: var(--muted); }}
+.bar {{ height: 8px; background: var(--line); border-radius: 99px; overflow: hidden; display: block; min-width: 40px; }} .bar i {{ display: block; height: 100%; background: var(--accent); }}
+.num {{ font-variant-numeric: tabular-nums; }} .ok {{ color: #3f9a52; font-weight: 600; }} .no {{ color: var(--muted); }}
+.nx {{ margin: 0; font-size: 0.85rem; color: var(--muted); overflow-wrap: anywhere; }}
+.tab.prog {{ border-color: var(--accent); }}
 </style>
 <div class="wrap">
   <header><h1>치키 타운 완성 영상</h1><p class="sub">완성 {ndone}편 · 탭을 눌러 화마다 볼 수 있어요</p></header>
@@ -136,7 +195,7 @@ code {{ font-size: 0.85rem; background: var(--surface); border: 1px solid var(--
 <script>
 const tabs = [...document.querySelectorAll('.tab')], panels = [...document.querySelectorAll('.panel')];
 function show(id) {{
-  if (!panels.some(p => p.id === id)) id = '{'ep%s' % [x for x in eps if 'file' in x][-1]['ep']}';
+  if (!panels.some(p => p.id === id)) id = 'prog';
   panels.forEach(p => {{ if (p.id !== id) {{ const v = p.querySelector('video'); if (v) v.pause(); }} p.hidden = p.id !== id; }});
   tabs.forEach(t => {{ const on = t.dataset.ep === id; t.setAttribute('aria-selected', on); if (on) t.scrollIntoView({{block: 'nearest', inline: 'center'}}); }});
 }}

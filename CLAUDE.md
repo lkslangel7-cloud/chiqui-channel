@@ -59,6 +59,8 @@
 
 - (2026-11-22) 완성 영상 보기 페이지: https://claude.ai/artifact/VrXoeRAAETxzuRQbFUxKJ6 (화마다 탭). 한 화를 완성하면 `episodes/videos.json`에 "file"(output 파일 이름)을 넣고 `python3 prompts/build_video_page.py <스크래치패드>/videopage` → index.html(영상 아래에 그 화 upload_info.md의 제목·설명·태그 복사 칸과 설정이 자동으로 들어감)과 새 `v/epXX.mp4`·`t/epXX.jpg`·`th/epXX.jpg`(썸네일 원본 크기)만 files로 같은 URL에 올린다 (한 번에 64MB, 영상 5개까지).
 
+- (2026-11-24, 사용자 요청) 진행 현황은 완성 영상 페이지 맨 앞 「진행 현황」 탭(build_video_page.py가 images/web·clips/web·audio 파일 수를 세어 자동 생성, 장면·노래 페이지 링크는 episodes/pages.json). **그림·영상을 합격시키거나 화를 완성할 때마다** `python3 prompts/build_video_page.py <스크래치패드>/videopage` 후 index.html을 같은 URL에 다시 올린다(완성 화는 v/·t/·th/도). 로컬로 고친 그림은 Higgsfield에 없으니 고친 파일을 사용자에게 보내 업로드해 시작 그림으로 쓰게 한다.
+
 - (2026-11-24) 숏폼: `python3 -I scripts/make_shorts.py 01 02 …` → `output/shorts/epXX_song.mp4`(노래 28초)·`epXX_quiz.mp4`(질문~정답), 1080×1920(흐린 배경+가운데 영상+위 제목+아래 자막+치키 타운). 올릴 정보 `output/shorts/shorts_info.md`. 크레딧 0. 미리보기 페이지 https://claude.ai/artifact/AHwnLSqUeQMDebTUCyaX7L (`python3 prompts/build_shorts_page.py <스크래치패드>/shortspage`, v/·p/에 432px 미리보기·포스터).
 
 1. `episodes/epXX/script.md`에서 대본과 장면 목록을 읽는다.
