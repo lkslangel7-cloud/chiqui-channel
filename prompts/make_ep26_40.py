@@ -24,8 +24,8 @@ def CHEER(where, name="좋아!"):
 
 
 def WAVE(where, name, extra=""):
-    return (name, "BCRTP", where + f"All five friends stand in a row facing the viewer with big smiles{extra}. Grandpa Bau, Chiqui and Roro each wave ONE front paw, Pio waves one wing, Torong stands on all four feet and tilts the long neck and head to one side.", "", False,
-            "Grandpa Bau, Chiqui, Roro and Pio wave at the viewer; Torong sways the long neck side to side with all four feet on the ground. The camera stays still.")
+    return (name, "BCRTP", where + f"All five friends stand in a row facing the viewer with big smiles{extra}. Chiqui and Roro each wave ONE front paw, Pio waves one wing; Grandpa Bau does NOT wave: Grandpa Bau has exactly 4 legs with all four feet flat on the ground and says hi by nodding the head and wagging the tail club; Torong stands on all four feet and tilts the long neck and head to one side.", "", False,
+            "Chiqui, Roro and Pio wave at the viewer; Grandpa Bau nods and wags the tail club with all four feet staying on the ground (exactly 4 legs); Torong sways the long neck side to side with all four feet on the ground. The camera stays still.")
 
 
 def BAU(where, name, pose):
@@ -76,8 +76,10 @@ EPS["ep26"] = dict(
  ]))
 
 # ---------------- 27화 쉬~ 화장실 (배변 습관) ----------------
-HUT = "THE SAME little bathroom hut in every scene: one small round clay hut with a smooth cream wall, a round pale-blue door and one tiny round window, nothing written or drawn on it"
-SINK = "a small round grey stone hand-wash basin with clear water next to the hut"
+HUT = ("THE SAME little bathroom hut in every scene: one small round clay hut with a smooth cream wall and a roof of big green clay leaves, "
+       "a round pale-blue wooden door with a yellow knob in the middle of the front, the door is hinged on its LEFT edge so it always swings open to the LEFT, "
+       "and one tiny round window with a wooden frame on the RIGHT side of the door (never on the left); nothing written or drawn on it")
+SINK = "a small round grey stone hand-wash basin with clear water and a little wooden spout, standing on the LEFT side of the hut (never on the right)"
 EPS["ep27"] = dict(
  title="27화. 쉬~ 화장실! — 배변 습관", short="쉬~ 화장실!", song_id="potty", song_short="화장실 노래",
  theme="쉬가 마려우면 말하고 화장실 가기, 다녀와서 손 씻기. 비누 거품은 친구 몸 색.",
