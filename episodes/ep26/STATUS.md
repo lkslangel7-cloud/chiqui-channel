@@ -13,3 +13,4 @@
 - (2026-11-24) S06 e0WGJ6ygKaE, S12 4eiTcMkEt9M 합격(S13과 같은 방·나무 침대·점무늬 이불). **그림 16장 모두 합격** (파일 16개 확인). 다음: 영상 16개.
 - (2026-11-24, 사용자 제안) S06을 Q1cj2vdBZi4로 바꿈(침대 전체가 보이고 가운데, S12와 구도 비슷). 옛 e0WGJ6ygKaE는 web_old.
 - (2026-11-24) 영상 S12 nheiE7kFP54: 방·창밖이 밤처럼 어둡게 나옴 → 합격 그림 색에 맞춰 밝기·색을 바꾸고 창문 4칸을 밝은 아침빛으로 칠함(241프레임, 크레딧 0, clips/web/S12_nheiE7kFP54_bright.mp4). 선반의 파란 책이 약간 보라빛으로 바뀜(작은 차이).
+- (2026-11-24) 영상 16개 받음(1초 간격 확인) — 모두 합격: S02 oaWIKDujw_8(어둠→해 뜸, 장면에 맞음), S03 0BNCMX392xU, S04 gZ3Dd6lwUQ8, S05 5iREZHSwRWQ, S06 IQGdfKhemmM, S07 ZsHUug5WQvw, S09 8h87ORhNS9Q, S10 fUq6Kga27j8, S11 3379q0xWvcM, S12 MfXm4siNgJg(새로 만든 밝은 판 — 로컬 보정판은 S12b 예비), S13 oMD03z5cFeI, S14 2hywOXk8gFA, S15 Bc3A2Tjjy_g, S16 DooTX8CboNI, S17 gOLWnl8jL0M, S18 Pf2i6l8USP4(바우 다리 4개) → **공통 컷 ending_meadow로 지정**(26·27·28·29·30·31·32·33·35·38화가 같이 씀). **영상 16/16 완료.**

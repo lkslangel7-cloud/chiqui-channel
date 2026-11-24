@@ -10,3 +10,4 @@
 - (2026-11-24) 그림 1차 16장 받음 — 전부 한 장에 모아 오두막·세면대 비교. 12장 합격: S02 RW-Gce1GKuU, S03 SzpOTynxCxg, S04 uwfxW6T-vPk, S07 2It0tX11JbY, S09 5QyASGz8Jq4, S10 W5pErO_JkII, S11 4-gfWTW2jLo, S12 OtmFktDPVb8, S13 FloUOef3ps0, S15 2NdRjGeSbu8, S16 UN4xk7nrfLY, S17 vic-Hn6BNoc.
 - 불합격: S05 HCu8UG1pvx0(세면대가 오두막 오른쪽 — S07·S15는 왼쪽), S06 SvnAj0PO1yk·S14 08gtIwY1UsA(창문이 문 왼쪽, 문이 오른쪽으로 열림 — 나머지는 창문 오른쪽, S10 문 왼쪽으로 열림), S18 EqNWOjAtyA4(바우가 손 흔들어 다리 5개). HUT(잎 지붕·문 왼쪽 경첩·창문 문 오른쪽), SINK(오두막 왼쪽·나무 꼭지), WAVE(바우는 손 안 흔들고 고개·꼬리 곤봉) 고침 → 26~40화 마지막 인사 장면 모두 반영. 참고 그림: S15(오두막·세면대), S10(문 열림).
 - (2026-11-24) S05 6-_aeWO9J1o(세면대 왼쪽), S06 _fSkyM6AoAE·S14 xohORAfBbv4(창문 문 오른쪽·문 왼쪽으로 열림), S18 xBEDdF2r1pQ(바우 손 안 흔듦·다리 4개) 합격. **그림 16장 모두 합격** (파일 16개 확인). 다음: 영상 16개.
+- (2026-11-24) S18은 공통 컷(ending_meadow = 26화 그림·영상)을 쓴다. 27화 S18 그림 xBEDdF2r1pQ는 예비.

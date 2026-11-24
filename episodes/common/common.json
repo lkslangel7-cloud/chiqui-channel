@@ -1,4 +1,10 @@
 {
- "ending_meadow": {"name": "마지막 인사 (풀밭에 다섯 친구가 한 줄로 손 흔들기)", "from": "27화 S18 xBEDdF2r1pQ"},
- "cheer_meadow": {"name": "좋아! (풀밭에서 네 친구 응원)", "from": ""}
+ "ending_meadow": {
+  "name": "마지막 인사 (풀밭에 다섯 친구가 한 줄로 손 흔들기)",
+  "from": "26화 S18 그림 CPcJ930L6u0 · 영상 Pf2i6l8USP4"
+ },
+ "cheer_meadow": {
+  "name": "좋아! (풀밭에서 네 친구 응원)",
+  "from": ""
+ }
 }
