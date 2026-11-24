@@ -1,0 +1,19 @@
+{
+  "title": "치키 35화 노래",
+  "h1": "35화 · 신호등 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "traffic",
+      "title": "빨간불 멈춰요!",
+      "short": "신호등 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "electronic toy-pop safety song, 112 bpm, toy synth beeps like traffic lights, steady beat, clear shouts STOP and GO, friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n빨간불 멈춰요 (멈춰!)\n초록불 건너요\n치키치키 안전!\n\n[Verse 1]\n빨간불 반짝\n크앙! 로로도 멈춰\n기다려요 (멈춰!)\n\n[Verse 2]\n초록불 반짝\n쭈욱~ 토롱 천천히\n건너가요 (건너!)\n\n[Verse 3]\n오른쪽 왼쪽\n슝~ 피오가 살펴\n잘 보고요 (살펴!)\n\n[Verse 4]\n치키가 공을 따라\n빨간불인데 (멈춰!)\n휴~ 기다려요 (휴~)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n빨간불 멈춰요 (멈춰!)\n초록불 건너요\n치키치키 안전!\n\n[End]"
+    }
+  ]
+}

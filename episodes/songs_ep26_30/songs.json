@@ -1,0 +1,59 @@
+{
+  "title": "치키 26~30화 노래",
+  "h1": "26~30화 · 노래 5곡 (Suno)",
+  "lead": "26~30화 노래 5곡이에요. 화마다 장르·빠르기·악기·목소리가 달라요(후렴 첫 줄 \"쿵쿵 쾅!\"과 끝 \"치키치키 ○○!\"만 같아요). 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 끝까지 나오는지 들어 보고 WAV로 올려 주세요. 몇 화 노래인지 알려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "e26",
+      "title": "좋은 아침!",
+      "short": "아침 노래",
+      "where": "26화",
+      "inst": false,
+      "style": "bright sunrise acoustic pop, 104 bpm, strummed acoustic guitar, cheerful whistling, glockenspiel, rooster-like toy horn, fresh morning feeling, sunny female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n좋은 아침! (좋은 아침!)\n해님 보고 일어나요\n치키치키 일어나!\n\n[Verse 1]\n해님이 방긋 떴어요\n크앙! 로로가 기지개\n쭉쭉 쭈욱 (쭈욱!)\n\n[Verse 2]\n찬물로 어푸어푸\n쭈욱~ 토롱이 세수\n반짝반짝 (반짝!)\n\n[Verse 3]\n볏을 슥슥 빗어요\n슝~ 피오가 슥슥\n단정하게 (슥슥!)\n\n[Verse 4]\n치키는 아직 쿨쿨\n다 같이 불러요 (치키야!)\n눈을 번쩍 (번쩍!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n좋은 아침! (좋은 아침!)\n해님 보고 일어나요\n치키치키 일어나!\n\n[End]"
+    },
+    {
+      "id": "e27",
+      "title": "쉬~ 화장실!",
+      "short": "화장실 노래",
+      "where": "27화",
+      "inst": false,
+      "style": "silly bouncy cartoon march, 112 bpm, tuba, slide whistle, wood blocks, kazoo, playful and funny, goofy friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n쉬 마려워요! (쉬~!)\n참지 말고 말해요\n치키치키 화장실!\n\n[Verse 1]\n쉬가 마려워 동동\n크앙! 로로가 말해요\n화장실 갈래요 (갈래요!)\n\n[Verse 2]\n쭈욱~ 토롱도 동동\n천천히 다녀와요\n손 씻고 와요 (싹싹!)\n\n[Verse 3]\n슝~ 피오도 동동\n쉬 마려워요 말해요\n다녀왔어요 (짠!)\n\n[Verse 4]\n치키는 놀다가 동동\n참으면 안 돼요 (안 돼!)\n얼른 가요 (얼른!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n쉬 마려워요! (쉬~!)\n참지 말고 말해요\n치키치키 화장실!\n\n[End]"
+    },
+    {
+      "id": "e28",
+      "title": "우산 쓰고 첨벙첨벙!",
+      "short": "첨벙 노래",
+      "where": "28화",
+      "inst": false,
+      "style": "jazzy rainy-day pop, 98 bpm, brushed drums, upright bass, finger snaps, splashing water sounds, playful clarinet, smooth female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n우산 쓰고 첨벙첨벙 (첨벙!)\n비가 와도 신나요\n치키치키 첨벙!\n\n[Verse 1]\n노란 우산 빙글빙글\n크앙! 로로가 첨벙\n물웅덩이 (첨벙!)\n\n[Verse 2]\n하늘색 우산 팔랑팔랑\n슝~ 피오가 첨벙\n물웅덩이 (첨벙!)\n\n[Verse 3]\n주황 우산 동글동글\n치키도 첨벙\n물웅덩이 (첨벙!)\n\n[Verse 4]\n토롱 우산은 어디 있지?\n큰 나무 아래 쏙 (쏙!)\n나뭇잎 우산 (우산!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n우산 쓰고 첨벙첨벙 (첨벙!)\n비가 와도 신나요\n치키치키 첨벙!\n\n[End]"
+    },
+    {
+      "id": "e29",
+      "title": "쑥쑥 자라라!",
+      "short": "씨앗 노래",
+      "where": "29화",
+      "inst": false,
+      "style": "gentle garden folk, 96 bpm, banjo, glockenspiel, light hand percussion, growing-up hopeful feeling, warm male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n쑥쑥 자라라 (쑥쑥!)\n씨앗 콕 물 주고\n치키치키 쑥쑥!\n\n[Verse 1]\n콕콕 흙을 파고\n크앙! 로로가 콕\n씨앗 하나 (콕!)\n\n[Verse 2]\n토닥토닥 흙 덮고\n쭈욱~ 토롱이 토닥\n잘 자라라 (토닥!)\n\n[Verse 3]\n쪼르르 물을 주고\n슝~ 피오가 쪼르르\n해님 방긋 (방긋!)\n\n[Verse 4]\n치키 화분은 왜 그럴까?\n싹이 안 나요 (왜?)\n물을 줘요 (쪼르르!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n쑥쑥 자라라 (쑥쑥!)\n씨앗 콕 물 주고\n치키치키 쑥쑥!\n\n[End]"
+    },
+    {
+      "id": "e30",
+      "title": "치키가 말했어요!",
+      "short": "따라 하기",
+      "where": "30화",
+      "inst": false,
+      "style": "call-and-response action chant, 110 bpm, big kids drums, stomps and claps, short shouted commands with echoes, energetic male leader, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n치키가 말했어요 (말했어요!)\n보고 보고 따라 해\n치키치키 따라 해!\n\n[Verse 1]\n손을 위로 쭈욱\n크앙! 로로도 쭈욱\n따라 해요 (쭈욱!)\n\n[Verse 2]\n꼬리를 살랑살랑\n쭈욱~ 토롱 살랑\n따라 해요 (살랑!)\n\n[Verse 3]\n빙글빙글 돌아요\n슝~ 피오가 빙글\n따라 해요 (빙글!)\n\n[Verse 4]\n쿵쿵 발을 굴러요\n다 같이 쿵쿵 (쿵쿵!)\n따라 해요 (쿵!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n치키가 말했어요 (말했어요!)\n보고 보고 따라 해\n치키치키 따라 해!\n\n[End]"
+    }
+  ]
+}

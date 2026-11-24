@@ -1,0 +1,19 @@
+{
+  "title": "치키 31화 노래",
+  "h1": "31화 · 비눗방울 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "bubble",
+      "title": "퐁퐁 비눗방울!",
+      "short": "비눗방울",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "dreamy bubbly synth-pop, 100 bpm, soft synth pads, bubble pop sounds, sparkly arpeggios, floaty and light, airy female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n퐁퐁 비눗방울 (퐁퐁!)\n후~ 불면 둥실둥실\n치키치키 퐁퐁!\n\n[Verse 1]\n후~ 불면 퐁퐁\n크앙! 로로가 후~\n노란 막대 (퐁!)\n\n[Verse 2]\n후~ 길게 불면\n쭈욱~ 토롱이 후~\n커다란 방울 (우와!)\n\n[Verse 3]\n팡팡 터뜨려요\n슝~ 피오가 콕\n하나 둘 셋 (팡!)\n\n[Verse 4]\n치키도 후~\n방울방울 (퐁퐁!)\n하늘 높이 (둥실!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n퐁퐁 비눗방울 (퐁퐁!)\n후~ 불면 둥실둥실\n치키치키 퐁퐁!\n\n[End]"
+    }
+  ]
+}

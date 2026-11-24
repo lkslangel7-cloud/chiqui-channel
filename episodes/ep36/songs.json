@@ -1,0 +1,19 @@
+{
+  "title": "치키 36화 노래",
+  "h1": "36화 · 낙엽 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "leaf",
+      "title": "알록달록 가을 낙엽!",
+      "short": "낙엽 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "cozy indie-folk, 100 bpm, acoustic guitar, handclaps, crunchy leaf rustle percussion, warm autumn feeling, soft female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n알록달록 낙엽 (팔랑!)\n바스락 바스락\n치키치키 가을!\n\n[Verse 1]\n노란 은행잎 팔랑\n크앙! 로로가 줍고\n하나 (팔랑!)\n\n[Verse 2]\n높은 데 초록 잎\n쭈욱~ 토롱이 쏙\n둘 (쏙!)\n\n[Verse 3]\n바람에 휘리릭\n슝~ 피오가 잡고\n셋 (휘리릭!)\n\n[Verse 4]\n낙엽 더미 폭신폭신\n치키는 어디 있지? (어디?)\n까꿍! (까꿍!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n알록달록 낙엽 (팔랑!)\n바스락 바스락\n치키치키 가을!\n\n[End]"
+    }
+  ]
+}

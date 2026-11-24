@@ -1,0 +1,253 @@
+<title>치키 31~35화 노래</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;600&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: 한 열 작업 목록. 위에 고정 문구, 장면 번호 바로가기, 장면마다 그림·영상 프롬프트 카드 */
+:root {
+  --bg: #fbf7f0; --surface: #ffffff; --ink: #2b2620; --muted: #76695a;
+  --line: #eadfce; --accent: #e8711c; --accent-ink: #ffffff; --code: #f6efe3;
+  --display: "Jua", "Noto Sans KR", system-ui, sans-serif;
+  --body: "Noto Sans KR", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #1d1a16; --surface: #27231e; --ink: #f2ebe0; --muted: #b3a593;
+  --line: #3a342c; --accent: #f08a3c; --accent-ink: #1d1a16; --code: #2f2a24; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #1d1a16; --surface: #27231e; --ink: #f2ebe0; --muted: #b3a593;
+  --line: #3a342c; --accent: #f08a3c; --accent-ink: #1d1a16; --code: #2f2a24; color-scheme: dark; }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 20px; }
+h1 { font-family: var(--display); font-weight: 400; font-size: 2rem; margin: 0; text-wrap: balance; }
+.lead { margin: 0; color: var(--muted); }
+.steps { margin: 0; padding-left: 1.2em; display: grid; gap: 4px; }
+.fixed { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 14px; }
+.fixed h2, .scene h2 { font-family: var(--display); font-weight: 400; margin: 0; font-size: 1.25rem; }
+nav.jump { display: flex; flex-wrap: wrap; gap: 6px; position: sticky; top: env(safe-area-inset-top, 0px); background: var(--bg); padding-block: 8px; z-index: 5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+nav.jump a { min-width: 2.4em; text-align: center; padding: 4px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); text-decoration: none; font-variant-numeric: tabular-nums; font-size: .9rem; }
+nav.jump a:hover, nav.jump a:focus-visible { border-color: var(--accent); outline: none; }
+.scene { display: grid; gap: 10px; padding-block: 16px; border-top: 1px solid var(--line); scroll-margin-top: 56px; }
+.scene-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; }
+.sid { font-family: var(--mono); color: var(--accent); font-size: .95rem; }
+.time { margin-left: auto; color: var(--muted); font-size: .9rem; font-variant-numeric: tabular-nums; }
+.ref { margin: 0; font-size: .95rem; }
+.label, .kind { font-size: .78rem; letter-spacing: .04em; color: var(--muted); margin-right: 6px; }
+.prompt { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; min-width: 0; }
+.prompt-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 10px 8px 12px; border-bottom: 1px solid var(--line); }
+pre { margin: 0; padding: 12px; white-space: pre-wrap; word-break: break-word; font-family: var(--mono); font-size: .82rem; line-height: 1.55; background: var(--code); color: var(--ink); }
+button.copy { font: inherit; font-size: .85rem; font-weight: 600; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+button.copy:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+button.copy.done { background: transparent; color: var(--accent); }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+h1 { word-break: keep-all; }
+.note { margin: 0; font-size: .95rem; color: var(--muted); }
+.steps b { color: var(--ink); }
+.opts { width: 100%; border-collapse: collapse; font-size: .92rem; }
+.opts th, .opts td { text-align: left; padding: 8px 6px; border-top: 1px solid var(--line); vertical-align: top; }
+.opts th { color: var(--muted); font-weight: 600; font-size: .8rem; }
+.opts td:first-child { white-space: nowrap; font-family: var(--mono); font-size: .85rem; }
+</style>
+<div class="wrap">
+  <header style="display:grid;gap:8px">
+    <h1>31~35화 · 노래 5곡 (Suno)</h1>
+    <p class="lead">31~35화 노래 5곡이에요. 화마다 장르·빠르기·악기·목소리가 달라요(후렴 첫 줄 "쿵쿵 쾅!"과 끝 "치키치키 ○○!"만 같아요). 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.</p>
+  </header>
+  <section class="fixed">
+    <h2>쓰는 순서</h2>
+    <ol class="steps">
+      <li>Suno에서 <b>Create</b> → <b>Custom</b> 모드를 켠다.</li>
+      <li>Lyrics 칸에 가사, Styles 칸에 스타일, Title 칸에 제목을 붙여 넣는다.</li>
+      <li><b>More Options</b>는 아래 표처럼 맞춘다.</li>
+      <li>한 번에 2곡씩 나와요. 발음이 또렷하고 밝은 쪽을 고른다.</li>
+      <li>마지막 후렴 끝까지 나오는지 들어 보고 WAV로 올려 주세요. 몇 화 노래인지 알려 주세요.</li>
+      <li>유튜브 수익 창출을 하려면 Suno <b>유료 플랜(Pro 이상)</b>으로 만든 곡이어야 해요. 무료 플랜 곡은 상업적으로 쓸 수 없어요.</li>
+    </ol>
+    <table class="opts"><thead><tr><th>설정</th><th>값</th></tr></thead><tbody>
+      <tr><td>Vocal Gender</td><td>노래마다 아래에 적어 둠 (곡마다 다름)</td></tr>
+      <tr><td>Duration</td><td><b>Custom</b> — 65~70초.</td></tr>
+      <tr><td>Max Mode</td><td><b>Off</b></td></tr>
+      <tr><td>Weirdness</td><td><b>20%</b> (낮을수록 무난하고 동요다운 곡)</td></tr>
+      <tr><td>Style Influence</td><td><b>80%</b> (스타일 문구를 잘 따르게)</td></tr>
+      <tr><td>Variety</td><td><b>Normal</b> 그대로</td></tr>
+      <tr><td>Personalize</td><td><b>Off</b> (4곡 소리를 똑같이 맞추려고)</td></tr>
+    </tbody></table>
+  </section>
+  <nav class="jump" aria-label="곡 바로가기"><a href="#e31">비눗방울</a><a href="#e32">음악대</a><a href="#e33">미안해 노래</a><a href="#e34">혼자서 노래</a><a href="#e35">신호등 노래</a></nav>
+  <article class="scene" id="e31"><header class="scene-head"><h2>퐁퐁 비눗방울!</h2><span class="time">31화</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e31-t">복사</button></div><pre id="e31-t">퐁퐁 비눗방울!</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e31-l">복사</button></div><pre id="e31-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+퐁퐁 비눗방울 (퐁퐁!)
+후~ 불면 둥실둥실
+치키치키 퐁퐁!
+
+[Verse 1]
+후~ 불면 퐁퐁
+크앙! 로로가 후~
+노란 막대 (퐁!)
+
+[Verse 2]
+후~ 길게 불면
+쭈욱~ 토롱이 후~
+커다란 방울 (우와!)
+
+[Verse 3]
+팡팡 터뜨려요
+슝~ 피오가 콕
+하나 둘 셋 (팡!)
+
+[Verse 4]
+치키도 후~
+방울방울 (퐁퐁!)
+하늘 높이 (둥실!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+퐁퐁 비눗방울 (퐁퐁!)
+후~ 불면 둥실둥실
+치키치키 퐁퐁!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e31-s">복사</button></div><pre id="e31-s">dreamy bubbly synth-pop, 100 bpm, soft synth pads, bubble pop sounds, sparkly arpeggios, floaty and light, airy female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key</pre></div><p class="note">More Options → <b>Vocal Gender: Female</b></p></article><article class="scene" id="e32"><header class="scene-head"><h2>둥둥 공룡 음악대!</h2><span class="time">32화</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e32-t">복사</button></div><pre id="e32-t">둥둥 공룡 음악대!</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e32-l">복사</button></div><pre id="e32-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+둥둥 공룡 음악대 (둥둥!)
+다 같이 연주해요
+치키치키 음악대!
+
+[Verse 1]
+둥둥둥 노란 북
+크앙! 로로가 둥둥
+신나요 (둥둥!)
+
+[Verse 2]
+쿵쿵쿵 초록 큰북
+쭈욱~ 토롱 꼬리로 쿵
+신나요 (쿵쿵!)
+
+[Verse 3]
+삐리리 하늘색 피리
+슝~ 피오가 삐리리
+신나요 (삐리리!)
+
+[Verse 4]
+찰찰찰 주황 마라카스
+치키가 찰찰
+신나요 (찰찰!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+둥둥 공룡 음악대 (둥둥!)
+다 같이 연주해요
+치키치키 음악대!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e32-s">복사</button></div><pre id="e32-s">lively New Orleans second-line brass band, 116 bpm, trumpet, trombone, snare, tuba, each instrument gets a short solo, joyful male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key</pre></div><p class="note">More Options → <b>Vocal Gender: Male</b></p></article><article class="scene" id="e33"><header class="scene-head"><h2>미안해, 괜찮아!</h2><span class="time">33화</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e33-t">복사</button></div><pre id="e33-t">미안해, 괜찮아!</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e33-l">복사</button></div><pre id="e33-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+미안해 괜찮아 (괜찮아!)
+손잡고 웃어요
+치키치키 친구!
+
+[Verse 1]
+앗! 와르르 무너졌어
+치키가 툭 쳤어요
+어떡하지? (어떡해!)
+
+[Verse 2]
+눈물이 글썽글썽
+로로가 속상해요
+훌쩍훌쩍 (훌쩍!)
+
+[Verse 3]
+미안해 말해요
+치키가 꼬옥
+미안해 (미안해!)
+
+[Verse 4]
+괜찮아 웃어요
+다시 쌓아요
+같이 하자 (같이!)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+미안해 괜찮아 (괜찮아!)
+손잡고 웃어요
+치키치키 친구!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e33-s">복사</button></div><pre id="e33-s">warm piano pop that starts soft and becomes bright, 86 bpm, piano, soft strings, gentle claps in chorus, caring female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key</pre></div><p class="note">More Options → <b>Vocal Gender: Female</b></p></article><article class="scene" id="e34"><header class="scene-head"><h2>나 혼자 할래!</h2><span class="time">34화</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e34-t">복사</button></div><pre id="e34-t">나 혼자 할래!</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e34-l">복사</button></div><pre id="e34-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+나 혼자 할래요 (혼자서!)
+모자 쓰고 나가요
+치키치키 혼자서!
+
+[Verse 1]
+노란 모자 쏙
+크앙! 로로 혼자서
+잘했어요 (쏙!)
+
+[Verse 2]
+초록 모자 쏙
+쭈욱~ 토롱 고개 숙여
+잘했어요 (쏙!)
+
+[Verse 3]
+하늘색 모자 쏙
+슝~ 피오 혼자서
+잘했어요 (쏙!)
+
+[Verse 4]
+치키 모자는 너무 커
+앞이 안 보여요 (깜깜!)
+누구 모자? (누구?)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+나 혼자 할래요 (혼자서!)
+모자 쓰고 나가요
+치키치키 혼자서!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e34-s">복사</button></div><pre id="e34-s">funky kid-pop, 108 bpm, clavinet, slap bass, horn stabs, confident &#x27;I can do it&#x27; feeling, sassy cheerful female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key</pre></div><p class="note">More Options → <b>Vocal Gender: Female</b></p></article><article class="scene" id="e35"><header class="scene-head"><h2>빨간불 멈춰요!</h2><span class="time">35화</span></header><div class="prompt"><div class="prompt-head"><span class="kind">Title (제목)</span><button type="button" class="copy" data-target="e35-t">복사</button></div><pre id="e35-t">빨간불 멈춰요!</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Lyrics (가사)</span><button type="button" class="copy" data-target="e35-l">복사</button></div><pre id="e35-l">[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+빨간불 멈춰요 (멈춰!)
+초록불 건너요
+치키치키 안전!
+
+[Verse 1]
+빨간불 반짝
+크앙! 로로도 멈춰
+기다려요 (멈춰!)
+
+[Verse 2]
+초록불 반짝
+쭈욱~ 토롱 천천히
+건너가요 (건너!)
+
+[Verse 3]
+오른쪽 왼쪽
+슝~ 피오가 살펴
+잘 보고요 (살펴!)
+
+[Verse 4]
+치키가 공을 따라
+빨간불인데 (멈춰!)
+휴~ 기다려요 (휴~)
+
+[Chorus]
+쿵쿵 쾅! 쿵쿵 쾅!
+빨간불 멈춰요 (멈춰!)
+초록불 건너요
+치키치키 안전!
+
+[End]</pre></div><div class="prompt"><div class="prompt-head"><span class="kind">Styles (스타일)</span><button type="button" class="copy" data-target="e35-s">복사</button></div><pre id="e35-s">electronic toy-pop safety song, 112 bpm, toy synth beeps like traffic lights, steady beat, clear shouts STOP and GO, friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key</pre></div><p class="note">More Options → <b>Vocal Gender: Male</b></p></article>
+</div>
+<script>
+document.addEventListener('click', function (ev) {
+  var btn = ev.target.closest('button.copy');
+  if (!btn) return;
+  var el = document.getElementById(btn.dataset.target);
+  var text = el.textContent;
+  function done() { btn.textContent = '복사됨'; btn.classList.add('done');
+    setTimeout(function () { btn.textContent = '복사'; btn.classList.remove('done'); }, 1600); }
+  function fallback() { var r = document.createRange(); r.selectNodeContents(el);
+    var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = '선택됨 · 길게 눌러 복사'; }
+  try { navigator.clipboard.writeText(text).then(done, fallback); } catch (e) { fallback(); }
+});
+</script>

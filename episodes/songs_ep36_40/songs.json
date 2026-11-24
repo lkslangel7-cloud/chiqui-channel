@@ -1,0 +1,59 @@
+{
+  "title": "치키 36~40화 노래",
+  "h1": "36~40화 · 노래 5곡 (Suno)",
+  "lead": "36~40화 노래 5곡이에요. 화마다 장르·빠르기·악기·목소리가 달라요(후렴 첫 줄 \"쿵쿵 쾅!\"과 끝 \"치키치키 ○○!\"만 같아요). 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 끝까지 나오는지 들어 보고 WAV로 올려 주세요. 몇 화 노래인지 알려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "e36",
+      "title": "알록달록 가을 낙엽!",
+      "short": "낙엽 노래",
+      "where": "36화",
+      "inst": false,
+      "style": "cozy indie-folk, 100 bpm, acoustic guitar, handclaps, crunchy leaf rustle percussion, warm autumn feeling, soft female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n알록달록 낙엽 (팔랑!)\n바스락 바스락\n치키치키 가을!\n\n[Verse 1]\n노란 은행잎 팔랑\n크앙! 로로가 줍고\n하나 (팔랑!)\n\n[Verse 2]\n높은 데 초록 잎\n쭈욱~ 토롱이 쏙\n둘 (쏙!)\n\n[Verse 3]\n바람에 휘리릭\n슝~ 피오가 잡고\n셋 (휘리릭!)\n\n[Verse 4]\n낙엽 더미 폭신폭신\n치키는 어디 있지? (어디?)\n까꿍! (까꿍!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n알록달록 낙엽 (팔랑!)\n바스락 바스락\n치키치키 가을!\n\n[End]"
+    },
+    {
+      "id": "e37",
+      "title": "구름 모양 찾기!",
+      "short": "구름 노래",
+      "where": "37화",
+      "inst": false,
+      "style": "floaty lo-fi chill-hop for kids, 84 bpm, mellow electric piano, soft vinyl crackle, gentle beat, dreamy sky feeling, calm female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n구름 구름 무슨 모양? (모양?)\n하늘 보고 찾아요\n치키치키 구름!\n\n[Verse 1]\n동글동글 구름\n크앙! 로로가 보니\n공룡알 같아 (알!)\n\n[Verse 2]\n길쭉길쭉 구름\n쭈욱~ 토롱이 보니\n내 목 같아 (쭈욱!)\n\n[Verse 3]\n폭신폭신 구름\n슝~ 피오가 날아\n하트 모양 (하트!)\n\n[Verse 4]\n뿔 세 개 구름\n누구 같아요? (누구?)\n치키 구름! (치키!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n구름 구름 무슨 모양? (모양?)\n하늘 보고 찾아요\n치키치키 구름!\n\n[End]"
+    },
+    {
+      "id": "e38",
+      "title": "할아버지, 사랑해요!",
+      "short": "사랑해요",
+      "where": "38화",
+      "inst": false,
+      "style": "heartfelt gospel-pop, 92 bpm, warm organ, piano, kids choir answering, loving and grateful, warm male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n사랑해요 할아버지 (사랑해요!)\n마음 담아 그려요\n치키치키 사랑해!\n\n[Verse 1]\n노란 하트 쓱쓱\n크앙! 로로가 그려요\n사랑해요 (사랑해!)\n\n[Verse 2]\n초록 하트 콩\n쭈욱~ 토롱 코로 콩\n사랑해요 (사랑해!)\n\n[Verse 3]\n하늘색 발자국 콩콩\n슝~ 피오가 콩콩\n사랑해요 (사랑해!)\n\n[Verse 4]\n주황 하트 크게\n치키가 쓱쓱\n할아버지께 (짠!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n사랑해요 할아버지 (사랑해요!)\n마음 담아 그려요\n치키치키 사랑해!\n\n[End]"
+    },
+    {
+      "id": "e39",
+      "title": "별 하나 나 하나!",
+      "short": "별 노래",
+      "where": "39화",
+      "inst": false,
+      "style": "twinkly music-box lullaby, 72 bpm, celesta, harp, soft strings, starry night feeling, very soft female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n별 하나 나 하나 (반짝!)\n하늘 보고 세어요\n치키치키 반짝!\n\n[Verse 1]\n별 하나 반짝\n크앙! 로로가 찾고\n하나 (반짝!)\n\n[Verse 2]\n별 둘 반짝\n쭈욱~ 토롱이 찾고\n둘 (반짝!)\n\n[Verse 3]\n별 셋 반짝\n슝~ 피오가 찾고\n셋 (반짝!)\n\n[Verse 4]\n별 넷 다섯 반짝\n치키도 찾고\n넷, 다섯! (반짝!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n별 하나 나 하나 (반짝!)\n하늘 보고 세어요\n치키치키 반짝!\n\n[End]"
+    },
+    {
+      "id": "e40",
+      "title": "치키 타운 대축제!",
+      "short": "축제 노래",
+      "where": "40화",
+      "inst": false,
+      "style": "big festive pop anthem, 124 bpm, brass section, claps, kids choir, party whistles, grand happy finale, bright female lead with male backing, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n치키 타운 대축제 (축제!)\n다 같이 춤춰요\n치키치키 출발!\n\n[Verse 1]\n노란 등불 반짝\n크앙! 로로 춤추고\n축제다 (와!)\n\n[Verse 2]\n초록 등불 반짝\n쭈욱~ 토롱 흔들흔들\n축제다 (와!)\n\n[Verse 3]\n하늘색 등불 반짝\n슝~ 피오 빙글빙글\n축제다 (와!)\n\n[Verse 4]\n주황 등불 반짝\n치키가 노래해요\n다 같이 (와아!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n치키 타운 대축제 (축제!)\n다 같이 춤춰요\n치키치키 출발!\n\n[End]"
+    }
+  ]
+}

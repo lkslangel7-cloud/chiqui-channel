@@ -1,0 +1,19 @@
+{
+  "title": "치키 38화 노래",
+  "h1": "38화 · 사랑해요 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "love",
+      "title": "할아버지, 사랑해요!",
+      "short": "사랑해요",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "heartfelt gospel-pop, 92 bpm, warm organ, piano, kids choir answering, loving and grateful, warm male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n사랑해요 할아버지 (사랑해요!)\n마음 담아 그려요\n치키치키 사랑해!\n\n[Verse 1]\n노란 하트 쓱쓱\n크앙! 로로가 그려요\n사랑해요 (사랑해!)\n\n[Verse 2]\n초록 하트 콩\n쭈욱~ 토롱 코로 콩\n사랑해요 (사랑해!)\n\n[Verse 3]\n하늘색 발자국 콩콩\n슝~ 피오가 콩콩\n사랑해요 (사랑해!)\n\n[Verse 4]\n주황 하트 크게\n치키가 쓱쓱\n할아버지께 (짠!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n사랑해요 할아버지 (사랑해요!)\n마음 담아 그려요\n치키치키 사랑해!\n\n[End]"
+    }
+  ]
+}

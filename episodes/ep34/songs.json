@@ -1,0 +1,19 @@
+{
+  "title": "치키 34화 노래",
+  "h1": "34화 · 혼자서 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "myself",
+      "title": "나 혼자 할래!",
+      "short": "혼자서 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "funky kid-pop, 108 bpm, clavinet, slap bass, horn stabs, confident 'I can do it' feeling, sassy cheerful female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n나 혼자 할래요 (혼자서!)\n모자 쓰고 나가요\n치키치키 혼자서!\n\n[Verse 1]\n노란 모자 쏙\n크앙! 로로 혼자서\n잘했어요 (쏙!)\n\n[Verse 2]\n초록 모자 쏙\n쭈욱~ 토롱 고개 숙여\n잘했어요 (쏙!)\n\n[Verse 3]\n하늘색 모자 쏙\n슝~ 피오 혼자서\n잘했어요 (쏙!)\n\n[Verse 4]\n치키 모자는 너무 커\n앞이 안 보여요 (깜깜!)\n누구 모자? (누구?)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n나 혼자 할래요 (혼자서!)\n모자 쓰고 나가요\n치키치키 혼자서!\n\n[End]"
+    }
+  ]
+}

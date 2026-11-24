@@ -1,0 +1,19 @@
+{
+  "title": "치키 30화 노래",
+  "h1": "30화 · 따라 하기 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "copy",
+      "title": "치키가 말했어요!",
+      "short": "따라 하기",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "call-and-response action chant, 110 bpm, big kids drums, stomps and claps, short shouted commands with echoes, energetic male leader, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n치키가 말했어요 (말했어요!)\n보고 보고 따라 해\n치키치키 따라 해!\n\n[Verse 1]\n손을 위로 쭈욱\n크앙! 로로도 쭈욱\n따라 해요 (쭈욱!)\n\n[Verse 2]\n꼬리를 살랑살랑\n쭈욱~ 토롱 살랑\n따라 해요 (살랑!)\n\n[Verse 3]\n빙글빙글 돌아요\n슝~ 피오가 빙글\n따라 해요 (빙글!)\n\n[Verse 4]\n쿵쿵 발을 굴러요\n다 같이 쿵쿵 (쿵쿵!)\n따라 해요 (쿵!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n치키가 말했어요 (말했어요!)\n보고 보고 따라 해\n치키치키 따라 해!\n\n[End]"
+    }
+  ]
+}

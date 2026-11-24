@@ -1,0 +1,19 @@
+{
+  "title": "치키 37화 노래",
+  "h1": "37화 · 구름 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "cloud",
+      "title": "구름 모양 찾기!",
+      "short": "구름 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "floaty lo-fi chill-hop for kids, 84 bpm, mellow electric piano, soft vinyl crackle, gentle beat, dreamy sky feeling, calm female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n구름 구름 무슨 모양? (모양?)\n하늘 보고 찾아요\n치키치키 구름!\n\n[Verse 1]\n동글동글 구름\n크앙! 로로가 보니\n공룡알 같아 (알!)\n\n[Verse 2]\n길쭉길쭉 구름\n쭈욱~ 토롱이 보니\n내 목 같아 (쭈욱!)\n\n[Verse 3]\n폭신폭신 구름\n슝~ 피오가 날아\n하트 모양 (하트!)\n\n[Verse 4]\n뿔 세 개 구름\n누구 같아요? (누구?)\n치키 구름! (치키!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n구름 구름 무슨 모양? (모양?)\n하늘 보고 찾아요\n치키치키 구름!\n\n[End]"
+    }
+  ]
+}

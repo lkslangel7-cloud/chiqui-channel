@@ -1,0 +1,179 @@
+# 26화. 좋은 아침! — 장면 프롬프트 (웹사이트용)
+
+그림: GPT Image 2.6 Sunburst(웹 무제한), 16:9, 캐릭터·화풍은 Elements(@chiqui @roro @torong @pio @bau @village). 영상: Seedance 2.5(웹 무제한), 그림 한 장만 시작 프레임으로, 끊김 없는 한 컷, 소리 끔.
+
+### S02 해님이 떴어요 (0:20–0:30)
+[레퍼런스] 없음
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Early morning in the volcano-island dinosaur village: the sun rises softly over the far volcano, soft pink-orange sky, quiet round cave houses on the meadow. No characters. No characters in this scene. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+The sun rises slowly and soft light spreads over the village; nothing else moves. No characters, animals or creatures appear at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S03 좋은 아침! (0:30–0:35)
+[레퍼런스] 로로
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns). Draw them exactly like their element images. On a sunny plain green meadow of the volcano-island village with palm trees, round cave houses and the far volcano; the grass is plain green with no lines or paths drawn on it. Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns) steps out of a round cave-house door, stretching both arms up with a big happy smile. Draw exactly one of each character, never duplicated (1 character in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+Roro stretches both arms up two times and smiles. The camera stays still. The camera stays still. Roro is the only creature in the frame. ONLY Roro is in this scene from start to end; no other character, animal or creature appears at any time. Roro always keeps a round head with no frill and no horns. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S04 다 같이 좋은 아침! (0:35–0:40)
+[레퍼런스] 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. On a sunny plain green meadow of the volcano-island village with palm trees, round cave houses and the far volcano; the grass is plain green with no lines or paths drawn on it. Roro, Torong and Pio stand together in the morning sun, greeting each other happily. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Torong has exactly FOUR legs (two front legs, two back legs) and all four feet always stay on the ground; Torong NEVER lifts or waves a front leg. When others wave, Torong says hi or goodbye by tilting the long neck and head to one side with a smile. Draw exactly one of each character, never duplicated (3 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+Roro and Pio wave; Torong tilts the long neck; everyone smiles. ONLY these 3 characters are in this scene: Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. Torong keeps exactly four legs with all four feet on the ground the whole time; Torong never lifts or waves a front leg and never grows an extra leg; to wave, Torong sways the long neck and head gently. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S05 치키는 어디? (0:40–0:45)
+[레퍼런스] 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. On a sunny plain green meadow of the volcano-island village with palm trees, round cave houses and the far volcano; the grass is plain green with no lines or paths drawn on it. Roro, Torong and Pio look around the meadow, puzzled, searching for someone. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Torong has exactly FOUR legs (two front legs, two back legs) and all four feet always stay on the ground; Torong NEVER lifts or waves a front leg. When others wave, Torong says hi or goodbye by tilting the long neck and head to one side with a smile. Draw exactly one of each character, never duplicated (3 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+The friends look left and right, puzzled. The camera stays still. ONLY these 3 characters are in this scene: Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. Torong keeps exactly four legs with all four feet on the ground the whole time; Torong never lifts or waves a front leg and never grows an extra leg; to wave, Torong sways the long neck and head gently. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S06 쿨쿨 (0:45–0:50)
+[레퍼런스] 치키
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill. Draw them exactly like their element images. INDOORS inside a cozy round room of the cave house (soft cream walls, a round window, wooden shelves); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Chiqui, the orange baby triceratops with a yellow-spotted frill sleeps in a small round ORANGE bed under an ORANGE blanket, eyes closed, smiling; morning light from the round window. Draw exactly one of each character, never duplicated (1 character in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+Chiqui sleeps, breathing slowly; the blanket rises and falls gently. Chiqui stays asleep. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S07 치키야, 일어나! (0:50–0:55)
+[레퍼런스] 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. On a sunny plain green meadow of the volcano-island village with palm trees, round cave houses and the far volcano; the grass is plain green with no lines or paths drawn on it. Roro, Torong and Pio stand in front of the round door of Chiqui's cave house, calling with open mouths, Roro and Pio with a paw or wing next to the mouth. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Torong has exactly FOUR legs (two front legs, two back legs) and all four feet always stay on the ground; Torong NEVER lifts or waves a front leg. When others wave, Torong says hi or goodbye by tilting the long neck and head to one side with a smile. Draw exactly one of each character, never duplicated (3 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+The friends call out two times toward the door. The camera stays still. ONLY these 3 characters are in this scene: Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. Torong keeps exactly four legs with all four feet on the ground the whole time; Torong never lifts or waves a front leg and never grows an extra leg; to wave, Torong sways the long neck and head gently. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S09 기지개 쭉쭉 (1:05–1:15)
+[레퍼런스] 로로
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns). Draw them exactly like their element images. On a sunny plain green meadow of the volcano-island village with palm trees, round cave houses and the far volcano; the grass is plain green with no lines or paths drawn on it. Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns) stretches both arms up high, standing on tiptoes in the morning sun. Draw exactly one of each character, never duplicated (1 character in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Roro stretches up three times, bouncing on the toes. The camera stays still. Roro is the only creature in the frame. ONLY Roro is in this scene from start to end; no other character, animal or creature appears at any time. Roro always keeps a round head with no frill and no horns. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S10 어푸어푸 세수 (1:15–1:25)
+[레퍼런스] 토롱
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @torong is Torong, the green baby brachiosaurus with light-green spots. Draw them exactly like their element images. On a sunny plain green meadow of the volcano-island village with palm trees, round cave houses and the far volcano; the grass is plain green with no lines or paths drawn on it. Torong, the green baby brachiosaurus with light-green spots bends the neck down to one small round grey stone basin of clear water standing on the grass right in front of the mouth and splashes the face gently in the water. Torong never touches the face with front legs. Torong has exactly FOUR legs (two front legs, two back legs) and all four feet always stay on the ground; Torong NEVER lifts or waves a front leg. When others wave, Torong says hi or goodbye by tilting the long neck and head to one side with a smile. Draw exactly one of each character, never duplicated (1 character in total). Exactly one basin. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+The thing Torong touches is right in front of Torong's mouth, so Torong's neck keeps its normal length and never stretches longer; all four feet stay on the ground. Torong dips the face into the basin, splashes gently, then lifts the head and smiles; little water drops fly. The camera stays still. Torong is the only creature in the frame. ONLY Torong is in this scene from start to end; no other character, animal or creature appears at any time. Torong keeps exactly four legs with all four feet on the ground the whole time; Torong never lifts or waves a front leg and never grows an extra leg; to wave, Torong sways the long neck and head gently. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S11 볏을 슥슥 (1:25–1:35)
+[레퍼런스] 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. On a sunny plain green meadow of the volcano-island village with palm trees, round cave houses and the far volcano; the grass is plain green with no lines or paths drawn on it. Pio, the little sky-blue pteranodon with a yellow beak stands next to a small round pond and smooths the pointed crest with one wing tip, looking at the reflection. Draw exactly one of each character, never duplicated (1 character in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Pio smooths the crest two times with the wing tip and smiles. The camera stays still. Pio is the only creature in the frame. ONLY Pio is in this scene from start to end; no other character, animal or creature appears at any time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S12 눈을 번쩍! (1:35–1:45)
+[레퍼런스] 치키
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill. Draw them exactly like their element images. INDOORS inside a cozy round room of the cave house (soft cream walls, a round window, wooden shelves); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Chiqui, the orange baby triceratops with a yellow-spotted frill sits up in the small round ORANGE bed with wide-open surprised eyes, the ORANGE blanket slipping down. Draw exactly one of each character, never duplicated (1 character in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Chiqui blinks two times and sits up straight, surprised. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S13 하암~ (1:45–1:55)
+[레퍼런스] 치키
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill. Draw them exactly like their element images. INDOORS inside a cozy round room of the cave house (soft cream walls, a round window, wooden shelves); NOT outdoors: no meadow, no open sky, no rainbow, no volcano. No toy dinosaurs, dolls, stuffed animals or animal figures anywhere. Close view of Chiqui, the orange baby triceratops with a yellow-spotted frill sitting in the ORANGE bed, stretching both front paws up with a big yawn. Draw exactly one of each character, never duplicated (1 character in total). Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Chiqui yawns with a big open mouth and stretches, then smiles. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S14 어푸어푸! (1:55–2:00)
+[레퍼런스] 치키
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill. Draw them exactly like their element images. On a sunny plain green meadow of the volcano-island village with palm trees, round cave houses and the far volcano; the grass is plain green with no lines or paths drawn on it. Chiqui, the orange baby triceratops with a yellow-spotted frill stands at one small round grey stone basin of clear water standing on the grass and splashes the face with both front paws. Draw exactly one of each character, never duplicated (1 character in total). Exactly one basin. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 5초
+```
+Chiqui splashes water on the face two times; drops fly; Chiqui laughs. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S15 잘 먹겠습니다! (2:00–2:10)
+[레퍼런스] 바우 할아버지, 치키, 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. On a sunny plain green meadow of the volcano-island village with palm trees, round cave houses and the far volcano; the grass is plain green with no lines or paths drawn on it. All five friends around a low wooden table with five small bowls: Grandpa Bau PURPLE grapes, Chiqui ORANGE carrot sticks, Roro one YELLOW corn cob, Torong GREEN broccoli (Torong's bowl is right in front of Torong's mouth), Pio dark BLUE blueberries. Grandpa Bau stands on all four feet behind the table. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Torong has exactly FOUR legs (two front legs, two back legs) and all four feet always stay on the ground; Torong NEVER lifts or waves a front leg. When others wave, Torong says hi or goodbye by tilting the long neck and head to one side with a smile. Draw exactly one of each character, never duplicated (5 characters in total). Exactly five bowls. Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Chiqui, Roro and Pio each take one bite from their own bowl; Torong bends the neck to the green bowl right in front of the mouth and takes one bite; Grandpa Bau nods. A bite really happens. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. Torong keeps exactly four legs with all four feet on the ground the whole time; Torong never lifts or waves a front leg and never grows an extra leg; to wave, Torong sways the long neck and head gently. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S16 해님이 뜨면 (2:10–2:20)
+[레퍼런스] 바우 할아버지
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows. Draw them exactly like their element images. On a sunny plain green meadow of the volcano-island village with palm trees, round cave houses and the far volcano; the grass is plain green with no lines or paths drawn on it. Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows stands in the morning sun, smiling wisely and looking up at the sun. Draw exactly one of each character, never duplicated (1 character in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Grandpa Bau nods once and smiles warmly; all four feet stay on the ground. The camera stays still. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S17 오늘도 신나게! (2:20–2:30)
+[레퍼런스] 치키, 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. On a sunny plain green meadow of the volcano-island village with palm trees, round cave houses and the far volcano; the grass is plain green with no lines or paths drawn on it. Chiqui, Roro, Torong and Pio walk together across the sunny meadow, happy. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Torong has exactly FOUR legs (two front legs, two back legs) and all four feet always stay on the ground; Torong NEVER lifts or waves a front leg. When others wave, Torong says hi or goodbye by tilting the long neck and head to one side with a smile. Draw exactly one of each character, never duplicated (4 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+The friends walk a few steps to the LEFT together, smiling. The camera stays still. ONLY these 4 characters are in this scene: Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. Torong keeps exactly four legs with all four feet on the ground the whole time; Torong never lifts or waves a front leg and never grows an extra leg; to wave, Torong sways the long neck and head gently. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```
+
+### S18 안녕! (2:30–2:40)
+[레퍼런스] 바우 할아버지, 치키, 로로, 토롱, 피오
+[그림]
+```
+Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. Characters: @bau is Grandpa Bau, the purple ankylosaurus with round glasses and white eyebrows; @chiqui is Chiqui, the orange baby triceratops with a yellow-spotted frill; @roro is Roro, the yellow baby T-rex with orange spots on the back (round head, no frill, no horns); @torong is Torong, the green baby brachiosaurus with light-green spots; @pio is Pio, the little sky-blue pteranodon with a yellow beak. Draw them exactly like their element images. On a sunny plain green meadow of the volcano-island village with palm trees, round cave houses and the far volcano; the grass is plain green with no lines or paths drawn on it. All five friends stand in a row facing the viewer with big smiles. Grandpa Bau, Chiqui and Roro each wave ONE front paw, Pio waves one wing, Torong stands on all four feet and tilts the long neck and head to one side. SIZE RULE: Torong is MUCH TALLER than everyone else, with a very long neck, and Torong's head is high above all the other friends' heads; Pio is the smallest. Torong never touches the face with front legs. Torong has exactly FOUR legs (two front legs, two back legs) and all four feet always stay on the ground; Torong NEVER lifts or waves a front leg. When others wave, Torong says hi or goodbye by tilting the long neck and head to one side with a smile. Draw exactly one of each character, never duplicated (5 characters in total). Show every character's full body from head to feet, with empty space around them; nothing is cut off at the edges. Keep the characters in the middle of the frame. Match the art style, colors, textures and lighting of @village (style only, do not copy its layout). Soft 3D toy-like clay style, smooth rounded shapes, soft studio lighting, gentle pastel color palette, very simple and readable for toddlers, no text.
+```
+[영상] 10초
+```
+Grandpa Bau, Chiqui, Roro and Pio wave at the viewer; Torong sways the long neck side to side with all four feet on the ground. The camera stays still. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. Torong keeps exactly four legs with all four feet on the ground the whole time; Torong never lifts or waves a front leg and never grows an extra leg; to wave, Torong sways the long neck and head gently. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+```

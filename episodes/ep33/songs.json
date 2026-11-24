@@ -1,0 +1,19 @@
+{
+  "title": "치키 33화 노래",
+  "h1": "33화 · 미안해 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "sorry",
+      "title": "미안해, 괜찮아!",
+      "short": "미안해 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "warm piano pop that starts soft and becomes bright, 86 bpm, piano, soft strings, gentle claps in chorus, caring female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n미안해 괜찮아 (괜찮아!)\n손잡고 웃어요\n치키치키 친구!\n\n[Verse 1]\n앗! 와르르 무너졌어\n치키가 툭 쳤어요\n어떡하지? (어떡해!)\n\n[Verse 2]\n눈물이 글썽글썽\n로로가 속상해요\n훌쩍훌쩍 (훌쩍!)\n\n[Verse 3]\n미안해 말해요\n치키가 꼬옥\n미안해 (미안해!)\n\n[Verse 4]\n괜찮아 웃어요\n다시 쌓아요\n같이 하자 (같이!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n미안해 괜찮아 (괜찮아!)\n손잡고 웃어요\n치키치키 친구!\n\n[End]"
+    }
+  ]
+}

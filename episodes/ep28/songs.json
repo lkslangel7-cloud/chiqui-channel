@@ -1,0 +1,19 @@
+{
+  "title": "치키 28화 노래",
+  "h1": "28화 · 첨벙 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "rain",
+      "title": "우산 쓰고 첨벙첨벙!",
+      "short": "첨벙 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "jazzy rainy-day pop, 98 bpm, brushed drums, upright bass, finger snaps, splashing water sounds, playful clarinet, smooth female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n우산 쓰고 첨벙첨벙 (첨벙!)\n비가 와도 신나요\n치키치키 첨벙!\n\n[Verse 1]\n노란 우산 빙글빙글\n크앙! 로로가 첨벙\n물웅덩이 (첨벙!)\n\n[Verse 2]\n하늘색 우산 팔랑팔랑\n슝~ 피오가 첨벙\n물웅덩이 (첨벙!)\n\n[Verse 3]\n주황 우산 동글동글\n치키도 첨벙\n물웅덩이 (첨벙!)\n\n[Verse 4]\n토롱 우산은 어디 있지?\n큰 나무 아래 쏙 (쏙!)\n나뭇잎 우산 (우산!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n우산 쓰고 첨벙첨벙 (첨벙!)\n비가 와도 신나요\n치키치키 첨벙!\n\n[End]"
+    }
+  ]
+}

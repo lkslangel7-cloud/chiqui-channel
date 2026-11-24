@@ -1,0 +1,19 @@
+{
+  "title": "치키 29화 노래",
+  "h1": "29화 · 씨앗 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "seed",
+      "title": "쑥쑥 자라라!",
+      "short": "씨앗 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "gentle garden folk, 96 bpm, banjo, glockenspiel, light hand percussion, growing-up hopeful feeling, warm male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n쑥쑥 자라라 (쑥쑥!)\n씨앗 콕 물 주고\n치키치키 쑥쑥!\n\n[Verse 1]\n콕콕 흙을 파고\n크앙! 로로가 콕\n씨앗 하나 (콕!)\n\n[Verse 2]\n토닥토닥 흙 덮고\n쭈욱~ 토롱이 토닥\n잘 자라라 (토닥!)\n\n[Verse 3]\n쪼르르 물을 주고\n슝~ 피오가 쪼르르\n해님 방긋 (방긋!)\n\n[Verse 4]\n치키 화분은 왜 그럴까?\n싹이 안 나요 (왜?)\n물을 줘요 (쪼르르!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n쑥쑥 자라라 (쑥쑥!)\n씨앗 콕 물 주고\n치키치키 쑥쑥!\n\n[End]"
+    }
+  ]
+}

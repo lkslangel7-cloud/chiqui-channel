@@ -1,0 +1,19 @@
+{
+  "title": "치키 26화 노래",
+  "h1": "26화 · 아침 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "morning",
+      "title": "좋은 아침!",
+      "short": "아침 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "bright sunrise acoustic pop, 104 bpm, strummed acoustic guitar, cheerful whistling, glockenspiel, rooster-like toy horn, fresh morning feeling, sunny female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n좋은 아침! (좋은 아침!)\n해님 보고 일어나요\n치키치키 일어나!\n\n[Verse 1]\n해님이 방긋 떴어요\n크앙! 로로가 기지개\n쭉쭉 쭈욱 (쭈욱!)\n\n[Verse 2]\n찬물로 어푸어푸\n쭈욱~ 토롱이 세수\n반짝반짝 (반짝!)\n\n[Verse 3]\n볏을 슥슥 빗어요\n슝~ 피오가 슥슥\n단정하게 (슥슥!)\n\n[Verse 4]\n치키는 아직 쿨쿨\n다 같이 불러요 (치키야!)\n눈을 번쩍 (번쩍!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n좋은 아침! (좋은 아침!)\n해님 보고 일어나요\n치키치키 일어나!\n\n[End]"
+    }
+  ]
+}

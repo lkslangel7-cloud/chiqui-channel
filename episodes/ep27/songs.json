@@ -1,0 +1,19 @@
+{
+  "title": "치키 27화 노래",
+  "h1": "27화 · 화장실 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "potty",
+      "title": "쉬~ 화장실!",
+      "short": "화장실 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "silly bouncy cartoon march, 112 bpm, tuba, slide whistle, wood blocks, kazoo, playful and funny, goofy friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n쉬 마려워요! (쉬~!)\n참지 말고 말해요\n치키치키 화장실!\n\n[Verse 1]\n쉬가 마려워 동동\n크앙! 로로가 말해요\n화장실 갈래요 (갈래요!)\n\n[Verse 2]\n쭈욱~ 토롱도 동동\n천천히 다녀와요\n손 씻고 와요 (싹싹!)\n\n[Verse 3]\n슝~ 피오도 동동\n쉬 마려워요 말해요\n다녀왔어요 (짠!)\n\n[Verse 4]\n치키는 놀다가 동동\n참으면 안 돼요 (안 돼!)\n얼른 가요 (얼른!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n쉬 마려워요! (쉬~!)\n참지 말고 말해요\n치키치키 화장실!\n\n[End]"
+    }
+  ]
+}

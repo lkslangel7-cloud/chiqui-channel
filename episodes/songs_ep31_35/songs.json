@@ -1,0 +1,59 @@
+{
+  "title": "치키 31~35화 노래",
+  "h1": "31~35화 · 노래 5곡 (Suno)",
+  "lead": "31~35화 노래 5곡이에요. 화마다 장르·빠르기·악기·목소리가 달라요(후렴 첫 줄 \"쿵쿵 쾅!\"과 끝 \"치키치키 ○○!\"만 같아요). 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 끝까지 나오는지 들어 보고 WAV로 올려 주세요. 몇 화 노래인지 알려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "e31",
+      "title": "퐁퐁 비눗방울!",
+      "short": "비눗방울",
+      "where": "31화",
+      "inst": false,
+      "style": "dreamy bubbly synth-pop, 100 bpm, soft synth pads, bubble pop sounds, sparkly arpeggios, floaty and light, airy female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n퐁퐁 비눗방울 (퐁퐁!)\n후~ 불면 둥실둥실\n치키치키 퐁퐁!\n\n[Verse 1]\n후~ 불면 퐁퐁\n크앙! 로로가 후~\n노란 막대 (퐁!)\n\n[Verse 2]\n후~ 길게 불면\n쭈욱~ 토롱이 후~\n커다란 방울 (우와!)\n\n[Verse 3]\n팡팡 터뜨려요\n슝~ 피오가 콕\n하나 둘 셋 (팡!)\n\n[Verse 4]\n치키도 후~\n방울방울 (퐁퐁!)\n하늘 높이 (둥실!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n퐁퐁 비눗방울 (퐁퐁!)\n후~ 불면 둥실둥실\n치키치키 퐁퐁!\n\n[End]"
+    },
+    {
+      "id": "e32",
+      "title": "둥둥 공룡 음악대!",
+      "short": "음악대",
+      "where": "32화",
+      "inst": false,
+      "style": "lively New Orleans second-line brass band, 116 bpm, trumpet, trombone, snare, tuba, each instrument gets a short solo, joyful male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n둥둥 공룡 음악대 (둥둥!)\n다 같이 연주해요\n치키치키 음악대!\n\n[Verse 1]\n둥둥둥 노란 북\n크앙! 로로가 둥둥\n신나요 (둥둥!)\n\n[Verse 2]\n쿵쿵쿵 초록 큰북\n쭈욱~ 토롱 꼬리로 쿵\n신나요 (쿵쿵!)\n\n[Verse 3]\n삐리리 하늘색 피리\n슝~ 피오가 삐리리\n신나요 (삐리리!)\n\n[Verse 4]\n찰찰찰 주황 마라카스\n치키가 찰찰\n신나요 (찰찰!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n둥둥 공룡 음악대 (둥둥!)\n다 같이 연주해요\n치키치키 음악대!\n\n[End]"
+    },
+    {
+      "id": "e33",
+      "title": "미안해, 괜찮아!",
+      "short": "미안해 노래",
+      "where": "33화",
+      "inst": false,
+      "style": "warm piano pop that starts soft and becomes bright, 86 bpm, piano, soft strings, gentle claps in chorus, caring female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n미안해 괜찮아 (괜찮아!)\n손잡고 웃어요\n치키치키 친구!\n\n[Verse 1]\n앗! 와르르 무너졌어\n치키가 툭 쳤어요\n어떡하지? (어떡해!)\n\n[Verse 2]\n눈물이 글썽글썽\n로로가 속상해요\n훌쩍훌쩍 (훌쩍!)\n\n[Verse 3]\n미안해 말해요\n치키가 꼬옥\n미안해 (미안해!)\n\n[Verse 4]\n괜찮아 웃어요\n다시 쌓아요\n같이 하자 (같이!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n미안해 괜찮아 (괜찮아!)\n손잡고 웃어요\n치키치키 친구!\n\n[End]"
+    },
+    {
+      "id": "e34",
+      "title": "나 혼자 할래!",
+      "short": "혼자서 노래",
+      "where": "34화",
+      "inst": false,
+      "style": "funky kid-pop, 108 bpm, clavinet, slap bass, horn stabs, confident 'I can do it' feeling, sassy cheerful female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n나 혼자 할래요 (혼자서!)\n모자 쓰고 나가요\n치키치키 혼자서!\n\n[Verse 1]\n노란 모자 쏙\n크앙! 로로 혼자서\n잘했어요 (쏙!)\n\n[Verse 2]\n초록 모자 쏙\n쭈욱~ 토롱 고개 숙여\n잘했어요 (쏙!)\n\n[Verse 3]\n하늘색 모자 쏙\n슝~ 피오 혼자서\n잘했어요 (쏙!)\n\n[Verse 4]\n치키 모자는 너무 커\n앞이 안 보여요 (깜깜!)\n누구 모자? (누구?)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n나 혼자 할래요 (혼자서!)\n모자 쓰고 나가요\n치키치키 혼자서!\n\n[End]"
+    },
+    {
+      "id": "e35",
+      "title": "빨간불 멈춰요!",
+      "short": "신호등 노래",
+      "where": "35화",
+      "inst": false,
+      "style": "electronic toy-pop safety song, 112 bpm, toy synth beeps like traffic lights, steady beat, clear shouts STOP and GO, friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n빨간불 멈춰요 (멈춰!)\n초록불 건너요\n치키치키 안전!\n\n[Verse 1]\n빨간불 반짝\n크앙! 로로도 멈춰\n기다려요 (멈춰!)\n\n[Verse 2]\n초록불 반짝\n쭈욱~ 토롱 천천히\n건너가요 (건너!)\n\n[Verse 3]\n오른쪽 왼쪽\n슝~ 피오가 살펴\n잘 보고요 (살펴!)\n\n[Verse 4]\n치키가 공을 따라\n빨간불인데 (멈춰!)\n휴~ 기다려요 (휴~)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n빨간불 멈춰요 (멈춰!)\n초록불 건너요\n치키치키 안전!\n\n[End]"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "title": "치키 40화 노래",
+  "h1": "40화 · 축제 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "festival",
+      "title": "치키 타운 대축제!",
+      "short": "축제 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "big festive pop anthem, 124 bpm, brass section, claps, kids choir, party whistles, grand happy finale, bright female lead with male backing, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n치키 타운 대축제 (축제!)\n다 같이 춤춰요\n치키치키 출발!\n\n[Verse 1]\n노란 등불 반짝\n크앙! 로로 춤추고\n축제다 (와!)\n\n[Verse 2]\n초록 등불 반짝\n쭈욱~ 토롱 흔들흔들\n축제다 (와!)\n\n[Verse 3]\n하늘색 등불 반짝\n슝~ 피오 빙글빙글\n축제다 (와!)\n\n[Verse 4]\n주황 등불 반짝\n치키가 노래해요\n다 같이 (와아!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n치키 타운 대축제 (축제!)\n다 같이 춤춰요\n치키치키 출발!\n\n[End]"
+    }
+  ]
+}
