@@ -207,7 +207,7 @@ EPS["ep24"] = dict(
    "Chiqui puts the orange triangle on the head and giggles; the triangle stays on the head."),
   ("블록 놀이 하자!", "B", MAT + f"{D['B']} sits on the mat next to three {BLK}: one YELLOW square, one GREEN rectangle, one SKY-BLUE circle. No triangle.", "Exactly three blocks.", False,
    "Grandpa Bau points at the blocks and smiles. The blocks do not move."),
-  ("좋아!", "CRTP", MAT + f"Chiqui, Roro, Torong and Pio cheer on the mat; {HAT}.", "", False, "The friends cheer; the triangle stays on Chiqui's head."),
+  ("좋아!", "CRTP", MAT + f"Chiqui, Roro, Torong and Pio cheer on the mat; {HAT}.", "", False, "The friends cheer and bounce a little in place; the triangle stays on Chiqui's head. The flat round cream play mat with the thin pale-yellow rim stays exactly as in the start image: it never turns into a raised platform, stage or mint-green disc, and the colors and the background do not change. The camera stays still."),
   ("블록이 가득", "", MAT + f"Close view of three {BLK} on the mat: one YELLOW square, one GREEN rectangle, one SKY-BLUE circle. No triangle anywhere.", "Exactly three blocks.", True,
    "A completely STILL shot: the three blocks do NOT move, slide, wobble, grow, shrink or change shape at all; the colors and the lighting stay exactly the same as the start image (no color shift, no light flicker, no brightness change). Only the grass and the palm leaves sway very gently in a light breeze. The camera stays still."),
   ("무엇을 지을까?", "CRTP", MAT + f"Chiqui, Roro, Torong and Pio sit around the three blocks, thinking with paws on their chins; {HAT}.", "", False,

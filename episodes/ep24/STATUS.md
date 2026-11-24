@@ -30,3 +30,5 @@
 - (2026-11-24) S11 -7gYdiTaR9s 합격 (초록 문 붙음·피오 왼쪽·세모 없음). **그림 16장 모두 합격** (파일 16개 확인). 다음: 영상 16개.
 - (2026-11-24) 영상 S05: 웹 영상에서 블록이 움직이고 색감이 바뀜 → 합격 그림으로 로컬 5초 줌 영상 만듦(clips/web/S05_local_zoom.mp4, 6% 천천히 다가감, 크레딧 0; 다시 만들기: ffmpeg zoompan z='1+0.06*on/120' d=120 1280x720 24fps). 영상 프롬프트도 '블록·색·빛 그대로, 풀·잎만 살랑'으로 고침.
 - (2026-11-24, 사용자 결정) 영상 S05 = clips/web/S05_local_zoom.mp4 합격(웹 영상 대신 사용).
+- (2026-11-24) 영상 1차 14개 받음(1초 간격 확인). 합격 12개: S02 4A3ktoVNcIQ(모자 쓰는 동작부터 시작 — 이야기에 맞음, 다른 판 IZMSAmtsISk 불채택), S03 KXjSvsQBAP8(바우 앞발로 가리킴, 다리 4개), S06 u5zbBd_tKK0, S09 SSmrEa00Cec, S10 QhuQgQh0QCg, S11 clfzpqar4VY, S12 jDAEK7sfzik, S13 ajAXpBP4tO8, S14 O8KWyoI1A2E(얼굴 가까이로 시작, 집 안 보임 — 장면 전환이라 괜찮음), S15 V5j0EpQygAU, S17 YRwPU4hABUk, S18 2Q5RfVa1Mo0 + S05 로컬 줌.
+- 불합격: S04 F0duwYUvBbw(매트가 민트색 높은 무대로 바뀜) → 영상 프롬프트에 '매트 그대로' 추가. 아직 없음: S07, S16. 남은 영상 3개: S04 S07 S16.
