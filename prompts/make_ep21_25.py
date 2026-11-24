@@ -180,11 +180,11 @@ EPS["ep23"] = dict(
 MAT = ("On THE SAME play mat in every scene: one ROUND plain soft cream play mat with a thin pale-yellow rim and NO dots or patterns, on the sunny meadow. "
        "The ONLY toy blocks in the whole episode are these four, always exactly this shape and color: one YELLOW square block (a chunky flat-faced cube), "
        "one GREEN rectangle block (a plain smooth upright box EXACTLY the same height as the yellow square but only half as wide, with NO door lines, NO knob and NO rounded top), "
-       "one SKY-BLUE circle block (a flat round disc, solid, not a ring), and one ORANGE triangle block (a flat triangle prism). "
+       "one small SKY-BLUE circle block (a flat round disc, solid, not a ring; its width is only HALF the width of the yellow square, so plenty of yellow shows all around it when it is on the wall), and one ORANGE triangle block (a flat triangle prism). "
        "NO other blocks anywhere: no blue cube, no yellow cylinder, no green arch, no red ball, no other toys. ")
 BLK = "smooth chunky clay toy blocks with no letters, no numbers and no pictures"
 HOUSE = ("a little block house on the mat: the YELLOW square block as the wall, the plain GREEN rectangle block (no knob, no door lines, EXACTLY the same height as the yellow square, half as wide) standing right next to it SIDE BY SIDE on the same line (not behind it) as the door, so their tops are level and the roof can sit across both, "
-         "and one SKY-BLUE circle block as a round window on the yellow wall")
+         "and the small SKY-BLUE circle block (half as wide as the yellow square) as a round window in the middle of the yellow wall, with yellow showing all around it")
 DONE = ("the finished block house exactly like this: the YELLOW square block stands on the mat with the SKY-BLUE circle pressed flat onto its FRONT face as a round window (the circle is NOT on top), "
         "the GREEN rectangle (exactly the same height as the yellow square) stands on the mat right next to it as the door, and the ORANGE triangle lies on top across both as the roof")
 HAT = ("Chiqui wears the ORANGE triangle block on top of the head like a little hat: a small FLAT triangle toy block with straight sharp edges, "
