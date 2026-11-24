@@ -7,3 +7,5 @@
 | 영상 16컷 | 아직 |
 | 노래 | 아직 (Suno 65~70초) |
 | 음성 | 아직 |
+- (2026-11-24) 그림 1차 16장 받음, 14장 합격: S02 aCtIe4J-81g, S03 5eJIZAuwDLY, S04 5-7lV0LMV3o, S05 TVg2LUgENRo, S06 si4ibmoHz-k(침대 기준), S07 BNTMoXu2bBk, S09 Ce33xrU3kX4, S10 8Jkg1kM6jSE, S11 Ul7Eilpmjj4, S14 9zT6cWLP6NM, S15 EMNG3NW7tt4, S16 jyokQiTgfRM, S17 JLo6ndQIkq0, S18 CPcJ930L6u0.
+- 불합격: S12 vvsIXloXfNQ(침대가 높은 점무늬 침대·이불 무늬 없음), S13 -gDvQjXhMQ0(나무 침대·창문 왼쪽) — S06과 침대·방이 다름. BED26(낮은 도넛 주황 침대, 점 없음, 이불 주황+노란 점, 창문 오른쪽·선반 왼쪽) 추가. S06 그림을 참고 그림으로 넣기.
