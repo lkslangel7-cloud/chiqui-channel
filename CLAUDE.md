@@ -59,6 +59,8 @@
 
 - (2026-11-22) 완성 영상 보기 페이지: https://claude.ai/artifact/VrXoeRAAETxzuRQbFUxKJ6 (화마다 탭). 한 화를 완성하면 `episodes/videos.json`에 "file"(output 파일 이름)을 넣고 `python3 prompts/build_video_page.py <스크래치패드>/videopage` → index.html(영상 아래에 그 화 upload_info.md의 제목·설명·태그 복사 칸과 설정이 자동으로 들어감)과 새 `v/epXX.mp4`·`t/epXX.jpg`·`th/epXX.jpg`(썸네일 원본 크기)만 files로 같은 URL에 올린다 (한 번에 64MB, 영상 5개까지).
 
+- (2026-11-24) 숏폼: `python3 -I scripts/make_shorts.py 01 02 …` → `output/shorts/epXX_song.mp4`(노래 28초)·`epXX_quiz.mp4`(질문~정답), 1080×1920(흐린 배경+가운데 영상+위 제목+아래 자막+치키 타운). 올릴 정보 `output/shorts/shorts_info.md`. 크레딧 0.
+
 1. `episodes/epXX/script.md`에서 대본과 장면 목록을 읽는다.
 2. **컷마다 시작 그림을 먼저 만든다**: `gpt_image_2_5` (medium, 16:9), 그 컷에 나오는 캐릭터의 시트만 `image_references`로 넣고 "Draw exactly one of each, never duplicated"처럼 캐릭터 수를 못박는다. 그림을 보고 시트와 같은지·복제가 없는지 확인한다.
 3. **확인한 그림으로만 영상을 만든다**: `kling3_0` (std, 소리 끔, 5초 또는 10초), 그림을 `start_image`로. 3분 본편은 5~10초 컷 25개 안팎.

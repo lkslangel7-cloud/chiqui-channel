@@ -9,3 +9,5 @@ remotion/public/clips/
 episodes/*/clips/web_*.mp4
 episodes/*/images/web/
 episodes/*/clips/web/
+# 숏폼 영상도 저장소에 넣지 않는다 (scripts/make_shorts.py로 다시 만들 수 있음)
+output/shorts/*.mp4
