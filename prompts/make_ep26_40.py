@@ -148,7 +148,7 @@ EPS["ep28"] = dict(
 
 # ---------------- 29화 쑥쑥 자라라 (씨앗 심기) ----------------
 POTS = ("THE SAME four small round clay flower pots in every scene, standing in ONE row on the grass, left to right as seen by the viewer: ORANGE pot, YELLOW pot, GREEN pot, SKY-BLUE pot, "
-        "each filled with dark brown soil; each pot has the same small decoration on its front: one cream-white flower with a yellow center between two green leaves")
+        "each filled with dark brown soil; the pots are plain smooth clay with NO flowers, leaves, pictures or decorations on them")
 EPS["ep29"] = dict(
  title="29화. 쑥쑥 자라라! — 씨앗 심기", short="쑥쑥 자라라!", song_id="seed", song_short="씨앗 노래",
  theme="씨앗 심기(흙 파기·덮기·물 주기·햇빛), 기다림. 화분은 친구 몸 색.",
@@ -163,7 +163,7 @@ EPS["ep29"] = dict(
  scenes=scenes([
   BAU(MEADOW, "씨앗을 심어 볼까?", "stands next to one small cloth bag of seeds lying on the grass, smiling."),
   CHEER(MEADOW),
-  ("빈 화분", "", MEADOW + f"Close view of {POTS}; all four pots have only soil, no plants. No characters.", "Exactly four pots, no sprouts.", True, "Nothing moves; the pots stay the same."),
+  ("빈 화분", "", MEADOW + f"Use the reference image ONLY for the flower pots: draw the four pots EXACTLY like the pots in the reference image (same shape, size, color, rim, soil and spacing), but leave out the character, so the picture shows only the pots on the grass. Close view of {POTS}; all four pots have only soil, no plants, no seeds visible. No characters.", "Exactly four pots, no sprouts.", True, "Nothing moves; the pots stay the same."),
   ("콕! 다 심었다!", "C", MEADOW + f"{D['C']} pokes one seed into the soil of the ORANGE pot of {POTS}, then claps.", "No sprouts anywhere.", False, "Chiqui pokes the seed in, pats the soil once and claps."),
   ("놀러 가요", "C", MEADOW + f"{D['C']} runs off happily across the meadow after one rolling ORANGE ball, leaving the pots behind.", "", False, "Chiqui runs a few steps to the LEFT after the ball. Chiqui does not water the pot."),
   ("로로가 콕", "R", MEADOW + f"{D['R']} digs a little hole in the YELLOW pot of {POTS} and drops in one seed.", "No sprouts anywhere.", False, "Roro digs, drops the seed and pats the soil."),
