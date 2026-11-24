@@ -59,8 +59,13 @@ def _ids(d, ext):
 def progress(x):
     ep = x["ep"]; d = ROOT / f"episodes/ep{ep}"; n = x.get("no", int(ep))
     sc = d / "scenes.json"
-    ids = [s["id"] for s in json.loads(sc.read_text(encoding="utf-8"))] if sc.exists() else []
+    scs = json.loads(sc.read_text(encoding="utf-8")) if sc.exists() else []
+    ids = [s["id"] for s in scs]
     img, vid = _ids(d / "images/web", "png"), _ids(d / "clips/web", "mp4")
+    for s_ in scs:  # 공통 컷: episodes/common/ 에 있으면 이 화도 있는 것으로 센다
+        c = s_.get("common")
+        if c and any((ROOT / "episodes/common/images/web").glob(f"{c}_*.png")): img.append(s_["id"])
+        if c and any((ROOT / "episodes/common/clips/web").glob(f"{c}_*.mp4")): vid.append(s_["id"])
     song = any((d / "audio/songs").glob("*.wav")) or any((d / "audio/songs").glob("*.mp3"))
     voice = any((d / "audio/ko").glob("*.wav")) if (d / "audio/ko").exists() else False
     done = "file" in x

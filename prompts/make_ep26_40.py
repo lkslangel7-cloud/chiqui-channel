@@ -543,3 +543,25 @@ EPS["ep40"] = dict(
 
 for ep, e in EPS.items():
     write(ep, e)
+
+# ---------- 공통 컷 (2026-11-24, 사용자: 같은 배경·같은 장면은 여러 번 만들지 않기) ----------
+# 26~40화에서 그림 프롬프트가 똑같은 장면은 한 번만 만들고 episodes/common/의 그림·영상을 같이 쓴다.
+import collections as _col, json as _json
+_COMMON_NAME = {"안녕!": "ending_meadow", "좋아!": "cheer_meadow"}
+_groups = _col.defaultdict(list)
+for _ep in EPS:
+    _f = Path(__file__).resolve().parent.parent / f"episodes/{_ep}/scenes.json"
+    for _s in _json.loads(_f.read_text(encoding="utf-8")):
+        _groups[_s["img"]].append((_ep, _s["id"], _s["name"]))
+_mark = {}
+for _img, _v in _groups.items():
+    if len(_v) > 1:
+        _cid = _COMMON_NAME.get(_v[0][2], f"common_{_v[0][0]}_{_v[0][1]}")
+        for _ep, _sid, _ in _v: _mark[(_ep, _sid)] = _cid
+for _ep in EPS:
+    _f = Path(__file__).resolve().parent.parent / f"episodes/{_ep}/scenes.json"
+    _sc = _json.loads(_f.read_text(encoding="utf-8"))
+    for _s in _sc:
+        if (_ep, _s["id"]) in _mark: _s["common"] = _mark[(_ep, _s["id"])]
+        else: _s.pop("common", None)
+    _f.write_text(_json.dumps(_sc, ensure_ascii=False, indent=1), encoding="utf-8")

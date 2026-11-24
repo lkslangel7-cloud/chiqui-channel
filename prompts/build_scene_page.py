@@ -23,7 +23,14 @@ def box(kind, bid, text):
             f'<button type="button" class="copy" data-target="{bid}">복사</button></div><pre id="{bid}">{e(text)}</pre></div>')
 
 import base64, glob, io
-def thumb(sid):  # 합격 그림이 있으면 작은 사진으로 넣는다 (어떤 그림으로 몇 번 영상을 만드는지)
+COMMON = json.loads((ep.parent / "common/common.json").read_text(encoding="utf-8")) if (ep.parent / "common/common.json").exists() else {}
+def thumb(sid, cid=None):  # 합격 그림이 있으면 작은 사진으로 넣는다 (어떤 그림으로 몇 번 영상을 만드는지)
+    fs = sorted(glob.glob(str(ep.parent / "common/images/web" / f"{cid}_*.png"))) if cid else []
+    if cid and fs:
+        from PIL import Image
+        im = Image.open(fs[-1]).convert("RGB"); im.thumbnail((640, 360)); buf = io.BytesIO(); im.save(buf, "JPEG", quality=72)
+        return (f'<figure class="ok"><img src="data:image/jpeg;base64,{base64.b64encode(buf.getvalue()).decode()}" alt="{e(sid)} 공통 그림">'
+                f'<figcaption>🔁 공통 그림 ({e(COMMON.get(cid, {}).get("from", ""))}) — 모든 화가 같이 써요</figcaption></figure>')
     fs = sorted(glob.glob(str(ep / "images/web" / f"{sid}_*.png")))
     if not fs: return ""
     from PIL import Image
@@ -32,14 +39,23 @@ def thumb(sid):  # 합격 그림이 있으면 작은 사진으로 넣는다 (어
     return (f'<figure class="ok"><img src="data:image/jpeg;base64,{base64.b64encode(buf.getvalue()).decode()}" alt="{e(sid)} 합격 그림">'
             f'<figcaption>✅ 합격 그림 <code>{e(code)}</code> — 이 그림을 시작 이미지로</figcaption></figure>')
 
+def common_note(s):
+    cid = s.get("common")
+    if not cid: return ""
+    has_img = bool(glob.glob(str(ep.parent / "common/images/web" / f"{cid}_*.png")))
+    has_vid = bool(glob.glob(str(ep.parent / "common/clips/web" / f"{cid}_*.mp4")))
+    st = "그림·영상 모두 있어요 → 이 장면은 아무것도 만들지 마세요" if has_img and has_vid else ("그림은 있어요 → 영상만 한 번 만들면 다른 화도 같이 써요" if has_img else "아직 없어요 → 이 화에서 한 번만 만들면 다른 화도 같이 써요")
+    return (f'<p class="common">🔁 <b>공통 컷</b> · {e(COMMON.get(cid, {}).get("name", cid))} — 여러 화에 똑같이 나오는 장면이라 한 번만 만들어요. {e(st)}</p>')
+
 cards = []
 for i, s in enumerate(scenes, 1):
     cards.append(f'''<article class="scene" id="{s['id'].lower()}">
   <header class="scene-head"><span class="sid">{i}/{len(scenes)} · {e(s['id'])}</span><h2>{e(s['name'])}</h2><span class="time">{e(s['time'])}</span></header>
+  {common_note(s)}
   <div class="step"><b>① 나오는 친구</b> <span class="chips">{chips(s['refs'])}</span></div>
   <div class="step"><b>② 그림 만들기</b> · 16:9</div>
   {box("그림 프롬프트", s['id'] + "-i", s['img'])}
-  {thumb(s['id'])}
+  {thumb(s['id'], s.get('common'))}
   <div class="step"><b>③ 영상 만들기</b> · 방금 그림을 시작 이미지로 · <b class="sec">{s['sec']}초</b> · 소리 끔</div>
   {box("영상 프롬프트", s['id'] + "-v", s['vid'])}
 </article>''')
@@ -66,6 +82,7 @@ nav.jump a { flex: none; }
 .sheet img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; border: 1px solid var(--line); background: var(--code); }
 .sheet span { display: inline-flex; align-items: center; gap: 6px; }
 .ok { margin: 0; display: grid; gap: 6px; }
+.common { margin: 0; padding: 10px 12px; border-radius: 10px; background: color-mix(in srgb, var(--accent) 12%, transparent); border: 1.5px solid var(--accent); font-size: 0.92rem; }
 .ok img { width: 100%; max-width: 480px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 10px; border: 2px solid var(--accent); }
 .ok figcaption { font-size: .9rem; }
 """
