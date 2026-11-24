@@ -142,7 +142,7 @@ EPS["ep28"] = dict(
   ("나뭇잎 우산!", "CRTP", RAIN + f"{D['T']} stands under {BIGTREE}; the leaves cover Torong's head like a big umbrella and Torong smiles; Chiqui, Roro and Pio cheer next to the tree with their umbrellas ({UMB}).", "Exactly one big tree.", False,
    "Torong smiles under the leaves; raindrops fall around the tree but not on Torong; the friends cheer."),
   BAU(RAIN, "큰 나무 밑에서", f"wears the small PURPLE rain hat and stands under {BIGTREE}, smiling wisely."),
-  ("비가 그쳤어요", "CRTP", MEADOW + "The rain has stopped; Chiqui, Roro, Torong and Pio play happily on the wet shiny meadow, umbrellas closed and lying on the grass.", "", False, "The friends jump in the sunshine; drops sparkle."),
+  ("비가 그쳤어요", "CRTP", MEADOW + "The rain has stopped; Chiqui, Roro, Torong and Pio play happily on the wet shiny meadow. Exactly THREE closed umbrellas lie on the grass: one ORANGE, one YELLOW and one small SKY-BLUE. There is NO green umbrella and no fourth umbrella (Torong never had an umbrella).", "Exactly three umbrellas.", False, "The friends jump in the sunshine; drops sparkle. The three closed umbrellas (orange, yellow, sky-blue) stay lying on the grass; no new umbrella appears."),
   WAVE(MEADOW, "안녕!"),
  ]))
 
