@@ -179,11 +179,11 @@ EPS["ep23"] = dict(
 # ---------------- 24화 동글 네모 세모 (모양 블록) ----------------
 MAT = ("On THE SAME play mat in every scene: one ROUND plain soft cream play mat with a thin pale-yellow rim and NO dots or patterns, on the sunny meadow. "
        "The ONLY toy blocks in the whole episode are these four, always exactly this shape and color: one YELLOW square block (a chunky flat-faced cube), "
-       "one tall GREEN rectangle block (a plain smooth upright box twice as tall as the yellow square, with NO door lines, NO knob and NO rounded top), "
+       "one GREEN rectangle block (a plain smooth upright box EXACTLY the same height as the yellow square but only half as wide, with NO door lines, NO knob and NO rounded top), "
        "one SKY-BLUE circle block (a flat round disc, solid, not a ring), and one ORANGE triangle block (a flat triangle prism). "
        "NO other blocks anywhere: no blue cube, no yellow cylinder, no green arch, no red ball, no other toys. ")
 BLK = "smooth chunky clay toy blocks with no letters, no numbers and no pictures"
-HOUSE = ("a little block house on the mat: the YELLOW square block as the wall, the tall plain GREEN rectangle block (no knob, no door lines, twice as tall as the yellow square) standing right next to it SIDE BY SIDE on the same line (not behind it) as the door, "
+HOUSE = ("a little block house on the mat: the YELLOW square block as the wall, the plain GREEN rectangle block (no knob, no door lines, EXACTLY the same height as the yellow square, half as wide) standing right next to it SIDE BY SIDE on the same line (not behind it) as the door, so their tops are level and the roof can sit across both, "
          "and one SKY-BLUE circle block as a round window on the yellow wall")
 DONE = ("the finished block house exactly like this: the YELLOW square block stands on the mat with the SKY-BLUE circle pressed flat onto its FRONT face as a round window (the circle is NOT on top), "
         "the tall GREEN rectangle stands on the mat right next to it as the door, and the ORANGE triangle lies on top across both as the roof")
@@ -204,17 +204,17 @@ EPS["ep24"] = dict(
  scenes=scenes([
   ("세모 모자!", "C", MAT + f"{D['C']} holds one ORANGE triangle block ({BLK}) on top of the head like a little hat and giggles.", "Exactly one triangle block.", False,
    "Chiqui puts the orange triangle on the head and giggles; the triangle stays on the head."),
-  ("블록 놀이 하자!", "B", MAT + f"{D['B']} sits on the mat next to three {BLK}: one YELLOW square, one tall GREEN rectangle, one SKY-BLUE circle. No triangle.", "Exactly three blocks.", False,
+  ("블록 놀이 하자!", "B", MAT + f"{D['B']} sits on the mat next to three {BLK}: one YELLOW square, one GREEN rectangle, one SKY-BLUE circle. No triangle.", "Exactly three blocks.", False,
    "Grandpa Bau points at the blocks and smiles. The blocks do not move."),
   ("좋아!", "CRTP", MAT + f"Chiqui, Roro, Torong and Pio cheer on the mat; {HAT}.", "", False, "The friends cheer; the triangle stays on Chiqui's head."),
-  ("블록이 가득", "", MAT + f"Close view of three {BLK} on the mat: one YELLOW square, one tall GREEN rectangle, one SKY-BLUE circle. No triangle anywhere.", "Exactly three blocks.", True,
+  ("블록이 가득", "", MAT + f"Close view of three {BLK} on the mat: one YELLOW square, one GREEN rectangle, one SKY-BLUE circle. No triangle anywhere.", "Exactly three blocks.", True,
    "Soft light on the blocks; nothing moves."),
   ("무엇을 지을까?", "CRTP", MAT + f"Chiqui, Roro, Torong and Pio sit around the three blocks, thinking with paws on their chins; {HAT}.", "", False,
    "The friends look at the blocks, thinking; the triangle stays on Chiqui's head."),
   ("집을 짓자!", "C", MAT + f"{D['C']} raises one front paw high, excited; {HAT}.", "", False, "Chiqui raises the paw and cheers; the triangle stays on the head."),
   ("노란 네모 벽", "R", MAT + f"{D['R']} sets one YELLOW square block upright on the mat like a little wall.", "Exactly one block on the mat.", False,
    "Roro sets the yellow square down with a little 'thump' and claps; the square stays standing."),
-  ("초록 네모 문", "T", MAT + f"{D['T']} stands right next to the yellow square block and bends the neck down to set one tall GREEN rectangle block next to it with the mouth, like a door.", "Exactly two blocks.", False,
+  ("초록 네모 문", "T", MAT + f"{D['T']} stands right next to the yellow square block and bends the neck down to set one GREEN rectangle block next to it with the mouth, like a door.", "Exactly two blocks.", False,
    NEAR + "Torong gently sets the green rectangle next to the yellow square and lifts the head; both blocks stay standing."),
   ("하늘색 동그라미 창문", "P", MAT + f"{D['P']} presses one SKY-BLUE circle block onto the yellow square with the beak, like a round window; the tall green door stands next to it.", "Exactly three blocks.", False,
    "Pio presses the sky-blue circle on; it stays there. Pio flaps once happily."),
