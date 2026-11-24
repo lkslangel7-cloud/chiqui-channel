@@ -188,7 +188,7 @@ HOUSE = ("a little block house on the mat: the YELLOW square block as the wall, 
 DONE = ("the finished block house exactly like this: the YELLOW square block stands on the mat with the SKY-BLUE circle pressed flat onto its FRONT face as a round window (the circle is NOT on top), "
         "the GREEN rectangle (exactly the same height as the yellow square) stands on the mat right next to it as the door, and the ORANGE triangle lies on top across both as the roof")
 HAT = ("Chiqui wears the ORANGE triangle block on top of the head like a little hat: a small FLAT triangle toy block with straight sharp edges, "
-       "about as wide as the yellow square block, sitting ABOVE the frill on top of the head; it is clearly a separate toy block, not part of the frill or a horn, and it is not tall or cone-shaped")
+       "about as wide as the yellow square block, sitting ABOVE the frill on top of the head; it is clearly a separate toy block, not part of the frill or a horn, and it is not tall or cone-shaped. This hat IS the one and only orange triangle: there is NO triangle block on the mat or anywhere else in the picture")
 EPS["ep24"] = dict(
  title="25화. 동글 네모 세모! — 모양 블록 집 짓기", short="동글 네모 세모!", song_id="shape", song_short="모양 노래",
  theme="모양(동그라미·네모·세모) 이름, 블록 쌓기. 블록은 친구 몸 색.",
