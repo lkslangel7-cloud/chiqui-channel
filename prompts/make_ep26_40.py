@@ -148,7 +148,7 @@ EPS["ep28"] = dict(
 
 # ---------------- 29화 쑥쑥 자라라 (씨앗 심기) ----------------
 POTS = ("THE SAME four small round clay flower pots in every scene, standing in ONE row on the grass, left to right as seen by the viewer: ORANGE pot, YELLOW pot, GREEN pot, SKY-BLUE pot, "
-        "each filled with dark brown soil; the pots are plain smooth clay with NO flowers, leaves, pictures or decorations on them")
+        "each filled with dark brown soil; every pot has the same one decoration in the middle of its front: one small cream-white five-petal flower with a round yellow center (no leaves, nothing else)")
 EPS["ep29"] = dict(
  title="29화. 쑥쑥 자라라! — 씨앗 심기", short="쑥쑥 자라라!", song_id="seed", song_short="씨앗 노래",
  theme="씨앗 심기(흙 파기·덮기·물 주기·햇빛), 기다림. 화분은 친구 몸 색.",
