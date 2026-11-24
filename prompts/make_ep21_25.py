@@ -186,7 +186,7 @@ BLK = "smooth chunky clay toy blocks with no letters, no numbers and no pictures
 HOUSE = ("a little block house on the mat: the YELLOW square block as the wall, the plain GREEN rectangle block (no knob, no door lines, EXACTLY the same height as the yellow square, half as wide) standing right next to it SIDE BY SIDE on the same line (not behind it) as the door, so their tops are level and the roof can sit across both, "
          "and one SKY-BLUE circle block as a round window on the yellow wall")
 DONE = ("the finished block house exactly like this: the YELLOW square block stands on the mat with the SKY-BLUE circle pressed flat onto its FRONT face as a round window (the circle is NOT on top), "
-        "the tall GREEN rectangle stands on the mat right next to it as the door, and the ORANGE triangle lies on top across both as the roof")
+        "the GREEN rectangle (exactly the same height as the yellow square) stands on the mat right next to it as the door, and the ORANGE triangle lies on top across both as the roof")
 HAT = ("Chiqui wears the ORANGE triangle block on top of the head like a little hat: a small FLAT triangle toy block with straight sharp edges, "
        "about as wide as the yellow square block, sitting ABOVE the frill on top of the head; it is clearly a separate toy block, not part of the frill or a horn, and it is not tall or cone-shaped")
 EPS["ep24"] = dict(
