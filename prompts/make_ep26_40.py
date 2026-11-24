@@ -39,7 +39,7 @@ BED26 = ("THE SAME bedroom and bed in every scene: ONE round window with a woode
          "two chunky wooden shelves on the RIGHT wall (a potted green plant on the top shelf; blue, yellow and green books and a small cream jar on the lower shelf), "
          "a tree-stump side table with a glowing mushroom lamp on the LEFT of the bed, a round rug with cream and yellow rings on the floor on the right; "
          "Chiqui's bed is a round WOODEN bed with a big curved wooden headboard and a thick rounded wooden rim, an orange mattress and a cream pillow; "
-         "the blanket is ORANGE with big YELLOW dots and a wide cream folded edge at the top. ")
+         "the blanket is ORANGE with big YELLOW dots and a wide cream folded edge at the top. It is a BRIGHT MORNING: warm sunlight shines through the window, the window panes are bright pale yellow (never dark blue, never night), the room is light and warm. ")
 EPS["ep26"] = dict(
  title="26화. 좋은 아침! — 아침 습관", short="좋은 아침!", song_id="morning", song_short="아침 노래",
  theme="아침에 일어나기, 기지개·세수·머리 빗기·아침밥, 아침 인사. 치키만 늦잠!",
@@ -58,15 +58,15 @@ EPS["ep26"] = dict(
   ("다 같이 좋은 아침!", "RTP", MEADOW + "Roro, Torong and Pio stand together in the morning sun, greeting each other happily.", "", False, "Roro and Pio wave; Torong tilts the long neck; everyone smiles."),
   ("치키는 어디?", "RTP", MEADOW + "Roro, Torong and Pio look around the meadow, puzzled, searching for someone.", "", False, "The friends look left and right, puzzled. The camera stays still."),
   ("쿨쿨", "C", HOME + BED26 + f"{D['C']} sleeps in the bed under the blanket, eyes closed, smiling; morning light from the round window.", "", False,
-   "Chiqui sleeps, breathing slowly; the blanket rises and falls gently. Chiqui stays asleep."),
+   "Chiqui sleeps, breathing slowly; the blanket rises and falls gently. Chiqui stays asleep. It stays a bright sunny morning the whole time: the window stays bright pale yellow with sunlight, the room never gets dark and never turns into night."),
   ("치키야, 일어나!", "RTP", MEADOW + "Roro, Torong and Pio stand in front of the round door of Chiqui's cave house, calling with open mouths, Roro and Pio with a paw or wing next to the mouth.", "", False,
    "The friends call out two times toward the door. The camera stays still."),
   ("기지개 쭉쭉", "R", MEADOW + f"{D['R']} stretches both arms up high, standing on tiptoes in the morning sun.", "", False, "Roro stretches up three times, bouncing on the toes."),
   ("어푸어푸 세수", "T", MEADOW + f"{D['T']} bends the neck down to {BASIN} right in front of the mouth and splashes the face gently in the water.", "Exactly one basin.", False,
    NEAR + "Torong dips the face into the basin, splashes gently, then lifts the head and smiles; little water drops fly."),
   ("볏을 슥슥", "P", MEADOW + f"{D['P']} stands next to a small round pond and smooths the pointed crest with one wing tip, looking at the reflection.", "", False, "Pio smooths the crest two times with the wing tip and smiles."),
-  ("눈을 번쩍!", "C", HOME + BED26 + f"{D['C']} sits up in the bed with wide-open surprised eyes, the blanket slipping down to the lap.", "", False, "Chiqui blinks two times and sits up straight, surprised."),
-  ("하암~", "C", HOME + BED26 + f"Close view of {D['C']} sitting in the bed with the blanket on the lap, stretching both front paws up with a big yawn.", "", True, "Chiqui yawns with a big open mouth and stretches, then smiles."),
+  ("눈을 번쩍!", "C", HOME + BED26 + f"{D['C']} sits up in the bed with wide-open surprised eyes, the blanket slipping down to the lap.", "", False, "Chiqui blinks two times and sits up straight, surprised. It stays a bright sunny morning the whole time: the window stays bright pale yellow with sunlight, the room never gets dark and never turns into night."),
+  ("하암~", "C", HOME + BED26 + f"Close view of {D['C']} sitting in the bed with the blanket on the lap, stretching both front paws up with a big yawn.", "", True, "Chiqui yawns with a big open mouth and stretches, then smiles. It stays a bright sunny morning the whole time: the window stays bright pale yellow with sunlight, the room never gets dark and never turns into night."),
   ("어푸어푸!", "C", MEADOW + f"{D['C']} stands at {BASIN} and splashes the face with both front paws.", "Exactly one basin.", False, "Chiqui splashes water on the face two times; drops fly; Chiqui laughs."),
   ("잘 먹겠습니다!", "BCRTP", MEADOW + "All five friends around a low wooden table with five small bowls: Grandpa Bau PURPLE grapes, Chiqui ORANGE carrot sticks, Roro one YELLOW corn cob, Torong GREEN broccoli (Torong's bowl is right in front of Torong's mouth), Pio dark BLUE blueberries. Grandpa Bau stands on all four feet behind the table.", "Exactly five bowls.", False,
    "Chiqui, Roro and Pio each take one bite from their own bowl; Torong bends the neck to the green bowl right in front of the mouth and takes one bite; Grandpa Bau nods. A bite really happens."),
