@@ -26,7 +26,7 @@
 | S13 | 1:45–1:55 | Chiqui, Roro, Torong, Pio | 세모가 없다! |
 | S14 | 1:55–2:00 | Chiqui | 세모는 어디 있을까? |
 | S15 | 2:00–2:10 | Chiqui, Roro, Torong, Pio | 치키 머리 위에! |
-| S16 | 2:10–2:20 | Grandpa Bau | 치키 뿔은 세 개 |
+| S16 | 2:10–2:20 | Grandpa Bau, Chiqui | 치키 뿔은 세 개 |
 | S17 | 2:20–2:30 | Chiqui | 지붕 쏙! |
 | S18 | 2:30–2:40 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 우리 집 완성! |
 | S19 | 2:40–2:50 | | (재사용) 4화 S20 다 같이 춤 · 🎵 엔딩 |

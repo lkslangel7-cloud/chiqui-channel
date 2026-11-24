@@ -189,6 +189,7 @@ DONE = ("the finished block house exactly like this: the YELLOW square block sta
         "the GREEN rectangle (exactly the same height as the yellow square) stands on the mat right next to it as the door, and the ORANGE triangle lies on top across both as the roof")
 HAT = ("Chiqui wears the ORANGE triangle block on top of the head like a little hat: a small FLAT triangle toy block with straight sharp edges, "
        "about as wide as the yellow square block, sitting ABOVE the frill on top of the head; it is clearly a separate toy block, not part of the frill or a horn, and it is not tall or cone-shaped. This hat IS the one and only orange triangle: there is NO triangle block on the mat or anywhere else in the picture")
+NOTRI = "There is NO orange triangle block anywhere in this picture: not on the mat, not on the grass (Chiqui is wearing it as a hat somewhere else). "
 EPS["ep24"] = dict(
  title="25화. 동글 네모 세모! — 모양 블록 집 짓기", short="동글 네모 세모!", song_id="shape", song_short="모양 노래",
  theme="모양(동그라미·네모·세모) 이름, 블록 쌓기. 블록은 친구 몸 색.",
@@ -212,11 +213,11 @@ EPS["ep24"] = dict(
   ("무엇을 지을까?", "CRTP", MAT + f"Chiqui, Roro, Torong and Pio sit around the three blocks, thinking with paws on their chins; {HAT}.", "", False,
    "The friends look at the blocks, thinking; the triangle stays on Chiqui's head."),
   ("집을 짓자!", "C", MAT + f"{D['C']} raises one front paw high, excited; {HAT}.", "", False, "Chiqui raises the paw and cheers; the triangle stays on the head."),
-  ("노란 네모 벽", "R", MAT + f"{D['R']} sets one YELLOW square block upright on the mat like a little wall.", "Exactly one block on the mat.", False,
+  ("노란 네모 벽", "R", MAT + f"{D['R']} sets one YELLOW square block upright on the mat like a little wall. " + NOTRI, "Exactly one block on the mat.", False,
    "Roro sets the yellow square down with a little 'thump' and claps; the square stays standing."),
-  ("초록 네모 문", "T", MAT + f"{D['T']} stands right next to the yellow square block and bends the neck down to set one GREEN rectangle block next to it with the mouth, like a door.", "Exactly two blocks.", False,
+  ("초록 네모 문", "T", MAT + f"{D['T']} stands right next to the yellow square block and bends the neck down to set one GREEN rectangle block next to it with the mouth, like a door. " + NOTRI, "Exactly two blocks.", False,
    NEAR + "Torong gently sets the green rectangle next to the yellow square and lifts the head; both blocks stay standing."),
-  ("하늘색 동그라미 창문", "P", MAT + f"{D['P']} presses one SKY-BLUE circle block onto the yellow square with the beak, like a round window; the tall green door stands next to it.", "Exactly three blocks.", False,
+  ("하늘색 동그라미 창문", "P", MAT + f"{D['P']} presses one SKY-BLUE circle block onto the yellow square with the beak, like a round window; the tall green door stands next to it. " + NOTRI, "Exactly three blocks.", False,
    "Pio presses the sky-blue circle on; it stays there. Pio flaps once happily."),
   ("지붕이 없네?", "CRTP", MAT + f"Chiqui, Roro, Torong and Pio look at {HOUSE}; the block house has NO roof yet, puzzled; {HAT}.", "", False,
    "The friends tilt their heads at the house; the triangle stays on Chiqui's head."),
@@ -226,8 +227,8 @@ EPS["ep24"] = dict(
    "Chiqui looks at the viewer and tilts the head; the triangle stays on the head."),
   ("치키 머리 위에!", "CRTP", MAT + f"Roro, Torong and Pio point at Chiqui's head and laugh; Chiqui touches the ORANGE triangle block on top of the head, surprised and laughing. Next to them stands {HOUSE}, built but with NO roof yet; no loose blocks on the mat.", "", False,
    "Everyone laughs; Chiqui touches the triangle and laughs too. The triangle stays on the head."),
-  ("치키 뿔은 세 개", "B", MAT + f"{D['B']} sits on the mat and smiles wisely, holding up one front paw.", "", False,
-   "Grandpa Bau nods and chuckles. The camera stays still."),
+  ("치키 뿔은 세 개", "BC", MAT + f"{D['B']} stands on the mat with exactly 4 legs and all four feet flat on the ground (no paw raised, holding nothing), smiling wisely and looking at Chiqui. {D['C']} stands next to Grandpa Bau facing the viewer, proudly showing the three horns clearly (two long horns above the eyes and one small horn on the nose); {HAT}. Behind them stands {HOUSE}, built but with NO roof yet; no loose blocks on the mat. Grandpa Bau is bigger than Chiqui.", "", False,
+   "Grandpa Bau nods the head three times slowly, counting Chiqui's horns, with all four feet staying on the ground; Chiqui smiles proudly and stays facing the viewer. The triangle stays on Chiqui's head. The camera stays still."),
   ("지붕 쏙!", "C", MAT + f"{D['C']} puts the ORANGE triangle block on top of {HOUSE}; now the house has an orange triangle roof.", "Exactly four blocks.", False,
    "Chiqui sets the orange triangle on top as the roof; it stays there. Chiqui claps."),
   ("우리 집 완성!", "BCRTP", MAT + f"All five friends sit around {DONE}, facing the viewer and cheering. Grandpa Bau, Chiqui and Roro each wave ONE front paw, Pio waves one wing, Torong tilts the long neck and head to one side.", "Exactly four blocks.", False,
