@@ -260,7 +260,7 @@ EPS["ep25"] = dict(
   ("와, 트리다!", "C", SNOWV + f"{D['C']} wearing an ORANGE scarf looks at {XTREE}, with no decorations yet, amazed.", "", False,
    "Chiqui looks up at the tree and claps; snowflakes fall gently."),
   ("다 같이 꾸미자!", "B", SNOWV + f"{D['B']} (no scarf yet: Grandpa Bau's purple scarf is the gift later) holds one small PURPLE basket with round ornament balls (ORANGE, YELLOW, SKY-BLUE) and one small white star.", "", False,
-   "Grandpa Bau lifts the basket a little and smiles. The camera stays still."),
+   "Keep the start image exactly: Grandpa Bau wears NO scarf and nothing around the neck for the whole video (the purple scarf is a gift that comes later), and holds the basket handle in the mouth or next to the front paw on the snow, all four feet on the snow. Grandpa Bau nods once and smiles; snowflakes fall. The camera stays still: no zoom in."),
   ("좋아!", "CRTP", SNOWV + f"Chiqui, Roro, Torong and Pio cheer in the snow; {SCARF}.", "", False, "The friends cheer and bounce in the snow."),
   ("반짝반짝 방울", "", SNOWV + "Close view of a small PURPLE basket on the snow holding three shiny round ornament balls (ORANGE, YELLOW, SKY-BLUE) and one small white star.", "Exactly three balls and one star.", True,
    "The ornaments shine softly; snowflakes fall; nothing else moves."),

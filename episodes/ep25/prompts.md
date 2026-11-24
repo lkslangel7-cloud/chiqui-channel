@@ -21,7 +21,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-Grandpa Bau lifts the basket a little and smiles. The camera stays still. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Keep the start image exactly: Grandpa Bau wears NO scarf and nothing around the neck for the whole video (the purple scarf is a gift that comes later), and holds the basket handle in the mouth or next to the front paw on the snow, all four feet on the snow. Grandpa Bau nods once and smiles; snowflakes fall. The camera stays still: no zoom in. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S04 좋아! (0:35–0:40)
