@@ -43,7 +43,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-Soft light on the blocks; nothing moves. No characters, animals or creatures appear at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+A completely STILL shot: the three blocks do NOT move, slide, wobble, grow, shrink or change shape at all; the colors and the lighting stay exactly the same as the start image (no color shift, no light flicker, no brightness change). Only the grass and the palm leaves sway very gently in a light breeze. The camera stays still. No characters, animals or creatures appear at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S06 무엇을 지을까? (0:45–0:50)
