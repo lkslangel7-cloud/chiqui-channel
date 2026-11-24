@@ -33,3 +33,4 @@
 - (2026-11-24) 영상 1차 14개 받음(1초 간격 확인). 합격 12개: S02 4A3ktoVNcIQ(모자 쓰는 동작부터 시작 — 이야기에 맞음, 다른 판 IZMSAmtsISk 불채택), S03 KXjSvsQBAP8(바우 앞발로 가리킴, 다리 4개), S06 u5zbBd_tKK0, S09 SSmrEa00Cec, S10 QhuQgQh0QCg, S11 clfzpqar4VY, S12 jDAEK7sfzik, S13 ajAXpBP4tO8, S14 O8KWyoI1A2E(얼굴 가까이로 시작, 집 안 보임 — 장면 전환이라 괜찮음), S15 V5j0EpQygAU, S17 YRwPU4hABUk, S18 2Q5RfVa1Mo0 + S05 로컬 줌.
 - 불합격: S04 F0duwYUvBbw(매트가 민트색 높은 무대로 바뀜) → 영상 프롬프트에 '매트 그대로' 추가. 아직 없음: S07, S16. 남은 영상 3개: S04 S07 S16.
 - (2026-11-24) 영상 S07 4FpvVhXJdpg(치키 가까이·손 들기·모자; 첫 1초 눈을 반쯤 감은 얼굴 → 편집 때 1초부터 사용), S16 OoYhL-mCAeE(바우·치키 가까이, 뿔 3개·모자, 바우 다리 안 보임) 합격. 영상 15/16, 남음 S04.
+- (2026-11-24) S18 JR98VPhz8Mw도 받음 — 합격(바우 다리 4개). 기존 2Q5RfVa1Mo0을 쓰고 이건 예비(clips/web/S18b_...). S04 아직 없음.
