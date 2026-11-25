@@ -9,3 +9,4 @@
 | 음성 | 아직 |
 - (2026-11-25) 그림 1차 13장 받음(한 장에 모아 블록 개수·색 비교). 합격 8장: S02 a6hxskhBuWc(노란 블록 3개 탑 기준), S03 NXS5wfP5nEw, S04 USglIfE13NE, S05 BOUDAuANBuc, S07 -U2ciA3zQ14, S14 1OQEXPybkyw(같은 장면 UGUd4nU_f38 예비), S15 PNFBsPZabdc, S17 K_GfzU2X2AM.
 - 불합격: S06 oxM2pc0ZZHU(블록 5개·직사각형 섞임), S10 j3LEbbG0cGQ(블록 5개, 로로가 이미 웃음 — 아직 슬퍼야 함), S11 x44qvxGAbO4(둘 다 크게 웃음, 블록 없음 — '미안해' 장면), S16 6DslufqVFCo(탑이 여러 색·아치·세모 블록 — 노랑 3개+주황 1개여야 함). FALLEN33(같은 노란 정육면체 3개만)·TOWER4(노랑 3+주황 1) 추가, S10 로로 슬픈 얼굴, S11 치키 미안한 얼굴. 아직 없음: S09 S12 S13.
+- (2026-11-25) S09 36sON2ubudY, S12 Iu6HH0NFiew 합격(S12는 블록이 화면 밖 — 작은 차이). x44qvxGAbO4는 예전 불합격 S11을 다시 보낸 것. 합격 10장, 남음 S06 S10 S11 S13 S16.
