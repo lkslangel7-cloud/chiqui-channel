@@ -113,7 +113,7 @@ for x in eps:
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(ROOT / f"episodes/ep{ep}/thumbnail.png"), "-vf", "scale=640:-2", "-q:v", "4", str(t)], check=True)
         body = (f'<video controls preload="none" playsinline poster="t/ep{ep}.jpg" src="v/ep{ep}.mp4"></video>'
                 f'<dl class="facts"><div><dt>길이</dt><dd>{dur(src)}</dd></div><div><dt>주제</dt><dd>{e(x["theme"])}</dd></div>'
-                f'<div class="wide"><dt>원본 파일</dt><dd><code>output/{e(x["file"])}.mp4</code> · 자막 없는 판 <code>output/{e(x["file"])}_nosubs.mp4</code></dd></div></dl>'
+                f'<div class="wide"><dt>원본 파일</dt><dd><code>output/{e(x["file"])}.mp4</code>{" · 자막 없는 판 <code>output/" + e(x["file"]) + "_nosubs.mp4</code>" if (ROOT / f"output/{x['file']}_nosubs.mp4").exists() else " · 유튜브 자막 파일 <code>output/" + e(x["file"]) + ".srt</code>"}</dd></div></dl>'
                 f'<p class="hint">여기 영상은 미리보기용(작은 화질)이에요. 유튜브에는 원본 파일을 올려요.</p>' + upload(ep))
     else:
         rows = "".join(f"<li><span>{e(a)}</span><b>{e(b)}</b></li>" for a, b in status(ep))

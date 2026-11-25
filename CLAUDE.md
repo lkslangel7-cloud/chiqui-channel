@@ -62,6 +62,7 @@
 - (2026-11-24, 사용자 요청) 진행 현황은 완성 영상 페이지 맨 앞 「진행 현황」 탭(build_video_page.py가 images/web·clips/web·audio 파일 수를 세어 자동 생성, 장면·노래 페이지 링크는 episodes/pages.json). **그림·영상을 합격시키거나 화를 완성할 때마다** `python3 prompts/build_video_page.py <스크래치패드>/videopage` 후 index.html을 같은 URL에 다시 올린다(완성 화는 v/·t/·th/도). 로컬로 고친 그림은 Higgsfield에 없으니 고친 파일을 사용자에게 보내 업로드해 시작 그림으로 쓰게 한다.
 
 - (2026-11-24, 사용자: 같은 배경·같은 장면을 여러 번 만들지 않기) **공통 컷**: 26~40화에서 그림 프롬프트가 똑같은 장면(마지막 인사 ending_meadow 10개 화, 좋아! cheer_meadow 3개 화)은 make_ep26_40.py가 scenes.json에 "common"을 붙이고, 그림·영상은 `episodes/common/images/web/<id>_코드.png`·`episodes/common/clips/web/<id>_코드.mp4` 하나를 모든 화가 같이 쓴다. 장면 페이지에 「🔁 공통 컷」으로 표시되고 진행 현황도 공통 파일로 센다. 새 화를 쓸 때도 이미 있는 장면과 같은 배경·같은 구도는 공통 컷으로 돌린다.
+- (2026-11-25, 사용자) **완성 영상은 항상 고화질**: assemble_episode.py 기본이 2560×1440·crf16(약 9Mbps) — 1440p로 올리면 유튜브가 VP9로 압축해 1080p로 봐도 선명. 1~8화는 이미 올려서 그대로, 9화부터 `epXX_ko_vN_hq`. 자막 없는 판은 만들지 않는다(다른 언어판은 클립부터 다시 조립하므로 불필요) — 자막 넣은 판 + SRT만.
 - (2026-11-24) 숏폼: `python3 -I scripts/make_shorts.py 01 02 …` → `output/shorts/epXX_song.mp4`(노래 28초)·`epXX_quiz.mp4`(질문~정답), 1080×1920(흐린 배경+가운데 영상+위 제목+아래 자막+치키 타운). 올릴 정보 `output/shorts/shorts_info.md`. 크레딧 0. 미리보기 페이지 https://claude.ai/artifact/AHwnLSqUeQMDebTUCyaX7L (`python3 prompts/build_shorts_page.py <스크래치패드>/shortspage`, v/·p/에 432px 미리보기·포스터).
 
 1. `episodes/epXX/script.md`에서 대본과 장면 목록을 읽는다.

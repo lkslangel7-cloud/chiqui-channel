@@ -14,8 +14,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 FONT = ROOT / "remotion/public/fonts/Jua.ttf"
 W, H, FPS = 1920, 1080, 30
-# (2026-11-25) 유튜브 화질: --hq 는 2560x1440·높은 화질로 내보낸다 (1440p로 올리면 유튜브가 VP9로 압축해 1080p로 봐도 선명). 9화부터 기본.
-HQ = "--hq" in sys.argv
+# (2026-11-25) 유튜브 화질: 기본은 2560x1440·높은 화질로 내보낸다 (1440p로 올리면 유튜브가 VP9로 압축해 1080p로 봐도 선명). 9화부터 기본.
+HQ = "--lq" not in sys.argv  # (2026-11-25, 사용자) 9화부터 완성 영상은 항상 고화질. --lq 로 예전 1080p
 if HQ:
     W, H = 2560, 1440
 SC = H / 1080
