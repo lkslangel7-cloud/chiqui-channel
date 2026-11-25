@@ -348,9 +348,9 @@ EPS["ep34"] = dict(
 # ---------------- 35화 빨간불 멈춰요 (교통안전) ----------------
 ROAD = ("THE SAME crossing in every scene, always seen from the same camera: one straight smooth sandy road runs from the BOTTOM of the picture straight up into the distance in the MIDDLE of the frame, "
         "dividing the meadow into a LEFT grass side and a RIGHT grass side; a white-striped crosswalk goes across the road from the LEFT side to the RIGHT side in the front; "
-        "ONE toy-like traffic light on a short post stands on the LEFT grass side right next to the crosswalk, two round lights, RED on top and GREEN below. "
+        "TWO identical toy-like traffic lights on short wooden posts, one at EACH end of the crosswalk: one on the LEFT grass side and one on the RIGHT grass side, each with two round lights, RED on top and GREEN below; both lights always show the SAME color at the same time. "
         "LEFT side = the waiting side (this side), RIGHT side = the other side. No cars. ")
-LEFTW = "standing on the LEFT grass side next to the traffic light, facing the road, clearly NOT on the road and NOT on the right side"
+LEFTW = "standing on the LEFT grass side next to the left traffic light, facing the road, clearly NOT on the road and NOT on the right side"
 EPS["ep35"] = dict(
  title="35화. 빨간불 멈춰요! — 길 건너기", short="빨간불 멈춰요!", song_id="traffic", song_short="신호등 노래",
  theme="신호등(빨간불 멈춤·초록불 건넘), 좌우 살피기, 손잡고 건너기.",
@@ -366,9 +366,9 @@ EPS["ep35"] = dict(
   ("마을 길", "", ROAD + "Only the RED light is on. No characters, no cars.", "", False, "Nothing moves; the red light glows."),
   BAU(ROAD, "빨간불은?", "stands on the LEFT grass side next to the traffic light, smiling, the RED light on; the road and the RIGHT side are empty."),
   ("길가에 모여요", "CRTP", ROAD + f"Chiqui, Roro, Torong and Pio stand in a small group {LEFTW}; only the RED light is on; the road and the RIGHT side are empty.", "", False, "The friends wait and look at the light."),
-  ("빨간불", "", ROAD + "Close view of the traffic light: only the top RED light is on, the green light is off. No characters.", "", True, "The red light glows; nothing else changes."),
+  ("빨간불", "", ROAD + "Close view of the LEFT traffic light: only the top RED light is on, the green light is off. No characters.", "", True, "The red light glows; nothing else changes."),
   ("기다려요", "CRTP", ROAD + f"Chiqui, Roro, Torong and Pio wait in a small group {LEFTW}; only the RED light is on; the road and the RIGHT side are empty.", "", False, "They wait still and nod; nobody steps onto the road."),
-  ("초록불", "", ROAD + "Close view of the traffic light: only the bottom GREEN light is on, the red light is off. No characters.", "", True, "The green light glows; nothing else changes."),
+  ("초록불", "", ROAD + "Close view of the LEFT traffic light: only the bottom GREEN light is on, the red light is off. No characters.", "", True, "The green light glows; nothing else changes."),
   ("로로도 멈춰", "R", ROAD + f"{D['R']} stands {LEFTW} with both paws at the sides, waiting; only the RED light is on.", "", False, "Roro waits and nods; Roro does not step onto the road."),
   ("토롱 천천히", "T", ROAD + f"{D['T']} walks slowly on the crosswalk across the road from the LEFT side toward the RIGHT side, now in the middle of the road; only the GREEN light is on.", "", False, "Torong walks two slow steps to the RIGHT along the crosswalk toward the right grass side; four legs only. The camera stays still."),
   ("오른쪽 왼쪽", "P", ROAD + f"{D['P']} stands {LEFTW}, at the edge of the crosswalk, and looks right, then left.", "", False, "Pio turns the head right, then left, then nods."),
