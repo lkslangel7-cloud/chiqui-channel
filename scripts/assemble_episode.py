@@ -14,6 +14,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 FONT = ROOT / "remotion/public/fonts/Jua.ttf"
 W, H, FPS = 1920, 1080, 30
+# (2026-11-25) 유튜브 화질: --hq 는 2560x1440·높은 화질로 내보낸다 (1440p로 올리면 유튜브가 VP9로 압축해 1080p로 봐도 선명). 9화부터 기본.
+HQ = "--hq" in sys.argv
+if HQ:
+    W, H = 2560, 1440
+SC = H / 1080
 
 
 def dur(p: Path) -> float:
@@ -63,13 +68,13 @@ def main(ep_dir: str, out: str, no_subs: bool = False) -> None:
     for ln in spec["lines"]:
         end = ln["at"] + dur(ep / ln["audio"]) + 0.6
         subs.append(
-            f"drawtext=fontfile={FONT}:text='{esc(ln['text'])}':fontsize=64:fontcolor=white:borderw=6:bordercolor=0x5a3d1e"
-            f":x=(w-text_w)/2:y=h-150:enable='between(t,{ln['at']:.2f},{end:.2f})'"
+            f"drawtext=fontfile={FONT}:text='{esc(ln['text'])}':fontsize={round(64*SC)}:fontcolor=white:borderw={round(6*SC)}:bordercolor=0x5a3d1e"
+            f":x=(w-text_w)/2:y=h-{round(150*SC)}:enable='between(t,{ln['at']:.2f},{end:.2f})'"
         )
     for c in spec.get("captions", []):  # 노래 가사 자막 (소리 파일 없이 시간만)
         subs.append(
-            f"drawtext=fontfile={FONT}:text='{esc(c['text'])}':fontsize=60:fontcolor=0xfff3c4:borderw=6:bordercolor=0x5a3d1e"
-            f":x=(w-text_w)/2:y=h-150:enable='between(t,{c['at']:.2f},{c['end']:.2f})'"
+            f"drawtext=fontfile={FONT}:text='{esc(c['text'])}':fontsize={round(60*SC)}:fontcolor=0xfff3c4:borderw={round(6*SC)}:bordercolor=0x5a3d1e"
+            f":x=(w-text_w)/2:y=h-{round(150*SC)}:enable='between(t,{c['at']:.2f},{c['end']:.2f})'"
         )
     if no_subs:
         fc.append("[vcat]null[vout]")
@@ -112,7 +117,7 @@ def main(ep_dir: str, out: str, no_subs: bool = False) -> None:
     fc.append("".join(mix) + f"amix=inputs={len(mix)}:normalize=0:duration=first,alimiter=limit=0.95[aout]")
 
     cmd = ["ffmpeg", "-loglevel", "error", "-y", *args, "-filter_complex", ";".join(fc),
-           "-map", "[vout]", "-map", "[aout]", "-c:v", "libx264", "-preset", "medium", "-crf", "20",
+           "-map", "[vout]", "-map", "[aout]", "-c:v", "libx264", *(["-preset", "slow", "-crf", "16", "-profile:v", "high", "-pix_fmt", "yuv420p", "-movflags", "+faststart"] if HQ else ["-preset", "medium", "-crf", "20"]),
            "-c:a", "aac", "-b:a", "192k", "-t", str(spec["length"]), out]
     subprocess.run(cmd, check=True)
 
