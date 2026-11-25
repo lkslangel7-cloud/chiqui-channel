@@ -15,9 +15,9 @@
 | S02 | 0:20–0:30 | 없음 | 마을 길 |
 | S03 | 0:30–0:35 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 빨간불은? |
 | S04 | 0:35–0:40 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 길가에 모여요 |
-| S05 | 0:40–0:45 | 없음 | 빨간불 |
+| S05 | 0:40–0:45 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 빨간불 |
 | S06 | 0:45–0:50 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 기다려요 |
-| S07 | 0:50–0:55 | 없음 | 초록불 |
+| S07 | 0:50–0:55 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 초록불 |
 | S08 | 0:55–1:05 | | (재사용) 1화 치키 달리기 + 2화 다 같이 출발 · 🎵 노래 후렴 |
 | S09 | 1:05–1:15 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 로로도 멈춰 |
 | S10 | 1:15–1:25 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 토롱 천천히 |
