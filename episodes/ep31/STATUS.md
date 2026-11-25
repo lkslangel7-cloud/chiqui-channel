@@ -13,3 +13,4 @@
 - (2026-11-25) S17 hr92nzJ7JLY 합격(토롱 네 발, 피오 익룡 날개). 합격 10장, 남음: S04 S07 S11 S15.
 - (2026-11-25) S07 qWgCGCkz9mo, S11 IgFQXAiGdS4(부리로 방울 콕), S15 tsmoH6Vx5UY(고리가 막대에 꽂힘) 합격. 합격 13장, 남음 S04(h_c3kCmRwMw는 예전 불합격 그림을 다시 보낸 것).
 - (2026-11-25) S04 zkvtBE8QbVI 합격(동그란 고리 막대 3개, 초록 고리 막대에 꽂힘, 보라 그릇). **그림 16/16 완료** (14장 + S03·S18 공통 컷).
+- (2026-11-25) 영상 11개 받음(1초 간격 확인) — 모두 합격: S04 KVgCB7EmYQs, S05 1Bk63k2LOlU, S06 JW0QT3Di2b8, S07 4KDHtqRRtLU, S09 kmQ7B-RBiQ4, S10 SvvBPui6HVs(초록 고리로 큰 방울), S11 Bp0cDvsbuUk, S12 OVR5d2XUBGU, S14 t4DcONJKsj8, S15 i9zOt_V7v6Y, S16 Jda773uXtsM. S03·S18 공통 컷. 영상 13/16, 남음 S02 S13 S17.
