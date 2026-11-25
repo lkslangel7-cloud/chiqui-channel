@@ -388,7 +388,7 @@ EPS["ep35"] = dict(
  ]))
 
 # ---------------- 36화 고마워! (2026-11-25 새 주제 — 가을 낙엽은 prompts/keep_ep36_fall.py에 킵) ----------------
-ORTREE = ("THE SAME one small round leafy tree on the meadow in every scene, with exactly ONE round ORANGE mandarin fruit hanging high on the top branch, "
+ORTREE = ("THE SAME one tree on the meadow in every scene: a thick light-brown trunk that curves gently, topped by one big round crown of broad layered green leaves (like a big green umbrella), with exactly ONE round ORANGE mandarin fruit with a small green leaf hanging from the edge of the crown, "
           "far too high for Chiqui to reach but right at the height of Torong's mouth")
 BASKET = "one wide YELLOW woven basket full of round fruits standing on the grass"
 GLASSUP = "Grandpa Bau has the round glasses pushed UP on top of the head (resting above the eyebrows, clearly visible), NOT on the eyes"
@@ -409,7 +409,7 @@ EPS["ep36"] = dict(
   ("안 닿아!", "C", MEADOW + f"Close view of {D['C']} with a small sad face, looking up; behind, {ORTREE}.", "", True, "Chiqui sighs and looks up at the fruit. The camera stays still."),
   ("토롱이 똑", "CT", MEADOW + f"{D['T']} stands next to {ORTREE} and gently picks the ORANGE fruit from the top branch with the mouth; {D['C']} watches, surprised and happy. Torong is MUCH TALLER than Chiqui.", "", False,
    NEAR + "Torong picks the fruit with the mouth, then bends the long neck down and sets it gently on the grass in front of Chiqui; Torong's four feet stay on the ground. After this the tree has no fruit."),
-  ("고마워, 토롱아!", "CT", MEADOW + f"{D['C']} hugs the round ORANGE fruit with both paws and smiles up at {D['T']}; the tree behind has no fruit any more.", "", False,
+  ("고마워, 토롱아!", "CT", MEADOW + f"{D['C']} hugs the round ORANGE fruit with both paws and smiles up at {D['T']}; behind them stands {ORTREE.replace('with exactly ONE round ORANGE mandarin fruit with a small green leaf hanging from the edge of the crown', 'now with NO fruit on it')}.", "", False,
    "Chiqui hugs the fruit, smiles up and says thank you; Torong tilts the long neck and head happily with four feet on the ground. The camera stays still."),
   CHEER(MEADOW),
   ("영차 영차", "CR", MEADOW + f"{D['R']} and {D['C']} carry {BASKET} together, one on each side, walking to the RIGHT.", "Exactly one basket.", False,
