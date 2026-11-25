@@ -41,7 +41,7 @@
 | 0:46.0 | `audio/ko/04_narr.wav` | 내레이션 | 우리도 같이 해요! |
 | 2:00.5 | `audio/ko/05_chiqui.wav` | 치키 | 어? 목이 안 늘어나! |
 | 2:06.0 | `audio/ko/06_roro.wav` | 로로 | 내 팔은 짧아! |
-| 2:09.0 | `audio/ko/07_all.wav` | 모두 | 하하하! |
+| 2:11.8 | `audio/ko/07_all.wav` | 모두 | 하하하! |
 | 2:16.0 | `audio/ko/08_bau.wav` | 바우 할아버지 | 티라노사우루스는 팔이 짧았단다. |
 | 2:26.0 | `audio/ko/09_all.wav` | 모두 | 하나 둘! 하나 둘! |
 | 2:36.5 | `audio/ko/10_all.wav` | 모두 | 튼튼해졌다! |
