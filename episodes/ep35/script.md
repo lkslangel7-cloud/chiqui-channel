@@ -13,21 +13,21 @@
 | --- | --- | --- | --- |
 | S01 | 0:00–0:20 | | (1화 오프닝 재사용) |
 | S02 | 0:20–0:30 | 없음 | 마을 길 |
-| S03 | 0:30–0:35 | Grandpa Bau | 빨간불은? |
-| S04 | 0:35–0:40 | Chiqui, Roro, Torong, Pio | 길가에 모여요 |
+| S03 | 0:30–0:35 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 빨간불은? |
+| S04 | 0:35–0:40 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 길가에 모여요 |
 | S05 | 0:40–0:45 | 없음 | 빨간불 |
-| S06 | 0:45–0:50 | Chiqui, Roro, Torong, Pio | 기다려요 |
+| S06 | 0:45–0:50 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 기다려요 |
 | S07 | 0:50–0:55 | 없음 | 초록불 |
 | S08 | 0:55–1:05 | | (재사용) 1화 치키 달리기 + 2화 다 같이 출발 · 🎵 노래 후렴 |
-| S09 | 1:05–1:15 | Roro | 로로도 멈춰 |
-| S10 | 1:15–1:25 | Torong | 토롱 천천히 |
-| S11 | 1:25–1:35 | Pio | 오른쪽 왼쪽 |
-| S12 | 1:35–1:45 | Chiqui | 공을 따라 |
-| S13 | 1:45–1:55 | Roro, Torong, Pio | 멈춰! |
-| S14 | 1:55–2:00 | Chiqui | 딱 멈춰요 |
+| S09 | 1:05–1:15 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 로로도 멈춰 |
+| S10 | 1:15–1:25 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 토롱 천천히 |
+| S11 | 1:25–1:35 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 오른쪽 왼쪽 |
+| S12 | 1:35–1:45 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 공을 따라 |
+| S13 | 1:45–1:55 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 멈춰! |
+| S14 | 1:55–2:00 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 딱 멈춰요 |
 | S15 | 2:00–2:10 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 다 같이 건너요 |
-| S16 | 2:10–2:20 | Grandpa Bau | 함께 걸었단다 |
-| S17 | 2:20–2:30 | Chiqui, Roro, Torong, Pio | 안전하게 건넜어요 |
+| S16 | 2:10–2:20 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 함께 걸었단다 |
+| S17 | 2:20–2:30 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 안전하게 건넜어요 |
 | S18 | 2:30–2:40 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 안녕! |
 | S19 | 2:40–2:50 | | (재사용) 4화 S20 다 같이 춤 · 🎵 엔딩 |
 | S20 | 2:50–3:00 | | (재사용) 4화 S21 노을 인사 · 🎵 엔딩 |
