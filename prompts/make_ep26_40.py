@@ -388,7 +388,7 @@ EPS["ep35"] = dict(
  ]))
 
 # ---------------- 36화 고마워! (2026-11-25 새 주제 — 가을 낙엽은 prompts/keep_ep36_fall.py에 킵) ----------------
-ORTREE = ("THE SAME one tree on the meadow in every scene: a thick light-brown trunk that curves gently, topped by one big round crown of broad layered green leaves (like a big green umbrella), with exactly ONE round ORANGE mandarin fruit with a small green leaf hanging from the edge of the crown, "
+ORTREE = ("THE SAME one tree on the meadow in every scene, exactly like the tree in the reference image: one tall smooth light-brown trunk standing on the RIGHT side of the picture that bends gently to the LEFT near the top, topped by one dome-shaped crown of broad droopy green leaves that reaches out to the LEFT over the grass; exactly ONE round ORANGE mandarin fruit with two small green leaves hangs on a short stem just under the LEFT edge of the crown; there are NO other branches sticking out, "
           "far too high for Chiqui to reach but right at the height of Torong's mouth")
 BASKET = "one wide YELLOW woven basket full of round fruits standing on the grass"
 GLASSUP = "Grandpa Bau has the round glasses pushed UP on top of the head (resting above the eyebrows, clearly visible), NOT on the eyes"

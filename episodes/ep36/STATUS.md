@@ -12,3 +12,4 @@
 - (2026-11-25) 그림 1차 14장 받음(한 장에 모아 나무·바구니·공·안경 비교). 합격 12장: S02 wKJ0lKk0p4A(나무 기준), S03 tptlBh-8kis, S05 dJXMfOH9adc, S07 Lxi_oFQ2QEc, S09 86JdEJ_jjXo, S10 marFwyqYj9g(zEtNBr8M4Pw 예비), S12 9wzfHhNprH0(안경 머리 위), S13 d0LXGP2QJcM, S14 qRXDwzzIAbA, S15 zhzylF8sWts, S16 IDBgSUU6z3s(안경 눈에), S17 AhpVQQEs80U. 불합격: S04 saXjOxYk5jI(귤나무가 S02·S03과 다른 가는 나무) → ORTREE를 S02 모양(굵게 휜 줄기+우산 같은 넓은 잎)으로 고정, S02를 참고 그림으로. 아직 없음: S11. 남음 S04 S11.
 - (2026-11-25) S04 eZJ7FQBlLaM 합격(S02와 같은 휜 줄기·우산 잎 나무, 토롱 입으로 귤). 합격 13장, 남음 S11.
 - (2026-11-25) S11 YbwvjFpouJY 합격(피오가 하늘색 공을 안고 팔랑, 치키 옆). 덤불은 뒤 배경에 있음. **그림 16/16 완료** (14장 + S06·S18 공통 컷).
+- (2026-11-25, 사용자: 나무 세 개가 다 다름) 내 확인 잘못 — S02(줄기 오른쪽에서 왼쪽으로 휨, 둥근 지붕 모양 잎, 귤은 잎 왼쪽 아래)·S03(곧은 줄기, 귤이 왼쪽 위 가지 끝)·S04(줄기 왼쪽, 납작한 우산 잎, 귤 오른쪽 끝)이 모두 다른 나무. S03 tptlBh-8kis·S04 eZJ7FQBlLaM 합격 취소(web_old). ORTREE를 S02 특징 그대로 다시 씀. S03·S04는 S02 wKJ0lKk0p4A를 참고 그림으로 다시. 남음 S03 S04.
