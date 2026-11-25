@@ -281,6 +281,8 @@ EPS["ep32"] = dict(
  ]))
 
 # ---------------- 33화 미안해, 괜찮아 (사과·화해) ----------------
+FALLEN33 = "exactly THREE same-size YELLOW cube toy blocks (the same three cubes from the tower, no other blocks, no rectangles, no smaller pieces) lying scattered on the grass"
+TOWER4 = "the block tower: exactly three same-size YELLOW cube blocks stacked straight up with exactly one same-size ORANGE cube block on top (four cubes in total, no other blocks, no other colors, no arch or triangle)"
 TOWER = "one small tower of exactly three YELLOW square toy blocks stacked on the grass"
 EPS["ep33"] = dict(
  title="33화. 미안해, 괜찮아! — 사과와 화해", short="미안해, 괜찮아!", song_id="sorry", song_short="미안해 노래",
@@ -297,16 +299,16 @@ EPS["ep33"] = dict(
   ("공놀이", "C", MEADOW + f"{D['C']} chases one rolling ORANGE ball across the meadow, not looking ahead.", "Exactly one ball.", False, "Chiqui runs after the ball, laughing."),
   ("와르르!", "CR", MEADOW + f"{D['C']} bumps into {TOWER} by accident; the blocks tumble down; {D['R']} gasps.", "", False, "The three yellow blocks fall onto the grass; Chiqui and Roro freeze, surprised."),
   ("무너졌어", "", MEADOW + "Close view of three YELLOW square toy blocks lying scattered on the grass. No characters.", "Exactly three blocks.", True, "Nothing moves."),
-  ("훌쩍", "R", MEADOW + f"Close view of {D['R']} with teary eyes, sad, next to the fallen yellow blocks.", "", True, "Roro sniffles once; a small tear."),
+  ("훌쩍", "R", MEADOW + f"Close view of {D['R']} with teary eyes, sad, next to {FALLEN33}.", "", True, "Roro sniffles once; a small tear."),
   ("어떡하지?", "C", MEADOW + f"Close view of {D['C']} worried, paws near the mouth.", "", True, "Chiqui looks worried and blinks."),
   ("토롱·피오도 걱정", "TP", MEADOW + "Torong and Pio watch from a little way off with worried faces.", "", False, "They look at each other, worried."),
-  ("다가가요", "CR", MEADOW + f"{D['C']} walks slowly to {D['R']}, who sits next to the fallen yellow blocks.", "", False, "Chiqui takes two slow steps toward Roro."),
-  ("미안해", "CR", MEADOW + "Chiqui hugs Roro gently, sorry; the yellow blocks lie on the grass.", "", False, "Chiqui hugs Roro; Roro looks up."),
+  ("다가가요", "CR", MEADOW + f"{D['C']} walks slowly to {D['R']}, who sits next to {FALLEN33} with a sad face and teary eyes (not smiling yet); Chiqui looks sorry.", "", False, "Chiqui takes two slow steps toward Roro."),
+  ("미안해", "CR", MEADOW + f"Chiqui hugs Roro gently with a sorry face (eyebrows down, small apologetic smile, not laughing); Roro still has teary eyes and looks up; next to them lie {FALLEN33}.", "", False, "Chiqui hugs Roro; Roro looks up."),
   ("괜찮아!", "CR", MEADOW + "Roro smiles at Chiqui and holds Chiqui's paw.", "", False, "Roro smiles and nods; they hold paws."),
   ("같이 쌓자!", "CR", MEADOW + f"Chiqui and Roro stack the three YELLOW blocks together into a tower, smiling.", "Exactly three blocks.", False, "They stack the blocks one by one; the tower stands."),
   ("더 높이!", "CR", MEADOW + "Chiqui puts one ORANGE block on top of the three YELLOW blocks; the tower now has four blocks.", "Exactly four blocks.", False, "Chiqui sets the orange block on top; it stays; they cheer."),
   ("친구 최고", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio cheer around the tower of three yellow blocks and one orange block on top.", "", False, "The friends cheer; the tower stays standing."),
-  BAU(MEADOW, "서로 도왔단다", "stands smiling wisely next to the block tower."),
+  BAU(MEADOW, "서로 도왔단다", f"stands smiling wisely next to {TOWER4}."),
   ("다시 공놀이", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio play gently with one ORANGE ball, far from the block tower.", "", False, "Chiqui rolls the ball to Roro, Roro rolls it to Pio; Torong watches with four feet on the grass."),
   WAVE(MEADOW, "안녕!"),
  ]))
