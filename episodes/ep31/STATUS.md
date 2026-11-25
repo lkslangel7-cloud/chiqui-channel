@@ -15,3 +15,4 @@
 - (2026-11-25) S04 zkvtBE8QbVI 합격(동그란 고리 막대 3개, 초록 고리 막대에 꽂힘, 보라 그릇). **그림 16/16 완료** (14장 + S03·S18 공통 컷).
 - (2026-11-25) 영상 11개 받음(1초 간격 확인) — 모두 합격: S04 KVgCB7EmYQs, S05 1Bk63k2LOlU, S06 JW0QT3Di2b8, S07 4KDHtqRRtLU, S09 kmQ7B-RBiQ4, S10 SvvBPui6HVs(초록 고리로 큰 방울), S11 Bp0cDvsbuUk, S12 OVR5d2XUBGU, S14 t4DcONJKsj8, S15 i9zOt_V7v6Y, S16 Jda773uXtsM. S03·S18 공통 컷. 영상 13/16, 남음 S02 S13 S17.
 - (2026-11-25) S02 yoac3F45y80 합격(바우가 보라 그릇 옆에서 끄덕, 네 발). 영상 14/16, 남음 S13 S17(S17은 S12 영상을 다시 써도 됨).
+- (2026-11-25) S13 WaDwLAr5PcM 합격(큰 방울이 떠가고 친구들 와!). 영상 15/16, 남음 S17(S12 영상 재사용 가능).
