@@ -271,7 +271,7 @@ EPS["ep32"] = dict(
   ("토롱 꼬리로 쿵", "T", MEADOW + f"{D['T']} stands next to the big GREEN floor drum on the grass and thumps it with the tip of the tail.", "Exactly one green drum.", False, "Torong swings the tail and taps the drum two times; four feet stay on the ground."),
   ("피오가 삐리리", "P", MEADOW + f"{D['P']} plays the small SKY-BLUE recorder held in the beak.", "", False, "Pio blows the recorder and sways; little music notes are NOT drawn."),
   ("다 같이 연주", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio play their instruments together, happy.", "", False, "Everyone plays and sways; the camera stays still."),
-  ("쾅!", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio jump a little, surprised, looking around.", "", False, "The friends jump once, surprised, and look left and right."),
+  ("쾅!", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio jump a little, surprised with round open mouths, looking around; they still hold their OWN instruments in their OWN body color: Chiqui the pair of ORANGE maracas, Roro the YELLOW hand drum, Pio the SKY-BLUE recorder; the big GREEN floor drum stands on the grass next to Torong.", "", False, "The friends jump once, surprised, and look left and right."),
   ("누구 소리일까?", "C", MEADOW + f"Close view of {D['C']} holding the ORANGE maracas, looking at the viewer, curious.", "", True, "Chiqui looks at the viewer and tilts the head."),
   ("할아버지다!", "BCRTP", MEADOW + "Grandpa Bau swings the round tail club onto the big PURPLE floor drum standing on the grass; Chiqui, Roro, Torong and Pio cheer.", "", False,
    "Grandpa Bau swings the tail club and taps the purple drum once; all four of Grandpa Bau's feet stay on the grass; the friends cheer."),
