@@ -1,0 +1,468 @@
+{
+  "title": "11화 골고루 냠냠!",
+  "length": 171.0,
+  "draft": "완성",
+  "video": [
+    {
+      "start": 0,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 0,
+      "dur": 3.5,
+      "note": "오프닝 (1화)"
+    },
+    {
+      "start": 3.5,
+      "file": "../ep01/clips/ep01_v03.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "오프닝 다섯 친구 (1화)"
+    },
+    {
+      "start": 13.5,
+      "file": "../ep01/clips/ep01_v04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "오프닝 점프 (1화)"
+    },
+    {
+      "start": 18.5,
+      "file": "../ep01/clips/ep01_v01.mp4",
+      "from": 3.5,
+      "dur": 1.5,
+      "note": "오프닝 마을 (1화)"
+    },
+    {
+      "start": 20,
+      "file": "clips/ep11_s02.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S02"
+    },
+    {
+      "start": 30,
+      "file": "clips/ep11_s03.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S03"
+    },
+    {
+      "start": 35,
+      "file": "clips/ep11_s04.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S04"
+    },
+    {
+      "start": 40,
+      "file": "clips/ep11_s05.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S05"
+    },
+    {
+      "start": 45,
+      "file": "clips/ep11_s06.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S06"
+    },
+    {
+      "start": 50,
+      "file": "clips/ep11_s07.mp4",
+      "from": 0,
+      "dur": 4,
+      "note": "S07"
+    },
+    {
+      "start": 54.0,
+      "file": "../ep01/clips/ep01_v05.mp4",
+      "from": 0,
+      "dur": 12.0,
+      "note": "치키 달리기 (1화, 노래 후렴)",
+      "speed": 0.83
+    },
+    {
+      "start": 66.0,
+      "file": "clips/ep11_s09.mp4",
+      "from": 0,
+      "dur": 5.6,
+      "note": "S09 (노래 1절)"
+    },
+    {
+      "start": 71.6,
+      "file": "clips/ep11_s10.mp4",
+      "from": 0,
+      "dur": 8.1,
+      "note": "S10 (노래 2절)"
+    },
+    {
+      "start": 79.7,
+      "file": "clips/ep11_s11.mp4",
+      "from": 0,
+      "dur": 8.2,
+      "note": "S11 (노래 3절)"
+    },
+    {
+      "start": 87.9,
+      "file": "clips/ep11_s12.mp4",
+      "from": 0,
+      "dur": 8.3,
+      "note": "S12 (노래 4절)"
+    },
+    {
+      "start": 96.2,
+      "file": "clips/ep11_s13.mp4",
+      "from": 0,
+      "dur": 9.8,
+      "note": "S13 (노래 후렴)"
+    },
+    {
+      "start": 106.0,
+      "file": "clips/ep11_s14.mp4",
+      "from": 0,
+      "dur": 5,
+      "note": "S14"
+    },
+    {
+      "start": 111.0,
+      "file": "clips/ep11_s15.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S15"
+    },
+    {
+      "start": 121.0,
+      "file": "clips/ep11_s16.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S16"
+    },
+    {
+      "start": 131.0,
+      "file": "clips/ep11_s17.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S17"
+    },
+    {
+      "start": 141.0,
+      "file": "clips/ep11_s18.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "S18"
+    },
+    {
+      "start": 151.0,
+      "file": "../ep04/clips/ep04_s20.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "엔딩 춤 (4화)"
+    },
+    {
+      "start": 161.0,
+      "file": "../ep04/clips/ep04_s21.mp4",
+      "from": 0,
+      "dur": 10,
+      "note": "엔딩 노을 인사 (4화)",
+      "speed": 0.9,
+      "pingpong": true
+    }
+  ],
+  "lines": [
+    {
+      "at": 21.0,
+      "audio": "audio/ko/01_chiqui.wav",
+      "who": "치키",
+      "text": "점심 먹자!"
+    },
+    {
+      "at": 25.0,
+      "audio": "audio/ko/00_all.wav",
+      "who": "모두",
+      "text": "좋아!"
+    },
+    {
+      "at": 31.0,
+      "audio": "audio/ko/02_bau.wav",
+      "who": "바우 할아버지",
+      "text": "알록달록 도시락!"
+    },
+    {
+      "at": 36.0,
+      "audio": "audio/ko/03_chiqui.wav",
+      "who": "치키",
+      "text": "나는 당근만!"
+    },
+    {
+      "at": 41.0,
+      "audio": "audio/ko/04_chiqui.wav",
+      "who": "치키",
+      "text": "으~ 초록색은 싫어."
+    },
+    {
+      "at": 46.0,
+      "audio": "audio/ko/05_bau.wav",
+      "who": "바우 할아버지",
+      "text": "한 입만 먹어 볼까?"
+    },
+    {
+      "at": 50.6,
+      "audio": "audio/ko/06_all.wav",
+      "who": "모두",
+      "text": "우리가 보여 줄게!"
+    },
+    {
+      "at": 106.5,
+      "audio": "audio/ko/07_narr.wav",
+      "who": "내레이션",
+      "text": "치키도 먹어 볼까?"
+    },
+    {
+      "at": 113.0,
+      "audio": "audio/ko/08_chiqui.wav",
+      "who": "치키",
+      "text": "어? 맛있다!"
+    },
+    {
+      "at": 116.0,
+      "audio": "audio/ko/12_all.wav",
+      "who": "모두",
+      "text": "와아~"
+    },
+    {
+      "at": 122.5,
+      "audio": "audio/ko/09_bau.wav",
+      "who": "바우 할아버지",
+      "text": "큰 공룡도 초록 잎을 먹었단다!"
+    },
+    {
+      "at": 132.5,
+      "audio": "audio/ko/10_all.wav",
+      "who": "모두",
+      "text": "힘이 쑥쑥!"
+    },
+    {
+      "at": 142.5,
+      "audio": "audio/ko/11_all.wav",
+      "who": "모두",
+      "text": "잘 먹었습니다!"
+    },
+    {
+      "at": 168.6,
+      "audio": "audio/ko/13_chiqui.wav",
+      "who": "치키",
+      "text": "안녕!"
+    }
+  ],
+  "music": [
+    {
+      "file": "../ep01/audio/songs/opening.wav",
+      "at": 0,
+      "from": 0,
+      "dur": 20.36,
+      "volume": 0.9,
+      "fade_out": 0.5,
+      "note": "오프닝 주제가"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 20,
+      "from": 0,
+      "dur": 34.6,
+      "volume": 0.3,
+      "fade_in": 1,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "audio/songs/veggie_song.wav",
+      "at": 54.0,
+      "from": 0,
+      "dur": 52.0,
+      "volume": 0.9,
+      "fade_out": 1,
+      "note": "노래"
+    },
+    {
+      "file": "../ep01/audio/songs/bgm.wav",
+      "at": 106.0,
+      "from": 0,
+      "dur": 45.4,
+      "volume": 0.3,
+      "fade_in": 1.5,
+      "fade_out": 1.5,
+      "note": "배경음악"
+    },
+    {
+      "file": "../ep01/audio/songs/ending.wav",
+      "at": 151.4,
+      "from": 0,
+      "dur": 19.56,
+      "volume": 0.9,
+      "note": "엔딩 주제가"
+    }
+  ],
+  "captions": [
+    {
+      "at": 0,
+      "end": 3.6,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 3.6,
+      "end": 6.0,
+      "text": "뿔이 셋 치키 (치키!)"
+    },
+    {
+      "at": 6.0,
+      "end": 8.3,
+      "text": "크앙 크앙 로로 (로로!)"
+    },
+    {
+      "at": 8.3,
+      "end": 10.8,
+      "text": "목이 쭈욱 토롱 (토롱!)"
+    },
+    {
+      "at": 10.8,
+      "end": 13.2,
+      "text": "하늘 슝슝 피오 (피오!)"
+    },
+    {
+      "at": 13.2,
+      "end": 15.3,
+      "text": "안경 쓴 바우 할아버지 (허허!)"
+    },
+    {
+      "at": 15.3,
+      "end": 17.9,
+      "text": "공룡 마을 친구들"
+    },
+    {
+      "at": 17.9,
+      "end": 20.3,
+      "text": "치키치키 출발!"
+    },
+    {
+      "at": 54.0,
+      "end": 56.8,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 56.8,
+      "end": 59.7,
+      "text": "골고루 냠냠! (냠냠!)"
+    },
+    {
+      "at": 59.7,
+      "end": 61.7,
+      "text": "한 입 두 입 맛있게"
+    },
+    {
+      "at": 61.7,
+      "end": 63.9,
+      "text": "치키치키 냠냠!"
+    },
+    {
+      "at": 63.9,
+      "end": 66.0,
+      "text": "노란 옥수수 톡톡톡"
+    },
+    {
+      "at": 66.0,
+      "end": 68.0,
+      "text": "크앙! 로로가 와앙"
+    },
+    {
+      "at": 68.0,
+      "end": 71.3,
+      "text": "옥수수 냠냠 (냠냠!)"
+    },
+    {
+      "at": 71.6,
+      "end": 74.1,
+      "text": "초록 브로콜리 작은 나무"
+    },
+    {
+      "at": 74.1,
+      "end": 76.1,
+      "text": "쭈욱~ 토롱이 냠"
+    },
+    {
+      "at": 76.1,
+      "end": 79.4,
+      "text": "브로콜리 냠냠 (냠냠!)"
+    },
+    {
+      "at": 79.7,
+      "end": 82.3,
+      "text": "파란 블루베리 콩콩콩"
+    },
+    {
+      "at": 82.3,
+      "end": 83.8,
+      "text": "슝~ 피오가 콕"
+    },
+    {
+      "at": 83.8,
+      "end": 87.6,
+      "text": "블루베리 냠냠 (냠냠!)"
+    },
+    {
+      "at": 87.9,
+      "end": 90.6,
+      "text": "치키도 한 입 해 볼까?"
+    },
+    {
+      "at": 90.6,
+      "end": 92.7,
+      "text": "망설망설 (할 수 있어!)"
+    },
+    {
+      "at": 92.7,
+      "end": 95.9,
+      "text": "한 입만 냠 (냠!)"
+    },
+    {
+      "at": 96.2,
+      "end": 97.7,
+      "text": "쿵쿵 쾅! 쿵쿵 쾅!"
+    },
+    {
+      "at": 97.7,
+      "end": 100.6,
+      "text": "골고루 냠냠! (냠냠!)"
+    },
+    {
+      "at": 100.6,
+      "end": 102.7,
+      "text": "한 입 두 입 맛있게"
+    },
+    {
+      "at": 102.7,
+      "end": 105.7,
+      "text": "치키치키 냠냠!"
+    },
+    {
+      "at": 151.4,
+      "end": 154.8,
+      "text": "오늘도 재밌었지? (응!)"
+    },
+    {
+      "at": 154.8,
+      "end": 157.8,
+      "text": "바우 할아버지도 (허허!)"
+    },
+    {
+      "at": 157.8,
+      "end": 162.8,
+      "text": "안녕! 바이바이! 아디오스!"
+    },
+    {
+      "at": 162.8,
+      "end": 166.9,
+      "text": "내일 또 만나요, 크앙!"
+    }
+  ],
+  "sfx_suggestions": []
+}

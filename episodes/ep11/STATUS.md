@@ -5,8 +5,8 @@
 | 대본·가사·프롬프트 | 완료 (2026-11-20) |
 | 그림 16장 | **모두 합격** (2026-11-20) |
 | 영상 16컷 | **모두 합격** (2026-11-20) |
-| 노래 | 아직 (Suno 65~70초) |
-| 음성 | 아직 |
+| 노래 | 완료 (2026-11-25, veggie_song.wav 68.7초 중 앞 52초 사용) |
+| 음성 | 완료 (2026-11-25, 14개 약 3.5크레딧) |
 
 ## 그림 받기 기록
 
@@ -16,3 +16,5 @@
 - S06 xABssTsYyto 합격(2026-11-20): 할아버지 노란 체크 돗자리, 브로콜리 하나 들고 윙크. **11화 그림 16장 모두 완료.** 다음: 영상.
 - 영상(2026-11-20, 1초 간격 확인) 16개 합격: S02 zi6N6LJNfFw, S03 gViSVtmOB8M(4초에 바구니 열림), S04 gJOqItdTzak, S05 TBjX5BrwVqk, S06 xzC6ZHuw2gI, S07 art7-l0-chc, S09 -3iSliuXlv8, S10 puiiV5n8FA0, S11 mR3psbNLZvY, S12 b4kDL71PHkw, S13 DMM7kfw-E2c, S14 f5fbEjdePO0, S15 k7k2yR0xIOY(S15 그림에 S14 프롬프트로 만듦 — 오물오물 웃는 모습이라 사용), S16 c0nE6_gzZkk, S17 -Nkg6sMPvYk, S18 ZU87pztcA18. 남은 것: 노래, 음성, 조립.
 - S15 다시 만든 영상 1lHddJmM3DM(2026-11-20) 사용: 오물오물 → 눈이 반짝 동그래짐 → 활짝 웃고 한 입 더. 예전 k7k2yR0xIOY는 clips/web에 예비.
+
+- (2026-11-25) **완성**: output/ep11_ko_v1_hq.mp4 (2:51, 2560×1440, 오류 0) + .srt. 노래는 뒤 반복 후렴(58초~)을 잘라 52초에서 페이드. 썸네일 S15(브로콜리 냠), upload_info.md. edit_order는 scripts/build_ep11_15.py.
