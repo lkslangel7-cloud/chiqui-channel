@@ -202,7 +202,7 @@ EPS["ep30"] = dict(
   ("꼬리를 살랑!", "C", MEADOW + f"{D['C']} wags the tail with a cheeky smile.", "", False, "Chiqui wags the tail left and right three times."),
   ("로로도 쭈욱", "R", MEADOW + f"{D['R']} stretches both arms up high on tiptoes.", "", False, "Roro stretches up three times."),
   ("토롱 살랑", "T", MEADOW + f"{D['T']} wags the long tail, smiling.", "", False, "Torong wags the tail left and right three times; four feet stay on the ground."),
-  ("피오 빙글", "P", MEADOW + f"{D['P']} spins around once on the grass with wings open.", "", False, "Pio turns around in one full circle on the spot and stops facing the viewer."),
+  ("피오 빙글", "P", MEADOW + f"ONE single picture (NOT a grid, NOT a comic strip, NOT several panels or frames, NOT a step-by-step sequence): {D['P']} stands on the grass in the middle of the meadow, turned a little to the side as if starting to spin, with both wings open wide; Pio appears only ONCE in the picture.", "", False, "Pio turns around in one full circle on the spot and stops facing the viewer."),
   ("다 같이 쿵쿵", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio stomp their feet together happily.", "", False, "Everyone stomps two times in place; the camera stays still."),
   ("쉿!", "C", MEADOW + f"Close view of {D['C']} holding one paw in front of the mouth, eyes sparkling, whispering.", "", True, "Chiqui whispers 'shh' and winks."),
   ("잠자는 척", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio lie down on the grass with eyes closed, pretending to sleep, little smiles.", "", False, "They breathe slowly with eyes closed; nobody moves much."),
