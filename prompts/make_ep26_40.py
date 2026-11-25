@@ -346,8 +346,11 @@ EPS["ep34"] = dict(
  ]))
 
 # ---------------- 35화 빨간불 멈춰요 (교통안전) ----------------
-ROAD = ("At THE SAME little village road in every scene: one smooth sandy road crossing the meadow from left to right, with a white-striped crosswalk across it, "
-        "and ONE toy-like traffic light on a short post at the side: two round lights, RED on top and GREEN below. ")
+ROAD = ("THE SAME crossing in every scene, always seen from the same camera: one straight smooth sandy road runs from the BOTTOM of the picture straight up into the distance in the MIDDLE of the frame, "
+        "dividing the meadow into a LEFT grass side and a RIGHT grass side; a white-striped crosswalk goes across the road from the LEFT side to the RIGHT side in the front; "
+        "ONE toy-like traffic light on a short post stands on the LEFT grass side right next to the crosswalk, two round lights, RED on top and GREEN below. "
+        "LEFT side = the waiting side (this side), RIGHT side = the other side. No cars. ")
+LEFTW = "standing on the LEFT grass side next to the traffic light, facing the road, clearly NOT on the road and NOT on the right side"
 EPS["ep35"] = dict(
  title="35화. 빨간불 멈춰요! — 길 건너기", short="빨간불 멈춰요!", song_id="traffic", song_short="신호등 노래",
  theme="신호등(빨간불 멈춤·초록불 건넘), 좌우 살피기, 손잡고 건너기.",
@@ -361,21 +364,21 @@ EPS["ep35"] = dict(
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "빨간불 멈춰요 (멈춰!)", "초록불 건너요", "치키치키 안전!"],
  scenes=scenes([
   ("마을 길", "", ROAD + "Only the RED light is on. No characters, no cars.", "", False, "Nothing moves; the red light glows."),
-  BAU(ROAD, "빨간불은?", "stands on the grass next to the traffic light, smiling, the RED light on."),
-  ("길가에 모여요", "CRTP", ROAD + "Chiqui, Roro, Torong and Pio stand on the grass at the edge of the road, before the crosswalk; only the RED light is on.", "", False, "The friends wait and look at the light."),
+  BAU(ROAD, "빨간불은?", "stands on the LEFT grass side next to the traffic light, smiling, the RED light on; the road and the RIGHT side are empty."),
+  ("길가에 모여요", "CRTP", ROAD + f"Chiqui, Roro, Torong and Pio stand in a small group {LEFTW}; only the RED light is on; the road and the RIGHT side are empty.", "", False, "The friends wait and look at the light."),
   ("빨간불", "", ROAD + "Close view of the traffic light: only the top RED light is on, the green light is off. No characters.", "", True, "The red light glows; nothing else changes."),
-  ("기다려요", "CRTP", ROAD + "Chiqui, Roro, Torong and Pio wait on the grass before the crosswalk; only the RED light is on.", "", False, "They wait still and nod; nobody steps onto the road."),
+  ("기다려요", "CRTP", ROAD + f"Chiqui, Roro, Torong and Pio wait in a small group {LEFTW}; only the RED light is on; the road and the RIGHT side are empty.", "", False, "They wait still and nod; nobody steps onto the road."),
   ("초록불", "", ROAD + "Close view of the traffic light: only the bottom GREEN light is on, the red light is off. No characters.", "", True, "The green light glows; nothing else changes."),
-  ("로로도 멈춰", "R", ROAD + f"{D['R']} stands on the grass before the crosswalk with both paws at the sides, waiting; only the RED light is on.", "", False, "Roro waits and nods; Roro does not step onto the road."),
-  ("토롱 천천히", "T", ROAD + f"{D['T']} walks slowly across the crosswalk toward the LEFT; only the GREEN light is on.", "", False, "Torong walks two slow steps to the LEFT on the crosswalk; four legs only."),
-  ("오른쪽 왼쪽", "P", ROAD + f"{D['P']} stands at the edge of the road and looks right, then left.", "", False, "Pio turns the head right, then left, then nods."),
-  ("공을 따라", "C", ROAD + f"{D['C']} runs on the grass after one rolling ORANGE ball toward the road; only the RED light is on.", "Exactly one ball.", False, "Chiqui runs toward the road after the ball, not looking."),
-  ("멈춰!", "RTP", ROAD + "Roro, Torong and Pio on the grass call out STOP with worried faces; Roro and Pio hold up a paw and a wing; only the RED light is on.", "", False, "They call out once; Torong lifts the neck; four feet on the ground."),
-  ("딱 멈춰요", "C", ROAD + f"{D['C']} stops right at the edge of the road on the grass, holding the ORANGE ball; only the RED light is on.", "", False, "Chiqui stops, sighs with relief and waits. Chiqui does not step onto the road."),
-  ("다 같이 건너요", "BCRTP", ROAD + "Only the GREEN light is on; Grandpa Bau leads; Chiqui and Roro hold paws, Pio walks next to them, Torong walks beside; they cross the crosswalk toward the LEFT.", "", False,
-   "Everyone walks slowly across the crosswalk to the LEFT. The camera stays still."),
-  BAU(ROAD, "함께 걸었단다", "stands on the grass on the far side of the road, smiling wisely; only the GREEN light is on."),
-  ("안전하게 건넜어요", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio cheer on the meadow on the far side of the road.", "", False, "The friends cheer."),
+  ("로로도 멈춰", "R", ROAD + f"{D['R']} stands {LEFTW} with both paws at the sides, waiting; only the RED light is on.", "", False, "Roro waits and nods; Roro does not step onto the road."),
+  ("토롱 천천히", "T", ROAD + f"{D['T']} walks slowly on the crosswalk across the road from the LEFT side toward the RIGHT side, now in the middle of the road; only the GREEN light is on.", "", False, "Torong walks two slow steps to the RIGHT along the crosswalk toward the right grass side; four legs only. The camera stays still."),
+  ("오른쪽 왼쪽", "P", ROAD + f"{D['P']} stands {LEFTW}, at the edge of the crosswalk, and looks right, then left.", "", False, "Pio turns the head right, then left, then nods."),
+  ("공을 따라", "C", ROAD + f"{D['C']} runs on the LEFT grass side after one rolling ORANGE ball toward the road; the ball is about to roll onto the road; only the RED light is on.", "Exactly one ball.", False, "Chiqui runs toward the road after the ball, not looking."),
+  ("멈춰!", "RTP", ROAD + f"Roro, Torong and Pio {LEFTW} call out STOP with worried faces toward Chiqui; Roro and Pio hold up a paw and a wing; only the RED light is on.", "", False, "They call out once; Torong lifts the neck; four feet on the ground."),
+  ("딱 멈춰요", "C", ROAD + f"{D['C']} stops right at the edge of the road on the LEFT grass side, holding the ORANGE ball, not on the road; only the RED light is on.", "", False, "Chiqui stops, sighs with relief and waits. Chiqui does not step onto the road."),
+  ("다 같이 건너요", "BCRTP", ROAD + "Only the GREEN light is on; all five walk together on the crosswalk across the road from the LEFT side toward the RIGHT side, now in the middle of the road: Grandpa Bau leads in front (on the right), Chiqui and Roro hold paws, Pio walks next to them, Torong walks beside them.", "", False,
+   "Everyone walks slowly to the RIGHT along the crosswalk toward the right grass side. The camera stays still."),
+  BAU(ROAD, "함께 걸었단다", "stands on the RIGHT grass side (the other side) next to the end of the crosswalk, smiling wisely; only the GREEN light is on."),
+  ("안전하게 건넜어요", "CRTP", ROAD + "Chiqui, Roro, Torong and Pio cheer together on the RIGHT grass side (the other side), next to the end of the crosswalk; the LEFT side is empty; only the GREEN light is on.", "", False, "The friends cheer."),
   WAVE(MEADOW, "안녕!"),
  ]))
 
