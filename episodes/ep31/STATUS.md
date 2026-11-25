@@ -10,3 +10,4 @@
 - (2026-11-25) 그림 1차 11장 받음(한 장에 모아 막대·고리·그릇 비교). 합격 9장: S02 AJ1KrmV7Kg0(보라 그릇 기준), S05 P_YXhTq6IiU, S06 41KQCgqsgCc, S09 RTjjAAFRX88, S10 tfQdplbbJ0E(초록 고리가 막대에 꽂힘 — 기준), S12 g0TA-CzsKdE, S13 x4OtzPNwR_E, S14 lT8qcxjGfrw, S16 IfpQgaj4nkA. S03은 공통 컷(29화 그림).
 - 불합격: S04 h_c3kCmRwMw(막대 끝이 꽃·별·하트 모양 — S05·S09는 동그란 고리), S15 Tc3KaoImxAM(초록 고리가 막대 없이 공중에 떠 있음). WAND31(동그란 고리 하나)·RING31(막대에 꽂힌 초록 고리, 공중에 뜨지 않음) 추가. 참고 그림: S04는 S02(그릇)·S10(고리), S15는 S10.
 - 아직 없음: S07 S11 S17. 남음: S04 S07 S11 S15 S17.
+- (2026-11-25) S17 hr92nzJ7JLY 합격(토롱 네 발, 피오 익룡 날개). 합격 10장, 남음: S04 S07 S11 S15.
