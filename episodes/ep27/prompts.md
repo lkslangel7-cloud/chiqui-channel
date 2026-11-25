@@ -109,7 +109,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Chiqui wiggles and squeezes the legs together, looking around. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui keeps hugging the ORANGE ball in both front paws the WHOLE time (the ball never disappears, never drops and never rolls away) while wiggling and squeezing the legs together two times, looking left and right. The camera stays still. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S13 치키야, 화장실! (1:45–1:55)
