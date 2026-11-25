@@ -214,6 +214,8 @@ EPS["ep30"] = dict(
 
 # ---------------- 31화 퐁퐁 비눗방울 ----------------
 BOWL = "one big round PURPLE bowl of bubble soap on the grass"
+WAND31 = "each bubble wand is a simple short stick with ONE plain round ring loop at the top (no flower, star or heart shapes)"
+RING31 = "one big plain GREEN bubble ring on a short wooden stick stuck upright in the grass (the ring never floats in the air)"
 EPS["ep31"] = dict(
  title="31화. 퐁퐁 비눗방울! — 비눗방울 놀이", short="퐁퐁 비눗방울!", song_id="bubble", song_short="비눗방울",
  theme="비눗방울 불기·잡기·세기. 막대는 친구 몸 색. 토롱은 바닥에 세운 커다란 고리에 후~.",
@@ -228,7 +230,7 @@ EPS["ep31"] = dict(
  scenes=scenes([
   BAU(MEADOW, "비눗방울 놀이 하자!", f"stands next to {BOWL}, smiling."),
   CHEER(MEADOW),
-  ("비눗방울 준비", "", MEADOW + f"Close view of {BOWL} with three small bubble wands lying next to it on the grass (ORANGE, YELLOW, SKY-BLUE) and one big GREEN bubble ring standing upright on a short stick stuck in the grass. No characters.", "Exactly three wands and one ring.", True, "Nothing moves except the soap shining."),
+  ("비눗방울 준비", "", MEADOW + f"Close view of {BOWL} with three small bubble wands lying next to it on the grass (ORANGE, YELLOW, SKY-BLUE); {WAND31}; and {RING31}. No characters.", "Exactly three wands and one ring.", True, "Nothing moves except the soap shining."),
   ("후~", "C", MEADOW + f"{D['C']} holds one ORANGE bubble wand and blows clear shiny soap bubbles.", "", False, "Chiqui blows; five clear bubbles float up and drift. The camera stays still."),
   ("둥실둥실", "", MEADOW + "Clear shiny rainbow-sheen soap bubbles float above the meadow in the sunshine. No characters.", "", False, "Bubbles float up slowly; one pops."),
   ("방울 잡기", "CRP", MEADOW + "Chiqui, Roro and Pio jump to catch floating soap bubbles, laughing.", "", False, "They jump and pop a few bubbles with paws and beak."),
@@ -239,7 +241,7 @@ EPS["ep31"] = dict(
   ("방울방울", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio play among many floating soap bubbles.", "", False, "Bubbles float everywhere; the friends laugh. The camera stays still."),
   ("엄청 큰 방울!", "CRTP", MEADOW + "One very big shiny soap bubble floats above the meadow; Chiqui, Roro, Torong and Pio look up at it with open mouths.", "Exactly one giant bubble.", False, "The giant bubble floats slowly; the friends gasp."),
   ("누가 만들었을까?", "C", MEADOW + f"Close view of {D['C']} looking at the viewer, curious.", "", True, "Chiqui looks at the viewer and tilts the head."),
-  ("토롱이 했지!", "CRTP", MEADOW + "Torong smiles proudly next to the GREEN bubble ring; Chiqui, Roro and Pio cheer.", "", False, "The friends cheer; Torong nods proudly with four feet on the ground."),
+  ("토롱이 했지!", "CRTP", MEADOW + f"Torong smiles proudly standing next to {RING31}, with four feet on the ground; Chiqui, Roro and Pio cheer.", "", False, "The friends cheer; Torong nods proudly with four feet on the ground."),
   BAU(MEADOW, "공룡 알도 동글동글", "smiles wisely; a few round soap bubbles float around."),
   ("다 같이 퐁퐁", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio play with bubbles together.", "", False, "Bubbles float and the friends laugh."),
   WAVE(MEADOW, "안녕!"),
