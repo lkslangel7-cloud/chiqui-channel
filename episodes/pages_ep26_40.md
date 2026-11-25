@@ -11,7 +11,7 @@
 | 33 미안해, 괜찮아! | https://claude.ai/artifact/Nigx4RAgMjNguCCUb1cBkv |
 | 34 나 혼자 할래! | https://claude.ai/artifact/7uvWBQFUo4PE3u9aQFdfoN |
 | 35 빨간불 멈춰요! | https://claude.ai/artifact/3fSaDH9azqXPGrxYqX2WjS |
-| 36 알록달록 가을 낙엽! | https://claude.ai/artifact/ER42qcrdH4B9gsPkjGqzuo |
+| 36 고마워! | https://claude.ai/artifact/ER42qcrdH4B9gsPkjGqzuo |
 | 37 구름 모양 찾기! | https://claude.ai/artifact/CpWRVyd7mdGK3bdotFSk76 |
 | 38 할아버지, 사랑해요! | https://claude.ai/artifact/Ush8fduWiKSBCEkMCoyzV6 |
 | 39 별 하나 나 하나! | https://claude.ai/artifact/PfFSetbDJjijn2wmAXYUPg |

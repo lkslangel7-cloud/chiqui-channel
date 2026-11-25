@@ -4,57 +4,57 @@ Suno → Create → Custom. 칸마다 그대로 붙여 넣는다.
 
 More Options: Vocal Gender Female / Duration Custom(오프닝·엔딩 20초, 알 찾기·배경음악 60초) / Max Mode Off / Weirdness 20% / Style Influence 80% / Variety Normal / Personalize Off
 
-## 알록달록 가을 낙엽!
+## 고마워!
 
-- 자리: 36화
-- Title: 알록달록 가을 낙엽!
+- 자리: 0:55–1:55 · 시리즈 후렴 틀
+- Title: 고마워!
 
 
 Styles:
 ```
-cozy indie-folk, 100 bpm, acoustic guitar, handclaps, crunchy leaf rustle percussion, warm autumn feeling, soft female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
+bright Motown-style soul-pop for kids, 104 bpm, tambourine, bouncy bass, piano, finger snaps, warm friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
 ```
 
 Lyrics:
 ```
 [Chorus]
 쿵쿵 쾅! 쿵쿵 쾅!
-알록달록 낙엽 (팔랑!)
-바스락 바스락
-치키치키 가을!
+도와줘서 (고마워!)
+서로서로 도와요
+치키치키 고마워!
 
 [Verse 1]
-노란 은행잎 팔랑
-크앙! 로로가 줍고
-하나 (팔랑!)
+높은 데 주황 귤
+쭈욱~ 토롱이 똑
+고마워 (고마워!)
 
 [Verse 2]
-높은 데 초록 잎
-쭈욱~ 토롱이 쏙
-둘 (쏙!)
+무거운 노란 바구니
+크앙! 로로랑 영차
+고마워 (고마워!)
 
 [Verse 3]
-바람에 휘리릭
-슝~ 피오가 잡고
-셋 (휘리릭!)
+덤불 속 파란 공
+콕! 치키가 쏙
+고마워 (고마워!)
 
 [Verse 4]
-낙엽 더미 폭신폭신
-치키는 어디 있지? (어디?)
-까꿍! (까꿍!)
+할아버지 안경 어디?
+머리 위에 있네 (어디?)
+고마워! (고마워!)
 
 [Chorus]
 쿵쿵 쾅! 쿵쿵 쾅!
-알록달록 낙엽 (팔랑!)
-바스락 바스락
-치키치키 가을!
+도와줘서 (고마워!)
+서로서로 도와요
+치키치키 고마워!
 
 [End]
 ```
 
 ## 구름 모양 찾기!
 
-- 자리: 37화
+- 자리: 0:55–1:55 · 시리즈 후렴 틀
 - Title: 구름 모양 찾기!
 
 
@@ -102,7 +102,7 @@ Lyrics:
 
 ## 할아버지, 사랑해요!
 
-- 자리: 38화
+- 자리: 0:55–1:55 · 시리즈 후렴 틀
 - Title: 할아버지, 사랑해요!
 
 
@@ -150,7 +150,7 @@ Lyrics:
 
 ## 별 하나 나 하나!
 
-- 자리: 39화
+- 자리: 0:55–1:55 · 시리즈 후렴 틀
 - Title: 별 하나 나 하나!
 
 
@@ -198,7 +198,7 @@ Lyrics:
 
 ## 치키 타운 대축제!
 
-- 자리: 40화
+- 자리: 0:55–1:55 · 시리즈 후렴 틀
 - Title: 치키 타운 대축제!
 
 

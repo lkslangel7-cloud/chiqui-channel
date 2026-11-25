@@ -387,37 +387,47 @@ EPS["ep35"] = dict(
   WAVE(MEADOW, "안녕!"),
  ]))
 
-# ---------------- 36화 알록달록 가을 낙엽 ----------------
-FALL = "In the volcano-island village in autumn: the meadow is golden, trees have orange and yellow leaves, a few leaves drift down. "
-GINKGO = "THE SAME big ginkgo tree with fan-shaped bright YELLOW leaves"
+# ---------------- 36화 고마워! (2026-11-25 새 주제 — 가을 낙엽은 prompts/keep_ep36_fall.py에 킵) ----------------
+ORTREE = ("THE SAME one small round leafy tree on the meadow in every scene, with exactly ONE round ORANGE mandarin fruit hanging high on the top branch, "
+          "far too high for Chiqui to reach but right at the height of Torong's mouth")
+BASKET = "one wide YELLOW woven basket full of round fruits standing on the grass"
+GLASSUP = "Grandpa Bau has the round glasses pushed UP on top of the head (resting above the eyebrows, clearly visible), NOT on the eyes"
 EPS["ep36"] = dict(
- title="36화. 알록달록 가을 낙엽! — 가을 놀이", short="알록달록 가을 낙엽!", song_id="leaf", song_short="낙엽 노래",
- theme="가을 낙엽 줍기·세기·낙엽 더미 놀이, 까꿍.",
- twist="폭신폭신 낙엽 더미… 치키는 어디 있지? 까꿍! 낙엽 속에서 치키가 짠!",
- bau="은행나무는 공룡 시대에도 있었단다!",
- lines=[("내레이션","바스락바스락, 가을이에요.",""),("치키","낙엽 놀이 하자!",""),("모두","좋아!","♻ 1화 07"),("모두","하나, 둘, 셋!",""),
-        ("내레이션","치키는 어디 있을까?","뒤에 3초 쉼"),("치키","까꿍!",""),("모두","하하하!","♻ 3화 11"),
-        ("바우","은행나무는 공룡 시대에도 있었단다!","바우 할아버지 상식"),("치키","안녕!","♻ 1화 18")],
- verses=[("노란 은행잎 팔랑","크앙! 로로가 줍고","하나 (팔랑!)"),("높은 데 초록 잎","쭈욱~ 토롱이 쏙","둘 (쏙!)"),
-         ("바람에 휘리릭","슝~ 피오가 잡고","셋 (휘리릭!)"),("낙엽 더미 폭신폭신","치키는 어디 있지? (어디?)","까꿍! (까꿍!)")],
- chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "알록달록 낙엽 (팔랑!)", "바스락 바스락", "치키치키 가을!"],
+ title="36화. 고마워! — 도와주고 고마워요", short="고마워!", song_id="thanks", song_short="고마워 노래",
+ theme="친구를 도와주기, 도움을 받으면 \"고마워!\" 말하기.",
+ twist="바우 할아버지가 안경을 찾아요… 어디 있지? 머리 위에! 피오가 부리로 살짝 내려 주자 \"고마워!\"",
+ bau="브라키오사우루스는 긴 목으로 높은 잎을 먹었단다!",
+ lines=[("치키","안 닿아!",""),("치키","고마워, 토롱아!",""),("모두","좋아!","♻ 1화 07"),("로로","고마워!",""),("피오","고마워!",""),
+        ("바우","내 안경이 어디 갔지?",""),("내레이션","안경은 어디 있을까?","뒤에 3초 쉼"),("모두","머리 위에!",""),("바우","고마워, 피오야!",""),("모두","하하하!","♻ 3화 11"),
+        ("바우","브라키오사우루스는 긴 목으로 높은 잎을 먹었단다!","바우 할아버지 상식"),("모두","고마워!",""),("치키","안녕!","♻ 1화 18")],
+ verses=[("높은 데 주황 귤","쭈욱~ 토롱이 똑","고마워 (고마워!)"),("무거운 노란 바구니","크앙! 로로랑 영차","고마워 (고마워!)"),
+         ("덤불 속 파란 공","콕! 치키가 쏙","고마워 (고마워!)"),("할아버지 안경 어디?","머리 위에 있네 (어디?)","고마워! (고마워!)")],
+ chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "도와줘서 (고마워!)", "서로서로 도와요", "치키치키 고마워!"],
  scenes=scenes([
-  ("가을이에요", "", FALL + "Leaves drift down over the round cave houses. No characters.", "", False, "Leaves drift down slowly; nothing else moves."),
-  ("낙엽 놀이 하자!", "C", FALL + f"{D['C']} catches one falling ORANGE leaf with both paws, delighted.", "", False, "Chiqui catches the leaf and smiles."),
-  BAU(FALL, "은행나무 아래", f"stands under {GINKGO}, smiling."),
-  CHEER(FALL),
-  ("바스락", "", FALL + "Close view of colorful fallen leaves on the ground: orange, yellow and a few green ones. No characters.", "", True, "A leaf lands softly; nothing else moves."),
-  ("작은 낙엽 더미", "C", FALL + f"{D['C']} jumps into a small pile of leaves, leaves flying up.", "", False, "Chiqui jumps once; leaves fly up and fall back."),
-  ("로로가 줍고", "R", FALL + f"{D['R']} picks up one YELLOW ginkgo leaf from the ground and holds it up.", "", False, "Roro picks up the leaf and shows it, smiling."),
-  ("토롱이 쏙", "T", FALL + f"{D['T']} takes one GREEN leaf from a low branch right in front of the mouth.", "", False, NEAR + "Torong gently takes the leaf with the mouth and lifts the head, smiling."),
-  ("피오가 잡고", "P", FALL + f"{D['P']} flies and catches one falling ORANGE leaf in the beak.", "", False, "Pio glides and catches the leaf in the beak."),
-  ("큰 낙엽 더미", "CRTP", FALL + "Chiqui, Roro, Torong and Pio push fallen leaves into one big round pile together.", "Exactly one big pile.", False, "They push leaves into the pile; it grows; Torong pushes leaves with the nose."),
-  ("치키는?", "RTP", FALL + "Roro, Torong and Pio look around next to the big leaf pile; Chiqui is not there.", "", False, "They look left and right, puzzled."),
-  ("어디 있을까?", "", FALL + "Close view of the big leaf pile; only the tip of one small ORANGE horn peeks out of the top. No other characters visible.", "", True, "The leaf pile wiggles a little."),
-  ("까꿍!", "CRTP", FALL + f"{D['C']} pops out of the big leaf pile with leaves flying; Roro, Torong and Pio laugh.", "", False, "Chiqui pops up with a big smile; leaves fly; everyone laughs."),
-  BAU(FALL, "공룡 시대에도", f"stands under {GINKGO} with yellow leaves drifting down, smiling wisely."),
-  ("낙엽 비", "CRTP", FALL + "Chiqui, Roro, Torong and Pio toss leaves up into the air together.", "", False, "Leaves fly up and drift down; everyone laughs."),
-  WAVE(FALL, "안녕!"),
+  ("높은 귤", "C", MEADOW + f"{D['C']} stands under {ORTREE}, looking up at the orange fruit, stretching up on tiptoes with one paw raised, but the fruit is far above.", "Exactly one fruit on the tree.", False,
+   "Chiqui stretches up and hops two times but cannot reach the fruit; the fruit stays on the top branch. The camera stays still."),
+  ("안 닿아!", "C", MEADOW + f"Close view of {D['C']} with a small sad face, looking up; behind, {ORTREE}.", "", True, "Chiqui sighs and looks up at the fruit. The camera stays still."),
+  ("토롱이 똑", "CT", MEADOW + f"{D['T']} stands next to {ORTREE} and gently picks the ORANGE fruit from the top branch with the mouth; {D['C']} watches, surprised and happy. Torong is MUCH TALLER than Chiqui.", "", False,
+   NEAR + "Torong picks the fruit with the mouth, then bends the long neck down and sets it gently on the grass in front of Chiqui; Torong's four feet stay on the ground. After this the tree has no fruit."),
+  ("고마워, 토롱아!", "CT", MEADOW + f"{D['C']} hugs the round ORANGE fruit with both paws and smiles up at {D['T']}; the tree behind has no fruit any more.", "", False,
+   "Chiqui hugs the fruit, smiles up and says thank you; Torong tilts the long neck and head happily with four feet on the ground. The camera stays still."),
+  CHEER(MEADOW),
+  ("영차 영차", "CR", MEADOW + f"{D['R']} and {D['C']} carry {BASKET} together, one on each side, walking to the RIGHT.", "Exactly one basket.", False,
+   "Roro and Chiqui carry the basket together a few steps to the RIGHT, saying heave-ho; no fruit falls out. The camera stays still."),
+  ("로로 고마워", "CR", MEADOW + f"{D['R']} sets {BASKET} down on the grass and hugs {D['C']}, both smiling.", "Exactly one basket.", False, "Roro hugs Chiqui and laughs; the basket stays on the grass."),
+  ("덤불 속 공", "CP", MEADOW + f"One small SKY-BLUE ball is stuck inside one low round green bush; {D['P']} looks at it, worried; {D['C']} comes closer.", "Exactly one ball.", False,
+   "Chiqui gently pushes the bush branches aside with the nose horn and the SKY-BLUE ball rolls out onto the grass toward Pio. The camera stays still."),
+  ("피오 고마워", "CP", MEADOW + f"{D['P']} holds the small SKY-BLUE ball in both wings and flaps happily next to {D['C']}; the bush is behind them.", "Exactly one ball.", False, "Pio hugs the ball and flaps the wings once, smiling at Chiqui."),
+  ("안경이 어디 갔지?", "B", MEADOW + f"{D['B']} looks around left and right, puzzled; {GLASSUP}. Grandpa Bau stands with exactly 4 legs, all four feet on the ground.", "", False,
+   "Grandpa Bau turns the head left, then right, searching; the glasses stay on top of the head the whole time; four feet stay on the ground. The camera stays still."),
+  ("다 같이 찾아요", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio search the grass for something, looking under a bush and behind a rock.", "", False, "The friends look around, puzzled. The camera stays still."),
+  ("어디 있을까?", "C", MEADOW + f"Close view of {D['C']} looking at the viewer with a curious face, one paw on the chin.", "", True, "Chiqui looks at the viewer and tilts the head, thinking."),
+  ("머리 위에!", "BCRTP", MEADOW + f"Chiqui, Roro, Torong and Pio point and laugh at {D['B']}; {GLASSUP}; Grandpa Bau looks up in surprise. Grandpa Bau has exactly 4 legs, all four feet on the ground.", "", False,
+   "Pio flies up and gently slides the glasses down from Grandpa Bau's head onto the eyes with the beak; now the glasses are on the eyes; everyone laughs. Grandpa Bau's four feet stay on the ground."),
+  BAU(MEADOW, "긴 목으로 높은 잎", "stands on the meadow with the round glasses on the eyes, smiling wisely; behind him, far away, a tall tree with high green leaves."),
+  ("다 같이 고마워", "BCRTP", MEADOW + f"All five friends sit together on the grass around {BASKET}, with the round ORANGE fruit and the small SKY-BLUE ball next to it, smiling at each other; Grandpa Bau wears the glasses on the eyes.", "", False,
+   "The friends smile and nod at each other, saying thank you; Torong tilts the neck; Grandpa Bau nods; four feet stay on the ground. The camera stays still."),
+  WAVE(MEADOW, "안녕!"),
  ]))
 
 # ---------------- 37화 구름 모양 찾기 ----------------
