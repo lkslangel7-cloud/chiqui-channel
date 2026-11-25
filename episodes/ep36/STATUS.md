@@ -10,3 +10,4 @@
 
 - (2026-11-25, 사용자: 가을이 지나서) 주제를 「알록달록 가을 낙엽!」→「고마워!」로 바꿈. 가을 낙엽 대본·프롬프트·노래 스타일은 prompts/keep_ep36_fall.py에 킵(내년 가을에 만들기). S06 좋아!·S18 안녕!은 공통 컷.
 - (2026-11-25) 그림 1차 14장 받음(한 장에 모아 나무·바구니·공·안경 비교). 합격 12장: S02 wKJ0lKk0p4A(나무 기준), S03 tptlBh-8kis, S05 dJXMfOH9adc, S07 Lxi_oFQ2QEc, S09 86JdEJ_jjXo, S10 marFwyqYj9g(zEtNBr8M4Pw 예비), S12 9wzfHhNprH0(안경 머리 위), S13 d0LXGP2QJcM, S14 qRXDwzzIAbA, S15 zhzylF8sWts, S16 IDBgSUU6z3s(안경 눈에), S17 AhpVQQEs80U. 불합격: S04 saXjOxYk5jI(귤나무가 S02·S03과 다른 가는 나무) → ORTREE를 S02 모양(굵게 휜 줄기+우산 같은 넓은 잎)으로 고정, S02를 참고 그림으로. 아직 없음: S11. 남음 S04 S11.
+- (2026-11-25) S04 eZJ7FQBlLaM 합격(S02와 같은 휜 줄기·우산 잎 나무, 토롱 입으로 귤). 합격 13장, 남음 S11.
