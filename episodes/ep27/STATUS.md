@@ -13,3 +13,4 @@
 - (2026-11-24) S18은 공통 컷(ending_meadow = 26화 그림·영상)을 쓴다. 27화 S18 그림 xBEDdF2r1pQ는 예비.
 - (2026-11-25) 영상 15개 받음(1초 간격 확인). 합격 14개: S02 4lU5UfGfkBk, S03 DRi9h7liQFg, S04 gPYJqGFptWY, S05 o2Y1J12SwEY, S06 NwgmPgAuLz0, S07 m1KPFoAOCUE(세면대 왼쪽), S09 spj3G3Dn0dM, S10 vWRKN1nJ150, S11 lDGdCAk8xWc, S13 vEQmrQ5xmBg, S14 8d2cJ5bdLAs, S15 Oioi_XbzFlc, S16 rxXYjumAv2Q, S17 RkkvthMbFuA(술래잡기 중 3~6초 토롱 머리가 화면 위로 잘림 — 편집 때 0~2초·7~10초만 쓰거나 S02 영상을 다시 써도 됨). S18은 공통 컷.
 - 불합격: S12 -qL0pzYwNyA(1초부터 안고 있던 주황 공이 사라짐) → 영상 프롬프트에 '공을 끝까지 안고 있음' 추가. 영상 15/16, 남음 S12.
+- (2026-11-25) S12 3ei1yhfIUzM 합격(공을 끝까지 안고 있음). **영상 16/16 완료** (15개 + S18 공통 컷).
