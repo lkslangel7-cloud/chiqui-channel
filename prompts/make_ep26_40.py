@@ -556,13 +556,13 @@ EPS["ep40"] = dict(
   ("토롱 흔들흔들", "T", SQUARE + f"{D['T']} sways the long neck left and right under the glowing lanterns; the PURPLE lantern is dark.", "", False, "Torong sways the neck three times; four feet on the ground."),
   ("피오 빙글빙글", "P", SQUARE + f"{D['P']} flies in one loop under the glowing lanterns; the PURPLE lantern is dark.", "", False, "Pio flies one small circle and lands."),
   ("치키 노래", "C", SQUARE + f"{D['C']} sings happily with arms open under the glowing lanterns; the PURPLE lantern is dark.", "", False, "Chiqui sings and sways."),
-  ("보라 등불은?", "CRTP", SQUARE + f"Chiqui, Roro, Torong and Pio look up at the dark PURPLE lantern at the far right of {LANT}; the other four glow.", "", False, "They look up and tilt their heads."),
+  ("보라 등불은?", "CRTP", SQUARE + f"Chiqui, Roro, Torong and Pio tilt their heads back and look UP (faces turned up, not at the viewer), pointing at the dark PURPLE lantern at the far right of {LANT}; the other four glow.", "", False, "They look up and tilt their heads."),
   ("왜 깜깜할까?", "C", SQUARE + f"Close view of {D['C']} looking at the viewer, curious, warm lantern glow on the face.", "", True, "Chiqui looks at the viewer and tilts the head."),
   ("하나 둘 셋!", "BCRTP", SQUARE + f"All five friends call out together under {LANT}; now the PURPLE lantern glows too, all five glow.", "", False,
    "They call out; the purple lantern lights up and glows; everyone cheers."),
-  BAU(SQUARE, "함께 모여 살았단다", f"stands under {LANT}, all five glowing, smiling wisely."),
-  ("다 같이 춤", "BCRTP", SQUARE + f"All five friends dance together under {LANT}, all glowing.", "", False, "Everyone dances; Torong sways the neck; Grandpa Bau's four feet stay on the ground."),
-  WAVE(SQUARE, "치키치키 출발!", f" under {LANT}, all glowing"),
+  BAU(SQUARE, "함께 모여 살았단다", f"stands under {LANT}; ALL FIVE lanterns are LIT and glow brightly from inside, including the PURPLE one on the far right, which glows just as brightly as the other four (a bright glowing purple, not dark); Grandpa Bau smiles wisely."),
+  ("다 같이 춤", "BCRTP", SQUARE + f"All five friends dance together under {LANT}; ALL FIVE lanterns are LIT and glow brightly from inside, including the PURPLE one on the far right, which glows just as brightly as the other four (a bright glowing purple, not dark).", "", False, "Everyone dances; Torong sways the neck; Grandpa Bau's four feet stay on the ground."),
+  WAVE(SQUARE, "치키치키 출발!", f" under {LANT}; ALL FIVE lanterns are LIT and glow brightly from inside, including the PURPLE one on the far right, which glows just as brightly as the other four (a bright glowing purple, not dark)"),
  ]))
 
 for ep, e in EPS.items():
