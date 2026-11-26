@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude-code-remote__add_repo",
+      "mcp__claude-code-remote__register_repo_root",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git -c:*)",
+      "Bash(git push:*)",
+      "Bash(git fetch:*)",
+      "Bash(git rebase:*)",
+      "Bash(git pull:*)",
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)"
+    ]
+  }
+}
