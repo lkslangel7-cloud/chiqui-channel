@@ -8,3 +8,4 @@
 | 노래 | 아직 (Suno 65~70초) |
 | 음성 | 아직 |
 - (2026-11-25) 그림 16장 받음(한 장에 모아 모자·의자·방 비교) — 모두 합격: S02 c1hTY6XGXlg(모자 5개 기준), S03 QFpmNzOcZuY, S04 ZGOLNJzpaik, S05 FP11yXFG1ME, S06 lpZ_Q9CxMx4, S07 1X5N3P0FzCY, S09 -8m8oglFdWY, S10 dJQTdfqt_oE, S11 QU4xVwaiEbM, S12 oJzOBxFGBw0, S13 xZHrUx2BEbg, S14 GInynE9JO04(바우 작은 주황 모자·치키 보라), S15 TVE9pM7i8TM(바꿔 씀), S16 Sp72rVxx1Bo, S17 HxG_WwJKYG8, S18 XqP-hnlaqao(모자 쓴 인사, 바우 꼬리). 작은 차이: S04 가까이 찍어 방 모양이 조금 다름, S09 의자 위 모자가 비어 있음. **그림 16/16 완료.**
+- (2026-11-26, 사용자: S06 보라 모자가 너무 큼) S06 lpZ_Q9CxMx4 합격 취소(web_old) — 보라 모자가 치키 몸만 해서 S02·S11·S13·S14·S15의 같은 모자보다 1.5~2배 큼. S06 그림 프롬프트에 '같은 모자, 치키 머리보다 조금만 큼(프릴 너비, 키의 1/3), 몸만큼 크지 않음' 추가. S13 xZHrUx2BEbg를 참고 그림으로 넣어 다시. 그림 15/16, 남음 S06.

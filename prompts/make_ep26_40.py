@@ -331,7 +331,7 @@ EPS["ep34"] = dict(
   BAU(HOME, "모자 쓰고 나가자", f"stands on all four feet next to {BENCH}, smiling."),
   ("나 혼자 할래!", "C", HOME + f"Close view of {D['C']} with a proud determined face, one paw on the chest.", "", True, "Chiqui nods proudly."),
   ("좋아!", "CRTP", HOME + f"Chiqui, Roro, Torong and Pio gather happily near {BENCH}.", "", False, "The friends bounce once, happy."),
-  ("큰 모자 꼬옥", "C", HOME + f"{D['C']} hugs the big PURPLE pompom hat happily, not noticing it is too big.", "", False, "Chiqui hugs the purple hat and smiles."),
+  ("큰 모자 꼬옥", "C", HOME + f"{D['C']} hugs Grandpa Bau's PURPLE pompom hat happily, not noticing it is too big for Chiqui. SIZE RULE for the hat: it is the SAME hat as in the other scenes, only a little bigger than Chiqui's head (about as wide as Chiqui's frill, and its height about one third of Chiqui's height); it is NOT as big as Chiqui's body. Chiqui holds it in both arms in front of the chest. Use the reference image only for the hat's size, shape and color (purple knit with a cream pompom).", "", False, "Chiqui hugs the purple hat and smiles."),
   ("로로 쏙", "R", HOME + f"{D['R']} puts the YELLOW pompom hat on the head by itself.", "", False, "Roro pulls the yellow hat on and claps; the hat stays on."),
   ("토롱 쏙", "T", HOME + f"{D['T']} bends the neck down and pushes the head into the GREEN pompom hat lying on the bench right in front of the mouth; the hat ends up on Torong's head.", "", False, NEAR + "Torong pushes the head into the hat and lifts the head; the green hat stays on."),
   ("피오 쏙", "P", HOME + f"{D['P']} puts the tiny SKY-BLUE pompom hat on the head with one wing.", "", False, "Pio tugs the hat on and flaps once; it stays on."),
