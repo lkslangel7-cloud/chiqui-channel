@@ -452,7 +452,12 @@ EPS["ep37"] = dict(
   ("구름 좀 봐!", "", SKYM + "Big fluffy white clouds drift in the blue sky. No characters.", "", False, "Clouds drift slowly; nothing else moves."),
   ("누워서 봐요", "C", SKYM + f"{D['C']} lies on the back on the grass, looking up at the sky with a big smile.", "", False, "Chiqui points up and kicks the feet happily."),
   ("다 같이 누워요", "CRTP", SKYM + "Chiqui, Roro and Pio lie on their backs on the grass; Torong lies on the belly with legs folded under and the long neck up; all look at the sky.", "", False, "They look up and smile; nobody gets up."),
-  BAU(SKYM, "할아버지도", "sits on the grass nearby looking up at the clouds, smiling.", " Grandpa Bau stays small in the middle distance of the frame exactly as in the start image, the whole body and the sky visible the whole time; never a face close-up." + STARTV),
+  # (2026-11-26) S05 Seedance 2번 모두 바우가 크게 정면으로 시작 → 시작 그림 모습을 맨 앞에 숫자로 적음
+  ("할아버지도", "B", SKYM + f"{D['B']} sits on the grass nearby looking up at the clouds, smiling.", "", False,
+   "START EXACTLY FROM THE START IMAGE: a wide shot of the village meadow; Grandpa Bau is SMALL, about one quarter of the frame height, standing on the grass left of center, his body seen from the SIDE facing right, head tilted UP looking at the clouds in the sky. "
+   "Motion (5 seconds): Grandpa Bau keeps looking up at the sky, slowly nods the head once and smiles; that is all. "
+   "Grandpa Bau stays in the SAME spot, the SAME small size and the SAME side view the whole time: he does NOT turn toward the camera, does NOT walk, does NOT come closer; exactly 4 legs, all four feet on the ground. "
+   "The camera is locked: no zoom in, no zoom out, no pan, no reframing, no cut; the whole meadow, volcano, rainbow and sky stay visible."),
   ("동그란 구름", "", SKYM + "One big round egg-shaped white cloud in the blue sky. No characters.", "Exactly one egg-shaped cloud in focus.", True, "The cloud drifts slowly."),
   ("손가락으로 콕", "C", SKYM + f"{D['C']} lying on the grass points up at the sky.", "", False, "Chiqui stays lying on the back on the grass and points up two times and giggles; the same village background (houses, palm trees, volcano, rainbow) as the start image stays the whole time; no dust, no smoke." + STARTV),
   ("공룡알 같아", "R", SKYM + f"{D['R']} lying on the grass points at one big round egg-shaped cloud.", "", False, "Roro points and laughs."),
