@@ -12,3 +12,12 @@ episodes/ep37/images/web/S14_90fb5b46-1836-49cb-8244-d4832d159c78.png https://d8
 episodes/ep37/images/web/S16_4503b604-5c1f-4978-a971-aa615eee8dbf.png https://d8j0ntlcm91z4.cloudfront.net/user_3L842uNPrPQ7ibxfv71IH00fQS9/hf_20261126_125917_4503b604-5c1f-4978-a971-aa615eee8dbf.png
 episodes/ep37/images/web/S17_f738757d-fcf2-4266-b210-311be0a2d0a1.png https://d8j0ntlcm91z4.cloudfront.net/user_3L842uNPrPQ7ibxfv71IH00fQS9/hf_20261126_125948_f738757d-fcf2-4266-b210-311be0a2d0a1.png
 episodes/ep37/images/web/S18_cf9e98b9-a83f-467c-8f10-025e681370d6.png https://d8j0ntlcm91z4.cloudfront.net/user_3L842uNPrPQ7ibxfv71IH00fQS9/hf_20261126_130004_cf9e98b9-a83f-467c-8f10-025e681370d6.png
+episodes/ep38/images/web/S02_5833698d-d175-41a1-b5be-ffdd0e4bd368.png https://d8j0ntlcm91z4.cloudfront.net/user_3L842uNPrPQ7ibxfv71IH00fQS9/hf_20261126_131311_5833698d-d175-41a1-b5be-ffdd0e4bd368.png
+episodes/ep38/images/web/S03_aa77b924-9359-4d6f-b098-7adae5f9bd74.png https://d8j0ntlcm91z4.cloudfront.net/user_3L842uNPrPQ7ibxfv71IH00fQS9/hf_20261126_131316_aa77b924-9359-4d6f-b098-7adae5f9bd74.png
+episodes/ep38/images/web/S04_890691c7-1ad8-4de9-8cca-1fd608a8ef1b.png https://d8j0ntlcm91z4.cloudfront.net/user_3L842uNPrPQ7ibxfv71IH00fQS9/hf_20261126_131342_890691c7-1ad8-4de9-8cca-1fd608a8ef1b.png
+episodes/ep38/images/web/S05_117d1fe4-49d0-4993-b3b3-0d1f0a640361.png https://d8j0ntlcm91z4.cloudfront.net/user_3L842uNPrPQ7ibxfv71IH00fQS9/hf_20261126_131411_117d1fe4-49d0-4993-b3b3-0d1f0a640361.png
+episodes/ep38/images/web/S06_3c060b41-110e-4241-8da9-656e98158ba9.png https://d8j0ntlcm91z4.cloudfront.net/user_3L842uNPrPQ7ibxfv71IH00fQS9/hf_20261126_131415_3c060b41-110e-4241-8da9-656e98158ba9.png
+episodes/ep38/images/web/S07_1725aff0-f601-4499-9d5e-96ff0df2b9ba.png https://d8j0ntlcm91z4.cloudfront.net/user_3L842uNPrPQ7ibxfv71IH00fQS9/hf_20261126_131453_1725aff0-f601-4499-9d5e-96ff0df2b9ba.png
+episodes/ep38/images/web/S09_9b3439c1-65ff-4bf7-8798-3b0ea6090343.png https://d8j0ntlcm91z4.cloudfront.net/user_3L842uNPrPQ7ibxfv71IH00fQS9/hf_20261126_131500_9b3439c1-65ff-4bf7-8798-3b0ea6090343.png
+episodes/ep38/images/web/S12_3b9339d4-b06c-4e58-9627-276d63a9c141.png https://d8j0ntlcm91z4.cloudfront.net/user_3L842uNPrPQ7ibxfv71IH00fQS9/hf_20261126_131600_3b9339d4-b06c-4e58-9627-276d63a9c141.png
+episodes/ep38/images/web/S14_b1ef1536-d6f8-4d0e-a339-19e66d0bd164.png https://d8j0ntlcm91z4.cloudfront.net/user_3L842uNPrPQ7ibxfv71IH00fQS9/hf_20261126_131632_b1ef1536-d6f8-4d0e-a339-19e66d0bd164.png
