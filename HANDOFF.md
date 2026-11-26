@@ -2,6 +2,16 @@
 
 새 대화의 Claude는 이 파일과 CLAUDE.md를 먼저 읽고 이어서 한다. 규칙은 모두 CLAUDE.md에 있다.
 
+## 새 컨테이너에서 가장 먼저 (중요)
+
+합격 그림·영상(약 6GB)과 `output/*.mp4`는 용량 때문에 git에 없다. 새 대화는 빈 컨테이너에서 시작하므로:
+
+1. 합격 그림·영상: `python3 -I tools/restore_media.py` (전부) 또는 `python3 -I tools/restore_media.py ep32 ep33`(필요한 화만)
+   - `tools/media_manifest.txt`(1052개)의 파일 이름 끝 11글자가 공유 코드라서 Higgsfield에서 같은 파일을 다시 받는다(테스트에서 바이트까지 동일).
+   - 로컬로 고친 파일(`_fix`·`_bright`·`_local_zoom`, ep24 S04·S07 그림)은 git에 들어 있다.
+   - 새로 합격시키면 manifest에 한 줄 추가한다: `ls episodes/*/images/web/* episodes/*/clips/web/* > tools/media_manifest.txt`
+2. 완성 영상(9~12화 hq.mp4)은 클립을 받은 뒤 다시 조립하거나, 완성 영상 페이지에서 내려받는다.
+
 ## 페이지 (아티팩트, 같은 URL에 계속 다시 올림)
 
 - 완성 영상 + 진행 현황 탭: https://claude.ai/artifact/VrXoeRAAETxzuRQbFUxKJ6
