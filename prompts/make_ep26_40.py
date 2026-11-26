@@ -470,7 +470,12 @@ EPS["ep37"] = dict(
   ("뿔 세 개 구름", "RTP", SKYM + "Roro, Torong and Pio point up at one white cloud that has three little horn-shaped bumps and a round frill shape, like Chiqui's head.", "", False, "They point and gasp."),
   ("누구 같을까?", "C", SKYM + f"Close view of {D['C']} lying on the grass, looking at the viewer, curious.", "", True, "Chiqui looks at the viewer and tilts the head once, then waits; the framing stays exactly as wide as the start image." + STARTV),
   ("치키 구름!", "CRTP", SKYM + "Chiqui laughs and points up at THE SAME cloud as in the reference image: one white cloud with THREE little horn-shaped bumps on top and a round frill shape, exactly like Chiqui's head (not a plain round cloud); Roro, Torong and Pio cheer. Use the reference image only for this cloud's shape.", "", False, "Everyone laughs and cheers."),
-  BAU(SKYM, "구름이 비를 내려", "sits on the grass looking up at a soft grey rain cloud far away over green forests, smiling wisely.", " Grandpa Bau stays small in the frame exactly as in the start image, the far rain cloud and forests visible the whole time; never a close-up." + STARTV),
+  # (2026-11-26) S16 Seedance 2번 모두 바우를 크게 확대해 시작 → S05처럼 시작 그림 모습을 맨 앞에 숫자로
+  ("구름이 비를 내려", "B", SKYM + f"{D['B']} sits on the grass looking up at a soft grey rain cloud far away over green forests, smiling wisely.", "", False,
+   "START EXACTLY FROM THE START IMAGE: a wide shot of the hill; Grandpa Bau is SMALL, about one third of the frame height, sitting on the grass left of center; the volcano and rainbow are on the upper left, a small grey rain cloud with light rain is far away on the upper right over the green forests and river. "
+   "Motion (5 seconds): Grandpa Bau turns the head a little toward the far rain cloud, nods once and smiles; that is all. The light rain keeps falling only under the far grey cloud. "
+   "Grandpa Bau stays in the SAME spot and the SAME small size the whole time: he does NOT come closer and does NOT get bigger; exactly 4 legs, all four feet on the ground. "
+   "The camera is locked: no zoom in, no zoom out, no pan, no reframing, no cut; the whole hill, volcano, rainbow, forests, river and the far rain cloud stay visible."),
   ("해 질 녘 하늘", "CRTP", SKYM.replace("bright blue sky", "soft pink sunset sky") + "Chiqui, Roro, Torong and Pio sit together on the hill watching pink clouds.", "", False, "They sway gently, happy."),
   # (2026-11-26, 사용자) S17이 노을인데 S18이 파란 하늘이라 어색함 → S18도 같은 노을 하늘 (S17을 참고 그림으로)
   WAVE(SKYM.replace("bright blue sky", "soft pink sunset sky") + "SAME soft pink sunset sky, same warm golden evening light and same hill as the reference image (the previous scene); NOT a blue daytime sky. ", "안녕!"),
