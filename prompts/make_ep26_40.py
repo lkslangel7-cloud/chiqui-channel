@@ -329,7 +329,7 @@ EPS["ep34"] = dict(
  scenes=scenes([
   ("모자가 가득", "", HOME + f"Close view of {BENCH}. No characters.", "Exactly five hats.", True, "Nothing moves."),
   BAU(HOME, "모자 쓰고 나가자", f"stands on all four feet next to {BENCH}, smiling."),
-  ("나 혼자 할래!", "C", HOME + f"Close view of {D['C']} with a proud determined face, one paw on the chest.", "", True, "Chiqui nods proudly."),
+  ("나 혼자 할래!", "C", HOME + f"Close view of {D['C']} with a proud determined face, one paw on the chest.", "", True, "Chiqui keeps the proud, determined big smile from the start image the whole time and nods once firmly. Wide shot exactly like the start image, no zoom and no close-up; Chiqui's full body stays visible."),
   ("좋아!", "CRTP", HOME + f"Chiqui, Roro, Torong and Pio gather happily near {BENCH}.", "", False, "The friends bounce once, happy."),
   ("큰 모자 꼬옥", "C", HOME + f"{D['C']} hugs Grandpa Bau's PURPLE pompom hat happily, not noticing it is too big for Chiqui. SIZE RULE for the hat: it is the SAME hat as in the reference image, exactly that size: a little WIDER than Chiqui's whole frill (big enough to slide down over Chiqui's eyes), and its height about HALF of Chiqui's height; it is clearly too big for Chiqui but NOT as big as Chiqui's body. Chiqui holds it in both arms in front of the chest. SAME ROOM as the reference image: green arched door on the left, round wooden window in the middle, wooden shelves, and the round GREEN rug on the floor. Use the reference image for the room and for the hat's size, shape and color (purple knit with a cream pompom).", "", False, "Chiqui hugs the purple hat and smiles."),
   ("로로 쏙", "R", HOME + f"{D['R']} puts the YELLOW pompom hat on the head by itself.", "", False, "Roro pulls the yellow hat on and claps; the hat stays on."),
@@ -341,7 +341,7 @@ EPS["ep34"] = dict(
   ("바꿔 써요", "BC", HOME + "Grandpa Bau wears the small ORANGE pompom hat perched on top of the head; Chiqui wears the big PURPLE hat; they laugh.", "", False, "They laugh; Grandpa Bau's four feet stay on the floor."),
   ("딱 맞아!", "BC", HOME + "Now Chiqui wears the small ORANGE pompom hat and Grandpa Bau wears the big PURPLE pompom hat; both smile.", "", False, "Both nod happily; the hats stay on."),
   BAU(HOME, "혼자 걸었단다", "wears the big PURPLE pompom hat and smiles wisely."),
-  ("밖으로!", "CRTP", MEADOW + "Chiqui in an ORANGE hat, Roro in a YELLOW hat, Torong in a GREEN hat and Pio in a SKY-BLUE hat walk out onto the meadow.", "", False, "They walk a few steps to the LEFT, happy."),
+  ("밖으로!", "CRTP", MEADOW + "Chiqui in an ORANGE hat, Roro in a YELLOW hat, Torong in a GREEN hat and Pio in a SKY-BLUE hat walk out onto the meadow.", "", False, "The first frame is exactly the start image: all four friends are already in the frame from the very first second (nobody walks in from the edge). They take a few small happy steps to the LEFT and all four stay fully inside the frame to the end; nobody leaves the frame."),
   WAVE(MEADOW, "안녕!", ", each wearing a pompom hat in their own body color (Grandpa Bau PURPLE)"),
  ]))
 

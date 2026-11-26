@@ -10,7 +10,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Nothing moves. No characters, animals or creatures appear at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Nothing moves. The camera stays completely still: no zoom, no pan, no push-in; the whole bench and all five hats (orange, yellow, green, sky-blue, purple) stay fully visible from the first frame to the last. No characters, animals or creatures appear at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S03 모자 쓰고 나가자 (0:30–0:35)
@@ -32,7 +32,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-Chiqui nods proudly. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui keeps the proud, determined big smile from the start image the whole time and nods once firmly. Wide shot exactly like the start image, no zoom and no close-up; Chiqui's full body stays visible. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S05 좋아! (0:40–0:45)
@@ -164,7 +164,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-They walk a few steps to the LEFT, happy. ONLY these 4 characters are in this scene: Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. Torong keeps exactly four legs with all four feet on the ground the whole time; Torong never lifts or waves a front leg and never grows an extra leg; to wave, Torong sways the long neck and head gently. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+The first frame is exactly the start image: all four friends are already in the frame from the very first second (nobody walks in from the edge). They take a few small happy steps to the LEFT and all four stay fully inside the frame to the end; nobody leaves the frame. ONLY these 4 characters are in this scene: Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. Torong keeps exactly four legs with all four feet on the ground the whole time; Torong never lifts or waves a front leg and never grows an extra leg; to wave, Torong sways the long neck and head gently. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S18 안녕! (2:30–2:40)
