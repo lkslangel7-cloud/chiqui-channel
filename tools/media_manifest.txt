@@ -1162,6 +1162,7 @@ episodes/ep39/images/web/S03_4OydImM0IF0.png
 episodes/ep39/images/web/S04_K9J2tZhmpfg.png
 episodes/ep39/images/web/S05_NI82yJeqZok.png
 episodes/ep39/images/web/S06_irxUj9cgoM0.png
+episodes/ep39/images/web/S07_Q6ChzcPeqv8.png
 episodes/ep39/images/web/S09_yeF1quBsqNY.png
 episodes/ep39/images/web/S10_-fKTgfBP4xc.png
 episodes/ep39/images/web/S11_Pu9Re8MuLt0.png
