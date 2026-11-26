@@ -43,7 +43,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-Grandpa Bau nods once and smiles warmly; all four feet stay on the ground. The camera stays still. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Grandpa Bau nods once and smiles warmly; all four feet stay on the ground. The camera stays still. Grandpa Bau stays small in the middle distance of the frame exactly as in the start image, the whole body and the sky visible the whole time; never a face close-up. The first frame is exactly the start image (same framing, same distance, same background); the camera stays still: no zoom in, no zoom out, no pan, no cut to a close-up. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S06 동그란 구름 (0:45–0:50)
@@ -65,7 +65,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-Chiqui points up two times and giggles. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui stays lying on the back on the grass and points up two times and giggles; the same village background (houses, palm trees, volcano, rainbow) as the start image stays the whole time; no dust, no smoke. The first frame is exactly the start image (same framing, same distance, same background); the camera stays still: no zoom in, no zoom out, no pan, no cut to a close-up. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S09 공룡알 같아 (1:05–1:15)
@@ -87,7 +87,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Torong lifts the head a little and smiles; legs stay folded. The camera stays still. Torong is the only creature in the frame. ONLY Torong is in this scene from start to end; no other character, animal or creature appears at any time. Torong keeps exactly four legs with all four feet on the ground the whole time; Torong never lifts or waves a front leg and never grows an extra leg; to wave, Torong sways the long neck and head gently. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Torong keeps the long neck UP and the head clearly visible the whole time, looking up at the long neck cloud; Torong only nods the head a little and smiles; Torong never lowers or hides the head, never puts the head on the ground; legs stay folded. The first frame is exactly the start image (same framing, same distance, same background); the camera stays still: no zoom in, no zoom out, no pan, no cut to a close-up. The camera stays still. Torong is the only creature in the frame. ONLY Torong is in this scene from start to end; no other character, animal or creature appears at any time. Torong keeps exactly four legs with all four feet on the ground the whole time; Torong never lifts or waves a front leg and never grows an extra leg; to wave, Torong sways the long neck and head gently. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S11 하트다! (1:25–1:35)
@@ -131,7 +131,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-Chiqui looks at the viewer and tilts the head. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Chiqui looks at the viewer and tilts the head once, then waits; the framing stays exactly as wide as the start image. The first frame is exactly the start image (same framing, same distance, same background); the camera stays still: no zoom in, no zoom out, no pan, no cut to a close-up. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S15 치키 구름! (2:00–2:10)
@@ -153,7 +153,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Grandpa Bau nods once and smiles warmly; all four feet stay on the ground. The camera stays still. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Grandpa Bau nods once and smiles warmly; all four feet stay on the ground. The camera stays still. Grandpa Bau stays small in the frame exactly as in the start image, the far rain cloud and forests visible the whole time; never a close-up. The first frame is exactly the start image (same framing, same distance, same background); the camera stays still: no zoom in, no zoom out, no pan, no cut to a close-up. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S17 해 질 녘 하늘 (2:20–2:30)

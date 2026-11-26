@@ -28,8 +28,12 @@ def WAVE(where, name, extra=""):
             "Chiqui, Roro and Pio wave at the viewer; Grandpa Bau nods and wags the tail club with all four feet staying on the ground (exactly 4 legs); Torong sways the long neck side to side with all four feet on the ground. The camera stays still.")
 
 
-def BAU(where, name, pose):
-    return (name, "B", where + f"{D['B']} {pose}", "", False, "Grandpa Bau nods once and smiles warmly; all four feet stay on the ground. The camera stays still.")
+def BAU(where, name, pose, vextra=""):
+    return (name, "B", where + f"{D['B']} {pose}", "", False, "Grandpa Bau nods once and smiles warmly; all four feet stay on the ground. The camera stays still." + vextra)
+
+
+# (2026-11-26, 37화 영상) 시작 그림과 다르게 확대·다른 구도로 시작한 영상이 5개 → 영상 프롬프트에 붙인다
+STARTV = " The first frame is exactly the start image (same framing, same distance, same background); the camera stays still: no zoom in, no zoom out, no pan, no cut to a close-up."
 
 
 EPS = {}
@@ -448,17 +452,17 @@ EPS["ep37"] = dict(
   ("구름 좀 봐!", "", SKYM + "Big fluffy white clouds drift in the blue sky. No characters.", "", False, "Clouds drift slowly; nothing else moves."),
   ("누워서 봐요", "C", SKYM + f"{D['C']} lies on the back on the grass, looking up at the sky with a big smile.", "", False, "Chiqui points up and kicks the feet happily."),
   ("다 같이 누워요", "CRTP", SKYM + "Chiqui, Roro and Pio lie on their backs on the grass; Torong lies on the belly with legs folded under and the long neck up; all look at the sky.", "", False, "They look up and smile; nobody gets up."),
-  BAU(SKYM, "할아버지도", "sits on the grass nearby looking up at the clouds, smiling."),
+  BAU(SKYM, "할아버지도", "sits on the grass nearby looking up at the clouds, smiling.", " Grandpa Bau stays small in the middle distance of the frame exactly as in the start image, the whole body and the sky visible the whole time; never a face close-up." + STARTV),
   ("동그란 구름", "", SKYM + "One big round egg-shaped white cloud in the blue sky. No characters.", "Exactly one egg-shaped cloud in focus.", True, "The cloud drifts slowly."),
-  ("손가락으로 콕", "C", SKYM + f"{D['C']} lying on the grass points up at the sky.", "", False, "Chiqui points up two times and giggles."),
+  ("손가락으로 콕", "C", SKYM + f"{D['C']} lying on the grass points up at the sky.", "", False, "Chiqui stays lying on the back on the grass and points up two times and giggles; the same village background (houses, palm trees, volcano, rainbow) as the start image stays the whole time; no dust, no smoke." + STARTV),
   ("공룡알 같아", "R", SKYM + f"{D['R']} lying on the grass points at one big round egg-shaped cloud.", "", False, "Roro points and laughs."),
-  ("내 목 같아", "T", SKYM + f"{D['T']} lies on the belly on the grass, looking up at one long thin curved cloud shaped like a long neck.", "", False, "Torong lifts the head a little and smiles; legs stay folded."),
+  ("내 목 같아", "T", SKYM + f"{D['T']} lies on the belly on the grass, looking up at one long thin curved cloud shaped like a long neck.", "", False, "Torong keeps the long neck UP and the head clearly visible the whole time, looking up at the long neck cloud; Torong only nods the head a little and smiles; Torong never lowers or hides the head, never puts the head on the ground; legs stay folded." + STARTV),
   ("하트다!", "P", SKYM + f"{D['P']} flies up near one heart-shaped white cloud.", "", False, "Pio circles once near the heart cloud and flaps happily."),
   ("하늘 구경", "CRTP", SKYM + "Chiqui, Roro and Pio lie on their BACKS on the grass and Torong lies on the belly with the legs folded under and the long neck up, side by side; ALL FOUR look UP at the white clouds in the sky (faces turned up to the sky, NOT looking at the viewer); nobody stands.", "", False, "Clouds drift; the friends smile."),
   ("뿔 세 개 구름", "RTP", SKYM + "Roro, Torong and Pio point up at one white cloud that has three little horn-shaped bumps and a round frill shape, like Chiqui's head.", "", False, "They point and gasp."),
-  ("누구 같을까?", "C", SKYM + f"Close view of {D['C']} lying on the grass, looking at the viewer, curious.", "", True, "Chiqui looks at the viewer and tilts the head."),
+  ("누구 같을까?", "C", SKYM + f"Close view of {D['C']} lying on the grass, looking at the viewer, curious.", "", True, "Chiqui looks at the viewer and tilts the head once, then waits; the framing stays exactly as wide as the start image." + STARTV),
   ("치키 구름!", "CRTP", SKYM + "Chiqui laughs and points up at THE SAME cloud as in the reference image: one white cloud with THREE little horn-shaped bumps on top and a round frill shape, exactly like Chiqui's head (not a plain round cloud); Roro, Torong and Pio cheer. Use the reference image only for this cloud's shape.", "", False, "Everyone laughs and cheers."),
-  BAU(SKYM, "구름이 비를 내려", "sits on the grass looking up at a soft grey rain cloud far away over green forests, smiling wisely."),
+  BAU(SKYM, "구름이 비를 내려", "sits on the grass looking up at a soft grey rain cloud far away over green forests, smiling wisely.", " Grandpa Bau stays small in the frame exactly as in the start image, the far rain cloud and forests visible the whole time; never a close-up." + STARTV),
   ("해 질 녘 하늘", "CRTP", SKYM.replace("bright blue sky", "soft pink sunset sky") + "Chiqui, Roro, Torong and Pio sit together on the hill watching pink clouds.", "", False, "They sway gently, happy."),
   # (2026-11-26, 사용자) S17이 노을인데 S18이 파란 하늘이라 어색함 → S18도 같은 노을 하늘 (S17을 참고 그림으로)
   WAVE(SKYM.replace("bright blue sky", "soft pink sunset sky") + "SAME soft pink sunset sky, same warm golden evening light and same hill as the reference image (the previous scene); NOT a blue daytime sky. ", "안녕!"),
