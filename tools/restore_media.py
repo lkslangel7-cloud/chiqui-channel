@@ -4,6 +4,8 @@
 import re, subprocess, sys, html, os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 want = sys.argv[1:]
+URLS = dict(l.split(" ", 1) for l in open(os.path.join(ROOT, "tools/media_urls.txt"), encoding="utf-8").read().split("\n") if " " in l) if os.path.exists(os.path.join(ROOT, "tools/media_urls.txt")) else {}
+URLS = {k: v.strip() for k, v in URLS.items()}
 for line in open(os.path.join(ROOT, "tools/media_manifest.txt"), encoding="utf-8"):
     rel = line.strip()
     if not rel or (want and rel.split("/")[1] not in want): continue
@@ -12,6 +14,9 @@ for line in open(os.path.join(ROOT, "tools/media_manifest.txt"), encoding="utf-8
     stem, ext = os.path.splitext(os.path.basename(rel)); ext = ext[1:]
     if re.search(r"(_fix|_bright|_local_zoom|_bad|_backup|old_teal)$|^(both|sheet_\d)$", stem):
         print("건너뜀(git에 있거나 안 쓰는 파일)", rel); continue
+    if rel in URLS:  # 생성 기록에서 바로 가져온 파일(공유 링크 없음): 저장해 둔 주소로 받는다
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        r = subprocess.run(["curl", "-sSf", "-m", "180", "-o", dst, URLS[rel]]); print("받음" if r.returncode == 0 else "실패", rel); continue
     code = stem[-11:]
     page = subprocess.run(["curl", "-sSL", "-m", "40", f"https://higgsfield.ai/s/{code}"], capture_output=True, text=True).stdout
     if ext == "mp4":
