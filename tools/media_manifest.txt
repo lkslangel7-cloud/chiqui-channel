@@ -1126,6 +1126,17 @@ episodes/ep36/images/web/S14_qRXDwzzIAbA.png
 episodes/ep36/images/web/S15_zhzylF8sWts.png
 episodes/ep36/images/web/S16_IDBgSUU6z3s.png
 episodes/ep36/images/web/S17_AhpVQQEs80U.png
+episodes/ep37/clips/web/S02_TtFeRu0OHfU.mp4
+episodes/ep37/clips/web/S03_Wou4W43Zbi8.mp4
+episodes/ep37/clips/web/S04_MxLwaEN1pXE.mp4
+episodes/ep37/clips/web/S06_qSu0GKZGp94.mp4
+episodes/ep37/clips/web/S09_j9p8uXNHXgU.mp4
+episodes/ep37/clips/web/S11_mCkZ85ZkWcg.mp4
+episodes/ep37/clips/web/S12_Z_u4rAQZ5QI.mp4
+episodes/ep37/clips/web/S13_XRFsYTsOoks.mp4
+episodes/ep37/clips/web/S15_HNNfBl5d0Zg.mp4
+episodes/ep37/clips/web/S17_SSiAg-bwa9s.mp4
+episodes/ep37/clips/web/S18_zBmLpVf38DI.mp4
 episodes/ep37/images/web/S02_a2d8148e-edc8-4fe7-a2e5-18f9c7f2aa0a.png
 episodes/ep37/images/web/S03_ff79a306-b73b-4c8a-b90e-47149954c495.png
 episodes/ep37/images/web/S04_ac6cf826-7360-41e8-97d4-c4f88ba11f81.png
@@ -1141,6 +1152,7 @@ episodes/ep37/images/web/S14_90fb5b46-1836-49cb-8244-d4832d159c78.png
 episodes/ep37/images/web/S15_l-h3C8hV96A.png
 episodes/ep37/images/web/S16_4503b604-5c1f-4978-a971-aa615eee8dbf.png
 episodes/ep37/images/web/S17_f738757d-fcf2-4266-b210-311be0a2d0a1.png
+episodes/ep37/images/web/S18_BqHiVbsQUrg.png
 episodes/ep38/images/web/S02_5833698d-d175-41a1-b5be-ffdd0e4bd368.png
 episodes/ep38/images/web/S03_aa77b924-9359-4d6f-b098-7adae5f9bd74.png
 episodes/ep38/images/web/S04_890691c7-1ad8-4de9-8cca-1fd608a8ef1b.png
