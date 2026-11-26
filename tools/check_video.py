@@ -52,6 +52,28 @@ def accept(ep, sid, code, note):
     if note:
         with open(E / "STATUS.md", "a", encoding="utf-8") as fh: fh.write(note.rstrip() + "\n")
     print("저장:", dst)
+    # 장면 페이지 다시 만들기 (제목은 기존 페이지 <title>에서)
+    import re, json
+    t = re.search(r"<title>([^<]+)</title>", (E / "scene_prompts_page.html").read_text(encoding="utf-8"))
+    title = t.group(1).replace(" 장면", "").strip() if t else ep
+    subprocess.run([sys.executable, "-I", str(ROOT / "prompts/build_scene_page.py"), str(E), title])
+    # 진행 현황 줄: 영상 수 세어 고치기
+    n_ep = len(sc)
+    done = [s for s in sc.values() if (glob.glob(str(ROOT / f"episodes/common/clips/web/{s['common']}_*.mp4")) if s.get("common") else glob.glob(str(E / f"clips/web/{s['id']}_*.mp4")))]
+    left = [s["id"] for s in sc.values() if s not in done]
+    page = Path(os.environ.get("VIDEOPAGE", "/tmp/claude-0/-home-user/d5207752-7fbe-54fd-9ea4-b464b28155b6/scratchpad/videopage/index.html"))
+    if page.exists():
+        s = page.read_text(encoding="utf-8"); no = int(ep[2:])
+        m = re.search(r'<li class="pr s\d"><div class="pr-h"><span class="pn">%d화</span>.*?</li>' % no, s)
+        if m:
+            li = m.group(0); k = len(done); pct = round(100 * k / n_ep)
+            new = re.sub(r'(<span class="lb">영상</span><span class="bar" role="img" aria-label=")\d+/\d+("><i style="width:)\d+(%"></i></span><span class="num">)\d+/\d+',
+                         lambda mm: f"{mm.group(1)}{k}/{n_ep}{mm.group(2)}{pct}{mm.group(3)}{k}/{n_ep}", li)
+            nx = ("다음: 영상 다시 " + " ".join(left)) if left else "다음: 노래 받기"
+            new = re.sub(r'<p class="nx">[^<]*</p>', f'<p class="nx">{nx}</p>', new)
+            if not left: new = new.replace('class="pr s2"', 'class="pr s3"')
+            page.write_text(s.replace(li, new), encoding="utf-8")
+            print(f"진행 현황: {ep} 영상 {k}/{n_ep}, 남음 {' '.join(left) or '없음'} → {page}")
 
 
 if __name__ == "__main__":
