@@ -459,7 +459,10 @@ EPS["ep37"] = dict(
    "Grandpa Bau stays in the SAME spot, the SAME small size and the SAME side view the whole time: he does NOT turn toward the camera, does NOT walk, does NOT come closer; exactly 4 legs, all four feet on the ground. "
    "The camera is locked: no zoom in, no zoom out, no pan, no reframing, no cut; the whole meadow, volcano, rainbow and sky stay visible."),
   ("동그란 구름", "", SKYM + "One big round egg-shaped white cloud in the blue sky. No characters.", "Exactly one egg-shaped cloud in focus.", True, "The cloud drifts slowly."),
-  ("손가락으로 콕", "C", SKYM + f"{D['C']} lying on the grass points up at the sky.", "", False, "Chiqui stays lying on the back on the grass and points up two times and giggles; the same village background (houses, palm trees, volcano, rainbow) as the start image stays the whole time; no dust, no smoke." + STARTV),
+  ("손가락으로 콕", "C", SKYM + f"{D['C']} lying on the grass points up at the sky.", "", False, # (2026-11-26) S07 영상: 시작 그림은 치키가 앉아 있는데 "누운 채"라고 써서 등을 대고 눕는 영상이 나옴 → 그림 모습대로
+   "START EXACTLY FROM THE START IMAGE: Chiqui SITS UPRIGHT on the grass on the left side of the frame, body facing the viewer, about one third of the frame height, one front paw raised pointing up at the sky, smiling. "
+   "Motion (5 seconds): Chiqui stays SITTING UPRIGHT in the same spot and pokes the paw up at the sky two times, then giggles. Chiqui does NOT lie down, does NOT roll over, does NOT turn onto the back or side; exactly 4 legs. "
+   "The same village background (round houses, palm trees, volcano, rainbow, waterfall) stays the whole time; no dust, no smoke." + STARTV),
   ("공룡알 같아", "R", SKYM + f"{D['R']} lying on the grass points at one big round egg-shaped cloud.", "", False, "Roro points and laughs."),
   ("내 목 같아", "T", SKYM + f"{D['T']} lies on the belly on the grass, looking up at one long thin curved cloud shaped like a long neck.", "", False, "Torong keeps the long neck UP and the head clearly visible the whole time, looking up at the long neck cloud; Torong only nods the head a little and smiles; Torong never lowers or hides the head, never puts the head on the ground; legs stay folded." + STARTV),
   ("하트다!", "P", SKYM + f"{D['P']} flies up near one heart-shaped white cloud.", "", False, "Pio circles once near the heart cloud and flaps happily."),
