@@ -87,7 +87,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Chiqui takes two slow steps toward Roro. ONLY these 2 characters are in this scene: Chiqui, Roro; no other character, animal or creature appears at any time. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Wide shot exactly like the start image, no zoom and no close-up: both full bodies and the three yellow blocks stay visible the whole time. Chiqui walks two clear slow steps from the left toward Roro, ending close to Roro; Roro stays sitting, sad. The camera stays still. ONLY these 2 characters are in this scene: Chiqui, Roro; no other character, animal or creature appears at any time. Roro always keeps a round head with no frill and no horns. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S11 미안해 (1:25–1:35)
