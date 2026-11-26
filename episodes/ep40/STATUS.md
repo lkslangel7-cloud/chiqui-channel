@@ -9,3 +9,4 @@
 | 음성 | 아직 |
 - (2026-11-26) 그림 16장 받음(링크, 등불 켜짐 상태를 장면마다 대조). 합격 12: S02 AsHp2Ch9vqo(5개 모두 꺼짐), S03 -GhE6LIIdIs, S04 rTuVanCinD4(모두 꺼짐), S05 yqBIw8bR454(등불이 조금 작고 낮음 — 작은 차이), S06 u5BDqjWNlsI(넷 켜짐·보라 꺼짐), S07 NwnemigARQU, S09 fLen8pmHwLo, S10 WXrvMm6uPLs, S11 pTSCglstTaU, S12 RoecPUy1gUc, S14 7TB7NUfTxSU, S15 ymZBKtMCRnE(보라도 켜짐).
 - 불합격: S13 KOIuV0Hi9q8(다들 화면을 봄 — 꺼진 보라 등불을 올려다보는 장면), S16 caWg1w8xdBY·S18 Q-JQ1mEXkLw(보라 등불이 꺼져 있음 — S15에서 켜진 뒤라 다섯 다 켜져야 함), S17 XKveHLd5LKg(보라가 아주 희미 — 다른 넷처럼 밝지 않음). S16·S17·S18 프롬프트에 '보라 등불도 다른 넷만큼 밝게 켜짐', S13에 '고개를 들어 꺼진 보라 등불을 가리킴' (make_ep26_40.py에도). S16~S18은 S15 그림을 참고 그림으로. 그림 12/16, 남음 S13 S16 S17 S18.
+- (2026-11-26) S16 cRLnhk7JdNU, S17 q4jjvORROxU, S18 5PdyGxfvdmE 합격 — 보라 등불이 다른 넷처럼 밝게 켜짐(S15와 같음). S17은 바우가 앞발 하나를 살짝 들고 춤 — 영상에서 다리 수 확인할 것. 그림 15/16, 남음 S13.
