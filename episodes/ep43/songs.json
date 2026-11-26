@@ -1,0 +1,19 @@
+{
+  "title": "치키 43화 노래",
+  "h1": "43화 · 얼음 춤 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "freeze",
+      "title": "멈춰라 얼음!",
+      "short": "얼음 춤",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "bouncy kids dance-pop, 120 bpm, punchy drums, synth bass, sudden full stops with silence on the freeze shouts, then the beat jumps back in, energetic male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n춤추다가 멈춰라 (얼음!)\n귀 기울여 들어요\n치키치키 얼음!\n\n[Verse 1]\n둥둥 북이 울리면\n크앙! 로로는 엉덩이\n씰룩씰룩 (씰룩!)\n\n[Verse 2]\n둥둥 북이 울리면\n쭈욱~ 토롱은 목을\n흔들흔들 (흔들!)\n\n[Verse 3]\n둥둥 북이 울리면\n슝~ 피오는 날개\n팔랑팔랑 (팔랑!)\n\n[Verse 4]\n북소리가 뚝 멈추면\n모두 다 같이 (얼음!)\n꼼짝 마 (꽁꽁!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n춤추다가 멈춰라 (얼음!)\n귀 기울여 들어요\n치키치키 얼음!\n\n[End]"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "치키 41~45화 노래",
+  "h1": "41~45화 · 노래 5곡 (Suno)",
+  "lead": "41~45화 노래 5곡이에요. 화마다 장르·빠르기·악기·목소리가 달라요(후렴 첫 줄 \"쿵쿵 쾅!\"과 끝 \"치키치키 ○○!\"만 같아요). 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 끝까지 나오는지 들어 보고 WAV로 올려 주세요. 몇 화 노래인지 알려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "sound",
+      "title": "41화 · 누구 소리일까?",
+      "short": "소리 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "playful jazz swing for kids, 108 bpm, upright bass, brushed drums, muted trumpet, fun sound-effect hits on the animal sounds, short guessing pauses, cheeky male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n귀를 쫑긋 (쫑긋!)\n누구 소리일까요?\n치키치키 맞혀 봐!\n\n[Verse 1]\n덤불 뒤에 크앙 크앙\n누구 소리일까? (누구?)\n로로 소리 (크앙!)\n\n[Verse 2]\n땅이 쿵쿵 흔들흔들\n누구 소리일까? (누구?)\n토롱 소리 (쿵쿵!)\n\n[Verse 3]\n바람이 슝슝 불어요\n누구 소리일까? (누구?)\n피오 소리 (슝슝!)\n\n[Verse 4]\n허허허 웃음소리\n누구 소리일까? (누구?)\n할아버지 (허허!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n귀를 쫑긋 (쫑긋!)\n누구 소리일까요?\n치키치키 맞혀 봐!\n\n[End]"
+    },
+    {
+      "id": "achoo",
+      "title": "42화 · 콜록콜록 에취!",
+      "short": "에취 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "cozy acoustic folk-pop, 90 bpm, soft acoustic guitar, warm cello, gentle shaker, comforting and caring, soft female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n콜록콜록 에취! (에취!)\n팔꿈치로 가려요\n치키치키 튼튼!\n\n[Verse 1]\n콜록콜록 기침이 나면\n크앙! 로로처럼\n팔꿈치로 쏙 (쏙!)\n\n[Verse 2]\n에취 에취 재채기 나면\n슝~ 피오처럼\n날개로 쏙 (쏙!)\n\n[Verse 3]\n밖에 놀다 들어오면\n보글보글 비누로\n손을 싹싹 (싹싹!)\n\n[Verse 4]\n따뜻한 물 호록호록\n이불 덮고 쿨쿨\n푹 자요 (쿨쿨!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n콜록콜록 에취! (에취!)\n팔꿈치로 가려요\n치키치키 튼튼!\n\n[End]"
+    },
+    {
+      "id": "freeze",
+      "title": "43화 · 멈춰라 얼음!",
+      "short": "얼음 춤",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "bouncy kids dance-pop, 120 bpm, punchy drums, synth bass, sudden full stops with silence on the freeze shouts, then the beat jumps back in, energetic male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n춤추다가 멈춰라 (얼음!)\n귀 기울여 들어요\n치키치키 얼음!\n\n[Verse 1]\n둥둥 북이 울리면\n크앙! 로로는 엉덩이\n씰룩씰룩 (씰룩!)\n\n[Verse 2]\n둥둥 북이 울리면\n쭈욱~ 토롱은 목을\n흔들흔들 (흔들!)\n\n[Verse 3]\n둥둥 북이 울리면\n슝~ 피오는 날개\n팔랑팔랑 (팔랑!)\n\n[Verse 4]\n북소리가 뚝 멈추면\n모두 다 같이 (얼음!)\n꼼짝 마 (꽁꽁!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n춤추다가 멈춰라 (얼음!)\n귀 기울여 들어요\n치키치키 얼음!\n\n[End]"
+    },
+    {
+      "id": "share",
+      "title": "44화 · 나눠 먹어요!",
+      "short": "나눔 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "sunny bossa nova for kids, 96 bpm, nylon guitar, light percussion, soft flute, warm and sharing feeling, sweet female lead, counting clearly, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n하나씩 나눠요 (나눠요!)\n나누면 더 맛있어\n치키치키 냠냠!\n\n[Verse 1]\n주황 귤이 하나\n크앙! 로로에게\n하나 줄게 (하나!)\n\n[Verse 2]\n주황 귤이 둘\n쭈욱~ 토롱에게\n하나 줄게 (둘!)\n\n[Verse 3]\n주황 귤이 셋\n슝~ 피오에게\n하나 줄게 (셋!)\n\n[Verse 4]\n넷은 할아버지\n다섯은 치키\n다 같이 냠 (냠!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n하나씩 나눠요 (나눠요!)\n나누면 더 맛있어\n치키치키 냠냠!\n\n[End]"
+    },
+    {
+      "id": "fossil",
+      "title": "45화 · 화석 도서관 탐험!",
+      "short": "화석 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "adventure orchestral march for kids, 110 bpm, bright brass, timpani, pizzicato strings, curious exploring mood, storytelling male lead like a friendly explorer, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n화석 화석 누구일까? (누구?)\n할아버지 따라가요\n치키치키 탐험!\n\n[Verse 1]\n뿔이 하나 둘 셋\n누구를 닮았나? (누구?)\n치키 닮았네 (치키!)\n\n[Verse 2]\n이빨이 커다래\n누구를 닮았나? (누구?)\n로로 닮았네 (로로!)\n\n[Verse 3]\n목이 길쭉길쭉\n누구를 닮았나? (누구?)\n토롱 닮았네 (토롱!)\n\n[Verse 4]\n하늘 위 날개 화석\n누구를 닮았나? (누구?)\n피오 닮았네 (피오!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n화석 화석 누구일까? (누구?)\n할아버지 따라가요\n치키치키 탐험!\n\n[End]"
+    }
+  ]
+}

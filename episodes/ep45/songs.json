@@ -1,0 +1,19 @@
+{
+  "title": "치키 45화 노래",
+  "h1": "45화 · 화석 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "fossil",
+      "title": "화석 도서관 탐험!",
+      "short": "화석 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "adventure orchestral march for kids, 110 bpm, bright brass, timpani, pizzicato strings, curious exploring mood, storytelling male lead like a friendly explorer, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n화석 화석 누구일까? (누구?)\n할아버지 따라가요\n치키치키 탐험!\n\n[Verse 1]\n뿔이 하나 둘 셋\n누구를 닮았나? (누구?)\n치키 닮았네 (치키!)\n\n[Verse 2]\n이빨이 커다래\n누구를 닮았나? (누구?)\n로로 닮았네 (로로!)\n\n[Verse 3]\n목이 길쭉길쭉\n누구를 닮았나? (누구?)\n토롱 닮았네 (토롱!)\n\n[Verse 4]\n하늘 위 날개 화석\n누구를 닮았나? (누구?)\n피오 닮았네 (피오!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n화석 화석 누구일까? (누구?)\n할아버지 따라가요\n치키치키 탐험!\n\n[End]"
+    }
+  ]
+}

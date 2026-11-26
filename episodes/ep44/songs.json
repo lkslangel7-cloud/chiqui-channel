@@ -1,0 +1,19 @@
+{
+  "title": "치키 44화 노래",
+  "h1": "44화 · 나눔 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "share",
+      "title": "나눠 먹어요!",
+      "short": "나눔 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "sunny bossa nova for kids, 96 bpm, nylon guitar, light percussion, soft flute, warm and sharing feeling, sweet female lead, counting clearly, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n하나씩 나눠요 (나눠요!)\n나누면 더 맛있어\n치키치키 냠냠!\n\n[Verse 1]\n주황 귤이 하나\n크앙! 로로에게\n하나 줄게 (하나!)\n\n[Verse 2]\n주황 귤이 둘\n쭈욱~ 토롱에게\n하나 줄게 (둘!)\n\n[Verse 3]\n주황 귤이 셋\n슝~ 피오에게\n하나 줄게 (셋!)\n\n[Verse 4]\n넷은 할아버지\n다섯은 치키\n다 같이 냠 (냠!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n하나씩 나눠요 (나눠요!)\n나누면 더 맛있어\n치키치키 냠냠!\n\n[End]"
+    }
+  ]
+}

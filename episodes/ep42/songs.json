@@ -1,0 +1,19 @@
+{
+  "title": "치키 42화 노래",
+  "h1": "42화 · 에취 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "achoo",
+      "title": "콜록콜록 에취!",
+      "short": "에취 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "cozy acoustic folk-pop, 90 bpm, soft acoustic guitar, warm cello, gentle shaker, comforting and caring, soft female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n콜록콜록 에취! (에취!)\n팔꿈치로 가려요\n치키치키 튼튼!\n\n[Verse 1]\n콜록콜록 기침이 나면\n크앙! 로로처럼\n팔꿈치로 쏙 (쏙!)\n\n[Verse 2]\n에취 에취 재채기 나면\n슝~ 피오처럼\n날개로 쏙 (쏙!)\n\n[Verse 3]\n밖에 놀다 들어오면\n보글보글 비누로\n손을 싹싹 (싹싹!)\n\n[Verse 4]\n따뜻한 물 호록호록\n이불 덮고 쿨쿨\n푹 자요 (쿨쿨!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n콜록콜록 에취! (에취!)\n팔꿈치로 가려요\n치키치키 튼튼!\n\n[End]"
+    }
+  ]
+}

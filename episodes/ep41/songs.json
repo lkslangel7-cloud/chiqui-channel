@@ -1,0 +1,19 @@
+{
+  "title": "치키 41화 노래",
+  "h1": "41화 · 소리 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "sound",
+      "title": "누구 소리일까?",
+      "short": "소리 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "playful jazz swing for kids, 108 bpm, upright bass, brushed drums, muted trumpet, fun sound-effect hits on the animal sounds, short guessing pauses, cheeky male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n귀를 쫑긋 (쫑긋!)\n누구 소리일까요?\n치키치키 맞혀 봐!\n\n[Verse 1]\n덤불 뒤에 크앙 크앙\n누구 소리일까? (누구?)\n로로 소리 (크앙!)\n\n[Verse 2]\n땅이 쿵쿵 흔들흔들\n누구 소리일까? (누구?)\n토롱 소리 (쿵쿵!)\n\n[Verse 3]\n바람이 슝슝 불어요\n누구 소리일까? (누구?)\n피오 소리 (슝슝!)\n\n[Verse 4]\n허허허 웃음소리\n누구 소리일까? (누구?)\n할아버지 (허허!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n귀를 쫑긋 (쫑긋!)\n누구 소리일까요?\n치키치키 맞혀 봐!\n\n[End]"
+    }
+  ]
+}
