@@ -54,8 +54,16 @@ def upload(ep):
 # ---------- 진행 현황 탭 (파일 수를 세어 자동으로 만든다) ----------
 import re as _re
 PAGES = json.loads((ROOT / "episodes/pages.json").read_text(encoding="utf-8")) if (ROOT / "episodes/pages.json").exists() else {}
+# (2026-11-26) 새 대화(빈 컨테이너)에서도 진행 현황이 맞게: 내려받지 않은 합격 파일은 tools/media_manifest.txt로 센다
+_MAN = (ROOT / "tools/media_manifest.txt").read_text(encoding="utf-8").split() if (ROOT / "tools/media_manifest.txt").exists() else []
 def _ids(d, ext):
-    return sorted({m.group(1) for f in d.glob(f"*.{ext}") if (m := _re.match(r"(S\d\d)_", f.name))}) if d.exists() else []
+    rel = str(d.relative_to(ROOT)) + "/"
+    names = {f.name for f in d.glob(f"*.{ext}")} if d.exists() else set()
+    names |= {m[len(rel):] for m in _MAN if m.startswith(rel) and m.endswith("." + ext)}
+    return sorted({m.group(1) for n in names if (m := _re.match(r"(S\d\d)_", n))})
+def _has_common(kind, c, ext):
+    rel = f"episodes/common/{kind}/web/{c}_"
+    return any((ROOT / f"episodes/common/{kind}/web").glob(f"{c}_*.{ext}")) or any(m.startswith(rel) for m in _MAN)
 def progress(x):
     ep = x["ep"]; d = ROOT / f"episodes/ep{ep}"; n = x.get("no", int(ep))
     sc = d / "scenes.json"
@@ -64,8 +72,8 @@ def progress(x):
     img, vid = _ids(d / "images/web", "png"), _ids(d / "clips/web", "mp4")
     for s_ in scs:  # 공통 컷: episodes/common/ 에 있으면 이 화도 있는 것으로 센다
         c = s_.get("common")
-        if c and any((ROOT / "episodes/common/images/web").glob(f"{c}_*.png")): img.append(s_["id"])
-        if c and any((ROOT / "episodes/common/clips/web").glob(f"{c}_*.mp4")): vid.append(s_["id"])
+        if c and _has_common("images", c, "png"): img.append(s_["id"])
+        if c and _has_common("clips", c, "mp4"): vid.append(s_["id"])
     song = any((d / "audio/songs").glob("*.wav")) or any((d / "audio/songs").glob("*.mp3"))
     voice = any((d / "audio/ko").glob("*.wav")) if (d / "audio/ko").exists() else False
     done = "file" in x
@@ -112,7 +120,7 @@ for x in eps:
         if not t.exists():
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(ROOT / f"episodes/ep{ep}/thumbnail.png"), "-vf", "scale=640:-2", "-q:v", "4", str(t)], check=True)
         body = (f'<video controls preload="none" playsinline poster="t/ep{ep}.jpg" src="v/ep{ep}.mp4"></video>'
-                f'<dl class="facts"><div><dt>길이</dt><dd>{dur(src)}</dd></div><div><dt>주제</dt><dd>{e(x["theme"])}</dd></div>'
+                f'<dl class="facts"><div><dt>길이</dt><dd>{dur(src if src.exists() else v)}</dd></div><div><dt>주제</dt><dd>{e(x["theme"])}</dd></div>'
                 f'<div class="wide"><dt>원본 파일</dt><dd><code>output/{e(x["file"])}.mp4</code>{" · 자막 없는 판 <code>output/" + e(x["file"]) + "_nosubs.mp4</code>" if (ROOT / f"output/{x['file']}_nosubs.mp4").exists() else " · 유튜브 자막 파일 <code>output/" + e(x["file"]) + ".srt</code>"}</dd></div></dl>'
                 f'<p class="hint">여기 영상은 미리보기용(작은 화질)이에요. 유튜브에는 원본 파일을 올려요.</p>' + upload(ep))
     else:
