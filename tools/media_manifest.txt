@@ -1040,6 +1040,7 @@ episodes/ep34/images/web/S02_c1hTY6XGXlg.png
 episodes/ep34/images/web/S03_QFpmNzOcZuY.png
 episodes/ep34/images/web/S04_ZGOLNJzpaik.png
 episodes/ep34/images/web/S05_FP11yXFG1ME.png
+episodes/ep34/images/web/S06_NhyzTDQUomo.png
 episodes/ep34/images/web/S07_1X5N3P0FzCY.png
 episodes/ep34/images/web/S09_-8m8oglFdWY.png
 episodes/ep34/images/web/S10_dJQTdfqt_oE.png
