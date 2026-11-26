@@ -894,6 +894,7 @@ episodes/ep28/images/web/S17_l3FQ9n_8ock.png
 episodes/ep28/images/web/S18_vyTJzhI2rqc.png
 episodes/ep29/clips/web/S02_iIWxu0LfHMI.mp4
 episodes/ep29/clips/web/S04_INslxv2rmxc.mp4
+episodes/ep29/clips/web/S05_XTjO8FKbqUE.mp4
 episodes/ep29/clips/web/S06_Pa5V4oXRLUQ.mp4
 episodes/ep29/clips/web/S07_vF-YN8jtUF0.mp4
 episodes/ep29/clips/web/S09_PUCPMniqzB0.mp4
@@ -904,6 +905,7 @@ episodes/ep29/clips/web/S13_8c7JBqQVP_Q.mp4
 episodes/ep29/clips/web/S14_anOofSgLPV8.mp4
 episodes/ep29/clips/web/S15_0k27YnMNXuY.mp4
 episodes/ep29/clips/web/S16_o8sMB67r19M.mp4
+episodes/ep29/clips/web/S17_m-8KbND47DM.mp4
 episodes/ep29/images/web/S02_huv6Cv1wddc.png
 episodes/ep29/images/web/S04_kQ_oFzIobbk_fix.png
 episodes/ep29/images/web/S05_GDqHsTnLYYE.png
