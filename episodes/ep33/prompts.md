@@ -153,7 +153,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Grandpa Bau nods once and smiles warmly; all four feet stay on the ground. The camera stays still. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Grandpa Bau nods once and smiles warmly; all four feet stay on the ground. The block tower (three YELLOW cubes with one ORANGE cube on top) stands right next to him on the grass, exactly as in the start image, fully visible from the first frame to the last; it never falls or disappears. No sparkles. The camera stays still, no zoom. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S17 다시 공놀이 (2:20–2:30)
