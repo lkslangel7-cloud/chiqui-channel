@@ -460,7 +460,8 @@ EPS["ep37"] = dict(
   ("치키 구름!", "CRTP", SKYM + "Chiqui laughs and points up at THE SAME cloud as in the reference image: one white cloud with THREE little horn-shaped bumps on top and a round frill shape, exactly like Chiqui's head (not a plain round cloud); Roro, Torong and Pio cheer. Use the reference image only for this cloud's shape.", "", False, "Everyone laughs and cheers."),
   BAU(SKYM, "구름이 비를 내려", "sits on the grass looking up at a soft grey rain cloud far away over green forests, smiling wisely."),
   ("해 질 녘 하늘", "CRTP", SKYM.replace("bright blue sky", "soft pink sunset sky") + "Chiqui, Roro, Torong and Pio sit together on the hill watching pink clouds.", "", False, "They sway gently, happy."),
-  WAVE(SKYM, "안녕!"),
+  # (2026-11-26, 사용자) S17이 노을인데 S18이 파란 하늘이라 어색함 → S18도 같은 노을 하늘 (S17을 참고 그림으로)
+  WAVE(SKYM.replace("bright blue sky", "soft pink sunset sky") + "SAME soft pink sunset sky, same warm golden evening light and same hill as the reference image (the previous scene); NOT a blue daytime sky. ", "안녕!"),
  ]))
 
 # ---------------- 38화 할아버지, 사랑해요 (카드 만들기) ----------------
