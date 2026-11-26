@@ -516,7 +516,7 @@ EPS["ep39"] = dict(
   BAU(NIGHT, "별 보러 가자", "sits on the hill, smiling, looking up."),
   ("다 같이 언덕에", "CRTP", NIGHT + "Chiqui, Roro, Torong and Pio sit together on a soft blanket on the hill, looking up.", "", False, "They look up quietly."),
   ("하늘", "", NIGHT + "Close view of the deep blue night sky with exactly ONE bright star. No characters.", "Exactly one star.", True, "The star twinkles."),
-  ("담요 위에", "CRTP", NIGHT + "Chiqui, Roro and Pio lie on a soft blanket; Torong lies on the belly with legs folded; all looking up.", "", False, "They smile and point up."),
+  ("담요 위에", "CRTP", NIGHT + "On THE SAME blue-and-white checked picnic blanket as in the reference image, Chiqui, Roro and Pio LIE DOWN on their backs and Torong lies on the belly with the legs folded under and the long neck up; nobody sits or stands; all four look UP at the sky (faces turned up, not at the viewer).", "", False, "They smile and point up."),
   ("별 하나", "R", NIGHT + f"{D['R']} points up at exactly ONE bright star.", "Exactly one star.", False, "Roro points and counts one."),
   ("별 둘", "T", NIGHT + f"{D['T']} lifts the head toward exactly TWO bright stars.", "Exactly two stars.", False, "Torong nods two times toward the stars; legs stay folded."),
   ("별 셋", "P", NIGHT + f"{D['P']} flies low near exactly THREE bright stars.", "Exactly three stars.", False, "Pio glides once and flaps happily."),

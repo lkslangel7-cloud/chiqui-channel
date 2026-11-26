@@ -1157,3 +1157,17 @@ episodes/ep38/images/web/S14_b1ef1536-d6f8-4d0e-a339-19e66d0bd164.png
 episodes/ep38/images/web/S15_su2Wfj0Zpi8.png
 episodes/ep38/images/web/S16_B_YgUIPKfvc.png
 episodes/ep38/images/web/S17_LPOxMAXpYX8.png
+episodes/ep39/images/web/S02_0w0O2kBkAI8.png
+episodes/ep39/images/web/S03_4OydImM0IF0.png
+episodes/ep39/images/web/S04_K9J2tZhmpfg.png
+episodes/ep39/images/web/S05_NI82yJeqZok.png
+episodes/ep39/images/web/S06_irxUj9cgoM0.png
+episodes/ep39/images/web/S09_yeF1quBsqNY.png
+episodes/ep39/images/web/S10_-fKTgfBP4xc.png
+episodes/ep39/images/web/S11_Pu9Re8MuLt0.png
+episodes/ep39/images/web/S12_d0wUYv4ULio.png
+episodes/ep39/images/web/S13_JuCPnO6k-ms.png
+episodes/ep39/images/web/S14_bpkyOAESwvM.png
+episodes/ep39/images/web/S15_L_uryp2VN9c.png
+episodes/ep39/images/web/S16_KPk4xmLzogI.png
+episodes/ep39/images/web/S17_AenPjIZscIk.png
