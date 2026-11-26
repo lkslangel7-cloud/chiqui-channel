@@ -988,6 +988,7 @@ episodes/ep32/clips/web/S13_Kb8WSnQRqek.mp4
 episodes/ep32/clips/web/S14_rdpTXdst5X0.mp4
 episodes/ep32/clips/web/S15_vYHBK4s-mI4.mp4
 episodes/ep32/clips/web/S16_6yBVMI2qrCg.mp4
+episodes/ep32/clips/web/S17_adayBY3HJys.mp4
 episodes/ep32/images/web/S02_QtCk355ljmk.png
 episodes/ep32/images/web/S03_cov0RsB7BW4.png
 episodes/ep32/images/web/S05_3dm-c0atdfU.png
