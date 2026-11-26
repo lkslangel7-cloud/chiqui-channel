@@ -1077,6 +1077,7 @@ episodes/ep35/clips/web/S07_m1vUge2nKcU.mp4
 episodes/ep35/clips/web/S09_mFyJzfAqal8.mp4
 episodes/ep35/clips/web/S10_Dot0JQvjxSU.mp4
 episodes/ep35/clips/web/S11_I6nI5F0Q-iU.mp4
+episodes/ep35/clips/web/S12_tNKhhHsr0o8.mp4
 episodes/ep35/clips/web/S13_mV9FheuTw1M.mp4
 episodes/ep35/clips/web/S14_gB_xthy5u0c.mp4
 episodes/ep35/clips/web/S15_hXW0-g19buU_fix.mp4
