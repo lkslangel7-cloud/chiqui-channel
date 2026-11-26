@@ -1131,6 +1131,7 @@ episodes/ep37/clips/web/S03_Wou4W43Zbi8.mp4
 episodes/ep37/clips/web/S04_MxLwaEN1pXE.mp4
 episodes/ep37/clips/web/S05_xBggQuK2IUQ.mp4
 episodes/ep37/clips/web/S06_qSu0GKZGp94.mp4
+episodes/ep37/clips/web/S07_aUD8dhl-P_s.mp4
 episodes/ep37/clips/web/S09_j9p8uXNHXgU.mp4
 episodes/ep37/clips/web/S11_mCkZ85ZkWcg.mp4
 episodes/ep37/clips/web/S12_Z_u4rAQZ5QI.mp4
