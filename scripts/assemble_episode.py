@@ -28,6 +28,7 @@ def dur(p: Path) -> float:
 
 
 def esc(t: str) -> str:
+    t = t.replace("…", "...")  # (2026-11-26, 13화) Jua 글꼴에 말줄임표가 없어 네모로 나옴
     return t.replace("\\", "\\\\").replace(":", "\\:").replace("'", "’").replace(",", "\\,").replace("%", "\\%")
 
 
