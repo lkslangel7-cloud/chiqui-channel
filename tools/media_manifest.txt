@@ -1013,11 +1013,13 @@ episodes/ep33/clips/web/S05_Evg_dUduz9E.mp4
 episodes/ep33/clips/web/S06_EOJ6c0kB5Gg.mp4
 episodes/ep33/clips/web/S07_QrJl5DtbPdA.mp4
 episodes/ep33/clips/web/S09_vpYxV7C13iE.mp4
+episodes/ep33/clips/web/S10_khdFKUIyLus.mp4
 episodes/ep33/clips/web/S11_1bKMdw5DPMw.mp4
 episodes/ep33/clips/web/S12_76Po80D88nY.mp4
 episodes/ep33/clips/web/S13_djk5-k6NxCw.mp4
 episodes/ep33/clips/web/S14_hyoHYM8nqrk.mp4
 episodes/ep33/clips/web/S15_iIwl82a83Qs.mp4
+episodes/ep33/clips/web/S16_oCf2cUHPy8k.mp4
 episodes/ep33/clips/web/S17_8_AIeJtZbnU.mp4
 episodes/ep33/images/web/S02_a6hxskhBuWc.png
 episodes/ep33/images/web/S03_NXS5wfP5nEw.png
