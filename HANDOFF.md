@@ -47,6 +47,7 @@
 - 합격 파일 저장 위치: `episodes/epXX/images/web/S##_CODE.png`, `clips/web/S##_CODE.mp4`. 공통 컷은 `episodes/common/`.
 - 확인 방법:
   - 영상은 1초 간격 프레임 전부와 합격 그림을 한 장에 모아 본다.
+  - (2026-11-26) 영상 링크는 `python3 -I tools/check_video.py CODE…` 한 줄로 받기+장면 찾기+한 장 만들기(허락 안 물음). 합격은 `python3 -I tools/check_video.py --accept epXX S## CODE "STATUS 한 줄"`. 셸 변수·for·&& 를 섞은 긴 명령은 허락을 물으니 쓰지 않는다.
   - 반복 소품은 크게 잘라 특징 3~4개를 대조한다.
 - 그림 프롬프트 생성기: `prompts/make_ep26_40.py`. 다시 생성하면 다른 화의 STATUS.md는 되돌린다.
 - 조립:
