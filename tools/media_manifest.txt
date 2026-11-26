@@ -1101,6 +1101,7 @@ episodes/ep35/images/web/S17_f7gz_P3icyA_fix.png
 episodes/ep36/clips/web/S02_XGOfQShHSUg.mp4
 episodes/ep36/clips/web/S03_Gjntw889Y6E.mp4
 episodes/ep36/clips/web/S04_Rm-l7MJb0b0.mp4
+episodes/ep36/clips/web/S05_TORDXhMOdw4.mp4
 episodes/ep36/clips/web/S07_NiTT8N-v4Gk.mp4
 episodes/ep36/clips/web/S09_rkY1yRNzIc0.mp4
 episodes/ep36/clips/web/S10_CnwLSJ-xfRA.mp4
