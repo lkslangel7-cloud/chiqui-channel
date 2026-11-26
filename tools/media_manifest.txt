@@ -1036,7 +1036,9 @@ episodes/ep33/images/web/S14_1OQEXPybkyw.png
 episodes/ep33/images/web/S15_PNFBsPZabdc.png
 episodes/ep33/images/web/S16_o312doxGMFM.png
 episodes/ep33/images/web/S17_K_GfzU2X2AM.png
+episodes/ep34/clips/web/S02_Mum2BElt5AM.mp4
 episodes/ep34/clips/web/S03_OeyB1kgpW9g.mp4
+episodes/ep34/clips/web/S04_m_LRX0wgtCk.mp4
 episodes/ep34/clips/web/S05_0FsLZuOr-VY.mp4
 episodes/ep34/clips/web/S06_aG_JKvhGhFg.mp4
 episodes/ep34/clips/web/S07_n1FUGpcxzwE.mp4
@@ -1048,6 +1050,7 @@ episodes/ep34/clips/web/S13_Kq8MoryTeaI.mp4
 episodes/ep34/clips/web/S14_ltvpz8CQ9Y0.mp4
 episodes/ep34/clips/web/S15_aYJWtBAju3Q.mp4
 episodes/ep34/clips/web/S16_5dAksf-oyNQ.mp4
+episodes/ep34/clips/web/S17_00zJyLSW2J8.mp4
 episodes/ep34/clips/web/S18_KDoSXMzK2lU.mp4
 episodes/ep34/images/web/S02_c1hTY6XGXlg.png
 episodes/ep34/images/web/S03_QFpmNzOcZuY.png
