@@ -1,0 +1,53 @@
+{
+ "segments": [
+  {
+   "file": "output/ep06_ko_v2_hq.mp4",
+   "srt": "output/ep06_ko_v2_hq.srt",
+   "from": 0,
+   "to": 20.4,
+   "label": ""
+  },
+  {
+   "file": "output/ep06_ko_v2_hq.mp4",
+   "srt": "output/ep06_ko_v2_hq.srt",
+   "from": 53.9,
+   "to": 112.5,
+   "label": "6화  비누야 어디 있니?"
+  },
+  {
+   "file": "output/ep07_ko_v2_hq.mp4",
+   "srt": "output/ep07_ko_v2_hq.srt",
+   "from": 53.8,
+   "to": 108.0,
+   "label": "7화  사과야 어디 있니?"
+  },
+  {
+   "file": "output/ep08_ko_v1_hq.mp4",
+   "srt": "output/ep08_ko_v1_hq.srt",
+   "from": 53.8,
+   "to": 116.3,
+   "label": "8화  발자국 누구 거니?"
+  },
+  {
+   "file": "output/ep09_ko_v2_hq.mp4",
+   "srt": "output/ep09_ko_v2_hq.srt",
+   "from": 53.8,
+   "to": 116.6,
+   "label": "9화  달님 어디 있니?"
+  },
+  {
+   "file": "output/ep10_ko_v2_hq.mp4",
+   "srt": "output/ep10_ko_v2_hq.srt",
+   "from": 53.8,
+   "to": 116.4,
+   "label": "10화  장난감은 제자리!"
+  },
+  {
+   "file": "output/ep10_ko_v2_hq.mp4",
+   "srt": "output/ep10_ko_v2_hq.srt",
+   "from": 161.4,
+   "to": 181.0,
+   "label": ""
+  }
+ ]
+}

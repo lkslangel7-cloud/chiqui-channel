@@ -46,13 +46,18 @@ def main(spec_path: str, out: str) -> None:
     spec = json.loads(Path(spec_path).read_text(encoding="utf-8"))
     segs = spec["segments"]
     args, fc, cues, t0 = [], [], [], 0.0
+    # (2026-11-26) 고화질판(2560x1440)을 이으면 배지 크기를 화면에 맞춰 키운다
+    h = int(subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=height", "-of", "csv=p=0",
+                            str(ROOT / segs[0]["file"])], capture_output=True, text=True, check=True).stdout.strip())
+    k = h / 1080
+    hq = h >= 1440
     for i, s in enumerate(segs):
         dur = round(s["to"] - s["from"], 3)
         args += ["-ss", str(s["from"]), "-t", str(dur), "-i", str(ROOT / s["file"])]
         badge = ""
         if s.get("label"):
-            badge = (f",drawbox=x=40:y=36:w={60 + 46 * len(s['label'])}:h=96:color=0xfff3c4@0.92:t=fill:enable='lt(t,4)'"
-                     f",drawtext=fontfile={FONT}:text='{esc(s['label'])}':fontsize=56:fontcolor=0x5a3d1e:x=70:y=56:enable='lt(t,4)'")
+            badge = (f",drawbox=x={round(40*k)}:y={round(36*k)}:w={round((60 + 46 * len(s['label']))*k)}:h={round(96*k)}:color=0xfff3c4@0.92:t=fill:enable='lt(t,4)'"
+                     f",drawtext=fontfile={FONT}:text='{esc(s['label'])}':fontsize={round(56*k)}:fontcolor=0x5a3d1e:x={round(70*k)}:y={round(56*k)}:enable='lt(t,4)'")
         fc.append(f"[{i}:v]setpts=PTS-STARTPTS,fps=30,format=yuv420p{badge}[v{i}]")
         fc.append(f"[{i}:a]asetpts=PTS-STARTPTS,afade=t=in:d=0.3,afade=t=out:st={dur - 0.3}:d=0.3[a{i}]")
         if s.get("srt"):
@@ -63,7 +68,7 @@ def main(spec_path: str, out: str) -> None:
         t0 += dur
     fc.append("".join(f"[v{i}][a{i}]" for i in range(len(segs))) + f"concat=n={len(segs)}:v=1:a=1[vout][aout]")
     cmd = ["ffmpeg", "-v", "error", "-y", *args, "-filter_complex", ";".join(fc), "-map", "[vout]", "-map", "[aout]",
-           "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-c:a", "aac", "-b:a", "192k", "-ar", "44100",
+           "-c:v", "libx264", "-preset", "slow" if hq else "medium", "-crf", "16" if hq else "20", "-c:a", "aac", "-b:a", "192k", "-ar", "44100",
            "-movflags", "+faststart", out]
     subprocess.run(cmd, check=True)
     if cues:
