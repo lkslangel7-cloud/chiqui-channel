@@ -33,7 +33,12 @@
       "Bash(cd:*)",
       "Bash(git mv:*)",
       "Bash(git rm:*)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(rm:*)",
+      "Bash(python3 -I tools/check_video.py:*)",
+      "Bash(python3 -I /home/user/chiqui-channel/tools/check_video.py:*)",
+      "Read",
+      "mcp__claude-code-remote__read_documentation"
     ]
   }
 }
