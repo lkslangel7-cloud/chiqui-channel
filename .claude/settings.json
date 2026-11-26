@@ -12,7 +12,28 @@
       "Bash(git pull:*)",
       "Bash(git status:*)",
       "Bash(git log:*)",
-      "Bash(git diff:*)"
+      "Bash(git diff:*)",
+      "Artifact",
+      "SendUserFile",
+      "Bash(python3:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(ffprobe:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(grep:*)",
+      "Bash(sed:*)",
+      "Bash(echo:*)",
+      "Bash(printf:*)",
+      "Bash(sort:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(cd:*)",
+      "Bash(git mv:*)",
+      "Bash(git rm:*)",
+      "Bash(git checkout:*)"
     ]
   }
 }
