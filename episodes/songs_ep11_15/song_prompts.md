@@ -204,7 +204,7 @@ Lyrics:
 
 Styles:
 ```
-country-folk train song, 108 bpm, chugging brushed snare rhythm like train wheels, banjo, harmonica, washboard, toy train whistle, friendly warm male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
+bright upbeat Western kids pop-rock train song, 116 bpm, steady four-on-the-floor beat with a light train-shuffle hi-hat, strummed acoustic guitar, bouncy electric bass, glockenspiel, handclaps, one cheerful toy train whistle 'choo choo', cheerful clear female lead with a bright kids choir, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key. NOT trot, NOT Korean trot or enka style, no ppongjjak two-beat, no polka, no vibrato, no pitch bends or sliding notes, no harmonica, no accordion, no brass oompah
 ```
 
 Lyrics:
