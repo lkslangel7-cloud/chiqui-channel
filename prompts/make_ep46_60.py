@@ -137,48 +137,52 @@ EPS["ep47"] = dict(
  ]))
 
 # ---------------- 48화 화가 나면 후~ (마음 가라앉히기) ----------------
-TOWER48 = ("one tower of exactly FIVE big wooden blocks with rounded edges stacked on the grass, from bottom to top: YELLOW, ORANGE, GREEN, SKY-BLUE, PURPLE")
-FALLEN48 = "exactly FIVE big wooden blocks (YELLOW, ORANGE, GREEN, SKY-BLUE, PURPLE) lie scattered on the grass, fallen down"
+# (2026-11-27 사용자) 33화(블록 탑 와르르·미안해 괜찮아)와 겹쳐서 이야기 바꿈: 마지막 퍼즐 조각이 안 들어가 속상 → 후~ → 돌려 보니 쏙!
+PUZ48 = ("one low flat square wooden puzzle tray lying on the grass with a simple picture of a big smiling yellow sun on a sky-blue background, "
+         "made of exactly FOUR big chunky jigsaw pieces in a 2 by 2 grid")
+HOLE48 = PUZ48 + "; three pieces are already in the tray and the top-right corner is an empty hole"
+DONE48 = PUZ48 + ", all four pieces in place, the smiling sun picture complete"
+PIECE48 = "one big chunky jigsaw piece with part of the sun picture on it"
 EPS["ep48"] = dict(
  title="48화. 화가 나면 후~ — 마음 가라앉히기", short="화가 나면 후~", song_id="calm", song_short="후~ 노래",
- theme="속상하고 화날 때: 숨을 크게 쉬고 셋 세기, 마음을 말로 하기, 다시 같이 하기.",
- twist="로로가 쌓은 탑이 피오 날개 바람에 와르르! 크앙 화가 났지만 '후~' 숨쉬기로 마음이 사르르. 다 같이 다시 쌓아요.",
+ theme="잘 안 돼서 속상하고 화날 때: 숨을 크게 쉬고 셋 세기, 마음을 말로 하기, 천천히 다시 해 보기.",
+ twist="로로의 해님 퍼즐, 마지막 한 조각이 아무리 눌러도 안 들어가요! 크앙 화가 났지만 '후~' 숨쉬기로 마음이 사르르. 천천히 빙글 돌려 보니… 쏙!",
  bau="큰 공룡도 숨을 크게 쉬었단다!",
- lines=[("로로","탑 쌓기 놀이!",""),("모두","좋아!","♻ 1화 07"),("로로","다 쌓았다!",""),("내레이션","와르르!",""),("로로","크앙! 화났어!",""),
-        ("바우","후~ 숨을 쉬어 보렴.",""),("모두","하나, 둘, 셋, 후~",""),("내레이션","우리 친구도 후~","뒤에 3초 쉼"),("피오","미안해.",""),("로로","괜찮아!",""),
-        ("바우","큰 공룡도 숨을 크게 쉬었단다!","바우 할아버지 상식"),("치키","안녕!","♻ 1화 18")],
+ lines=[("로로","해님 퍼즐 놀이!",""),("모두","좋아!","♻ 1화 07"),("로로","어? 안 들어가!",""),("내레이션","꾹꾹! 그래도 안 들어가요.",""),("로로","크앙! 화났어!",""),
+        ("바우","후~ 숨을 쉬어 보렴.",""),("모두","하나, 둘, 셋, 후~",""),("로로","속상했어. 이제 괜찮아.",""),("로로","빙글 돌려 볼까?",""),("내레이션","우리 친구도 후~","뒤에 3초 쉼"),
+        ("로로","쏙! 맞았다!",""),("바우","큰 공룡도 숨을 크게 쉬었단다!","바우 할아버지 상식"),("치키","안녕!","♻ 1화 18")],
  verses=[("얼굴이 빨개 부글부글","화가 났어요 (크앙!)","어떡하지? (어떡해?)"),("앞발을 배에 올리고","숨을 크게 (흡!)","후우~ (후~)"),
-         ("하나 둘 셋 세어 봐요","천천히 (하나 둘 셋!)","마음이 사르르 (사르르!)"),("이제 말해 볼까?","속상했어 (응!)","다시 웃자 (하하!)")],
+         ("하나 둘 셋 세어 봐요","천천히 (하나 둘 셋!)","마음이 사르르 (사르르!)"),("천천히 다시 해 봐","빙글 돌려 (빙글!)","쏙 맞았다 (쏙!)")],
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "화가 나면 (후~!)", "숨을 크게 쉬어요", "치키치키 후~!"],
  scenes=scenes([
-  ("탑 쌓기", "R", MEADOW + f"{D['R']} stands next to {TOWER48.replace('exactly FIVE', 'exactly FOUR').replace(', PURPLE', '')}, holding one PURPLE block up in both short arms, about to put it on top.", "Exactly four blocks in the tower and one in Roro's arms.", False,
-   "Roro carefully places the PURPLE block on top of the tower; now the tower has five blocks; then Roro steps back a little and cheers proudly with both short arms up. The tower stays still."),
+  ("해님 퍼즐", "R", MEADOW + f"{D['R']} sits on the grass next to {HOLE48}, holding {PIECE48} in both short arms, happy and excited.", "Exactly three pieces in the tray and one piece in Roro's arms.", False,
+   "Roro looks at the piece in the arms and at the empty corner, then smiles and nods, ready to put it in. The tray stays still."),
   CHEER(MEADOW),
-  ("다 쌓았다!", "R", MEADOW + f"{D['R']} stands proudly next to {TOWER48}, both short arms up, big proud grin.", "Exactly one tower of five blocks.", False,
-   "Roro cheers with both arms up on the same spot; the tower stays still."),
-  ("피오가 날아와요", "P", MEADOW + f"{D['P']} flaps both wide wings strongly in the sky near the meadow, making a big gust of wind with little wind lines.", "", False,
-   "Pio flaps the wings strongly on the same spot in the air; little wind lines blow to the side."),
-  ("와르르!", "RP", MEADOW + f"{FALLEN48}; {D['R']} stares at the fallen blocks with the mouth open in shock; {D['P']} hovers in the air above, surprised.", "Exactly five blocks on the grass.", False,
-   "Roro's mouth drops open in shock; Pio covers the beak with one wing tip, surprised. The blocks do not move."),
+  ("어? 안 들어가!", "R", MEADOW + f"{D['R']} sits next to {HOLE48} and presses {PIECE48} onto the empty corner, but the piece sits crooked and sticks up because it is turned the wrong way; Roro looks puzzled.", "Exactly four pieces in total.", False,
+   "Roro presses the piece down two times but it stays crooked and does not go in; Roro tilts the head, puzzled. The tray stays still."),
+  ("꾹꾹! 안 돼", "R", MEADOW + f"Close view (the camera close on this friend): {D['R']} pushes hard with both short arms on the crooked puzzle piece in the corner of the wooden tray, cheeks puffed, frustrated.", "", True,
+   "Roro pushes on the piece two more times, cheeks puffing; the piece still does not go in."),
   ("크앙! 화났어", "R", MEADOW + f"Close view of {D['R']} with puffed red cheeks and a grumpy frown, little steam puffs above the head, stamping one foot, angry but cute, never scary.", "", True,
    "Roro stamps one foot two times and puffs the cheeks, grumpy but cute."),
-  ("바우 할아버지", "BR", MEADOW + f"{D['B']} stands on all four feet next to {D['R']}, smiling calmly and kindly at Roro; Roro still looks grumpy.", "", False,
+  ("친구들이 걱정해요", "CRTP", MEADOW + f"{D['R']} sits grumpy with crossed short arms next to {HOLE48}, the last piece lying on the grass beside it; Chiqui, Torong and Pio stand close by looking at Roro with worried, kind faces.", "Exactly four pieces in total.", False,
+   "Chiqui, Torong and Pio lean a little toward Roro with worried faces; Roro stays grumpy. The camera stays still."),
+  ("바우 할아버지", "BR", MEADOW + f"Close view (the camera close on these two friends): {D['B']} stands on all four feet next to {D['R']}, smiling calmly and kindly at Roro; Roro still looks grumpy.", "", True,
    "Grandpa Bau nods gently at Roro; Roro looks up at him." + B4V + " The camera stays still."),
-  ("후~ 숨 쉬기", "BR", MEADOW + f"{D['R']} with eyes closed puts both short arms on the tummy and breathes out slowly, a small soft puff of air coming out of the mouth; {D['B']} stands on all four feet right next to Roro, eyes closed, breathing slowly together with Roro.", "", False,
+  ("후~ 숨 쉬기", "BR", MEADOW + f"Close view (the camera close on these two friends): {D['R']} with eyes closed puts both short arms on the tummy and breathes out slowly, a small soft puff of air coming out of the mouth; {D['B']} stands on all four feet right next to Roro, eyes closed, breathing slowly together with Roro.", "", True,
    "Roro and Grandpa Bau breathe in, then out slowly 'whoo', two times together." + B4V + " The camera stays still."),
   ("하나 둘 셋 후~", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio stand in a row with eyes closed, breathing slowly together, calm faces.", "", False,
    "Everyone breathes in and out slowly two times together on the same spot. The camera stays still."),
   ("마음이 사르르", "R", MEADOW + f"Close view (the camera close on this friend): {D['R']} opens the eyes with a calm, soft smile, the red cheeks gone, relaxed.", "", True,
    "Roro smiles softly and lets the shoulders drop, relaxed."),
-  ("미안해, 괜찮아", "RP", MEADOW + f"{D['P']} stands on the grass bowing the head a little to say sorry to {D['R']}; Roro smiles and nods.", "", False,
-   "Pio bows the head once; Roro nods and smiles warmly."),
+  ("빙글 돌려 볼까?", "R", MEADOW + f"{D['R']} sits calmly next to {HOLE48}, holding {PIECE48} up in both short arms and slowly turning it around, looking at it carefully with a curious smile.", "Exactly three pieces in the tray and one piece in Roro's arms.", False,
+   "Roro slowly turns the piece around once in the arms, looks at the sun picture on it, and smiles, having an idea. The tray stays still."),
   ("우리 친구도 후~", "C", MEADOW + f"Close view of {D['C']} standing UPRIGHT facing the viewer with both front paws on the tummy, breathing out slowly, inviting the viewer to breathe too.", "", True,
    "Chiqui breathes in, then out slowly, and smiles at the viewer." + CUPV),
-  ("같이 다시 쌓자", "CRTP", MEADOW + f"Chiqui, Roro, Torong and Pio stand around {TOWER48}, rebuilt together, all smiling proudly.", "Exactly one tower of five blocks.", False,
-   "Everyone cheers softly around the tower; the tower stays still. The camera stays still."),
+  ("쏙! 맞았다", "CRTP", MEADOW + f"Roro sits next to {DONE48}, both short arms up in joy; Chiqui, Torong and Pio stand close around and cheer.", "Exactly four pieces, all in the tray.", False,
+   "Roro cheers with both arms up; Chiqui and Pio clap, Torong sways the neck happily; the puzzle stays still. The camera stays still."),
   BAU(MEADOW, "숨을 크게", "stands on all four feet with eyes closed, taking a big calm breath, smiling wisely."),
-  ("다 같이 짝짝", "BCRTP", MEADOW + f"All five friends clap and dance around {TOWER48}.", "Exactly one tower of five blocks.", False,
-   "Chiqui, Roro and Pio clap; Torong sways the neck; Grandpa Bau nods; the tower stays still." + B4V + " The camera stays still."),
+  ("다 같이 짝짝", "BCRTP", MEADOW + f"All five friends clap and dance around {DONE48}.", "Exactly four pieces, all in the tray.", False,
+   "Chiqui, Roro and Pio clap; Torong sways the neck; Grandpa Bau nods; the puzzle stays still." + B4V + " The camera stays still."),
   WAVE(MEADOW, "안녕!"),
  ]))
 
@@ -764,7 +768,7 @@ for _ep in EPS:
 SAMEPIC = {  # 장면: (그림·영상을 만드는 장면, 쓰는 부분)
  "ep46": {"S04": ("S03", "뒷부분"), "S05": ("S10", "앞부분"), "S16": ("S10", "전체")},
  "ep47": {"S06": ("S16", "앞부분")},
- "ep48": {"S04": ("S02", "뒷부분")},
+ "ep48": {},
  "ep50": {"S14": ("S16", "앞부분")},
  "ep51": {"S03": ("S02", "뒷부분"), "S14": ("S13", "뒷부분")},
  "ep53": {"S16": ("S13", "전체")},
