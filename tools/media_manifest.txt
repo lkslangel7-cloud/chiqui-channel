@@ -1194,16 +1194,8 @@ episodes/ep39/images/web/S04_K9J2tZhmpfg.png
 episodes/ep39/images/web/S05_NI82yJeqZok.png
 episodes/ep39/images/web/S06_irxUj9cgoM0.png
 episodes/ep39/images/web/S07_Q6ChzcPeqv8.png
-episodes/ep39/images/web/S09_yeF1quBsqNY.png
-episodes/ep39/images/web/S10_-fKTgfBP4xc.png
-episodes/ep39/images/web/S11_Pu9Re8MuLt0.png
-episodes/ep39/images/web/S12_d0wUYv4ULio.png
-episodes/ep39/images/web/S13_JuCPnO6k-ms.png
-episodes/ep39/images/web/S14_bpkyOAESwvM.png
-episodes/ep39/images/web/S15_L_uryp2VN9c.png
 episodes/ep39/images/web/S16_KPk4xmLzogI.png
 episodes/ep39/images/web/S17_AenPjIZscIk.png
-episodes/ep39/images/web/S18_C0gaIdf_8d8.png
 episodes/ep40/images/web/S02_AsHp2Ch9vqo.png
 episodes/ep40/images/web/S03_-GhE6LIIdIs.png
 episodes/ep40/images/web/S04_rTuVanCinD4.png
