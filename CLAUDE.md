@@ -121,3 +121,4 @@ claude mcp add --transport http higgsfield https://mcp.higgsfield.ai/mcp
 ## 참고: 이전 버전 (레인보우 밸리)
 
 이 문서 이전에 만든 1화 「치키의 세 가지 인사」 자료(`assets/`, `audio/`, `remotion/`, `characters.md`, `pipeline.md`, `songs.md`, `episodes/ep01_*`)는 이전 설정(연두색 치키, 브론티·피코·티노) 기준이다. 이전 규칙은 `archive/CLAUDE_v1_rainbow_valley.md`에 있다. 새 설정과 다르므로 그대로 이어 쓰지 말고, 재사용 여부는 사용자에게 확인한다.
+- (2026-11-27, 사용자: 46화 S07·S12에서 친구들이 갑자기 사라짐) **장면 프롬프트는 앞뒤 장면과 이어서 쓴다**: 다 같이 있던 곳(방·탁자·둥글게 모인 자리)에서 한 친구 이야기를 할 때 넓은 화면에 그 친구 혼자 그리지 않는다 — 다른 친구들도 같은 자리에 그대로 두거나(놀라기·지켜보기), 그 친구만 '가까운 화면(Close view)'으로 잡는다. 장소·시간이 바뀌어 혼자인 장면(혼자 자기·혼자 찾기)만 혼자 그린다. 같은 그림이 되는 장면은 하나로 묶는다(scenes.json samevid).

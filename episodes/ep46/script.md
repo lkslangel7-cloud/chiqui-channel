@@ -22,9 +22,9 @@
 | S09 | 1:05–1:15 | Chiqui, Roro, Torong, Pio | 하하하! 다시 꾸벅 |
 | S10 | 1:15–1:25 | Grandpa Bau | 새해 복 많이 받아라 |
 | S11 | 1:25–1:35 | 없음 | 떡국이에요 |
-| S12 | 1:35–1:45 | Chiqui | 호호 불어요 |
-| S13 | 1:45–1:55 | Roro, Torong, Pio | 냠냠 떡국 |
-| S14 | 1:55–2:00 | Chiqui | 한 살 더! |
+| S12 | 1:35–1:45 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 호호 불어요 |
+| S13 | 1:45–1:55 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 냠냠 떡국 |
+| S14 | 1:55–2:00 | Chiqui, Roro, Torong, Pio | 한 살 더! |
 | S15 | 2:00–2:10 | Chiqui, Roro, Torong, Pio | 쑥쑥 자랐네 |
 | S16 | 2:10–2:20 | Grandpa Bau | 해마다 쑥쑥 |
 | S17 | 2:20–2:30 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 새해 춤 |

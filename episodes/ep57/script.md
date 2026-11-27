@@ -22,7 +22,7 @@
 | S09 | 1:05–1:15 | Chiqui | 문 앞에! |
 | S10 | 1:15–1:25 | Chiqui, Roro, Torong, Pio | 별이 넷 |
 | S11 | 1:25–1:35 | Chiqui, Roro, Torong, Pio | X 표시 |
-| S12 | 1:35–1:45 | Chiqui | 상자를 열어요 |
+| S12 | 1:35–1:45 | Chiqui, Roro, Torong, Pio | 상자를 열어요 |
 | S13 | 1:45–1:55 | 없음 | 반짝 메달 |
 | S14 | 1:55–2:00 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 보물이다! |
 | S15 | 2:00–2:10 | Chiqui | 별은 어디에? |

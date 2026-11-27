@@ -15,12 +15,12 @@
 | S02 | 0:20–0:30 | Chiqui | 커다란 알! |
 | S03 | 0:30–0:35 | Chiqui, Roro, Torong, Pio | 좋아! |
 | S04 | 0:35–0:40 | Chiqui, Roro, Torong, Pio | 누구 알일까? |
-| S05 | 0:40–0:45 | Chiqui | 따뜻하게 |
+| S05 | 0:40–0:45 | Chiqui, Roro, Torong, Pio | 따뜻하게 |
 | S06 | 0:45–0:50 | Chiqui, Roro, Pio | 쉿 들어 봐 |
 | S07 | 0:50–0:55 | 없음 | 톡톡! |
 | S08 | 0:55–1:05 | | (재사용) 1화 치키 달리기 + 2화 다 같이 출발 · 🎵 노래 후렴 |
 | S09 | 1:05–1:15 | Chiqui, Roro, Torong, Pio | 쩍! 금이 갔어 |
-| S10 | 1:15–1:25 | Grandpa Bau | 바우 할아버지 |
+| S10 | 1:15–1:25 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 바우 할아버지 |
 | S11 | 1:25–1:35 | Chiqui, Roro, Torong, Pio | 하나 둘 셋! |
 | S12 | 1:35–1:45 | 없음 | 펑! |
 | S13 | 1:45–1:55 | Chiqui, Roro, Torong, Pio | 와아~ 풍선! |
