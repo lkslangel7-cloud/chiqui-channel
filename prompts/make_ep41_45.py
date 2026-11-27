@@ -259,8 +259,10 @@ EPS["ep45"] = dict(
    "Torong lifts the head up high and holds the pose like the fossil, then smiles; the neck keeps its normal length and never grows longer; all four feet stay on the floor; the fossil does not move."),
   ("내 건 없어?", "P", LIB + FOS + EYE45 + f". {D['P']} stands in front of the three fossils looking a little sad, wings drooping.", "", False, "Pio looks at each fossil, then droops the wings with a small sigh."),
   ("저기 위를 보렴!", "BP", LIB + FOS + EYE45 + f". {D['B']} on all four feet points the nose UP toward the ceiling; {D['P']} looks up.", "", False, "Grandpa Bau lifts the head up toward the ceiling; Pio follows the look up. The camera stays still."),
-  ("날개 화석!", "", LIB + "Looking UP at the round cave ceiling" + HANG45 + ". No characters.", "Exactly one hanging wing fossil.", False,
-   "The hanging fossil sways very gently; nothing else moves."),
+  ("날개 화석!", "", LIB + FOS + HANG45 + ". A wide view of the whole room from a little low, tilted slightly up: the hanging pteranodon fossil is big and bright in the upper middle of the picture, "
+   "and the three fossil displays on their grey stone stands are still clearly visible along the bottom of the picture in the same LEFT-MIDDLE-RIGHT order. No characters.",
+   "Exactly one hanging wing fossil and exactly three fossil displays on stands (four fossils in total).", False,
+   "The hanging fossil sways very gently; the three fossils on the stands stay exactly the same; nothing else moves."),
   ("피오다!", "P", LIB + FOS + HANG45 + f". {D['P']} flies just below the hanging fossil with wings wide open in the same pose as the fossil, a big happy smile.", "Exactly one hanging fossil and exactly one Pio.", False,
    "Pio glides a little to the left and right just below the hanging fossil with the wings spread wide like it, staying the same size inside the frame. The hanging fossil and the three fossils on the stands stay exactly the same."),
   BAU(LIB + FOS + HANG45 + ". ", "뿔이 세 개였단다", "stands next to the LEFT fossil with three horns, smiling wisely, glasses shining."),
