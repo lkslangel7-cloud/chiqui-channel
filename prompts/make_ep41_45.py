@@ -50,7 +50,7 @@ EPS["ep41"] = dict(
          ("바람이 슝슝 불어요","누구 소리일까? (누구?)","피오 소리 (슝슝!)"),("허허허 웃음소리","누구 소리일까? (누구?)","할아버지 (허허!)")],
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "귀를 쫑긋 (쫑긋!)", "누구 소리일까요?", "치키치키 맞혀 봐!"],
  scenes=scenes([
-  ("소리 놀이 하자!", "C", MEADOW + f"{D['C']} stands next to {BUSH}, holding one front paw next to the ear, smiling excitedly.", "Exactly one bush.", False, "Chiqui cups one paw next to the ear and bounces once. The bush stays still."),
+  ("소리 놀이 하자!", "C", MEADOW + f"{D['C']} stands next to {BUSH}, cupping one front paw right against the side of the head next to the ear like listening to a sound (the paw touches the side of the head; NOT waving, the paw is not raised up in the air), smiling excitedly with eyes open.", "Exactly one bush. Count the flowers on the bush: exactly three (1 on top, 1 upper left, 1 upper right); there is NO fourth flower in the front or the middle of the bush.", False, "Chiqui cups one paw next to the ear and bounces once. The bush stays still."),
   CHEER(MEADOW),
   ("쉿, 잘 들어 봐요", "C", MEADOW + f"Close view of {D['C']} with eyes closed and one front paw next to the ear, listening carefully; {BUSH} behind.", "", True, "Chiqui listens with closed eyes, tilting the head slowly. The camera stays still."),
   ("덤불이 흔들흔들", "", MEADOW + f"{BUSH}; its leaves shake a little as if someone is hiding behind it. No characters are visible.", "Exactly one bush. Nobody is visible.", False, "The bush shakes gently two times; nobody comes out. No characters, animals or creatures appear."),
