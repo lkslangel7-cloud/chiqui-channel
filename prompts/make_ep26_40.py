@@ -14,6 +14,18 @@ _ns = {"__file__": str(_p)}
 exec(_src.split("\nEPS = {}")[0], _ns)
 img, vid, scenes, write, D, HOME, NODOLL = (_ns[k] for k in ("img", "vid", "scenes", "write", "D", "HOME", "NODOLL"))
 
+# (2026-11-27, 사용자: 같은 영상을 여러 번 다시 만들지 않게) 37~39화 영상 실패의 대부분이 확대·앵글 바꿈·소품 사라짐이라
+# 모든 영상 프롬프트 끝에 LOCK을 자동으로 붙인다 (40화 영상부터).
+LOCK = (" CAMERA AND FRAMING ARE LOCKED: the first frame is exactly the start image, and the whole clip keeps exactly the same camera angle, "
+        "distance and framing: no zoom in, no zoom out, no push in, no pan, no tilt, no orbit, no new angle, no cut, no close-up. "
+        "Everyone keeps the same size, the same place and the same pose as in the start image and moves only as described; "
+        "nobody comes toward the camera. Every prop and the background stay exactly as in the start image; nothing appears or disappears "
+        "unless described.")
+_vid0 = vid
+def vid(refs, action):
+    return _vid0(refs, action) + LOCK
+_ns["vid"] = vid  # scenes()가 이 vid를 쓰도록
+
 NEAR = "The thing Torong touches is right in front of Torong's mouth, so Torong's neck keeps its normal length and never stretches longer; all four feet stay on the ground. "
 MEADOW = "On a sunny plain green meadow of the volcano-island village with palm trees, round cave houses and the far volcano; the grass is plain green with no lines or paths drawn on it. "
 SCARF = ""
@@ -594,6 +606,34 @@ EPS["ep40"] = dict(
   ("다 같이 춤", "BCRTP", SQUARE + f"All five friends dance together under {LANT}; ALL FIVE lanterns are LIT and glow brightly from inside, including the PURPLE one on the far right, which glows just as brightly as the other four (a bright glowing purple, not dark).", "", False, "Everyone dances; Torong sways the neck; Grandpa Bau's four feet stay on the ground."),
   WAVE(SQUARE, "치키치키 출발!", f" under {LANT}; ALL FIVE lanterns are LIT and glow brightly from inside, including the PURPLE one on the far right, which glows just as brightly as the other four (a bright glowing purple, not dark)"),
  ]))
+
+# (2026-11-27, 사용자: 영상을 여러 번 다시 만들지 않게) 영상 만들기 전에 합격 그림을 한 장씩 보고
+# 그림 속 자세·등불 상태와 맞게 동작을 다시 적는다. 앞으로 가기·내려앉기·튀어나오기처럼 크기/자리가 바뀌는 말은 쓰지 않는다.
+OFF5 = " All five lanterns stay UNLIT (not glowing) the whole time."
+ON4 = " The orange, yellow, green and sky-blue lanterns keep glowing; the PURPLE lantern stays DARK (unlit) the whole time."
+ON5 = " All five lanterns, including the PURPLE one, keep glowing brightly the whole time."
+B4 = " Grandpa Bau keeps exactly 4 legs with all four feet flat on the ground; he never lifts a front foot."
+VIDFIX = {"ep40": {
+ "S02": "Nothing moves except the five lanterns swaying a little on the rope." + OFF5,
+ "S03": "Chiqui, in the middle of the plaza, hops once in place and cheers with both front paws up." + OFF5,
+ "S04": "Grandpa Bau nods once and smiles warmly." + B4 + OFF5,
+ "S05": "The friends cheer and bounce a little in place." + OFF5,
+ "S06": "The four lanterns glow softly and sway a little; nothing else moves." + ON4,
+ "S07": "Chiqui hops once in place and turns around once on the same spot, smiling." + ON4,
+ "S09": "Roro wiggles the hips and hops three times on the same spot." + ON4,
+ "S10": "Torong sways the long neck left and right three times; all four feet stay on the ground." + ON4,
+ "S11": "Pio flies one small circle in the air in the middle of the plaza and comes back to the same spot, staying the same size; Pio does not land and does not fly toward the camera." + ON4,
+ "S12": "Chiqui sings with the mouth open and sways left and right on the same spot." + ON4,
+ "S13": "They look up at the dark purple lantern, point at it and tilt their heads." + ON4,
+ "S14": "Chiqui looks at the viewer, tilts the head once and waits." + ON4,
+ "S15": "Everyone cheers and bounces a little in place." + B4 + ON5,
+ "S16": "Grandpa Bau nods once and smiles warmly." + B4 + ON5,
+ "S17": "Everyone dances in place: Chiqui and Roro bounce, Pio flaps, Torong sways the neck, Grandpa Bau sways the body and wags the tail club." + B4 + ON5,
+ "S18": "Chiqui, Roro and Pio wave at the viewer; Grandpa Bau nods and wags the tail club; Torong sways the long neck side to side with all four feet on the ground." + B4 + ON5,
+}}
+for _e, _fx in VIDFIX.items():
+    if _e in EPS:
+        EPS[_e]["scenes"] = [t[:6] + (vid(t[3], _fx[t[0]]),) if t[0] in _fx else t for t in EPS[_e]["scenes"]]
 
 for ep, e in EPS.items():
     write(ep, e)

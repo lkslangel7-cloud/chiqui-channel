@@ -228,6 +228,30 @@ EPS["ep45"] = dict(
   WAVE(MEADOW, "안녕!"),
  ]))
 
+# (2026-11-27, 사용자: 영상을 여러 번 다시 만들지 않게) 합격 그림을 보고 동작을 그림 자세에 맞춤.
+# 그림에서 이미 나와 있는 친구는 "튀어나온다" 대신 제자리 동작, 앞으로 걷기·내려앉기 금지.
+_B4 = " Grandpa Bau keeps exactly 4 legs with all four feet flat on the ground; he never lifts a front foot."
+_BUSHV = " The one round green bush with three cream flowers on top stays exactly the same, in the same place, the whole time."
+VIDFIX = {"ep41": {
+ "S02": "Chiqui cups one front paw next to the ear and bounces once on the same spot." + _BUSHV,
+ "S04": "Chiqui listens with closed eyes, tilting the head slowly; the paw stays next to the ear." + _BUSHV,
+ "S05": "The bush shakes gently two times; nobody comes out and nobody is visible." + _BUSHV,
+ "S06": "Chiqui, Torong and Pio lean a little toward the bush, then look at each other, curious; they stay on the LEFT of the bush." + _BUSHV,
+ "S07": "Roro, already standing at the RIGHT side of the bush as in the start image, hops once on the same spot, roars a friendly roar with both arms up, then laughs. Only one Roro appears." + _BUSHV,
+ "S09": "Everyone laughs on the same spot; Roro scratches the head once." + _BUSHV,
+ "S10": "Torong's small head above the bush bobs up and down two times; Torong's body stays hidden behind the bush; nothing else appears." + _BUSHV,
+ "S11": "Torong, already standing at the RIGHT side of the bush, tilts the long neck to one side and smiles; all four feet stay on the ground; Torong does not walk." + _BUSHV,
+ "S12": "Pio glides a little to the RIGHT above the bush, flapping the wings, and stays in the sky inside the frame at the same size; Pio does not land and does not fly toward the camera." + _BUSHV,
+ "S13": "Grandpa Bau laughs with eyes squeezed shut, nodding the head three times." + _B4 + _BUSHV,
+ "S14": "The orange frill with three cream horns behind the bush wiggles left and right two times; nothing else appears." + _BUSHV,
+ "S15": "Chiqui, already beside the bush as in the start image, hops once on the same spot with both front paws up and laughs. Only one Chiqui appears." + _BUSHV,
+ "S16": "Grandpa Bau nods once and smiles wisely." + _B4 + _BUSHV,
+ "S17": "Everyone opens the mouth and calls out happily two times on the same spot; Pio flaps; Torong sways the neck; Grandpa Bau nods." + _B4 + _BUSHV,
+}}
+for _e, _fx in VIDFIX.items():
+    if _e in EPS:
+        EPS[_e]["scenes"] = [t[:6] + (vid(t[3], _fx[t[0]]),) if t[0] in _fx else t for t in EPS[_e]["scenes"]]
+
 for ep, e in EPS.items():
     write(ep, e)
 
