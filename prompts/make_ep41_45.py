@@ -36,7 +36,7 @@ EPS = {}
 
 # ---------------- 41화 누구 소리일까? (소리 흉내 놀이) ----------------
 BUSH = ("THE SAME one big round green bush in the MIDDLE of the meadow in every scene, as tall as Grandpa Bau, "
-        "with small cream flowers on top; nothing is hidden in front of it")
+        "with exactly THREE cream flowers with yellow centers on it (one on the very top in the middle, one on the upper left, one on the upper right) and no other flowers on it; nothing is hidden in front of it; the waterfall in the background is on the RIGHT side")
 EPS["ep41"] = dict(
  title="41화. 누구 소리일까? — 소리 흉내 놀이", short="누구 소리일까?", song_id="sound", song_short="소리 노래",
  theme="소리 듣고 누구인지 맞히기, 소리 흉내 내기(크앙·쿵쿵·슝·허허). 화면 밖 아이가 먼저 맞히게 쉬어 준다.",
