@@ -155,6 +155,10 @@ EPS["ep43"] = dict(
 # ---------------- 44화 나눠 먹어요! (귤 나누기) ----------------
 BASKET44 = "one round woven ORANGE basket"
 TABLE44 = "one low round wooden table on the grass"
+def ROW44(n):
+    w = ["", "ONE", "TWO", "THREE", "FOUR", "FIVE"][n]
+    return (f"exactly {w} ({n}) small round bright-orange tangerines with little green leaves standing in ONE straight row side by side on the table top, "
+            f"evenly spaced apart and not touching, easy to count from left to right ({', '.join(str(i) for i in range(1, n + 1))}); no other tangerines on the table")
 EPS["ep44"] = dict(
  title="44화. 나눠 먹어요! — 하나씩 나눠요", short="나눠 먹어요!", song_id="share", song_short="나눔 노래",
  theme="나눠 먹기, 하나씩 세며 건네기(1~5). 나누면 모두 웃어요. 바우·토롱은 탁자 위 귤을 입으로.",
@@ -176,19 +180,23 @@ EPS["ep44"] = dict(
   # (2026-11-27, 사용자: 자꾸 빈 바구니만 나옴 — 프롬프트에 귤이 빠져 있었음) 귤 5개가 가득 든 바구니를 두 팔로 안고 있게
   ("음…", "C", MEADOW + f"Close view of {D['C']} hugging {BASKET44} in both front paws against the tummy; the basket is FULL: exactly FIVE small round bright-orange tangerines with little green leaves are piled up inside it and clearly visible above the rim (the basket is NOT empty). Chiqui is thinking with the head tilted, looking at the viewer. Same basket and tangerines as in the reference image.", "Exactly one basket with exactly five tangerines inside; the basket is never empty and never on the ground.", True,
    "Chiqui keeps hugging the full basket (five tangerines stay inside the whole time), tilts the head two times, thinking, then smiles brightly."),
-  ("하나씩 나눠 먹자!", "CRTP", MEADOW + f"{D['C']} sets {BASKET44} with five tangerines on {TABLE44}; Roro, Torong and Pio stand around the table smiling.", "Exactly one basket, exactly five tangerines, exactly one table.", False,
-   "Chiqui puts the basket on the table and opens the paws wide; the friends cheer. The camera stays still."),
-  ("하나, 로로!", "CR", MEADOW + f"{D['C']} hands one tangerine to {D['R']}; Roro takes it with both short arms, smiling; {BASKET44} on {TABLE44} now has four tangerines.", "Roro holds exactly one tangerine; the basket has exactly four.", False,
-   "Chiqui gives one tangerine to Roro; Roro hugs it and says thank you with a nod."),
-  ("둘, 토롱!", "CT", MEADOW + f"{D['C']} places one tangerine on {TABLE44} right in front of {D['T']}'s mouth; the basket now has three tangerines.", "Exactly one tangerine in front of Torong; the basket has exactly three.", False,
-   NEAR + "Chiqui puts one tangerine on the table in front of Torong; Torong lowers the head and smiles; Torong never holds the tangerine."),
-  ("셋, 피오!", "CP", MEADOW + f"{D['C']} hands one tangerine to {D['P']}; Pio holds it between both wing tips, happy; {BASKET44} on {TABLE44} now has two tangerines.", "Pio holds exactly one tangerine; the basket has exactly two.", False,
-   "Chiqui gives one tangerine to Pio; Pio hugs it with the wing tips and hops once."),
-  ("넷, 할아버지!", "BC", MEADOW + f"{D['C']} places one tangerine on {TABLE44} right in front of {D['B']}'s mouth; Grandpa Bau stands on all four feet; the basket now has one tangerine.", "Exactly one tangerine in front of Grandpa Bau; the basket has exactly one.", False,
-   "Chiqui puts one tangerine on the table in front of Grandpa Bau; Grandpa Bau nods with a warm smile; Grandpa Bau never holds it and all four feet stay on the ground."),
-  ("다섯, 내 거!", "C", MEADOW + f"{D['C']} holds up the last tangerine from the now EMPTY {BASKET44}, beaming.", "Chiqui holds exactly one tangerine; the basket is empty.", True, "Chiqui lifts the last tangerine high and cheers."),
-  ("잘 먹겠습니다!", "BCRTP", MEADOW + f"All five friends stand around {TABLE44}; Chiqui, Roro and Pio each hold ONE tangerine, and one tangerine lies on the table in front of Torong's mouth and one in front of Grandpa Bau's mouth; the empty basket on the table.", "Exactly five tangerines in total, one for each friend.", False,
-   "Everyone bows the head once together politely; nobody eats yet. Torong and Grandpa Bau keep all four feet on the ground. The camera stays still."),
+  # (2026-11-27, 사용자: S07부터 귤이 안 줄고 개수가 제멋대로) 바구니 속 개수는 그림이 못 지킨다 →
+  # S06에서 귤을 탁자 위에 한 줄로 늘어놓고, 장면마다 "탁자 위 한 줄 N개 + 받는 친구 1개"로 센다.
+  # 그림은 '건네는 순간', 영상은 '받기만' (영상에서 새 귤이 생기거나 줄 개수가 바뀌지 않게).
+  ("하나씩 나눠 먹자!", "CRTP", MEADOW + f"{TABLE44} with {ROW44(5)}; the EMPTY {BASKET44} sits on the grass beside the table; Chiqui stands behind the table with both paws open wide; Roro, Torong and Pio stand around the table smiling.", "Exactly five tangerines in total, all in the one row on the table; the basket is empty.", False,
+   "Chiqui opens the paws wide and smiles; the friends cheer. Nobody touches the tangerines: the row of exactly FIVE tangerines on the table never changes."),
+  ("하나, 로로!", "CR", MEADOW + f"{TABLE44} with {ROW44(4)}; {D['C']} stands next to the table holding ONE more tangerine out in one front paw toward {D['R']}; Roro reaches for it with both short arms, smiling.", "Exactly five tangerines in total: four in the row on the table and one in Chiqui's paw.", False,
+   "Roro takes the one tangerine from Chiqui's paw, hugs it and nods thank you. The row of exactly FOUR tangerines on the table never changes; no tangerine appears or disappears."),
+  ("둘, 토롱!", "CT", MEADOW + f"{TABLE44} with {ROW44(3)} on the LEFT half of the table; ONE more tangerine lies alone on the RIGHT edge of the table, right in front of {D['T']}'s mouth; {D['C']} stands beside the table smiling.", "Exactly four tangerines on the table: three in the row and one alone in front of Torong.", False,
+   NEAR + "Torong lowers the head a little toward the single tangerine in front of the mouth, sniffs it and smiles; Torong never holds it. Chiqui claps once. The row of exactly THREE tangerines never changes; no tangerine appears or disappears."),
+  ("셋, 피오!", "CP", MEADOW + f"{TABLE44} with {ROW44(2)}; {D['C']} stands next to the table holding ONE more tangerine out in one front paw toward {D['P']}; Pio reaches for it with both wing tips, happy.", "Exactly three tangerines in total: two in the row on the table and one in Chiqui's paw.", False,
+   "Pio takes the one tangerine from Chiqui's paw between both wing tips, hugs it and hops once. The row of exactly TWO tangerines on the table never changes; no tangerine appears or disappears."),
+  ("넷, 할아버지!", "BC", MEADOW + f"{TABLE44} with {ROW44(1)} on the LEFT side of the table; ONE more tangerine lies alone on the RIGHT edge of the table, right in front of {D['B']}'s mouth; Grandpa Bau stands on all four feet; {D['C']} stands beside the table smiling.", "Exactly two tangerines on the table: one on the left and one in front of Grandpa Bau.", False,
+   "Grandpa Bau nods with a warm smile at the tangerine in front of his mouth; Grandpa Bau never holds it and all four feet stay on the ground. Chiqui smiles. The ONE tangerine on the left of the table never moves; no tangerine appears or disappears."),
+  ("다섯, 내 거!", "C", MEADOW + f"Close view of {D['C']} holding up exactly ONE tangerine high in one front paw, beaming; the table top behind is EMPTY with no tangerines on it.", "Chiqui holds exactly one tangerine; there are no other tangerines anywhere.", True,
+   "Chiqui lifts the one tangerine a little higher and cheers. No other tangerine appears."),
+  ("잘 먹겠습니다!", "BCRTP", MEADOW + f"All five friends stand around {TABLE44}; Chiqui, Roro and Pio each hold ONE tangerine, one tangerine lies on the table right in front of Torong's mouth and one right in front of Grandpa Bau's mouth; nothing else is on the table; the empty basket sits on the grass.", "Exactly five tangerines in total, one for each friend, and no others.", False,
+   "Everyone bows the head once together politely; nobody eats yet; every friend keeps exactly the one tangerine. Torong and Grandpa Bau keep all four feet on the ground. The camera stays still."),
   ("냠!", "BCRTP", MEADOW + f"All five friends around {TABLE44} each take a bite of their own tangerine at the same time: Chiqui, Roro and Pio bite the tangerine they hold; Torong and Grandpa Bau bite the tangerine on the table right in front of their mouths.", "Exactly five tangerines.", False,
    "Everyone takes one bite at the same time; a small bite mark shows on each tangerine; everyone smiles with full cheeks. Torong and Grandpa Bau keep all four feet on the ground and never hold the tangerine. The camera stays still."),
   ("맛있다!", "C", MEADOW + f"Close view of {D['C']} with full happy cheeks, holding a half-eaten tangerine (a bite mark shows), eyes closed in joy.", "", True, "Chiqui chews happily and rocks side to side."),
@@ -203,6 +211,10 @@ LIB = ("INDOORS inside Grandpa Bau's fossil library: one big round cave room wit
 FOS = ("THE SAME three cute cream-colored clay fossil displays in every scene, each on one low round grey stone stand, in this fixed order from LEFT to RIGHT: "
        "LEFT = one fossil skull with THREE horns and a round frill; MIDDLE = one big fossil skull with a big toothy smile and two tiny arms below it; "
        "RIGHT = one long curved fossil neck with a small head on top; the fossils are smooth, rounded and friendly, never scary, never broken")
+# (2026-11-27) 날개 화석은 S14에서 처음 보여 준다: 그 전에는 천장이 안 보이게(눈높이), S14부터는 늘 같은 자리에 매달려 있게.
+EYE45 = ". The view is at eye level toward the fossils; the ceiling is out of view and nothing hangs above"
+HANG45 = ("; ONE big cute cream clay pteranodon fossil with wide wings and a pointed crest hangs from the ceiling on two thin ropes, high above the middle of the room "
+          "(exactly one hanging fossil, always in the same place)")
 EPS["ep45"] = dict(
  title="45화. 화석 도서관 탐험! — 공룡 상식 특집", short="화석 도서관 탐험!", song_id="fossil", song_short="화석 노래",
  theme="바우 할아버지의 화석 도서관. 화석 세 개를 보고 우리 친구들과 닮은 진짜 공룡 맞히기(트리케라톱스·티라노사우루스·브라키오사우루스).",
@@ -216,29 +228,30 @@ EPS["ep45"] = dict(
          ("목이 길쭉길쭉","누구를 닮았나? (누구?)","토롱 닮았네 (토롱!)"),("하늘 위 날개 화석","누구를 닮았나? (누구?)","피오 닮았네 (피오!)")],
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "화석 화석 누구일까? (누구?)", "할아버지 따라가요", "치키치키 탐험!"],
  scenes=scenes([
-  ("화석 도서관", "", LIB + FOS + ". No characters.", "Exactly three fossil displays.", False, "Warm lamp light flickers softly; nothing moves."),
-  ("환영한다!", "B", LIB + FOS + f". {D['B']} stands on all four feet in front of the bookshelves, smiling warmly, glasses shining.", "", False,
+  ("화석 도서관", "", LIB + FOS + EYE45 + ". No characters.", "Exactly three fossil displays.", False, "Warm lamp light flickers softly; nothing moves."),
+  ("환영한다!", "B", LIB + FOS + EYE45 + f". {D['B']} stands on all four feet in front of the bookshelves, smiling warmly, glasses shining.", "", False,
    "Grandpa Bau nods two times in welcome and wags the tail club; all four feet stay on the floor. The camera stays still."),
-  ("와아~", "CRTP", LIB + FOS + ". Chiqui, Roro, Torong and Pio stand in the doorway area looking around with wide amazed eyes.", "", False, "The friends gasp and look around slowly. The camera stays still."),
-  ("누구를 닮았을까?", "B", LIB + FOS + f". Close view of {D['B']} pointing with the nose toward the fossils, eyebrows raised playfully.", "", True, "Grandpa Bau turns the head toward the fossils and smiles."),
+  ("와아~", "CRTP", LIB + FOS + EYE45 + ". Chiqui, Roro, Torong and Pio stand in the doorway area looking around with wide amazed eyes.", "", False, "The friends gasp and look around slowly. The camera stays still."),
+  ("누구를 닮았을까?", "B", LIB + FOS + EYE45 + f". Close view of {D['B']} pointing with the nose toward the fossils, eyebrows raised playfully.", "", True, "Grandpa Bau turns the head toward the fossils and smiles."),
   ("뿔이 셋!", "", LIB + "Close view of the LEFT fossil display only: one cute cream clay fossil skull with THREE horns and a round frill on a low round grey stone stand. No characters.", "Exactly one fossil skull with exactly three horns.", True,
    "Soft light glows on the fossil; nothing moves."),
-  ("치키다!", "C", LIB + FOS + f". {D['C']} stands next to the LEFT fossil with three horns, copying its pose proudly, the two heads side by side.", "", False,
+  ("치키다!", "C", LIB + FOS + EYE45 + f". {D['C']} stands next to the LEFT fossil with three horns, copying its pose proudly, the two heads side by side.", "", False,
    "Chiqui turns the head to the fossil, then to the viewer, and laughs. The fossil does not move."),
   ("이빨이 커다래!", "", LIB + "Close view of the MIDDLE fossil display only: one big cute cream clay fossil skull with a big toothy smile and two tiny arms, on a low round grey stone stand. No characters.", "Exactly one fossil skull.", True,
    "Soft light glows on the fossil; nothing moves."),
-  ("로로다!", "R", LIB + FOS + f". {D['R']} stands next to the MIDDLE fossil, showing a big toothy grin and holding up two short arms, just like the fossil.", "", False,
+  ("로로다!", "R", LIB + FOS + EYE45 + f". {D['R']} stands next to the MIDDLE fossil, showing a big toothy grin and holding up two short arms, just like the fossil.", "", False,
    "Roro grins wide and wiggles the two short arms; the fossil does not move."),
-  ("목이 길쭉!", "T", LIB + FOS + f". {D['T']} stands on all four feet next to the RIGHT fossil with the long curved neck, stretching the own long neck up the same way.", "", False,
-   "Torong stretches the neck up slowly beside the fossil and smiles; all four feet stay on the floor."),
-  ("내 건 없어?", "P", LIB + FOS + f". {D['P']} stands in front of the three fossils looking a little sad, wings drooping.", "", False, "Pio looks at each fossil, then droops the wings with a small sigh."),
-  ("저기 위를 보렴!", "BP", LIB + FOS + f". {D['B']} on all four feet points the nose UP toward the ceiling; {D['P']} looks up.", "", False, "Grandpa Bau lifts the head up toward the ceiling; Pio follows the look up. The camera stays still."),
-  ("날개 화석!", "", LIB + "Looking UP at the round cave ceiling: one big cute cream clay pteranodon fossil with wide wings and a pointed crest hangs from the ceiling on two thin ropes. No characters.", "Exactly one hanging wing fossil.", False,
+  ("목이 길쭉!", "T", LIB + FOS + EYE45 + f". {D['T']} stands on all four feet next to the RIGHT fossil with the long curved neck, stretching the own long neck up the same way.", "", False,
+   "Torong lifts the head up high and holds the pose like the fossil, then smiles; the neck keeps its normal length and never grows longer; all four feet stay on the floor; the fossil does not move."),
+  ("내 건 없어?", "P", LIB + FOS + EYE45 + f". {D['P']} stands in front of the three fossils looking a little sad, wings drooping.", "", False, "Pio looks at each fossil, then droops the wings with a small sigh."),
+  ("저기 위를 보렴!", "BP", LIB + FOS + EYE45 + f". {D['B']} on all four feet points the nose UP toward the ceiling; {D['P']} looks up.", "", False, "Grandpa Bau lifts the head up toward the ceiling; Pio follows the look up. The camera stays still."),
+  ("날개 화석!", "", LIB + "Looking UP at the round cave ceiling" + HANG45 + ". No characters.", "Exactly one hanging wing fossil.", False,
    "The hanging fossil sways very gently; nothing else moves."),
-  ("피오다!", "P", LIB + FOS + f". {D['P']} flies up near the ceiling with wings wide open, copying the hanging pteranodon fossil, a big happy smile.", "", False, "Pio flies one small circle under the hanging fossil and spreads the wings wide like it."),
-  BAU(LIB + FOS + ". ", "뿔이 세 개였단다", "stands next to the LEFT fossil with three horns, smiling wisely, glasses shining."),
-  ("다 같이 탐험!", "BCRTP", LIB + FOS + ". All five friends stand in front of the three fossils, each next to the fossil that looks like them, smiling proudly; Pio flies above.", "", False,
-   "Everyone cheers; Pio flaps; Torong sways the neck; Grandpa Bau nods with all four feet on the floor. The camera stays still."),
+  ("피오다!", "P", LIB + FOS + HANG45 + f". {D['P']} flies just below the hanging fossil with wings wide open in the same pose as the fossil, a big happy smile.", "Exactly one hanging fossil and exactly one Pio.", False,
+   "Pio glides a little to the left and right just below the hanging fossil with the wings spread wide like it, staying the same size inside the frame. The hanging fossil and the three fossils on the stands stay exactly the same."),
+  BAU(LIB + FOS + HANG45 + ". ", "뿔이 세 개였단다", "stands next to the LEFT fossil with three horns, smiling wisely, glasses shining."),
+  ("다 같이 탐험!", "BCRTP", LIB + FOS + HANG45 + ". All five friends stand in front of the three fossils, each next to the fossil that looks like them (Chiqui at the LEFT fossil, Roro at the MIDDLE fossil, Torong at the RIGHT fossil, Grandpa Bau beside Chiqui), smiling proudly; Pio flies just below the hanging fossil.", "", False,
+   "Everyone cheers on the same spot; Pio flaps the wings below the hanging fossil; Torong sways the neck; Grandpa Bau nods with all four feet on the floor. All fossils stay exactly the same. The camera stays still."),
   WAVE(MEADOW, "안녕!"),
  ]))
 
@@ -266,6 +279,12 @@ VIDFIX = {"ep41": {
  "S02": "Chiqui coughs two times on the same spot, then sniffles. The ORANGE scarf stays on the neck the whole time.",
  "S11": "Chiqui rubs the paws together three times in the basin; the ORANGE bubbles grow a little; then Chiqui rinses the paws in the water and smiles. The ORANGE scarf stays on. The one grey stone basin stays in the same place.",
  "S17": "The friends play tag on the same spot: they hop and dodge a little to the left and right and laugh, staying in the same places at the same size; nobody runs out of the frame or toward the camera. No scarf.",
+ },
+ # (2026-11-27 합격 그림 확인) S02·S04·S05 그림은 북이 바우 머리 쪽(오른쪽)에 있어 꼬리 곤봉이 닿지 않음 → 코끝으로 북 두드리기
+ "ep43": {
+ "S02": "Grandpa Bau bends the head down and taps the cream drum top gently with the nose two times, then smiles; the drum stays in the same place on his RIGHT; the tail club stays on the LEFT and never touches the drum." + _B4,
+ "S04": "Grandpa Bau raises the white eyebrows and tilts the head with a playful smile; the drum stays still in the same place on his RIGHT." + _B4,
+ "S05": "Chiqui, Roro and Pio dance and bounce on the same spot; Torong sways the long neck; Grandpa Bau, at the far RIGHT, bends the head down and taps the drum top gently with the nose two times; the drum stays in the same place." + _B4,
 }}
 for _e, _fx in VIDFIX.items():
     if _e in EPS:
