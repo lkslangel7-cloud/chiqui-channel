@@ -1252,6 +1252,16 @@ episodes/ep40/images/web/S15_ymZBKtMCRnE.png
 episodes/ep40/images/web/S16_cRLnhk7JdNU.png
 episodes/ep40/images/web/S17__MiwGAIibkw.png
 episodes/ep40/images/web/S18___Oy801JqtM.png
+episodes/ep41/clips/web/S02__vWeoT3VbPw.mp4
+episodes/ep41/clips/web/S09_VGkBELjg0Vw.mp4
+episodes/ep41/clips/web/S10_ToBywjHEp-c.mp4
+episodes/ep41/clips/web/S11_8FGZ509TsP0.mp4
+episodes/ep41/clips/web/S12_7B0JCd6nVr0.mp4
+episodes/ep41/clips/web/S13_jV_YtzmUPTw.mp4
+episodes/ep41/clips/web/S14_DwUzR8zZt8Y.mp4
+episodes/ep41/clips/web/S15_G41VxxAXN6I.mp4
+episodes/ep41/clips/web/S16_5bd2V0LHAh8.mp4
+episodes/ep41/clips/web/S17_1bILuSkcsNY.mp4
 episodes/ep41/images/web/S02_lFjE0NyY2Ms.png
 episodes/ep41/images/web/S04_1lNhIv3UgBs.png
 episodes/ep41/images/web/S05_T6MvCXvz32I.png
