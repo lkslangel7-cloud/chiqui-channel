@@ -1266,9 +1266,15 @@ episodes/ep42/images/web/S15_DYAzLyAigEs.png
 episodes/ep42/images/web/S16_SHfqi0AMZJo.png
 episodes/ep42/images/web/S17_EU6EL_jraZk.png
 episodes/ep43/images/web/S02_ZGtDs337S58.png
+episodes/ep43/images/web/S04_duJijvtcC-g.png
 episodes/ep43/images/web/S05_7-UTUsJ4wzg.png
 episodes/ep43/images/web/S06_sndwK0kV5y0.png
+episodes/ep43/images/web/S07_UE6XrVFGhdA.png
+episodes/ep43/images/web/S09_zhNRtul2kBg.png
 episodes/ep43/images/web/S10_A1f8EPMwWJo.png
+episodes/ep43/images/web/S11_zsnvcL5Kwc0.png
+episodes/ep43/images/web/S12_vB9dUGseTeU.png
 episodes/ep43/images/web/S13_FlnlRgsEdjI.png
 episodes/ep43/images/web/S14_nAGFsQMtSDU.png
 episodes/ep43/images/web/S15_0ViqycKg69E.png
+episodes/ep43/images/web/S16_P9pppUvI5mc.png

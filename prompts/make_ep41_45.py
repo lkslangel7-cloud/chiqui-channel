@@ -146,7 +146,7 @@ EPS["ep43"] = dict(
    "Everyone stays completely still for the whole clip; nobody moves at all. The camera stays still."),
   ("꼼짝 않고 숨어서", "B", MEADOW + f"{D['B']} crouches very low and flat on the grass next to {DRUM43}, legs tucked under the round body, perfectly still like a big round rock, hiding; only the eyes peek to one side, a tiny playful smile." + DRUMLOOK + DRUMR + B4I, "Exactly one drum.", False,
    "Grandpa Bau stays perfectly still like a rock for the whole clip; only the eyes glance left and right once and he gives a tiny smile. All four feet stay under the body. The camera stays still."),
-  ("다 같이 둥둥", "BCRTP", MEADOW + f"All five friends dance together on the meadow; {D['B']} stands on all four feet behind {DRUM43} and taps it with the tail club." + DRUMLOOK, "Exactly one drum.", False,
+  ("다 같이 둥둥", "BCRTP", MEADOW + f"All five friends dance together on the meadow; {D['B']} stands on all four feet on the far RIGHT of the picture, facing LEFT toward the friends, behind {DRUM43}; the drum is at the far RIGHT edge, on Grandpa Bau's tail side, and he taps it with the tail club (the same layout as the 'dance' scene: Grandpa Bau and the drum on the RIGHT, the four friends on the LEFT)." + DRUMLOOK, "Exactly one drum.", False,
    "Chiqui, Roro and Pio dance; Torong sways the neck; Grandpa Bau taps the drum with the tail club; all four of Grandpa Bau's feet stay on the ground. The camera stays still."),
   WAVE(MEADOW, "안녕!"),
  ]))
