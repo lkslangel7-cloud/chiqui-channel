@@ -47,11 +47,15 @@ def common_note(s):
     st = "그림·영상 모두 있어요 → 이 장면은 아무것도 만들지 마세요" if has_img and has_vid else ("그림은 있어요 → 영상만 한 번 만들면 다른 화도 같이 써요" if has_img else "아직 없어요 → 이 화에서 한 번만 만들면 다른 화도 같이 써요")
     return (f'<p class="common">🔁 <b>공통 컷</b> · {e(COMMON.get(cid, {}).get("name", cid))} — 여러 화에 똑같이 나오는 장면이라 한 번만 만들어요. {e(st)}</p>')
 
+def samevid_note(s):  # 그림이 같은 다른 장면의 영상을 같이 쓴다 (영상은 그 장면에서 한 번만)
+    o = s.get("samevid")
+    return (f'<p class="common">🔁 <b>같은 영상</b> · 이 장면은 <b>{e(o)}</b>와 그림이 같아요. 영상은 {e(o)}에서 한 번만 만들고 이 장면은 그 앞부분을 써요 → 영상을 만들지 마세요</p>') if o else ""
+
 cards = []
 for i, s in enumerate(scenes, 1):
     cards.append(f'''<article class="scene" id="{s['id'].lower()}">
   <header class="scene-head"><span class="sid">{i}/{len(scenes)} · {e(s['id'])}</span><h2>{e(s['name'])}</h2><span class="time">{e(s['time'])}</span></header>
-  {common_note(s)}
+  {common_note(s)}{samevid_note(s)}
   <div class="step"><b>① 나오는 친구</b> <span class="chips">{chips(s['refs'])}</span></div>
   <div class="step"><b>② 그림 만들기</b> · 16:9</div>
   {box("그림 프롬프트", s['id'] + "-i", s['img'])}

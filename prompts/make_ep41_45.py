@@ -284,8 +284,10 @@ VIDFIX = {"ep41": {
  "ep43": {
  "S02": "Grandpa Bau bends the head down and taps the cream drum top gently with the nose two times, then smiles; the drum stays in the same place on his RIGHT; the tail club stays on the LEFT and never touches the drum." + _B4,
  "S04": "Grandpa Bau raises the white eyebrows and tilts the head with a playful smile; the drum stays still in the same place on his RIGHT." + _B4,
- "S05": "Chiqui, Roro and Pio dance and bounce on the same spot; Torong sways the long neck; Grandpa Bau, at the far RIGHT, bends the head down and taps the drum top gently with the nose two times; the drum stays in the same place." + _B4,
+ "S05": "Chiqui, Roro and Pio dance and bounce on the same spot; Torong sways the long neck; Grandpa Bau, at the far RIGHT, bends the head down and taps the drum top gently with the nose two times; the drum stays in the same place." + _B4, "S17": "Chiqui, Roro and Pio dance and bounce on the same spot; Torong sways the long neck; Grandpa Bau, at the far RIGHT, bends the head down and taps the drum top gently with the nose four times; the drum stays in the same place." + _B4,
 }}
+# (2026-11-27, 사용자: 같이 써줘) 43화 S17 그림이 S05와 같음 → 영상은 S17(10초) 하나만 만들고 S05는 그 앞 5초를 쓴다.
+SAMEVID = {"ep43": {"S05": "S17"}}
 for _e, _fx in VIDFIX.items():
     if _e in EPS:
         EPS[_e]["scenes"] = [t[:6] + (vid(t[3], _fx[t[0]]),) if t[0] in _fx else t for t in EPS[_e]["scenes"]]
@@ -310,6 +312,8 @@ for _ep in EPS:
     _f = _ROOT / f"episodes/{_ep}/scenes.json"
     _sc = _json.loads(_f.read_text(encoding="utf-8"))
     for _s in _sc:
+        if SAMEVID.get(_ep, {}).get(_s["id"]): _s["samevid"] = SAMEVID[_ep][_s["id"]]
+        else: _s.pop("samevid", None)
         _v = _groups[_s["img"]]
         if _s["img"] in _known: _s["common"] = _known[_s["img"]]
         elif len(_v) > 1: _s["common"] = _COMMON_NAME.get(_v[0][2], f"common_{_v[0][0]}_{_v[0][1]}")

@@ -74,6 +74,8 @@ def progress(x):
         c = s_.get("common")
         if c and _has_common("images", c, "png"): img.append(s_["id"])
         if c and _has_common("clips", c, "mp4"): vid.append(s_["id"])
+    for s_ in scs:  # 같은 영상: 다른 장면(samevid)의 영상이 있으면 이 장면도 있는 것으로 센다
+        if s_.get("samevid") and s_["samevid"] in vid: vid.append(s_["id"])
     song = any((d / "audio/songs").glob("*.wav")) or any((d / "audio/songs").glob("*.mp3"))
     voice = any((d / "audio/ko").glob("*.wav")) if (d / "audio/ko").exists() else False
     done = "file" in x
