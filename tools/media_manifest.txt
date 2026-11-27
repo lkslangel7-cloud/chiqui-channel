@@ -1414,6 +1414,7 @@ episodes/ep49/images/web/S09_9mZYPh2VYy0.png
 episodes/ep49/images/web/S10_QpDJ9kq8J5Y.png
 episodes/ep49/images/web/S11_iOSwfLjPLuI.png
 episodes/ep49/images/web/S12_LPrzmdPc-ak.png
+episodes/ep49/images/web/S13_pa09xcb8rGs.png
 episodes/ep49/images/web/S14_xaRInAEkVJQ.png
 episodes/ep49/images/web/S15_Fbda9X4u5pE.png
 episodes/ep49/images/web/S17_MXQA4EAemlE.png
