@@ -152,7 +152,7 @@ EPS["ep48"] = dict(
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "화가 나면 (후~!)", "숨을 크게 쉬어요", "치키치키 후~!"],
  scenes=scenes([
   ("탑 쌓기", "R", MEADOW + f"{D['R']} stands next to {TOWER48.replace('exactly FIVE', 'exactly FOUR').replace(', PURPLE', '')}, holding one PURPLE block up in both short arms, about to put it on top.", "Exactly four blocks in the tower and one in Roro's arms.", False,
-   "Roro carefully places the PURPLE block on top of the tower; now the tower has five blocks."),
+   "Roro carefully places the PURPLE block on top of the tower; now the tower has five blocks; then Roro steps back a little and cheers proudly with both short arms up. The tower stays still."),
   CHEER(MEADOW),
   ("다 쌓았다!", "R", MEADOW + f"{D['R']} stands proudly next to {TOWER48}, both short arms up, big proud grin.", "Exactly one tower of five blocks.", False,
    "Roro cheers with both arms up on the same spot; the tower stays still."),
@@ -287,7 +287,7 @@ EPS["ep51"] = dict(
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "깜깜해도 (괜찮아!)", "친구들이 함께해", "치키치키 잘 자!"],
  scenes=scenes([
   ("잘 자요", "C", NIGHT51 + f"{D['C']} lies in the small round bed under the ORANGE blanket, head on the pillow, the mushroom night lamp glowing warmly.", "", False,
-   "Chiqui yawns and snuggles under the blanket; the lamp keeps glowing."),
+   "Chiqui yawns and snuggles under the blanket, then sits up, reaches one front paw to the mushroom night lamp and taps it once; the lamp goes dark."),
   ("불을 끌까?", "C", NIGHT51 + f"{D['C']} sits up in the bed under the ORANGE blanket, reaching one front paw toward the glowing mushroom night lamp to turn it off.", "", False,
    "Chiqui reaches toward the lamp and taps it once; the lamp goes dark."),
   ("깜깜!", "C", NIGHT51.replace("one little mushroom-shaped night lamp", "one little mushroom-shaped night lamp, now turned OFF and dark,") + f"The room is dark blue and dim; only {D['C']}'s big wide eyes peek out from under the ORANGE blanket.", "", False,
@@ -307,7 +307,7 @@ EPS["ep51"] = dict(
   ("창밖에 별님", "CRP", NIGHT51.replace("one little mushroom-shaped night lamp", "one little mushroom-shaped night lamp, turned ON and glowing,") + "Chiqui, Roro and Pio look out of the round window at the twinkling stars in the night sky, smiling with wonder.", "", False,
    "The stars twinkle; the friends point at the stars and smile."),
   ("깜깜해도 괜찮아", "C", NIGHT51.replace("one little mushroom-shaped night lamp", "one little mushroom-shaped night lamp, turned ON and glowing softly,") + f"Close view of {D['C']} lying in bed under the ORANGE blanket, smiling peacefully, no longer scared.", "", True,
-   "Chiqui smiles and snuggles into the pillow."),
+   "Chiqui smiles and snuggles into the pillow, then turns the face to the viewer and nods gently with a reassuring smile."),
   ("우리 친구도 괜찮아", "C", NIGHT51.replace("one little mushroom-shaped night lamp", "one little mushroom-shaped night lamp, turned ON and glowing softly,") + f"Close view of {D['C']} sitting up in bed facing the viewer with a gentle reassuring smile.", "", True,
    "Chiqui nods gently at the viewer and smiles."),
   ("잘 자, 친구들", "CRP", NIGHT51.replace("one little mushroom-shaped night lamp", "one little mushroom-shaped night lamp, turned ON and glowing softly,") + f"Chiqui lies in the bed under the ORANGE blanket; Roro and Pio stand next to the bed, waving goodnight with one short arm and one wing tip, yawning sleepily; {LAMPS51} glow on the shelf.", "Exactly two star lanterns.", False,
@@ -476,7 +476,7 @@ EPS["ep55"] = dict(
   ("새싹이 쏙", "C", SPRING + f"Close view of one tiny light-green sprout with two little leaves poking out of the soil; {D['C']} on all four feet peeks at it with wide happy eyes.", "Exactly one sprout.", True,
    "The sprout wiggles its two leaves gently; Chiqui gasps happily."),
   ("꽃봉오리", "R", SPRING + f"{D['R']} looks closely at one closed round YELLOW flower bud on a stem, curious.", "Exactly one bud.", False,
-   "Roro leans in and tilts the head; the bud wiggles a little."),
+   "Roro leans in and tilts the head; then the bud slowly opens into one big YELLOW flower and Roro jumps a little in delight and claps the short arms."),
   ("활짝!", "R", SPRING + f"{D['R']} jumps back in delight as one big YELLOW flower blooms wide open in front of Roro.", "Exactly one big yellow flower.", False,
    "The flower opens a little wider; Roro claps the short arms."),
   ("꽃 냄새", "R", SPRING + f"{D['R']} sniffs the big YELLOW flower with eyes closed, a happy smile.", "Exactly one big yellow flower.", False,
@@ -760,13 +760,24 @@ for _ep in EPS:
     print(_ep, "common:", [(s["id"], s["common"]) for s in _sc if s.get("common")])
 
 # (2026-11-27, 사용자: 같은 화면은 두 번 만들지 않기) 46화 S03·S04는 그림이 같다 → S03에서 10초 영상 하나, S04는 그 뒷부분.
-SAMEPIC = {"ep46": {"S04": "S03"}}
+SAMEPIC = {  # 장면: (그림·영상을 만드는 장면, 쓰는 부분)
+ "ep46": {"S04": ("S03", "뒷부분"), "S05": ("S10", "앞부분"), "S16": ("S10", "전체")},
+ "ep47": {"S06": ("S16", "앞부분")},
+ "ep48": {"S04": ("S02", "뒷부분")},
+ "ep50": {"S14": ("S16", "앞부분")},
+ "ep51": {"S03": ("S02", "뒷부분"), "S14": ("S13", "뒷부분")},
+ "ep53": {"S16": ("S13", "전체")},
+ "ep55": {"S06": ("S05", "뒷부분")},
+}
 for _ep, _m in SAMEPIC.items():
     _f = Path(__file__).resolve().parent.parent / f"episodes/{_ep}/scenes.json"
     _sc = _json.loads(_f.read_text(encoding="utf-8"))
     for _s in _sc:
-        if _s["id"] in _m or _s["id"] in _m.values(): _s.pop("common", None)  # 같은 화 안에서 같은 그림은 공통 컷이 아님
-        if _s["id"] in _m: _s["samevid"] = _m[_s["id"]]; _s["samevid_part"] = "뒷부분"
-        if _s["id"] in _m.values(): _s["sec"] = 10
+        _bases = {v[0] for v in _m.values()}
+        if _s["id"] in _m or _s["id"] in _bases: _s.pop("common", None)  # 같은 화 안에서 같은 그림은 공통 컷이 아님
+        if _s["id"] in _m:
+            _b, _part = _m[_s["id"]]; _s["samevid"] = _b; _s["samevid_part"] = _part
+            _base = next(x for x in _sc if x["id"] == _b); _s["img"], _s["vid"] = _base["img"], _base["vid"]
+        if _s["id"] in _bases: _s["sec"] = 10
     _f.write_text(_json.dumps(_sc, ensure_ascii=False, indent=1), encoding="utf-8")
 

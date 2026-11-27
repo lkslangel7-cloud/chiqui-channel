@@ -49,7 +49,7 @@ def common_note(s):
 
 def samevid_note(s):  # 그림이 같은 다른 장면의 영상을 같이 쓴다 (영상은 그 장면에서 한 번만)
     o = s.get("samevid")
-    return (f'<p class="common">🔁 <b>같은 영상</b> · 이 장면은 <b>{e(o)}</b>와 같은 그림·영상을 써요. 그림과 영상은 {e(o)}에서 한 번만 만들고 이 장면은 그 {e(s.get("samevid_part", "앞부분"))}을 써요 → 그림도 영상도 만들지 마세요</p>') if o else ""
+    return (f'<p class="common">🔁 <b>같은 영상</b> · 이 장면은 <b>{e(o)}</b>와 같은 그림·영상을 써요. 그림과 영상은 {e(o)}에서 한 번만 만들고 이 장면은 {"그 영상을 한 번 더" if s.get("samevid_part") == "전체" else "그 " + s.get("samevid_part", "앞부분") + "을"} 써요 → 그림도 영상도 만들지 마세요</p>') if o else ""
 
 cards = []
 for i, s in enumerate(scenes, 1):
