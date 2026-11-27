@@ -204,7 +204,7 @@ EPS["ep49"] = dict(
   CHEER(MEADOW),
   ("크다!", "T", MEADOW + f"{D['T']} stands tall on all four feet, the long neck stretched up high, filling the picture from the grass to the sky, proud smile.", "", False,
    "Torong lifts the head up proudly and smiles; all four feet stay on the ground."),
-  ("작다!", "P", MEADOW + f"{D['P']} looks VERY SMALL: Pio stands on the grass in the middle and is tiny, only as tall as one white daisy flower; right next to Pio grow three tall blades of grass and one big white daisy, each one TALLER than Pio; lots of empty meadow around Pio, looking tiny and cute.", "Pio is tiny in the picture: the grass blades and the daisy next to Pio are taller than Pio.", False,
+  ("작다!", "P", MEADOW + f"{D['P']} stands on the grass right next to the same BIG round grey rock as in the first scene; the rock is about TWICE as tall as Pio, so Pio looks small and cute beside it, peeking up at the rock. Pio keeps the normal size (Pio is never smaller than a flower).", "Exactly one big grey rock, about twice as tall as Pio.", False,
    "Pio peeks around and hops once on the same spot."),
   ("크다 작다", "TP", MEADOW + f"{D['T']} and {D['P']} stand side by side: Torong is huge and Pio is tiny next to Torong's front foot; they smile at each other.", "", False,
    "Torong lowers the head a little toward Pio; Pio flaps once; both smile. The camera stays still."),
