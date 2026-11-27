@@ -49,6 +49,7 @@
 - 확인 방법:
   - 영상은 1초 간격 프레임 전부와 합격 그림을 한 장에 모아 본다.
   - (2026-11-26) 영상 링크는 `python3 -I tools/check_video.py CODE…` 한 줄로 받기+장면 찾기+한 장 만들기(허락 안 물음). 합격은 `python3 -I tools/check_video.py --accept epXX S## CODE "STATUS 한 줄"`. 셸 변수·for·&& 를 섞은 긴 명령은 허락을 물으니 쓰지 않는다.
+  - (2026-11-27) 그림 링크도 한 줄: `python3 -I tools/check_image.py --ep epXX CODE…` → `/tmp/chiqui_check/CODE/view.jpg`(Read로 봄)와 `/tmp/chiqui_check/epXX_all.jpg`(그 화 합격 그림+새 그림 한 장). 소품 잘라 대조: `--crop epXX:S05 x0 y0 x1 y1 CODE x0 y0 x1 y1` → `crop.jpg`. 합격: `--accept epXX S## CODE "STATUS 한 줄"`(복사·manifest·STATUS·장면 페이지). 셸 변수·for·;·&& 를 쓰면 허락을 물으니 쓰지 않는다.
   - 반복 소품은 크게 잘라 특징 3~4개를 대조한다.
   - (2026-11-27) **뜻 확인**: 그림마다 "아이가 보면 무엇을 하는 장면인가"를 한 문장으로 쓰고 장면 이름과 맞춘다. 프롬프트대로 그려졌어도 뜻이 다르면 불합격(42화 S12: 코를 대야에 넣음 → 손 씻기가 아니라 물 마시기로 보임).
   - 화면을 보는지/대상을 보는지, 자세(앉음·누움), 소품 상태(켜짐·꺼짐·있음·없음)를 장면마다 적어 앞뒤 장면과 대조한다.

@@ -38,7 +38,10 @@
       "Bash(python3 -I tools/check_video.py:*)",
       "Bash(python3 -I /home/user/chiqui-channel/tools/check_video.py:*)",
       "Read",
-      "mcp__claude-code-remote__read_documentation"
+      "mcp__claude-code-remote__read_documentation",
+      "Bash(python3 -I tools/check_image.py:*)",
+      "Bash(python3 -I /home/user/chiqui-channel/tools/check_image.py:*)",
+      "Bash(git -c push.negotiate=true push:*)"
     ]
   }
 }
