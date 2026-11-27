@@ -1194,6 +1194,7 @@ episodes/ep39/clips/web/S04_ja0Xey4Rez8.mp4
 episodes/ep39/clips/web/S05_NVl_7URbjuM.mp4
 episodes/ep39/clips/web/S06_mslpBdb6AOE.mp4
 episodes/ep39/clips/web/S07_8M_RbyXXrZM.mp4
+episodes/ep39/clips/web/S09_A1y7UYtlSik.mp4
 episodes/ep39/clips/web/S10_6W5ghumY86o.mp4
 episodes/ep39/clips/web/S11_yKvm_34V8ow.mp4
 episodes/ep39/clips/web/S12_XzeV48tYN8E.mp4

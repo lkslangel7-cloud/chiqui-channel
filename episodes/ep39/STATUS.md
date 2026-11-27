@@ -14,3 +14,4 @@
 - (2026-11-27) 영상 합격 12: S02 SuZ7QWeqmsE, S03 CwfzHNTaUbk, S05 NVl_7URbjuM(돗자리 없는 새 그림 lb_42STwBzQ로 시작), S06 mslpBdb6AOE, S07 8M_RbyXXrZM(S05 프롬프트로 만들었지만 새 S07 그림 Eak785NNmq8로 시작 — 다 같이 누움), S10 6W5ghumY86o, S12 XzeV48tYN8E, S13 ZP1Wy6yes68(별똥별), S14 ToWx2L3AHIw, S15 93RpIbW1cCs, S17 fjdyuTvyUKM(새 그림 CG3V-jGCJOs), S18 PM9z5JZFIEI(바우 다리 4개).
 - 영상 불합격 4 — 그림보다 확대돼 시작: S04 7FL24Pf68tg, S09 YoDNTcwh-JQ(로로 얼굴 클로즈업), S11 HDv4HbOoKGY(피오 클로즈업), S16 c4FLtQ15rhE. 4개 영상 프롬프트에 W·STARTV(넓게·확대 금지), S11 피오는 제자리 날갯짓. 영상 12/16.
 - (2026-11-27) 합격: S04 ja0Xey4Rez8(넓게, 바우 그대로), S11 yKvm_34V8ow(피오 제자리 날갯짓, 별 3개, 날개·볏·부리 그대로), S16 1frTc19ifB4(넓게). 불합격: S09 IC6YTTq8Hb8(넓이는 맞지만 로로가 별을 가리키지 않고 서 있기만 함 — 그림은 가리키는 모습, 장면 이름 '별 하나' 동작이 없음). S09 프롬프트: 앞발을 계속 들어 별 하나를 가리키고 '하나!' 하고 웃음. 영상 15/16, 남음 S09.
+- (2026-11-27) S09 A1y7UYtlSik 합격: 로로가 끝까지 앞발로 별 하나를 가리키며 웃음, 별 1개, 그림과 거의 같은 넓이(조금 가까움). **영상 16/16 완료.**
