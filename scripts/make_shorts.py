@@ -9,7 +9,7 @@ from pathlib import Path
 R = Path(__file__).resolve().parent.parent
 FONT = R / "remotion/public/fonts/Jua.ttf"
 OUT = R / "output/shorts"; OUT.mkdir(parents=True, exist_ok=True)
-QUIZ_PICK = {"04": "누가 클까?", "05": "치키는 어떻게 볼 수 있을까?", "07": "몇 개 남았을까?"}  # 나머지는 '어디 있을까?' 질문
+QUIZ_PICK = {"04": "누가 클까?", "05": "치키는 어떻게 볼 수 있을까?", "07": "몇 개 남았을까?", "12": "어? 목이 안 늘어나!"}  # 나머지는 '어디 있을까?' 질문
 
 
 def dur(p):
