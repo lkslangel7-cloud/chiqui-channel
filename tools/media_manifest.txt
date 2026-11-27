@@ -1282,6 +1282,7 @@ episodes/ep41/images/web/S16_kMRHMo44VJ4.png
 episodes/ep41/images/web/S17_sVehyNEoLOc.png
 episodes/ep42/clips/web/S02_rAFjH8eZBvk.mp4
 episodes/ep42/clips/web/S03_jpggugEpMMQ.mp4
+episodes/ep42/clips/web/S04_9usx1Nj6Yjo.mp4
 episodes/ep42/clips/web/S05_3OJ5oUWTNQA.mp4
 episodes/ep42/clips/web/S06_jQyx4pmk3ZQ.mp4
 episodes/ep42/clips/web/S07_yo8B_LQ4gbE.mp4
