@@ -105,8 +105,9 @@ EPS["ep42"] = dict(
 # ---------------- 43화 멈춰라 얼음! (멈춤 춤 놀이) ----------------
 DRUM43 = "one big round PURPLE drum standing on the grass in front of Grandpa Bau, right next to his tail club"
 # (2026-11-27 그림 확인) 북 무늬가 17화에서 달라짐(세모·노란 점) → 무늬를 못박음. 바우가 앞발을 턱에 대면 앞다리가 3개(S04·S16) → B4I.
-DRUMLOOK = (" The drum always looks the same: a cream drum top, a cream rim with small cream dots at the top and at the bottom, "
-            "and one cream ZIGZAG band with small cream dots around the purple middle; no triangles, no yellow dots.")
+DRUMLOOK = (" The drum always looks the same: a BARREL-shaped drum, wider in the middle; a cream drum top; THICK CREAM bands at the top and at the bottom "
+            "(the bands are CREAM, never purple) with small cream dots on them; the purple middle has one cream ZIGZAG line, and one small cream dot sits "
+            "in every gap above and below the zigzag points; no triangles, no yellow dots.")
 B4I = (" Grandpa Bau has exactly 4 legs and all four feet stay flat on the ground; he never lifts a front paw, never touches the chin or face with a paw.")
 DRUMR = " The drum is on the RIGHT side of Grandpa Bau, and Grandpa Bau faces RIGHT toward the drum."
 # (2026-11-27 그림 확인) '얼음' 장면이 '좋아!'처럼 웃으며 춤추는 그림으로 나옴 → 멈춘 얼굴·몸을 분명히.
