@@ -196,50 +196,50 @@ Lyrics:
 [End]
 ```
 
-## 50화 · 공룡알이 톡톡!
+## 50화 · 치키 타운 한 바퀴!
 
 - 자리: 0:55–1:55 · 시리즈 후렴 틀
-- Title: 50화 · 공룡알이 톡톡!
+- Title: 50화 · 치키 타운 한 바퀴!
 
 
 Styles:
 ```
-celebration pop anthem for kids, 112 bpm, bright synths, claps, drum roll before the pop, confetti sound effects, joyful female lead with kids choir, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
+cheerful travel-tour pop for kids, 108 bpm, walking bass, strummed acoustic guitar, whistling, a fun little 'ding-dong' doorbell sound before each verse, party horns and confetti pops on the last chorus, joyful female lead with kids choir, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
 ```
 
 Lyrics:
 ```
 [Chorus]
 쿵쿵 쾅! 쿵쿵 쾅!
-공룡알이 (톡톡!)
-두근두근 기다려요
-치키치키 톡톡!
+치키 타운 한 바퀴 (한 바퀴!)
+친구 집에 놀러 가요
+치키치키 한 바퀴!
 
 [Verse 1]
-동글동글 커다란 알
-누구 알일까? (누구?)
-궁금해요 (궁금해!)
+미끄럼 슝 놀이터
+로로네 집 (슝!)
+재밌어요 (재밌다!)
 
 [Verse 2]
-담요 덮어 따뜻하게
-꼭 안아 줘요 (꼭!)
-포근포근 (포근!)
+키 큰 나무 숲속
+토롱네 집 (쭈욱!)
+시원해요 (시원해!)
 
 [Verse 3]
-귀를 대면 톡톡톡
-무슨 소리? (톡톡!)
-두근두근 (두근!)
+폭신폭신 구름 언덕
+피오네 집 (둥실!)
+높아요 (높다!)
 
 [Verse 4]
-쩍 하고 금이 가요
-하나 둘 셋 (펑!)
-깜짝 선물 (와아!)
+화석 가득 도서관
+할아버지 집 (허허!)
+신기해요 (신기해!)
 
 [Chorus]
 쿵쿵 쾅! 쿵쿵 쾅!
-공룡알이 (톡톡!)
-두근두근 기다려요
-치키치키 톡톡!
+치키 타운 한 바퀴 (한 바퀴!)
+친구 집에 놀러 가요
+치키치키 한 바퀴!
 
 [End]
 ```
