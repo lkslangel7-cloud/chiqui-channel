@@ -44,6 +44,8 @@ def accepted(ep):
         pat = (ROOT / f"episodes/common/images/web/{s['common']}_*.png") if s.get("common") else (ROOT / f"episodes/{ep}/images/web/{s['id']}_*.png")
         g = sorted(glob.glob(str(pat)))
         if g: out[s["id"]] = g[-1]
+    for s in scenes(ep):  # 같은 그림(samevid)은 바탕 장면 그림으로 센다
+        if s.get("samevid") in out and s["id"] not in out: out[s["id"]] = out[s["samevid"]]
     return out
 
 
