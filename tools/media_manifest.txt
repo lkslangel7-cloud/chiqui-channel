@@ -1265,6 +1265,9 @@ episodes/ep41/images/web/S14_r0L5hIV2Xvs.png
 episodes/ep41/images/web/S15_nze-roZ5NK4.png
 episodes/ep41/images/web/S16_kMRHMo44VJ4.png
 episodes/ep41/images/web/S17_sVehyNEoLOc.png
+episodes/ep42/images/web/S03_rA85Vw4I6y4.png
+episodes/ep42/images/web/S04_Yk8UwrMdQk4.png
+episodes/ep42/images/web/S05_G1qFGrmazZY.png
 episodes/ep42/images/web/S06_5lemFEw6KwE.png
 episodes/ep42/images/web/S09_N3RhEKQ4TKY.png
 episodes/ep42/images/web/S10_QCWzH0j7sa4.png

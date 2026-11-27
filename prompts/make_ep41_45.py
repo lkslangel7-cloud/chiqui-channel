@@ -86,7 +86,7 @@ EPS["ep42"] = dict(
          ("밖에 놀다 들어오면","보글보글 비누로","손을 싹싹 (싹싹!)"),("따뜻한 물 호록호록","이불 덮고 쿨쿨","푹 자요 (쿨쿨!)")],
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "콜록콜록 에취! (에취!)", "팔꿈치로 가려요", "치키치키 튼튼!"],
  scenes=scenes([
-  ("콜록콜록", "C", MEADOW + f"{D['C']} stands on the meadow coughing into the bend of one front leg (the elbow), eyes squeezed, a little tired; {SCARF42}.", "", False,
+  ("콜록콜록", "C", MEADOW + f"{D['C']} stands UPRIGHT on ONLY the two back legs like a toddler (exactly two feet on the grass, the body upright, NOT on all fours), with the two front legs used as arms: coughing into the bend of one front arm (the elbow), the other front arm hanging down at the side in the air, eyes squeezed, a little tired; {SCARF42}.", "", False,
    "Chiqui coughs two times into the bend of the front leg, then sniffles. The scarf stays on. The camera stays still."),
   ("치키야, 괜찮아?", "CRP", MEADOW + f"Roro and Pio stand next to {D['C']} with worried kind faces; {SCARF42}.", "", False, "Roro and Pio lean in gently toward Chiqui; Chiqui sniffles and nods. The camera stays still."),
   ("감기에 걸렸구나", "BC", MEADOW + f"{D['B']} stands on all four feet next to {D['C']}, looking kindly at Chiqui; {SCARF42}.", "", False,
@@ -95,7 +95,7 @@ EPS["ep42"] = dict(
    "Chiqui tilts the head back two times, about to sneeze, but does not sneeze yet. The camera stays still."),
   ("팔꿈치!", "RTP", MEADOW + "Roro, Torong and Pio call out together; Roro bends one short arm and points at the own elbow, Pio folds one wing in front of the beak, Torong nods.", "", False,
    "Roro taps the own elbow two times; Pio folds one wing in front of the beak; Torong nods with all four feet on the ground. The camera stays still."),
-  ("에취!", "C", MEADOW + f"{D['C']} sneezes into the bend of one front leg (the elbow covers the nose and mouth), eyes squeezed shut; {SCARF42}.", "", False,
+  ("에취!", "C", MEADOW + f"{D['C']} stands UPRIGHT on ONLY the two back legs like a toddler (exactly two feet on the grass, the body upright, NOT on all fours), with the two front legs used as arms: sneezing into the bend of one front arm (the elbow covers the nose and mouth), the other front arm hanging down at the side in the air, eyes squeezed shut; {SCARF42}.", "", False,
    "Chiqui sneezes once into the elbow; the elbow stays in front of the nose and mouth during the sneeze; then Chiqui lowers the leg and smiles proudly."),
   ("로로는 팔이 짧아", "R", MEADOW + f"{D['R']} tries to cough into the bend of one SHORT arm, stretching the neck down to reach it, a funny face.", "", False,
    "Roro bends the head down to the short arm and coughs into the elbow once, then laughs. The camera stays still."),
