@@ -1,19 +1,19 @@
 {
   "title": "치키 60화 노래",
-  "h1": "60화 · 어린이날 노래 노래 (Suno)",
+  "h1": "60화 · 꿈 노래 노래 (Suno)",
   "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
   "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
   "duration": "<b>Custom</b> — 65~70초.",
   "songs": [
     {
-      "id": "kids60",
-      "title": "어린이날 축하해!",
-      "short": "어린이날 노래",
+      "id": "dream60",
+      "title": "커서 뭐가 될까?",
+      "short": "꿈 노래",
       "where": "0:55–1:55 · 시리즈 후렴 틀",
       "inst": false,
-      "style": "big festival kids rock anthem, 120 bpm, electric guitar, claps, kids shouts, soaring chorus for flying kites, proud male lead with kids choir, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "style": "proud and happy kids pop march, 110 bpm, bright brass fanfare, snare drum, glockenspiel, a toy siren sound on the firefighter verse, sizzling pan on the cook verse, soft heartbeat on the doctor verse, airplane whoosh on the pilot verse, warm friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
       "vocal": "Male",
-      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n어린이날 (축하해!)\n하늘 높이 날아라\n치키치키 축하해!\n\n[Verse 1]\n알록달록 선물 상자\n무엇이 있을까? (뭘까?)\n연이 짠! (짠!)\n\n[Verse 2]\n바람 타고 높이 높이\n주황 노랑 (높이!)\n초록 파랑 (높이!)\n\n[Verse 3]\n나무에 걸린 초록 연\n피오가 슝 (슝!)\n다시 하늘로 (와아!)\n\n[Verse 4]\n할아버지 보라 연\n우리 모두 (어린이!)\n축하해요 (축하해!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n어린이날 (축하해!)\n하늘 높이 날아라\n치키치키 축하해!\n\n[End]"
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n커서 뭐가 될까? (뭐가 될까?)\n꿈을 꾸어 봐요\n치키치키 꿈!\n\n[Verse 1]\n칙칙 물을 뿌려요\n치키는 소방관 (칙칙!)\n도와줄게요 (출동!)\n\n[Verse 2]\n보글보글 맛있게\n로로는 요리사 (보글!)\n냠냠 맛있다 (냠!)\n\n[Verse 3]\n콩닥콩닥 들어 봐\n토롱은 의사 (콩닥!)\n튼튼해요 (튼튼!)\n\n[Verse 4]\n슝슝 하늘 높이\n피오는 비행사 (슝!)\n구름 위로 (슝슝!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n커서 뭐가 될까? (뭐가 될까?)\n꿈을 꾸어 봐요\n치키치키 꿈!\n\n[End]"
     }
   ]
 }

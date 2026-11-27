@@ -148,98 +148,98 @@ Lyrics:
 [End]
 ```
 
-## 59화 · 오늘 날씨는?
+## 59화 · 셋이서 콩콩콩!
 
 - 자리: 0:55–1:55 · 시리즈 후렴 틀
-- Title: 59화 · 오늘 날씨는?
+- Title: 59화 · 셋이서 콩콩콩!
 
 
 Styles:
 ```
-weather samba for kids, 104 bpm, light samba percussion, ukulele, rain-stick and wind whoosh effects, cheerful female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
+bouncy rock'n'roll boogie counting song for kids, 124 bpm, boogie-woogie piano, upright bass, handclaps, springy 'boing' sound effect on each bounce and a soft 'bonk' on each bump, playful counting-down female lead, the last verse turns soft and sleepy like a lullaby, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
 ```
 
 Lyrics:
 ```
 [Chorus]
 쿵쿵 쾅! 쿵쿵 쾅!
-오늘 날씨 (어때요?)
-하늘을 봐요
-치키치키 날씨!
+침대에서 콩콩 (안 돼요!)
+콩콩은 밖에서 해요
+치키치키 콩콩!
 
 [Verse 1]
-해님 해님 쨍쨍쨍
-오늘 날씨 (맑음!)
-반짝반짝 (반짝!)
+세 친구가 콩콩콩
+침대 위에서 (콩콩!)
+로로가 쿵 (아야!)
 
 [Verse 2]
-구름 구름 뭉게뭉게
-오늘 날씨 (흐림!)
-둥실둥실 (둥실!)
+두 친구가 콩콩콩
+침대 위에서 (콩콩!)
+피오가 쿵 (아야!)
 
 [Verse 3]
-바람 바람 쌩쌩쌩
-오늘 날씨 (바람!)
-살랑살랑 (살랑!)
+한 친구가 콩콩콩
+침대 위에서 (콩콩!)
+치키도 쿵 (아야!)
 
 [Verse 4]
-비가 비가 주룩주룩
-오늘 날씨 (비!)
-그다음엔 무지개 (와아!)
+아무도 안 뛰어요
+침대에서는 (안 돼!)
+쉿 잘 자요 (쿨쿨!)
 
 [Chorus]
 쿵쿵 쾅! 쿵쿵 쾅!
-오늘 날씨 (어때요?)
-하늘을 봐요
-치키치키 날씨!
+침대에서 콩콩 (안 돼요!)
+콩콩은 밖에서 해요
+치키치키 콩콩!
 
 [End]
 ```
 
-## 60화 · 어린이날 축하해!
+## 60화 · 커서 뭐가 될까?
 
 - 자리: 0:55–1:55 · 시리즈 후렴 틀
-- Title: 60화 · 어린이날 축하해!
+- Title: 60화 · 커서 뭐가 될까?
 
 
 Styles:
 ```
-big festival kids rock anthem, 120 bpm, electric guitar, claps, kids shouts, soaring chorus for flying kites, proud male lead with kids choir, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
+proud and happy kids pop march, 110 bpm, bright brass fanfare, snare drum, glockenspiel, a toy siren sound on the firefighter verse, sizzling pan on the cook verse, soft heartbeat on the doctor verse, airplane whoosh on the pilot verse, warm friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
 ```
 
 Lyrics:
 ```
 [Chorus]
 쿵쿵 쾅! 쿵쿵 쾅!
-어린이날 (축하해!)
-하늘 높이 날아라
-치키치키 축하해!
+커서 뭐가 될까? (뭐가 될까?)
+꿈을 꾸어 봐요
+치키치키 꿈!
 
 [Verse 1]
-알록달록 선물 상자
-무엇이 있을까? (뭘까?)
-연이 짠! (짠!)
+칙칙 물을 뿌려요
+치키는 소방관 (칙칙!)
+도와줄게요 (출동!)
 
 [Verse 2]
-바람 타고 높이 높이
-주황 노랑 (높이!)
-초록 파랑 (높이!)
+보글보글 맛있게
+로로는 요리사 (보글!)
+냠냠 맛있다 (냠!)
 
 [Verse 3]
-나무에 걸린 초록 연
-피오가 슝 (슝!)
-다시 하늘로 (와아!)
+콩닥콩닥 들어 봐
+토롱은 의사 (콩닥!)
+튼튼해요 (튼튼!)
 
 [Verse 4]
-할아버지 보라 연
-우리 모두 (어린이!)
-축하해요 (축하해!)
+슝슝 하늘 높이
+피오는 비행사 (슝!)
+구름 위로 (슝슝!)
 
 [Chorus]
 쿵쿵 쾅! 쿵쿵 쾅!
-어린이날 (축하해!)
-하늘 높이 날아라
-치키치키 축하해!
+커서 뭐가 될까? (뭐가 될까?)
+꿈을 꾸어 봐요
+치키치키 꿈!
 
 [End]
 ```
