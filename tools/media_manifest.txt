@@ -1367,3 +1367,15 @@ episodes/ep46/images/web/S14_sexiQKhGhqM.png
 episodes/ep46/images/web/S15_y9_6r3ekRUE.png
 episodes/ep46/images/web/S17_5tZ6xl6l-EI.png
 episodes/ep46/images/web/S18_QnS2C8-Mbeg.png
+episodes/ep47/images/web/S02_50DU0sdPs_I.png
+episodes/ep47/images/web/S04_zo1tsCvSFfk.png
+episodes/ep47/images/web/S05_QQSIAYpIZoc.png
+episodes/ep47/images/web/S07__hn1SWUp7qw.png
+episodes/ep47/images/web/S09_-MFpGHng6EI.png
+episodes/ep47/images/web/S10_8726H2U34rQ.png
+episodes/ep47/images/web/S11_nvq7SHPYWwY.png
+episodes/ep47/images/web/S12_CjgTaOzyLSo.png
+episodes/ep47/images/web/S13_qJIMug-kXdo.png
+episodes/ep47/images/web/S14_8nucCI758Do.png
+episodes/ep47/images/web/S15_SJk2t5fHDLk.png
+episodes/ep47/images/web/S16_7ZYnQJf8olw.png
