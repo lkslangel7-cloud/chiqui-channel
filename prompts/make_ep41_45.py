@@ -18,6 +18,20 @@ img, vid, scenes, write, D, HOME, NODOLL, NEAR, MEADOW, CHEER, WAVE, BAU = (
 BED26 = _src.split('BED26 = (')[1].split('\nEPS["ep26"]')[0]
 BED26 = eval("(" + BED26)  # 26화와 같은 침실(밝은 아침)
 
+# (2026-11-27, 사용자: 다리 5개가 자꾸 나옴) 41·42화에서 치키가 앞발을 들면 땅에 발 4개 + 든 발 = 5개(9장),
+# 43화는 북이 바우 얼굴 앞인데 '꼬리 곤봉으로 친다'고 써서 꼬리가 얼굴 앞에서 나옴. 그림 프롬프트에 다리 규칙을 자동으로 붙인다.
+LEGS = {
+ "C": (" LEG RULE FOR CHIQUI: Chiqui has exactly FOUR legs in total (two back legs and two front legs), never five. "
+       "Whenever Chiqui raises or uses a front paw (waving, at the ear, at the mouth, on the hips), Chiqui stands UPRIGHT on ONLY the two back legs like a toddler: "
+       "exactly TWO feet touch the ground and both front paws are up off the ground."),
+ "B": (" LEG RULE FOR GRANDPA BAU: Grandpa Bau has exactly FOUR legs (two front legs, two back legs), never five or six; all four feet stay flat on the ground "
+       "and he never lifts a front paw. His tail club is only at the BACK end of his body, behind him, never in front of his face or body."),
+}
+_img_base = _ns["_ns"]["img"]
+def img(refs, scene, extra="", close=False):
+    return _img_base(refs, scene + "".join(LEGS[c] for c in "CB" if c in refs), extra, close)
+_ns["_ns"]["img"] = img  # scenes()가 이 img를 쓰도록
+
 EPS = {}
 
 # ---------------- 41화 누구 소리일까? (소리 흉내 놀이) ----------------
@@ -103,7 +117,7 @@ EPS["ep42"] = dict(
  ]))
 
 # ---------------- 43화 멈춰라 얼음! (멈춤 춤 놀이) ----------------
-DRUM43 = "one big round PURPLE drum standing on the grass in front of Grandpa Bau, right next to his tail club"
+DRUM43 = "one big round PURPLE drum standing on the grass right in front of Grandpa Bau's face"
 # (2026-11-27 그림 확인) 북 무늬가 17화에서 달라짐(세모·노란 점) → 무늬를 못박음. 바우가 앞발을 턱에 대면 앞다리가 3개(S04·S16) → B4I.
 DRUMLOOK = (" The drum always looks the same: a BARREL-shaped drum, wider in the middle; a cream drum top; THICK CREAM bands at the top and at the bottom "
             "(the bands are CREAM, never purple) with small cream dots on them; the purple middle has one cream ZIGZAG line, and one small cream dot sits "
@@ -130,7 +144,7 @@ EPS["ep43"] = dict(
    "Grandpa Bau taps the purple drum two times with the tail club; all four feet stay on the ground. The camera stays still."),
   CHEER(MEADOW),
   ("음악이 멈추면?", "B", MEADOW + f"Close view of {D['B']} behind {DRUM43}, raising the white eyebrows with a playful questioning look, the head tilted to one side." + DRUMLOOK + DRUMR + B4I, "Exactly one drum.", True, "Grandpa Bau raises the eyebrows and smiles; the tail club rests still on the drum."),
-  ("둥둥 춤춰요", "BCRTP", MEADOW + f"Chiqui, Roro, Torong and Pio dance in a row on the meadow; {D['B']} stands on all four feet behind {DRUM43} on the far RIGHT, tapping it with the tail club." + DRUMLOOK, "Exactly one drum.", False,
+  ("둥둥 춤춰요", "BCRTP", MEADOW + f"Chiqui, Roro, Torong and Pio dance in a row on the meadow; {D['B']} stands on all four feet on the far RIGHT with {DRUM43}, bending the head down and tapping the drum top with his NOSE; his tail club stays at the back end of his body, away from the drum." + DRUMLOOK, "Exactly one drum.", False,
    "Chiqui, Roro and Pio dance and bounce; Torong sways the long neck; Grandpa Bau taps the drum with the tail club; Grandpa Bau's four feet stay on the ground. The camera stays still."),
   ("로로 씰룩씰룩", "R", MEADOW + f"{D['R']} wiggles the tail and bottom left and right in a funny dance.", "", False, "Roro wiggles the bottom left and right four times and laughs."),
   ("얼음!", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio are frozen like statues in funny dance poses: Roro with one foot up, Pio with both wings wide, Torong with the neck tilted to one side (four feet on the ground), Chiqui with both front paws up; all eyes wide, holding still." + FREEZE, "", False,
@@ -147,7 +161,7 @@ EPS["ep43"] = dict(
    "Everyone stays completely still for the whole clip; nobody moves at all. The camera stays still."),
   ("꼼짝 않고 숨어서", "B", MEADOW + f"{D['B']} crouches very low and flat on the grass next to {DRUM43}, legs tucked under the round body, perfectly still like a big round rock, hiding; only the eyes peek to one side, a tiny playful smile." + DRUMLOOK + DRUMR + B4I, "Exactly one drum.", False,
    "Grandpa Bau stays perfectly still like a rock for the whole clip; only the eyes glance left and right once and he gives a tiny smile. All four feet stay under the body. The camera stays still."),
-  ("다 같이 둥둥", "BCRTP", MEADOW + f"All five friends dance together on the meadow; {D['B']} stands on all four feet on the far RIGHT of the picture, facing LEFT toward the friends, behind {DRUM43}; the drum is at the far RIGHT edge, on Grandpa Bau's tail side, and he taps it with the tail club (the same layout as the 'dance' scene: Grandpa Bau and the drum on the RIGHT, the four friends on the LEFT)." + DRUMLOOK, "Exactly one drum.", False,
+  ("다 같이 둥둥", "BCRTP", MEADOW + f"All five friends dance together on the meadow; {D['B']} stands on all four feet on the far RIGHT with {DRUM43}, bending the head down and tapping the drum top with his NOSE; his tail club stays at the back end of his body, away from the drum (Grandpa Bau and the drum on the RIGHT, the four friends on the LEFT)." + DRUMLOOK, "Exactly one drum.", False,
    "Chiqui, Roro and Pio dance; Torong sways the neck; Grandpa Bau taps the drum with the tail club; all four of Grandpa Bau's feet stay on the ground. The camera stays still."),
   WAVE(MEADOW, "안녕!"),
  ]))
@@ -187,11 +201,11 @@ EPS["ep44"] = dict(
    "Chiqui opens the paws wide and smiles; the friends cheer. Nobody touches the tangerines: the row of exactly FIVE tangerines on the table never changes."),
   ("하나, 로로!", "CR", MEADOW + f"{TABLE44} with {ROW44(4)}; {D['C']} stands next to the table holding ONE more tangerine out in one front paw toward {D['R']}; Roro reaches for it with both short arms, smiling.", "Exactly five tangerines in total: four in the row on the table and one in Chiqui's paw.", False,
    "Roro takes the one tangerine from Chiqui's paw, hugs it and nods thank you. The row of exactly FOUR tangerines on the table never changes; no tangerine appears or disappears."),
-  ("둘, 토롱!", "CT", MEADOW + f"{TABLE44} with {ROW44(3)} on the LEFT half of the table; ONE more tangerine lies alone on the RIGHT edge of the table, right in front of {D['T']}'s mouth; {D['C']} stands beside the table smiling.", "Exactly four tangerines on the table: three in the row and one alone in front of Torong.", False,
+  ("둘, 토롱!", "CT", MEADOW + f"{TABLE44} with {ROW44(3)} on the LEFT half of the table; ONE more tangerine lies alone on the RIGHT edge of the table, right in front of the mouth of {D['T']}; {D['C']} stands beside the table smiling.", "Exactly four tangerines on the table: three in the row and one alone in front of Torong.", False,
    NEAR + "Torong lowers the head a little toward the single tangerine in front of the mouth, sniffs it and smiles; Torong never holds it. Chiqui claps once. The row of exactly THREE tangerines never changes; no tangerine appears or disappears."),
   ("셋, 피오!", "CP", MEADOW + f"{TABLE44} with {ROW44(2)}; {D['C']} stands next to the table holding ONE more tangerine out in one front paw toward {D['P']}; Pio reaches for it with both wing tips, happy.", "Exactly three tangerines in total: two in the row on the table and one in Chiqui's paw.", False,
    "Pio takes the one tangerine from Chiqui's paw between both wing tips, hugs it and hops once. The row of exactly TWO tangerines on the table never changes; no tangerine appears or disappears."),
-  ("넷, 할아버지!", "BC", MEADOW + f"{TABLE44} with {ROW44(1)} on the LEFT side of the table; ONE more tangerine lies alone on the RIGHT edge of the table, right in front of {D['B']}'s mouth; Grandpa Bau stands on all four feet; {D['C']} stands beside the table smiling.", "Exactly two tangerines on the table: one on the left and one in front of Grandpa Bau.", False,
+  ("넷, 할아버지!", "BC", MEADOW + f"{TABLE44} with {ROW44(1)} on the LEFT side of the table; ONE more tangerine lies alone on the RIGHT edge of the table, right in front of the mouth of {D['B']}; Grandpa Bau stands on all four feet; {D['C']} stands beside the table smiling.", "Exactly two tangerines on the table: one on the left and one in front of Grandpa Bau.", False,
    "Grandpa Bau nods with a warm smile at the tangerine in front of his mouth; Grandpa Bau never holds it and all four feet stay on the ground. Chiqui smiles. The ONE tangerine on the left of the table never moves; no tangerine appears or disappears."),
   ("다섯, 내 거!", "C", MEADOW + f"Close view of {D['C']} holding up exactly ONE tangerine high in one front paw, beaming; the table top behind is EMPTY with no tangerines on it.", "Chiqui holds exactly one tangerine; there are no other tangerines anywhere.", True,
    "Chiqui lifts the one tangerine a little higher and cheers. No other tangerine appears."),

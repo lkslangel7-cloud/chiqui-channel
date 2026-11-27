@@ -1252,12 +1252,8 @@ episodes/ep40/images/web/S15_ymZBKtMCRnE.png
 episodes/ep40/images/web/S16_cRLnhk7JdNU.png
 episodes/ep40/images/web/S17__MiwGAIibkw.png
 episodes/ep40/images/web/S18_5PdyGxfvdmE.png
-episodes/ep41/images/web/S02_eQRaPtTiN_g.png
-episodes/ep41/images/web/S04_7mgo6DAhy7c.png
 episodes/ep41/images/web/S05_T6MvCXvz32I.png
-episodes/ep41/images/web/S06_12wQDXa9RgM.png
 episodes/ep41/images/web/S07_w7-Dz2SPwSE.png
-episodes/ep41/images/web/S09_X4S5ZBG57cc.png
 episodes/ep41/images/web/S10_0ZuhbCZQvbQ.png
 episodes/ep41/images/web/S11_FVdhjzfLbNk.png
 episodes/ep41/images/web/S12_bcrJL2L0xto.png
@@ -1266,12 +1262,7 @@ episodes/ep41/images/web/S14_r0L5hIV2Xvs.png
 episodes/ep41/images/web/S15_nze-roZ5NK4.png
 episodes/ep41/images/web/S16_kMRHMo44VJ4.png
 episodes/ep41/images/web/S17_sVehyNEoLOc.png
-episodes/ep42/images/web/S02_E6HhWNjqGws.png
-episodes/ep42/images/web/S03_DM8frtj8aD8.png
-episodes/ep42/images/web/S04_YELHhpmMQos.png
-episodes/ep42/images/web/S05_O6SUc36yAAs.png
 episodes/ep42/images/web/S06_5lemFEw6KwE.png
-episodes/ep42/images/web/S07_Xb40N3eyDlg.png
 episodes/ep42/images/web/S09_N3RhEKQ4TKY.png
 episodes/ep42/images/web/S10_QCWzH0j7sa4.png
 episodes/ep42/images/web/S11_GkR5uFAlSmI.png
@@ -1283,7 +1274,6 @@ episodes/ep42/images/web/S16_SHfqi0AMZJo.png
 episodes/ep42/images/web/S17_EU6EL_jraZk.png
 episodes/ep43/images/web/S02_ZGtDs337S58.png
 episodes/ep43/images/web/S04_duJijvtcC-g.png
-episodes/ep43/images/web/S05_7-UTUsJ4wzg.png
 episodes/ep43/images/web/S06_sndwK0kV5y0.png
 episodes/ep43/images/web/S07_UE6XrVFGhdA.png
 episodes/ep43/images/web/S09_zhNRtul2kBg.png
@@ -1294,4 +1284,3 @@ episodes/ep43/images/web/S13_FlnlRgsEdjI.png
 episodes/ep43/images/web/S14_nAGFsQMtSDU.png
 episodes/ep43/images/web/S15_0ViqycKg69E.png
 episodes/ep43/images/web/S16_P9pppUvI5mc.png
-episodes/ep43/images/web/S17_B5sKU7FGwO8.png
