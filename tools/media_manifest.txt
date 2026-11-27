@@ -1259,7 +1259,6 @@ episodes/ep42/images/web/S07_Xb40N3eyDlg.png
 episodes/ep42/images/web/S09_N3RhEKQ4TKY.png
 episodes/ep42/images/web/S10_QCWzH0j7sa4.png
 episodes/ep42/images/web/S11_GkR5uFAlSmI.png
-episodes/ep42/images/web/S12_asYyoH3pJiQ.png
 episodes/ep42/images/web/S13_6-5RFM3q_XE.png
 episodes/ep42/images/web/S14_CIFlfDZjb6Y.png
 episodes/ep42/images/web/S15_DYAzLyAigEs.png

@@ -88,8 +88,9 @@ EPS["ep42"] = dict(
   ("피오는 날개로", "P", MEADOW + f"{D['P']} folds one wing in front of the beak and coughs into it.", "", False, "Pio coughs once into the folded wing, then opens the wings and smiles."),
   ("손을 싹싹", "C", MEADOW + f"{D['C']} washes both front paws at one small round grey stone basin of clear water with ORANGE soap bubbles; {SCARF42}.", "Exactly one basin.", False,
    "Chiqui rubs the paws together three times; orange bubbles grow; then Chiqui rinses the paws in the water and smiles."),
-  ("토롱도 싹싹", "T", MEADOW + f"{D['T']} bends the neck down and dips the nose into one small round grey stone basin of clear water right in front of the mouth, with soft GREEN soap bubbles on the water.", "Exactly one basin.", False,
-   NEAR + "Torong dips the nose into the green bubbles two times and lifts the head with a smile; all four feet stay on the ground."),
+  # (2026-11-27, 사용자: 코를 물에 넣으니 물 마시는 것 같음) → 앞발 두 개를 넓은 대야에 넣고 거품 속에서 첨벙첨벙 발 씻기, 머리는 높이
+  ("토롱도 싹싹", "T", MEADOW + f"{D['T']} stands with BOTH FRONT FEET inside one wide, shallow, round grey stone basin full of soft GREEN soap bubbles, washing the front feet; the two back feet stand on the grass outside the basin; Torong's long neck and head stay HIGH UP, far above the water, mouth closed in a proud smile, looking at the viewer; Torong is NOT drinking and the face never touches the water.", "Exactly one basin. Exactly four legs: two front feet in the basin, two back feet on the grass.", False,
+   "Torong wiggles both front feet inside the basin, scrubbing them in the bubbles, and GREEN bubbles puff up and splash a little around the feet; the front feet stay inside the basin and the back feet stay on the grass; the long neck and head stay high up the whole time, far from the water; Torong never drinks and never lowers the head; exactly four legs."),
   ("따뜻한 물 호록", "BC", HOME + BED26 + f"{D['C']} sits in the bed with the blanket on the lap and sips from one small ORANGE cup held in both front paws; {D['B']} stands on all four feet next to the bed; {SCARF42}.", "Exactly one cup.", False,
    "Chiqui sips from the orange cup two times and smiles; Grandpa Bau nods. Grandpa Bau's four feet stay on the floor. It stays a bright sunny day: the window stays bright."),
   ("이불 덮고 쿨쿨", "C", HOME + BED26 + f"{D['C']} sleeps peacefully in the bed under the blanket, eyes closed, smiling; the orange scarf is folded on the tree-stump side table.", "", False,
@@ -251,7 +252,6 @@ VIDFIX = {"ep41": {
  "ep42": {
  "S02": "Chiqui coughs two times on the same spot, then sniffles. The ORANGE scarf stays on the neck the whole time.",
  "S11": "Chiqui rubs the paws together three times in the basin; the ORANGE bubbles grow a little; then Chiqui rinses the paws in the water and smiles. The ORANGE scarf stays on. The one grey stone basin stays in the same place.",
- "S12": "Torong dips the nose into the GREEN bubbles two times and lifts the head a little with a smile; all four feet stay on the ground. The one grey stone basin stays in the same place.",
  "S17": "The friends play tag on the same spot: they hop and dodge a little to the left and right and laugh, staying in the same places at the same size; nobody runs out of the frame or toward the camera. No scarf.",
 }}
 for _e, _fx in VIDFIX.items():
