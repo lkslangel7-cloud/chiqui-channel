@@ -1300,9 +1300,7 @@ episodes/ep44/images/web/S03_DxnLSHaiqxk.png
 episodes/ep44/images/web/S05_wJcOKdUZEWU.png
 episodes/ep44/images/web/S06_PdbK0witPJs.png
 episodes/ep44/images/web/S07_UFpdCva9KTc.png
-episodes/ep44/images/web/S09_ElLzYKmYWhg.png
 episodes/ep44/images/web/S10_DhbHBaLKx9M.png
-episodes/ep44/images/web/S11_Tp79-0aKzIs.png
 episodes/ep44/images/web/S12_XZ3gIDGtrF4.png
 episodes/ep44/images/web/S13_AkStYMpJkZg.png
 episodes/ep44/images/web/S14_efH3STjiYQo.png
