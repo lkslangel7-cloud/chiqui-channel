@@ -19,7 +19,7 @@
 | S06 | 0:45–0:50 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 꾸벅! 세배 |
 | S07 | 0:50–0:55 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 데굴데굴! |
 | S08 | 0:55–1:05 | | (재사용) 1화 치키 달리기 + 2화 다 같이 출발 · 🎵 노래 후렴 |
-| S09 | 1:05–1:15 | Chiqui, Roro, Torong, Pio | 하하하! 다시 꾸벅 |
+| S09 | 1:05–1:15 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 하하하! 다시 꾸벅 |
 | S10 | 1:15–1:25 | Grandpa Bau | 새해 복 많이 받아라 |
 | S11 | 1:25–1:35 | 없음 | 떡국이에요 |
 | S12 | 1:35–1:45 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 호호 불어요 |
