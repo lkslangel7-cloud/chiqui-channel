@@ -208,7 +208,7 @@ EPS["ep49"] = dict(
    "Pio peeks around and hops once on the same spot."),
   ("크다 작다", "TP", MEADOW + f"{D['T']} and {D['P']} stand side by side: Torong is huge and Pio is tiny next to Torong's front foot; they smile at each other.", "", False,
    "Torong lowers the head a little toward Pio; Pio flaps once; both smile. The camera stays still."),
-  ("길다!", "T", MEADOW + f"{D['T']} stands on all four feet at the bottom LEFT, and the VERY long neck stretches far up and bends over to the RIGHT across the blue sky like a big green slide, the smiling head up at the top RIGHT; the long curved neck is the main thing in the picture (not a neck that goes straight up).", "The neck curves from the bottom left to the top right like a slide.", True,
+  ("길다!", "T", MEADOW + f"{D['T']} seen from the SIDE, standing on all four feet on the LEFT, stretches the long neck forward and up to the RIGHT to nibble one green leaf at the top of one palm tree on the RIGHT, happy smile. The neck keeps exactly its normal length and thickness from Torong's element image (never longer, never thinner, never like a rope).", "Torong's neck has its normal length, exactly like the element image.", True,
    "Torong sways the long neck gently once; the neck keeps its normal length."),
   ("짧다!", "R", MEADOW + f"{D['R']} holds out the two very short arms, looking at them with a funny surprised face.", "", False,
    "Roro wiggles the short arms and laughs."),
