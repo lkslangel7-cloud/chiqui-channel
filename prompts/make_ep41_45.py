@@ -173,7 +173,9 @@ EPS["ep44"] = dict(
    "Chiqui hugs the basket and wiggles happily; the five tangerines stay in the basket the whole time."),
   ("친구들 얼굴", "RTP", MEADOW + "Roro, Torong and Pio stand together looking toward the viewer side a little sadly, mouths small, Pio with drooping wings.", "", False,
    "Roro, Torong and Pio blink slowly and look down a little sad. The camera stays still."),
-  ("음…", "C", MEADOW + f"Close view of {D['C']} holding {BASKET44}, thinking with the head tilted, looking at the viewer.", "", True, "Chiqui tilts the head two times, thinking, then smiles brightly."),
+  # (2026-11-27, 사용자: 자꾸 빈 바구니만 나옴 — 프롬프트에 귤이 빠져 있었음) 귤 5개가 가득 든 바구니를 두 팔로 안고 있게
+  ("음…", "C", MEADOW + f"Close view of {D['C']} hugging {BASKET44} in both front paws against the tummy; the basket is FULL: exactly FIVE small round bright-orange tangerines with little green leaves are piled up inside it and clearly visible above the rim (the basket is NOT empty). Chiqui is thinking with the head tilted, looking at the viewer. Same basket and tangerines as in the reference image.", "Exactly one basket with exactly five tangerines inside; the basket is never empty and never on the ground.", True,
+   "Chiqui keeps hugging the full basket (five tangerines stay inside the whole time), tilts the head two times, thinking, then smiles brightly."),
   ("하나씩 나눠 먹자!", "CRTP", MEADOW + f"{D['C']} sets {BASKET44} with five tangerines on {TABLE44}; Roro, Torong and Pio stand around the table smiling.", "Exactly one basket, exactly five tangerines, exactly one table.", False,
    "Chiqui puts the basket on the table and opens the paws wide; the friends cheer. The camera stays still."),
   ("하나, 로로!", "CR", MEADOW + f"{D['C']} hands one tangerine to {D['R']}; Roro takes it with both short arms, smiling; {BASKET44} on {TABLE44} now has four tangerines.", "Roro holds exactly one tangerine; the basket has exactly four.", False,
