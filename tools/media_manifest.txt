@@ -1170,6 +1170,7 @@ episodes/ep38/clips/web/S11_YWyhklZH45Q.mp4
 episodes/ep38/clips/web/S12_gGnm3YQD4HY.mp4
 episodes/ep38/clips/web/S13_myu9DyWuY8w.mp4
 episodes/ep38/clips/web/S14_mOKUy22FqKE.mp4
+episodes/ep38/clips/web/S16_tinzOTJbMhY.mp4
 episodes/ep38/clips/web/S17_I-MBs3KxxvM.mp4
 episodes/ep38/images/web/S02_5833698d-d175-41a1-b5be-ffdd0e4bd368.png
 episodes/ep38/images/web/S03_aa77b924-9359-4d6f-b098-7adae5f9bd74.png
