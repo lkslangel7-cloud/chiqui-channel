@@ -62,7 +62,9 @@ def plan(ep):
     song = next(m for m in d["music"] if "songs/" in m["file"] and not any(k in m["file"] for k in ("opening", "ending", "bgm")))
     lines = d["lines"]
     want = QUIZ_PICK.get(ep)
-    qi = next(i for i, l in enumerate(lines) if (l["text"] == want if want else ("어디 있을까?" in l["text"])))
+    qi = next((i for i, l in enumerate(lines) if (l["text"] == want if want else ("어디 있을까?" in l["text"]))), None)
+    if qi is None:  # 11화부터: '어디 있을까?'가 없으면 내레이션 질문(?로 끝남) 중 첫 번째
+        qi = next(i for i, l in enumerate(lines) if l.get("who") == "내레이션" and l["text"].endswith("?"))
     q, ans = lines[qi], lines[qi + 1]
     a_end = ans["at"] + dur(R / f"episodes/ep{ep}" / ans["audio"]) + 2.0
     qs = max(0, q["at"] - 6.0)
