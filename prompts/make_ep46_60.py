@@ -63,16 +63,17 @@ EPS["ep46"] = dict(
  scenes=scenes(_hanbok([
   ("새해 아침", "C", HOME + f"{D['C']} stands UPRIGHT on ONLY the two back legs like a toddler (exactly two feet on the floor, the body upright, NOT on all fours) at the round window, both front paws resting on the round window sill, looking out at the big round rising morning sun, eyes sparkling with excitement; the tail rests on the floor behind.", "Exactly one sun.", False,
    "Chiqui bounces once on the same spot at the window and smiles." + CUPV),
-  CHEER(MEADOW),
-  ("세배하러 가자", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio stand in a happy row in front of one round cave house with a round green door, smiling excitedly.", "Exactly one door.", False,
-   "The friends bounce a little on the same spot and smile at the door. The camera stays still."),
+  ("좋아!", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio stand in a happy row in front of one round cave house with a round green door, cheering and bouncing with big smiles.", "Exactly one door.", False,
+   "The friends cheer and bounce on the same spot for a moment, then turn their heads toward the green door and smile, ready to go in. The camera stays still."),
+  ("세배하러 가자", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio stand in a happy row in front of one round cave house with a round green door, cheering and bouncing with big smiles.", "Exactly one door.", False,
+   "The friends cheer and bounce on the same spot for a moment, then turn their heads toward the green door and smile, ready to go in. The camera stays still."),
   BAU(ROOM46, "할아버지가 기다려요", "sits on the round PURPLE floor cushion on the RIGHT side of the room, smiling warmly, glasses shining."),
-  ("꾸벅! 세배", "BCRTP", ROOM46 + f"{D['B']} sits on the PURPLE cushion on the RIGHT; on the LEFT, Chiqui, Roro, Torong and Pio face him in a row and bow their heads down low politely at the same time.", "", False,
-   "Chiqui, Roro, Torong and Pio bow their heads slowly once together; Grandpa Bau smiles and nods." + B4V + " The camera stays still."),
-  ("데굴데굴!", "C", ROOM46 + f"{D['C']} has bowed so hard that Chiqui is rolling over sideways on the soft rug like a round ball, eyes wide in funny surprise.", "", False,
+  ("꾸벅! 세배", "BCRTP", ROOM46 + f"{D['B']} sits on the PURPLE cushion on the RIGHT; on the LEFT, Chiqui, Roro, Torong and Pio face him in a row, all doing the traditional Korean New Year deep bow (sebae): each one kneels down on the rug with the back legs folded under the body, puts the front paws (Pio: the wing tips) together flat on the floor in front, and lowers the forehead down onto the paws, the back rounded like a little ball, very polite; Torong lies down low with all four legs tucked under the body and bows the long neck so the chin touches the floor; nobody stands.", "", False,
+   "Chiqui, Roro, Torong and Pio stay in the deep bow with foreheads on their paws for a moment, then slowly sit up on their knees and smile; Grandpa Bau smiles and nods." + B4V + " The camera stays still."),
+  ("데굴데굴!", "C", ROOM46 + f"{D['C']} has done the deep kneeling bow so hard that Chiqui tipped forward and is rolling over sideways on the soft rug like a round ball, eyes wide in funny surprise.", "", False,
    "Chiqui rolls over once on the same spot on the rug and lands sitting up, blinking in surprise. Only one Chiqui appears."),
-  ("하하하! 다시 꾸벅", "CRTP", ROOM46 + "Chiqui, Roro, Torong and Pio stand in a row on the rug laughing together; Chiqui scratches the head shyly.", "", False,
-   "Everyone laughs on the same spot; then they bow their heads slowly once again. The camera stays still."),
+  ("하하하! 다시 꾸벅", "CRTP", ROOM46 + "Chiqui, Roro, Torong and Pio kneel in a row on the rug laughing together; Chiqui scratches the head shyly.", "", False,
+   "Everyone laughs; then they slowly do the deep kneeling bow once again, foreheads down to their paws, and sit back up. The camera stays still."),
   BAU(ROOM46, "새해 복 많이 받아라", "sits on the PURPLE cushion nodding kindly with a big warm smile, as if saying good wishes.",
       " He nods two times slowly."),
   ("떡국이에요", "", ROOM46 + f"Close view of the low round table with {SOUP46}. No characters.", "Exactly five bowls, colors exactly as written.", True,
@@ -757,3 +758,15 @@ for _ep in EPS:
         else: _s.pop("common", None)
     _f.write_text(_json.dumps(_sc, ensure_ascii=False, indent=1), encoding="utf-8")
     print(_ep, "common:", [(s["id"], s["common"]) for s in _sc if s.get("common")])
+
+# (2026-11-27, 사용자: 같은 화면은 두 번 만들지 않기) 46화 S03·S04는 그림이 같다 → S03에서 10초 영상 하나, S04는 그 뒷부분.
+SAMEPIC = {"ep46": {"S04": "S03"}}
+for _ep, _m in SAMEPIC.items():
+    _f = Path(__file__).resolve().parent.parent / f"episodes/{_ep}/scenes.json"
+    _sc = _json.loads(_f.read_text(encoding="utf-8"))
+    for _s in _sc:
+        if _s["id"] in _m or _s["id"] in _m.values(): _s.pop("common", None)  # 같은 화 안에서 같은 그림은 공통 컷이 아님
+        if _s["id"] in _m: _s["samevid"] = _m[_s["id"]]; _s["samevid_part"] = "뒷부분"
+        if _s["id"] in _m.values(): _s["sec"] = 10
+    _f.write_text(_json.dumps(_sc, ensure_ascii=False, indent=1), encoding="utf-8")
+
