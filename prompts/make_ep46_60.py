@@ -61,7 +61,7 @@ EPS["ep46"] = dict(
          ("하얀 떡국 호호","한 그릇 냠냠 (냠냠!)","한 살 쑥 (쑥!)"),("키가 쑥쑥 자랐네","우리 모두 (쑥쑥!)","새해에도 사이좋게 (좋게!)")],
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "새해 복 많이 (받으세요!)", "꾸벅꾸벅 인사해요", "치키치키 새해!"],
  scenes=scenes(_hanbok([
-  ("새해 아침", "C", HOME + f"{D['C']} stands at the round window looking at the big round rising morning sun outside, eyes sparkling with excitement.", "Exactly one sun.", False,
+  ("새해 아침", "C", HOME + f"{D['C']} stands UPRIGHT on ONLY the two back legs like a toddler (exactly two feet on the floor, the body upright, NOT on all fours) at the round window, both front paws resting on the round window sill, looking out at the big round rising morning sun, eyes sparkling with excitement; the tail rests on the floor behind.", "Exactly one sun.", False,
    "Chiqui bounces once on the same spot at the window and smiles." + CUPV),
   CHEER(MEADOW),
   ("세배하러 가자", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio stand in a happy row in front of one round cave house with a round green door, smiling excitedly.", "Exactly one door.", False,
