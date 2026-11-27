@@ -496,7 +496,9 @@ EPS["ep38"] = dict(
          ("하늘색 발자국 콩콩","슝~ 피오가 콩콩","사랑해요 (사랑해!)"),("주황 하트 크게","치키가 쓱쓱","할아버지께 (짠!)")],
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "사랑해요 할아버지 (사랑해요!)", "마음 담아 그려요", "치키치키 사랑해!"],
  scenes=scenes([
-  ("쿨쿨", "B", MEADOW + f"{D['B']} dozes on the warm grass with eyes closed, lying on the belly with legs folded, smiling.", "", False, "Grandpa Bau stays asleep with the eyes closed; only the back rises and falls slowly with breathing." + W + STARTV),
+  ("쿨쿨", "B", MEADOW + f"{D['B']} dozes on the warm grass with eyes closed, lying on the belly with legs folded, smiling.", "", False,
+   # (2026-11-27, 사용자) S02·S07 둘 다 잠든 바우 → S02 영상 하나만 만들어 S07에도 같이 씀
+   "Grandpa Bau stays ASLEEP the whole time: the eyes stay CLOSED, he does NOT wake up, does NOT open the eyes, does NOT lift the head, does NOT nod; only the back rises and falls slowly with breathing. He stays small in the meadow exactly as in the start image." + W + STARTV),
   ("쉿!", "C", MEADOW + f"Close view of {D['C']} with one paw in front of the mouth, whispering an idea.", "", True, "Chiqui whispers 'shh' and winks."),
   ("카드 만들자!", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio huddle together quietly, smiling.", "", False, "They nod quietly and tiptoe in place."),
   ("하얀 카드", "", MEADOW + f"Close view of {CARD}, completely blank, with one ORANGE crayon, one YELLOW crayon, one small cup of GREEN paint and one small cup of SKY-BLUE paint next to it. No characters.", "", True, "Nothing moves."),
