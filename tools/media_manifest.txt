@@ -1214,6 +1214,7 @@ episodes/ep40/images/web/S09_fLen8pmHwLo.png
 episodes/ep40/images/web/S10_WXrvMm6uPLs.png
 episodes/ep40/images/web/S11_pTSCglstTaU.png
 episodes/ep40/images/web/S12_RoecPUy1gUc.png
+episodes/ep40/images/web/S13_Kkq24yV73TY.png
 episodes/ep40/images/web/S14_7TB7NUfTxSU.png
 episodes/ep40/images/web/S15_ymZBKtMCRnE.png
 episodes/ep40/images/web/S16_cRLnhk7JdNU.png
