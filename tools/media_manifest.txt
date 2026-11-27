@@ -1379,3 +1379,4 @@ episodes/ep47/images/web/S13_qJIMug-kXdo.png
 episodes/ep47/images/web/S14_8nucCI758Do.png
 episodes/ep47/images/web/S15_SJk2t5fHDLk.png
 episodes/ep47/images/web/S16_7ZYnQJf8olw.png
+episodes/ep47/images/web/S17_fGoRgcARgwY.png
