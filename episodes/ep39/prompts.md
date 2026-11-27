@@ -32,7 +32,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 5초
 ```
-Grandpa Bau nods once and smiles warmly; all four feet stay on the ground. The camera stays still. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Grandpa Bau nods once and smiles warmly; all four feet stay on the ground. The camera stays still. Keep it a WIDE shot exactly as in the start image: everyone stays the same small size in the same place; never a close-up. The first frame is exactly the start image (same framing, same distance, same background); the camera stays still: no zoom in, no zoom out, no pan, no cut to a close-up. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S05 다 같이 언덕에 (0:40–0:45)
@@ -76,7 +76,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Roro points and counts one. The camera stays still. Roro is the only creature in the frame. ONLY Roro is in this scene from start to end; no other character, animal or creature appears at any time. Roro always keeps a round head with no frill and no horns. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Roro points up at the one star and counts one. Keep it a WIDE shot exactly as in the start image: everyone stays the same small size in the same place; never a close-up. The first frame is exactly the start image (same framing, same distance, same background); the camera stays still: no zoom in, no zoom out, no pan, no cut to a close-up. The camera stays still. Roro is the only creature in the frame. ONLY Roro is in this scene from start to end; no other character, animal or creature appears at any time. Roro always keeps a round head with no frill and no horns. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S10 별 둘 (1:15–1:25)
@@ -98,7 +98,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Pio glides once and flaps happily. The camera stays still. Pio is the only creature in the frame. ONLY Pio is in this scene from start to end; no other character, animal or creature appears at any time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Pio flaps the wings gently and hovers in the same place near the three stars; Pio does not fly toward the camera. Keep it a WIDE shot exactly as in the start image: everyone stays the same small size in the same place; never a close-up. The first frame is exactly the start image (same framing, same distance, same background); the camera stays still: no zoom in, no zoom out, no pan, no cut to a close-up. The camera stays still. Pio is the only creature in the frame. ONLY Pio is in this scene from start to end; no other character, animal or creature appears at any time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S12 넷, 다섯! (1:35–1:45)
@@ -153,7 +153,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 ```
 [영상] 10초
 ```
-Grandpa Bau nods once and smiles warmly; all four feet stay on the ground. The camera stays still. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
+Grandpa Bau nods once and smiles warmly; all four feet stay on the ground. The camera stays still. Keep it a WIDE shot exactly as in the start image: everyone stays the same small size in the same place; never a close-up. The first frame is exactly the start image (same framing, same distance, same background); the camera stays still: no zoom in, no zoom out, no pan, no cut to a close-up. The camera stays still. Grandpa Bau is the only creature in the frame. ONLY Grandpa Bau is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
 ### S17 하암~ (2:20–2:30)

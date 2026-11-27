@@ -11,3 +11,5 @@
 - 불합격 S07 f-_qthaMurU: 누워 있지 않고 앉아서 화면을 봄 + 담요가 분홍 줄무늬(S05·S17은 파란 체크). S07 프롬프트에 '같은 파란 체크 담요, 셋은 등을 대고 눕고 토롱은 엎드림, 하늘을 봄' 추가 — S05 그림을 참고 그림으로. 아직 없음: S18. 그림 14/16, 남음 S07 S18.
 - (2026-11-26) S18 C0gaIdf_8d8 합격(다섯 한 줄, 바우 꼬리 흔들기·네 발, 토롱 네 발, 치키·로로 손·피오 날개 인사). AenPjIZscIk는 이미 합격한 S17과 같은 링크. 그림 15/16, 남음 S07.
 - (2026-11-26) S07 Q6ChzcPeqv8 합격(파란 체크 담요 — S05·S17과 같음, 치키·로로·피오 등을 대고 눕고 토롱 엎드림, 다들 하늘을 봄). **그림 16/16 완료.**
+- (2026-11-27) 영상 합격 12: S02 SuZ7QWeqmsE, S03 CwfzHNTaUbk, S05 NVl_7URbjuM(돗자리 없는 새 그림 lb_42STwBzQ로 시작), S06 mslpBdb6AOE, S07 8M_RbyXXrZM(S05 프롬프트로 만들었지만 새 S07 그림 Eak785NNmq8로 시작 — 다 같이 누움), S10 6W5ghumY86o, S12 XzeV48tYN8E, S13 ZP1Wy6yes68(별똥별), S14 ToWx2L3AHIw, S15 93RpIbW1cCs, S17 fjdyuTvyUKM(새 그림 CG3V-jGCJOs), S18 PM9z5JZFIEI(바우 다리 4개).
+- 영상 불합격 4 — 그림보다 확대돼 시작: S04 7FL24Pf68tg, S09 YoDNTcwh-JQ(로로 얼굴 클로즈업), S11 HDv4HbOoKGY(피오 클로즈업), S16 c4FLtQ15rhE. 4개 영상 프롬프트에 W·STARTV(넓게·확대 금지), S11 피오는 제자리 날갯짓. 영상 12/16.
