@@ -8,3 +8,16 @@
 | 노래 | 아직 (Suno 65~70초) |
 | 음성 | 아직 |
 48화 이야기 바꿈(33화와 겹침): 블록 탑·미안해 → 해님 퍼즐 마지막 조각이 안 들어가 속상 → 후~ → 빙글 돌려 쏙! 그림·영상 S02 S04~S17 새로 (S03 S18 공통 컷 그대로)
+48화 S02 합격 PiZb8nzRrDg
+48화 S04 합격 fTMHhu1uB4g
+48화 S05 합격 _ZVswUSAbko
+48화 S07 합격 MhoIk0UnETU
+48화 S10 합격 7Dfp4zcHyI0
+48화 S11 합격 q2PxS0AG25U
+48화 S12 합격 ITjksqzfsUw
+48화 S13 합격 OK2MD9fF4oI
+48화 S14 합격 yn9eq70pusY
+48화 S15 합격 wUlzHaoAoIU
+48화 S16 합격 4M2clINaDe4
+48화 S17 합격 yVOd0v7-ULs
+48화 S09 불합격 c0XUZ_WQCWE: 바우 왼쪽·로로 오른쪽으로 S07·S10과 자리가 반대 → 로로 왼쪽(팔짱·볼 빵빵), 바우 오른쪽으로 프롬프트 고침. S06(크앙! 화났어) 그림은 아직 안 옴.
