@@ -45,12 +45,12 @@ def make(ep, kind, start, length, title):
     ttl = OUT / f"_{ep}_{kind}.txt"; ttl.write_text(title, encoding="utf-8")
     dst = OUT / f"ep{ep}_{kind}.mp4"
     fd = str(FONT.parent)
-    # (2026-11-27, 사용자: 흐린 영상 배경이 움직여서 정신없음) → 움직이지 않는 파스텔 배경 + 흰 둥근 액자 (branding/shorts_bg.png)
-    vf = (f"[1:v]format=yuv420p[bg];[0:v]scale=1320:742:flags=lanczos,setsar=1[fg];[bg][fg]overlay=60:781:shortest=1[c];"
-          f"[c]drawtext=fontfile='{FONT}':textfile='{ttl}':fontsize=112:fontcolor=0xE8772E:borderw=12:bordercolor=white:x=(w-tw)/2:y=400,"
-          f"drawtext=fontfile='{FONT}':text='치키 타운':fontsize=75:fontcolor=0x4A7A2A:borderw=8:bordercolor=white:x=(w-tw)/2:y=2187,"
+    # (2026-11-27, 사용자) 배경 없이 영상을 확대해 세로 화면을 꽉 채운다 (가운데를 9:16로 자름). 위 제목·아래 채널 이름은 영상 위에 글자로.
+    vf = (f"[0:v]scale=-2:2560:flags=lanczos,crop=1440:2560:(iw-1440)/2:0,setsar=1[c];"
+          f"[c]drawtext=fontfile='{FONT}':textfile='{ttl}':fontsize=112:fontcolor=white:borderw=12:bordercolor=0xE8772E:x=(w-tw)/2:y=260,"
+          f"drawtext=fontfile='{FONT}':text='치키 타운':fontsize=75:fontcolor=white:borderw=8:bordercolor=0x4A7A2A:x=(w-tw)/2:y=2300,"
           f"subtitles='{tmp}':fontsdir='{fd}':original_size=1440x2560:force_style='FontName=Jua,FontSize=11,PrimaryColour=&H00FFFFFF,OutlineColour=&H00202020,BorderStyle=1,Outline=3,Shadow=0,Alignment=2,MarginV=58'[out]")
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{start:.2f}", "-t", f"{length:.2f}", "-i", str(src), "-loop", "1", "-framerate", "30", "-i", str(R / "branding/shorts_bg.png"),
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{start:.2f}", "-t", f"{length:.2f}", "-i", str(src),
                     "-filter_complex", vf, "-map", "[out]", "-map", "0:a", "-c:v", "libx264", "-preset", "slow", "-crf", "16", "-pix_fmt", "yuv420p",
                     "-c:a", "aac", "-b:a", "192k", "-af", f"afade=t=out:st={length - 0.8:.2f}:d=0.8", "-movflags", "+faststart", str(dst)], check=True)
     tmp.unlink(); ttl.unlink()
