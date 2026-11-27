@@ -21,7 +21,13 @@ def sheet(code):
     mp4 = sorted(d.glob("*.mp4"))
     if not mp4:
         print(code, "영상 없음", out.strip()); return
-    f = mp4[0]; parts = f.stem.split("_")
+    f = mp4[0]
+    if f.name.startswith("multi_") and EP:
+        # 여러 화에 같은 프롬프트 → --ep 로 받은 화의 장면으로 정한다
+        hits = [h for tok in out.split() for h in tok.split(",") if h.startswith(EP + "_S")]
+        if len(hits) == 1:
+            nf = d / f"{hits[0]}_{code}.mp4"; f.rename(nf); f = nf
+    parts = f.stem.split("_")
     img = None
     if parts[0].startswith("ep") and len(parts) > 2:
         ep, sid = parts[0], parts[1]
@@ -78,6 +84,9 @@ def accept(ep, sid, code, note):
 
 if __name__ == "__main__":
     a = sys.argv[1:]
+    EP = None
+    if a and a[0] == "--ep":
+        EP, a = a[1], a[2:]
     if a and a[0] == "--accept":
         accept(a[1], a[2], a[3], a[4] if len(a) > 4 else "")
     else:
