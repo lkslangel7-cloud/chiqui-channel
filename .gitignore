@@ -11,3 +11,5 @@ episodes/*/images/web/
 episodes/*/clips/web/
 # 숏폼 영상도 저장소에 넣지 않는다 (scripts/make_shorts.py로 다시 만들 수 있음)
 output/shorts/*.mp4
+# 쇼츠 재료(자막 없는 판) SRT는 본편 SRT와 같아서 넣지 않는다
+output/*_hq_nosubs.srt
