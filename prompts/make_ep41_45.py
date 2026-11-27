@@ -247,6 +247,12 @@ VIDFIX = {"ep41": {
  "S15": "Chiqui, already beside the bush as in the start image, hops once on the same spot with both front paws up and laughs. Only one Chiqui appears." + _BUSHV,
  "S16": "Grandpa Bau nods once and smiles wisely." + _B4 + _BUSHV,
  "S17": "Everyone opens the mouth and calls out happily two times on the same spot; Pio flaps; Torong sways the neck; Grandpa Bau nods." + _B4 + _BUSHV,
+ },
+ "ep42": {
+ "S02": "Chiqui coughs two times on the same spot, then sniffles. The ORANGE scarf stays on the neck the whole time.",
+ "S11": "Chiqui rubs the paws together three times in the basin; the ORANGE bubbles grow a little; then Chiqui rinses the paws in the water and smiles. The ORANGE scarf stays on. The one grey stone basin stays in the same place.",
+ "S12": "Torong dips the nose into the GREEN bubbles two times and lifts the head a little with a smile; all four feet stay on the ground. The one grey stone basin stays in the same place.",
+ "S17": "The friends play tag on the same spot: they hop and dodge a little to the left and right and laugh, staying in the same places at the same size; nobody runs out of the frame or toward the camera. No scarf.",
 }}
 for _e, _fx in VIDFIX.items():
     if _e in EPS:

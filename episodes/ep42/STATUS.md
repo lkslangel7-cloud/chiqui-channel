@@ -7,3 +7,4 @@
 | 영상 16컷 | 아직 |
 | 노래 | 아직 (Suno 65~70초) |
 | 음성 | 아직 |
+- (2026-11-27) 그림 15장 받음(링크, S18은 공통 컷). 모두 합격: S02 E6HhWNjqGws, S03 DM8frtj8aD8, S04 YELHhpmMQos, S05 O6SUc36yAAs, S06 5lemFEw6KwE(로로 팔꿈치 가리킴·피오 날개로 부리), S07 Xb40N3eyDlg(팔뚝으로 코·입 가림), S09 N3RhEKQ4TKY, S10 QCWzH0j7sa4(피오 날개로 기침), S11 GkR5uFAlSmI(주황 거품), S12 asYyoH3pJiQ(초록 거품, 같은 돌 대야), S13 6-5RFM3q_XE, S14 CIFlfDZjb6Y(목도리는 그루터기 탁자 위), S15 DYAzLyAigEs(목도리 없음), S16 SHfqi0AMZJo, S17 EU6EL_jraZk(목도리 없음, 토롱 네 발). 목도리: S02~S13 주황 목도리, S14 접어 둠, S15·S17 없음 — 이어짐 맞음. 침실 S13~S15 창문·선반·버섯 등·러그 같음. S02는 앞발로 입을 가림(친구들이 S06에서 '팔꿈치!' 알려 주기 전이라 이야기와 맞음). **그림 16/16 완료.** 영상 프롬프트 VIDFIX(S02·S11·S12·S17 제자리, 목도리·대야 그대로).
