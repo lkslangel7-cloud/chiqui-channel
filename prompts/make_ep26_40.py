@@ -547,7 +547,7 @@ EPS["ep39"] = dict(
   ("다 같이 언덕에", "CRTP", NIGHT + "Chiqui, Roro, Torong and Pio sit together on the grass of the hill, looking up; there is no blanket or mat anywhere.", "", False, "They look up quietly."),
   ("하늘", "", NIGHT + "Close view of the deep blue night sky with exactly ONE bright star. No characters.", "Exactly one star.", True, "The star twinkles."),
   ("풀밭에 누워요", "CRTP", NIGHT + "On the soft grass of the hill (no blanket or mat anywhere), Chiqui, Roro and Pio LIE DOWN on their backs and Torong lies on the belly with the legs folded under and the long neck up; nobody sits or stands; all four look UP at the sky (faces turned up, not at the viewer).", "", False, "They smile and point up."),
-  ("별 하나", "R", NIGHT + f"{D['R']} points up at exactly ONE bright star.", "Exactly one star.", False, "Roro points up at the one star and counts one." + W + STARTV),
+  ("별 하나", "R", NIGHT + f"{D['R']} points up at exactly ONE bright star.", "Exactly one star.", False, "Roro keeps ONE front paw raised, pointing up at the one bright star the whole time, exactly as in the start image, and says one with a big open-mouth smile; Roro never lowers the paw." + W + STARTV),
   ("별 둘", "T", NIGHT + f"{D['T']} lifts the head toward exactly TWO bright stars.", "Exactly two stars.", False, "Torong nods two times toward the stars; legs stay folded."),
   ("별 셋", "P", NIGHT + f"{D['P']} flies low near exactly THREE bright stars.", "Exactly three stars.", False, "Pio flaps the wings gently and hovers in the same place near the three stars; Pio does not fly toward the camera." + W + STARTV),
   ("넷, 다섯!", "C", NIGHT + f"{D['C']} points up at exactly FIVE bright stars.", "Exactly five stars.", False, "Chiqui points at the stars one by one and claps."),
