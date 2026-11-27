@@ -274,12 +274,12 @@ EPS["ep45"] = dict(
 _B4 = " Grandpa Bau keeps exactly 4 legs with all four feet flat on the ground; he never lifts a front foot."
 _BUSHV = " The one round green bush with three cream flowers on top stays exactly the same, in the same place, the whole time."
 VIDFIX = {"ep41": {
- "S02": "Chiqui cups one front paw next to the ear and bounces once on the same spot." + _BUSHV,
- "S04": "Chiqui listens with closed eyes, tilting the head slowly; the paw stays next to the ear." + _BUSHV,
+ "S02": "Chiqui keeps one front paw cupped next to the ear and bounces once on the same spot, smiling." + ' Chiqui stays standing UPRIGHT on the two back legs the whole time, exactly as in the start image (only two feet on the ground, never drops onto all fours, exactly four legs).' + _BUSHV,
+ "S04": "Chiqui listens with closed eyes, tilting the head slowly; the paw stays next to the ear." + ' Chiqui stays standing UPRIGHT on the two back legs the whole time, exactly as in the start image (only two feet on the ground, never drops onto all fours, exactly four legs).' + _BUSHV,
  "S05": "The bush shakes gently two times; nobody comes out and nobody is visible." + _BUSHV,
- "S06": "Chiqui, Torong and Pio lean a little toward the bush, then look at each other, curious; they stay on the LEFT of the bush." + _BUSHV,
+ "S06": "Chiqui, Torong and Pio lean a little toward the bush, then look at each other, curious; they stay on the LEFT of the bush." + ' Chiqui stays standing UPRIGHT on the two back legs the whole time, exactly as in the start image (only two feet on the ground, never drops onto all fours, exactly four legs).' + _BUSHV,
  "S07": "Roro, already standing at the RIGHT side of the bush as in the start image, hops once on the same spot, roars a friendly roar with both arms up, then laughs. Only one Roro appears." + _BUSHV,
- "S09": "Everyone laughs on the same spot; Roro scratches the head once." + _BUSHV,
+ "S09": "Everyone laughs on the same spot; Roro scratches the head once." + ' Chiqui stays standing UPRIGHT on the two back legs the whole time, exactly as in the start image (only two feet on the ground, never drops onto all fours, exactly four legs).' + _BUSHV,
  "S10": "Torong's small head above the bush bobs up and down two times; Torong's body stays hidden behind the bush; nothing else appears." + _BUSHV,
  "S11": "Torong, already standing at the RIGHT side of the bush, tilts the long neck to one side and smiles; all four feet stay on the ground; Torong does not walk." + _BUSHV,
  "S12": "Pio glides a little to the RIGHT above the bush, flapping the wings, and stays in the sky inside the frame at the same size; Pio does not land and does not fly toward the camera." + _BUSHV,
