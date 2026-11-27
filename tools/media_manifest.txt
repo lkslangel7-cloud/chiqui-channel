@@ -1250,6 +1250,7 @@ episodes/ep40/images/web/S14_7TB7NUfTxSU.png
 episodes/ep40/images/web/S15_ymZBKtMCRnE.png
 episodes/ep40/images/web/S16_cRLnhk7JdNU.png
 episodes/ep40/images/web/S17__MiwGAIibkw.png
+episodes/ep40/images/web/S18___Oy801JqtM.png
 episodes/ep41/images/web/S02_lFjE0NyY2Ms.png
 episodes/ep41/images/web/S04_1lNhIv3UgBs.png
 episodes/ep41/images/web/S05_T6MvCXvz32I.png
