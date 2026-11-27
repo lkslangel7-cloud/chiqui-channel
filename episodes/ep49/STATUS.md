@@ -19,3 +19,5 @@
 49화 S17 합격 MXQA4EAemlE
 - 49화 불합격: S05 Zb2dJ2nS7D8(피오가 작아 보이지 않음 → 데이지·풀잎이 피오보다 크게), S07 sfvnYMuI_Jw(S04 크다와 거의 같은 그림 → 목이 왼쪽 아래에서 오른쪽 위로 미끄럼틀처럼 휘게). S14는 xaRInAEkVJQ 고름(RphC3an3xTk 비슷). 안 온 그림: S13 S16.
 49화 S13 합격 pa09xcb8rGs (바우 졸린 눈, 네 발)
+49화 S16 합격 d25PVu1WcPk (키 큰 야자나무 옆 바우)
+49화 S05 합격 Intopb3IreQ (피오가 데이지·풀잎보다 작음)
