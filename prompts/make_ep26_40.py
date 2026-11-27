@@ -528,8 +528,7 @@ EPS["ep38"] = dict(
 
 # ---------------- 39화 별 하나 나 하나 (밤하늘·세기) ----------------
 NIGHT = "On the soft hill of the village at night, deep blue sky, a calm glow over the far volcano, round cave houses with warm windows. "
-# (2026-11-27, 사용자: 돗자리가 생겼다 없어졌다 함) 언덕에 간 뒤(S05~S18)는 모든 장면에 같은 돗자리. 기준 그림 S07.
-BLANKET39 = ("THE SAME one blue-and-white checked picnic blanket with a soft cream border lies flat on the grass of the hill in this scene, exactly like the blanket in the reference image (S07); it is always there under or right next to the friends. ")
+# (2026-11-27, 사용자: 돗자리가 생겼다 없어졌다 → 처음부터 돗자리 없이) S05·S07·S17만 다시 만든다.
 EPS["ep39"] = dict(
  title="39화. 별 하나 나 하나! — 별 세기", short="별 하나 나 하나!", song_id="star", song_short="별 노래",
  theme="밤하늘 별 하나~다섯 세기, 별똥별 소원 빌기, 잠자리 인사.",
@@ -545,19 +544,19 @@ EPS["ep39"] = dict(
   ("밤이 되었어요", "", NIGHT + "Exactly ONE bright star twinkles in the sky. No characters.", "Exactly one star.", False, "The star twinkles; nothing else moves."),
   ("별이다!", "C", NIGHT + f"{D['C']} points up at exactly ONE bright star.", "Exactly one star.", False, "Chiqui points and smiles."),
   BAU(NIGHT, "별 보러 가자", "sits on the hill, smiling, looking up."),
-  ("다 같이 언덕에", "CRTP", NIGHT + BLANKET39 + "Chiqui, Roro, Torong and Pio sit together on the blanket, looking up.", "", False, "They look up quietly."),
+  ("다 같이 언덕에", "CRTP", NIGHT + "Chiqui, Roro, Torong and Pio sit together on the grass of the hill, looking up; there is no blanket or mat anywhere.", "", False, "They look up quietly."),
   ("하늘", "", NIGHT + "Close view of the deep blue night sky with exactly ONE bright star. No characters.", "Exactly one star.", True, "The star twinkles."),
-  ("담요 위에", "CRTP", NIGHT + "On the blanket, Chiqui, Roro and Pio LIE DOWN on their backs and Torong lies on the belly with the legs folded under and the long neck up; nobody sits or stands; all four look UP at the sky (faces turned up, not at the viewer).", "", False, "They smile and point up."),
-  ("별 하나", "R", NIGHT + BLANKET39 + f"{D['R']} sits on the blanket and points up at exactly ONE bright star.", "Exactly one star.", False, "Roro points and counts one."),
-  ("별 둘", "T", NIGHT + BLANKET39 + f"{D['T']} lies on the belly on the blanket with the legs folded under and lifts the head toward exactly TWO bright stars.", "Exactly two stars.", False, "Torong nods two times toward the stars; legs stay folded."),
-  ("별 셋", "P", NIGHT + BLANKET39 + f"{D['P']} flies low just above the blanket near exactly THREE bright stars.", "Exactly three stars.", False, "Pio glides once and flaps happily."),
-  ("넷, 다섯!", "C", NIGHT + BLANKET39 + f"{D['C']} sits on the blanket and points up at exactly FIVE bright stars.", "Exactly five stars.", False, "Chiqui points at the stars one by one and claps."),
-  ("별똥별!", "CRTP", NIGHT + BLANKET39 + "One shooting star streaks across the sky; Chiqui, Roro, Torong and Pio sit on the blanket, gasp and point; Torong lies on the belly with the legs folded under.", "Exactly one shooting star.", False, "The shooting star streaks across once; the friends gasp."),
-  ("소원을 빌어요", "C", NIGHT + BLANKET39 + f"Close view of {D['C']} sitting on the blanket with eyes closed and paws together, making a wish.", "", True, "Chiqui closes the eyes and smiles, wishing."),
-  ("다 같이 소원", "BCRTP", NIGHT + BLANKET39 + "All five friends sit together on the blanket with eyes closed, making a wish; Torong lies on the belly with the legs folded under; stars twinkle above.", "", False, "They sit quietly with eyes closed, smiling."),
+  ("풀밭에 누워요", "CRTP", NIGHT + "On the soft grass of the hill (no blanket or mat anywhere), Chiqui, Roro and Pio LIE DOWN on their backs and Torong lies on the belly with the legs folded under and the long neck up; nobody sits or stands; all four look UP at the sky (faces turned up, not at the viewer).", "", False, "They smile and point up."),
+  ("별 하나", "R", NIGHT + f"{D['R']} points up at exactly ONE bright star.", "Exactly one star.", False, "Roro points and counts one."),
+  ("별 둘", "T", NIGHT + f"{D['T']} lifts the head toward exactly TWO bright stars.", "Exactly two stars.", False, "Torong nods two times toward the stars; legs stay folded."),
+  ("별 셋", "P", NIGHT + f"{D['P']} flies low near exactly THREE bright stars.", "Exactly three stars.", False, "Pio glides once and flaps happily."),
+  ("넷, 다섯!", "C", NIGHT + f"{D['C']} points up at exactly FIVE bright stars.", "Exactly five stars.", False, "Chiqui points at the stars one by one and claps."),
+  ("별똥별!", "CRTP", NIGHT + "One shooting star streaks across the sky; Chiqui, Roro, Torong and Pio gasp and point.", "Exactly one shooting star.", False, "The shooting star streaks across once; the friends gasp."),
+  ("소원을 빌어요", "C", NIGHT + f"Close view of {D['C']} with eyes closed and paws together, making a wish.", "", True, "Chiqui closes the eyes and smiles, wishing."),
+  ("다 같이 소원", "BCRTP", NIGHT + "All five friends sit together with eyes closed, making a wish; stars twinkle above.", "", False, "They sit quietly with eyes closed, smiling."),
   BAU(NIGHT, "공룡들도 이 별을", "looks up at the stars, smiling wisely."),
-  ("하암~", "CRTP", NIGHT + BLANKET39 + "Chiqui, Roro, Torong and Pio yawn sleepily on the blanket.", "", False, "They yawn one by one and rub their eyes."),
-  WAVE(NIGHT + BLANKET39, "잘 자!"),
+  ("하암~", "CRTP", NIGHT + "Chiqui, Roro, Torong and Pio sit on the grass and yawn sleepily; there is no blanket or mat anywhere.", "", False, "They yawn one by one and rub their eyes."),
+  WAVE(NIGHT, "잘 자!"),
  ]))
 
 # ---------------- 40화 치키 타운 대축제 (40화 특집) ----------------
