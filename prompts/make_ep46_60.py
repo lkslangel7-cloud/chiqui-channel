@@ -22,6 +22,27 @@ B4V = " Grandpa Bau keeps exactly 4 legs with all four feet flat on the ground; 
 CUPV = " Chiqui stays standing UPRIGHT on the two back legs the whole time (only two feet on the ground, exactly four legs)."
 EPS = {}
 
+# (2026-11-27, 사용자: 46화에 한복) 친구마다 몸 색 저고리 + 색동 소매. 다리·꼬리·프릴·바우 등딱지는 가리지 않는다(다리 수 확인이 쉽게).
+# 공통 컷(좋아!·안녕!)은 한복이 없으니 46화는 이 두 장면도 한복을 입혀 따로 만든다.
+HANBOK = {
+ "C": "Chiqui wears one short soft ORANGE hanbok jacket (jeogori) with rainbow-striped saekdong sleeves and a small red ribbon tie on the chest",
+ "R": "Roro wears one short soft YELLOW hanbok jacket with rainbow-striped saekdong sleeves and a small red ribbon tie",
+ "T": "Torong wears one short soft GREEN hanbok jacket over the round body only (not on the neck) with a small red ribbon tie",
+ "P": "Pio wears one tiny soft SKY-BLUE hanbok vest on the chest, the wings stay free and uncovered",
+ "B": "Grandpa Bau wears one short soft PURPLE hanbok vest on the chest and front shoulders only, with a small gold ribbon tie; his back plates and tail club stay uncovered",
+}
+HB_RULE = (" The hanbok clothes are short and simple: they never cover the legs, feet, tail, frill or horns, so every leg is easy to see. "
+           "Each friend wears only their own one hanbok in their own body color.")
+HB_V = " Everyone keeps wearing the same hanbok clothes the whole time; the clothes never change color, never come off and never cover the legs."
+def _hanbok(rows):
+    out = []
+    for n, r, sc, x, c, v in rows:
+        if r:
+            sc = sc + " " + "; ".join(HANBOK[k] for k in "CRTPB" if k in r) + "." + HB_RULE
+            v = v + HB_V
+        out.append((n, r, sc, x, c, v))
+    return out
+
 # ---------------- 46화 새해 복 많이 받으세요! (설날 세배) ----------------
 ROOM46 = (HOME + "It is New Year's morning: one low round wooden table in the middle of the room and one round soft PURPLE floor cushion "
           "on the RIGHT side of the room. ")
@@ -29,17 +50,17 @@ SOUP46 = ("five small round bowls of white rice-cake soup with steam on the low 
           "ORANGE, YELLOW, GREEN, SKY-BLUE and PURPLE bowls")
 EPS["ep46"] = dict(
  title="46화. 새해 복 많이 받으세요! — 설날 세배", short="새해 복 많이 받으세요!", song_id="newyear", song_short="세배 노래",
- theme="설날 아침, 바우 할아버지께 꾸벅 세배하고 덕담 듣기, 떡국 먹고 한 살 쑥. 인사 예절.",
+ theme="설날 아침, 알록달록 한복(색동 저고리) 입고 바우 할아버지께 꾸벅 세배, 덕담 듣기, 떡국 먹고 한 살 쑥. 인사 예절.",
  twist="치키가 너무 힘차게 꾸벅하다 데굴데굴 굴러요! 다 같이 웃고, 다시 천천히 꾸벅. 화면 밖 친구도 같이 꾸벅!",
  bau="공룡들도 해마다 쑥쑥 자랐단다!",
  lines=[("치키","새해다!",""),("치키","세배하러 가자!",""),("모두","좋아!","♻ 1화 07"),("모두","새해 복 많이 받으세요!",""),
         ("내레이션","어? 데굴데굴!",""),("모두","하하하!","♻ 3화 11"),("바우","새해 복 많이 받아라!",""),
         ("내레이션","우리 친구도 꾸벅!","뒤에 3초 쉼"),("모두","잘 먹겠습니다!",""),("치키","한 살 더 먹었다!",""),
         ("바우","공룡들도 해마다 쑥쑥 자랐단다!","바우 할아버지 상식"),("치키","안녕!","♻ 1화 18")],
- verses=[("동그란 해님 떴어요","새해 아침 (아침!)","반짝반짝 (반짝!)"),("앞발 모으고 꾸벅","세배해요 (꾸벅!)","복 많이 받으세요 (복!)"),
+ verses=[("알록달록 색동옷","새해 아침 (아침!)","곱게 입었어요 (곱다!)"),("앞발 모으고 꾸벅","세배해요 (꾸벅!)","복 많이 받으세요 (복!)"),
          ("하얀 떡국 호호","한 그릇 냠냠 (냠냠!)","한 살 쑥 (쑥!)"),("키가 쑥쑥 자랐네","우리 모두 (쑥쑥!)","새해에도 사이좋게 (좋게!)")],
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "새해 복 많이 (받으세요!)", "꾸벅꾸벅 인사해요", "치키치키 새해!"],
- scenes=scenes([
+ scenes=scenes(_hanbok([
   ("새해 아침", "C", HOME + f"{D['C']} stands at the round window looking at the big round rising morning sun outside, eyes sparkling with excitement.", "Exactly one sun.", False,
    "Chiqui bounces once on the same spot at the window and smiles." + CUPV),
   CHEER(MEADOW),
@@ -68,7 +89,7 @@ EPS["ep46"] = dict(
   ("새해 춤", "BCRTP", MEADOW + "All five friends dance happily together in the sunny New Year morning.", "", False,
    "Chiqui, Roro and Pio dance on the same spot; Torong sways the neck; Grandpa Bau wags the tail club." + B4V + " The camera stays still."),
   WAVE(MEADOW, "안녕!"),
- ]))
+ ])))
 
 # ---------------- 47화 머리 어깨 꼬리 뿔! (몸 이름 율동) ----------------
 EPS["ep47"] = dict(
