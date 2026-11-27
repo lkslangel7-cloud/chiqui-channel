@@ -145,7 +145,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 They sit quietly with eyes closed, smiling. ONLY these 5 characters are in this scene: Grandpa Bau, Chiqui, Roro, Torong, Pio; no other character, animal or creature appears at any time. Torong stays much taller than everyone with a long neck the whole time. Pio always keeps wide thin sky-blue pteranodon wings, a pointed crest on the head and a long yellow beak; Pio never turns into a round bird or a chick. Roro always keeps a round head with no frill and no horns. Torong keeps exactly four legs with all four feet on the ground the whole time; Torong never lifts or waves a front leg and never grows an extra leg; to wave, Torong sways the long neck and head gently. The camera stays still: no zoom and no camera move; every character stays fully inside the frame from start to end. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion.
 ```
 
-### S16 공룡들도 이 별을 (2:10–2:20)
+### S16 별이 반짝였단다 (2:10–2:20)
 [레퍼런스] 바우 할아버지
 [그림]
 ```

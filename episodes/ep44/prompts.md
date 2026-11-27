@@ -145,7 +145,7 @@ Wide horizontal 16:9 landscape image, like a TV screen (1920x1080), not square. 
 Chiqui chews happily and rocks side to side. The camera stays still. Chiqui is the only creature in the frame. ONLY Chiqui is in this scene from start to end; no other character, animal or creature appears at any time. Do NOT add any baby, child, twin, copy, parent, or smaller or bigger version of any character. One continuous shot with no cuts and no scene changes. Keep every character exactly as in the start image and keep the soft 3D clay style unchanged. No new characters appear. Gentle, smooth motion. CAMERA AND FRAMING ARE LOCKED: the first frame is exactly the start image, and the whole clip keeps exactly the same camera angle, distance and framing: no zoom in, no zoom out, no push in, no pan, no tilt, no orbit, no new angle, no cut, no close-up. Everyone keeps the same size, the same place and the same pose as in the start image and moves only as described; nobody comes toward the camera. Every prop and the background stay exactly as in the start image; nothing appears or disappears unless described.
 ```
 
-### S16 먹이를 나누며 (2:10–2:20)
+### S16 먹이를 가져다줬단다 (2:10–2:20)
 [레퍼런스] 바우 할아버지
 [그림]
 ```
