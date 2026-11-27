@@ -1295,3 +1295,13 @@ episodes/ep43/images/web/S14_nAGFsQMtSDU.png
 episodes/ep43/images/web/S15_0ViqycKg69E.png
 episodes/ep43/images/web/S16_P9pppUvI5mc.png
 episodes/ep43/images/web/S17_B5sKU7FGwO8.png
+episodes/ep44/images/web/S02_qzpaZ-Wmn0Y.png
+episodes/ep44/images/web/S03_DxnLSHaiqxk.png
+episodes/ep44/images/web/S06_PdbK0witPJs.png
+episodes/ep44/images/web/S07_UFpdCva9KTc.png
+episodes/ep44/images/web/S10_DhbHBaLKx9M.png
+episodes/ep44/images/web/S11_Tp79-0aKzIs.png
+episodes/ep44/images/web/S12_XZ3gIDGtrF4.png
+episodes/ep44/images/web/S13_AkStYMpJkZg.png
+episodes/ep44/images/web/S15_JJ67zz0ktMo.png
+episodes/ep44/images/web/S17_j700JikJTDg.png

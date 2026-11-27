@@ -168,7 +168,7 @@ EPS["ep43"] = dict(
 
 # ---------------- 44화 나눠 먹어요! (귤 나누기) ----------------
 BASKET44 = "one round woven ORANGE basket"
-TABLE44 = "one low round wooden table on the grass"
+TABLE44 = "THE SAME one wide low OVAL light-wooden table with a smooth plain top and four thick round wooden legs, standing on the grass (always this same oval table, never a small round stool)"
 def ROW44(n):
     w = ["", "ONE", "TWO", "THREE", "FOUR", "FIVE"][n]
     return (f"exactly {w} ({n}) small round bright-orange tangerines with little green leaves standing in ONE straight row side by side on the table top, "
@@ -192,7 +192,7 @@ EPS["ep44"] = dict(
   ("친구들 얼굴", "RTP", MEADOW + "Roro, Torong and Pio stand together looking toward the viewer side a little sadly, mouths small, Pio with drooping wings.", "", False,
    "Roro, Torong and Pio blink slowly and look down a little sad. The camera stays still."),
   # (2026-11-27, 사용자: 자꾸 빈 바구니만 나옴 — 프롬프트에 귤이 빠져 있었음) 귤 5개가 가득 든 바구니를 두 팔로 안고 있게
-  ("음…", "C", MEADOW + f"Close view of {D['C']} hugging {BASKET44} in both front paws against the tummy; the basket is FULL: exactly FIVE small round bright-orange tangerines with little green leaves are piled up inside it and clearly visible above the rim (the basket is NOT empty). Chiqui is thinking with the head tilted, looking at the viewer. Same basket and tangerines as in the reference image.", "Exactly one basket with exactly five tangerines inside; the basket is never empty and never on the ground.", True,
+  ("음…", "C", MEADOW + f"Close view of {D['C']} hugging {BASKET44} in both front paws against the tummy; the basket is FULL: exactly FIVE small round bright-orange tangerines with little green leaves are piled up inside it (count them: 1, 2, 3, 4, 5 — three in the bottom row and two on top; NOT four) and clearly visible above the rim (the basket is NOT empty). Chiqui is thinking with the head tilted, looking at the viewer. Same basket and tangerines as in the reference image.", "Exactly one basket with exactly five tangerines inside; the basket is never empty and never on the ground.", True,
    "Chiqui keeps hugging the full basket (five tangerines stay inside the whole time), tilts the head two times, thinking, then smiles brightly."),
   # (2026-11-27, 사용자: S07부터 귤이 안 줄고 개수가 제멋대로) 바구니 속 개수는 그림이 못 지킨다 →
   # S06에서 귤을 탁자 위에 한 줄로 늘어놓고, 장면마다 "탁자 위 한 줄 N개 + 받는 친구 1개"로 센다.
@@ -211,7 +211,7 @@ EPS["ep44"] = dict(
    "Chiqui lifts the one tangerine a little higher and cheers. No other tangerine appears."),
   ("잘 먹겠습니다!", "BCRTP", MEADOW + f"All five friends stand around {TABLE44}; Chiqui, Roro and Pio each hold ONE tangerine, one tangerine lies on the table right in front of Torong's mouth and one right in front of Grandpa Bau's mouth; nothing else is on the table; the empty basket sits on the grass.", "Exactly five tangerines in total, one for each friend, and no others.", False,
    "Everyone bows the head once together politely; nobody eats yet; every friend keeps exactly the one tangerine. Torong and Grandpa Bau keep all four feet on the ground. The camera stays still."),
-  ("냠!", "BCRTP", MEADOW + f"All five friends around {TABLE44} each take a bite of their own tangerine at the same time: Chiqui, Roro and Pio bite the tangerine they hold; Torong and Grandpa Bau bite the tangerine on the table right in front of their mouths.", "Exactly five tangerines.", False,
+  ("냠!", "BCRTP", MEADOW + f"All five friends around {TABLE44} each take a bite of their own tangerine at the same time: Chiqui, Roro and Pio stand on the GRASS around the table (nobody stands, sits or climbs ON the table; the table top has only the two tangerines of Torong and Grandpa Bau) and bite the tangerine they hold; Torong and Grandpa Bau bite the tangerine on the table right in front of their mouths.", "Exactly five tangerines.", False,
    "Everyone takes one bite at the same time; a small bite mark shows on each tangerine; everyone smiles with full cheeks. Torong and Grandpa Bau keep all four feet on the ground and never hold the tangerine. The camera stays still."),
   ("맛있다!", "C", MEADOW + f"Close view of {D['C']} with full happy cheeks, holding a half-eaten tangerine (a bite mark shows), eyes closed in joy.", "", True, "Chiqui chews happily and rocks side to side."),
   BAU(MEADOW, "먹이를 나누며", f"stands next to {TABLE44}, smiling wisely; one tangerine with a bite mark lies on the table in front of his mouth."),
