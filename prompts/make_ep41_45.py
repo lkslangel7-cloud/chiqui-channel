@@ -104,6 +104,15 @@ EPS["ep42"] = dict(
 
 # ---------------- 43화 멈춰라 얼음! (멈춤 춤 놀이) ----------------
 DRUM43 = "one big round PURPLE drum standing on the grass in front of Grandpa Bau, right next to his tail club"
+# (2026-11-27 그림 확인) 북 무늬가 17화에서 달라짐(세모·노란 점) → 무늬를 못박음. 바우가 앞발을 턱에 대면 앞다리가 3개(S04·S16) → B4I.
+DRUMLOOK = (" The drum always looks the same: a cream drum top, a cream rim with small cream dots at the top and at the bottom, "
+            "and one cream ZIGZAG band with small cream dots around the purple middle; no triangles, no yellow dots.")
+B4I = (" Grandpa Bau has exactly 4 legs and all four feet stay flat on the ground; he never lifts a front paw, never touches the chin or face with a paw.")
+DRUMR = " The drum is on the RIGHT side of Grandpa Bau, and Grandpa Bau faces RIGHT toward the drum."
+# (2026-11-27 그림 확인) '얼음' 장면이 '좋아!'처럼 웃으며 춤추는 그림으로 나옴 → 멈춘 얼굴·몸을 분명히.
+FREEZE = (" This is the freeze-dance game: they look clearly FROZEN, not cheering: bodies stiff and stopped in the middle of a dance move, "
+          "mouths closed tight in a small straight line, cheeks puffed out holding the breath, eyes wide open, nobody smiles with an open mouth, nobody laughs.")
+ONE = " One single picture, not a grid, not a collage, not several panels."
 EPS["ep43"] = dict(
  title="43화. 멈춰라 얼음! — 멈춤 춤 놀이", short="멈춰라 얼음!", song_id="freeze", song_short="얼음 춤",
  theme="음악이 나오면 춤추고, 멈추면 '얼음!'. 듣고 몸을 멈추는 자기 조절 놀이. 화면 밖 아이도 같이 멈춰요.",
@@ -116,27 +125,28 @@ EPS["ep43"] = dict(
          ("둥둥 북이 울리면","슝~ 피오는 날개","팔랑팔랑 (팔랑!)"),("북소리가 뚝 멈추면","모두 다 같이 (얼음!)","꼼짝 마 (꽁꽁!)")],
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "춤추다가 멈춰라 (얼음!)", "귀 기울여 들어요", "치키치키 얼음!"],
  scenes=scenes([
-  ("얼음 춤 놀이", "B", MEADOW + f"{D['B']} stands on all four feet behind {DRUM43}, smiling playfully.", "Exactly one drum.", False,
+  ("얼음 춤 놀이", "B", MEADOW + f"{D['B']} stands on all four feet behind {DRUM43}, smiling playfully." + DRUMLOOK + DRUMR + B4I, "Exactly one drum.", False,
    "Grandpa Bau taps the purple drum two times with the tail club; all four feet stay on the ground. The camera stays still."),
   CHEER(MEADOW),
-  ("음악이 멈추면?", "B", MEADOW + f"Close view of {D['B']} behind {DRUM43}, raising the white eyebrows with a playful questioning look.", "", True, "Grandpa Bau raises the eyebrows and smiles; the tail club rests still on the drum."),
-  ("둥둥 춤춰요", "BCRTP", MEADOW + f"Chiqui, Roro, Torong and Pio dance in a row on the meadow; {D['B']} stands on all four feet behind {DRUM43} on the far RIGHT, tapping it with the tail club.", "Exactly one drum.", False,
+  ("음악이 멈추면?", "B", MEADOW + f"Close view of {D['B']} behind {DRUM43}, raising the white eyebrows with a playful questioning look, the head tilted to one side." + DRUMLOOK + DRUMR + B4I, "Exactly one drum.", True, "Grandpa Bau raises the eyebrows and smiles; the tail club rests still on the drum."),
+  ("둥둥 춤춰요", "BCRTP", MEADOW + f"Chiqui, Roro, Torong and Pio dance in a row on the meadow; {D['B']} stands on all four feet behind {DRUM43} on the far RIGHT, tapping it with the tail club." + DRUMLOOK, "Exactly one drum.", False,
    "Chiqui, Roro and Pio dance and bounce; Torong sways the long neck; Grandpa Bau taps the drum with the tail club; Grandpa Bau's four feet stay on the ground. The camera stays still."),
   ("로로 씰룩씰룩", "R", MEADOW + f"{D['R']} wiggles the tail and bottom left and right in a funny dance.", "", False, "Roro wiggles the bottom left and right four times and laughs."),
-  ("얼음!", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio are frozen like statues in funny dance poses: Roro with one foot up, Pio with both wings wide, Torong with the neck tilted to one side (four feet on the ground), Chiqui with both front paws up; all eyes wide, holding still.", "", False,
+  ("얼음!", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio are frozen like statues in funny dance poses: Roro with one foot up, Pio with both wings wide, Torong with the neck tilted to one side (four feet on the ground), Chiqui with both front paws up; all eyes wide, holding still." + FREEZE, "", False,
    "Everyone stays completely still like statues for the whole clip; only their eyes blink once. Nobody moves. The camera stays still."),
-  ("토롱 흔들흔들", "T", MEADOW + f"{D['T']} sways the long neck left and right in a happy dance, all four feet on the ground.", "", False, "Torong sways the neck left and right three times; all four feet stay on the ground."),
+  ("토롱 흔들흔들", "T", MEADOW + f"{D['T']} sways the long neck left and right in a happy dance, all four feet on the ground." + ONE, "", False, "Torong sways the neck left and right three times; all four feet stay on the ground."),
   ("피오 팔랑팔랑", "P", MEADOW + f"{D['P']} hops and flaps both wings in a happy dance.", "", False, "Pio hops three times flapping the wings and turns once."),
-  ("또 얼음!", "RTP", MEADOW + "Roro, Torong and Pio are frozen like statues in funny poses (Roro on one foot, Pio with wings wide, Torong with the neck tilted, four feet on the ground), eyes wide, holding still.", "", False,
+  ("또 얼음!", "RTP", MEADOW + "Roro, Torong and Pio are frozen like statues in funny poses (Roro on one foot, Pio with wings wide, Torong with the neck tilted, four feet on the ground), eyes wide, holding still." + FREEZE, "", False,
    "Roro, Torong and Pio stay completely still for the whole clip; only eyes blink once. The camera stays still."),
-  ("치키만 빙글빙글", "CRTP", MEADOW + f"Roro, Torong and Pio stand frozen like statues in funny poses on the LEFT; {D['C']} on the RIGHT keeps spinning around happily with eyes closed, not noticing.", "", False,
+  ("치키만 빙글빙글", "CRTP", MEADOW + f"Roro, Torong and Pio stand frozen like statues in funny poses on the LEFT; {D['C']} on the RIGHT keeps spinning around happily with eyes closed and a big open-mouth laugh, not noticing." + FREEZE.replace("they look", "Roro, Torong and Pio look") + " Only Chiqui is moving and laughing.", "", False,
    "Chiqui spins around two times with eyes closed; Roro, Torong and Pio stay frozen, then their eyes slide toward Chiqui. The camera stays still."),
   ("어? 나만?", "C", MEADOW + f"Close view of {D['C']} stopping mid-spin with one paw up, eyes wide open in surprise, looking at the viewer.", "", True, "Chiqui opens the eyes, stops, blinks two times at the viewer, then giggles."),
   ("하하하!", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio laugh together on the meadow; Chiqui scratches the head.", "", False, "Everyone laughs; Chiqui scratches the head once. The camera stays still."),
   ("이번엔 꽁꽁!", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio are all frozen like statues; Chiqui in front stands perfectly still in a proud pose with both paws on the hips and the eyes tightly shut.", "", False,
    "Everyone stays completely still for the whole clip; nobody moves at all. The camera stays still."),
-  BAU(MEADOW, "꼼짝 않고 숨어서", f"stands perfectly still behind {DRUM43} like a statue, eyes peeking, a tiny playful smile."),
-  ("다 같이 둥둥", "BCRTP", MEADOW + f"All five friends dance together on the meadow; {D['B']} stands on all four feet behind {DRUM43} and taps it with the tail club.", "Exactly one drum.", False,
+  ("꼼짝 않고 숨어서", "B", MEADOW + f"{D['B']} crouches very low and flat on the grass next to {DRUM43}, legs tucked under the round body, perfectly still like a big round rock, hiding; only the eyes peek to one side, a tiny playful smile." + DRUMLOOK + DRUMR + B4I, "Exactly one drum.", False,
+   "Grandpa Bau stays perfectly still like a rock for the whole clip; only the eyes glance left and right once and he gives a tiny smile. All four feet stay under the body. The camera stays still."),
+  ("다 같이 둥둥", "BCRTP", MEADOW + f"All five friends dance together on the meadow; {D['B']} stands on all four feet behind {DRUM43} and taps it with the tail club." + DRUMLOOK, "Exactly one drum.", False,
    "Chiqui, Roro and Pio dance; Torong sways the neck; Grandpa Bau taps the drum with the tail club; all four of Grandpa Bau's feet stay on the ground. The camera stays still."),
   WAVE(MEADOW, "안녕!"),
  ]))
