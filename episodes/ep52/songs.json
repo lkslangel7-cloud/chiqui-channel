@@ -1,0 +1,19 @@
+{
+  "title": "치키 52화 노래",
+  "h1": "52화 · 색깔 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "mix",
+      "title": "빨강 노랑 섞으면?",
+      "short": "색깔 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "bubbly kids electro-swing, 110 bpm, clarinet, swirling glockenspiel on the mixing, plucky bass, curious male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n섞어 섞어 (빙글빙글!)\n알록달록 물감 놀이\n치키치키 짠!\n\n[Verse 1]\n빨강 노랑 빙글빙글\n무슨 색이 될까? (무슨 색?)\n주황 치키 (주황!)\n\n[Verse 2]\n노랑 파랑 빙글빙글\n무슨 색이 될까? (무슨 색?)\n초록 토롱 (초록!)\n\n[Verse 3]\n빨강 파랑 빙글빙글\n무슨 색이 될까? (무슨 색?)\n보라 할아버지 (보라!)\n\n[Verse 4]\n모두 모두 빙글빙글\n무슨 색이 될까? (무슨 색?)\n어? 갈색! (하하!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n섞어 섞어 (빙글빙글!)\n알록달록 물감 놀이\n치키치키 짠!\n\n[End]"
+    }
+  ]
+}

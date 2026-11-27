@@ -1,0 +1,19 @@
+{
+  "title": "치키 47화 노래",
+  "h1": "47화 · 몸 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "body",
+      "title": "머리 어깨 꼬리 뿔!",
+      "short": "몸 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "action-song kids funk, 116 bpm, slap bass, tight drums, horn stabs on each body part, speeds up in the last chorus, playful male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n머리 어깨 (꼬리 뿔!)\n따라 해요 율동\n치키치키 율동!\n\n[Verse 1]\n머리 머리 톡톡톡\n치키 뿔은 (셋!)\n반짝반짝 (반짝!)\n\n[Verse 2]\n어깨 어깨 들썩들썩\n로로 팔은 (짧아!)\n짝짝짝 (짝!)\n\n[Verse 3]\n목을 목을 쭈욱쭈욱\n토롱 목은 (길어!)\n하늘까지 (쭈욱!)\n\n[Verse 4]\n꼬리 꼬리 살랑살랑\n할아버지 (곤봉!)\n둥둥둥 (둥!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n머리 어깨 (꼬리 뿔!)\n따라 해요 율동\n치키치키 율동!\n\n[End]"
+    }
+  ]
+}

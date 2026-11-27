@@ -1,0 +1,59 @@
+{
+  "title": "치키 56~60화 노래",
+  "h1": "56~60화 · 노래 5곡 (Suno)",
+  "lead": "56~60화 노래 5곡이에요. 화마다 장르·빠르기·악기·목소리가 달라요(후렴 첫 줄 \"쿵쿵 쾅!\"과 끝 \"치키치키 ○○!\"만 같아요). 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 끝까지 나오는지 들어 보고 WAV로 올려 주세요. 몇 화 노래인지 알려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "picnic",
+      "title": "56화 · 봄 소풍 가요!",
+      "short": "소풍 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "picnic country song for kids, 108 bpm, banjo, fiddle, foot-stomp beat, friendly male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n봄 소풍 (가요!)\n깨끗하게 놀아요\n치키치키 소풍!\n\n[Verse 1]\n돗자리 펴고 앉아\n도시락 (냠냠!)\n맛있어요 (맛있어!)\n\n[Verse 2]\n어? 쓰레기 떨어졌네\n하나 줍고 (하나!)\n둘 줍고 (둘!)\n\n[Verse 3]\n높은 곳은 토롱이\n쭈욱 (쭈욱!)\n쏙 넣어요 (쏙!)\n\n[Verse 4]\n깨끗한 풀밭\n꽃도 웃어요 (방긋!)\n또 놀러 와요 (또 와요!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n봄 소풍 (가요!)\n깨끗하게 놀아요\n치키치키 소풍!\n\n[End]"
+    },
+    {
+      "id": "treasure",
+      "title": "57화 · 보물 지도를 따라가요!",
+      "short": "보물 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "adventure treasure-hunt pop for kids, 106 bpm, marimba, pizzicato, mysterious little pauses before each 'found it', brave female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n위 아래 (앞 뒤!)\n보물 지도 따라가요\n치키치키 보물!\n\n[Verse 1]\n커다란 바위 위에\n반짝반짝 (위에!)\n별을 찾았다 (찾았다!)\n\n[Verse 2]\n동그란 잎 아래에\n반짝반짝 (아래!)\n별을 찾았다 (찾았다!)\n\n[Verse 3]\n키 큰 나무 뒤에\n반짝반짝 (뒤에!)\n별을 찾았다 (찾았다!)\n\n[Verse 4]\n동굴 집 문 앞에\n반짝반짝 (앞에!)\n별을 찾았다 (찾았다!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n위 아래 (앞 뒤!)\n보물 지도 따라가요\n치키치키 보물!\n\n[End]"
+    },
+    {
+      "id": "food58",
+      "title": "58화 · 공룡은 뭘 먹을까?",
+      "short": "먹이 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "jungle hand-drum song for kids, 100 bpm, bongos, kalimba, wooden flute, guessing pauses, warm male lead like a nature guide, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n공룡은 뭘 (먹을까?)\n냠냠 쩝쩝 맛있게\n치키치키 냠냠!\n\n[Verse 1]\n높이 높이 나뭇잎\n누가 먹을까? (누구?)\n토롱이 쭈욱 (쭈욱!)\n\n[Verse 2]\n낮게 낮게 고사리\n누가 먹을까? (누구?)\n치키가 냠냠 (냠냠!)\n\n[Verse 3]\n동글동글 빨간 사과\n누가 먹을까? (누구?)\n로로가 와앙 (와앙!)\n\n[Verse 4]\n높은 가지 사과는\n누가 딸까? (누구?)\n피오가 슝 (슝!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n공룡은 뭘 (먹을까?)\n냠냠 쩝쩝 맛있게\n치키치키 냠냠!\n\n[End]"
+    },
+    {
+      "id": "weather",
+      "title": "59화 · 오늘 날씨는?",
+      "short": "날씨 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "weather samba for kids, 104 bpm, light samba percussion, ukulele, rain-stick and wind whoosh effects, cheerful female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n오늘 날씨 (어때요?)\n하늘을 봐요\n치키치키 날씨!\n\n[Verse 1]\n해님 해님 쨍쨍쨍\n오늘 날씨 (맑음!)\n반짝반짝 (반짝!)\n\n[Verse 2]\n구름 구름 뭉게뭉게\n오늘 날씨 (흐림!)\n둥실둥실 (둥실!)\n\n[Verse 3]\n바람 바람 쌩쌩쌩\n오늘 날씨 (바람!)\n살랑살랑 (살랑!)\n\n[Verse 4]\n비가 비가 주룩주룩\n오늘 날씨 (비!)\n그다음엔 무지개 (와아!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n오늘 날씨 (어때요?)\n하늘을 봐요\n치키치키 날씨!\n\n[End]"
+    },
+    {
+      "id": "kids60",
+      "title": "60화 · 어린이날 축하해!",
+      "short": "어린이날 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "big festival kids rock anthem, 120 bpm, electric guitar, claps, kids shouts, soaring chorus for flying kites, proud male lead with kids choir, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n어린이날 (축하해!)\n하늘 높이 날아라\n치키치키 축하해!\n\n[Verse 1]\n알록달록 선물 상자\n무엇이 있을까? (뭘까?)\n연이 짠! (짠!)\n\n[Verse 2]\n바람 타고 높이 높이\n주황 노랑 (높이!)\n초록 파랑 (높이!)\n\n[Verse 3]\n나무에 걸린 초록 연\n피오가 슝 (슝!)\n다시 하늘로 (와아!)\n\n[Verse 4]\n할아버지 보라 연\n우리 모두 (어린이!)\n축하해요 (축하해!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n어린이날 (축하해!)\n하늘 높이 날아라\n치키치키 축하해!\n\n[End]"
+    }
+  ]
+}

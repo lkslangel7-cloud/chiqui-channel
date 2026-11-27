@@ -1,0 +1,19 @@
+{
+  "title": "치키 54화 노래",
+  "h1": "54화 · 물 노래 노래 (Suno)",
+  "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "water",
+      "title": "물 꿀꺽꿀꺽!",
+      "short": "물 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "summer surf rock for kids, 118 bpm, twangy guitar, splashy cymbals, gulp sound effects, energetic male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n물 마셔요 (꿀꺽꿀꺽!)\n하루에 여러 번\n치키치키 꿀꺽!\n\n[Verse 1]\n해님 쨍쨍 덥지요\n목이 말라요 (말라요!)\n물 한 컵 (꿀꺽!)\n\n[Verse 2]\n로로도 꿀꺽꿀꺽\n토롱도 꿀꺽 (꿀꺽!)\n피오도 콕콕 (콕!)\n\n[Verse 3]\n물 마시면 힘이 쑥\n몸이 튼튼 (튼튼!)\n신나게 놀자 (놀자!)\n\n[Verse 4]\n시들시들 작은 꽃\n물을 주면 (쪼르르!)\n활짝 웃어요 (활짝!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n물 마셔요 (꿀꺽꿀꺽!)\n하루에 여러 번\n치키치키 꿀꺽!\n\n[End]"
+    }
+  ]
+}

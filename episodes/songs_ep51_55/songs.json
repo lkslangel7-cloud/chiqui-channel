@@ -1,0 +1,59 @@
+{
+  "title": "치키 51~55화 노래",
+  "h1": "51~55화 · 노래 5곡 (Suno)",
+  "lead": "51~55화 노래 5곡이에요. 화마다 장르·빠르기·악기·목소리가 달라요(후렴 첫 줄 \"쿵쿵 쾅!\"과 끝 \"치키치키 ○○!\"만 같아요). 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
+  "note": "마지막 후렴 끝까지 나오는지 들어 보고 WAV로 올려 주세요. 몇 화 노래인지 알려 주세요.",
+  "duration": "<b>Custom</b> — 65~70초.",
+  "songs": [
+    {
+      "id": "dark",
+      "title": "51화 · 깜깜해도 괜찮아!",
+      "short": "깜깜 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "soft lullaby for kids, 72 bpm, music box, celesta, gentle strings, cozy and reassuring, tender female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n깜깜해도 (괜찮아!)\n친구들이 함께해\n치키치키 잘 자!\n\n[Verse 1]\n불을 끄면 깜깜해\n어디 있니? (어디?)\n두근두근 (두근!)\n\n[Verse 2]\n벽에 커다란 그림자\n누구일까? (누구?)\n토롱이었네 (휴~!)\n\n[Verse 3]\n작은 등불 반짝반짝\n친구들이 (왔어요!)\n포근포근 (포근!)\n\n[Verse 4]\n창밖에 별님 반짝\n깜깜해도 (괜찮아!)\n잘 자요 (쿨쿨!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n깜깜해도 (괜찮아!)\n친구들이 함께해\n치키치키 잘 자!\n\n[End]"
+    },
+    {
+      "id": "mix",
+      "title": "52화 · 빨강 노랑 섞으면?",
+      "short": "색깔 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "bubbly kids electro-swing, 110 bpm, clarinet, swirling glockenspiel on the mixing, plucky bass, curious male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n섞어 섞어 (빙글빙글!)\n알록달록 물감 놀이\n치키치키 짠!\n\n[Verse 1]\n빨강 노랑 빙글빙글\n무슨 색이 될까? (무슨 색?)\n주황 치키 (주황!)\n\n[Verse 2]\n노랑 파랑 빙글빙글\n무슨 색이 될까? (무슨 색?)\n초록 토롱 (초록!)\n\n[Verse 3]\n빨강 파랑 빙글빙글\n무슨 색이 될까? (무슨 색?)\n보라 할아버지 (보라!)\n\n[Verse 4]\n모두 모두 빙글빙글\n무슨 색이 될까? (무슨 색?)\n어? 갈색! (하하!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n섞어 섞어 (빙글빙글!)\n알록달록 물감 놀이\n치키치키 짠!\n\n[End]"
+    },
+    {
+      "id": "ball",
+      "title": "53화 · 데굴데굴 공놀이!",
+      "short": "공놀이 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "bouncy reggae for kids, 96 bpm, offbeat guitar skank, round bass, boing sound effects on the ball, sunny female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n데굴데굴 (공놀이!)\n주고 받고 신나요\n치키치키 데굴!\n\n[Verse 1]\n치키 코로 데굴데굴\n공이 간다 (데굴!)\n받아라 (받았다!)\n\n[Verse 2]\n로로 발로 뻥뻥\n공이 간다 (뻥!)\n받아라 (받았다!)\n\n[Verse 3]\n토롱 머리 톡톡\n공이 간다 (톡!)\n받아라 (받았다!)\n\n[Verse 4]\n피오 부리 콕콕\n공이 간다 (콕!)\n받아라 (받았다!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n데굴데굴 (공놀이!)\n주고 받고 신나요\n치키치키 데굴!\n\n[End]"
+    },
+    {
+      "id": "water",
+      "title": "54화 · 물 꿀꺽꿀꺽!",
+      "short": "물 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "summer surf rock for kids, 118 bpm, twangy guitar, splashy cymbals, gulp sound effects, energetic male lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Male",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n물 마셔요 (꿀꺽꿀꺽!)\n하루에 여러 번\n치키치키 꿀꺽!\n\n[Verse 1]\n해님 쨍쨍 덥지요\n목이 말라요 (말라요!)\n물 한 컵 (꿀꺽!)\n\n[Verse 2]\n로로도 꿀꺽꿀꺽\n토롱도 꿀꺽 (꿀꺽!)\n피오도 콕콕 (콕!)\n\n[Verse 3]\n물 마시면 힘이 쑥\n몸이 튼튼 (튼튼!)\n신나게 놀자 (놀자!)\n\n[Verse 4]\n시들시들 작은 꽃\n물을 주면 (쪼르르!)\n활짝 웃어요 (활짝!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n물 마셔요 (꿀꺽꿀꺽!)\n하루에 여러 번\n치키치키 꿀꺽!\n\n[End]"
+    },
+    {
+      "id": "spring",
+      "title": "55화 · 봄이 왔어요!",
+      "short": "봄 노래",
+      "where": "0:55–1:55 · 시리즈 후렴 틀",
+      "inst": false,
+      "style": "spring folk song for kids, 92 bpm, acoustic guitar, recorder flute, light shaker, birdsong-like whistle, fresh female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "vocal": "Female",
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n봄이 왔어요 (봄!)\n살랑살랑 바람 타고\n치키치키 봄!\n\n[Verse 1]\n땅속에서 쏙쏙쏙\n새싹이 (안녕!)\n봄이 왔어요 (봄!)\n\n[Verse 2]\n꽁꽁 봉오리 활짝\n꽃이 피었어요 (활짝!)\n알록달록 (알록!)\n\n[Verse 3]\n나무에 연두 잎\n반짝반짝 (반짝!)\n바람도 살랑 (살랑!)\n\n[Verse 4]\n꽃잎이 팔랑팔랑\n꽃잎 비 (와아!)\n봄이 좋아 (좋아!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n봄이 왔어요 (봄!)\n살랑살랑 바람 타고\n치키치키 봄!\n\n[End]"
+    }
+  ]
+}
