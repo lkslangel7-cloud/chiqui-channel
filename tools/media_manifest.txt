@@ -1383,7 +1383,9 @@ episodes/ep47/images/web/S17_fGoRgcARgwY.png
 episodes/ep48/images/web/S02_PiZb8nzRrDg.png
 episodes/ep48/images/web/S04_fTMHhu1uB4g.png
 episodes/ep48/images/web/S05__ZVswUSAbko.png
+episodes/ep48/images/web/S06_vcKDUrESz1c.png
 episodes/ep48/images/web/S07_MhoIk0UnETU.png
+episodes/ep48/images/web/S09_r6-E9D78pgY.png
 episodes/ep48/images/web/S10_7Dfp4zcHyI0.png
 episodes/ep48/images/web/S11_q2PxS0AG25U.png
 episodes/ep48/images/web/S12_ITjksqzfsUw.png
