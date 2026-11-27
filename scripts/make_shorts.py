@@ -1,7 +1,7 @@
 """완성 영상에서 세로 숏폼(1440x2560, 고화질 — 2026-11-25)을 잘라 만든다. 크레딧 0.
 사용법: python3 -I scripts/make_shorts.py 01 02 ...   (화 번호 = 폴더 번호)
 화마다 2개: song(에피소드 노래 시작부터 약 28초) · quiz(내레이션 질문 앞뒤, 아이가 맞히는 부분).
-레이아웃: 움직이지 않는 파스텔 배경(branding/shorts_bg.png) + 흰 액자 안 16:9 영상(자막 없는 판) + 위 제목 + 영상 아래 큰 자막 + 맨 아래 채널 이름.
+레이아웃(2026-11-27): 16:9 영상(자막 없는 판)을 확대해 세로 화면을 꽉 채움(가운데 9:16) + 위 제목 + 아래 큰 자막 + 맨 아래 채널 이름.
 """
 import json, re, subprocess, sys
 from pathlib import Path
@@ -49,7 +49,7 @@ def make(ep, kind, start, length, title):
     vf = (f"[1:v]format=yuv420p[bg];[0:v]scale=1320:742:flags=lanczos,setsar=1[fg];[bg][fg]overlay=60:781:shortest=1[c];"
           f"[c]drawtext=fontfile='{FONT}':textfile='{ttl}':fontsize=112:fontcolor=0xE8772E:borderw=12:bordercolor=white:x=(w-tw)/2:y=400,"
           f"drawtext=fontfile='{FONT}':text='치키 타운':fontsize=75:fontcolor=0x4A7A2A:borderw=8:bordercolor=white:x=(w-tw)/2:y=2187,"
-          f"subtitles='{tmp}':fontsdir='{fd}':original_size=1440x2560:force_style='FontName=Jua,FontSize=11,PrimaryColour=&H00FFFFFF,OutlineColour=&H00202020,BorderStyle=1,Outline=3,Shadow=0,Alignment=2,MarginV=88'[out]")
+          f"subtitles='{tmp}':fontsdir='{fd}':original_size=1440x2560:force_style='FontName=Jua,FontSize=11,PrimaryColour=&H00FFFFFF,OutlineColour=&H00202020,BorderStyle=1,Outline=3,Shadow=0,Alignment=2,MarginV=58'[out]")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{start:.2f}", "-t", f"{length:.2f}", "-i", str(src), "-loop", "1", "-framerate", "30", "-i", str(R / "branding/shorts_bg.png"),
                     "-filter_complex", vf, "-map", "[out]", "-map", "0:a", "-c:v", "libx264", "-preset", "slow", "-crf", "16", "-pix_fmt", "yuv420p",
                     "-c:a", "aac", "-b:a", "192k", "-af", f"afade=t=out:st={length - 0.8:.2f}:d=0.8", "-movflags", "+faststart", str(dst)], check=True)
