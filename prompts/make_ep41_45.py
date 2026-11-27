@@ -302,7 +302,8 @@ VIDFIX = {"ep41": {
  "ep43": {
  "S02": "Grandpa Bau bends the head down and taps the cream drum top gently with the nose two times, then smiles; the drum stays in the same place on his RIGHT; the tail club stays on the LEFT and never touches the drum." + _B4,
  "S04": "Grandpa Bau raises the white eyebrows and tilts the head with a playful smile; the drum stays still in the same place on his RIGHT." + _B4,
- "S05": "Chiqui, Roro and Pio dance and bounce on the same spot; Torong sways the long neck; Grandpa Bau, at the far RIGHT, bends the head down and taps the drum top gently with the nose two times; the drum stays in the same place." + _B4, "S17": "Chiqui, Roro and Pio dance and bounce on the same spot; Torong sways the long neck; Grandpa Bau, at the far RIGHT, bends the head down and taps the drum top gently with the nose four times; the drum stays in the same place." + _B4,
+ "S05": "Chiqui, Roro and Pio dance and bounce on the same spot; Torong sways the long neck; Grandpa Bau, at the far RIGHT, keeps the purple club resting on the drum exactly as in the start image and gently lifts and taps it on the drum top two times; the club stays the same size and shape, nothing new grows; Grandpa Bau's head, glasses and body stay the same; the drum stays in the same place." + _B4,
+ "S17": "Chiqui, Roro and Pio dance and bounce on the same spot; Torong sways the long neck; Grandpa Bau, at the far RIGHT, keeps the purple club resting on the drum exactly as in the start image and gently lifts and taps it on the drum top four times; the club stays the same size and shape, nothing new grows; Grandpa Bau's head, glasses and body stay the same; the drum stays in the same place." + _B4,
 }}
 # (2026-11-27, 사용자: 같이 써줘) 43화 S17 그림이 S05와 같음 → 영상은 S17(10초) 하나만 만들고 S05는 그 앞 5초를 쓴다.
 SAMEVID = {"ep43": {"S05": "S17"}}

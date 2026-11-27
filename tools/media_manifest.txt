@@ -1293,3 +1293,4 @@ episodes/ep43/images/web/S13_FlnlRgsEdjI.png
 episodes/ep43/images/web/S14_nAGFsQMtSDU.png
 episodes/ep43/images/web/S15_0ViqycKg69E.png
 episodes/ep43/images/web/S16_P9pppUvI5mc.png
+episodes/ep43/images/web/S17_B5sKU7FGwO8.png
