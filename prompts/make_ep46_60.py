@@ -236,13 +236,15 @@ ROCK50 = "THE SAME one big round warm-brown playground rock with one smooth wide
 FOREST50 = "a cool green forest of very tall trees with huge leafy tops and soft moss on the ground"
 CLOUDHILL50 = "the top of one high soft green hill where fluffy white clouds float very close, almost touching the grass"
 LIBDOOR50 = "the front of Grandpa Bau's fossil library: one big round stone cave with one round PURPLE wooden door and two cream fossil bones crossed above the door"
-HOUSE50 = "THE SAME one round cave house of Chiqui with one round ORANGE wooden door with a yellow knob, green grass on the roof"
-PARTY50 = (HOME + "Chiqui's round room is decorated for a surprise party: one low round wooden table in the middle with one round cream cake with five little candles, "
-           "and exactly five round balloons tied above the table: ORANGE, YELLOW, GREEN, SKY-BLUE and PURPLE. ")
+HOUSE50 = "THE SAME one round cave house of Chiqui with one round GREEN wooden door with a yellow knob (like the other village houses), green grass on the roof and one small ORANGE flower pot beside the door"
+# (2026-11-27) 14화 깜짝 생일(풍선·케이크·촛불)과 겹치지 않게: 케이크·풍선 없이, 오늘 놀러 간 곳의 물건 넷으로 꾸민 '모험 방'
+PARTY50 = (HOME + "Chiqui's round room is decorated as a 'today's adventure' room, NOT a birthday party (no cake, no candles, no balloons): one low round wooden table in the middle "
+           "with exactly four keepsakes from the places they visited today: one small round warm-brown pebble, one big green tree leaf, one fluffy white cloud-shaped cotton puff, "
+           "and one small cream fossil bone; above the table hangs one garland of five small paper flags: ORANGE, YELLOW, GREEN, SKY-BLUE and PURPLE. ")
 EPS["ep50"] = dict(
  title="50화. 치키 타운 한 바퀴! — 50화 특집", short="치키 타운 한 바퀴!", song_id="tour50", song_short="한 바퀴 노래",
  theme="50화 특집: 친구들 집에 놀러 가며 마을 구경(로로 놀이터 바위·토롱 큰 나무 숲·피오 구름 언덕·바우 화석 도서관). 장소 이름, \"안녕하세요, 놀러 왔어요!\" 인사하기.",
- twist="다 돌고 나니 마지막은 치키네 동굴 집! 문을 열자 다섯 색 풍선과 케이크 — 바우 할아버지가 몰래 준비한 \"50번째 모험 축하\" 깜짝 파티!",
+ twist="다 돌고 나니 마지막은 치키네 동굴 집! 문을 열자 오늘 놀러 간 곳의 물건(로로 바위 조약돌·토롱 숲 큰 잎·피오 구름 솜·바우 작은 화석)으로 꾸민 \"50번째 모험\" 방 — 바우 할아버지가 몰래 모아 꾸며 놓았어요!",
  bau="공룡들도 저마다 사는 곳이 달랐단다!",
  lines=[("치키","오늘은 치키 타운 한 바퀴!",""),("모두","좋아!","♻ 1화 07"),("치키","누구 집부터 갈까?",""),("모두","안녕하세요, 놀러 왔어요!",""),
         ("로로","여기는 내 놀이터!",""),("토롱","여기는 내 숲!",""),("피오","여기는 내 구름 언덕!",""),("바우","어서 오렴, 화석 도서관이란다!",""),
@@ -265,21 +267,21 @@ EPS["ep50"] = dict(
    "Roro slides a little way down the slide, laughing, staying the same size."),
   ("토롱네 큰 나무 숲", "CRTP", f"In {FOREST50}. {D['T']} stands proudly on all four feet in the middle of the forest, the long neck reaching up toward the high leaves; Chiqui, Roro and Pio look up at the tall trees with amazed faces.", "", False,
    "Chiqui, Roro and Pio look up and gasp; Torong smiles proudly; all of Torong's four feet stay on the ground. The camera stays still."),
-  ("피오네 구름 언덕", "CRTP", f"On {CLOUDHILL50}. {D['P']} flies happily just above the hilltop among the low clouds; Chiqui, Roro and Torong stand on the soft grass reaching toward the fluffy clouds, delighted.", "", False,
-   "Pio glides a little left and right among the clouds; the friends reach toward the clouds and giggle. The camera stays still."),
-  ("바우 할아버지 화석 도서관", "BCRTP", MEADOW + f"{LIBDOOR50}; {D['B']} stands on all four feet in front of the open PURPLE door, welcoming with a warm smile; Chiqui, Roro, Torong and Pio stand in front of him, waving hello.", "Exactly one door.", False,
-   "Grandpa Bau nods in welcome; the friends wave and bow a little." + B4V + " The camera stays still."),
+  ("피오네 구름 언덕", "CRTP", f"On {CLOUDHILL50}. {D['P']} flies happily just above the hilltop among the low clouds; Chiqui and Roro stand UPRIGHT on the soft grass reaching up toward the fluffy clouds with their front paws, delighted; Torong stands on all four feet and stretches the long neck up so the head touches one low cloud, giggling.", "", False,
+   "Pio glides a little left and right among the clouds; Chiqui and Roro reach up and giggle; Torong nuzzles the cloud with the head; all four of Torong's feet stay on the ground. The camera stays still."),
+  ("바우 할아버지 화석 도서관", "BCRTP", MEADOW + f"{LIBDOOR50}; {D['B']} stands on all four feet in front of the open PURPLE door, welcoming with a warm smile; Chiqui, Roro and Pio stand in front of him waving hello with ONE front paw or wing each; Torong stands on all four feet beside them and tilts the long neck and head to say hello.", "Exactly one door.", False,
+   "Grandpa Bau nods in welcome; Chiqui, Roro and Pio wave; Torong tilts the neck hello; all four of Torong's feet stay on the ground." + B4V + " The camera stays still."),
   ("다 같이 한 바퀴", "BCRTP", MEADOW + "All five friends walk together in a happy row on the sunny meadow: Grandpa Bau, Chiqui, Roro, Torong and Pio, smiling.", "", False,
-   "Everyone marches in place two times, smiling; nobody walks out of the frame." + B4V + " The camera stays still."),
-  ("치키네 동굴 집", "", MEADOW + f"{HOUSE50}, its round ORANGE door closed. No characters.", "Exactly one house and one door.", False,
+   "Chiqui, Roro and Pio march in place two times, smiling; Torong sways the long neck; Grandpa Bau does not walk: he nods the head and wags the tail club with all four feet flat on the ground; nobody walks out of the frame." + B4V + " The camera stays still."),
+  ("치키네 동굴 집", "", MEADOW + f"{HOUSE50}, its round GREEN door closed. No characters.", "Exactly one house and one door.", False,
    "Grass sways a little; the door stays closed; nothing else moves."),
-  ("문을 열면?", "BCRTP", MEADOW + f"{HOUSE50}; {D['C']} stands UPRIGHT on the two back legs at the closed ORANGE door, one front paw on the yellow knob, looking back at the viewer curiously; Roro, Torong, Pio and {D['B']} stand behind Chiqui on the grass, smiling.", "Exactly one door.", False,
+  ("문을 열면?", "BCRTP", MEADOW + f"{HOUSE50}; {D['C']} stands UPRIGHT on the two back legs at the closed GREEN door, one front paw on the yellow knob, looking back at the viewer curiously; Roro, Torong, Pio and {D['B']} stand behind Chiqui on the grass, smiling.", "Exactly one door.", False,
    "Chiqui looks back at the viewer and tilts the head; the friends wait, smiling." + CUPV + B4V + " The camera stays still."),
-  ("깜짝 파티!", "BCRTP", PARTY50 + "Chiqui, Roro, Torong and Pio stand around the table with huge surprised happy faces, paws and wings up; Grandpa Bau stands on all four feet beside the table, winking.", "Exactly one cake and exactly five balloons.", False,
-   "Chiqui, Roro and Pio cheer and bounce on the same spot; Torong sways the neck; Grandpa Bau nods; the balloons sway gently." + B4V + " The camera stays still."),
+  ("깜짝 파티!", "BCRTP", PARTY50 + "Chiqui and Roro stand UPRIGHT around the table with huge surprised happy faces, front paws up; Pio opens the wings wide; Torong stands on all four feet and bends the long neck down to look at the table with wide happy eyes; Grandpa Bau stands on all four feet beside the table, winking.", "Exactly four keepsakes on the table and one garland of five flags. No cake, no balloons.", False,
+   "Chiqui, Roro and Pio cheer and bounce on the same spot; Torong sways the neck; Grandpa Bau nods; the paper flags flutter gently; the four keepsakes stay on the table." + B4V + " The camera stays still."),
   BAU(MEADOW, "사는 곳이 달랐단다", "stands on all four feet on the meadow with the playground rock, the tall forest and the cloud hill far behind him, smiling wisely."),
-  ("50번째 모험 축하해!", "BCRTP", PARTY50 + "All five friends dance happily around the table under the five balloons, smiling.", "Exactly one cake and exactly five balloons.", False,
-   "Chiqui, Roro and Pio dance on the same spot; Torong sways the neck; Grandpa Bau wags the tail club; the balloons sway." + B4V + " The camera stays still."),
+  ("50번째 모험 축하해!", "BCRTP", PARTY50 + "All five friends dance happily around the table under the garland of five paper flags, smiling.", "Exactly four keepsakes on the table and one garland of five flags. No cake, no balloons.", False,
+   "Chiqui, Roro and Pio dance on the same spot; Torong sways the neck; Grandpa Bau wags the tail club; the paper flags flutter; the four keepsakes stay on the table." + B4V + " The camera stays still."),
   WAVE(MEADOW, "안녕!"),
  ]))
 
