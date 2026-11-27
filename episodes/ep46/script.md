@@ -17,7 +17,7 @@
 | S04 | 0:35–0:40 | Chiqui, Roro, Torong, Pio | 세배하러 가자 |
 | S05 | 0:40–0:45 | Grandpa Bau | 할아버지가 기다려요 |
 | S06 | 0:45–0:50 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 꾸벅! 세배 |
-| S07 | 0:50–0:55 | Chiqui | 데굴데굴! |
+| S07 | 0:50–0:55 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 데굴데굴! |
 | S08 | 0:55–1:05 | | (재사용) 1화 치키 달리기 + 2화 다 같이 출발 · 🎵 노래 후렴 |
 | S09 | 1:05–1:15 | Chiqui, Roro, Torong, Pio | 하하하! 다시 꾸벅 |
 | S10 | 1:15–1:25 | Grandpa Bau | 새해 복 많이 받아라 |
