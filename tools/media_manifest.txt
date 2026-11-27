@@ -1234,7 +1234,6 @@ episodes/ep40/clips/web/S13_dqr6wEy7WFU.mp4
 episodes/ep40/clips/web/S14_d0IO1PIQHMk.mp4
 episodes/ep40/clips/web/S15_SEvpnz0eSXo.mp4
 episodes/ep40/clips/web/S16_KzmWkpuZEMc.mp4
-episodes/ep40/clips/web/S17_PQrzAFKtVsM.mp4
 episodes/ep40/clips/web/S18_przytBfXQK0.mp4
 episodes/ep40/images/web/S02_AsHp2Ch9vqo.png
 episodes/ep40/images/web/S03_-GhE6LIIdIs.png
@@ -1250,7 +1249,6 @@ episodes/ep40/images/web/S13_Kkq24yV73TY.png
 episodes/ep40/images/web/S14_7TB7NUfTxSU.png
 episodes/ep40/images/web/S15_ymZBKtMCRnE.png
 episodes/ep40/images/web/S16_cRLnhk7JdNU.png
-episodes/ep40/images/web/S17_q4jjvORROxU.png
 episodes/ep40/images/web/S18_5PdyGxfvdmE.png
 episodes/ep41/images/web/S02_eQRaPtTiN_g.png
 episodes/ep41/images/web/S04_7mgo6DAhy7c.png

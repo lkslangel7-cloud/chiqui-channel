@@ -603,7 +603,8 @@ EPS["ep40"] = dict(
   ("하나 둘 셋!", "BCRTP", SQUARE + f"All five friends call out together under {LANT}; now the PURPLE lantern glows too, all five glow.", "", False,
    "They call out; the purple lantern lights up and glows; everyone cheers."),
   BAU(SQUARE, "함께 모여 살았단다", f"stands under {LANT}; ALL FIVE lanterns are LIT and glow brightly from inside, including the PURPLE one on the far right, which glows just as brightly as the other four (a bright glowing purple, not dark); Grandpa Bau smiles wisely."),
-  ("다 같이 춤", "BCRTP", SQUARE + f"All five friends dance together under {LANT}; ALL FIVE lanterns are LIT and glow brightly from inside, including the PURPLE one on the far right, which glows just as brightly as the other four (a bright glowing purple, not dark).", "", False, "Everyone dances; Torong sways the neck; Grandpa Bau's four feet stay on the ground."),
+  ("다 같이 춤", "BCRTP", SQUARE + f"All five friends dance together under {LANT}; ALL FIVE lanterns are LIT and glow brightly from inside, including the PURPLE one on the far right, which glows just as brightly as the other four (a bright glowing purple, not dark). "
+   "Grandpa Bau dances WITHOUT lifting any foot: he has exactly FOUR legs (two front legs, two back legs), all four feet flat on the ground, no paw raised, no paw at the chest; he dances by swaying the round body and wagging the tail club, smiling.", "", False, "Everyone dances; Torong sways the neck; Grandpa Bau's four feet stay on the ground."),
   WAVE(SQUARE, "치키치키 출발!", f" under {LANT}; ALL FIVE lanterns are LIT and glow brightly from inside, including the PURPLE one on the far right, which glows just as brightly as the other four (a bright glowing purple, not dark)"),
  ]))
 
@@ -628,7 +629,8 @@ VIDFIX = {"ep40": {
  "S14": "Chiqui looks at the viewer, tilts the head once and waits." + ON4,
  "S15": "Everyone cheers and bounces a little in place." + B4 + ON5,
  "S16": "Grandpa Bau nods once and smiles warmly." + B4 + ON5,
- "S17": "Everyone dances in place: Chiqui and Roro bounce, Pio flaps, Torong sways the neck, Grandpa Bau sways the body and wags the tail club." + B4 + ON5,
+ "S17": "Everyone dances in place: Chiqui and Roro bounce, Pio flaps, Torong sways the neck, Grandpa Bau sways the round body and wags the tail club."
+        " Grandpa Bau has exactly 4 legs and all four feet stay flat on the ground the whole time; no paw is raised, nothing in front of his chest or belly." + ON5,  # (2026-11-27) 옛 그림은 바우 다리 5개 → 새 그림은 네 발 모두 땅
  "S18": "Chiqui, Roro and Pio wave at the viewer; Grandpa Bau nods and wags the tail club; Torong sways the long neck side to side with all four feet on the ground." + B4 + ON5,
 }}
 for _e, _fx in VIDFIX.items():
