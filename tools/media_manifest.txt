@@ -1374,6 +1374,7 @@ episodes/ep45/clips/web/S03_sVUQN7MlRuc.mp4
 episodes/ep45/clips/web/S04_cujrJQ4lxGs.mp4
 episodes/ep45/clips/web/S05_S8fuoK36eWs.mp4
 episodes/ep45/clips/web/S06_QRHggGg1tdQ.mp4
+episodes/ep45/clips/web/S07_GAqzye_OEDY.mp4
 episodes/ep45/clips/web/S09_B77Xn0imX9w.mp4
 episodes/ep45/clips/web/S10_GNNhGiroYJY.mp4
 episodes/ep45/clips/web/S12_IXDkk1svg_c.mp4
