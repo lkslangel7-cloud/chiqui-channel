@@ -1458,5 +1458,7 @@ episodes/ep51/images/web/S07_NBefRSjqENQ.png
 episodes/ep51/images/web/S09_7XObaLEx8WI.png
 episodes/ep51/images/web/S10_gf0xQlKRAQs.png
 episodes/ep51/images/web/S11_nsRUB_Z-v8g.png
+episodes/ep51/images/web/S12_a8Y0_mCgyz0.png
 episodes/ep51/images/web/S15_6et9uUruP9E.png
 episodes/ep51/images/web/S16_jWlg2RllpeA.png
+episodes/ep51/images/web/S17_WD_FydHteVk.png
