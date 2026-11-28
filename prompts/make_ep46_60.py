@@ -729,10 +729,11 @@ EPS["ep59"] = dict(
    "Everyone looks at the empty bed and laughs softly; Grandpa Bau nods." + B4V + " The camera stays still."),
   ("침대는 자는 곳", "BCRTP", ROOM59 + f"The same room and the same places as before: {D['B']} stands on all four feet next to the small round empty bed and points the nose at the soft pillow, smiling kindly, as if saying the bed is for sleeping; Chiqui, Roro and Pio sit in a row on {RUG59} listening and nodding, each with a tiny pink bump; {TOR59.replace('watching with a worried face', 'listening and smiling')}.", "Nobody on the bed.", False,
    "Grandpa Bau nods once toward the pillow; Chiqui, Roro and Pio nod two times on the rug; Torong tilts the head with all four feet on the floor." + B4V + " Everyone stays in the same place. The camera stays still."),
+  # (2026-11-28 그림 확인) S16 뼈에 혹(다친 자국)이 안 보여 상식이 안 맞음 → 가운데 혹을 못박음.
   # (2026-11-28 사용자: S15·S16은 밖 장면인데 밤이어야 함) 밤의 풀밭(달빛·별), 낮 햇빛 없음
   ("밖에서 콩콩!", "BCRTP", NIGHTOUT59 + "All five friends hop happily together on the soft moonlit grass right outside the cave house: Chiqui, Roro and Pio jump high, Torong bobs the long neck up and down with all four feet on the grass, Grandpa Bau stomps happily with all four feet on the grass.", "It is NIGHT outside: dark blue sky, moon and stars, no sun.", False,
    "Chiqui, Roro and Pio jump two times on the same spot; Torong bobs the neck; Grandpa Bau stomps; the stars twinkle." + B4V + " The camera stays still."),
-  BAU(NIGHTOUT59, "다친 자국이 있단다", "stands on all four feet on the moonlit grass next to one smooth cream fossil bone with a small healed bump on it, lying on a low flat rock, smiling wisely. It is NIGHT: dark blue sky, moon and stars, no sun."),
+  BAU(NIGHTOUT59, "다친 자국이 있단다", "stands on all four feet on the moonlit grass next to one big cream fossil bone lying on a low flat rock; in the MIDDLE of the bone there is one clearly visible round lump, like a healed bump, a little darker cream than the rest of the bone, so the bone is NOT smooth there; Grandpa Bau looks at the lump and smiles wisely. Exactly one bone. It is NIGHT: dark blue sky, moon and stars, no sun."),
   ("쉿, 잘 자요", "CRTP", ROOM59 + f"Night again: {D['C']} sleeps peacefully in the small round bed under the ORANGE blanket; Roro and Pio sleep curled up on {RUG59}; {D['T']} sleeps lying on the floor at the LEFT side of the bed with the long neck resting on the floor.", "", False,
    "Everyone sleeps, breathing slowly; nobody moves. The camera stays still."),
   WAVE(MEADOW, "안녕!"),

@@ -1620,3 +1620,14 @@ episodes/ep58/images/web/S14_LU1VzmE3Vd0.png
 episodes/ep58/images/web/S15_f8_rXwwT0nI.png
 episodes/ep58/images/web/S16_DWIinmYX0c8.png
 episodes/ep58/images/web/S17_VobA4xliFIY.png
+episodes/ep59/images/web/S02_ctKZ4ggf57M.png
+episodes/ep59/images/web/S03_o8fH1kuaafE.png
+episodes/ep59/images/web/S04_Cih6v3NT_DE.png
+episodes/ep59/images/web/S05_U995gM5B8QI.png
+episodes/ep59/images/web/S09_h5GHsmJQY4A.png
+episodes/ep59/images/web/S10_iQqkDG6GKo8.png
+episodes/ep59/images/web/S11_WYnQKxOmC54.png
+episodes/ep59/images/web/S12_PdzwZELS8Ew.png
+episodes/ep59/images/web/S13_ok7X-Xu3Wm0.png
+episodes/ep59/images/web/S15_HuYVPaCKrUc.png
+episodes/ep59/images/web/S17_1X9jvIDysug.png
