@@ -22,3 +22,15 @@
 46화 S18 합격 QnS2C8-Mbeg
 46화 S09 불합격 Em0Y4HVpzGY (할아버지 없음·모두 서 있음) → 프롬프트 고침
 46화 S09 합격 _58jcgzPkVs (할아버지와 다 같이 웃기)
+46화 S02 영상 합격 Xu5dS3SeWJs
+46화 S03 영상 합격 VuXES1nneVA
+46화 S06 영상 합격 xXlSM3b3bZc
+46화 S07 영상 합격 KBxeAYif1N4
+46화 S10 영상 합격 4WMY3hf5Puo
+46화 S11 영상 합격 Lz-FlnmWxdM
+46화 S12 영상 합격 nxVNAxox0r0
+46화 S13 영상 합격 33DD69IPXz0
+46화 S14 영상 합격 p1iuQ7wmekY
+46화 S15 영상 합격 -etqVaplLOA
+46화 S17 영상 합격 ynvkdkUzO0Y
+- 46화 영상: S03 VuXES1nneVA(S04는 뒷부분), S10 4WMY3hf5Puo(S05 앞부분·S16 전체), S13은 33DD69IPXz0. 불합격 S09 2qvuBayYW_4: 시작 그림이 옛 불합격 그림(Em0Y4HVpzGY, 할아버지 없음)이라 영상에 바우가 없음 → 합격 그림 _58jcgzPkVs로 다시. 안 온 영상: S18.
