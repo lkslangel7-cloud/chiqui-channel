@@ -1613,6 +1613,7 @@ episodes/ep58/images/web/S06_SxC_RT_HXlI.png
 episodes/ep58/images/web/S07_iW3n20_40wM.png
 episodes/ep58/images/web/S09_6LCssjcF8jE.png
 episodes/ep58/images/web/S10_S-47s2VWxzs.png
+episodes/ep58/images/web/S11_mRi_MQsZXkE.png
 episodes/ep58/images/web/S15_f8_rXwwT0nI.png
 episodes/ep59/images/web/S02_ctKZ4ggf57M.png
 episodes/ep59/images/web/S03_o8fH1kuaafE.png
