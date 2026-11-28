@@ -825,6 +825,17 @@ VIDFIX52 = {
 }
 EPS["ep52"]["scenes"] = [t[:6] + (vid(t[3], VIDFIX52[t[0]]),) if t[0] in VIDFIX52 else t for t in EPS["ep52"]["scenes"]]
 
+# (2026-11-28) 53화 합격 그림 16장을 보고 영상 동작을 맞춤. 공은 같은 줄무늬 공 하나.
+_BALLV = " There is only ONE ball, always the same striped ball (ORANGE, YELLOW, GREEN, SKY-BLUE, PURPLE); it never changes color or size and never doubles."
+_C4_53 = " Chiqui stays on all four feet the whole time, exactly as in the start image (exactly four legs)."
+VIDFIX53 = {
+ "S05": "Chiqui nudges the ball with the nose; the ball rolls a little to the RIGHT and stops." + _C4_53 + _BALLV,
+ "S13": "Grandpa Bau swings the tail club gently and taps the ball behind him on the RIGHT; the ball rolls a little to the right; his head stays on the LEFT looking at the viewer with a smile; the tail club stays at the back end of his body on the RIGHT and never comes in front of his face; he does not turn around." + B4V + _BALLV,
+ "S14": "Chiqui, facing the viewer, gives the ball one gentle nudge with the nose; the ball rolls a little toward the viewer and stops, staying the same size; Chiqui smiles and waits." + _C4_53 + _BALLV,
+ "S15": "Pio pushes the ball gently with the wings toward Roro; Roro catches it with both short arms and laughs; Chiqui and Torong cheer on the same spot; all four of Torong's feet stay on the ground." + _BALLV,
+}
+EPS["ep53"]["scenes"] = [t[:6] + (vid(t[3], VIDFIX53[t[0]]),) if t[0] in VIDFIX53 else t for t in EPS["ep53"]["scenes"]]
+
 for ep, e in EPS.items():
     write(ep, e)
 

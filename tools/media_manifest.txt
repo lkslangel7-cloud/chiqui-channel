@@ -1488,5 +1488,7 @@ episodes/ep53/images/web/S09_4LIOfhXXswM.png
 episodes/ep53/images/web/S10_AmaOM6h7iaE.png
 episodes/ep53/images/web/S11_quTuHagWq4I.png
 episodes/ep53/images/web/S12_p5_mXCXMTWE.png
+episodes/ep53/images/web/S13_gRK-jV5hKz0.png
+episodes/ep53/images/web/S14_e23a3PCfj38.png
 episodes/ep53/images/web/S15_71KetCYps2w.png
 episodes/ep53/images/web/S17_HDjprNBYi5o.png
