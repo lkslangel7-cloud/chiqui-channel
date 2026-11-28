@@ -859,6 +859,11 @@ VIDFIX54 = {
  "S17": "Chiqui, Roro and Pio dance on the same spot; Torong sways the neck; Grandpa Bau nods; the five cups stay still on the table." + B4V + _CUPS54V,
 }
 EPS["ep54"]["scenes"] = [t[:6] + (vid(t[3], VIDFIX54[t[0]]),) if t[0] in VIDFIX54 else t for t in EPS["ep54"]["scenes"]]
+# (2026-11-28) 56화 그림 16/16 합격. S13 그림: 종이가 덤불 위, 피오는 옆에서 날고 토롱 머리는 덤불보다 높다 -> 고개를 조금 숙여 입으로 집는 결과까지 적음.
+VIDFIX56 = {
+ "S13": "Torong bends the long neck down a little and picks the one crumpled white paper off the top of the round bush with the mouth; at the end the paper is held in Torong's mouth and the top of the bush is clean green; Pio flaps the wings in place next to the bush and cheers; Torong's four feet stay on the ground on the same spot. The camera stays still: no zoom and no camera move.",
+}
+EPS["ep56"]["scenes"] = [t[:6] + (vid(t[3], VIDFIX56[t[0]]),) if t[0] in VIDFIX56 else t for t in EPS["ep56"]["scenes"]]
 
 # (2026-11-28) 47화 영상: 혼자 나오는 장면(S04·S05·S09·S10·S14·S16)이 0초부터 얼굴 확대로 나옴 → 넓은 화면·크기 고정 (44·45화와 같은 문제)
 _WIDE = (" WIDE SHOT FROM THE FIRST FRAME TO THE LAST: the very first frame is exactly the start image, with the same small size of the character and the same amount of grass and sky around them;"
