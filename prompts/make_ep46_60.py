@@ -236,7 +236,8 @@ ROCK50 = "THE SAME one big round warm-brown playground rock with one smooth wide
 FOREST50 = "a cool green forest of very tall trees with huge leafy tops and soft moss on the ground"
 CLOUDHILL50 = "the top of one high soft green hill where fluffy white clouds float very close, almost touching the grass"
 LIBDOOR50 = "the front of Grandpa Bau's fossil library: one big round stone cave with one round PURPLE wooden door and two cream fossil bones crossed above the door"
-HOUSE50 = "THE SAME one round cave house of Chiqui with one round GREEN wooden door with a yellow knob (like the other village houses), green grass on the roof and one small ORANGE flower pot beside the door"
+# (2026-11-28) 50화 S13·S14 집이 달라서 S14 합격 그림(손잡이 오른쪽·화분 왼쪽)에 맞춤. S16 바위는 S05, S17 방은 S15를 참고 그림으로.
+HOUSE50 = "THE SAME one round cave house of Chiqui with one round GREEN wooden door with a yellow knob on the RIGHT side of the door (like the other village houses), green grass on the roof with no flower on the roof, and one small ORANGE flower pot with one red-orange flower standing on the LEFT side of the door"
 # (2026-11-27) 14화 깜짝 생일(풍선·케이크·촛불)과 겹치지 않게: 케이크·풍선 없이, 오늘 놀러 간 곳의 물건 넷으로 꾸민 '모험 방'
 PARTY50 = (HOME + "Chiqui's round room is decorated as a 'today's adventure' room, NOT a birthday party (no cake, no candles, no balloons): one low round wooden table in the middle "
            "with exactly four keepsakes from the places they visited today: one small round warm-brown pebble, one big green tree leaf, one fluffy white cloud-shaped cotton puff, "
@@ -273,14 +274,14 @@ EPS["ep50"] = dict(
    "Grandpa Bau nods in welcome; Chiqui, Roro and Pio wave; Torong tilts the neck hello; all four of Torong's feet stay on the ground." + B4V + " The camera stays still."),
   ("다 같이 한 바퀴", "BCRTP", MEADOW + "All five friends walk together in a happy row on the sunny meadow: Grandpa Bau, Chiqui, Roro, Torong and Pio, smiling.", "", False,
    "Chiqui, Roro and Pio march in place two times, smiling; Torong sways the long neck; Grandpa Bau does not walk: he nods the head and wags the tail club with all four feet flat on the ground; nobody walks out of the frame." + B4V + " The camera stays still."),
-  ("치키네 동굴 집", "", MEADOW + f"{HOUSE50}, its round GREEN door closed. No characters.", "Exactly one house and one door.", False,
+  ("치키네 동굴 집", "", MEADOW + f"{HOUSE50}, its round GREEN door closed. No characters.", "Exactly one house and one door. Draw the house exactly like the attached reference image (scene S14): same door, same knob side, same flower pot on the left.", False,
    "Grass sways a little; the door stays closed; nothing else moves."),
   ("문을 열면?", "BCRTP", MEADOW + f"{HOUSE50}; {D['C']} stands UPRIGHT on the two back legs at the closed GREEN door, one front paw on the yellow knob, looking back at the viewer curiously; Roro, Torong, Pio and {D['B']} stand behind Chiqui on the grass, smiling.", "Exactly one door.", False,
    "Chiqui looks back at the viewer and tilts the head; the friends wait, smiling." + CUPV + B4V + " The camera stays still."),
   ("깜짝 파티!", "BCRTP", PARTY50 + "Chiqui and Roro stand UPRIGHT around the table with huge surprised happy faces, front paws up; Pio opens the wings wide; Torong stands on all four feet and bends the long neck down to look at the table with wide happy eyes; Grandpa Bau stands on all four feet beside the table, winking.", "Exactly four keepsakes on the table and one garland of five flags. No cake, no balloons.", False,
    "Chiqui, Roro and Pio cheer and bounce on the same spot; Torong sways the neck; Grandpa Bau nods; the paper flags flutter gently; the four keepsakes stay on the table." + B4V + " The camera stays still."),
-  BAU(MEADOW, "사는 곳이 달랐단다", "stands on all four feet on the meadow with the playground rock, the tall forest and the cloud hill far behind him, smiling wisely."),
-  ("50번째 모험 축하해!", "BCRTP", PARTY50 + "All five friends dance happily around the table under the garland of five paper flags, smiling.", "Exactly four keepsakes on the table and one garland of five flags. No cake, no balloons.", False,
+  BAU(MEADOW, "사는 곳이 달랐단다", "stands on all four feet on the meadow with three places small and far behind him: on the LEFT, THE SAME big round warm-brown playground rock with one smooth yellow slide down its LEFT side, exactly like the attached reference image (scene S05; NOT a grey climbing rock, no colored climbing holds, no wooden ladder or frame); in the MIDDLE, a forest of very tall trees with huge leafy tops; on the RIGHT, one high soft green hill with fluffy white clouds touching its top, smiling wisely."),
+  ("50번째 모험 축하해!", "BCRTP", PARTY50 + "This is EXACTLY THE SAME room as the attached reference image (scene S15), seen from the same front camera: one round window in the CENTER of the back wall right behind the table, under the flag garland; on the LEFT wall a wooden shelf with a glowing lantern, a woven basket, books and a green plant; on the RIGHT wall a wooden shelf with a plant and a framed map; the same round woven rug and the same table. All five friends dance happily around the table under the garland of five paper flags, smiling.", "Exactly four keepsakes on the table and one garland of five flags. No cake, no balloons.", False,
    "Chiqui, Roro and Pio dance on the same spot; Torong sways the neck; Grandpa Bau wags the tail club; the paper flags flutter; the four keepsakes stay on the table." + B4V + " The camera stays still."),
   WAVE(MEADOW, "안녕!"),
  ]))

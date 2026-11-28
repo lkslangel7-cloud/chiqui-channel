@@ -55,7 +55,7 @@ cards = []
 for i, s in enumerate(scenes, 1):
     cards.append(f'''<article class="scene" id="{s['id'].lower()}">
   <header class="scene-head"><span class="sid">{i}/{len(scenes)} · {e(s['id'])}</span><h2>{e(s['name'])}</h2><span class="time">{e(s['time'])}</span></header>
-  {common_note(s)}{samevid_note(s)}
+  {common_note(s)}{samevid_note(s)}{('<p class="common">📝 <b>' + e(s['note']) + '</b></p>') if s.get('note') else ''}
   <div class="step"><b>① 나오는 친구</b> <span class="chips">{chips(s['refs'])}</span></div>
   <div class="step"><b>② 그림 만들기</b> · 16:9</div>
   {box("그림 프롬프트", s['id'] + "-i", s['img'])}

@@ -1421,3 +1421,14 @@ episodes/ep49/images/web/S14_xaRInAEkVJQ.png
 episodes/ep49/images/web/S15_Fbda9X4u5pE.png
 episodes/ep49/images/web/S16_d25PVu1WcPk.png
 episodes/ep49/images/web/S17_MXQA4EAemlE.png
+episodes/ep50/images/web/S02_4c1AThTN1bQ.png
+episodes/ep50/images/web/S04_PfhQalqiSU0.png
+episodes/ep50/images/web/S05_xpSU6lhnVEc.png
+episodes/ep50/images/web/S06_8LOBLSj6Sgs.png
+episodes/ep50/images/web/S07_f03LFMuFAIo.png
+episodes/ep50/images/web/S09_TAO-0byRr-M.png
+episodes/ep50/images/web/S10_--lXDGjpF3Q.png
+episodes/ep50/images/web/S11_eQ--iqGPGAk.png
+episodes/ep50/images/web/S12_GLMEftSkzcc.png
+episodes/ep50/images/web/S14_gdZVKuR6q9E.png
+episodes/ep50/images/web/S15_AIgDa3A_-x0.png
