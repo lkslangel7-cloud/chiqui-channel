@@ -538,7 +538,8 @@ HILL56 = ("On a sunny grassy hill of the volcano-island village with spring flow
 BLANKET56 = "one big ORANGE-and-white checkered picnic blanket on the grass"
 BIN56 = "one round GREEN bin with an open top standing on the grass"
 # (2026-11-28 사용자: 공룡 시대엔 사과가 없었으니 사과 심은 맞지 않음) 사과 심 → 빈 주스 팩
-TRASH56 = "exactly three pieces of crumpled white paper and one small empty ORANGE paper juice box lying on the grass"
+# (2026-11-28 대본 확인) 줍는 장면은 치키 종이·로로 팩·토롱 종이 3번 + 덤불 위 "하나 더" -> 땅에는 종이 2개 + 팩 1개
+TRASH56 = "exactly two pieces of crumpled white paper and one small empty ORANGE paper juice box lying on the grass"
 EPS["ep56"] = dict(
  title="56화. 봄 소풍 가요! — 깨끗하게 놀기", short="봄 소풍 가요!", song_id="picnic", song_short="소풍 노래",
  theme="봄 소풍, 맛있는 도시락, 놀고 난 자리 깨끗하게(쓰레기는 쓰레기통에). 하나 줍고 둘 줍고.",
@@ -560,7 +561,7 @@ EPS["ep56"] = dict(
    "Everyone takes one bite and smiles with full cheeks." + B4V + " The camera stays still."),
   ("배불러~", "R", HILL56 + f"Close view (the camera close on this friend): {D['R']} sits on the blanket patting the round full tummy with both short arms, a happy sleepy smile.", "", True,
    "Roro pats the tummy two times and sighs happily."),
-  ("어? 쓰레기", "C", HILL56 + f"{D['C']} on all four feet frowns a little, looking at {TRASH56} next to the blanket.", "Exactly three papers and one juice box. No fruit.", False,
+  ("어? 쓰레기", "C", HILL56 + f"{D['C']} on all four feet frowns a little, looking at {TRASH56} next to the blanket.", "Exactly two papers and one juice box. No fruit.", False,
    "Chiqui tilts the head and frowns a little; the trash stays still."),
   BAU(HILL56, "깨끗하게!", f"stands on all four feet next to {BIN56}, smiling kindly, as if saying 'let's clean up'."),
   ("하나 줍고", "C", HILL56 + f"Close view (the camera close on this friend): {D['C']} stands UPRIGHT next to {BIN56}, dropping one crumpled white paper into it with one front paw.", "Exactly one bin.", True,
@@ -638,19 +639,21 @@ EPS["ep57"] = dict(
 TREE58 = "one very tall tree with leafy branches high up"
 FERN58 = "a patch of low green fern plants on the grass"
 # (2026-11-28 사용자: 공룡 먹이 화에 사과는 이상함 — 사과는 공룡 시대에 없었음) 공룡 시대부터 있던 은행나무 열매로
-# (2026-11-28) 58화 S17 은행나무가 화면 왼쪽 끝에 너무 크게 잘려 S11~S16과 달라 S11 나무로 못박음.
-APPLE58 = "one tall ginkgo tree with fan-shaped green leaves and small round golden-yellow ginkgo fruits hanging high on its branches"
+# (2026-11-28) 58화 S17 나무가 화면 왼쪽 끝에 너무 크게 잘려 S11~S16과 달라 S11 나무로 못박음.
+# (2026-11-28 사용자: 은행 열매는 날로 먹으면 아이에게 위험 → 다른 먹이로) 높은 가지 끝의 연한 새잎으로 바꿈. 열매 없음.
+APPLE58 = "one medium-tall tree with a smooth brown trunk that splits into two main branches and one round leafy green crown; at the very top of the crown grow small bunches of soft, bright LIGHT-GREEN young leaves, high above Roro's head; NO fruits, no berries, no nuts, no flowers on the tree"
+LEAF58 = "one small bunch of soft bright LIGHT-GREEN young leaves"
 EPS["ep58"] = dict(
  title="58화. 공룡은 뭘 먹을까? — 공룡 상식 특집", short="공룡은 뭘 먹을까?", song_id="food58", song_short="먹이 노래",
  theme="공룡 상식: 키 큰 브라키오사우루스는 높은 나뭇잎, 트리케라톱스·안킬로사우루스는 낮은 고사리(공룡 시대엔 풀밭이 거의 없었어요). 화면 밖 아이가 먼저 맞히게 쉬어 준다.",
- twist="로로는 동글동글 노란 은행 열매가 좋아! 그런데 열매가 높이 높이… 피오가 슝 날아가 하나씩 톡톡 따 줘요. 은행나무는 공룡 시대부터 있던 나무예요. 그럼 진짜 티라노사우루스는? 바우 할아버지: \"고기를 먹었단다. 우리 로로는 열매도 냠냠!\"",
+ twist="로로는 보들보들 연한 새잎이 좋아! 그런데 새잎은 나무 꼭대기에 높이 높이… 피오가 슝 날아가 톡톡 따 줘요. 그럼 진짜 티라노사우루스는? 바우 할아버지: \"고기를 먹었단다. 우리 로로는 새잎도 냠냠!\"",
  bau="진짜 티라노사우루스는 고기를 먹었단다!",
  lines=[("모두","배고파~",""),("치키","맛있는 거 찾자!",""),("모두","좋아!","♻ 1화 07"),("바우","공룡은 뭘 먹었을까?",""),
         ("내레이션","높은 나뭇잎은 누가 먹을까?","뒤에 3초 쉼"),("모두","토롱!",""),("내레이션","낮은 고사리는 누가 먹을까?","뒤에 3초 쉼"),("모두","치키!",""),
-        ("로로","나는 노란 열매!",""),("피오","내가 따 줄게!",""),("내레이션","우리 친구는 뭘 좋아해?","뒤에 3초 쉼"),
-        ("바우","진짜 티라노사우루스는 고기를 먹었단다!","바우 할아버지 상식"),("바우","은행은 꼭 어른이 익혀 줄 때만 먹어요!","S16 뒤 · 아이 안전 (2026-11-28, 무제한 끝나 그림은 은행 그대로)"),("치키","안녕!","♻ 1화 18")],
+        ("로로","나는 연한 새잎!",""),("피오","내가 따 줄게!",""),("내레이션","우리 친구는 뭘 좋아해?","뒤에 3초 쉼"),
+        ("바우","진짜 티라노사우루스는 고기를 먹었단다!","바우 할아버지 상식"),("치키","안녕!","♻ 1화 18")],
  verses=[("높이 높이 나뭇잎","누가 먹을까? (누구?)","토롱이 쭈욱 (쭈욱!)"),("낮게 낮게 고사리","누가 먹을까? (누구?)","치키가 냠냠 (냠냠!)"),
-         ("동글동글 노란 열매","누가 먹을까? (누구?)","로로가 와앙 (와앙!)"),("높은 가지 열매는","누가 딸까? (누구?)","피오가 슝 (슝!)")],
+         ("보들보들 연한 새잎","누가 먹을까? (누구?)","로로가 와앙 (와앙!)"),("높은 가지 새잎은","누가 딸까? (누구?)","피오가 슝 (슝!)")],
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "공룡은 뭘 (먹을까?)", "냠냠 쩝쩝 맛있게", "치키치키 냠냠!"],
  scenes=scenes([
   ("배고파~", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio stand in a row holding their tummies, hungry funny faces, little rumble lines near their tummies.", "", False,
@@ -669,16 +672,16 @@ EPS["ep58"] = dict(
    "Grandpa Bau chews slowly and smiles." + B4V),
   ("로로는?", "R", MEADOW + f"{D['R']} stands with one short arm on the chin, thinking, looking up at {APPLE58}.", "", False,
    "Roro tilts the head, thinking, then smiles brightly."),
-  ("노란 열매", "R", MEADOW + f"{D['R']} stands under {APPLE58}, reaching up with both short arms but the golden fruits are much too high, a funny face.", "", False,
+  ("연한 새잎", "R", MEADOW + f"{D['R']} stands under {APPLE58}, reaching up with both short arms but the light-green young leaves are much too high, a funny face.", "", False,
    "Roro hops on the same spot, reaching up, but cannot reach; Roro laughs."),
-  ("피오가 슝", "P", MEADOW + f"{D['P']} flies up next to the high branches of {APPLE58} and picks one small round golden-yellow ginkgo fruit with the beak.", "", False,
-   "Pio pulls the golden fruit off the branch with the beak and flaps, staying the same size."),
-  ("다 같이 냠냠", "CRTP", MEADOW + "Chiqui, Roro and Pio each hold one small round golden-yellow ginkgo fruit and take a bite, while Torong munches leaves from a tall tree, all smiling.", "", False,
-   "Everyone takes one bite and smiles with full cheeks; a small bite mark shows on each golden fruit. The camera stays still."),
+  ("피오가 슝", "P", MEADOW + f"{D['P']} flies up next to the high branches of {APPLE58} and picks {LEAF58} from the top of the crown with the beak.", "Exactly one bunch of young leaves in Pio's beak. No fruit.", False,
+   "Pio pulls the bunch of light-green young leaves off the branch with the beak and flaps, staying the same size."),
+  ("다 같이 냠냠", "CRTP", MEADOW + f"In front of {APPLE58}: Chiqui and Roro each hold {LEAF58} and munch it, Pio nibbles {LEAF58} with the beak, while Torong munches the leaves at the top of the same tree, all smiling.", "Exactly one tree. No fruit.", False,
+   "Everyone munches the young leaves; the leaf bunches get smaller with each bite and the friends smile with full cheeks. The camera stays still."),
   ("뭘 좋아해?", "C", MEADOW + f"Close view of {D['C']} standing UPRIGHT facing the viewer, one front paw on the chin, asking the viewer what they like to eat.", "", True,
    "Chiqui tilts the head and waits, then smiles at the viewer." + CUPV),
   BAU(MEADOW, "티라노는 고기를", f"stands on all four feet next to {APPLE58}, smiling wisely and kindly, one eyebrow raised as if telling a fun fact."),
-  ("다 같이 냠냠 춤", "BCRTP", MEADOW + f"All five friends dance happily together in front of {APPLE58}." " It is THE SAME ginkgo tree as in the attached reference image (scene S11): a medium-size tree standing a little RIGHT of the center behind the friends, its brown trunk curving and splitting into two main branches, one round leafy crown with clusters of golden fruits, the WHOLE tree including the top of the crown fully inside the picture with sky above it; never a giant tree cut off at the top or edge.", "Exactly one ginkgo tree.", False,
+  ("다 같이 냠냠 춤", "BCRTP", MEADOW + f"All five friends dance happily together in front of {APPLE58}." " It is THE SAME tree as in the attached reference image (scene S11): a medium-size tree standing a little RIGHT of the center behind the friends, its brown trunk curving and splitting into two main branches, one round leafy crown with light-green young leaves at the top and no fruits, the WHOLE tree including the top of the crown fully inside the picture with sky above it; never a giant tree cut off at the top or edge.", "Exactly one tree. No fruit.", False,
    "Chiqui, Roro and Pio dance; Torong sways the neck; Grandpa Bau wags the tail club." + B4V + " The camera stays still."),
   WAVE(MEADOW, "안녕!"),
  ]))
