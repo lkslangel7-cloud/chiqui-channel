@@ -893,6 +893,13 @@ VIDFIX47 = {
  "S16": "Grandpa Bau nods once and smiles warmly, staying small in the same place." + B4V + _WIDE,
 }
 EPS["ep47"]["scenes"] = [t[:6] + (vid(t[3], VIDFIX47[t[0]]),) if t[0] in VIDFIX47 else t for t in EPS["ep47"]["scenes"]]
+# (2026-11-28) 48화 영상 확인: S04·S05에서 조각이 끝에 쏙 들어가 퍼즐이 다 맞춰짐(맞는 건 S15) -> 조각이 끝까지 안 들어가게 못박음.
+_NOIN48 = " The puzzle piece NEVER goes into the hole: from the first frame to the last it stays crooked, sticking up on top of the tray at an angle, and the empty hole in the top-right corner of the tray stays empty and visible the whole time. The sun picture on the tray stays unfinished."
+VIDFIX48 = {
+ "S04": "Roro presses the crooked piece down two times with one hand; it pops back up crooked each time and does not go in; Roro tilts the head, puzzled." + _NOIN48,
+ "S05": "Roro pushes on the crooked piece two more times with both hands, cheeks puffing, but it does not go in and stays sticking up crooked; Roro frowns." + _NOIN48,
+}
+EPS["ep48"]["scenes"] = [t[:6] + (vid(t[3], VIDFIX48[t[0]]),) if t[0] in VIDFIX48 else t for t in EPS["ep48"]["scenes"]]
 
 # (2026-11-28, 사용자: 48화부터 영상이 계속 확대됨 → 프롬프트 문제) 확대된 영상 13개 중 12개가 혼자 장면이고 모두
 # "X is the only creature in the frame"이 들어 있었다 → 모델이 '화면을 X로 채우기'로 읽는 것으로 보고 문장을 바꾸고, 48~60화 모든 영상에 넓은 화면 고정을 붙인다.
