@@ -788,6 +788,24 @@ VIDFIX50 = {
 }
 EPS["ep50"]["scenes"] = [t[:6] + (vid(t[3], VIDFIX50[t[0]]),) if t[0] in VIDFIX50 else t for t in EPS["ep50"]["scenes"]]
 
+# (2026-11-28) 51화 합격 그림 16장을 보고 영상 동작을 맞춤 (선반·등은 왼쪽, 창은 오른쪽, 등 켜짐/꺼짐 그대로).
+_ROOM51V = " The shelf with the mushroom lamp stays on the LEFT and the round window stays on the RIGHT; nobody wears clothes."
+VIDFIX51 = {
+ "S02": "Chiqui yawns in the bed, then reaches one front paw out from under the blanket toward the glowing mushroom lamp on the LEFT shelf and taps it once; the lamp goes dark and the room becomes dim blue; Chiqui stays in the bed." + _ROOM51V,
+ "S04": "Chiqui's big eyes blink and look left and right nervously, peeking out from under the blanket; the mushroom lamp stays OFF and the room stays dim." + _ROOM51V,
+ "S05": "The long neck shadow on the wall sways slowly left and right; the bed stays empty; the mushroom lamp stays OFF; nothing else moves; no character appears." + _ROOM51V,
+ "S06": "The blanket trembles a little; the tip of Chiqui's frill wiggles once; the mushroom lamp stays OFF." + _ROOM51V,
+ "S07": "Torong taps the glowing window gently with the nose two times and smiles; all four feet stay on the ground; Torong does not walk.",
+ "S09": "Chiqui, sitting in the bed, laughs with relief and waves one front paw at the window; Torong's head nods two times at the window; the mushroom lamp stays ON." + _ROOM51V,
+ "S10": "Roro, standing in the doorway, lifts the YELLOW star lantern a little and smiles; Pio stays flying in the same place, holding the SKY-BLUE star lantern string in the beak; the two lanterns glow softly; nobody walks." + _ROOM51V,
+ "S11": "The two star lanterns on the LEFT shelf twinkle softly; Chiqui, Roro and Pio smile at each other, staying in the same places on the bed." + _ROOM51V,
+ "S12": "Chiqui keeps pointing at the stars in the window on the RIGHT; Roro and Pio look at the window and smile; the stars twinkle; nobody walks." + ' Chiqui stays standing UPRIGHT on the two back legs the whole time, exactly as in the start image (only two feet on the ground, exactly four legs).' + _ROOM51V,
+ "S13": "Chiqui, looking at the viewer with eyes open, smiles and nods gently two times, then snuggles a little into the pillow; the eyes stay open; the lamp and the two star lanterns glow." + _ROOM51V,
+ "S15": "Roro and Pio wave goodnight slowly; Chiqui yawns in the bed; the two star lanterns glow on the LEFT shelf." + _ROOM51V,
+ "S17": "Chiqui sleeps and breathes slowly; the lamp and the two star lanterns glow softly; nothing else moves." + _ROOM51V,
+}
+EPS["ep51"]["scenes"] = [t[:6] + (vid(t[3], VIDFIX51[t[0]]),) if t[0] in VIDFIX51 else t for t in EPS["ep51"]["scenes"]]
+
 for ep, e in EPS.items():
     write(ep, e)
 
