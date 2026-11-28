@@ -873,6 +873,19 @@ VIDFIX47 = {
 }
 EPS["ep47"]["scenes"] = [t[:6] + (vid(t[3], VIDFIX47[t[0]]),) if t[0] in VIDFIX47 else t for t in EPS["ep47"]["scenes"]]
 
+# (2026-11-28, 사용자: 48화부터 영상이 계속 확대됨 → 프롬프트 문제) 확대된 영상 13개 중 12개가 혼자 장면이고 모두
+# "X is the only creature in the frame"이 들어 있었다 → 모델이 '화면을 X로 채우기'로 읽는 것으로 보고 문장을 바꾸고, 48~60화 모든 영상에 넓은 화면 고정을 붙인다.
+import re as _re
+_WIDE_ALL = (" WIDE SHOT FROM THE FIRST FRAME TO THE LAST: the very first frame is exactly the start image, with every character at the same small size and the same amount of background around them;"
+             " the camera never moves closer, never zooms in and never shows a close-up of a face; nobody walks toward the camera.")
+def _nozoom(v):
+    v = _re.sub(r"The camera stays still\. (.+?) is the only creature in the frame\.",
+                r"The camera stays still. \1 is the only character in this scene and stays exactly as small in the picture as in the start image, with plenty of background around.", v)
+    return v if "WIDE SHOT FROM THE FIRST FRAME" in v else v + _WIDE_ALL
+for _ep in [f"ep{n}" for n in range(47, 61)]:
+    if _ep in EPS:
+        EPS[_ep]["scenes"] = [t[:6] + (_nozoom(t[6]),) + t[7:] for t in EPS[_ep]["scenes"]]
+
 for ep, e in EPS.items():
     write(ep, e)
 
