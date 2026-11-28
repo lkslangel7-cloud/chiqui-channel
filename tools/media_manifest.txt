@@ -1453,6 +1453,7 @@ episodes/ep47/images/web/S16_7ZYnQJf8olw.png
 episodes/ep47/images/web/S17_fGoRgcARgwY.png
 episodes/ep48/clips/web/S02_1sJzNGCt42M.mp4
 episodes/ep48/clips/web/S04_4il8YedTkGY.mp4
+episodes/ep48/clips/web/S05_toz1f0SFT_Q.mp4
 episodes/ep48/clips/web/S06_zZ_zOmPkSvE.mp4
 episodes/ep48/clips/web/S07_bbEjIsOY6tM.mp4
 episodes/ep48/clips/web/S09_XM6d122mGBk.mp4
