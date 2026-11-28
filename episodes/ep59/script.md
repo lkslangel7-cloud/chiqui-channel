@@ -20,9 +20,9 @@
 | S07 | 0:50–0:55 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 침대에서 콩콩 안 돼요! |
 | S08 | 0:55–1:05 | | (재사용) 1화 치키 달리기 + 2화 다 같이 출발 · 🎵 노래 후렴 |
 | S09 | 1:05–1:15 | Chiqui, Roro, Torong, Pio | 둘이 콩콩 |
-| S10 | 1:15–1:25 | Pio | 쿵! 피오 |
+| S10 | 1:15–1:25 | Chiqui, Roro, Torong, Pio | 쿵! 피오 |
 | S11 | 1:25–1:35 | Chiqui, Roro, Torong, Pio | 혼자 콩콩 |
-| S12 | 1:35–1:45 | Chiqui | 쿵! 치키 |
+| S12 | 1:35–1:45 | Chiqui, Roro, Torong, Pio | 쿵! 치키 |
 | S13 | 1:45–1:55 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 아무도 없어요 |
 | S14 | 1:55–2:00 | Grandpa Bau | 침대는 자는 곳 |
 | S15 | 2:00–2:10 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 밖에서 콩콩! |
