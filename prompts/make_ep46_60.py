@@ -484,9 +484,12 @@ EPS["ep54"] = dict(
 # (2026-11-28 사용자: 55화를 겨울 눈싸움 이야기로 바꿈) 19화(첫눈·눈사람·당근 코)와 겹치지 않게 눈싸움 + 살살 던지기·얼굴은 피하기.
 SNOW55 = ("On a snowy winter day in the volcano-island village: soft white snow covers the ground, the palm trees and the round cave houses, "
           "the far volcano has a white snowy top, and a few gentle snowflakes fall from a pale blue sky. ")
-SCARF55 = (" Each friend wears only one soft scarf in their own body color around the neck (Chiqui ORANGE, Roro YELLOW, Torong GREEN, Pio SKY-BLUE, Grandpa Bau PURPLE); "
+SCARF55 = (" Each friend wears only one soft PLAIN scarf (one solid color, no stripes, no pattern) in their own body color around the neck (Chiqui ORANGE, Roro YELLOW, Torong GREEN, Pio SKY-BLUE, Grandpa Bau PURPLE); "
            "the scarves never cover the legs, feet, tail, frill, horns or wings.")
 WALL55 = "two low round walls of packed white snow on the snowy ground"
+# (2026-11-28) 55화 그림 확인: S04 눈덩이가 몸만큼 커서 눈사람 굴리기로 보임, S15 눈 벽이 S06(네모 눈 블록을 쌓은 벽 두 개, 친구 가슴 높이)과 달리 낮은 동그란 고리, S16 바우 목도리에 줄무늬 -> 고침.
+WALLREF55 = (" The two snow walls are EXACTLY THE SAME as in the attached reference image (scene S06): each wall is a short straight row of rounded white snow blocks stacked two rows high, about chest-high on Chiqui,"
+             " one wall on the LEFT and one wall on the RIGHT with a gap between them; never a low round ring, never an igloo.")
 EPS["ep55"] = dict(
  title="55화. 눈싸움 놀이! — 겨울 눈싸움", short="눈싸움 놀이!", song_id="snowball", song_short="눈싸움 노래",
  theme="겨울 눈싸움: 눈 뭉치기, 살살 던지기, 얼굴은 피하기, 맞아도 웃으며 같이 놀기. 따뜻하게 목도리 하기.",
@@ -502,7 +505,7 @@ EPS["ep55"] = dict(
   ("눈이 소복소복", "C", SNOW55 + f"{D['C']} stands UPRIGHT on the two back legs at the round door of one snowy cave house, both front paws up in delight, looking at the white snowy village with wide happy eyes." + SCARF55, "", False,
    "Chiqui bounces once on the same spot and gasps happily; snowflakes fall gently." + CUPV),
   CHEER(SNOW55 + "Each friend wears a soft scarf in their own body color. "),
-  ("눈 뭉치 꼭꼭", "C", SNOW55 + f"Close view (the camera close on this friend): {D['C']} stands UPRIGHT on the two back legs and presses one round white snowball between both front paws, a playful smile." + SCARF55, "Exactly one snowball.", True,
+  ("눈 뭉치 꼭꼭", "C", SNOW55 + f"Close view (the camera close on this friend): {D['C']} stands UPRIGHT on the two back legs and presses one SMALL round white snowball, about as big as Chiqui's two paws put together, between both front paws held up in front of the chest, a playful smile; the snowball is held in the paws, never on the ground, never a big rolling snowball." + SCARF55, "Exactly one small snowball, held in the paws, the same small size as the snowball in scene S05.", True,
    "Chiqui pats the snowball round two times and grins." + CUPV),
   ("받아라, 휙!", "CR", SNOW55 + f"{D['R']} on the LEFT gently tosses one small soft snowball with the short arms; it bursts into a small white puff on the tummy of {D['C']} on the RIGHT, who stands UPRIGHT and laughs." + SCARF55, "Exactly one snowball puff, on Chiqui's tummy, never on the face.", False,
    "The small snow puff falls softly off Chiqui's tummy; Chiqui and Roro both laugh on the same spot." + CUPV + " The camera stays still."),
@@ -522,9 +525,9 @@ EPS["ep55"] = dict(
    "Grandpa Bau nods kindly; the friends nod two times." + B4V + " The camera stays still."),
   ("우리 친구도 살살", "C", SNOW55 + f"Close view of {D['C']} standing UPRIGHT facing the viewer, holding one small round snowball gently in both front paws, inviting the viewer to toss softly." + SCARF55, "Exactly one snowball.", True,
    "Chiqui holds the snowball out a little toward the viewer, smiles and waits." + CUPV),
-  ("다 같이 눈싸움", "CRTP", SNOW55 + f"Chiqui, Roro, Torong and Pio play a gentle snowball game near {WALL55}: soft snow puffs burst on tummies, never on faces; everyone laughs." + SCARF55, "Snow puffs only on tummies, never on faces.", False,
+  ("다 같이 눈싸움", "CRTP", SNOW55 + f"Chiqui, Roro, Torong and Pio play a gentle snowball game near {WALL55}: soft snow puffs burst on tummies, never on faces; everyone laughs." + WALLREF55 + SCARF55, "Snow puffs only on tummies, never on faces.", False,
    "Chiqui and Roro toss small soft snowballs; Pio flaps; Torong swings the tail and a little snow sprays; everyone laughs on the same spot. The camera stays still."),
-  BAU(SNOW55, "추운 곳 공룡", "stands on all four feet in the snow wearing his PURPLE scarf, a few snowflakes on his glasses, smiling wisely as if telling a fun fact."),
+  BAU(SNOW55, "추운 곳 공룡", "stands on all four feet in the snow wearing his plain solid PURPLE scarf with no stripes, exactly like his scarf in scene S10, a few snowflakes on his glasses, smiling wisely as if telling a fun fact."),
   ("다 같이 눈 춤", "BCRTP", SNOW55 + "All five friends dance happily together in the snow, wearing their scarves." + SCARF55, "", False,
    "Chiqui, Roro and Pio dance; Torong sways the neck; Grandpa Bau wags the tail club; snowflakes fall gently." + B4V + " The camera stays still."),
   WAVE(SNOW55, "안녕!", " in the snow, each wearing a scarf in their own body color"),
