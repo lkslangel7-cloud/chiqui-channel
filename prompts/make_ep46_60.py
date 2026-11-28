@@ -860,6 +860,19 @@ VIDFIX54 = {
 }
 EPS["ep54"]["scenes"] = [t[:6] + (vid(t[3], VIDFIX54[t[0]]),) if t[0] in VIDFIX54 else t for t in EPS["ep54"]["scenes"]]
 
+# (2026-11-28) 47화 영상: 혼자 나오는 장면(S04·S05·S09·S10·S14·S16)이 0초부터 얼굴 확대로 나옴 → 넓은 화면·크기 고정 (44·45화와 같은 문제)
+_WIDE = (" WIDE SHOT FROM THE FIRST FRAME TO THE LAST: the very first frame is exactly the start image, with the same small size of the character and the same amount of grass and sky around them;"
+         " the camera never moves closer, never zooms in and never shows a close-up of a face; nobody walks forward or comes toward the camera; the whole body from head to feet stays visible the whole time.")
+VIDFIX47 = {
+ "S04": "Chiqui taps the top of the head two times with both paws and giggles, staying small in the same place." + _CUP54 + _WIDE,
+ "S05": "Roro shrugs the shoulders up and down three times on the same spot, staying small in the same place." + _WIDE,
+ "S09": "Chiqui points at the three horns and smiles; a small sparkle twinkles on the horns; Chiqui stays small in the same place." + _CUP54 + _WIDE,
+ "S10": "Roro claps the short arms three times and laughs on the same spot, staying small in the same place." + _WIDE,
+ "S14": "Chiqui taps the head once, then points the other paw at the viewer and waits, smiling, staying small in the same place." + _CUP54 + _WIDE,
+ "S16": "Grandpa Bau nods once and smiles warmly, staying small in the same place." + B4V + _WIDE,
+}
+EPS["ep47"]["scenes"] = [t[:6] + (vid(t[3], VIDFIX47[t[0]]),) if t[0] in VIDFIX47 else t for t in EPS["ep47"]["scenes"]]
+
 for ep, e in EPS.items():
     write(ep, e)
 
