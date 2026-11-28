@@ -1624,6 +1624,7 @@ episodes/ep59/images/web/S02_ctKZ4ggf57M.png
 episodes/ep59/images/web/S03_o8fH1kuaafE.png
 episodes/ep59/images/web/S04_Cih6v3NT_DE.png
 episodes/ep59/images/web/S05_U995gM5B8QI.png
+episodes/ep59/images/web/S06_pcdRAw39xZA.png
 episodes/ep59/images/web/S09_h5GHsmJQY4A.png
 episodes/ep59/images/web/S10_iQqkDG6GKo8.png
 episodes/ep59/images/web/S11_WYnQKxOmC54.png
