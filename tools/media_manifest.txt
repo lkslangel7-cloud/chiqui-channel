@@ -1570,5 +1570,9 @@ episodes/ep57/images/web/S07_v7FFsDkNSLk.png
 episodes/ep57/images/web/S09_3QwAISYmbFk.png
 episodes/ep57/images/web/S10_8GRfEVDS9As.png
 episodes/ep57/images/web/S11_IaPBdmNe3bY.png
+episodes/ep57/images/web/S12_Q0xpLTQJ0T4.png
 episodes/ep57/images/web/S13_uBazGjg233A.png
+episodes/ep57/images/web/S14_zAVksam4AlM.png
 episodes/ep57/images/web/S15_19bSz9zo_c4.png
+episodes/ep57/images/web/S16_aYl7DAgyYjQ.png
+episodes/ep57/images/web/S17_R8W4nD3AgIM.png
