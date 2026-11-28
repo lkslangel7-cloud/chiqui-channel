@@ -1,7 +1,9 @@
 episodes/common/clips/web/cheer_meadow_IKTEkkPrwVU.mp4
 episodes/common/clips/web/ending_meadow_Pf2i6l8USP4.mp4
+episodes/common/clips/web/night_window_5sKydaSHa4c.mp4
 episodes/common/images/web/cheer_meadow_axQ-tioDJdw.png
 episodes/common/images/web/ending_meadow_CPcJ930L6u0.png
+episodes/common/images/web/night_window_xr5UVCbZkcY.png
 episodes/ep02/clips/web/S04_3iqYcLa_DfU.mp4
 episodes/ep02/clips/web/S05_CFXMBElMnGo.mp4
 episodes/ep02/clips/web/S06_Tt7eLq9CVzY.mp4

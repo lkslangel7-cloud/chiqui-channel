@@ -835,3 +835,22 @@ for _ep, _m in SAMEPIC.items():
         if _s["id"] in _bases: _s["sec"] = 10
     _f.write_text(_json.dumps(_sc, ensure_ascii=False, indent=1), encoding="utf-8")
 
+
+# (2026-11-28, 사용자: 51화는 밤 이야기인데 마지막 인사 S18이 낮 풀밭이라 이상함) → 9화 S20 「잘 자요 마을」 밤 창문 컷을 공통 컷 night_window로 같이 쓴다.
+BORROW = {"ep51": {"S18": ("ep09", "S20", "night_window")}}
+for _ep, _m in BORROW.items():
+    _f = _ROOT / f"episodes/{_ep}/scenes.json"
+    _sc = _json.loads(_f.read_text(encoding="utf-8"))
+    for _s in _sc:
+        if _s["id"] in _m:
+            _se, _sid, _cid = _m[_s["id"]]
+            _src = next(x for x in _json.loads((_ROOT / f"episodes/{_se}/scenes.json").read_text(encoding="utf-8")) if x["id"] == _sid)
+            _s.update(name=_src["name"], refs=_src.get("refs", []), img=_src["img"], vid=_src["vid"], sec=_src.get("sec", _s["sec"]), common=_cid)
+    _f.write_text(_json.dumps(_sc, ensure_ascii=False, indent=1), encoding="utf-8")
+    _md = _ROOT / f"episodes/{_ep}/script.md"
+    _t = _md.read_text(encoding="utf-8").splitlines()
+    for _i, _l in enumerate(_t):
+        for _id, (_se, _sid, _cid) in _m.items():
+            if _l.startswith(f"| {_id} |"):
+                _c = _l.split("|"); _c[3] = " 없음 (🔁 9화 S20 밤 창문 공통 컷) "; _c[4] = " 잘 자요 마을 (엔딩) "; _t[_i] = "|".join(_c)
+    _md.write_text("\n".join(_t) + "\n", encoding="utf-8")
