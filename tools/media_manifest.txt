@@ -1473,6 +1473,8 @@ episodes/ep52/images/web/S07_mUhWlJkRgcg.png
 episodes/ep52/images/web/S09_1yLcqtxcaAo.png
 episodes/ep52/images/web/S10_o_3zvDov9l8.png
 episodes/ep52/images/web/S11_eoEYm2f8lUc.png
+episodes/ep52/images/web/S12_as3FSxAqww4.png
+episodes/ep52/images/web/S13_v8pG-xoqbrY.png
 episodes/ep52/images/web/S14_ZLNmTnJZ8ag.png
 episodes/ep52/images/web/S15_Fs6cYiQUgBQ.png
 episodes/ep52/images/web/S16_Pn9F-L_PCTw.png

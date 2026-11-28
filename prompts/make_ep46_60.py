@@ -807,6 +807,23 @@ VIDFIX51 = {
 }
 EPS["ep51"]["scenes"] = [t[:6] + (vid(t[3], VIDFIX51[t[0]]),) if t[0] in VIDFIX51 else t for t in EPS["ep51"]["scenes"]]
 
+# (2026-11-28) 52화 합격 그림 16장을 보고 영상 동작을 맞춤. 물감통 3개(빨·노·파)와 탁자는 끝까지 그대로.
+_POTS52 = " The low round wooden table and the three paint pots (RED, YELLOW, BLUE in a row) stay exactly the same, in the same places, the whole time."
+_CUP52 = " Chiqui stays standing UPRIGHT on the two back legs the whole time (only two feet on the ground, exactly four legs)."
+VIDFIX52 = {
+ "S02": "Chiqui waves the brush a little and bounces once on the same spot." + _CUP52 + _POTS52,
+ "S04": "The brush stirs the paint in a circle; the red and yellow swirl together and turn ORANGE." + _POTS52,
+ "S05": "Chiqui points at the orange bowl, then at the own tummy, and laughs." + _CUP52 + _POTS52,
+ "S06": "Chiqui stirs the bowl with the brush; the yellow and blue swirl turns GREEN; Torong's eyes go wide. Chiqui keeps exactly the same pose as in the start image: three feet on the ground and one front paw holding the brush, exactly four legs, no extra leg." + _POTS52,
+ "S07": "Torong sways the neck happily and smiles at the green bowl; all four feet stay on the ground." + _POTS52,
+ "S09": "Chiqui stirs; the red and blue swirl turns PURPLE; Grandpa Bau's eyebrows go up." + _CUP52 + B4V + _POTS52,
+ "S10": "Grandpa Bau laughs and nods two times at the purple bowl." + B4V + _POTS52,
+ "S11": "Roro stirs fast in circles; the rainbow swirl of colors turns muddy BROWN." + _POTS52,
+ "S12": "Chiqui and Roro stare at the brown bowl, look at each other, blink, and burst out laughing; the brown bowl stays on the table." + _CUP52 + _POTS52,
+ "S13": "Everyone laughs on the same spot; Chiqui and Roro wiggle the paint-dotted paws; the brown bowl stays on the table; all four of Torong's feet stay on the ground." + _POTS52,
+}
+EPS["ep52"]["scenes"] = [t[:6] + (vid(t[3], VIDFIX52[t[0]]),) if t[0] in VIDFIX52 else t for t in EPS["ep52"]["scenes"]]
+
 for ep, e in EPS.items():
     write(ep, e)
 
