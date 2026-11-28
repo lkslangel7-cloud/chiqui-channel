@@ -286,9 +286,11 @@ EPS["ep50"] = dict(
   WAVE(MEADOW, "안녕!"),
  ]))
 
+# (2026-11-28) 51화 그림 확인: 등불 선반이 장면마다 왼쪽·오른쪽으로 바뀌고(S05·S13), S17에 목도리가 생기고, S12는 창밖을 안 봄 → 선반 왼쪽·창 오른쪽 고정, 옷 없음, S12 창 쪽 보기.
 # ---------------- 51화 깜깜해도 괜찮아! (어둠이 무서울 때) ----------------
 NIGHT51 = ("INDOORS in Chiqui's cozy round bedroom at NIGHT: soft cream walls, one small round bed with an ORANGE blanket, "
-           "one round window on the RIGHT showing the dark blue night sky with little stars, one little mushroom-shaped night lamp on a low wooden shelf next to the bed; "
+           "one round window on the RIGHT showing the dark blue night sky with little stars, and one low wooden shelf on the LEFT side of the bed (picture left) holding one little mushroom-shaped night lamp and a few books and one small green plant; "
+           "the window is always on the RIGHT and the shelf with the lamp is always on the LEFT. Nobody wears clothes: no scarf, no hat. "
            "NOT outdoors. " + NODOLL)
 LAMPS51 = "one small glowing YELLOW star-shaped lantern and one small glowing SKY-BLUE star-shaped lantern"
 EPS["ep51"] = dict(
@@ -321,9 +323,9 @@ EPS["ep51"] = dict(
    "Roro and Pio smile; the two lanterns glow softly."),
   ("반짝반짝", "CRP", NIGHT51.replace("one little mushroom-shaped night lamp", "one little mushroom-shaped night lamp, turned ON and glowing,") + f"The room glows softly with {LAMPS51} on the shelf; Chiqui sits in the bed, Roro and Pio sit on the edge of the bed, all smiling cozily.", "Exactly two star lanterns.", False,
    "The lanterns twinkle softly; the friends smile at each other."),
-  ("창밖에 별님", "CRP", NIGHT51.replace("one little mushroom-shaped night lamp", "one little mushroom-shaped night lamp, turned ON and glowing,") + "Chiqui, Roro and Pio look out of the round window at the twinkling stars in the night sky, smiling with wonder.", "", False,
+  ("창밖에 별님", "CRP", NIGHT51.replace("one little mushroom-shaped night lamp", "one little mushroom-shaped night lamp, turned ON and glowing,") + f"Chiqui, Roro and Pio stand together right in front of the round window on the RIGHT, their heads turned toward the window, looking up at the twinkling stars outside with wonder; Chiqui points one front paw at the stars; {LAMPS51} glow on the shelf on the LEFT.", "", False,
    "The stars twinkle; the friends point at the stars and smile."),
-  ("깜깜해도 괜찮아", "C", NIGHT51.replace("one little mushroom-shaped night lamp", "one little mushroom-shaped night lamp, turned ON and glowing softly,") + f"Close view of {D['C']} lying in bed under the ORANGE blanket, smiling peacefully, no longer scared.", "", True,
+  ("깜깜해도 괜찮아", "C", NIGHT51.replace("one little mushroom-shaped night lamp", "one little mushroom-shaped night lamp, turned ON and glowing softly,") + f"Close view of {D['C']} lying in bed under the ORANGE blanket, smiling peacefully, no longer scared; the glowing mushroom lamp is on the shelf at the picture LEFT and the round window at the picture RIGHT.", "", True,
    "Chiqui smiles and snuggles into the pillow, then turns the face to the viewer and nods gently with a reassuring smile."),
   ("우리 친구도 괜찮아", "C", NIGHT51.replace("one little mushroom-shaped night lamp", "one little mushroom-shaped night lamp, turned ON and glowing softly,") + f"Close view of {D['C']} sitting up in bed facing the viewer with a gentle reassuring smile.", "", True,
    "Chiqui nods gently at the viewer and smiles."),
