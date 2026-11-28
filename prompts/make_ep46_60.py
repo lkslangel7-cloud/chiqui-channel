@@ -431,7 +431,10 @@ EPS["ep53"] = dict(
  ]))
 
 # ---------------- 54화 물 꿀꺽꿀꺽! (물 마시기) ----------------
-CUPS54 = ("one low wooden table on the grass with exactly five small round cups of clear water in one row: ORANGE, YELLOW, GREEN, SKY-BLUE, PURPLE")
+# (2026-11-28 사용자: 컵 색 때문에 물에 색이 있어 보임) 컵은 투명 유리, 색은 입구 둘레 얇은 띠만. 물은 색 없이 맑게.
+CUPS54 = ("one low wooden table on the grass with exactly five small round see-through CLEAR GLASS cups in one row, each full of clear water; "
+          "each cup has only one thin colored ring around the rim: ORANGE, YELLOW, GREEN, SKY-BLUE, PURPLE; "
+          "the water inside every cup is completely clear and colorless like real water (never orange, yellow, green, blue or purple)")
 FLOWER54 = "one small ORANGE flower in the grass"
 EPS["ep54"] = dict(
  title="54화. 물 꿀꺽꿀꺽! — 물 마시기", short="물 꿀꺽꿀꺽!", song_id="water", song_short="물 노래",
@@ -452,21 +455,21 @@ EPS["ep54"] = dict(
   BAU(MEADOW, "물 마시자!", f"stands on all four feet next to {CUPS54}, smiling kindly."),
   ("다섯 컵", "", MEADOW + f"Close view of {CUPS54}, the water sparkling in the sun. No characters.", "Exactly five cups, colors exactly as written.", True,
    "The water in the cups sparkles gently; nothing else moves."),
-  ("치키 꿀꺽", "C", MEADOW + f"Close view (the camera close on this friend): {D['C']} stands UPRIGHT next to the low table, drinking from the ORANGE cup held in both front paws, eyes closed happily.", "Exactly one cup in Chiqui's paws.", True,
+  ("치키 꿀꺽", "C", MEADOW + f"Close view (the camera close on this friend): {D['C']} stands UPRIGHT next to the low table, drinking from the clear glass cup with the thin ORANGE rim (clear colorless water inside) held in both front paws, eyes closed happily.", "Exactly one cup in Chiqui's paws.", True,
    "Chiqui drinks two gulps and says ahh with a happy face." + CUPV),
-  ("로로도 꿀꺽", "R", MEADOW + f"Close view (the camera close on this friend): {D['R']} stands next to the low table drinking from the YELLOW cup held in both short arms.", "Exactly one cup in Roro's arms.", True,
+  ("로로도 꿀꺽", "R", MEADOW + f"Close view (the camera close on this friend): {D['R']} stands next to the low table drinking from the clear glass cup with the thin YELLOW rim (clear colorless water inside) held in both short arms.", "Exactly one cup in Roro's arms.", True,
    "Roro drinks two gulps and smiles."),
-  ("토롱도 꿀꺽", "T", MEADOW + f"Close view (the camera close on this friend): {D['T']} bends the long neck down and drinks from the GREEN cup standing on the low wooden table, never holding it. {NEAR}", "Exactly one green cup on the table.", True,
+  ("토롱도 꿀꺽", "T", MEADOW + f"Close view (the camera close on this friend): {D['T']} bends the long neck down and drinks from the clear glass cup with the thin GREEN rim (clear colorless water inside) standing on the low wooden table, never holding it. {NEAR}", "Exactly one green cup on the table.", True,
    "Torong sips from the cup on the table two times and smiles; all four feet stay on the ground."),
-  ("피오 콕콕", "P", MEADOW + f"Close view (the camera close on this friend): {D['P']} stands on the low wooden table and sips water from the SKY-BLUE cup with the beak.", "Exactly one sky-blue cup.", True,
+  ("피오 콕콕", "P", MEADOW + f"Close view (the camera close on this friend): {D['P']} stands on the low wooden table and sips water from the clear glass cup with the thin SKY-BLUE rim (clear colorless water inside) with the beak.", "Exactly one sky-blue cup.", True,
    "Pio sips with the beak two times and flaps once happily."),
-  ("할아버지 꿀꺽", "B", MEADOW + f"Close view (the camera close on this friend): {D['B']} stands on all four feet and drinks from the PURPLE cup standing on the low wooden table in front of his mouth, never holding it.", "Exactly one purple cup on the table.", True,
+  ("할아버지 꿀꺽", "B", MEADOW + f"Close view (the camera close on this friend): {D['B']} stands on all four feet and drinks from the clear glass cup with the thin PURPLE rim (clear colorless water inside) standing on the low wooden table in front of his mouth, never holding it.", "Exactly one purple cup on the table.", True,
    "Grandpa Bau sips from the cup on the table two times and smiles." + B4V),
   ("힘이 쑥쑥!", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio jump happily on the meadow, full of energy, big smiles.", "", False,
    "Everyone jumps once on the same spot and lands softly, cheering. The camera stays still."),
   ("꽃이 시들시들", "C", MEADOW + f"{D['C']} on all four feet looks sadly at {FLOWER54}, which droops down, wilting.", "Exactly one flower.", False,
    "Chiqui tilts the head sadly; the flower droops a little more."),
-  ("꽃도 꿀꺽", "C", MEADOW + f"{D['C']} stands UPRIGHT and gently pours water from the ORANGE cup onto {FLOWER54}.", "Exactly one flower and one cup.", False,
+  ("꽃도 꿀꺽", "C", MEADOW + f"{D['C']} stands UPRIGHT and gently pours water from the clear glass cup with the thin ORANGE rim (clear colorless water inside) onto {FLOWER54}.", "Exactly one flower and one cup.", False,
    "Water pours gently onto the flower; the flower slowly lifts up." + CUPV),
   ("활짝!", "C", MEADOW + f"{FLOWER54} stands up straight and blooms wide open with little sparkles; {D['C']} on all four feet beams with delight.", "Exactly one flower.", False,
    "The flower opens a little wider with sparkles; Chiqui laughs happily."),
