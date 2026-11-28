@@ -839,6 +839,26 @@ VIDFIX53 = {
 }
 EPS["ep53"]["scenes"] = [t[:6] + (vid(t[3], VIDFIX53[t[0]]),) if t[0] in VIDFIX53 else t for t in EPS["ep53"]["scenes"]]
 
+# (2026-11-28) 54화 합격 그림 16장을 보고 영상 동작을 맞춤. 컵은 투명 유리 + 색 띠, 물은 끝까지 맑게.
+_CUPS54V = " The clear glass cups keep only their thin colored rims; the water stays completely clear and colorless the whole time; the cups on the table stay in the same row and the same places; no cup appears or disappears."
+_C4_54 = " Chiqui stays on all four feet the whole time, exactly as in the start image (exactly four legs)."
+_CUP54 = " Chiqui stays standing UPRIGHT on the two back legs the whole time (only two feet on the ground, exactly four legs)."
+VIDFIX54 = {
+ "S03": "Chiqui pants with the tongue out and droops the head a little." + _C4_54,
+ "S04": "Grandpa Bau nods once toward the cups and smiles warmly; all four feet stay on the ground." + _CUPS54V,
+ "S05": "The clear water in the cups sparkles gently; nothing else moves; no character appears." + _CUPS54V,
+ "S06": "Chiqui drinks two gulps from the ORANGE-rim cup and says ahh with a happy face." + _CUP54 + _CUPS54V,
+ "S07": "Roro drinks two gulps from the YELLOW-rim cup and smiles, staying next to the table." + _CUPS54V,
+ "S09": "Torong sips from the GREEN-rim cup on the table two times and smiles; the cup stays on the table; all four feet stay on the ground." + _CUPS54V,
+ "S10": "Pio, staying behind the table, sips from the SKY-BLUE-rim cup with the beak two times and flaps once happily; Pio does not climb onto the table." + _CUPS54V,
+ "S11": "Grandpa Bau sips from the PURPLE-rim cup on the table two times and smiles; the cup stays on the table." + B4V + _CUPS54V,
+ "S13": "Chiqui tilts the head sadly; the orange flower droops a little more." + _C4_54,
+ "S14": "Clear water pours gently from the ORANGE-rim cup onto the flower; the flower slowly lifts up." + _CUP54,
+ "S15": "The orange flower opens a little wider with sparkles; Chiqui laughs happily." + _C4_54,
+ "S17": "Chiqui, Roro and Pio dance on the same spot; Torong sways the neck; Grandpa Bau nods; the five cups stay still on the table." + B4V + _CUPS54V,
+}
+EPS["ep54"]["scenes"] = [t[:6] + (vid(t[3], VIDFIX54[t[0]]),) if t[0] in VIDFIX54 else t for t in EPS["ep54"]["scenes"]]
+
 for ep, e in EPS.items():
     write(ep, e)
 
