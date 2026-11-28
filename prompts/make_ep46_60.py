@@ -577,6 +577,12 @@ EPS["ep56"] = dict(
 STAR57 = "one small shiny golden star-shaped stone"
 MAP57 = "one unrolled paper treasure map with a dotted path drawn from a rock to a leaf to a tree to a round door and ending at a red X mark, no words"
 CHEST57 = "one small wooden treasure chest"
+# (2026-11-28) 57화 그림 확인: S12 모래·X가 사라짐, S14·S16·S17 메달이 금색/꽃무늬로 S13·S15와 다름, S14·S17 상자 안에 보석이 생김 -> 모양을 하나로 못박음.
+CHESTLOOK57 = "The chest is made of BROWN wooden planks with gold metal corners, a gold rim and one gold keyhole plate on the front, exactly like the attached reference image (scene S11)."
+SAND57 = " The chest stays half-buried in THE SAME small patch of soft pale sand, with the red X mark drawn on the sand right in front of the chest, exactly as in the attached reference image (scene S11); the sand patch and the red X never disappear."
+MEDAL57 = (" Every medal looks EXACTLY like the medals in the attached reference image (scene S13): a round flat disc fully colored in that friend's body color with a thin gold rim and one yellow star in the middle, hanging on a ribbon of the same color"
+           " (ORANGE medal and ribbon for Chiqui, YELLOW for Roro, GREEN for Torong, SKY-BLUE for Pio, PURPLE for Grandpa Bau); never an all-gold medal, never a flower or other picture in the middle.")
+EMPTY57 = " The medals were taken out, so the open chest is EMPTY inside with only a soft golden glow: no gems, no coins, no stars, no jewels in it."
 EPS["ep57"] = dict(
  title="57화. 보물 지도를 따라가요! — 위 아래 앞 뒤", short="보물 지도를 따라가요!", song_id="treasure", song_short="보물 노래",
  theme="자리 말 배우기: 위·아래·뒤·앞. 지도 따라 반짝 별 돌 넷을 찾고 보물 상자 열기.",
@@ -606,16 +612,16 @@ EPS["ep57"] = dict(
    "The four star stones twinkle; everyone cheers on the same spot. The camera stays still."),
   ("X 표시", "CRTP", MEADOW + f"Chiqui, Roro, Torong and Pio gasp at {CHEST57} half-buried in a small patch of soft sand at a red X mark on the meadow.", "Exactly one chest.", False,
    "The friends lean in with excited faces; the chest stays still. The camera stays still."),
-  ("상자를 열어요", "CRTP", MEADOW + f"{D['C']} stands UPRIGHT and lifts the lid of {CHEST57} with both front paws; a warm golden glow shines out; Roro, Torong and Pio lean in around the chest with amazed faces.", "Exactly one chest.", False,
+  ("상자를 열어요", "CRTP", MEADOW + f"{D['C']} stands UPRIGHT and lifts the lid of {CHEST57} with both front paws; a warm golden glow shines out; Roro, Torong and Pio lean in around the chest with amazed faces. " + CHESTLOOK57 + SAND57, "Exactly one chest.", False,
    "Chiqui lifts the lid slowly; the golden glow grows brighter; the friends gasp." + CUPV + " The camera stays still."),
   ("반짝 메달", "", MEADOW + f"Close view inside the open {CHEST57}: exactly five round shiny medals on ribbons, in ORANGE, YELLOW, GREEN, SKY-BLUE and PURPLE. No characters.", "Exactly five medals.", True,
    "The medals shine and sparkle softly; nothing else moves."),
-  ("보물이다!", "BCRTP", MEADOW + "All five friends wear one round shiny medal on a ribbon around the neck in their own body color, cheering proudly next to the open chest.", "Exactly five medals, one each.", False,
+  ("보물이다!", "BCRTP", MEADOW + "All five friends wear one round shiny medal on a ribbon around the neck in their own body color, cheering proudly next to the open chest (the same chest as before, in the same sand patch with the red X)." + MEDAL57 + EMPTY57 + " " + CHESTLOOK57, "Exactly five medals, one each.", False,
    "Everyone cheers and the medals sparkle." + B4V + " The camera stays still."),
   ("별은 어디에?", "C", MEADOW + f"Close view of {D['C']} standing UPRIGHT facing the viewer, one front paw shading the eyes like searching, a playful questioning face, wearing an ORANGE medal.", "", True,
    "Chiqui looks left and right, then smiles and waits at the viewer." + CUPV),
-  BAU(MEADOW, "진짜 보물", "stands on all four feet wearing a PURPLE medal, next to one cream-colored fossil bone peeking out of the soil, smiling wisely."),
-  ("다 같이 보물 춤", "BCRTP", MEADOW + "All five friends dance together wearing their own-color medals next to the open treasure chest.", "Exactly five medals.", False,
+  BAU(MEADOW, "진짜 보물", "stands on all four feet wearing a PURPLE medal, next to one cream-colored fossil bone peeking out of the soil, smiling wisely." + MEDAL57.replace("Every medal", "His medal")),
+  ("다 같이 보물 춤", "BCRTP", MEADOW + "All five friends dance together wearing their own-color medals next to the open treasure chest (the same chest as before, in the same sand patch with the red X)." + MEDAL57 + EMPTY57 + " " + CHESTLOOK57, "Exactly five medals.", False,
    "Chiqui, Roro and Pio dance; Torong sways the neck; Grandpa Bau nods; the medals sparkle." + B4V + " The camera stays still."),
   WAVE(MEADOW, "안녕!"),
  ]))

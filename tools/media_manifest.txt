@@ -1562,3 +1562,13 @@ episodes/ep56/images/web/S14_S50lxjcLKfo.png
 episodes/ep56/images/web/S15_XajBU4PReao.png
 episodes/ep56/images/web/S16_HBcYT4qJY74.png
 episodes/ep56/images/web/S17_T6oTl_Ev-vc.png
+episodes/ep57/images/web/S02__oq4Ulc3dWE.png
+episodes/ep57/images/web/S04_pRb4gU4a8vY.png
+episodes/ep57/images/web/S05_d8YJUclDDtM.png
+episodes/ep57/images/web/S06_t4kfVKeEV50.png
+episodes/ep57/images/web/S07_v7FFsDkNSLk.png
+episodes/ep57/images/web/S09_3QwAISYmbFk.png
+episodes/ep57/images/web/S10_8GRfEVDS9As.png
+episodes/ep57/images/web/S11_IaPBdmNe3bY.png
+episodes/ep57/images/web/S13_uBazGjg233A.png
+episodes/ep57/images/web/S15_19bSz9zo_c4.png
