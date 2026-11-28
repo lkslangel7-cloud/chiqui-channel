@@ -1430,6 +1430,7 @@ episodes/ep50/images/web/S09_TAO-0byRr-M.png
 episodes/ep50/images/web/S10_--lXDGjpF3Q.png
 episodes/ep50/images/web/S11_eQ--iqGPGAk.png
 episodes/ep50/images/web/S12_GLMEftSkzcc.png
+episodes/ep50/images/web/S13_tFIJmRZJF5E.png
 episodes/ep50/images/web/S14_gdZVKuR6q9E.png
 episodes/ep50/images/web/S15_AIgDa3A_-x0.png
 episodes/ep50/images/web/S16_E9HZlst_v6E.png

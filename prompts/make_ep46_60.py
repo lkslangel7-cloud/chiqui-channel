@@ -762,6 +762,30 @@ EPS["ep60"] = dict(
   WAVE(MEADOW, "안녕!"),
  ]))
 
+# (2026-11-28) 50화 합격 그림 16장을 한 장씩 보고 영상 동작을 그림 자세·소품에 맞춤 (제자리 동작, 크기·자리 고정).
+_CUP = " Chiqui stays standing UPRIGHT on the two back legs the whole time, exactly as in the start image (only two feet on the ground, never drops onto all fours, exactly four legs)."
+_C4 = " Chiqui stays on all four feet the whole time, exactly as in the start image (exactly four legs, no paw is lifted)."
+_T4 = " All four of Torong's feet stay on the ground."
+_ROCKV = " The one brown round rock with the yellow slide on its LEFT side stays exactly the same, in the same place."
+_FLAGV = " The paper flags flutter gently; the four keepsakes (pebble, leaf, cotton puff, fossil bone) stay on the table in the same places; the round window stays in the middle of the back wall."
+VIDFIX50 = {
+ "S02": "Chiqui keeps both front paws up high and bounces two times on the same spot, cheering." + _CUP,
+ "S04": "Chiqui keeps pointing to the LEFT with one front paw; Roro, Torong and Pio look toward the left and nod, smiling, on the same spot; nobody walks." + _CUP + _T4,
+ "S05": "Grass sways a little in the breeze; nothing else moves; no character appears." + _ROCKV,
+ "S06": "Roro, already standing on top of the rock, waves one arm and stays on top; Chiqui waves both front paws; Pio flaps the wings on the grass; Torong tilts the long neck hello; nobody climbs or slides." + _CUP + _T4 + _ROCKV,
+ "S07": "Roro, sitting on the slide as in the start image, slides a little way down toward the bottom LEFT with both arms up, laughing, staying the same size; Roro stays on the slide." + _ROCKV,
+ "S09": "Chiqui, Roro and Pio look up at the tall trees and gasp on the same spot; Torong lifts the head a little toward the high leaves and smiles proudly." + _C4 + _T4,
+ "S10": "Pio glides a little left and right among the clouds in the upper LEFT, staying in the sky at the same size; Chiqui and Roro reach up and giggle; Torong nuzzles the low cloud with the head." + _CUP + _T4,
+ "S11": "Grandpa Bau, in front of the open PURPLE door, nods in welcome; Chiqui and Roro wave one front paw; Pio waves one wing; Torong tilts the neck hello; the door stays open." + _CUP + _T4 + B4V,
+ "S12": "Everyone steps in place two times in the same row order (Grandpa Bau, Chiqui, Roro, Torong, Pio), smiling; nobody walks out of the frame; Grandpa Bau nods and wags the tail club." + _C4 + _T4 + B4V,
+ "S13": "Grass sways a little; the GREEN door stays closed; the yellow knob stays on the RIGHT of the door and the orange flower pot stays on the LEFT; nothing else moves; no character appears.",
+ "S14": "Chiqui keeps one front paw on the yellow knob and looks back at the viewer, tilting the head curiously; the door stays closed; Roro, Torong, Pio and Grandpa Bau smile and wait in the same places." + _CUP + _T4 + B4V,
+ "S15": "Chiqui and Roro bounce on the same spot with front paws up, cheering; Pio flaps the open wings; Torong lowers the head a little toward the table with wide happy eyes; Grandpa Bau winks and nods." + _CUP + _T4 + B4V + _FLAGV,
+ "S16": "Grandpa Bau nods once and smiles warmly; the rock with the yellow slide, the tall forest and the cloud hill stay small in the background." + B4V,
+ "S17": "Everyone clearly dances on the same spot: Chiqui and Roro sway left and right and hop two times with front paws up, Roro kicks one foot; Pio flaps the wings and bobs; Torong sways the long neck left and right to the beat; Grandpa Bau wags the tail club." + _CUP + _T4 + B4V + _FLAGV,
+}
+EPS["ep50"]["scenes"] = [t[:6] + (vid(t[3], VIDFIX50[t[0]]),) if t[0] in VIDFIX50 else t for t in EPS["ep50"]["scenes"]]
+
 for ep, e in EPS.items():
     write(ep, e)
 
