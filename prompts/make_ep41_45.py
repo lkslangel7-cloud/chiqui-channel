@@ -277,6 +277,7 @@ EPS["ep45"] = dict(
 _B4 = " Grandpa Bau keeps exactly 4 legs with all four feet flat on the ground; he never lifts a front foot."
 _BUSHV = " The one round green bush with three cream flowers on top stays exactly the same, in the same place, the whole time."
 _W44 = " WIDE SHOT FROM THE FIRST FRAME TO THE LAST: the very first frame is exactly the start image, with the same small size of the characters and the same amount of grass and sky around them; the camera never moves closer, never zooms in and never shows a close-up of a face or the basket; the whole body from head to feet stays visible the whole time."
+_W45 = " WIDE SHOT FROM THE FIRST FRAME TO THE LAST: the very first frame is exactly the start image, with the same small size of the characters and the same amount of library floor, shelves and fossils around them; the camera never moves closer, never zooms in and never shows a close-up of a face; nobody walks forward or comes toward the camera; the whole body from head to feet stays visible the whole time."
 VIDFIX = {"ep41": {
  "S02": "Chiqui keeps one front paw cupped next to the ear and bounces once on the same spot, smiling." + ' Chiqui stays standing UPRIGHT on the two back legs the whole time, exactly as in the start image (only two feet on the ground, never drops onto all fours, exactly four legs).' + _BUSHV,
  "S04": "Chiqui listens with closed eyes, tilting the head slowly; the paw stays next to the ear." + ' Chiqui stays standing UPRIGHT on the two back legs the whole time, exactly as in the start image (only two feet on the ground, never drops onto all fours, exactly four legs).' + _BUSHV,
@@ -315,6 +316,13 @@ VIDFIX = {"ep41": {
  "S03": "Chiqui keeps hugging the basket exactly as in the start image and wiggles happily left and right two times; the five tangerines stay in the basket the whole time." + _W44,
  "S05": "Chiqui keeps hugging the full basket (five tangerines stay inside the whole time), tilts the head two times, thinking, then smiles brightly." + _W44,
  "S17": "The friends keep hugging exactly as in the start image, sway gently together and laugh; Torong bends the neck around them gently, all four feet on the ground." + _W44,
+},
+ # (2026-11-28) 45화 영상: S05·S16 바우가 0초부터 확대, S07 치키가 가운데로 나와 커짐, S11 토롱 목이 점점 길어짐 → 넓은 화면·제자리·크기 고정
+ "ep45": {
+ "S05": "Grandpa Bau, staying small in the same place exactly as in the start image, turns the head toward the fossils and smiles." + _B4 + _W45,
+ "S07": "Chiqui stays in the same place next to the three-horned fossil exactly as in the start image and does not walk to the middle; Chiqui turns the head to the fossil, then to the viewer, and laughs. The fossil does not move." + _W45,
+ "S11": "Torong, staying in the same place next to the long-neck fossil, tilts the head up a little and then smiles at the viewer; Torong's neck keeps exactly the same length and the body exactly the same size as in the start image the whole time (never taller, never longer); all four feet stay on the floor; the fossil does not move." + _W45,
+ "S16": "Grandpa Bau, staying small in the same place exactly as in the start image, nods once and smiles warmly." + _B4 + _W45,
 }}
 # (2026-11-27, 사용자: 같이 써줘) 43화 S17 그림이 S05와 같음 → 영상은 S17(10초) 하나만 만들고 S05는 그 앞 5초를 쓴다.
 SAMEVID = {"ep43": {"S05": "S17"}}
