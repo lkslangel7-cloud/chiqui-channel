@@ -1342,6 +1342,7 @@ episodes/ep43/images/web/S17_B5sKU7FGwO8.png
 episodes/ep44/clips/web/S02_Rn7z0-BTWp0.mp4
 episodes/ep44/clips/web/S03_zlpl-7nSc7c.mp4
 episodes/ep44/clips/web/S04_NLQvCPsMZio.mp4
+episodes/ep44/clips/web/S05_bZZu-k30Fy4.mp4
 episodes/ep44/clips/web/S06_2L9zwauIS1Q.mp4
 episodes/ep44/clips/web/S07_w4QQ57LnEvc.mp4
 episodes/ep44/clips/web/S09_ZGIBq6da0JE.mp4
