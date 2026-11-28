@@ -692,7 +692,7 @@ RUG59 = "one round soft cream rug on the floor at the RIGHT side of the bed"
 EPS["ep59"] = dict(
  title="59화. 셋이서 콩콩콩! — 침대에서 뛰지 않아요", short="셋이서 콩콩콩!", song_id="bounce59", song_short="콩콩 노래",
  theme="잘 시간에 침대에서 콩콩 뛰다가 하나씩 쿵(3→2→1→0 거꾸로 세기). 침대는 자는 곳, 뛰는 건 밖에서. 다친 데 없이 살짝 쿵, 무섭지 않게.",
- twist="셋이 콩콩 뛰다 로로가 쿵! 피오가 쿵! 마지막 치키도 쿵! 아무도 없는 침대… 다음 날 아침, 바우 할아버지와 풀밭에서 다 같이 콩콩 — 토롱도 같이!",
+ twist="셋이 콩콩 뛰다 로로가 쿵! 피오가 쿵! 마지막 치키도 쿵! 아무도 없는 침대… 창밖 달빛 풀밭을 보며 약속해요: 콩콩은 내일 밖에서, 토롱도 같이!",
  bau="공룡 화석에도 다친 자국이 있단다!",
  lines=[("내레이션","잘 시간이에요.",""),("치키","더 놀고 싶어!",""),("모두","콩콩 콩콩!",""),("로로","쿵! 아야!",""),("바우","침대에서 콩콩 안 돼요!",""),
         ("내레이션","몇 명이 남았을까?","뒤에 3초 쉼"),("모두","아무도 없어요!",""),("바우","침대는 자는 곳!",""),("모두","밖에서 콩콩!",""),
@@ -726,9 +726,10 @@ EPS["ep59"] = dict(
    "Everyone looks at the empty bed and laughs softly; Grandpa Bau nods." + B4V + " The camera stays still."),
   ("침대는 자는 곳", "BCRTP", ROOM59 + f"The same room and the same places as before: {D['B']} stands on all four feet next to the small round empty bed and points the nose at the soft pillow, smiling kindly, as if saying the bed is for sleeping; Chiqui, Roro and Pio sit in a row on {RUG59} listening and nodding, each with a tiny pink bump; {TOR59.replace('watching with a worried face', 'listening and smiling')}.", "Nobody on the bed.", False,
    "Grandpa Bau nods once toward the pillow; Chiqui, Roro and Pio nod two times on the rug; Torong tilts the head with all four feet on the floor." + B4V + " Everyone stays in the same place. The camera stays still."),
-  ("밖에서 콩콩!", "BCRTP", MEADOW + "The next sunny morning, all five friends hop happily together on the soft green grass: Chiqui, Roro and Pio jump high, Torong bobs the long neck up and down with all four feet on the grass, Grandpa Bau stomps happily with all four feet on the grass.", "", False,
-   "Chiqui, Roro and Pio jump two times on the same spot; Torong bobs the neck; Grandpa Bau stomps." + B4V + " The camera stays still."),
-  BAU(MEADOW, "다친 자국이 있단다", "stands on all four feet next to one smooth cream fossil bone with a small healed bump on it, lying on a low flat rock, smiling wisely."),
+  # (2026-11-28 사용자: 밤 이야기인데 S15·S16이 낮으로 나옴) 같은 밤 방 안에서, 창밖 달빛 풀밭을 가리키며 '내일은 밖에서 콩콩!' 약속
+  ("밖에서 콩콩!", "BCRTP", ROOM59 + f"Still the same NIGHT in the same room: Chiqui, Roro and Pio stand on {RUG59} and point excitedly at the round window on the RIGHT, which shows the moonlit grassy meadow outside under the dark starry sky; {D['B']} stands on all four feet beside them nodding with a warm smile; {TOR59.replace('watching with a worried face', 'looking out of the window with a happy face')}; nobody is on the bed. It is night: no sunlight anywhere.", "Nobody on the bed. Night outside the window.", False,
+   "Chiqui, Roro and Pio point at the window and do one tiny happy hop on the rug; Grandpa Bau nods; Torong sways the neck toward the window with all four feet on the floor." + B4V + " Everyone stays in the same place. The camera stays still."),
+  BAU(ROOM59, "다친 자국이 있단다", "stands on all four feet next to the low wooden shelf, where one smooth cream fossil bone with a small healed bump on it lies beside the glowing night lamp, smiling wisely in the soft lamp light. It is night: no sunlight anywhere."),
   ("쉿, 잘 자요", "CRTP", ROOM59 + f"Night again: {D['C']} sleeps peacefully in the small round bed under the ORANGE blanket; Roro and Pio sleep curled up on {RUG59}; {D['T']} sleeps lying on the floor at the LEFT side of the bed with the long neck resting on the floor.", "", False,
    "Everyone sleeps, breathing slowly; nobody moves. The camera stays still."),
   WAVE(MEADOW, "안녕!"),
