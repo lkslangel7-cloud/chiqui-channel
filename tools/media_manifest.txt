@@ -1550,6 +1550,7 @@ episodes/ep54/images/web/S16_zloxc63bJXU.png
 episodes/ep54/images/web/S17_-rn4xU9Dom0.png
 episodes/ep55/images/web/S02_CjKyzMrNZDI.png
 episodes/ep55/images/web/S03_wpiSpUJ2T8s.png
+episodes/ep55/images/web/S04_6GB-NkMwwuI.png
 episodes/ep55/images/web/S05_6uBb3dGSQnM.png
 episodes/ep55/images/web/S06_uepTlCOQbz0.png
 episodes/ep55/images/web/S07_XlCsfrecSk8.png
@@ -1559,6 +1560,8 @@ episodes/ep55/images/web/S11_agjcjG0nNqo.png
 episodes/ep55/images/web/S12_uP7JQLpYMFM.png
 episodes/ep55/images/web/S13_gEbtXH3kO8s.png
 episodes/ep55/images/web/S14_a5DVz_KTJm8.png
+episodes/ep55/images/web/S15_C7QlN2hWYk4.png
+episodes/ep55/images/web/S16_uMKV-WLvKm4.png
 episodes/ep55/images/web/S17_c1HsUxtqe_c.png
 episodes/ep55/images/web/S18_G662BxqsVbs.png
 episodes/ep56/images/web/S02_LZEt3oToJ-A.png
