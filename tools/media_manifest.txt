@@ -1410,6 +1410,7 @@ episodes/ep46/clips/web/S13_33DD69IPXz0.mp4
 episodes/ep46/clips/web/S14_p1iuQ7wmekY.mp4
 episodes/ep46/clips/web/S15_-etqVaplLOA.mp4
 episodes/ep46/clips/web/S17_ynvkdkUzO0Y.mp4
+episodes/ep46/clips/web/S18_Xia_-to_UqE.mp4
 episodes/ep46/images/web/S02_SIyrqkoY2Gs.png
 episodes/ep46/images/web/S03_zTY1Cj6S6nU.png
 episodes/ep46/images/web/S06_qZcsgVSaQMY.png
