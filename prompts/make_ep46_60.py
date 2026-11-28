@@ -630,18 +630,19 @@ EPS["ep57"] = dict(
 # ---------------- 58화 공룡은 뭘 먹을까? (공룡 상식 특집) ----------------
 TREE58 = "one very tall tree with leafy branches high up"
 FERN58 = "a patch of low green fern plants on the grass"
-APPLE58 = "one apple tree with shiny red apples"
+# (2026-11-28 사용자: 공룡 먹이 화에 사과는 이상함 — 사과는 공룡 시대에 없었음) 공룡 시대부터 있던 은행나무 열매로
+APPLE58 = "one tall ginkgo tree with fan-shaped green leaves and small round golden-yellow ginkgo fruits hanging high on its branches"
 EPS["ep58"] = dict(
  title="58화. 공룡은 뭘 먹을까? — 공룡 상식 특집", short="공룡은 뭘 먹을까?", song_id="food58", song_short="먹이 노래",
  theme="공룡 상식: 키 큰 브라키오사우루스는 높은 나뭇잎, 트리케라톱스·안킬로사우루스는 낮은 풀. 화면 밖 아이가 먼저 맞히게 쉬어 준다.",
- twist="로로는 사과가 좋아! 그런데 사과가 높이 높이… 피오가 슝 날아가 하나씩 톡톡 따 줘요. 그럼 진짜 티라노사우루스는? 바우 할아버지: \"고기를 먹었단다. 우리 로로는 사과도 냠냠!\"",
+ twist="로로는 동글동글 노란 은행 열매가 좋아! 그런데 열매가 높이 높이… 피오가 슝 날아가 하나씩 톡톡 따 줘요. 은행나무는 공룡 시대부터 있던 나무예요. 그럼 진짜 티라노사우루스는? 바우 할아버지: \"고기를 먹었단다. 우리 로로는 열매도 냠냠!\"",
  bau="진짜 티라노사우루스는 고기를 먹었단다!",
  lines=[("모두","배고파~",""),("치키","맛있는 거 찾자!",""),("모두","좋아!","♻ 1화 07"),("바우","공룡은 뭘 먹었을까?",""),
         ("내레이션","높은 나뭇잎은 누가 먹을까?","뒤에 3초 쉼"),("모두","토롱!",""),("내레이션","낮은 풀은 누가 먹을까?","뒤에 3초 쉼"),("모두","치키!",""),
-        ("로로","나는 사과!",""),("피오","내가 따 줄게!",""),("내레이션","우리 친구는 뭘 좋아해?","뒤에 3초 쉼"),
+        ("로로","나는 노란 열매!",""),("피오","내가 따 줄게!",""),("내레이션","우리 친구는 뭘 좋아해?","뒤에 3초 쉼"),
         ("바우","진짜 티라노사우루스는 고기를 먹었단다!","바우 할아버지 상식"),("치키","안녕!","♻ 1화 18")],
  verses=[("높이 높이 나뭇잎","누가 먹을까? (누구?)","토롱이 쭈욱 (쭈욱!)"),("낮게 낮게 고사리","누가 먹을까? (누구?)","치키가 냠냠 (냠냠!)"),
-         ("동글동글 빨간 사과","누가 먹을까? (누구?)","로로가 와앙 (와앙!)"),("높은 가지 사과는","누가 딸까? (누구?)","피오가 슝 (슝!)")],
+         ("동글동글 노란 열매","누가 먹을까? (누구?)","로로가 와앙 (와앙!)"),("높은 가지 열매는","누가 딸까? (누구?)","피오가 슝 (슝!)")],
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "공룡은 뭘 (먹을까?)", "냠냠 쩝쩝 맛있게", "치키치키 냠냠!"],
  scenes=scenes([
   ("배고파~", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio stand in a row holding their tummies, hungry funny faces, little rumble lines near their tummies.", "", False,
@@ -660,12 +661,12 @@ EPS["ep58"] = dict(
    "Grandpa Bau chews slowly and smiles." + B4V),
   ("로로는?", "R", MEADOW + f"{D['R']} stands with one short arm on the chin, thinking, looking up at {APPLE58}.", "", False,
    "Roro tilts the head, thinking, then smiles brightly."),
-  ("빨간 사과", "R", MEADOW + f"{D['R']} stands under {APPLE58}, reaching up with both short arms but the apples are much too high, a funny face.", "", False,
+  ("노란 열매", "R", MEADOW + f"{D['R']} stands under {APPLE58}, reaching up with both short arms but the golden fruits are much too high, a funny face.", "", False,
    "Roro hops on the same spot, reaching up, but cannot reach; Roro laughs."),
-  ("피오가 슝", "P", MEADOW + f"{D['P']} flies up next to the high branches of {APPLE58} and picks one shiny red apple with the beak.", "", False,
-   "Pio pulls the apple off the branch with the beak and flaps, staying the same size."),
-  ("다 같이 냠냠", "CRTP", MEADOW + "Chiqui, Roro and Pio each hold one shiny red apple and take a bite, while Torong munches leaves from a tall tree, all smiling.", "", False,
-   "Everyone takes one bite and smiles with full cheeks; a small bite mark shows on each apple. The camera stays still."),
+  ("피오가 슝", "P", MEADOW + f"{D['P']} flies up next to the high branches of {APPLE58} and picks one small round golden-yellow ginkgo fruit with the beak.", "", False,
+   "Pio pulls the golden fruit off the branch with the beak and flaps, staying the same size."),
+  ("다 같이 냠냠", "CRTP", MEADOW + "Chiqui, Roro and Pio each hold one small round golden-yellow ginkgo fruit and take a bite, while Torong munches leaves from a tall tree, all smiling.", "", False,
+   "Everyone takes one bite and smiles with full cheeks; a small bite mark shows on each golden fruit. The camera stays still."),
   ("뭘 좋아해?", "C", MEADOW + f"Close view of {D['C']} standing UPRIGHT facing the viewer, one front paw on the chin, asking the viewer what they like to eat.", "", True,
    "Chiqui tilts the head and waits, then smiles at the viewer." + CUPV),
   BAU(MEADOW, "티라노는 고기를", f"stands on all four feet next to {APPLE58}, smiling wisely and kindly, one eyebrow raised as if telling a fun fact."),
