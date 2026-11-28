@@ -28,7 +28,7 @@
 | S15 | 2:00–2:10 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 밖에서 콩콩! |
 | S16 | 2:10–2:20 | Grandpa Bau | 다친 자국이 있단다 |
 | S17 | 2:20–2:30 | Chiqui, Roro, Torong, Pio | 쉿, 잘 자요 |
-| S18 | 2:30–2:40 | Grandpa Bau, Chiqui, Roro, Torong, Pio | 안녕! |
+| S18 | 2:30–2:40 | 없음 (🔁 9화 S20 밤 창문 공통 컷) | 잘 자요 마을 (엔딩) |
 | S19 | 2:40–2:50 | | (재사용) 4화 S20 다 같이 춤 · 🎵 엔딩 |
 | S20 | 2:50–3:00 | | (재사용) 4화 S21 노을 인사 · 🎵 엔딩 |
 

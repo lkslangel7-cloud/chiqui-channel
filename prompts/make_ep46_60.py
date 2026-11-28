@@ -966,7 +966,7 @@ for _ep, _m in SAMEPIC.items():
 
 
 # (2026-11-28, 사용자: 51화는 밤 이야기인데 마지막 인사 S18이 낮 풀밭이라 이상함) → 9화 S20 「잘 자요 마을」 밤 창문 컷을 공통 컷 night_window로 같이 쓴다.
-BORROW = {"ep51": {"S18": ("ep09", "S20", "night_window")}}
+BORROW = {"ep51": {"S18": ("ep09", "S20", "night_window")}, "ep59": {"S18": ("ep09", "S20", "night_window")}}  # 59화도 밤 이야기 (2026-11-28 사용자)
 for _ep, _m in BORROW.items():
     _f = _ROOT / f"episodes/{_ep}/scenes.json"
     _sc = _json.loads(_f.read_text(encoding="utf-8"))
