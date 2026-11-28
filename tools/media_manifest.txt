@@ -1465,3 +1465,15 @@ episodes/ep51/images/web/S13_rP0DraDYfBQ.png
 episodes/ep51/images/web/S15_6et9uUruP9E.png
 episodes/ep51/images/web/S16_jWlg2RllpeA.png
 episodes/ep51/images/web/S17_WD_FydHteVk.png
+episodes/ep52/images/web/S02_xdz-eZhKNEQ.png
+episodes/ep52/images/web/S04__c4XP8cpW6U.png
+episodes/ep52/images/web/S05_84Afc7DgSu8.png
+episodes/ep52/images/web/S06_oGIwsq5zE4s.png
+episodes/ep52/images/web/S07_mUhWlJkRgcg.png
+episodes/ep52/images/web/S09_1yLcqtxcaAo.png
+episodes/ep52/images/web/S10_o_3zvDov9l8.png
+episodes/ep52/images/web/S11_eoEYm2f8lUc.png
+episodes/ep52/images/web/S14_ZLNmTnJZ8ag.png
+episodes/ep52/images/web/S15_Fs6cYiQUgBQ.png
+episodes/ep52/images/web/S16_Pn9F-L_PCTw.png
+episodes/ep52/images/web/S17_om5thu8WsEI.png

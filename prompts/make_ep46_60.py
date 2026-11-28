@@ -338,6 +338,7 @@ EPS["ep51"] = dict(
  ]))
 
 # ---------------- 52화 빨강 노랑 섞으면? (색깔 섞기) ----------------
+# (2026-11-28) 52화 S12 그림에서 탁자·물감통이 사라지고 S13에서도 물감통이 없음 → 두 장면 모두 PAINT52(같은 탁자·물감통 3개)를 넣음.
 PAINT52 = ("one low wooden table on the grass with exactly three small round pots of paint in one row: RED on the LEFT, YELLOW in the MIDDLE, BLUE on the RIGHT, "
            "and one white round mixing bowl in front of them")
 EPS["ep52"] = dict(
@@ -369,9 +370,9 @@ EPS["ep52"] = dict(
    "Grandpa Bau laughs and nods two times." + B4V),
   ("다 섞어 볼래!", "R", MEADOW + f"{D['R']} stands at the low table stirring the white mixing bowl with one paintbrush held in both short arms; the bowl has a big swirl of all colors.", "", False,
    "Roro stirs fast in circles; the colors swirl together and turn muddy BROWN."),
-  ("어? 갈색!", "CR", MEADOW + f"{D['C']} and {D['R']} stare at the white mixing bowl full of muddy BROWN paint with funny surprised faces, mouths open.", "The bowl is brown.", False,
+  ("어? 갈색!", "CR", MEADOW + f"{PAINT52}; the mixing bowl ON THE TABLE is full of muddy BROWN paint; {D['C']} and {D['R']} stand on the grass next to the table and stare at the brown bowl with funny surprised faces, mouths open; the bowl stays on the table, not on the grass.", "The bowl is brown.", False,
    "Chiqui and Roro look at each other, blink, and burst out laughing."),
-  ("하하하!", "CRTP", MEADOW + "Chiqui, Roro, Torong and Pio laugh together next to the low table with the bowl of brown paint; little paint dots are on Chiqui's and Roro's paws.", "", False,
+  ("하하하!", "CRTP", MEADOW + f"{PAINT52}; the mixing bowl on the table is full of muddy BROWN paint; Chiqui, Roro, Torong and Pio laugh together next to the table; little paint dots are on Chiqui's and Roro's paws.", "", False,
    "Everyone laughs on the same spot. The camera stays still."),
   ("무슨 색이 될까?", "C", MEADOW + f"Close view of {D['C']} standing UPRIGHT facing the viewer, holding up the paintbrush, a curious questioning face.", "", True,
    "Chiqui tilts the head and waits, then smiles at the viewer." + CUPV),
