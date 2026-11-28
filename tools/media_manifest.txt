@@ -1382,6 +1382,7 @@ episodes/ep45/clips/web/S12_IXDkk1svg_c.mp4
 episodes/ep45/clips/web/S13_RpONYkm2npU.mp4
 episodes/ep45/clips/web/S14_-3kb7DOibT8.mp4
 episodes/ep45/clips/web/S15_eN6gAUOKfYU.mp4
+episodes/ep45/clips/web/S16_uKVLArfJlYI.mp4
 episodes/ep45/clips/web/S17_fuAjZsP6qfs.mp4
 episodes/ep45/images/web/S02_SMtWrSS48NU.png
 episodes/ep45/images/web/S03_5WtHc29mo5Y.png
