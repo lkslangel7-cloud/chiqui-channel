@@ -196,50 +196,50 @@ Lyrics:
 [End]
 ```
 
-## 55화 · 봄이 왔어요!
+## 55화 · 눈싸움 놀이!
 
 - 자리: 0:55–1:55 · 시리즈 후렴 틀
-- Title: 55화 · 봄이 왔어요!
+- Title: 55화 · 눈싸움 놀이!
 
 
 Styles:
 ```
-spring folk song for kids, 92 bpm, acoustic guitar, recorder flute, light shaker, birdsong-like whistle, fresh female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
+jingly winter swing song for kids, 112 bpm, sleigh bells, glockenspiel, upright bass, soft 'poof' snow sound on each throw, cheerful female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key
 ```
 
 Lyrics:
 ```
 [Chorus]
 쿵쿵 쾅! 쿵쿵 쾅!
-봄이 왔어요 (봄!)
-살랑살랑 바람 타고
-치키치키 봄!
+눈싸움 (하자!)
+살살 던지며 놀아요
+치키치키 눈싸움!
 
 [Verse 1]
-땅속에서 쏙쏙쏙
-새싹이 (안녕!)
-봄이 왔어요 (봄!)
+하얀 눈을 꼭꼭
+눈 뭉치 (동글!)
+하나 만들어요 (하나!)
 
 [Verse 2]
-꽁꽁 봉오리 활짝
-꽃이 피었어요 (활짝!)
-알록달록 (알록!)
+살살 살살 던져요
+휙 (휙!)
+배에 퐁 (퐁!)
 
 [Verse 3]
-나무에 연두 잎
-반짝반짝 (반짝!)
-바람도 살랑 (살랑!)
+눈 벽 뒤에 쏙
+숨어라 (쏙!)
+토롱 머리 보여 (하하!)
 
 [Verse 4]
-꽃잎이 팔랑팔랑
-꽃잎 비 (와아!)
-봄이 좋아 (좋아!)
+얼굴은 피해요
+살살 던져요 (살살!)
+다 같이 웃어요 (하하!)
 
 [Chorus]
 쿵쿵 쾅! 쿵쿵 쾅!
-봄이 왔어요 (봄!)
-살랑살랑 바람 타고
-치키치키 봄!
+눈싸움 (하자!)
+살살 던지며 놀아요
+치키치키 눈싸움!
 
 [End]
 ```

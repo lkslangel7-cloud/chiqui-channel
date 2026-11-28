@@ -1,19 +1,19 @@
 {
   "title": "치키 55화 노래",
-  "h1": "55화 · 봄 노래 노래 (Suno)",
+  "h1": "55화 · 눈싸움 노래 노래 (Suno)",
   "lead": "이번 화는 <b>이 노래 1곡만</b> 만들면 돼요. 오프닝·엔딩·배경음악은 1화 곡을 그대로 써요.",
   "note": "마지막 후렴 \"치키치키 출발!\"까지 끝까지 나오는지 들어 보고, WAV로 받아 올려 주세요.",
   "duration": "<b>Custom</b> — 65~70초.",
   "songs": [
     {
-      "id": "spring",
-      "title": "봄이 왔어요!",
-      "short": "봄 노래",
+      "id": "snowball",
+      "title": "눈싸움 놀이!",
+      "short": "눈싸움 노래",
       "where": "0:55–1:55 · 시리즈 후렴 틀",
       "inst": false,
-      "style": "spring folk song for kids, 92 bpm, acoustic guitar, recorder flute, light shaker, birdsong-like whistle, fresh female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
+      "style": "jingly winter swing song for kids, 112 bpm, sleigh bells, glockenspiel, upright bass, soft 'poof' snow sound on each throw, cheerful female lead, toddler sing-along kids song, Korean lyrics, clear slow pronunciation, simple catchy melody with small note range, kids choir echoes the short shouts in brackets, major key",
       "vocal": "Female",
-      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n봄이 왔어요 (봄!)\n살랑살랑 바람 타고\n치키치키 봄!\n\n[Verse 1]\n땅속에서 쏙쏙쏙\n새싹이 (안녕!)\n봄이 왔어요 (봄!)\n\n[Verse 2]\n꽁꽁 봉오리 활짝\n꽃이 피었어요 (활짝!)\n알록달록 (알록!)\n\n[Verse 3]\n나무에 연두 잎\n반짝반짝 (반짝!)\n바람도 살랑 (살랑!)\n\n[Verse 4]\n꽃잎이 팔랑팔랑\n꽃잎 비 (와아!)\n봄이 좋아 (좋아!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n봄이 왔어요 (봄!)\n살랑살랑 바람 타고\n치키치키 봄!\n\n[End]"
+      "lyrics": "[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n눈싸움 (하자!)\n살살 던지며 놀아요\n치키치키 눈싸움!\n\n[Verse 1]\n하얀 눈을 꼭꼭\n눈 뭉치 (동글!)\n하나 만들어요 (하나!)\n\n[Verse 2]\n살살 살살 던져요\n휙 (휙!)\n배에 퐁 (퐁!)\n\n[Verse 3]\n눈 벽 뒤에 쏙\n숨어라 (쏙!)\n토롱 머리 보여 (하하!)\n\n[Verse 4]\n얼굴은 피해요\n살살 던져요 (살살!)\n다 같이 웃어요 (하하!)\n\n[Chorus]\n쿵쿵 쾅! 쿵쿵 쾅!\n눈싸움 (하자!)\n살살 던지며 놀아요\n치키치키 눈싸움!\n\n[End]"
     }
   ]
 }

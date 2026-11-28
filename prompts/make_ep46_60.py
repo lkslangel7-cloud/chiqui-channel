@@ -480,50 +480,54 @@ EPS["ep54"] = dict(
   WAVE(MEADOW, "안녕!"),
  ]))
 
-# ---------------- 55화 봄이 왔어요! (봄 찾기) ----------------
-SPRING = ("On a sunny SPRING meadow of the volcano-island village with palm trees, round cave houses and the far volcano; "
-          "the grass is plain fresh green with no lines or paths drawn on it; small spring flowers dot the grass. ")
+# ---------------- 55화 눈싸움 놀이! (겨울 · 살살 던지기) ----------------
+# (2026-11-28 사용자: 55화를 겨울 눈싸움 이야기로 바꿈) 19화(첫눈·눈사람·당근 코)와 겹치지 않게 눈싸움 + 살살 던지기·얼굴은 피하기.
+SNOW55 = ("On a snowy winter day in the volcano-island village: soft white snow covers the ground, the palm trees and the round cave houses, "
+          "the far volcano has a white snowy top, and a few gentle snowflakes fall from a pale blue sky. ")
+SCARF55 = (" Each friend wears only one soft scarf in their own body color around the neck (Chiqui ORANGE, Roro YELLOW, Torong GREEN, Pio SKY-BLUE, Grandpa Bau PURPLE); "
+           "the scarves never cover the legs, feet, tail, frill, horns or wings.")
+WALL55 = "two low round walls of packed white snow on the snowy ground"
 EPS["ep55"] = dict(
- title="55화. 봄이 왔어요! — 봄 찾기", short="봄이 왔어요!", song_id="spring", song_short="봄 노래",
- theme="봄 찾기: 새싹, 꽃봉오리가 활짝, 연두 잎, 따뜻한 바람. 눈·코·귀로 봄을 느껴요.",
- twist="피오 날개 바람에 꽃잎이 팔랑팔랑 — 꽃잎 비가 내려요! 화면 밖 친구는 어떤 꽃이 좋아?",
- bau="공룡 시대에도 꽃이 피었단다!",
- lines=[("치키","봄 냄새가 나!",""),("치키","봄 찾으러 가자!",""),("모두","좋아!","♻ 1화 07"),("치키","새싹이 쏙!",""),("로로","꽃이 활짝!",""),
-        ("토롱","잎이 반짝!",""),("피오","바람이 따뜻해!",""),("내레이션","어? 꽃잎이 팔랑팔랑!",""),("모두","꽃잎 비다!",""),
-        ("내레이션","우리 친구는 어떤 꽃이 좋아?","뒤에 3초 쉼"),("바우","공룡 시대에도 꽃이 피었단다!","바우 할아버지 상식"),("치키","안녕!","♻ 1화 18")],
- verses=[("땅속에서 쏙쏙쏙","새싹이 (안녕!)","봄이 왔어요 (봄!)"),("꽁꽁 봉오리 활짝","꽃이 피었어요 (활짝!)","알록달록 (알록!)"),
-         ("나무에 연두 잎","반짝반짝 (반짝!)","바람도 살랑 (살랑!)"),("꽃잎이 팔랑팔랑","꽃잎 비 (와아!)","봄이 좋아 (좋아!)")],
- chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "봄이 왔어요 (봄!)", "살랑살랑 바람 타고", "치키치키 봄!"],
+ title="55화. 눈싸움 놀이! — 겨울 눈싸움", short="눈싸움 놀이!", song_id="snowball", song_short="눈싸움 노래",
+ theme="겨울 눈싸움: 눈 뭉치기, 살살 던지기, 얼굴은 피하기, 맞아도 웃으며 같이 놀기. 따뜻하게 목도리 하기.",
+ twist="피오가 하늘에서 톡 떨어뜨린 눈 뭉치가… 바우 할아버지 머리 위에 쏙! 하얀 눈 모자가 됐어요. 피오는 '미안해요!', 할아버지는 '허허, 괜찮단다. 살살 던지고 얼굴은 피하렴.'",
+ bau="추운 곳에 사는 공룡도 있었단다!",
+ lines=[("치키","와! 눈이 소복소복!",""),("치키","눈싸움하자!",""),("모두","좋아!","♻ 1화 07"),("로로","받아라, 휙!",""),("모두","숨어라!",""),
+        ("피오","위에서 톡!",""),("내레이션","어? 할아버지!",""),("피오","미안해요!",""),("바우","허허, 괜찮단다. 살살 던지고 얼굴은 피하렴.",""),
+        ("내레이션","우리 친구도 살살 던져 볼까?","뒤에 3초 쉼"),("바우","추운 곳에 사는 공룡도 있었단다!","바우 할아버지 상식"),("치키","안녕!","♻ 1화 18")],
+ verses=[("하얀 눈을 꼭꼭","눈 뭉치 (동글!)","하나 만들어요 (하나!)"),("살살 살살 던져요","휙 (휙!)","배에 퐁 (퐁!)"),
+         ("눈 벽 뒤에 쏙","숨어라 (쏙!)","토롱 머리 보여 (하하!)"),("얼굴은 피해요","살살 던져요 (살살!)","다 같이 웃어요 (하하!)")],
+ chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "눈싸움 (하자!)", "살살 던지며 놀아요", "치키치키 눈싸움!"],
  scenes=scenes([
-  ("봄 냄새", "C", SPRING + f"{D['C']} stands on all four feet sniffing the warm air with eyes closed and a happy smile.", "", False,
-   "Chiqui sniffs two times and smiles dreamily."),
-  CHEER(MEADOW),
-  ("새싹이 쏙", "C", SPRING + f"Close view of one tiny light-green sprout with two little leaves poking out of the soil; {D['C']} on all four feet peeks at it with wide happy eyes.", "Exactly one sprout.", True,
-   "The sprout wiggles its two leaves gently; Chiqui gasps happily."),
-  ("꽃봉오리", "R", SPRING + f"{D['R']} looks closely at one closed round YELLOW flower bud on a stem, curious.", "Exactly one bud.", False,
-   "Roro leans in and tilts the head; then the bud slowly opens into one big YELLOW flower and Roro jumps a little in delight and claps the short arms."),
-  ("활짝!", "R", SPRING + f"{D['R']} jumps back in delight as one big YELLOW flower blooms wide open in front of Roro.", "Exactly one big yellow flower.", False,
-   "The flower opens a little wider; Roro claps the short arms."),
-  ("꽃 냄새", "R", SPRING + f"{D['R']} sniffs the big YELLOW flower with eyes closed, a happy smile.", "Exactly one big yellow flower.", False,
-   "Roro sniffs and sways happily."),
-  ("연두 잎 반짝", "T", SPRING + f"{D['T']} stands on all four feet next to one tall tree covered in fresh light-green new leaves, the head among the leaves, smiling.", "", False,
-   "Torong sways the head gently among the leaves; the leaves shimmer; all four feet stay on the ground."),
-  ("따뜻한 바람", "P", SPRING + f"{D['P']} glides in the sunny sky with wings wide open, enjoying the warm breeze, eyes half closed happily.", "", False,
-   "Pio glides a little left and right, staying the same size."),
-  ("꽃잎이 팔랑팔랑", "CP", SPRING + f"{D['P']} flaps above a blooming pink tree; soft pink petals flutter down around {D['C']}, who looks up amazed.", "", False,
-   "Pio flaps; pink petals flutter down slowly; Chiqui looks up and smiles."),
-  ("꽃잎 비다!", "CRTP", SPRING + "Chiqui, Roro, Torong and Pio laugh with joy in a shower of soft pink petals falling from a blooming tree.", "", False,
-   "The petals fall slowly; everyone laughs on the same spot. The camera stays still."),
-  ("봄 찾았다!", "CRTP", SPRING + "Chiqui, Roro, Torong and Pio stand in a flower field with ORANGE, YELLOW, GREEN-white, SKY-BLUE and PURPLE flowers, cheering.", "", False,
-   "Everyone cheers on the same spot; the flowers sway. The camera stays still."),
-  ("어떤 꽃이 좋아?", "C", SPRING + f"Close view of {D['C']} standing UPRIGHT facing the viewer holding one small ORANGE flower, asking the viewer.", "Exactly one flower in Chiqui's paw.", True,
-   "Chiqui smells the flower, then smiles and waits at the viewer." + CUPV),
-  ("꽃밭에서", "CRTP", SPRING + "Chiqui, Roro, Torong and Pio sit happily in the middle of a colorful flower field, smiling at each other.", "", False,
-   "Everyone sways gently and smiles; the flowers sway. The camera stays still."),
-  BAU(SPRING, "꽃이 피었단다", "stands on all four feet among spring flowers, one flower near his nose, smiling wisely."),
-  ("다 같이 봄 춤", "BCRTP", SPRING + "All five friends dance happily together in the spring flower field.", "", False,
-   "Chiqui, Roro and Pio dance; Torong sways the neck; Grandpa Bau wags the tail club." + B4V + " The camera stays still."),
-  WAVE(MEADOW, "안녕!"),
+  ("눈이 소복소복", "C", SNOW55 + f"{D['C']} stands UPRIGHT on the two back legs at the round door of one snowy cave house, both front paws up in delight, looking at the white snowy village with wide happy eyes." + SCARF55, "", False,
+   "Chiqui bounces once on the same spot and gasps happily; snowflakes fall gently." + CUPV),
+  CHEER(SNOW55 + "Each friend wears a soft scarf in their own body color. "),
+  ("눈 뭉치 꼭꼭", "C", SNOW55 + f"Close view (the camera close on this friend): {D['C']} stands UPRIGHT on the two back legs and presses one round white snowball between both front paws, a playful smile." + SCARF55, "Exactly one snowball.", True,
+   "Chiqui pats the snowball round two times and grins." + CUPV),
+  ("받아라, 휙!", "CR", SNOW55 + f"{D['R']} on the LEFT gently tosses one small soft snowball with the short arms; it bursts into a small white puff on the tummy of {D['C']} on the RIGHT, who stands UPRIGHT and laughs." + SCARF55, "Exactly one snowball puff, on Chiqui's tummy, never on the face.", False,
+   "The small snow puff falls softly off Chiqui's tummy; Chiqui and Roro both laugh on the same spot." + CUPV + " The camera stays still."),
+  ("숨어라!", "CRTP", SNOW55 + f"Chiqui, Roro and Pio crouch and hide behind {WALL55}, peeking over with giggling faces; Torong stands on all four feet behind the walls too, but Torong is so tall that the long neck and head stick up far above the wall, a funny proud smile." + SCARF55, "Exactly two snow walls.", False,
+   "Chiqui, Roro and Pio peek over the wall and duck down again, giggling; Torong's head stays high above the wall and tilts happily; all four of Torong's feet stay on the ground. The camera stays still."),
+  ("토롱 꼬리로 팡", "T", SNOW55 + f"{D['T']} stands on all four feet and swings the long tail across the snowy ground behind the body, and a soft puff of white snow sprays up from the tail, happy grin." + SCARF55, "", False,
+   "Torong swings the tail once; a soft puff of snow sprays up and floats down; all four feet stay on the ground."),
+  ("위에서 톡!", "P", SNOW55 + f"{D['P']} flies in the sky above the snowy village holding one small round snowball in both little feet, giggling mischievously." + SCARF55, "Exactly one snowball.", False,
+   "Pio glides a little left and right holding the snowball, staying the same size."),
+  ("어? 할아버지!", "BP", SNOW55 + f"{D['B']} stands on all four feet with one small pile of white snow sitting on top of his head like a funny white hat, blinking in surprise; {D['P']} flies just above him with both wing tips over the beak, surprised." + SCARF55, "Exactly one snow pile, on top of Grandpa Bau's head; his face is clean.", False,
+   "Grandpa Bau blinks two times; Pio covers the beak with the wing tips; the snow hat stays on his head." + B4V + " The camera stays still."),
+  ("미안해요!", "BP", SNOW55 + f"{D['P']} lands on the snow in front of {D['B']} and bows the head to say sorry; Grandpa Bau, still with the little snow hat on his head, laughs warmly." + SCARF55, "Exactly one snow pile, on top of Grandpa Bau's head.", False,
+   "Pio bows once; Grandpa Bau laughs and nods; the snow hat wobbles a little and stays." + B4V + " The camera stays still."),
+  ("하하하! 눈 모자", "BCRTP", SNOW55 + f"{D['B']} stands on all four feet, still with the little white snow hat on top of his head, laughing; Chiqui, Roro, Torong and Pio stand around him laughing happily together." + SCARF55, "Exactly one snow pile, on top of Grandpa Bau's head.", False,
+   "Everyone laughs on the same spot; Grandpa Bau gently shakes the head once and the little snow hat falls off softly onto the snow." + B4V + " The camera stays still."),
+  ("살살 던지렴", "BCRTP", SNOW55 + f"{D['B']} stands on all four feet and smiles kindly, the snow hat gone; Chiqui, Roro, Torong and Pio stand in front of him listening and nodding, each holding nothing." + SCARF55, "", False,
+   "Grandpa Bau nods kindly; the friends nod two times." + B4V + " The camera stays still."),
+  ("우리 친구도 살살", "C", SNOW55 + f"Close view of {D['C']} standing UPRIGHT facing the viewer, holding one small round snowball gently in both front paws, inviting the viewer to toss softly." + SCARF55, "Exactly one snowball.", True,
+   "Chiqui holds the snowball out a little toward the viewer, smiles and waits." + CUPV),
+  ("다 같이 눈싸움", "CRTP", SNOW55 + f"Chiqui, Roro, Torong and Pio play a gentle snowball game near {WALL55}: soft snow puffs burst on tummies, never on faces; everyone laughs." + SCARF55, "Snow puffs only on tummies, never on faces.", False,
+   "Chiqui and Roro toss small soft snowballs; Pio flaps; Torong swings the tail and a little snow sprays; everyone laughs on the same spot. The camera stays still."),
+  BAU(SNOW55, "추운 곳 공룡", "stands on all four feet in the snow wearing his PURPLE scarf, a few snowflakes on his glasses, smiling wisely as if telling a fun fact."),
+  ("다 같이 눈 춤", "BCRTP", SNOW55 + "All five friends dance happily together in the snow, wearing their scarves." + SCARF55, "", False,
+   "Chiqui, Roro and Pio dance; Torong sways the neck; Grandpa Bau wags the tail club; snowflakes fall gently." + B4V + " The camera stays still."),
+  WAVE(SNOW55, "안녕!", " in the snow, each wearing a scarf in their own body color"),
  ]))
 
 # ---------------- 56화 봄 소풍 가요! (깨끗하게 놀기) ----------------
@@ -935,7 +939,7 @@ SAMEPIC = {  # 장면: (그림·영상을 만드는 장면, 쓰는 부분)
  "ep50": {},  # (2026-11-27) 새 이야기: 같은 그림 장면 없음
  "ep51": {"S03": ("S02", "뒷부분"), "S14": ("S13", "뒷부분")},
  "ep53": {"S16": ("S13", "전체")},
- "ep55": {"S06": ("S05", "뒷부분")},
+ "ep55": {},  # (2026-11-28) 새 이야기(눈싸움): 같은 그림 장면 없음
 }
 for _ep, _m in SAMEPIC.items():
     _f = Path(__file__).resolve().parent.parent / f"episodes/{_ep}/scenes.json"
