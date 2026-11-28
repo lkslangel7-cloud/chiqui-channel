@@ -1337,6 +1337,17 @@ episodes/ep43/images/web/S14_nAGFsQMtSDU.png
 episodes/ep43/images/web/S15_0ViqycKg69E.png
 episodes/ep43/images/web/S16_P9pppUvI5mc.png
 episodes/ep43/images/web/S17_B5sKU7FGwO8.png
+episodes/ep44/clips/web/S02_Rn7z0-BTWp0.mp4
+episodes/ep44/clips/web/S04_NLQvCPsMZio.mp4
+episodes/ep44/clips/web/S06_2L9zwauIS1Q.mp4
+episodes/ep44/clips/web/S07_w4QQ57LnEvc.mp4
+episodes/ep44/clips/web/S09_ZGIBq6da0JE.mp4
+episodes/ep44/clips/web/S10_fUaj6Cimn-E.mp4
+episodes/ep44/clips/web/S11_tZRvrJOLPzg.mp4
+episodes/ep44/clips/web/S12_KfcuZHtAAnI.mp4
+episodes/ep44/clips/web/S13_RksoWjpkUZ8.mp4
+episodes/ep44/clips/web/S15_9HRU8ceFtgQ.mp4
+episodes/ep44/clips/web/S16_wBGBYElC1BI.mp4
 episodes/ep44/images/web/S02_qzpaZ-Wmn0Y.png
 episodes/ep44/images/web/S03_DxnLSHaiqxk.png
 episodes/ep44/images/web/S04_IKdfEl8jS54.png
