@@ -1346,6 +1346,7 @@ episodes/ep44/clips/web/S10_fUaj6Cimn-E.mp4
 episodes/ep44/clips/web/S11_tZRvrJOLPzg.mp4
 episodes/ep44/clips/web/S12_KfcuZHtAAnI.mp4
 episodes/ep44/clips/web/S13_RksoWjpkUZ8.mp4
+episodes/ep44/clips/web/S14_-3YkoLRat5E.mp4
 episodes/ep44/clips/web/S15_9HRU8ceFtgQ.mp4
 episodes/ep44/clips/web/S16_wBGBYElC1BI.mp4
 episodes/ep44/images/web/S02_qzpaZ-Wmn0Y.png
