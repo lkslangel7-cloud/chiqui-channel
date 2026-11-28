@@ -530,7 +530,8 @@ EPS["ep55"] = dict(
 HILL56 = ("On a sunny grassy hill of the volcano-island village with spring flowers, palm trees and the far volcano; the grass is plain green with no lines or paths drawn on it. ")
 BLANKET56 = "one big ORANGE-and-white checkered picnic blanket on the grass"
 BIN56 = "one round GREEN bin with an open top standing on the grass"
-TRASH56 = "exactly three pieces of crumpled white paper and one apple core lying on the grass"
+# (2026-11-28 사용자: 공룡 시대엔 사과가 없었으니 사과 심은 맞지 않음) 사과 심 → 빈 주스 팩
+TRASH56 = "exactly three pieces of crumpled white paper and one small empty ORANGE paper juice box lying on the grass"
 EPS["ep56"] = dict(
  title="56화. 봄 소풍 가요! — 깨끗하게 놀기", short="봄 소풍 가요!", song_id="picnic", song_short="소풍 노래",
  theme="봄 소풍, 맛있는 도시락, 놀고 난 자리 깨끗하게(쓰레기는 쓰레기통에). 하나 줍고 둘 줍고.",
@@ -552,13 +553,13 @@ EPS["ep56"] = dict(
    "Everyone takes one bite and smiles with full cheeks." + B4V + " The camera stays still."),
   ("배불러~", "R", HILL56 + f"Close view (the camera close on this friend): {D['R']} sits on the blanket patting the round full tummy with both short arms, a happy sleepy smile.", "", True,
    "Roro pats the tummy two times and sighs happily."),
-  ("어? 쓰레기", "C", HILL56 + f"{D['C']} on all four feet frowns a little, looking at {TRASH56} next to the blanket.", "Exactly three papers and one apple core.", False,
+  ("어? 쓰레기", "C", HILL56 + f"{D['C']} on all four feet frowns a little, looking at {TRASH56} next to the blanket.", "Exactly three papers and one juice box. No fruit.", False,
    "Chiqui tilts the head and frowns a little; the trash stays still."),
   BAU(HILL56, "깨끗하게!", f"stands on all four feet next to {BIN56}, smiling kindly, as if saying 'let's clean up'."),
   ("하나 줍고", "C", HILL56 + f"Close view (the camera close on this friend): {D['C']} stands UPRIGHT next to {BIN56}, dropping one crumpled white paper into it with one front paw.", "Exactly one bin.", True,
    "Chiqui drops the paper into the bin and smiles proudly." + CUPV),
-  ("둘 줍고", "R", HILL56 + f"Close view (the camera close on this friend): {D['R']} drops one apple core into {BIN56} with both short arms, smiling.", "Exactly one bin.", True,
-   "Roro drops the apple core into the bin and claps once."),
+  ("둘 줍고", "R", HILL56 + f"Close view (the camera close on this friend): {D['R']} drops one small empty ORANGE paper juice box into {BIN56} with both short arms, smiling.", "Exactly one bin and one juice box. No fruit.", True,
+   "Roro drops the juice box into the bin and claps once."),
   ("토롱은 입으로", "T", HILL56 + f"Close view (the camera close on this friend): {D['T']} bends the long neck down and drops one crumpled white paper from the mouth into {BIN56}, all four feet on the ground.", "Exactly one bin.", True,
    "Torong lets go of the paper into the bin and smiles; all four feet stay on the ground."),
   ("저기 위에도!", "PT", HILL56 + f"One crumpled white paper is stuck on top of a tall round bush; {D['P']} flies next to it pointing with one wing tip; {D['T']} stretches the long neck up toward it.", "Exactly one paper on the bush.", False,
