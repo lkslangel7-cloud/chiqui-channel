@@ -1614,7 +1614,12 @@ episodes/ep58/images/web/S07_iW3n20_40wM.png
 episodes/ep58/images/web/S09_6LCssjcF8jE.png
 episodes/ep58/images/web/S10_S-47s2VWxzs.png
 episodes/ep58/images/web/S11_mRi_MQsZXkE.png
+episodes/ep58/images/web/S12_TX9pBJQEslg.png
+episodes/ep58/images/web/S13_3jI43dP9qu4.png
+episodes/ep58/images/web/S14_SpJ2bB5Vg3Q.png
 episodes/ep58/images/web/S15_f8_rXwwT0nI.png
+episodes/ep58/images/web/S16_bey-dGhb_3M.png
+episodes/ep58/images/web/S17_AZQBT9ugvAQ.png
 episodes/ep59/images/web/S02_ctKZ4ggf57M.png
 episodes/ep59/images/web/S03_o8fH1kuaafE.png
 episodes/ep59/images/web/S04_Cih6v3NT_DE.png
