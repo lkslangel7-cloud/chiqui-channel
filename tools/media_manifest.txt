@@ -1582,7 +1582,6 @@ episodes/ep56/images/web/S02_LZEt3oToJ-A.png
 episodes/ep56/images/web/S04_YbpgwI9vq6I.png
 episodes/ep56/images/web/S05_-oO2GBpHkt0.png
 episodes/ep56/images/web/S06_TX-xZ3bQoZQ.png
-episodes/ep56/images/web/S07_zMsNnGGBnj4.png
 episodes/ep56/images/web/S09_x6CKfSSdGeU.png
 episodes/ep56/images/web/S10_YBox1g-MdQE.png
 episodes/ep56/images/web/S11_T0oIswu--Xw.png

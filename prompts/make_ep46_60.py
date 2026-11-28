@@ -392,10 +392,10 @@ EPS["ep53"] = dict(
  title="53화. 데굴데굴 공놀이! — 주고받기", short="데굴데굴 공놀이!", song_id="ball", song_short="공놀이 노래",
  theme="동그랗게 모여 공 주고받기: 치키는 코로, 로로는 발로, 토롱은 머리로, 피오는 부리로, 바우는 꼬리로. 차례로 주고받는 즐거움.",
  twist="로로가 뻥! 너무 세게 찼더니 공이 하늘 높이… 어디로 갔지? 콩! 토롱 머리 위에 쏙!",
- bau="아기 공룡들도 함께 뛰어놀았단다!",
+ bau="아기 공룡들은 친구들과 무리 지어 함께 다녔단다!",
  lines=[("치키","공놀이 하자!",""),("모두","좋아!","♻ 1화 07"),("바우","동그랗게 모여라!",""),("치키","데굴데굴~",""),("로로","뻥!",""),
         ("내레이션","어디로 갔을까?","뒤에 3초 쉼"),("토롱","콩! 여기 있네!",""),("모두","하하하!","♻ 3화 11"),("피오","콕콕!",""),("바우","통!",""),
-        ("내레이션","우리 친구에게 데굴~","뒤에 3초 쉼"),("바우","아기 공룡들도 함께 뛰어놀았단다!","바우 할아버지 상식"),("치키","안녕!","♻ 1화 18")],
+        ("내레이션","우리 친구에게 데굴~","뒤에 3초 쉼"),("바우","아기 공룡들은 친구들과 무리 지어 함께 다녔단다!","바우 할아버지 상식"),("치키","안녕!","♻ 1화 18")],
  verses=[("치키 코로 데굴데굴","공이 간다 (데굴!)","받아라 (받았다!)"),("로로 발로 뻥뻥","공이 간다 (뻥!)","받아라 (받았다!)"),
          ("토롱 머리 톡톡","공이 간다 (톡!)","받아라 (받았다!)"),("피오 부리 콕콕","공이 간다 (콕!)","받아라 (받았다!)")],
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "데굴데굴 (공놀이!)", "주고 받고 신나요", "치키치키 데굴!"],
@@ -425,7 +425,7 @@ EPS["ep53"] = dict(
    "Chiqui nudges the ball toward the viewer and waits, smiling."),
   ("주고받기", "CRTP", MEADOW + f"Chiqui, Roro, Torong and Pio stand in a circle passing {BALL53} to each other on the grass, laughing.", "Exactly one ball.", False,
    "The ball rolls slowly from Chiqui toward Roro; everyone laughs on the same spot. The camera stays still."),
-  BAU(MEADOW, "함께 뛰어놀았단다", f"stands on all four feet next to {BALL53}, smiling wisely."),
+  BAU(MEADOW, "무리 지어 다녔단다", f"stands on all four feet next to {BALL53}, smiling wisely."),
   ("다 같이 공놀이", "BCRTP", MEADOW + f"All five friends play together around {BALL53} on the grass, cheering.", "Exactly one ball.", False,
    "Everyone cheers on the same spot; the ball rolls a little in the middle." + B4V + " The camera stays still."),
   WAVE(MEADOW, "안녕!"),
@@ -538,15 +538,16 @@ HILL56 = ("On a sunny grassy hill of the volcano-island village with spring flow
 BLANKET56 = "one big ORANGE-and-white checkered picnic blanket on the grass"
 BIN56 = "one round GREEN bin with an open top standing on the grass"
 # (2026-11-28 사용자: 공룡 시대엔 사과가 없었으니 사과 심은 맞지 않음) 사과 심 → 빈 주스 팩
-TRASH56 = "exactly three pieces of crumpled white paper and one small empty ORANGE paper juice box lying on the grass"
+# (2026-11-28 대본 확인) 줍는 장면은 치키 종이·로로 팩·토롱 종이 3번 + 덤불 위 "하나 더" -> 땅에는 종이 2개 + 팩 1개
+TRASH56 = "exactly two pieces of crumpled white paper and one small empty ORANGE paper juice box lying on the grass"
 EPS["ep56"] = dict(
  title="56화. 봄 소풍 가요! — 깨끗하게 놀기", short="봄 소풍 가요!", song_id="picnic", song_short="소풍 노래",
  theme="봄 소풍, 맛있는 도시락, 놀고 난 자리 깨끗하게(쓰레기는 쓰레기통에). 하나 줍고 둘 줍고.",
  twist="다 주웠다! 했는데 덤불 꼭대기에 종이가 하나 더… 키 큰 토롱이 쭈욱! 쓰레기통에 쏙.",
- bau="공룡들도 둥지의 알을 소중히 지켰단다!",
+ bau="어떤 공룡들은 둥지의 알을 소중히 지켰단다!",
  lines=[("치키","소풍 가자!",""),("모두","좋아!","♻ 1화 07"),("모두","잘 먹겠습니다!",""),("로로","배불러~",""),("치키","어? 쓰레기다.",""),
         ("바우","우리가 논 곳은 깨끗하게!",""),("모두","하나 줍고, 둘 줍고!",""),("피오","저기 위에도!",""),("토롱","내가 할게!",""),("모두","깨끗해!",""),
-        ("내레이션","우리 친구도 쓰레기는 쏙!","뒤에 3초 쉼"),("바우","공룡들도 둥지의 알을 소중히 지켰단다!","바우 할아버지 상식"),("치키","안녕!","♻ 1화 18")],
+        ("내레이션","우리 친구도 쓰레기는 쏙!","뒤에 3초 쉼"),("바우","어떤 공룡들은 둥지의 알을 소중히 지켰단다!","바우 할아버지 상식"),("치키","안녕!","♻ 1화 18")],
  verses=[("돗자리 펴고 앉아","도시락 (냠냠!)","맛있어요 (맛있어!)"),("어? 쓰레기 떨어졌네","하나 줍고 (하나!)","둘 줍고 (둘!)"),
          ("높은 곳은 토롱이","쭈욱 (쭈욱!)","쏙 넣어요 (쏙!)"),("깨끗한 풀밭","꽃도 웃어요 (방긋!)","또 놀러 와요 (또 와요!)")],
  chorus_lines=["쿵쿵 쾅! 쿵쿵 쾅!", "봄 소풍 (가요!)", "깨끗하게 놀아요", "치키치키 소풍!"],
@@ -560,7 +561,7 @@ EPS["ep56"] = dict(
    "Everyone takes one bite and smiles with full cheeks." + B4V + " The camera stays still."),
   ("배불러~", "R", HILL56 + f"Close view (the camera close on this friend): {D['R']} sits on the blanket patting the round full tummy with both short arms, a happy sleepy smile.", "", True,
    "Roro pats the tummy two times and sighs happily."),
-  ("어? 쓰레기", "C", HILL56 + f"{D['C']} on all four feet frowns a little, looking at {TRASH56} next to the blanket.", "Exactly three papers and one juice box. No fruit.", False,
+  ("어? 쓰레기", "C", HILL56 + f"{D['C']} on all four feet frowns a little, looking at {TRASH56} next to the blanket.", "Exactly two papers and one juice box. No fruit.", False,
    "Chiqui tilts the head and frowns a little; the trash stays still."),
   BAU(HILL56, "깨끗하게!", f"stands on all four feet next to {BIN56}, smiling kindly, as if saying 'let's clean up'."),
   ("하나 줍고", "C", HILL56 + f"Close view (the camera close on this friend): {D['C']} stands UPRIGHT next to {BIN56}, dropping one crumpled white paper into it with one front paw.", "Exactly one bin.", True,
@@ -642,11 +643,11 @@ FERN58 = "a patch of low green fern plants on the grass"
 APPLE58 = "one tall ginkgo tree with fan-shaped green leaves and small round golden-yellow ginkgo fruits hanging high on its branches"
 EPS["ep58"] = dict(
  title="58화. 공룡은 뭘 먹을까? — 공룡 상식 특집", short="공룡은 뭘 먹을까?", song_id="food58", song_short="먹이 노래",
- theme="공룡 상식: 키 큰 브라키오사우루스는 높은 나뭇잎, 트리케라톱스·안킬로사우루스는 낮은 풀. 화면 밖 아이가 먼저 맞히게 쉬어 준다.",
+ theme="공룡 상식: 키 큰 브라키오사우루스는 높은 나뭇잎, 트리케라톱스·안킬로사우루스는 낮은 고사리(공룡 시대엔 풀밭이 거의 없었어요). 화면 밖 아이가 먼저 맞히게 쉬어 준다.",
  twist="로로는 동글동글 노란 은행 열매가 좋아! 그런데 열매가 높이 높이… 피오가 슝 날아가 하나씩 톡톡 따 줘요. 은행나무는 공룡 시대부터 있던 나무예요. 그럼 진짜 티라노사우루스는? 바우 할아버지: \"고기를 먹었단다. 우리 로로는 열매도 냠냠!\"",
  bau="진짜 티라노사우루스는 고기를 먹었단다!",
  lines=[("모두","배고파~",""),("치키","맛있는 거 찾자!",""),("모두","좋아!","♻ 1화 07"),("바우","공룡은 뭘 먹었을까?",""),
-        ("내레이션","높은 나뭇잎은 누가 먹을까?","뒤에 3초 쉼"),("모두","토롱!",""),("내레이션","낮은 풀은 누가 먹을까?","뒤에 3초 쉼"),("모두","치키!",""),
+        ("내레이션","높은 나뭇잎은 누가 먹을까?","뒤에 3초 쉼"),("모두","토롱!",""),("내레이션","낮은 고사리는 누가 먹을까?","뒤에 3초 쉼"),("모두","치키!",""),
         ("로로","나는 노란 열매!",""),("피오","내가 따 줄게!",""),("내레이션","우리 친구는 뭘 좋아해?","뒤에 3초 쉼"),
         ("바우","진짜 티라노사우루스는 고기를 먹었단다!","바우 할아버지 상식"),("치키","안녕!","♻ 1화 18")],
  verses=[("높이 높이 나뭇잎","누가 먹을까? (누구?)","토롱이 쭈욱 (쭈욱!)"),("낮게 낮게 고사리","누가 먹을까? (누구?)","치키가 냠냠 (냠냠!)"),
@@ -661,7 +662,7 @@ EPS["ep58"] = dict(
    "The leaves rustle gently in the breeze; nothing else moves."),
   ("토롱 쭈욱 냠", "T", MEADOW + f"{D['T']} stands on all four feet next to {TREE58} and munches leaves from the high branches with the mouth, happy face.", "", False,
    "Torong chews the leaves slowly and smiles; the neck keeps its normal length; all four feet stay on the ground."),
-  ("낮은 풀", "", MEADOW + f"Close view of {FERN58}. No characters.", "", True,
+  ("낮은 고사리", "", MEADOW + f"Close view of {FERN58}. No characters.", "", True,
    "The ferns sway gently; nothing else moves."),
   ("치키 냠냠", "C", MEADOW + f"{D['C']} stands on all four feet and munches the low green fern leaves with the mouth, happy face.", "", False,
    "Chiqui chews and nods happily; all four feet stay on the ground."),
@@ -694,10 +695,10 @@ NIGHTOUT59 = ("OUTDOORS at NIGHT on the soft green grassy meadow of the volcano-
 EPS["ep59"] = dict(
  title="59화. 셋이서 콩콩콩! — 침대에서 뛰지 않아요", short="셋이서 콩콩콩!", song_id="bounce59", song_short="콩콩 노래",
  theme="잘 시간에 침대에서 콩콩 뛰다가 하나씩 쿵(3→2→1→0 거꾸로 세기). 침대는 자는 곳, 뛰는 건 밖에서. 다친 데 없이 살짝 쿵, 무섭지 않게.",
- twist="셋이 콩콩 뛰다 로로가 쿵! 피오가 쿵! 마지막 치키도 쿵! 아무도 없는 침대… 콩콩은 침대가 아니라 밖에서! 달빛 풀밭에서 바우 할아버지랑 토롱도 같이 콩콩!",
+ twist="셋이 콩콩 뛰다 로로가 쿵! 피오가 쿵! 마지막 치키도 쿵! 아무도 없는 침대… 그제야 바우 할아버지가 와서 \"침대는 자는 곳!\" 콩콩은 침대가 아니라 밖에서! 달빛 풀밭에서 바우 할아버지랑 토롱도 같이 콩콩!",
  bau="공룡 화석에도 다친 자국이 있단다!",
- lines=[("내레이션","잘 시간이에요.",""),("치키","더 놀고 싶어!",""),("모두","콩콩 콩콩!",""),("로로","쿵! 아야!",""),("바우","침대에서 콩콩 안 돼요!",""),
-        ("내레이션","몇 명이 남았을까?","뒤에 3초 쉼"),("모두","아무도 없어요!",""),("바우","침대는 자는 곳!",""),("모두","밖에서 콩콩!",""),
+ lines=[("내레이션","잘 시간이에요.",""),("치키","더 놀고 싶어!",""),("모두","콩콩 콩콩!",""),("로로","쿵! 아야!",""),
+        ("내레이션","몇 명이 남았을까?","뒤에 3초 쉼"),("모두","아무도 없어요!",""),("바우","침대에서 콩콩 안 돼요! 침대는 자는 곳!",""),("모두","밖에서 콩콩!",""),
         ("바우","공룡 화석에도 다친 자국이 있단다!","바우 할아버지 상식"),("치키","안녕!","♻ 1화 18")],
  verses=[("세 친구가 콩콩콩","침대 위에서 (콩콩!)","로로가 쿵 (아야!)"),("두 친구가 콩콩콩","침대 위에서 (콩콩!)","피오가 쿵 (아야!)"),
          ("한 친구가 콩콩콩","침대 위에서 (콩콩!)","치키도 쿵 (아야!)"),("아무도 안 뛰어요","침대에서는 (안 돼!)","쉿 잘 자요 (쿨쿨!)")],
@@ -713,8 +714,9 @@ EPS["ep59"] = dict(
    "The three friends bounce two times on the same spot, laughing."),
   ("쿵! 아야", "CRTP", ROOM59 + f"The same room and the same places as before: {D['R']} has just bumped and sits on {RUG59} next to the bed, rubbing the head with one short arm, one small round pink bump on the head, a funny surprised face, not hurt badly; Chiqui and Pio have stopped jumping and stand UPRIGHT on the bed looking down at Roro with surprised faces; {TOR59}.", "Exactly one of each friend: Roro on the rug, Chiqui and Pio on the bed, Torong beside the bed.", False,
    "Roro rubs the head two times, then giggles; Chiqui and Pio gasp on the bed; Torong watches with all four feet on the floor. Everyone stays in the same place. The camera stays still."),
-  ("침대에서 콩콩 안 돼요!", "BCRTP", ROOM59 + f"{D['B']} stands on all four feet in the doorway on the far LEFT, shaking the head kindly but firmly; Chiqui and Pio stop jumping and stand still on the bed; Roro sits on {RUG59}; {TOR59}.", "", False,
-   "Grandpa Bau shakes the head slowly two times; Chiqui and Pio freeze on the bed and look at him; Roro rubs the head." + B4V + " The camera stays still."),
+  # (2026-11-28 대본 확인) 바우가 여기서 "안 돼요" 하고도 또 뛰면 말이 안 됨 -> 바우는 S13에 처음 오고, 여기는 거꾸로 세기(3→2)
+  ("몇 명이 남았을까?", "CRTP", ROOM59 + f"The same room and the same places as before: Roro sits on {RUG59} rubbing the head with one short arm, one small round pink bump on the head; Chiqui and Pio stand UPRIGHT on the bed side by side, ready to jump again, looking at the viewer with playful faces; {TOR59}.", "Exactly two friends on the bed. No Grandpa Bau.", False,
+   "Chiqui and Pio wiggle on the bed, ready to jump; Roro rubs the head on the rug; Torong watches with all four feet on the floor. Everyone stays in the same place. The camera stays still."),
   ("둘이 콩콩", "CRTP", ROOM59 + f"Chiqui and Pio jump on the bed again, both in the air, giggling; Roro sits on {RUG59} watching; {TOR59}.", "Exactly two friends on the bed.", False,
    "Chiqui and Pio bounce two times on the bed; Roro claps on the rug; Torong watches with all four feet on the floor. The camera stays still."),
   # (2026-11-28 사용자: S10·S12에 다른 친구들이 갑자기 없어짐) 같은 방·같은 자리에서 넷이 다 보이게, 넓은 화면
