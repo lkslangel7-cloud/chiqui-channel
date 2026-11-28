@@ -385,6 +385,7 @@ EPS["ep52"] = dict(
  ]))
 
 # ---------------- 53화 데굴데굴 공놀이! (주고받기) ----------------
+# (2026-11-28) 53화 확인: S13 바우 꼬리 곤봉이 얼굴 앞에서 나옴, S14가 S05(옆으로 밀기)와 같음 → 바우 머리 왼쪽·꼬리 오른쪽, S14는 화면 쪽으로.
 BALL53 = "THE SAME one big round soft ball with ORANGE, YELLOW, GREEN, SKY-BLUE and PURPLE stripes"
 EPS["ep53"] = dict(
  title="53화. 데굴데굴 공놀이! — 주고받기", short="데굴데굴 공놀이!", song_id="ball", song_short="공놀이 노래",
@@ -417,9 +418,9 @@ EPS["ep53"] = dict(
    "Torong taps the ball with the head; the ball rolls a little away; all four feet stay on the ground."),
   ("피오 콕콕", "P", MEADOW + f"Close view (the camera close on this friend): {D['P']} stands on the grass and pushes {BALL53}, which is as big as Pio, with the beak.", "Exactly one ball.", True,
    "Pio pushes the ball with the beak two times; the ball rolls a little."),
-  ("할아버지 통!", "B", MEADOW + f"Close view (the camera close on this friend): {D['B']} stands on all four feet and gently taps {BALL53} on the grass with his tail club, which is at the back end of his body.", "Exactly one ball.", True,
+  ("할아버지 통!", "B", MEADOW + f"Close view (the camera close on this friend): {D['B']} stands on all four feet in side view with his HEAD on the LEFT side of the picture, looking back over his shoulder at the viewer with a smile, and his long body and tail stretching to the RIGHT; at the far RIGHT end of the tail the purple tail club gently taps {BALL53}, which sits on the grass BEHIND him on the RIGHT. The tail club comes out of his back end only; nothing comes out of his chest, mouth or face, and the ball is never in front of his face.", "Exactly one ball.", True,
    "Grandpa Bau swings the tail club gently and taps the ball; the ball rolls a little." + B4V),
-  ("우리 친구에게 데굴", "C", MEADOW + f"Close view of {D['C']} on all four feet nudging {BALL53} toward the viewer with the nose, smiling.", "Exactly one ball.", True,
+  ("우리 친구에게 데굴", "C", MEADOW + f"Close view of {D['C']} standing on all four feet in the middle of the picture, FACING THE VIEWER straight on; {BALL53} sits on the grass right IN FRONT of Chiqui, between Chiqui and the viewer, low in the middle of the picture; Chiqui's nose touches the back of the ball, about to roll it toward the viewer, smiling at the viewer. This is different from the scene where Chiqui pushes the ball sideways.", "Exactly one ball.", True,
    "Chiqui nudges the ball toward the viewer and waits, smiling."),
   ("주고받기", "CRTP", MEADOW + f"Chiqui, Roro, Torong and Pio stand in a circle passing {BALL53} to each other on the grass, laughing.", "Exactly one ball.", False,
    "The ball rolls slowly from Chiqui toward Roro; everyone laughs on the same spot. The camera stays still."),
