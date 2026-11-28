@@ -631,6 +631,7 @@ EPS["ep57"] = dict(
 TREE58 = "one very tall tree with leafy branches high up"
 FERN58 = "a patch of low green fern plants on the grass"
 # (2026-11-28 사용자: 공룡 먹이 화에 사과는 이상함 — 사과는 공룡 시대에 없었음) 공룡 시대부터 있던 은행나무 열매로
+# (2026-11-28) 58화 S17 은행나무가 화면 왼쪽 끝에 너무 크게 잘려 S11~S16과 달라 S11 나무로 못박음.
 APPLE58 = "one tall ginkgo tree with fan-shaped green leaves and small round golden-yellow ginkgo fruits hanging high on its branches"
 EPS["ep58"] = dict(
  title="58화. 공룡은 뭘 먹을까? — 공룡 상식 특집", short="공룡은 뭘 먹을까?", song_id="food58", song_short="먹이 노래",
@@ -670,7 +671,7 @@ EPS["ep58"] = dict(
   ("뭘 좋아해?", "C", MEADOW + f"Close view of {D['C']} standing UPRIGHT facing the viewer, one front paw on the chin, asking the viewer what they like to eat.", "", True,
    "Chiqui tilts the head and waits, then smiles at the viewer." + CUPV),
   BAU(MEADOW, "티라노는 고기를", f"stands on all four feet next to {APPLE58}, smiling wisely and kindly, one eyebrow raised as if telling a fun fact."),
-  ("다 같이 냠냠 춤", "BCRTP", MEADOW + f"All five friends dance happily together next to {APPLE58}.", "", False,
+  ("다 같이 냠냠 춤", "BCRTP", MEADOW + f"All five friends dance happily together in front of {APPLE58}." " It is THE SAME ginkgo tree as in the attached reference image (scene S11): a medium-size tree standing a little RIGHT of the center behind the friends, its brown trunk curving and splitting into two main branches, one round leafy crown with clusters of golden fruits, the WHOLE tree including the top of the crown fully inside the picture with sky above it; never a giant tree cut off at the top or edge.", "Exactly one ginkgo tree.", False,
    "Chiqui, Roro and Pio dance; Torong sways the neck; Grandpa Bau wags the tail club." + B4V + " The camera stays still."),
   WAVE(MEADOW, "안녕!"),
  ]))
