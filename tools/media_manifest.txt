@@ -1430,6 +1430,7 @@ episodes/ep47/clips/web/S07_OOYPO6yfY3k.mp4
 episodes/ep47/clips/web/S11_YE5aJWLg3yg.mp4
 episodes/ep47/clips/web/S12_JDqdX9rpgK0.mp4
 episodes/ep47/clips/web/S13_WQGRjqzin2I.mp4
+episodes/ep47/clips/web/S15_LCJJZS_nC6k.mp4
 episodes/ep47/clips/web/S17_Gj1nyDrN80M.mp4
 episodes/ep47/images/web/S02_50DU0sdPs_I.png
 episodes/ep47/images/web/S04_zo1tsCvSFfk.png
